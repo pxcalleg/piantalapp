@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../modello/etichette.dart';
 import '../modello/pianta.dart';
 import '../visuale/modelli.dart';
+import '../visuale/motore_3d.dart';
 import '../visuale/stato_pianta.dart';
 import 'foto.dart';
 import 'simulatore.dart';
@@ -362,8 +363,8 @@ class _Anteprima extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final pittore = modelliVisuali[pianta.id];
-    if (pittore == null) return const SizedBox.shrink();
+    final specie = modelliVisuali[pianta.id];
+    if (specie == null) return const SizedBox.shrink();
     return GestureDetector(
       onTap: () => _apri(context),
       child: ClipRRect(
@@ -373,7 +374,14 @@ class _Anteprima extends StatelessWidget {
           child: Stack(
             fit: StackFit.expand,
             children: [
-              CustomPaint(painter: pittore(const StatoPianta(), 0.5, 0.6)),
+              CustomPaint(
+                painter: PiantaPainter(
+                  specie: specie,
+                  stato: const StatoPianta(),
+                  rotazione: 0.5,
+                  luce: 0.6,
+                ),
+              ),
               Positioned(
                 right: 12,
                 bottom: 12,

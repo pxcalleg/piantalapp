@@ -79,22 +79,10 @@ class StatoPianta {
 }
 
 /// Situazioni tipiche, positive e negative, con la luce consigliata per
-/// mostrarle.
+/// mostrarle. Cosa si vede e cosa fare dipende dalla specie.
 enum Scenario {
-  sana(
-    'Sana',
-    StatoPianta(),
-    0.6,
-    'Foglie sode, verdi e lucide, con la variegatura ben visibile.',
-    'Luce indiretta, acqua quando metà terriccio è asciutto.',
-  ),
-  rigogliosa(
-    'Rigogliosa',
-    StatoPianta(vigore: 1, umiditaTerreno: 0.55),
-    0.75,
-    'Tante foglie grandi e nuove punte verde chiaro: la pianta sta crescendo.',
-    'Continua così; in primavera e estate concima una volta al mese.',
-  ),
+  sana('Sana', StatoPianta(), 0.6),
+  rigogliosa('Rigogliosa', StatoPianta(vigore: 1, umiditaTerreno: 0.55), 0.75),
   troppaAcqua(
     'Troppa acqua',
     StatoPianta(
@@ -105,8 +93,6 @@ enum Scenario {
       umiditaTerreno: 1,
     ),
     0.55,
-    'Foglie gialle a partire dal basso, terriccio sempre bagnato.',
-    'Sospendi le annaffiature finché metà terriccio è asciutto e svuota il sottovaso.',
   ),
   marciume(
     'Marciume radicale',
@@ -120,8 +106,6 @@ enum Scenario {
       umiditaTerreno: 1,
     ),
     0.5,
-    'Fusti scuri e molli vicino al terriccio, foglie che anneriscono, odore di stantio.',
-    'Togli la pianta dal vaso, taglia le radici marce e rinvasa in terriccio asciutto; salva qualche talea sana.',
   ),
   pocaAcqua(
     'Poca acqua',
@@ -133,15 +117,11 @@ enum Scenario {
       umiditaTerreno: 0,
     ),
     0.6,
-    'Foglie flosce e cadenti, bordi secchi, terriccio chiaro e staccato dal vaso.',
-    'Annaffia a fondo, anche per immersione: in poche ore le foglie si rialzano.',
   ),
   pocaLuce(
     'Poca luce',
     StatoPianta(vigore: 0.15, spente: 0.45, umiditaTerreno: 0.6),
     0.15,
-    'Fusti lunghi con poche foglie piccole, la variegatura sparisce.',
-    'Avvicinala a una finestra luminosa, senza sole diretto, e accorcia i fusti spogli.',
   ),
   troppoSole(
     'Troppo sole',
@@ -152,8 +132,6 @@ enum Scenario {
       umiditaTerreno: 0.3,
     ),
     1,
-    'Macchie chiare e secche sulle foglie più esposte.',
-    'Spostala lontano dal sole diretto; le foglie bruciate non tornano verdi, si possono togliere.',
   ),
   freddo(
     'Freddo o correnti',
@@ -164,23 +142,13 @@ enum Scenario {
       ingiallimento: 0.2,
     ),
     0.5,
-    'Foglie che cadono all\'improvviso, colori spenti.',
-    'Tienila sopra i 15 °C, lontano da finestre aperte d\'inverno e da spifferi.',
   );
 
-  const Scenario(
-    this.etichetta,
-    this.stato,
-    this.luce,
-    this.cosaVedi,
-    this.cosaFare,
-  );
+  const Scenario(this.etichetta, this.stato, this.luce);
 
   final String etichetta;
   final StatoPianta stato;
 
   /// Luce consigliata per la scena, da 0 (buio) a 1 (sole diretto).
   final double luce;
-  final String cosaVedi;
-  final String cosaFare;
 }
