@@ -5,8 +5,8 @@
 - I **contenuti** vivono in un repository GitHub pubblico, una scheda YAML per
   pianta. Chiunque può proporre modifiche con una pull request; una
   validazione automatica controlla ogni scheda contro lo schema.
-- A ogni modifica approvata, GitHub Actions genera un unico file
-  `piante.json` e lo pubblica (GitHub Pages o Release).
+- A ogni modifica approvata, GitHub Actions rigenera un unico file
+  `app/assets/piante.json` sul ramo `main`.
 - L'**app Android** include una copia del file al momento dell'installazione,
   quindi funziona offline, e scarica la versione aggiornata quando c'è rete.
   Nuove piante arrivano senza dover pubblicare un aggiornamento sul Play Store.
@@ -16,7 +16,7 @@
  Esperti ──PR──▶ GitHub (dati/piante/*.yaml)
                     │  CI: valida schema + revisione umana
                     ▼
-               piante.json su GitHub Pages
+          app/assets/piante.json su GitHub
                     │  download quando c'è rete
                     ▼
               App Android (copia offline nel telefono)

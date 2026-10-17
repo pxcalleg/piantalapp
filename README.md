@@ -14,7 +14,7 @@ dati/piante/        una scheda YAML per pianta (contenuti, CC BY-SA 4.0)
 schema/             schema JSON che ogni scheda deve rispettare
 scripts/valida.py   validazione e generazione di dist/piante.json
 .github/            validazione automatica delle pull request e modelli
-app/                (in arrivo) app Flutter
+app/                app Flutter (vedi app/README.md)
 ARCHITETTURA.md     scelte tecniche e piano di lavoro
 ```
 
