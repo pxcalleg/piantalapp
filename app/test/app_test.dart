@@ -37,4 +37,20 @@ void main() {
     await tester.scrollUntilVisible(find.text('Tossicità'), 300);
     expect(find.text('Tossicità'), findsOneWidget);
   });
+
+  testWidgets('apre la pagina per sostenere lo sviluppo', (tester) async {
+    final cartella = Directory.systemTemp.createTempSync('piantalapp');
+    final archivio = ArchivioPiante(
+      client: MockClient((_) async => http.Response('', 404)),
+      cartella: () async => cartella,
+    );
+    await tester.pumpWidget(PiantalApp(archivio: archivio));
+    await tester.runAsync(archivio.carica);
+    await tester.pumpAndSettle();
+
+    await tester.tap(find.byTooltip('Sostieni lo sviluppo di PiantalAPP'));
+    await tester.pumpAndSettle();
+    expect(find.text('Sostieni lo sviluppo di PiantalAPP'), findsOneWidget);
+    expect(find.text('Fai una donazione'), findsOneWidget);
+  });
 }

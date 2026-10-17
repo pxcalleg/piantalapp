@@ -7,6 +7,7 @@ import '../modello/pianta.dart';
 import 'foto.dart';
 import 'info.dart';
 import 'scheda_pianta.dart';
+import 'sostieni.dart';
 
 class ElencoPiante extends StatefulWidget {
   const ElencoPiante({super.key, required this.archivio});
@@ -51,6 +52,13 @@ class _ElencoPianteState extends State<ElencoPiante> {
           ],
         ),
         actions: [
+          if (mostraSostieni)
+            IconButton(
+              tooltip: titoloSostieni,
+              icon: const Icon(Icons.favorite_border),
+              onPressed: () => Navigator.of(context)
+                  .push(MaterialPageRoute(builder: (_) => const Sostieni())),
+            ),
           IconButton(
             tooltip: 'Informazioni e contributi',
             icon: const Icon(Icons.info_outline),
