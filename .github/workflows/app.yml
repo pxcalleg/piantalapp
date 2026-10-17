@@ -7,6 +7,9 @@ on:
     branches: [main]
     paths: ["app/**", ".github/workflows/app.yml"]
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -32,3 +35,18 @@ jobs:
         with:
           name: piantalapp-apk
           path: app/build/app/outputs/flutter-apk/app-release.apk
+      # Su main l'ultimo APK viene pubblicato nella release "anteprima",
+      # da cui si scarica e installa direttamente dal telefono.
+      - name: Pubblica l'APK di anteprima
+        if: github.event_name == 'push'
+        working-directory: .
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp app/build/app/outputs/flutter-apk/app-release.apk PiantalAPP.apk
+          git tag -f anteprima
+          git push -f origin anteprima
+          gh release view anteprima >/dev/null 2>&1 || \
+            gh release create anteprima --prerelease --title "Anteprima" \
+              --notes "Ultima versione di prova dell'app, costruita dal ramo main. Scarica PiantalAPP.apk sul telefono Android e aprilo per installarlo."
+          gh release upload anteprima PiantalAPP.apk --clobber
