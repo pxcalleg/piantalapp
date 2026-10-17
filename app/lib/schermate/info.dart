@@ -17,7 +17,16 @@ class Info extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
-          Text('PiantalAPP', style: tema.textTheme.headlineSmall),
+          Row(
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(14),
+                child: Image.asset('assets/logo.png', width: 56, height: 56),
+              ),
+              const SizedBox(width: 14),
+              Text('PiantalAPP', style: tema.textTheme.headlineSmall),
+            ],
+          ),
           const SizedBox(height: 8),
           const Text(
             'Schede di cura per piante e fiori scritte da una comunità di '
@@ -47,6 +56,11 @@ class Info extends StatelessWidget {
           ),
           const SizedBox(height: 4),
           const Text('Codice dell\'app: Apache 2.0.'),
+          const SizedBox(height: 4),
+          const Text(
+            'Foto delle piante: da Wikimedia Commons, con autore e licenza '
+            'indicati sotto ogni foto.',
+          ),
           const SizedBox(height: 8),
           Align(
             alignment: Alignment.centerLeft,
