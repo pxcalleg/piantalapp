@@ -4,6 +4,7 @@ import '../dati/archivio_piante.dart';
 import '../modello/etichette.dart';
 import '../modello/filtri.dart';
 import '../modello/pianta.dart';
+import 'foto.dart';
 import 'info.dart';
 import 'scheda_pianta.dart';
 
@@ -38,7 +39,17 @@ class _ElencoPianteState extends State<ElencoPiante> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('PiantalAPP'),
+        titleSpacing: 16,
+        title: Row(
+          children: [
+            ClipRRect(
+              borderRadius: BorderRadius.circular(8),
+              child: Image.asset('assets/logo.png', width: 32, height: 32),
+            ),
+            const SizedBox(width: 10),
+            const Text('PiantalAPP'),
+          ],
+        ),
         actions: [
           IconButton(
             tooltip: 'Informazioni e contributi',
@@ -125,23 +136,74 @@ class _Riga extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final tema = Theme.of(context);
-    return ListTile(
-      leading: CircleAvatar(
-        backgroundColor: tema.colorScheme.primaryContainer,
-        child: Icon(
-          Icons.local_florist,
-          color: tema.colorScheme.onPrimaryContainer,
+    final secondario = tema.textTheme.bodySmall?.copyWith(
+      color: tema.colorScheme.onSurfaceVariant,
+    );
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 6, 16, 6),
+      child: Card(
+        margin: EdgeInsets.zero,
+        clipBehavior: Clip.antiAlias,
+        elevation: 0,
+        color: tema.colorScheme.surfaceContainerLow,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        child: InkWell(
+          onTap: () => Navigator.of(context).push(
+            MaterialPageRoute(builder: (_) => SchedaPianta(pianta: pianta)),
+          ),
+          child: Row(
+            children: [
+              SizedBox(
+                width: 96,
+                height: 96,
+                child: FotoPianta(pianta: pianta),
+              ),
+              const SizedBox(width: 16),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(pianta.nome, style: tema.textTheme.titleMedium),
+                    Text(
+                      pianta.nomeScientifico,
+                      style: secondario?.copyWith(fontStyle: FontStyle.italic),
+                    ),
+                    const SizedBox(height: 6),
+                    Row(
+                      children: [
+                        Icon(
+                          Icons.wb_sunny_outlined,
+                          size: 14,
+                          color: secondario?.color,
+                        ),
+                        const SizedBox(width: 4),
+                        Flexible(
+                          child: Text(
+                            etichetta(etichetteLuce, pianta.luce.ideale),
+                            style: secondario,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                        ),
+                        const SizedBox(width: 10),
+                        Icon(Icons.speed, size: 14, color: secondario?.color),
+                        const SizedBox(width: 4),
+                        Text(
+                          etichetteDifficolta[pianta.difficolta] ?? '',
+                          style: secondario,
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.only(right: 12),
+                child: Icon(Icons.chevron_right),
+              ),
+            ],
+          ),
         ),
       ),
-      title: Text(pianta.nome),
-      subtitle: Text(
-        '${pianta.nomeScientifico} · ${etichetteDifficolta[pianta.difficolta]}',
-        style: const TextStyle(fontStyle: FontStyle.italic),
-      ),
-      trailing: const Icon(Icons.chevron_right),
-      onTap: () => Navigator.of(
-        context,
-      ).push(MaterialPageRoute(builder: (_) => SchedaPianta(pianta: pianta))),
     );
   }
 }

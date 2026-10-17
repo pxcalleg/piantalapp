@@ -1,0 +1,72 @@
+schema_version: 1
+id: ficus-elastica
+stato: bozza
+nome_scientifico: Ficus elastica
+famiglia: Moraceae
+nomi_comuni:
+  it: [Ficus robusta, Ficus elastica, Albero della gomma]
+  en: [Rubber plant, Rubber fig]
+descrizione: >-
+  Pianta dalle grandi foglie ovali, spesse e lucide, verde scuro o
+  variegate. In casa diventa un alberello alto anche due metri ed è più
+  tollerante del Ficus benjamina.
+categorie: [appartamento, da_ufficio]
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: "no"
+  note: >-
+    D'estate può stare all'aperto in mezz'ombra, abituandola gradualmente;
+    va ritirata quando la notte scende sotto i 12 °C.
+difficolta: 2
+luce:
+  ideale: intensa_indiretta
+  tollera: [media_indiretta]
+  sole_diretto: solo_mattino
+  esposizione: [est, ovest, sud]
+  note: >-
+    Con poca luce perde le foglie basse e allunga i fusti; le varietà
+    variegate hanno bisogno di ancora più luce.
+annaffiatura:
+  quando: Quando i primi 3-5 cm di terriccio sono asciutti.
+  primavera_estate: { min: 7, max: 10 }
+  autunno_inverno: { min: 14, max: 21 }
+  metodo: Bagnare a fondo e svuotare il sottovaso dopo 15 minuti.
+  acqua: Acqua a temperatura ambiente.
+  segnali_troppa: Foglie basse che ingialliscono e cadono, macchie scure sulle foglie.
+  segnali_poca: Foglie che pendono verso il basso e si accartocciano.
+umidita: media
+concimazione:
+  mesi: [3, 4, 5, 6, 7, 8, 9]
+  frequenza_giorni: { min: 21, max: 30 }
+  tipo: Concime liquido bilanciato per piante verdi a metà dose.
+  note: Sospendere in autunno e inverno.
+temperatura:
+  min_c: 12
+  ideale_min_c: 16
+  ideale_max_c: 27
+  note: Teme le correnti fredde e i termosifoni vicini.
+terreno: Terriccio universale con un 20-30% di perlite o corteccia per il drenaggio.
+rinvaso: Ogni 2-3 anni in primavera, in un vaso appena più grande e pesante.
+propagazione: [talea_fusto, margotta]
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: Il lattice bianco irrita pelle e mucose; tossica per cani e gatti se ingerita.
+problemi_comuni:
+  - sintomo: Foglie basse che cadono una dopo l'altra
+    causa: Poca luce o troppa acqua
+    rimedio: Avvicinarla a una finestra luminosa e annaffiare solo con terriccio asciutto in superficie.
+  - sintomo: Foglie opache e impolverate
+    causa: Polvere che riduce la fotosintesi
+    rimedio: Pulire le foglie con un panno umido ogni due settimane.
+  - sintomo: Pianta lunga e spoglia con un solo fusto
+    causa: Crescita naturale senza potature
+    rimedio: Cimare la punta in primavera per far partire rami laterali.
+immagini:
+  - commons: "Gummibaum (Ficus elastica Robusta).jpg"
+fonti:
+  - Royal Horticultural Society, scheda Ficus elastica (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori: [piantalapp]
+aggiornato: "2026-10-17"

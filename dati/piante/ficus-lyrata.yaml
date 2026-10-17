@@ -1,0 +1,73 @@
+schema_version: 1
+id: ficus-lyrata
+stato: bozza
+nome_scientifico: Ficus lyrata
+famiglia: Moraceae
+nomi_comuni:
+  it: [Ficus lyrata, Ficus a foglia di violino]
+  en: [Fiddle-leaf fig]
+descrizione: >-
+  Alberello dalle foglie enormi, coriacee e ondulate a forma di violino.
+  Molto decorativo ma esigente: vuole tanta luce e odia essere spostato.
+categorie: [appartamento]
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: "no"
+  note: >-
+    D'estate può stare fuori in un punto luminoso e riparato dal vento,
+    abituandolo gradualmente al sole; ritirarlo sotto i 15 °C.
+difficolta: 4
+luce:
+  ideale: intensa_indiretta
+  tollera: [sole_diretto]
+  sole_diretto: solo_mattino
+  esposizione: [est, sud, ovest]
+  note: >-
+    Il posto ideale è vicino a una grande finestra luminosa. Con poca luce
+    perde le foglie basse; ruotarlo di un quarto ogni mese per farlo
+    crescere dritto.
+annaffiatura:
+  quando: Quando i primi 3-5 cm di terriccio sono asciutti.
+  primavera_estate: { min: 7, max: 10 }
+  autunno_inverno: { min: 14, max: 20 }
+  metodo: >-
+    Bagnare a fondo e lasciar sgocciolare; non lasciarlo mai con il vaso
+    nell'acqua.
+  acqua: Acqua a temperatura ambiente, poco calcarea.
+  segnali_troppa: Macchie marroni scure al centro delle foglie, che poi cadono.
+  segnali_poca: Bordi delle foglie marroni e secchi, foglie che pendono.
+umidita: media
+concimazione:
+  mesi: [3, 4, 5, 6, 7, 8, 9]
+  frequenza_giorni: { min: 14, max: 30 }
+  tipo: Concime liquido per piante verdi ricco di azoto, a metà dose.
+temperatura:
+  min_c: 15
+  ideale_min_c: 18
+  ideale_max_c: 27
+  note: Teme gli sbalzi di temperatura, le correnti d'aria e il calore dei termosifoni.
+terreno: Terriccio ben drenante, con corteccia e perlite.
+rinvaso: Ogni 2 anni in primavera; quando è grande basta rinnovare lo strato superficiale.
+propagazione: [talea_fusto, margotta]
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: Il lattice irrita pelle e mucose; tossico per cani e gatti se ingerito.
+problemi_comuni:
+  - sintomo: Foglie che cadono dopo uno spostamento
+    causa: Cambio di luce o di posizione
+    rimedio: Trovargli un posto luminoso e lasciarlo lì; ricaccia in qualche settimana.
+  - sintomo: Macchie marroni al centro delle foglie
+    causa: Troppa acqua e radici che marciscono
+    rimedio: Diradare le annaffiature e controllare che il vaso abbia fori di drenaggio.
+  - sintomo: Foglie nuove piccole e fusto che si piega verso la finestra
+    causa: Luce insufficiente o da un solo lato
+    rimedio: Avvicinarlo alla finestra e ruotarlo regolarmente.
+immagini:
+  - commons: "Fiddle Leaf Fig in pot.jpg"
+fonti:
+  - Royal Horticultural Society, scheda Ficus lyrata (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori: [piantalapp]
+aggiornato: "2026-10-17"

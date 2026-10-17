@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SCHEMA = ROOT / "schema" / "pianta.schema.json"
 PIANTE = ROOT / "dati" / "piante"
 DIST = ROOT / "dist" / "piante.json"
+CREDITI = ROOT / "app" / "assets" / "immagini" / "crediti.json"
 
 
 def controlli_extra(scheda, file):
@@ -57,6 +58,10 @@ def main():
     if falliti:
         sys.exit(1)
     if args.build:
+        # Le foto scaricate da scripts/immagini.py portano autore e licenza.
+        crediti = json.loads(CREDITI.read_text(encoding="utf-8")) if CREDITI.exists() else {}
+        for scheda in schede:
+            scheda["immagini"] = crediti.get(scheda["id"], [])
         out = args.out.resolve()
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(json.dumps({"schema_version": 1, "piante": schede},

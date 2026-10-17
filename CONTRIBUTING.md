@@ -32,8 +32,16 @@ python scripts/valida.py
 - **Scrivi per chi inizia:** frasi brevi, niente gergo non spiegato.
 - **Niente copia-incolla** da libri o siti protetti da copyright: riformula con
   parole tue e cita la fonte.
-- **Immagini:** solo con licenza libera (es. da Wikimedia Commons), indicando
-  autore e licenza.
+- **Foto:** si usano foto reali da Wikimedia Commons. Basta scrivere nella
+  scheda il nome del file, ad esempio:
+
+  ```yaml
+  immagini:
+    - commons: "Ficus Benjamina.JPG"
+  ```
+
+  Dopo l'approvazione, GitHub scarica la foto, controlla che la licenza sia
+  libera e salva da solo autore e licenza.
 - **Attenzione a YAML:** scrivi `"no"` tra virgolette, altrimenti viene letto
   come valore booleano.
 

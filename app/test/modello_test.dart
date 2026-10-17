@@ -1,9 +1,11 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:piantalapp/dati/archivio_piante.dart';
 import 'package:piantalapp/modello/etichette.dart';
 import 'package:piantalapp/modello/filtri.dart';
+import 'package:piantalapp/modello/pianta.dart';
 
 void main() {
   final piante = leggiPacchetto(File('assets/piante.json').readAsStringSync())!;
@@ -43,4 +45,41 @@ void main() {
     expect(descriviMesi([4, 9]), 'apr, set');
     expect(descriviMesi([]), 'mai');
   });
+
+  test('ogni foto ha la sua copia nell\'app e i dati per citare l\'autore', () {
+    for (final p in piante) {
+      for (final i in p.immagini) {
+        expect(File(i.asset).existsSync(), isTrue, reason: i.asset);
+        expect(i.autore, isNotEmpty);
+        expect(i.licenza, matches(RegExp(r'^(CC|Public)')));
+      }
+    }
+  });
+
+  test('un aggiornamento non sostituisce schede più recenti', () {
+    final incluse = [perId['pothos']!, perId['fittonia']!];
+    final vecchio = Pianta.fromJson({
+      ..._json('pothos'),
+      'aggiornato': '2000-01-01',
+      'immagini': <Object>[],
+    });
+    final nuova = Pianta.fromJson({
+      ..._json('fittonia'),
+      'aggiornato': '2999-01-01',
+    });
+    final unite = {
+      for (final p in unisci(incluse, [vecchio, nuova])) p.id: p,
+    };
+    expect(unite['pothos'], same(perId['pothos']));
+    expect(unite['fittonia'], same(nuova));
+  });
+}
+
+Map<String, dynamic> _json(String id) {
+  final dati = jsonDecode(
+    File('assets/piante.json').readAsStringSync(),
+  ) as Map<String, dynamic>;
+  return (dati['piante'] as List).cast<Map<String, dynamic>>().firstWhere(
+    (p) => p['id'] == id,
+  );
 }

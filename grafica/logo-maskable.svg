@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>PiantalAPP</title>
+  <rect width="512" height="512" rx="0" fill="#3B7D4F"/>
+  <!-- Foglia a cuore, come quella del pothos, leggermente inclinata -->
+  <g transform="translate(256 262) scale(0.78) translate(-256 -262) rotate(-16 256 270)">
+    <path d="M256 92 C 332 146 396 208 396 284 C 396 342 354 380 308 380 C 284 380 266 370 256 352 C 246 370 228 380 204 380 C 158 380 116 342 116 284 C 116 208 180 146 256 92 Z"
+          fill="#F3EBDD"/>
+    <path d="M256 134 L 256 350" stroke="#3B7D4F" stroke-width="13" stroke-linecap="round" fill="none"/>
+    <path d="M256 236 Q 228 206 192 200 M256 236 Q 284 206 320 200 M256 296 Q 222 266 172 266 M256 296 Q 290 266 340 266"
+          stroke="#3B7D4F" stroke-width="9" stroke-linecap="round" fill="none" opacity="0.5"/>
+    <path d="M256 352 C 256 392 268 420 294 438" stroke="#F3EBDD" stroke-width="14" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

@@ -39,6 +39,9 @@ class ArchivioPiante extends ChangeNotifier {
   /// Legge la copia salvata o, la prima volta, quella inclusa nell'app.
   Future<void> carica() async {
     List<Pianta>? piante;
+    final incluse =
+        leggiPacchetto(await rootBundle.loadString('assets/piante.json')) ??
+        const [];
     if (!kIsWeb) {
       try {
         final cache = await _fileCache;
@@ -49,15 +52,15 @@ class ArchivioPiante extends ChangeNotifier {
         debugPrint('Copia salvata non leggibile: $e');
       }
     }
-    piante ??= leggiPacchetto(
-      await rootBundle.loadString('assets/piante.json'),
-    );
-    _piante = piante ?? const [];
+    // Dopo un aggiornamento dell'app le schede incluse possono essere più
+    // recenti di quelle salvate: si tiene la versione più nuova di ciascuna.
+    _piante = unisci(incluse, piante ?? const []);
     _caricato = true;
     notifyListeners();
   }
 
-  /// Scarica le schede aggiornate. Restituisce true se sono cambiate.
+  /// Scarica le schede aggiornate. Restituisce true se ne è arrivata qualcuna
+  /// nuova o più recente.
   /// Senza rete, o se il file non è valido, tiene quelle che ha.
   Future<bool> aggiorna() async {
     try {
@@ -70,14 +73,32 @@ class ArchivioPiante extends ChangeNotifier {
       if (nuove == null || nuove.isEmpty) return false;
       // Sul web il browser fa già da cache; il file locale serve solo sul telefono.
       if (!kIsWeb) await (await _fileCache).writeAsString(testo);
-      _piante = nuove;
-      notifyListeners();
-      return true;
+      final unite = unisci(_piante, nuove);
+      final cambiate =
+          unite.length != _piante.length ||
+          Iterable.generate(unite.length)
+              .any((i) => !identical(unite[i], _piante[i]));
+      _piante = unite;
+      if (cambiate) notifyListeners();
+      return cambiate;
     } catch (e) {
       debugPrint('Aggiornamento schede non riuscito: $e');
       return false;
     }
   }
+}
+
+/// Unisce due elenchi di schede tenendo, per ogni pianta, quella con la data
+/// `aggiornato` più recente; a parità di data vince [attuali].
+List<Pianta> unisci(List<Pianta> attuali, List<Pianta> nuove) {
+  final perId = {for (final p in attuali) p.id: p};
+  for (final p in nuove) {
+    final vecchia = perId[p.id];
+    if (vecchia == null || p.aggiornato.compareTo(vecchia.aggiornato) > 0) {
+      perId[p.id] = p;
+    }
+  }
+  return perId.values.toList();
 }
 
 /// Converte il JSON generato da scripts/valida.py. Restituisce null se il

@@ -1,4 +1,6 @@
-# PiantalAPP 🌿
+<img src="grafica/logo-512.png" width="96" alt="Logo di PiantalAPP">
+
+# PiantalAPP
 
 Un database aperto di schede per la cura di piante e fiori, e un'app Android
 che lo rende consultabile anche offline.
@@ -15,6 +17,7 @@ schema/             schema JSON che ogni scheda deve rispettare
 scripts/valida.py   validazione e generazione di dist/piante.json
 .github/            validazione automatica delle pull request e modelli
 app/                app Flutter (vedi app/README.md)
+grafica/            logo e immagini per lo store
 ARCHITETTURA.md     scelte tecniche e piano di lavoro
 ```
 
@@ -23,6 +26,8 @@ ARCHITETTURA.md     scelte tecniche e piano di lavoro
 | Pianta | Nome scientifico | Dove |
 |---|---|---|
 | Ficus benjamina | *Ficus benjamina* | appartamento |
+| Ficus robusta | *Ficus elastica* | appartamento |
+| Ficus lyrata | *Ficus lyrata* | appartamento |
 | Pothos | *Epipremnum aureum* | appartamento, ricadente |
 | Sansevieria | *Dracaena trifasciata* | appartamento, succulenta |
 | Fittonia | *Fittonia albivenis* | terrarium, appartamento |
@@ -36,3 +41,5 @@ Vedi [CONTRIBUTING.md](CONTRIBUTING.md). Non serve saper programmare.
 
 - Codice: [Apache 2.0](LICENSE)
 - Contenuti in `dati/`: [CC BY-SA 4.0](dati/LICENSE.md)
+- Foto: da Wikimedia Commons, ognuna con la sua licenza libera; autore e licenza
+  sono in `app/assets/immagini/crediti.json` e sotto ogni foto nell'app

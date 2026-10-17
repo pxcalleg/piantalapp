@@ -24,6 +24,7 @@ class Pianta {
     this.rinvaso,
     this.propagazione = const [],
     this.problemiComuni = const [],
+    this.immagini = const [],
   });
 
   final String id;
@@ -46,6 +47,7 @@ class Pianta {
   final List<String> propagazione;
   final Tossicita tossicita;
   final List<ProblemaComune> problemiComuni;
+  final List<Immagine> immagini;
   final List<String> fonti;
   final List<String> autori;
   final String aggiornato;
@@ -83,6 +85,9 @@ class Pianta {
     tossicita: Tossicita.fromJson(j['tossicita'] as Map<String, dynamic>),
     problemiComuni: ((j['problemi_comuni'] as List?) ?? const [])
         .map((p) => ProblemaComune.fromJson(p as Map<String, dynamic>))
+        .toList(),
+    immagini: ((j['immagini'] as List?) ?? const [])
+        .map((i) => Immagine.fromJson(i as Map<String, dynamic>))
         .toList(),
     fonti: _stringhe(j['fonti']),
     autori: _stringhe(j['autori']),
@@ -262,6 +267,42 @@ class ProblemaComune {
     sintomo: j['sintomo'] as String,
     causa: j['causa'] as String,
     rimedio: j['rimedio'] as String,
+  );
+}
+
+/// Foto reale da Wikimedia Commons, con i dati per citarne l'autore.
+class Immagine {
+  const Immagine({
+    required this.file,
+    required this.autore,
+    required this.licenza,
+    required this.pagina,
+    required this.anteprima,
+    this.didascalia,
+  });
+
+  /// Nome del file in assets/immagini/ incluso nell'app.
+  final String file;
+  final String autore;
+  final String licenza;
+
+  /// Pagina della foto su Wikimedia Commons.
+  final String pagina;
+
+  /// Copia online, usata se la foto non è inclusa in questa versione dell'app.
+  final String anteprima;
+  final String? didascalia;
+
+  String get asset => 'assets/immagini/$file';
+  String get credito => 'Foto: $autore, $licenza, Wikimedia Commons';
+
+  factory Immagine.fromJson(Map<String, dynamic> j) => Immagine(
+    file: j['file'] as String,
+    autore: j['autore'] as String,
+    licenza: j['licenza'] as String,
+    pagina: j['pagina'] as String,
+    anteprima: j['anteprima'] as String,
+    didascalia: j['didascalia'] as String?,
   );
 }
 

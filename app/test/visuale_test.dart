@@ -74,6 +74,8 @@ void main() {
 
     await tester.tap(find.text('Pothos'));
     await tester.pumpAndSettle();
+    await tester.ensureVisible(find.text('Ruota e simula'));
+    await tester.pumpAndSettle();
     await tester.tap(find.text('Ruota e simula'));
     await tester.pump();
     await tester.pump(const Duration(seconds: 1));
