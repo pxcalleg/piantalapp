@@ -1,0 +1,79 @@
+{
+ "ficus-benjamina": [
+  {
+   "file": "ficus-benjamina-1.jpg",
+   "commons": "Ficus Benjamina.JPG",
+   "autore": "JWolves",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ficus_Benjamina.JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Ficus_Benjamina.JPG/960px-Ficus_Benjamina.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "ficus-elastica": [
+  {
+   "file": "ficus-elastica-1.jpg",
+   "commons": "Gummibaum (Ficus elastica Robusta).jpg",
+   "autore": "Maja Dumat",
+   "licenza": "CC BY 2.0",
+   "url_licenza": "https://creativecommons.org/licenses/by/2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Gummibaum_(Ficus_elastica_Robusta).jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Gummibaum_%28Ficus_elastica_Robusta%29.jpg/960px-Gummibaum_%28Ficus_elastica_Robusta%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "ficus-lyrata": [
+  {
+   "file": "ficus-lyrata-1.jpg",
+   "commons": "Fiddle Leaf Fig in pot.jpg",
+   "autore": "No machine-readable author provided. Morrisjm assumed (based on copyright claims).",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Fiddle_Leaf_Fig_in_pot.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Fiddle_Leaf_Fig_in_pot.jpg/960px-Fiddle_Leaf_Fig_in_pot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "fittonia": [
+  {
+   "file": "fittonia-1.jpg",
+   "commons": "White Nerve Plant (Fittonia albivenis).jpg",
+   "autore": "Mokkie",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:White_Nerve_Plant_(Fittonia_albivenis).jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/White_Nerve_Plant_%28Fittonia_albivenis%29.jpg/960px-White_Nerve_Plant_%28Fittonia_albivenis%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "pothos": [
+  {
+   "file": "pothos-1.jpg",
+   "commons": "Pothos epipremnum aureus.jpg",
+   "autore": "Asabengurtza",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pothos_epipremnum_aureus.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Pothos_epipremnum_aureus.jpg/960px-Pothos_epipremnum_aureus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "sansevieria": [
+  {
+   "file": "sansevieria-1.jpg",
+   "commons": "Snake plant.jpg",
+   "autore": "Martin Olsson (mnemo on wikipedia and commons, martin@minimum.se)",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Snake_plant.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Snake_plant.jpg/960px-Snake_plant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "spatifillo": [
+  {
+   "file": "spatifillo-1.jpg",
+   "commons": "Spathiphyllum wallisii kz1.jpg",
+   "autore": "Krzysztof Ziarnek, Kenraiz",
+   "licenza": "CC BY-SA 4.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Spathiphyllum_wallisii_kz1.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Spathiphyllum_wallisii_kz1.jpg/960px-Spathiphyllum_wallisii_kz1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ]
+}
