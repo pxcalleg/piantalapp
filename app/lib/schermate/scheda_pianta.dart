@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 import '../modello/etichette.dart';
 import '../modello/pianta.dart';
+import '../visuale/modelli.dart';
+import '../visuale/stato_pianta.dart';
+import 'simulatore.dart';
 
 class SchedaPianta extends StatelessWidget {
   const SchedaPianta({super.key, required this.pianta});
@@ -18,6 +21,8 @@ class SchedaPianta extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.fromLTRB(16, 8, 16, 32),
         children: [
+          _Anteprima(pianta: p),
+          const SizedBox(height: 12),
           Text(
             p.nomeScientifico,
             style: tema.textTheme.titleMedium?.copyWith(
@@ -264,6 +269,70 @@ class _Sezione extends StatelessWidget {
               ),
             ),
         ],
+      ),
+    );
+  }
+}
+
+/// Illustrazione in testa alla scheda; se esiste un modello interattivo,
+/// un tocco apre il simulatore.
+class _Anteprima extends StatelessWidget {
+  const _Anteprima({required this.pianta});
+
+  final Pianta pianta;
+
+  void _apri(BuildContext context) =>
+      Navigator.of(context)
+          .push(MaterialPageRoute(builder: (_) => Simulatore(pianta: pianta)));
+
+  @override
+  Widget build(BuildContext context) {
+    final tema = Theme.of(context);
+    final pittore = modelliVisuali[pianta.id];
+    if (pittore == null) {
+      return Container(
+        height: 120,
+        decoration: BoxDecoration(
+          color: tema.colorScheme.surfaceContainerHighest,
+          borderRadius: BorderRadius.circular(20),
+        ),
+        alignment: Alignment.center,
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(
+              Icons.local_florist,
+              size: 40,
+              color: tema.colorScheme.primary,
+            ),
+            const SizedBox(height: 4),
+            const Text('Illustrazione interattiva in arrivo'),
+          ],
+        ),
+      );
+    }
+    return GestureDetector(
+      onTap: () => _apri(context),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(20),
+        child: SizedBox(
+          height: 280,
+          child: Stack(
+            fit: StackFit.expand,
+            children: [
+              CustomPaint(painter: pittore(const StatoPianta(), 0.5, 0.6)),
+              Positioned(
+                right: 12,
+                bottom: 12,
+                child: FilledButton.tonalIcon(
+                  onPressed: () => _apri(context),
+                  icon: const Icon(Icons.threesixty),
+                  label: const Text('Ruota e simula'),
+                ),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
