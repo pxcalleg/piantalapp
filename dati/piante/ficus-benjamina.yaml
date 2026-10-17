@@ -1,0 +1,71 @@
+schema_version: 1
+id: ficus-benjamina
+stato: bozza
+nome_scientifico: Ficus benjamina
+famiglia: Moraceae
+nomi_comuni:
+  it: [Ficus benjamina, Ficus piangente]
+  en: [Weeping fig]
+descrizione: >-
+  Alberello sempreverde dalle foglie piccole e lucide, tra le piante da
+  appartamento più diffuse. Cresce bene ma è sensibile ai cambiamenti.
+categorie: [appartamento, da_ufficio]
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: "no"
+  note: >-
+    D'estate può stare all'aperto in mezz'ombra, abituandolo gradualmente.
+    Va ritirato quando la notte scende sotto i 13 °C.
+difficolta: 3
+luce:
+  ideale: intensa_indiretta
+  tollera: [media_indiretta]
+  sole_diretto: solo_mattino
+  esposizione: [est, ovest]
+  note: >-
+    Una volta trovato il posto giusto non spostarlo: i cambi di luce e
+    posizione sono la causa più comune della caduta delle foglie.
+annaffiatura:
+  quando: Quando i primi 2-3 cm di terriccio sono asciutti al tatto.
+  primavera_estate: { min: 5, max: 10 }
+  autunno_inverno: { min: 10, max: 20 }
+  metodo: >-
+    Bagnare a fondo fino a far uscire l'acqua dai fori, poi svuotare il
+    sottovaso dopo 15 minuti.
+  acqua: Acqua a temperatura ambiente, meglio se lasciata riposare una notte.
+  segnali_troppa: Foglie che ingialliscono e cadono, terriccio sempre umido.
+  segnali_poca: Foglie secche e accartocciate che cadono verdi.
+umidita: media
+concimazione:
+  mesi: [3, 4, 5, 6, 7, 8, 9]
+  frequenza_giorni: { min: 14, max: 30 }
+  tipo: Concime liquido bilanciato per piante verdi, diluito nell'acqua di annaffiatura.
+  note: Sospendere in autunno e inverno, quando la crescita rallenta.
+temperatura:
+  min_c: 13
+  ideale_min_c: 16
+  ideale_max_c: 26
+  note: Teme le correnti d'aria fredda e la vicinanza dei termosifoni.
+terreno: Terriccio universale di buona qualità con un 20% di perlite per il drenaggio.
+rinvaso: Ogni 2-3 anni in primavera, in un vaso appena più grande.
+propagazione: [talea_fusto, margotta]
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: Il lattice bianco irrita pelle e mucose; tossico per cani e gatti se ingerito.
+problemi_comuni:
+  - sintomo: Caduta improvvisa di molte foglie
+    causa: Spostamento, correnti d'aria o sbalzo di temperatura
+    rimedio: Lasciarlo fermo in un posto luminoso e senza correnti; ricaccia in poche settimane.
+  - sintomo: Ragnatele sottili e foglie puntinate
+    causa: Ragnetto rosso, favorito dall'aria secca
+    rimedio: Doccia alle foglie, aumentare l'umidità, eventualmente sapone molle potassico.
+  - sintomo: Batuffoli bianchi o scudetti marroni sui rami
+    causa: Cocciniglia
+    rimedio: Rimuovere con un batuffolo imbevuto di alcol; olio di neem nei casi diffusi.
+fonti:
+  - Royal Horticultural Society, scheda Ficus benjamina (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori: [piantalapp]
+aggiornato: "2026-10-17"

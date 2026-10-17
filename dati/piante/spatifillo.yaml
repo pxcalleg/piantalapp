@@ -1,0 +1,59 @@
+schema_version: 1
+id: spatifillo
+stato: bozza
+nome_scientifico: Spathiphyllum wallisii
+famiglia: Araceae
+nomi_comuni:
+  it: [Spatifillo, Giglio della pace]
+  en: [Peace lily]
+descrizione: >-
+  Pianta da appartamento con foglie verde scuro e fiori bianchi a spata.
+  Avvisa quando ha sete afflosciando le foglie.
+categorie: [appartamento, fiorita, da_ufficio]
+ambiente:
+  interno: true
+  esterno: "no"
+  terrarium: "no"
+difficolta: 2
+luce:
+  ideale: media_indiretta
+  tollera: [bassa, intensa_indiretta]
+  sole_diretto: "no"
+  esposizione: [nord, est, ovest]
+  note: Tollera la penombra, ma con più luce indiretta fiorisce di più.
+annaffiatura:
+  quando: Quando i primi 2 cm di terriccio sono asciutti o le foglie iniziano ad afflosciarsi.
+  primavera_estate: { min: 4, max: 7 }
+  autunno_inverno: { min: 7, max: 14 }
+  metodo: Annaffiare a fondo; nebulizzare le foglie nei mesi di riscaldamento.
+  acqua: Sensibile al calcare e al cloro, che causano punte marroni.
+  segnali_troppa: Foglie gialle e terriccio che sa di stantio.
+  segnali_poca: Foglie completamente afflosciate.
+umidita: alta
+concimazione:
+  mesi: [3, 4, 5, 6, 7, 8, 9]
+  frequenza_giorni: { min: 30, max: 45 }
+  tipo: Concime liquido per piante da fiore a metà dose.
+temperatura:
+  min_c: 15
+  ideale_min_c: 18
+  ideale_max_c: 27
+terreno: Terriccio universale ricco di sostanza organica con un po' di perlite.
+rinvaso: Ogni 1-2 anni in primavera; si può dividere il cespo.
+propagazione: [divisione]
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: Contiene ossalato di calcio; irrita bocca e gola se masticata.
+problemi_comuni:
+  - sintomo: Non fiorisce
+    causa: Luce troppo scarsa
+    rimedio: Spostarla in un punto più luminoso senza sole diretto.
+  - sintomo: Punte delle foglie marroni
+    causa: Aria secca o acqua calcarea
+    rimedio: Usare acqua piovana o lasciata riposare e aumentare l'umidità.
+fonti:
+  - Royal Horticultural Society, scheda Spathiphyllum wallisii (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori: [piantalapp]
+aggiornato: "2026-10-17"

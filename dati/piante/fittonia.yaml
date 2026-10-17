@@ -1,0 +1,66 @@
+schema_version: 1
+id: fittonia
+stato: bozza
+nome_scientifico: Fittonia albivenis
+famiglia: Acanthaceae
+nomi_comuni:
+  it: [Fittonia, Pianta mosaico]
+  en: [Nerve plant, Mosaic plant]
+descrizione: >-
+  Piccola pianta tappezzante dalle foglie con venature bianche, rosa o
+  rosse. Ama l'umidità alta ed è una delle piante più adatte ai terrarium.
+categorie: [appartamento, terrarium, pet_friendly]
+ambiente:
+  interno: true
+  esterno: "no"
+  terrarium: entrambi
+  note: >-
+    In un terrarium chiuso trova l'umidità ideale; in vaso libero soffre
+    l'aria secca dei termosifoni.
+difficolta: 3
+luce:
+  ideale: media_indiretta
+  tollera: [bassa, intensa_indiretta]
+  sole_diretto: "no"
+  esposizione: [nord, est]
+  note: Il sole diretto, amplificato dal vetro del terrarium, brucia le foglie.
+annaffiatura:
+  quando: >-
+    In vaso: mantenere il terriccio sempre leggermente umido, mai fradicio.
+    In terrarium chiuso: solo quando sul vetro non si forma più condensa.
+  primavera_estate: { min: 3, max: 5 }
+  autunno_inverno: { min: 5, max: 8 }
+  metodo: Acqua poca e spesso; in terrarium usare uno spruzzino.
+  acqua: Preferibile acqua piovana o demineralizzata.
+  segnali_troppa: Fusti neri e molli alla base, muffa sul terriccio.
+  segnali_poca: >-
+    La pianta "sviene" afflosciandosi di colpo; si riprende in poche ore
+    dopo l'annaffiatura, ma non va fatto succedere spesso.
+umidita: alta
+concimazione:
+  mesi: [4, 5, 6, 7, 8, 9]
+  frequenza_giorni: { min: 30, max: 45 }
+  tipo: Concime liquido per piante verdi a un quarto della dose.
+  note: In terrarium chiuso è quasi superfluo; una volta a primavera basta.
+temperatura:
+  min_c: 15
+  ideale_min_c: 18
+  ideale_max_c: 27
+terreno: Terriccio soffice e ricco di torba o fibra di cocco; in terrarium su strato drenante di argilla espansa e carbone attivo.
+rinvaso: Ogni anno in primavera; in terrarium potare spesso per contenerla.
+propagazione: [talea_fusto, talea_in_acqua]
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+problemi_comuni:
+  - sintomo: Bordi delle foglie secchi e marroni
+    causa: Aria troppo secca
+    rimedio: Spostarla in terrarium o vicino ad altre piante, lontano dai termosifoni.
+  - sintomo: Fusti lunghi con poche foglie
+    causa: Poca luce o mancanza di potatura
+    rimedio: Cimare le punte per farla accestire.
+fonti:
+  - Royal Horticultural Society, scheda Fittonia albivenis (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori: [piantalapp]
+aggiornato: "2026-10-17"

@@ -1,0 +1,64 @@
+schema_version: 1
+id: pothos
+stato: bozza
+nome_scientifico: Epipremnum aureum
+sinonimi: [Scindapsus aureus, Pothos aureus]
+famiglia: Araceae
+nomi_comuni:
+  it: [Pothos, Potos]
+  en: [Pothos, Golden pothos, Devil's ivy]
+descrizione: >-
+  Rampicante o ricadente dalle foglie a cuore, verdi o variegate.
+  Robustissima, ideale per chi inizia.
+categorie: [appartamento, ricadente, da_ufficio]
+ambiente:
+  interno: true
+  esterno: "no"
+  terrarium: aperto
+  note: >-
+    In Italia va tenuto in casa; all'aperto solo in estate e in ombra.
+    Piccole talee si usano anche nei terrarium aperti e grandi.
+difficolta: 1
+luce:
+  ideale: media_indiretta
+  tollera: [bassa, intensa_indiretta]
+  sole_diretto: "no"
+  esposizione: [nord, est, ovest]
+  note: >-
+    Con poca luce sopravvive ma rallenta e le varietà variegate perdono il
+    disegno giallo o bianco. Il sole diretto brucia le foglie.
+annaffiatura:
+  quando: Quando metà del terriccio è asciutto; le foglie leggermente mosce indicano sete.
+  primavera_estate: { min: 7, max: 10 }
+  autunno_inverno: { min: 14, max: 21 }
+  metodo: Annaffiare a fondo e non lasciare acqua nel sottovaso.
+  segnali_troppa: Foglie gialle alla base, fusti molli e scuri vicino al terriccio.
+  segnali_poca: Foglie flosce e bordi marroni secchi.
+umidita: media
+concimazione:
+  mesi: [4, 5, 6, 7, 8, 9]
+  frequenza_giorni: { min: 30, max: 30 }
+  tipo: Concime liquido per piante verdi a metà dose.
+temperatura:
+  min_c: 15
+  ideale_min_c: 18
+  ideale_max_c: 29
+terreno: Terriccio universale con perlite o corteccia per mantenerlo arioso.
+rinvaso: Ogni 2 anni o quando le radici escono dai fori.
+propagazione: [talea_in_acqua, talea_fusto]
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: Contiene ossalato di calcio; se masticata irrita bocca e gola di persone e animali.
+problemi_comuni:
+  - sintomo: Foglie nuove sempre più piccole e fusti lunghi e spogli
+    causa: Luce insufficiente
+    rimedio: Avvicinare a una finestra luminosa e accorciare i fusti per farla infittire.
+  - sintomo: Variegatura che sparisce
+    causa: Poca luce
+    rimedio: Spostare in un punto più luminoso, sempre senza sole diretto.
+fonti:
+  - Royal Horticultural Society, scheda Epipremnum aureum (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori: [piantalapp]
+aggiornato: "2026-10-17"

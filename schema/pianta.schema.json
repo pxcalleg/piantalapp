@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://piantalapp.org/schema/pianta.schema.json",
+  "title": "Scheda pianta PiantalAPP",
+  "description": "Schema di una scheda pianta. Un file YAML per pianta in dati/piante/<id>.yaml.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "id", "stato", "nome_scientifico", "nomi_comuni", "categorie", "ambiente", "difficolta", "luce", "annaffiatura", "concimazione", "temperatura", "tossicita", "fonti", "autori", "aggiornato"],
+  "$defs": {
+    "testo": { "type": "string", "minLength": 3, "maxLength": 1200 },
+    "mese": { "type": "integer", "minimum": 1, "maximum": 12 },
+    "intervallo_giorni": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min", "max"],
+      "properties": {
+        "min": { "type": "integer", "minimum": 1, "maximum": 365 },
+        "max": { "type": "integer", "minimum": 1, "maximum": 365 }
+      }
+    }
+  },
+  "properties": {
+    "schema_version": { "const": 1 },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "Slug univoco, uguale al nome del file." },
+    "stato": { "enum": ["bozza", "in_revisione", "revisionata"], "description": "Una scheda diventa 'revisionata' solo dopo l'approvazione di un revisore esperto." },
+    "nome_scientifico": { "type": "string", "minLength": 3 },
+    "sinonimi": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "famiglia": { "type": "string" },
+    "nomi_comuni": {
+      "type": "object",
+      "required": ["it"],
+      "additionalProperties": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+      "propertyNames": { "pattern": "^[a-z]{2}$" },
+      "description": "Nomi comuni per lingua (codice ISO 639-1)."
+    },
+    "descrizione": { "$ref": "#/$defs/testo" },
+    "categorie": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": { "enum": ["appartamento", "terrarium", "esterno", "balcone", "succulenta", "fiorita", "ricadente", "da_ufficio", "pet_friendly"] }
+    },
+    "ambiente": {
+      "type": "object", "additionalProperties": false, "required": ["interno", "esterno"],
+      "properties": {
+        "interno": { "type": "boolean" },
+        "esterno": { "enum": ["no", "estate", "tutto_anno"], "description": "'estate' = può stare fuori solo nella bella stagione." },
+        "terrarium": { "enum": ["no", "aperto", "chiuso", "entrambi"] },
+        "note": { "$ref": "#/$defs/testo" }
+      }
+    },
+    "difficolta": { "type": "integer", "minimum": 1, "maximum": 5, "description": "1 = facilissima, 5 = per esperti." },
+    "luce": {
+      "type": "object", "additionalProperties": false, "required": ["ideale", "tollera"],
+      "properties": {
+        "ideale": { "$ref": "#/properties/luce/$defs/livello" },
+        "tollera": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/properties/luce/$defs/livello" } },
+        "sole_diretto": { "enum": ["no", "solo_mattino", "si"] },
+        "esposizione": { "type": "array", "uniqueItems": true, "items": { "enum": ["nord", "est", "sud", "ovest"] }, "description": "Finestre consigliate (emisfero nord)." },
+        "note": { "$ref": "#/$defs/testo" }
+      },
+      "$defs": { "livello": { "enum": ["bassa", "media_indiretta", "intensa_indiretta", "sole_diretto"] } }
+    },
+    "annaffiatura": {
+      "type": "object", "additionalProperties": false, "required": ["quando", "primavera_estate", "autunno_inverno"],
+      "properties": {
+        "quando": { "$ref": "#/$defs/testo", "description": "Il criterio vero (es. 'quando i primi 3 cm di terriccio sono asciutti'). I giorni sono solo indicativi." },
+        "primavera_estate": { "$ref": "#/$defs/intervallo_giorni" },
+        "autunno_inverno": { "$ref": "#/$defs/intervallo_giorni" },
+        "metodo": { "$ref": "#/$defs/testo" },
+        "acqua": { "$ref": "#/$defs/testo" },
+        "segnali_troppa": { "$ref": "#/$defs/testo" },
+        "segnali_poca": { "$ref": "#/$defs/testo" }
+      }
+    },
+    "umidita": { "enum": ["bassa", "media", "alta"] },
+    "concimazione": {
+      "type": "object", "additionalProperties": false, "required": ["mesi", "frequenza_giorni", "tipo"],
+      "properties": {
+        "mesi": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/mese" } },
+        "frequenza_giorni": { "$ref": "#/$defs/intervallo_giorni" },
+        "tipo": { "$ref": "#/$defs/testo" },
+        "note": { "$ref": "#/$defs/testo" }
+      }
+    },
+    "temperatura": {
+      "type": "object", "additionalProperties": false, "required": ["min_c", "ideale_min_c", "ideale_max_c"],
+      "properties": {
+        "min_c": { "type": "number", "minimum": -30, "maximum": 30, "description": "Minima sopportabile." },
+        "ideale_min_c": { "type": "number" },
+        "ideale_max_c": { "type": "number" },
+        "note": { "$ref": "#/$defs/testo" }
+      }
+    },
+    "terreno": { "$ref": "#/$defs/testo" },
+    "rinvaso": { "$ref": "#/$defs/testo" },
+    "propagazione": { "type": "array", "items": { "enum": ["talea_fusto", "talea_foglia", "talea_in_acqua", "divisione", "seme", "margotta", "propaggine"] }, "uniqueItems": true },
+    "tossicita": {
+      "type": "object", "additionalProperties": false, "required": ["animali", "persone"],
+      "properties": {
+        "animali": { "enum": ["non_tossica", "lieve", "tossica", "sconosciuta"] },
+        "persone": { "enum": ["non_tossica", "lieve", "tossica", "sconosciuta"] },
+        "note": { "$ref": "#/$defs/testo" }
+      }
+    },
+    "problemi_comuni": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["sintomo", "causa", "rimedio"],
+        "properties": { "sintomo": { "type": "string" }, "causa": { "type": "string" }, "rimedio": { "type": "string" } }
+      }
+    },
+    "immagini": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["url", "autore", "licenza"],
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "autore": { "type": "string" },
+          "licenza": { "enum": ["CC0-1.0", "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-SA-3.0", "pubblico_dominio"] }
+        }
+      }
+    },
+    "fonti": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "autori": { "type": "array", "minItems": 1, "items": { "type": "string" }, "description": "Handle GitHub di chi ha scritto o revisionato la scheda." },
+    "aggiornato": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+  }
+}

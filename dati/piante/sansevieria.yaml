@@ -1,0 +1,60 @@
+schema_version: 1
+id: sansevieria
+stato: bozza
+nome_scientifico: Dracaena trifasciata
+sinonimi: [Sansevieria trifasciata]
+famiglia: Asparagaceae
+nomi_comuni:
+  it: [Sansevieria, Lingua di suocera]
+  en: [Snake plant, Mother-in-law's tongue]
+descrizione: >-
+  Pianta dalle foglie erette, rigide e succulente. Sopporta poca luce e
+  dimenticanze, ma non i ristagni d'acqua.
+categorie: [appartamento, succulenta, da_ufficio]
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: "no"
+  note: D'estate può stare fuori al riparo dalla pioggia; ritirarla sotto i 10 °C.
+difficolta: 1
+luce:
+  ideale: intensa_indiretta
+  tollera: [bassa, media_indiretta, sole_diretto]
+  sole_diretto: si
+  esposizione: [nord, est, sud, ovest]
+  note: Si adatta quasi ovunque; al sole pieno va abituata gradualmente.
+annaffiatura:
+  quando: Solo quando il terriccio è completamente asciutto, anche in profondità.
+  primavera_estate: { min: 14, max: 21 }
+  autunno_inverno: { min: 30, max: 45 }
+  metodo: Bagnare il terriccio evitando di versare acqua al centro della rosetta.
+  segnali_troppa: Foglie molli, che si piegano o marciscono alla base.
+  segnali_poca: Foglie raggrinzite e sottili.
+umidita: bassa
+concimazione:
+  mesi: [4, 5, 6, 7, 8, 9]
+  frequenza_giorni: { min: 30, max: 60 }
+  tipo: Concime per piante grasse a metà dose.
+temperatura:
+  min_c: 10
+  ideale_min_c: 18
+  ideale_max_c: 30
+terreno: Terriccio per piante grasse, oppure universale con 40% di sabbia o pomice.
+rinvaso: Ogni 3-4 anni; preferisce vasi stretti e pesanti, in terracotta.
+propagazione: [divisione, talea_foglia]
+tossicita:
+  animali: lieve
+  persone: lieve
+  note: Contiene saponine; se ingerita può causare nausea e vomito.
+problemi_comuni:
+  - sintomo: Base delle foglie molle e scura, cattivo odore
+    causa: Marciume radicale da troppa acqua
+    rimedio: Togliere dal vaso, eliminare le parti marce, lasciare asciugare e rinvasare in terriccio asciutto.
+  - sintomo: Le talee di foglia producono piante senza bordo giallo
+    causa: Normale con la talea fogliare nelle varietà variegate
+    rimedio: Per mantenere la variegatura propagare per divisione.
+fonti:
+  - Royal Horticultural Society, scheda Dracaena trifasciata (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori: [piantalapp]
+aggiornato: "2026-10-17"
