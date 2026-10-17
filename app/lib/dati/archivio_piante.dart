@@ -39,13 +39,15 @@ class ArchivioPiante extends ChangeNotifier {
   /// Legge la copia salvata o, la prima volta, quella inclusa nell'app.
   Future<void> carica() async {
     List<Pianta>? piante;
-    try {
-      final cache = await _fileCache;
-      if (await cache.exists()) {
-        piante = leggiPacchetto(await cache.readAsString());
+    if (!kIsWeb) {
+      try {
+        final cache = await _fileCache;
+        if (await cache.exists()) {
+          piante = leggiPacchetto(await cache.readAsString());
+        }
+      } catch (e) {
+        debugPrint('Copia salvata non leggibile: $e');
       }
-    } catch (e) {
-      debugPrint('Copia salvata non leggibile: $e');
     }
     piante ??= leggiPacchetto(
       await rootBundle.loadString('assets/piante.json'),
@@ -66,7 +68,8 @@ class ArchivioPiante extends ChangeNotifier {
       final testo = utf8.decode(risposta.bodyBytes);
       final nuove = leggiPacchetto(testo);
       if (nuove == null || nuove.isEmpty) return false;
-      await (await _fileCache).writeAsString(testo);
+      // Sul web il browser fa già da cache; il file locale serve solo sul telefono.
+      if (!kIsWeb) await (await _fileCache).writeAsString(testo);
       _piante = nuove;
       notifyListeners();
       return true;
