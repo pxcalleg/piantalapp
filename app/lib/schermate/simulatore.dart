@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../modello/pianta.dart';
 import '../visuale/modelli.dart';
+import '../visuale/motore_3d.dart';
 import '../visuale/stato_pianta.dart';
 
 /// Pianta interattiva: si ruota trascinando, si regola la luce e si
@@ -88,7 +89,7 @@ class _SimulatoreState extends State<Simulatore> with TickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
-    final pittore = modelliVisuali[widget.pianta.id]!;
+    final specie = modelliVisuali[widget.pianta.id]!;
     final tema = Theme.of(context);
     final scenario = _scenario;
     return Scaffold(
@@ -96,8 +97,8 @@ class _SimulatoreState extends State<Simulatore> with TickerProviderStateMixin {
       body: LayoutBuilder(
         builder: (context, vincoli) {
           final largo = vincoli.maxWidth > 800;
-          final scena = _scena(pittore);
-          final comandi = _comandi(tema, scenario);
+          final scena = _scena(specie);
+          final comandi = _comandi(tema, specie, scenario);
           if (largo) {
             return Row(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -127,7 +128,7 @@ class _SimulatoreState extends State<Simulatore> with TickerProviderStateMixin {
     );
   }
 
-  Widget _scena(CostruttorePittore pittore) {
+  Widget _scena(Specie specie) {
     return Column(
       children: [
         AspectRatio(
@@ -142,11 +143,13 @@ class _SimulatoreState extends State<Simulatore> with TickerProviderStateMixin {
                 animation: Listenable.merge([_giro, _transizione]),
                 builder: (context, _) => CustomPaint(
                   key: const Key('scena-pianta'),
-                  painter: pittore(
-                    _stato,
-                    _rotazioneManuale +
+                  painter: PiantaPainter(
+                    specie: specie,
+                    stato: _stato,
+                    rotazione:
+                        _rotazioneManuale +
                         (_giraDaSola ? _giro.value * 2 * 3.141592653589793 : 0),
-                    _luce,
+                    luce: _luce,
                   ),
                   size: Size.infinite,
                 ),
@@ -172,8 +175,9 @@ class _SimulatoreState extends State<Simulatore> with TickerProviderStateMixin {
     );
   }
 
-  Widget _comandi(ThemeData tema, Scenario? scenario) {
+  Widget _comandi(ThemeData tema, Specie specie, Scenario? scenario) {
     final s = _a;
+    final testo = scenario == null ? null : specie.testi[scenario];
     return Padding(
       padding: const EdgeInsets.fromLTRB(16, 0, 16, 32),
       child: Column(
@@ -222,11 +226,11 @@ class _SimulatoreState extends State<Simulatore> with TickerProviderStateMixin {
                     style: tema.textTheme.titleSmall,
                   ),
                   const SizedBox(height: 6),
-                  if (scenario != null) ...[
-                    Text('Cosa vedi: ${scenario.cosaVedi}'),
+                  if (testo != null) ...[
+                    Text('Cosa vedi: ${testo.vedi}'),
                     const SizedBox(height: 4),
-                    Text('Cosa fare: ${scenario.cosaFare}'),
-                  ] else
+                    Text('Cosa fare: ${testo.fare}'),
+                  ] else if (scenario == null)
                     const Text('Hai regolato i sintomi a mano.'),
                 ],
               ),

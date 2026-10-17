@@ -7,24 +7,49 @@ import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
 import 'package:piantalapp/dati/archivio_piante.dart';
 import 'package:piantalapp/main.dart';
-import 'package:piantalapp/visuale/pothos_3d.dart';
+import 'package:piantalapp/visuale/modelli.dart';
+import 'package:piantalapp/visuale/motore_3d.dart';
 import 'package:piantalapp/visuale/stato_pianta.dart';
 
 void main() {
-  test('ogni scenario si disegna a ogni angolazione e con ogni luce', () async {
-    for (final s in Scenario.values) {
-      for (final rotazione in [0.0, 1.6, 3.2, 4.8]) {
-        for (final luce in [0.0, 0.5, 1.0]) {
-          final rec = ui.PictureRecorder();
-          PothosPainter(
-            stato: s.stato,
-            rotazione: rotazione,
-            luce: luce,
-          ).paint(Canvas(rec), const Size(300, 300));
-          rec.endRecording().dispose();
+  test('ogni pianta si disegna in ogni scenario, angolazione e luce', () {
+    for (final specie in modelliVisuali.values) {
+      for (final s in Scenario.values) {
+        for (final rotazione in [0.0, 1.6, 3.2, 4.8]) {
+          for (final luce in [0.0, 0.5, 1.0]) {
+            final rec = ui.PictureRecorder();
+            PiantaPainter(
+              specie: specie,
+              stato: s.stato,
+              rotazione: rotazione,
+              luce: luce,
+            ).paint(Canvas(rec), const Size(300, 300));
+            rec.endRecording().dispose();
+          }
         }
       }
     }
+  });
+
+  test('ogni pianta spiega cosa si vede e cosa fare in ogni scenario', () {
+    for (final MapEntry(key: id, value: specie) in modelliVisuali.entries) {
+      for (final s in Scenario.values) {
+        final testo = specie.testi[s];
+        expect(testo, isNotNull, reason: '$id: ${s.name}');
+        expect(testo!.vedi.trim(), isNotEmpty);
+        expect(testo.fare.trim(), isNotEmpty);
+      }
+    }
+  });
+
+  test('ogni modello corrisponde a una scheda esistente', () {
+    final ids = Directory('../dati/piante')
+        .listSync()
+        .map((f) => f.uri.pathSegments.last.replaceAll('.yaml', ''))
+        .toSet();
+    expect(ids, containsAll(modelliVisuali.keys));
+    // Per ora ogni scheda ha la sua pianta interattiva.
+    expect(modelliVisuali.keys.toSet(), ids);
   });
 
   test('gli scenari hanno valori tra 0 e 1', () {
@@ -91,7 +116,7 @@ void main() {
     final scena = tester.widget<CustomPaint>(
       find.byKey(const Key('scena-pianta')),
     );
-    final pittore = scena.painter! as PothosPainter;
+    final pittore = scena.painter! as PiantaPainter;
     expect(pittore.stato.umiditaTerreno, 0);
     expect(pittore.luce, Scenario.pocaAcqua.luce);
 
@@ -106,8 +131,44 @@ void main() {
         (tester
                     .widget<CustomPaint>(find.byKey(const Key('scena-pianta')))
                     .painter!
-                as PothosPainter)
+                as PiantaPainter)
             .rotazione;
     expect(dopo, isNot(closeTo(prima, 0.01)));
+  });
+
+  testWidgets('anche la sansevieria ha la sua pianta interattiva', (
+    tester,
+  ) async {
+    tester.view.physicalSize = const Size(1080, 2400);
+    tester.view.devicePixelRatio = 2.5;
+    addTearDown(tester.view.reset);
+
+    final archivio = ArchivioPiante(
+      client: MockClient((_) async => http.Response('', 404)),
+      cartella: () async => Directory.systemTemp.createTempSync('piantalapp'),
+    );
+    await tester.pumpWidget(PiantalApp(archivio: archivio));
+    await tester.runAsync(archivio.carica);
+    await tester.pumpAndSettle();
+
+    final voce = find.text('Sansevieria').first;
+    await tester.dragUntilVisible(
+      voce,
+      find.byType(ListView).first,
+      const Offset(0, -300),
+    );
+    await tester.tap(voce);
+    await tester.pumpAndSettle();
+    await tester.ensureVisible(find.text('Ruota e simula'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Ruota e simula'));
+    await tester.pump();
+    await tester.pump(const Duration(seconds: 1));
+
+    expect(find.textContaining('Cosa vedi: Foglie erette'), findsOneWidget);
+    await tester.tap(find.widgetWithText(ChoiceChip, 'Marciume radicale'));
+    await tester.pump();
+    await tester.pump(const Duration(seconds: 1));
+    expect(find.textContaining('si piegano di lato'), findsOneWidget);
   });
 }

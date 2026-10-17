@@ -1,16 +1,17 @@
-import 'package:flutter/widgets.dart';
+import 'motore_3d.dart';
+import 'specie/ficus.dart';
+import 'specie/fittonia.dart';
+import 'specie/pothos.dart';
+import 'specie/sansevieria.dart';
+import 'specie/spatifillo.dart';
 
-import 'pothos_3d.dart';
-import 'stato_pianta.dart';
-
-typedef CostruttorePittore = CustomPainter Function(
-  StatoPianta stato,
-  double rotazione,
-  double luce,
-);
-
-/// Piante che hanno già un modello visuale interattivo, per id della scheda.
-final Map<String, CostruttorePittore> modelliVisuali = {
-  'pothos': (stato, rotazione, luce) =>
-      PothosPainter(stato: stato, rotazione: rotazione, luce: luce),
+/// Piante che hanno un modello visuale interattivo, per id della scheda.
+const Map<String, Specie> modelliVisuali = {
+  'pothos': Pothos(),
+  'ficus-benjamina': FicusBenjamina(),
+  'ficus-elastica': FicusRobusta(),
+  'ficus-lyrata': FicusLyrata(),
+  'sansevieria': Sansevieria(),
+  'fittonia': Fittonia(),
+  'spatifillo': Spatifillo(),
 };

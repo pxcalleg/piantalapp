@@ -34,6 +34,8 @@ lib/modello/etichette.dart      testi italiani per i valori codificati
 lib/dati/archivio_piante.dart   caricamento offline e aggiornamento da GitHub
 lib/schermate/                  elenco, scheda, simulatore, informazioni
 lib/visuale/                    piante interattive disegnate dall'app
+lib/visuale/motore_3d.dart      stanza, vaso, foglie e sintomi comuni a tutte
+lib/visuale/specie/             la forma di ogni pianta e i suoi consigli
 lib/visuale/modelli.dart        quali piante hanno un modello interattivo
 ```
 
@@ -42,5 +44,8 @@ lib/visuale/modelli.dart        quali piante hanno un modello interattivo
 Le illustrazioni non sono immagini: l'app genera una geometria 3D della pianta
 (fusti, foglie, vaso, terriccio) e la disegna a ogni fotogramma, così può
 ruotarla, cambiare la luce e mostrare i sintomi (`lib/visuale/stato_pianta.dart`)
-in modo continuo. Per aggiungere una pianta si scrive un nuovo pittore sul
-modello di `pothos_3d.dart` e lo si registra in `modelli.dart`.
+in modo continuo. Il motore comune (`lib/visuale/motore_3d.dart`) si occupa di
+stanza, vaso, luce e sintomi; ogni specie in `lib/visuale/specie/` descrive solo
+la propria forma (fusti, foglie, fiori) e cosa si vede e cosa fare in ogni
+scenario. Per aggiungere una pianta si scrive una nuova `Specie` sul modello di
+quelle esistenti e la si registra in `modelli.dart`.
