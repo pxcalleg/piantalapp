@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Valida le schede in dati/piante/ contro lo schema e, con --build,
-genera dist/piante.json (il pacchetto dati letto dall'app)."""
+genera il pacchetto JSON letto dall'app (per l'app: --out app/assets/piante.json)."""
 import argparse, json, sys
 from pathlib import Path
 
@@ -32,7 +32,8 @@ def controlli_extra(scheda, file):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--build", action="store_true", help="genera dist/piante.json")
+    ap.add_argument("--build", action="store_true", help="genera il pacchetto JSON delle schede")
+    ap.add_argument("--out", type=Path, default=DIST, help="dove scrivere il JSON (default: dist/piante.json)")
     args = ap.parse_args()
 
     validator = Draft202012Validator(json.loads(SCHEMA.read_text(encoding="utf-8")))
@@ -56,10 +57,11 @@ def main():
     if falliti:
         sys.exit(1)
     if args.build:
-        DIST.parent.mkdir(exist_ok=True)
-        DIST.write_text(json.dumps({"schema_version": 1, "piante": schede},
-                                   ensure_ascii=False, indent=1), encoding="utf-8")
-        print(f"Scritto {DIST.relative_to(ROOT)}")
+        out = args.out.resolve()
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(json.dumps({"schema_version": 1, "piante": schede},
+                                  ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        print(f"Scritto {out}")
 
 
 if __name__ == "__main__":

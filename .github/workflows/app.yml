@@ -1,0 +1,52 @@
+name: App Android
+
+on:
+  pull_request:
+    paths: ["app/**", ".github/workflows/app.yml"]
+  push:
+    branches: [main]
+    paths: ["app/**", ".github/workflows/app.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.47.7"
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test
+      - run: flutter build apk --release
+      - uses: actions/upload-artifact@v4
+        with:
+          name: piantalapp-apk
+          path: app/build/app/outputs/flutter-apk/app-release.apk
+      # Su main l'ultimo APK viene pubblicato nella release "anteprima",
+      # da cui si scarica e installa direttamente dal telefono.
+      - name: Pubblica l'APK di anteprima
+        if: github.event_name == 'push'
+        working-directory: .
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp app/build/app/outputs/flutter-apk/app-release.apk PiantalAPP.apk
+          git tag -f anteprima
+          git push -f origin anteprima
+          gh release view anteprima >/dev/null 2>&1 || \
+            gh release create anteprima --prerelease --title "Anteprima" \
+              --notes "Ultima versione di prova dell'app, costruita dal ramo main. Scarica PiantalAPP.apk sul telefono Android e aprilo per installarlo."
+          gh release upload anteprima PiantalAPP.apk --clobber

@@ -5,6 +5,10 @@ on:
     paths: ["dati/**", "schema/**", "scripts/**"]
   push:
     branches: [main]
+    paths: ["dati/**", "schema/**", "scripts/**"]
+
+permissions:
+  contents: write
 
 jobs:
   valida:
@@ -15,8 +19,18 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r scripts/requirements.txt
-      - run: python scripts/valida.py --build
-      - uses: actions/upload-artifact@v4
-        with:
-          name: piante-json
-          path: dist/piante.json
+      - run: python scripts/valida.py --build --out app/assets/piante.json
+      # Su main il pacchetto letto dall'app viene rigenerato e salvato da solo,
+      # così chi contribuisce deve modificare solo i file YAML.
+      - name: Aggiorna app/assets/piante.json
+        if: github.event_name == 'push'
+        run: |
+          if git diff --quiet -- app/assets/piante.json; then
+            echo "Pacchetto già aggiornato"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/assets/piante.json
+          git commit -m "Rigenera app/assets/piante.json"
+          git push
