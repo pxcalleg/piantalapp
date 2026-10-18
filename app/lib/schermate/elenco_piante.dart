@@ -8,6 +8,7 @@ import 'contattaci.dart';
 import 'foto.dart';
 import 'info.dart';
 import 'scheda_pianta.dart';
+import 'testata.dart';
 
 class ElencoPiante extends StatefulWidget {
   const ElencoPiante({super.key, required this.archivio});
@@ -41,16 +42,7 @@ class _ElencoPianteState extends State<ElencoPiante> {
     return Scaffold(
       appBar: AppBar(
         titleSpacing: 16,
-        title: Row(
-          children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(8),
-              child: Image.asset('assets/logo.png', width: 32, height: 32),
-            ),
-            const SizedBox(width: 10),
-            const Text('PiantalAPP'),
-          ],
-        ),
+        title: const Testata(),
         actions: [
           PopupMenuButton<Widget Function()>(
             tooltip: 'Menu',

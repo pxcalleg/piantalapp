@@ -4,6 +4,7 @@ import '../modello/pianta.dart';
 import '../visuale/modelli.dart';
 import '../visuale/motore_3d.dart';
 import '../visuale/stato_pianta.dart';
+import 'testata.dart';
 
 /// Pianta interattiva: si ruota trascinando, si regola la luce e si
 /// simulano situazioni di salute e malattia.
@@ -93,7 +94,9 @@ class _SimulatoreState extends State<Simulatore> with TickerProviderStateMixin {
     final tema = Theme.of(context);
     final scenario = _scenario;
     return Scaffold(
-      appBar: AppBar(title: Text(widget.pianta.nome)),
+      appBar: AppBar(
+        title: Testata(sottotitolo: 'Simulatore · ${widget.pianta.nome}'),
+      ),
       body: LayoutBuilder(
         builder: (context, vincoli) {
           final largo = vincoli.maxWidth > 800;

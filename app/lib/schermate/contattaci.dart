@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import 'testata.dart';
+
 /// Indirizzo a cui arrivano i messaggi del modulo. Se resta vuoto i messaggi
 /// vengono inviati come segnalazione su GitHub.
 const indirizzoContatti = 'piantalapp@lcsoluzioni.it';
@@ -121,7 +123,7 @@ class _ContattaciState extends State<Contattaci> {
     final tema = Theme.of(context);
     final conEmail = indirizzoContatti.isNotEmpty;
     return Scaffold(
-      appBar: AppBar(title: const Text('Contattaci')),
+      appBar: AppBar(title: const Testata(sottotitolo: 'Contattaci')),
       body: Form(
         key: _modulo,
         // Una Column e non una ListView: così tutti i campi esistono sempre e
@@ -145,7 +147,7 @@ class _ContattaciState extends State<Contattaci> {
                   for (final m in Motivo.values)
                     ChoiceChip(
                       avatar: Icon(m.icona, size: 18),
-                    showCheckmark: false,
+                      showCheckmark: false,
                       label: Text(m.etichetta),
                       selected: _motivo == m,
                       onSelected: (_) => setState(() => _motivo = m),
