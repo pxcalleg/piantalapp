@@ -31,7 +31,7 @@ jobs:
           channel: stable
           cache: true
       - run: flutter pub get
-      - run: flutter build web --release --base-href /piantalapp/ --no-web-resources-cdn
+      - run: flutter build web --release --base-href /piantalapp/ --no-web-resources-cdn --dart-define=PLANTNET_API_KEY=${{ secrets.PLANTNET_API_KEY }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: app/build/web
