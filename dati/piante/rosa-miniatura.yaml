@@ -1,0 +1,89 @@
+schema_version: 1
+id: rosa-miniatura
+stato: bozza
+nome_scientifico: "Rosa × hybrida (miniatura)"
+famiglia: Rosaceae
+nomi_comuni:
+  it: [Rosa miniatura, Rosellina, Rosa nana]
+  en: [Miniature rose]
+descrizione: >-
+  Rose piccole, alte 20-40 cm, con foglie e fiori in miniatura. Spesso si
+  comprano in vasetto come pianta da regalo, ma vivono meglio all'aperto al
+  sole. Varietà note sono 'Meillandine', 'Starina', 'Baby Masquerade' e le
+  serie Parade e Patio Hit.
+categorie: [esterno, balcone, fiorita, pet_friendly]
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: "no"
+  note: >-
+    Sta bene su un balcone o un davanzale soleggiato. In casa resiste solo
+    poche settimane vicino a una finestra a sud, poi va portata fuori.
+difficolta: 3
+luce:
+  ideale: sole_diretto
+  tollera: [intensa_indiretta]
+  sole_diretto: si
+  esposizione: [sud, est, ovest]
+  note: >-
+    Servono almeno 6 ore di sole diretto al giorno per fiorire bene. Nelle
+    estati molto calde gradisce un po' d'ombra nelle ore centrali.
+annaffiatura:
+  quando: Quando i primi 2 cm di terriccio sono asciutti al tatto.
+  primavera_estate: { min: 1, max: 3 }
+  autunno_inverno: { min: 10, max: 21 }
+  metodo: >-
+    Annaffiare a fondo alla base, al mattino o alla sera, fino a far uscire
+    l'acqua dal foro del vaso. Non bagnare le foglie, per prevenire le malattie
+    fungine. In piena estate, in vaso, può servire acqua ogni giorno.
+  acqua: Va bene l'acqua del rubinetto; meglio ancora quella piovana.
+  segnali_troppa: Foglie che ingialliscono dal basso e cadono, terriccio sempre bagnato.
+  segnali_poca: Foglie e boccioli mosci, petali che seccano in fretta.
+umidita: media
+concimazione:
+  mesi: [3, 4, 5, 6, 7, 8]
+  frequenza_giorni: { min: 14, max: 21 }
+  tipo: Concime per rose o per piante da fiore, ricco di potassio.
+  note: >-
+    Smettere a fine agosto, perché i getti nuovi abbiano il tempo di
+    indurirsi prima dell'inverno.
+temperatura:
+  min_c: -10
+  ideale_min_c: 15
+  ideale_max_c: 28
+  note: >-
+    In piena terra è molto rustica; in vaso le radici gelano più facilmente,
+    quindi d'inverno conviene proteggere il vaso.
+terreno: >-
+  Terriccio specifico per rose o terriccio universale ricco con un terzo di
+  terra di campo e un po' di stallatico maturo; strato drenante sul fondo.
+rinvaso: >-
+  Appena comprata, rinvasare in un vaso un po' più grande (15-20 cm) con
+  terriccio nuovo; poi ogni 1-2 anni a fine inverno. Potatura a fine
+  inverno: accorciare i rametti di metà.
+propagazione: [talea_fusto]
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: >-
+    Secondo l'ASPCA la rosa non è tossica per cani e gatti; attenzione però
+    alle spine, che possono ferire bocca e zampe.
+problemi_comuni:
+  - sintomo: Macchie nere tonde sulle foglie, che poi ingialliscono e cadono
+    causa: Ticchiolatura (macchia nera), un fungo favorito dalle foglie bagnate
+    rimedio: Togliere e buttare le foglie colpite, annaffiare solo alla base e arieggiare; a inizio primavera un trattamento a base di rame.
+  - sintomo: Polvere bianca su foglie e boccioli
+    causa: Oidio (mal bianco), con giornate calde e notti umide
+    rimedio: Eliminare le parti colpite e migliorare l'aerazione; zolfo o bicarbonato di potassio nei casi diffusi.
+  - sintomo: Colonie di insetti verdi sui germogli e sui boccioli
+    causa: Afidi
+    rimedio: Getto d'acqua o sapone molle potassico; coccinelle e altri predatori aiutano.
+immagini:
+  - commons: '"Meillandine" Rose in clay pot.jpg'
+fonti:
+  - Royal Horticultural Society, guide "Roses" e "Roses in containers" (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche, voce Rose (aspca.org)
+  - University of Minnesota Extension, "Growing roses" (extension.umn.edu)
+  - Clemson Cooperative Extension, "Roses" (hgic.clemson.edu)
+autori: [piantalapp]
+aggiornato: "2026-10-18"

@@ -738,6 +738,124 @@
   },
   {
    "schema_version": 1,
+   "id": "ortensia",
+   "stato": "bozza",
+   "nome_scientifico": "Hydrangea macrophylla",
+   "famiglia": "Hydrangeaceae",
+   "nomi_comuni": {
+    "it": [
+     "Ortensia"
+    ],
+    "en": [
+     "Bigleaf hydrangea",
+     "Hortensia",
+     "Mophead hydrangea"
+    ]
+   },
+   "descrizione": "Arbusto dalle grandi foglie seghettate e dai fiori riuniti in grossi globi azzurri, rosa, lilla o bianchi, da giugno a settembre. Il colore dipende dal terreno: azzurro se è acido, rosa se è calcareo. Ha bisogno di molta acqua.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita"
+   ],
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Pianta da esterno, in giardino o in un vaso grande su balcone o terrazzo. Le ortensie regalate in vaso in primavera si tengono in casa solo durante la fioritura, poi vanno portate fuori."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "media_indiretta",
+     "sole_diretto"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "est",
+     "nord"
+    ],
+    "note": "L'ideale è il sole del mattino e l'ombra nelle ore calde. Al sole pieno del pomeriggio foglie e fiori si bruciano; in ombra fitta fiorisce poco."
+   },
+   "annaffiatura": {
+    "quando": "Quando la superficie del terriccio inizia ad asciugarsi; non deve mai seccare del tutto.",
+    "primavera_estate": {
+     "min": 1,
+     "max": 3
+    },
+    "autunno_inverno": {
+     "min": 7,
+     "max": 14
+    },
+    "metodo": "Annaffiare abbondantemente alla base, al mattino presto o alla sera. D'estate in vaso può servire acqua ogni giorno; pacciamare il terriccio aiuta a tenerlo fresco.",
+    "acqua": "Meglio acqua piovana o poco calcarea: il calcare fa ingiallire le foglie e fa virare i fiori azzurri al rosa.",
+    "segnali_troppa": "Foglie che ingialliscono e cadono, terriccio sempre fradicio.",
+    "segnali_poca": "Foglie e fiori afflosciati di colpo, bordi delle foglie secchi."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime per piante acidofile, ricco di potassio.",
+    "note": "Per i fiori azzurri si può aggiungere solfato di alluminio specifico per ortensie; non concimare dopo luglio."
+   },
+   "temperatura": {
+    "min_c": -15,
+    "ideale_min_c": 15,
+    "ideale_max_c": 26,
+    "note": "La pianta è rustica, ma le gemme dei fiori si formano sui rami dell'anno prima e possono essere rovinate dalle gelate tardive: in vaso proteggerla d'inverno."
+   },
+   "terreno": "Terriccio per piante acidofile (pH 5-6 per i fiori azzurri), soffice e ricco di sostanza organica, con buon drenaggio.",
+   "rinvaso": "Ogni 2-3 anni a fine inverno, in un vaso più grande. Potare a fine inverno solo i fiori secchi, tagliando sopra la prima coppia di gemme sane: i rami dell'anno prima portano i fiori.",
+   "propagazione": [
+    "talea_fusto",
+    "propaggine"
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "lieve",
+    "note": "Contiene glicosidi cianogenetici: tossica per cani, gatti e cavalli (vomito, diarrea, abbattimento). Nelle persone può dare disturbi gastrointestinali se ingerita."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Foglie gialle con le nervature verdi",
+     "causa": "Clorosi ferrica, per terreno o acqua troppo calcarei",
+     "rimedio": "Usare acqua piovana, terriccio per acidofile e un concime con ferro chelato."
+    },
+    {
+     "sintomo": "Non fiorisce",
+     "causa": "Potatura sbagliata dei rami dell'anno prima, gelate tardive o troppa ombra",
+     "rimedio": "Potare solo i fiori secchi, proteggere le gemme dal gelo e darle qualche ora di sole al mattino."
+    },
+    {
+     "sintomo": "Fiori azzurri che diventano rosa",
+     "causa": "Terreno poco acido o acqua calcarea",
+     "rimedio": "Terriccio per acidofile, acqua piovana e solfato di alluminio per ortensie."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, scheda Hydrangea macrophylla e guida \"Hydrangeas\" (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Hydrangea (aspca.org)",
+    "University of Georgia Extension, \"Hydrangeas for Georgia Gardens\" (extension.uga.edu)",
+    "Clemson Cooperative Extension, \"Hydrangea\" (hgic.clemson.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
    "id": "pothos",
    "stato": "bozza",
    "nome_scientifico": "Epipremnum aureum",
@@ -861,6 +979,606 @@
     "piantalapp"
    ],
    "aggiornato": "2026-10-17"
+  },
+  {
+   "schema_version": 1,
+   "id": "rosa-floribunda",
+   "stato": "bozza",
+   "nome_scientifico": "Rosa × hybrida (Floribunda)",
+   "famiglia": "Rosaceae",
+   "nomi_comuni": {
+    "it": [
+     "Rosa floribunda",
+     "Rosa a mazzi"
+    ],
+    "en": [
+     "Floribunda rose",
+     "Cluster-flowered rose"
+    ]
+   },
+   "descrizione": "Cespuglio compatto che porta i fiori a mazzetti e rifiorisce quasi senza sosta fino all'autunno. Varietà famose sono 'Iceberg' (Schneewittchen), 'Frensham', 'Queen Elizabeth' e 'Sangerhäuser Jubiläumsrose'. Ideale per aiuole e vasi.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita",
+    "pet_friendly"
+   ],
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Pianta da esterno; sta bene anche in vaso (almeno 30 litri) su un balcone soleggiato."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ],
+    "note": "Servono almeno 6 ore di sole diretto al giorno per fiorire bene. Nelle estati molto calde gradisce un po' d'ombra nelle ore centrali."
+   },
+   "annaffiatura": {
+    "quando": "Quando i primi 3-4 cm di terriccio sono asciutti al tatto.",
+    "primavera_estate": {
+     "min": 2,
+     "max": 4
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 21
+    },
+    "metodo": "Annaffiare a fondo alla base, al mattino o alla sera, fino a far uscire l'acqua dal foro del vaso. Non bagnare le foglie, per prevenire le malattie fungine. In piena estate, in vaso, può servire acqua ogni giorno.",
+    "acqua": "Va bene l'acqua del rubinetto; meglio ancora quella piovana.",
+    "segnali_troppa": "Foglie che ingialliscono dal basso e cadono, terriccio sempre bagnato.",
+    "segnali_poca": "Foglie e boccioli mosci, petali che seccano in fretta."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime per rose o per piante da fiore, ricco di potassio.",
+    "note": "Smettere a fine agosto, perché i getti nuovi abbiano il tempo di indurirsi prima dell'inverno."
+   },
+   "temperatura": {
+    "min_c": -12,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28,
+    "note": "In piena terra è molto rustica; in vaso le radici gelano più facilmente, quindi d'inverno conviene proteggere il vaso."
+   },
+   "terreno": "Terriccio specifico per rose o terriccio universale ricco con un terzo di terra di campo e un po' di stallatico maturo; strato drenante sul fondo.",
+   "rinvaso": "Ogni 2-3 anni a fine inverno, in un vaso più grande. Potatura a fine inverno: accorciare i rami di circa metà.",
+   "propagazione": [
+    "talea_fusto"
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Secondo l'ASPCA la rosa non è tossica per cani e gatti; attenzione però alle spine, che possono ferire bocca e zampe."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Macchie nere tonde sulle foglie, che poi ingialliscono e cadono",
+     "causa": "Ticchiolatura (macchia nera), un fungo favorito dalle foglie bagnate",
+     "rimedio": "Togliere e buttare le foglie colpite, annaffiare solo alla base e arieggiare; a inizio primavera un trattamento a base di rame."
+    },
+    {
+     "sintomo": "Polvere bianca su foglie e boccioli",
+     "causa": "Oidio (mal bianco), con giornate calde e notti umide",
+     "rimedio": "Eliminare le parti colpite e migliorare l'aerazione; zolfo o bicarbonato di potassio nei casi diffusi."
+    },
+    {
+     "sintomo": "Colonie di insetti verdi sui germogli e sui boccioli",
+     "causa": "Afidi",
+     "rimedio": "Getto d'acqua o sapone molle potassico; coccinelle e altri predatori aiutano."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, guide \"Roses\" e \"Roses in containers\" (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Rose (aspca.org)",
+    "University of Minnesota Extension, \"Growing roses\" (extension.umn.edu)",
+    "Clemson Cooperative Extension, \"Roses\" (hgic.clemson.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "rosa-inglese",
+   "stato": "bozza",
+   "nome_scientifico": "Rosa × hybrida (arbustive e inglesi)",
+   "famiglia": "Rosaceae",
+   "nomi_comuni": {
+    "it": [
+     "Rosa inglese",
+     "Rosa arbustiva",
+     "Rosa di David Austin"
+    ],
+    "en": [
+     "English rose",
+     "Shrub rose"
+    ]
+   },
+   "descrizione": "Arbusti dal portamento morbido e arcuato, con fiori a coppa pieni di petali e profumo intenso, nello stile delle rose antiche ma rifiorenti. Le più note sono le rose inglesi di David Austin come 'Graham Thomas', 'Gertrude Jekyll', 'Glamis Castle' e 'Lady of Shalott'.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita",
+    "pet_friendly"
+   ],
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Pianta da esterno, in giardino o in un vaso ampio (almeno 40 litri); molte varietà tollerano anche la mezz'ombra luminosa."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ],
+    "note": "Servono almeno 6 ore di sole diretto al giorno per fiorire bene. Nelle estati molto calde gradisce un po' d'ombra nelle ore centrali."
+   },
+   "annaffiatura": {
+    "quando": "Quando i primi 3-4 cm di terriccio sono asciutti al tatto.",
+    "primavera_estate": {
+     "min": 2,
+     "max": 4
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 21
+    },
+    "metodo": "Annaffiare a fondo alla base, al mattino o alla sera, fino a far uscire l'acqua dal foro del vaso. Non bagnare le foglie, per prevenire le malattie fungine. In piena estate, in vaso, può servire acqua ogni giorno.",
+    "acqua": "Va bene l'acqua del rubinetto; meglio ancora quella piovana.",
+    "segnali_troppa": "Foglie che ingialliscono dal basso e cadono, terriccio sempre bagnato.",
+    "segnali_poca": "Foglie e boccioli mosci, petali che seccano in fretta."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime per rose o per piante da fiore, ricco di potassio.",
+    "note": "Smettere a fine agosto, perché i getti nuovi abbiano il tempo di indurirsi prima dell'inverno."
+   },
+   "temperatura": {
+    "min_c": -15,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28,
+    "note": "In piena terra è molto rustica; in vaso le radici gelano più facilmente, quindi d'inverno conviene proteggere il vaso."
+   },
+   "terreno": "Terriccio specifico per rose o terriccio universale ricco con un terzo di terra di campo e un po' di stallatico maturo; strato drenante sul fondo.",
+   "rinvaso": "Ogni 2-3 anni a fine inverno, in un vaso più grande. Potatura leggera a fine inverno: accorciare i rami di un terzo e togliere quelli vecchi o deboli.",
+   "propagazione": [
+    "talea_fusto"
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Secondo l'ASPCA la rosa non è tossica per cani e gatti; attenzione però alle spine, che possono ferire bocca e zampe."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Macchie nere tonde sulle foglie, che poi ingialliscono e cadono",
+     "causa": "Ticchiolatura (macchia nera), un fungo favorito dalle foglie bagnate",
+     "rimedio": "Togliere e buttare le foglie colpite, annaffiare solo alla base e arieggiare; a inizio primavera un trattamento a base di rame."
+    },
+    {
+     "sintomo": "Polvere bianca su foglie e boccioli",
+     "causa": "Oidio (mal bianco), con giornate calde e notti umide",
+     "rimedio": "Eliminare le parti colpite e migliorare l'aerazione; zolfo o bicarbonato di potassio nei casi diffusi."
+    },
+    {
+     "sintomo": "Colonie di insetti verdi sui germogli e sui boccioli",
+     "causa": "Afidi",
+     "rimedio": "Getto d'acqua o sapone molle potassico; coccinelle e altri predatori aiutano."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, guide \"Roses\" e \"Roses in containers\" (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Rose (aspca.org)",
+    "University of Minnesota Extension, \"Growing roses\" (extension.umn.edu)",
+    "Clemson Cooperative Extension, \"Roses\" (hgic.clemson.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "rosa-miniatura",
+   "stato": "bozza",
+   "nome_scientifico": "Rosa × hybrida (miniatura)",
+   "famiglia": "Rosaceae",
+   "nomi_comuni": {
+    "it": [
+     "Rosa miniatura",
+     "Rosellina",
+     "Rosa nana"
+    ],
+    "en": [
+     "Miniature rose"
+    ]
+   },
+   "descrizione": "Rose piccole, alte 20-40 cm, con foglie e fiori in miniatura. Spesso si comprano in vasetto come pianta da regalo, ma vivono meglio all'aperto al sole. Varietà note sono 'Meillandine', 'Starina', 'Baby Masquerade' e le serie Parade e Patio Hit.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita",
+    "pet_friendly"
+   ],
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Sta bene su un balcone o un davanzale soleggiato. In casa resiste solo poche settimane vicino a una finestra a sud, poi va portata fuori."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ],
+    "note": "Servono almeno 6 ore di sole diretto al giorno per fiorire bene. Nelle estati molto calde gradisce un po' d'ombra nelle ore centrali."
+   },
+   "annaffiatura": {
+    "quando": "Quando i primi 2 cm di terriccio sono asciutti al tatto.",
+    "primavera_estate": {
+     "min": 1,
+     "max": 3
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 21
+    },
+    "metodo": "Annaffiare a fondo alla base, al mattino o alla sera, fino a far uscire l'acqua dal foro del vaso. Non bagnare le foglie, per prevenire le malattie fungine. In piena estate, in vaso, può servire acqua ogni giorno.",
+    "acqua": "Va bene l'acqua del rubinetto; meglio ancora quella piovana.",
+    "segnali_troppa": "Foglie che ingialliscono dal basso e cadono, terriccio sempre bagnato.",
+    "segnali_poca": "Foglie e boccioli mosci, petali che seccano in fretta."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime per rose o per piante da fiore, ricco di potassio.",
+    "note": "Smettere a fine agosto, perché i getti nuovi abbiano il tempo di indurirsi prima dell'inverno."
+   },
+   "temperatura": {
+    "min_c": -10,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28,
+    "note": "In piena terra è molto rustica; in vaso le radici gelano più facilmente, quindi d'inverno conviene proteggere il vaso."
+   },
+   "terreno": "Terriccio specifico per rose o terriccio universale ricco con un terzo di terra di campo e un po' di stallatico maturo; strato drenante sul fondo.",
+   "rinvaso": "Appena comprata, rinvasare in un vaso un po' più grande (15-20 cm) con terriccio nuovo; poi ogni 1-2 anni a fine inverno. Potatura a fine inverno: accorciare i rametti di metà.",
+   "propagazione": [
+    "talea_fusto"
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Secondo l'ASPCA la rosa non è tossica per cani e gatti; attenzione però alle spine, che possono ferire bocca e zampe."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Macchie nere tonde sulle foglie, che poi ingialliscono e cadono",
+     "causa": "Ticchiolatura (macchia nera), un fungo favorito dalle foglie bagnate",
+     "rimedio": "Togliere e buttare le foglie colpite, annaffiare solo alla base e arieggiare; a inizio primavera un trattamento a base di rame."
+    },
+    {
+     "sintomo": "Polvere bianca su foglie e boccioli",
+     "causa": "Oidio (mal bianco), con giornate calde e notti umide",
+     "rimedio": "Eliminare le parti colpite e migliorare l'aerazione; zolfo o bicarbonato di potassio nei casi diffusi."
+    },
+    {
+     "sintomo": "Colonie di insetti verdi sui germogli e sui boccioli",
+     "causa": "Afidi",
+     "rimedio": "Getto d'acqua o sapone molle potassico; coccinelle e altri predatori aiutano."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, guide \"Roses\" e \"Roses in containers\" (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Rose (aspca.org)",
+    "University of Minnesota Extension, \"Growing roses\" (extension.umn.edu)",
+    "Clemson Cooperative Extension, \"Roses\" (hgic.clemson.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "rosa-rampicante",
+   "stato": "bozza",
+   "nome_scientifico": "Rosa × hybrida (rampicanti)",
+   "famiglia": "Rosaceae",
+   "nomi_comuni": {
+    "it": [
+     "Rosa rampicante"
+    ],
+    "en": [
+     "Climbing rose"
+    ]
+   },
+   "descrizione": "Rose con steli lunghi e flessibili, da legare a un muro, un arco o un traliccio: possono superare i 2-3 metri. Varietà famose sono 'New Dawn', 'Pierre de Ronsard', 'Dortmund' e 'Gloire de Dijon'. Le rampicanti rifiorenti fanno fiori da maggio all'autunno.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita",
+    "pet_friendly"
+   ],
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Pianta da esterno, contro un muro soleggiato o su un arco. In vaso serve un contenitore grande (almeno 50 litri) con un traliccio robusto."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ],
+    "note": "Servono almeno 6 ore di sole diretto al giorno per fiorire bene. Nelle estati molto calde gradisce un po' d'ombra nelle ore centrali."
+   },
+   "annaffiatura": {
+    "quando": "Quando i primi 3-4 cm di terriccio sono asciutti al tatto.",
+    "primavera_estate": {
+     "min": 2,
+     "max": 4
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 21
+    },
+    "metodo": "Annaffiare a fondo alla base, al mattino o alla sera, fino a far uscire l'acqua dal foro del vaso. Non bagnare le foglie, per prevenire le malattie fungine. In piena estate, in vaso, può servire acqua ogni giorno.",
+    "acqua": "Va bene l'acqua del rubinetto; meglio ancora quella piovana.",
+    "segnali_troppa": "Foglie che ingialliscono dal basso e cadono, terriccio sempre bagnato.",
+    "segnali_poca": "Foglie e boccioli mosci, petali che seccano in fretta."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime per rose o per piante da fiore, ricco di potassio.",
+    "note": "Smettere a fine agosto, perché i getti nuovi abbiano il tempo di indurirsi prima dell'inverno."
+   },
+   "temperatura": {
+    "min_c": -12,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28,
+    "note": "In piena terra è molto rustica; in vaso le radici gelano più facilmente, quindi d'inverno conviene proteggere il vaso."
+   },
+   "terreno": "Terriccio specifico per rose o terriccio universale ricco con un terzo di terra di campo e un po' di stallatico maturo; strato drenante sul fondo.",
+   "rinvaso": "In vaso ogni 2-3 anni a fine inverno, oppure sostituire i primi 5 cm di terriccio. Legare gli steli principali in orizzontale o a ventaglio e accorciare i rametti laterali a 2-3 gemme a fine inverno.",
+   "propagazione": [
+    "talea_fusto",
+    "propaggine"
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Secondo l'ASPCA la rosa non è tossica per cani e gatti; attenzione però alle spine, che possono ferire bocca e zampe."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Macchie nere tonde sulle foglie, che poi ingialliscono e cadono",
+     "causa": "Ticchiolatura (macchia nera), un fungo favorito dalle foglie bagnate",
+     "rimedio": "Togliere e buttare le foglie colpite, annaffiare solo alla base e arieggiare; a inizio primavera un trattamento a base di rame."
+    },
+    {
+     "sintomo": "Polvere bianca su foglie e boccioli",
+     "causa": "Oidio (mal bianco), con giornate calde e notti umide",
+     "rimedio": "Eliminare le parti colpite e migliorare l'aerazione; zolfo o bicarbonato di potassio nei casi diffusi."
+    },
+    {
+     "sintomo": "Colonie di insetti verdi sui germogli e sui boccioli",
+     "causa": "Afidi",
+     "rimedio": "Getto d'acqua o sapone molle potassico; coccinelle e altri predatori aiutano."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, guide \"Roses\" e \"Roses in containers\" (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Rose (aspca.org)",
+    "University of Minnesota Extension, \"Growing roses\" (extension.umn.edu)",
+    "Clemson Cooperative Extension, \"Roses\" (hgic.clemson.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "rosa-tea-ibrida",
+   "stato": "bozza",
+   "nome_scientifico": "Rosa × hybrida (Ibridi di Tea)",
+   "famiglia": "Rosaceae",
+   "nomi_comuni": {
+    "it": [
+     "Rosa ibrida di tea",
+     "Rosa a grande fiore"
+    ],
+    "en": [
+     "Hybrid tea rose",
+     "Large-flowered rose"
+    ]
+   },
+   "descrizione": "Le classiche rose da recidere: steli lunghi e dritti con un solo grande fiore a punta, spesso profumato. Varietà famose sono 'Peace' (Gloria Dei), 'Papa Meilland', 'Double Delight' e 'Pascali'. Rifiorisce da maggio all'autunno.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita",
+    "pet_friendly"
+   ],
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Pianta da esterno, in giardino o in un vaso grande (almeno 30-40 litri) su un balcone o terrazzo soleggiato."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ],
+    "note": "Servono almeno 6 ore di sole diretto al giorno per fiorire bene. Nelle estati molto calde gradisce un po' d'ombra nelle ore centrali."
+   },
+   "annaffiatura": {
+    "quando": "Quando i primi 3-4 cm di terriccio sono asciutti al tatto.",
+    "primavera_estate": {
+     "min": 2,
+     "max": 4
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 21
+    },
+    "metodo": "Annaffiare a fondo alla base, al mattino o alla sera, fino a far uscire l'acqua dal foro del vaso. Non bagnare le foglie, per prevenire le malattie fungine. In piena estate, in vaso, può servire acqua ogni giorno.",
+    "acqua": "Va bene l'acqua del rubinetto; meglio ancora quella piovana.",
+    "segnali_troppa": "Foglie che ingialliscono dal basso e cadono, terriccio sempre bagnato.",
+    "segnali_poca": "Foglie e boccioli mosci, petali che seccano in fretta."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime per rose o per piante da fiore, ricco di potassio.",
+    "note": "Smettere a fine agosto, perché i getti nuovi abbiano il tempo di indurirsi prima dell'inverno."
+   },
+   "temperatura": {
+    "min_c": -10,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28,
+    "note": "In piena terra è molto rustica; in vaso le radici gelano più facilmente, quindi d'inverno conviene proteggere il vaso."
+   },
+   "terreno": "Terriccio specifico per rose o terriccio universale ricco con un terzo di terra di campo e un po' di stallatico maturo; strato drenante sul fondo.",
+   "rinvaso": "Ogni 2-3 anni a fine inverno, in un vaso più grande e profondo almeno 40 cm. Potatura a fine inverno: accorciare i rami a 3-5 gemme.",
+   "propagazione": [
+    "talea_fusto"
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Secondo l'ASPCA la rosa non è tossica per cani e gatti; attenzione però alle spine, che possono ferire bocca e zampe."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Macchie nere tonde sulle foglie, che poi ingialliscono e cadono",
+     "causa": "Ticchiolatura (macchia nera), un fungo favorito dalle foglie bagnate",
+     "rimedio": "Togliere e buttare le foglie colpite, annaffiare solo alla base e arieggiare; a inizio primavera un trattamento a base di rame."
+    },
+    {
+     "sintomo": "Polvere bianca su foglie e boccioli",
+     "causa": "Oidio (mal bianco), con giornate calde e notti umide",
+     "rimedio": "Eliminare le parti colpite e migliorare l'aerazione; zolfo o bicarbonato di potassio nei casi diffusi."
+    },
+    {
+     "sintomo": "Colonie di insetti verdi sui germogli e sui boccioli",
+     "causa": "Afidi",
+     "rimedio": "Getto d'acqua o sapone molle potassico; coccinelle e altri predatori aiutano."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, guide \"Roses\" e \"Roses in containers\" (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Rose (aspca.org)",
+    "University of Minnesota Extension, \"Growing roses\" (extension.umn.edu)",
+    "Clemson Cooperative Extension, \"Roses\" (hgic.clemson.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
   },
   {
    "schema_version": 1,

@@ -3,7 +3,9 @@ import 'specie/ficus.dart';
 import 'specie/ficus_bambino.dart';
 import 'specie/fittonia.dart';
 import 'specie/liquidambar.dart';
+import 'specie/ortensia.dart';
 import 'specie/pothos.dart';
+import 'specie/rosa.dart';
 import 'specie/sansevieria.dart';
 import 'specie/spatifillo.dart';
 
@@ -18,4 +20,10 @@ const Map<String, Specie> modelliVisuali = {
   'spatifillo': Spatifillo(),
   'liquidambar': Liquidambar(),
   'ficus-bambino': FicusBambino(),
+  'rosa-tea-ibrida': rosaTeaIbrida,
+  'rosa-floribunda': rosaFloribunda,
+  'rosa-rampicante': rosaRampicante,
+  'rosa-inglese': rosaInglese,
+  'rosa-miniatura': rosaMiniatura,
+  'ortensia': Ortensia(),
 };

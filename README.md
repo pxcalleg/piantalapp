@@ -34,6 +34,12 @@ ARCHITETTURA.md     scelte tecniche e piano di lavoro
 | Spatifillo | *Spathiphyllum wallisii* | appartamento, fiorita |
 | Liquidambar | *Liquidambar styraciflua* | esterno |
 | Ficus Bambino | *Ficus lyrata* 'Bambino' | appartamento, da ufficio |
+| Rosa ibrida di tea | *Rosa × hybrida* (Ibridi di Tea) | esterno, balcone, fiorita |
+| Rosa floribunda | *Rosa × hybrida* (Floribunda) | esterno, balcone, fiorita |
+| Rosa rampicante | *Rosa × hybrida* (rampicanti) | esterno, fiorita |
+| Rosa inglese | *Rosa × hybrida* (arbustive e inglesi) | esterno, balcone, fiorita |
+| Rosa miniatura | *Rosa × hybrida* (miniatura) | balcone, fiorita |
+| Ortensia | *Hydrangea macrophylla* | esterno, balcone, fiorita |
 
 ## Contribuire
 

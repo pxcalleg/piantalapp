@@ -508,7 +508,40 @@ enum Forma {
   ]),
 
   /// Guaina sottile e appuntita in cima ai fusti del Ficus robusta.
-  guaina([(0, 0.6), (0.3, 1), (0.7, 0.7), (1, 0)]);
+  guaina([(0, 0.6), (0.3, 1), (0.7, 0.7), (1, 0)]),
+
+  /// Ovale con il margine seghettato, come le foglioline della rosa e le
+  /// foglie dell'ortensia.
+  dentata([
+    (0, 0),
+    (0.05, 0.42),
+    (0.12, 0.66),
+    (0.17, 0.62),
+    (0.24, 0.86),
+    (0.3, 0.8),
+    (0.38, 0.98),
+    (0.44, 0.92),
+    (0.52, 1),
+    (0.58, 0.9),
+    (0.66, 0.9),
+    (0.71, 0.76),
+    (0.79, 0.7),
+    (0.84, 0.52),
+    (0.91, 0.42),
+    (0.95, 0.22),
+    (1, 0),
+  ]),
+
+  /// Petalo largo e arrotondato in cima, come quello della rosa.
+  petalo([
+    (0, 0.25),
+    (0.15, 0.62),
+    (0.4, 0.9),
+    (0.65, 1),
+    (0.85, 0.92),
+    (0.96, 0.6),
+    (1, 0),
+  ]);
 
   const Forma(this.punti);
 
