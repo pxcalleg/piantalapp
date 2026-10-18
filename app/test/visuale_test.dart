@@ -97,6 +97,11 @@ void main() {
     await tester.runAsync(archivio.carica);
     await tester.pumpAndSettle();
 
+    await tester.scrollUntilVisible(
+      find.text('Pothos'),
+      300,
+      scrollable: find.byType(Scrollable).first,
+    );
     await tester.tap(find.text('Pothos'));
     await tester.pumpAndSettle();
     await tester.ensureVisible(find.text('Ruota e simula'));
@@ -151,13 +156,12 @@ void main() {
     await tester.runAsync(archivio.carica);
     await tester.pumpAndSettle();
 
-    final voce = find.text('Sansevieria').first;
-    await tester.dragUntilVisible(
-      voce,
-      find.byType(ListView).first,
-      const Offset(0, -300),
+    await tester.scrollUntilVisible(
+      find.text('Sansevieria'),
+      300,
+      scrollable: find.byType(Scrollable).first,
     );
-    await tester.tap(voce);
+    await tester.tap(find.text('Sansevieria').first);
     await tester.pumpAndSettle();
 
     // In testa alla scheda si passa dalla foto alla pianta 3D.

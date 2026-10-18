@@ -1,0 +1,93 @@
+schema_version: 1
+id: ortensia
+stato: bozza
+nome_scientifico: Hydrangea macrophylla
+famiglia: Hydrangeaceae
+nomi_comuni:
+  it: [Ortensia]
+  en: [Bigleaf hydrangea, Hortensia, Mophead hydrangea]
+descrizione: >-
+  Arbusto dalle grandi foglie seghettate e dai fiori riuniti in grossi globi
+  azzurri, rosa, lilla o bianchi, da giugno a settembre. Il colore dipende dal
+  terreno: azzurro se è acido, rosa se è calcareo. Ha bisogno di molta acqua.
+categorie: [esterno, balcone, fiorita]
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: "no"
+  note: >-
+    Pianta da esterno, in giardino o in un vaso grande su balcone o terrazzo.
+    Le ortensie regalate in vaso in primavera si tengono in casa solo durante
+    la fioritura, poi vanno portate fuori.
+difficolta: 2
+luce:
+  ideale: intensa_indiretta
+  tollera: [media_indiretta, sole_diretto]
+  sole_diretto: solo_mattino
+  esposizione: [est, nord]
+  note: >-
+    L'ideale è il sole del mattino e l'ombra nelle ore calde. Al sole pieno
+    del pomeriggio foglie e fiori si bruciano; in ombra fitta fiorisce poco.
+annaffiatura:
+  quando: Quando la superficie del terriccio inizia ad asciugarsi; non deve mai seccare del tutto.
+  primavera_estate: { min: 1, max: 3 }
+  autunno_inverno: { min: 7, max: 14 }
+  metodo: >-
+    Annaffiare abbondantemente alla base, al mattino presto o alla sera.
+    D'estate in vaso può servire acqua ogni giorno; pacciamare il terriccio
+    aiuta a tenerlo fresco.
+  acqua: >-
+    Meglio acqua piovana o poco calcarea: il calcare fa ingiallire le foglie
+    e fa virare i fiori azzurri al rosa.
+  segnali_troppa: Foglie che ingialliscono e cadono, terriccio sempre fradicio.
+  segnali_poca: Foglie e fiori afflosciati di colpo, bordi delle foglie secchi.
+umidita: media
+concimazione:
+  mesi: [4, 5, 6, 7]
+  frequenza_giorni: { min: 14, max: 21 }
+  tipo: Concime per piante acidofile, ricco di potassio.
+  note: >-
+    Per i fiori azzurri si può aggiungere solfato di alluminio specifico per
+    ortensie; non concimare dopo luglio.
+temperatura:
+  min_c: -15
+  ideale_min_c: 15
+  ideale_max_c: 26
+  note: >-
+    La pianta è rustica, ma le gemme dei fiori si formano sui rami dell'anno
+    prima e possono essere rovinate dalle gelate tardive: in vaso proteggerla
+    d'inverno.
+terreno: >-
+  Terriccio per piante acidofile (pH 5-6 per i fiori azzurri), soffice e
+  ricco di sostanza organica, con buon drenaggio.
+rinvaso: >-
+  Ogni 2-3 anni a fine inverno, in un vaso più grande. Potare a fine inverno
+  solo i fiori secchi, tagliando sopra la prima coppia di gemme sane: i rami
+  dell'anno prima portano i fiori.
+propagazione: [talea_fusto, propaggine]
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: >-
+    Contiene glicosidi cianogenetici: tossica per cani, gatti e cavalli
+    (vomito, diarrea, abbattimento). Nelle persone può dare disturbi
+    gastrointestinali se ingerita.
+problemi_comuni:
+  - sintomo: Foglie gialle con le nervature verdi
+    causa: Clorosi ferrica, per terreno o acqua troppo calcarei
+    rimedio: Usare acqua piovana, terriccio per acidofile e un concime con ferro chelato.
+  - sintomo: Non fiorisce
+    causa: Potatura sbagliata dei rami dell'anno prima, gelate tardive o troppa ombra
+    rimedio: Potare solo i fiori secchi, proteggere le gemme dal gelo e darle qualche ora di sole al mattino.
+  - sintomo: Fiori azzurri che diventano rosa
+    causa: Terreno poco acido o acqua calcarea
+    rimedio: Terriccio per acidofile, acqua piovana e solfato di alluminio per ortensie.
+immagini:
+  - commons: "Hydrangea macrophylla - Hortensia hydrangea.jpg"
+fonti:
+  - Royal Horticultural Society, scheda Hydrangea macrophylla e guida "Hydrangeas" (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche, voce Hydrangea (aspca.org)
+  - University of Georgia Extension, "Hydrangeas for Georgia Gardens" (extension.uga.edu)
+  - Clemson Cooperative Extension, "Hydrangea" (hgic.clemson.edu)
+autori: [piantalapp]
+aggiornato: "2026-10-18"

@@ -1,0 +1,65 @@
+schema_version: 1
+id: kalanchoe
+stato: bozza
+nome_scientifico: Kalanchoe blossfeldiana
+famiglia: Crassulaceae
+nomi_comuni:
+  it: [Kalanchoe, Calancola]
+  en: [Flaming Katy, Christmas kalanchoe]
+descrizione: >-
+  Piccola pianta grassa con foglie carnose e lucide dal bordo a smerli e
+  mazzetti fitti di fiorellini rossi, arancioni, rosa, gialli o bianchi che
+  durano settimane. Facile e resistente alla siccità.
+categorie: [appartamento, succulenta, fiorita, balcone]
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: "no"
+  note: Da maggio a settembre può stare in balcone, riparata dal sole cocente e dalla pioggia insistente.
+difficolta: 1
+luce:
+  ideale: intensa_indiretta
+  tollera: [sole_diretto, media_indiretta]
+  sole_diretto: solo_mattino
+  esposizione: [sud, est, ovest]
+  note: Vuole molta luce; con poca luce i fusti si allungano e non fiorisce.
+annaffiatura:
+  quando: Solo quando il terriccio è asciutto anche in profondità.
+  primavera_estate: { min: 7, max: 14 }
+  autunno_inverno: { min: 14, max: 28 }
+  metodo: Annaffiare il terriccio senza bagnare foglie e fiori e svuotare il sottovaso.
+  segnali_troppa: Foglie gialle e molli, fusti neri alla base.
+  segnali_poca: Foglie raggrinzite e più sottili.
+umidita: bassa
+concimazione:
+  mesi: [4, 5, 6, 7, 8, 9]
+  frequenza_giorni: { min: 30, max: 30 }
+  tipo: Concime per piante grasse a metà dose.
+temperatura:
+  min_c: 10
+  ideale_min_c: 15
+  ideale_max_c: 27
+terreno: Terriccio per piante grasse, o universale con un terzo di sabbia o pomice.
+rinvaso: Dopo la fioritura, ogni 1-2 anni, in un vaso poco più grande.
+propagazione: [talea_fusto, talea_foglia]
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: >-
+    Secondo l'ASPCA è tossica per cani e gatti: se ingerita causa vomito e
+    diarrea e, raramente, disturbi al cuore. Tenerla fuori dalla loro portata.
+problemi_comuni:
+  - sintomo: Non rifiorisce
+    causa: È una pianta a giorno corto e la sera riceve luce artificiale
+    rimedio: Da ottobre, per circa 6 settimane, 14 ore di buio completo ogni notte.
+  - sintomo: Fusti lunghi e spogli
+    causa: Poca luce
+    rimedio: Spostarla in un punto più luminoso e accorciare i fusti; le cime tagliate si possono usare come talee.
+immagini:
+  - commons: "Kalanchoe blossfeldiana 2zz.jpg"
+fonti:
+  - Royal Horticultural Society, scheda Kalanchoe blossfeldiana (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+  - University of Florida IFAS Extension, Kalanchoe blossfeldiana (edis.ifas.ufl.edu)
+autori: [piantalapp]
+aggiornato: "2026-10-18"

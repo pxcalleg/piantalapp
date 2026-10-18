@@ -1,0 +1,70 @@
+schema_version: 1
+id: dendrobium
+stato: bozza
+nome_scientifico: Dendrobium nobile
+famiglia: Orchidaceae
+nomi_comuni:
+  it: [Dendrobium, Orchidea bambù]
+  en: [Noble dendrobium, Dendrobium nobile]
+descrizione: >-
+  Orchidea con fusti eretti a canna, ingrossati e divisi in nodi, con foglie
+  sulla parte alta. A fine inverno si copre di fiori rosa e bianchi a coppie
+  lungo le canne. Per fiorire vuole un inverno fresco e asciutto.
+categorie: [appartamento, fiorita]
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: "no"
+  note: >-
+    Da maggio a settembre può stare in balcone a mezz'ombra; in autunno va
+    tenuta al fresco (10-15 °C), ma al riparo dal gelo.
+difficolta: 3
+luce:
+  ideale: intensa_indiretta
+  tollera: [sole_diretto, media_indiretta]
+  sole_diretto: solo_mattino
+  esposizione: [est, sud, ovest]
+  note: Vuole molta luce, anche il sole del mattino; con poca luce fa solo foglie e non fiorisce.
+annaffiatura:
+  quando: In crescita quando il substrato è quasi asciutto; da ottobre a febbraio solo se le canne si raggrinziscono.
+  primavera_estate: { min: 4, max: 7 }
+  autunno_inverno: { min: 14, max: 21 }
+  metodo: Annaffiare a fondo o immergere il vaso e lasciarlo sgocciolare; d'estate nebulizzare le foglie.
+  acqua: Meglio acqua piovana o poco calcarea.
+  segnali_troppa: Canne molli e scure alla base, foglie gialle che cadono.
+  segnali_poca: Canne raggrinzite e giallastre.
+umidita: media
+concimazione:
+  mesi: [4, 5, 6, 7, 8, 9]
+  frequenza_giorni: { min: 14, max: 21 }
+  tipo: Concime liquido per orchidee a dose ridotta; stop da ottobre per avere fiori e non nuove piantine.
+temperatura:
+  min_c: 8
+  ideale_min_c: 15
+  ideale_max_c: 28
+  note: Il riposo fresco (10-15 °C) e asciutto da ottobre a gennaio è ciò che fa nascere i boccioli.
+terreno: Corteccia di pino media per orchidee, in un vaso piccolo e ben drenato.
+rinvaso: Ogni 2-3 anni in primavera, quando spuntano le canne nuove; vaso appena più grande.
+propagazione: [divisione, talea_fusto]
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Secondo l'ASPCA le orchidee Dendrobium non sono tossiche per cani e gatti.
+problemi_comuni:
+  - sintomo: Spuntano piantine (keiki) sulle canne invece dei fiori
+    causa: Troppa acqua, concime o caldo in inverno
+    rimedio: Rispettare il riposo fresco e asciutto; le piantine con radici si possono staccare e invasare.
+  - sintomo: Non fiorisce
+    causa: Poca luce o inverno troppo caldo
+    rimedio: Più luce e un autunno al fresco, con poca acqua e niente concime.
+  - sintomo: Canne vecchie senza foglie
+    causa: È normale dopo uno o due anni
+    rimedio: Non tagliarle, possono ancora fiorire e fanno da riserva.
+immagini:
+  - commons: "Dendrobium nobile (BG Zurich)-01.JPG"
+fonti:
+  - Royal Horticultural Society, scheda Dendrobium nobile (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+  - American Orchid Society, scheda di coltivazione dei Dendrobium (aos.org)
+autori: [piantalapp]
+aggiornato: "2026-10-18"

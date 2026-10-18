@@ -1,0 +1,71 @@
+schema_version: 1
+id: mammillaria
+stato: bozza
+nome_scientifico: Mammillaria zeilmanniana
+famiglia: Cactaceae
+nomi_comuni:
+  it: [Mammillaria, Cactus a palla, Cactus puntaspilli]
+  en: [Rose pincushion, Pincushion cactus]
+descrizione: >-
+  Piccolo cactus a palla coperto di spine sottili, che in primavera fa una
+  corona di fiorellini rosa attorno alla cima. Il genere Mammillaria conta
+  molte specie simili, tutte con le stesse cure.
+categorie: [appartamento, balcone, succulenta, fiorita]
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: "no"
+  note: >-
+    Da primavera ad autunno sta bene fuori al sole, al riparo dalle piogge
+    lunghe. D'inverno ama un posto fresco e luminoso, all'asciutto.
+difficolta: 1
+luce:
+  ideale: sole_diretto
+  tollera: [intensa_indiretta]
+  sole_diretto: si
+  esposizione: [sud, ovest, est]
+  note: >-
+    Con poca luce la cima si allunga stretta e pallida e non fiorisce.
+    Dopo l'inverno va riabituato al sole un po' alla volta.
+annaffiatura:
+  quando: Solo quando il terriccio è completamente asciutto; da novembre a febbraio quasi mai.
+  primavera_estate: { min: 10, max: 21 }
+  autunno_inverno: { min: 45, max: 90 }
+  metodo: Annaffiare a fondo il terriccio senza bagnare il cactus e svuotare il sottovaso.
+  segnali_troppa: Base gialla o marrone e molle.
+  segnali_poca: Palla raggrinzita e più piccola.
+umidita: bassa
+concimazione:
+  mesi: [4, 5, 6, 7, 8]
+  frequenza_giorni: { min: 30, max: 30 }
+  tipo: Concime per cactus povero di azoto, a metà dose.
+temperatura:
+  min_c: 5
+  ideale_min_c: 15
+  ideale_max_c: 32
+  note: Un inverno fresco (8-12 °C) e asciutto è il segreto per vederlo fiorire in primavera.
+terreno: Terriccio per cactus molto drenante, con metà pomice o lapillo.
+rinvaso: Ogni 2-3 anni in primavera, con terriccio asciutto e guanti o una striscia di carta per prenderlo.
+propagazione: [divisione, seme]
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Non è velenoso, ma le spine possono pungere bocca e zampe degli animali curiosi.
+problemi_comuni:
+  - sintomo: Non fiorisce
+    causa: Inverno troppo caldo o poca luce
+    rimedio: D'inverno tenerlo fresco e asciutto, poi molto sole in primavera.
+  - sintomo: Cima allungata e pallida
+    causa: Luce insufficiente
+    rimedio: Spostarlo sul davanzale più soleggiato.
+  - sintomo: Base molle e scura
+    causa: Marciume da troppa acqua
+    rimedio: Se la parte alta è sana, tagliarla sopra il marcio, lasciarla asciugare e ripiantarla.
+immagini:
+  - commons: "Mammillaria zeilmanniana.jpg"
+fonti:
+  - Royal Horticultural Society, scheda Mammillaria zeilmanniana (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+  - University of Wisconsin-Madison Extension, Cacti and succulents (hort.extension.wisc.edu)
+autori: [piantalapp]
+aggiornato: "2026-10-18"

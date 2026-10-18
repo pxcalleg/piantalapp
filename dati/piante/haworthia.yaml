@@ -1,0 +1,72 @@
+schema_version: 1
+id: haworthia
+stato: bozza
+nome_scientifico: Haworthiopsis attenuata
+sinonimi: [Haworthia attenuata]
+famiglia: Asphodelaceae
+nomi_comuni:
+  it: [Haworthia, Pianta zebra]
+  en: [Zebra plant, Zebra haworthia]
+descrizione: >-
+  Piccola succulenta a rosetta con foglie appuntite verde scuro, decorate
+  da fasce di tubercoli bianchi in rilievo. Resta piccola e sta bene anche
+  in mezz'ombra.
+categorie: [appartamento, succulenta, da_ufficio, pet_friendly]
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: aperto
+  note: >-
+    D'estate può stare fuori in luce filtrata, al riparo dal sole delle ore
+    calde e dalla pioggia. Le piccole rosette si usano anche nei terrarium
+    aperti per piante grasse.
+difficolta: 1
+luce:
+  ideale: intensa_indiretta
+  tollera: [media_indiretta, sole_diretto]
+  sole_diretto: solo_mattino
+  esposizione: [est, ovest, sud]
+  note: >-
+    Il sole forte d'estate la fa diventare rosso-arancio; con troppa poca
+    luce la rosetta si apre e sbiadisce.
+annaffiatura:
+  quando: Quando il terriccio è completamente asciutto.
+  primavera_estate: { min: 10, max: 14 }
+  autunno_inverno: { min: 30, max: 40 }
+  metodo: Annaffiare il terriccio attorno alla rosetta e lasciare scolare bene.
+  segnali_troppa: Foglie gonfie, molli e traslucide, base che marcisce.
+  segnali_poca: Foglie raggrinzite che si chiudono, punte secche.
+umidita: bassa
+concimazione:
+  mesi: [4, 5, 6, 7, 8, 9]
+  frequenza_giorni: { min: 30, max: 60 }
+  tipo: Concime per piante grasse a metà dose.
+temperatura:
+  min_c: 5
+  ideale_min_c: 15
+  ideale_max_c: 28
+terreno: Terriccio per piante grasse con molta pomice; le radici vogliono aria.
+rinvaso: Ogni 2-3 anni in primavera, in vasi bassi e larghi; è il momento per dividere le rosette.
+propagazione: [divisione, talea_foglia]
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Considerata non tossica per cani e gatti.
+problemi_comuni:
+  - sintomo: Foglie rosso-arancio o brune
+    causa: Troppo sole diretto
+    rimedio: Spostarla in luce filtrata; torna verde in qualche settimana.
+  - sintomo: Rosetta aperta con foglie lunghe e pallide
+    causa: Luce insufficiente
+    rimedio: Avvicinarla a una finestra luminosa.
+  - sintomo: Base molle e scura
+    causa: Marciume da troppa acqua
+    rimedio: Separare le rosette sane, lasciarle asciugare e ripiantarle in terriccio asciutto.
+immagini:
+  - commons: "Haworthia attenuata (1).jpg"
+fonti:
+  - Royal Horticultural Society, scheda Haworthiopsis attenuata (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche, voce Zebra Haworthia (aspca.org)
+  - North Carolina State University Extension Gardener Plant Toolbox, Haworthiopsis attenuata (plants.ces.ncsu.edu)
+autori: [piantalapp]
+aggiornato: "2026-10-18"
