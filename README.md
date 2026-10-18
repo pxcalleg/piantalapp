@@ -32,6 +32,11 @@ ARCHITETTURA.md     scelte tecniche e piano di lavoro
 | Sansevieria | *Dracaena trifasciata* | appartamento, succulenta |
 | Fittonia | *Fittonia albivenis* | terrarium, appartamento |
 | Spatifillo | *Spathiphyllum wallisii* | appartamento, fiorita |
+| Phalaenopsis | *Phalaenopsis* | appartamento, fiorita |
+| Dendrobium | *Dendrobium nobile* | appartamento, fiorita |
+| Cymbidium | *Cymbidium* | appartamento, balcone, fiorita |
+| Stella di Natale | *Euphorbia pulcherrima* | appartamento, fiorita |
+| Kalanchoe | *Kalanchoe blossfeldiana* | appartamento, succulenta, fiorita |
 
 ## Contribuire
 

@@ -21,8 +21,17 @@ void main() {
     await tester.runAsync(archivio.carica);
     await tester.pumpAndSettle();
 
-    expect(find.text('Pothos'), findsOneWidget);
-    expect(find.text('Sansevieria'), findsOneWidget);
+    final elenco = find.byType(CustomScrollView);
+    for (final nome in ['Pothos', 'Sansevieria']) {
+      await tester.dragUntilVisible(
+        find.text(nome),
+        elenco,
+        const Offset(0, -300),
+      );
+      expect(find.text(nome), findsOneWidget);
+    }
+    await tester.fling(elenco, const Offset(0, 3000), 3000);
+    await tester.pumpAndSettle();
 
     await tester.tap(find.widgetWithText(FilterChip, 'Terrarium'));
     await tester.pumpAndSettle();

@@ -508,7 +508,25 @@ enum Forma {
   ]),
 
   /// Guaina sottile e appuntita in cima ai fusti del Ficus robusta.
-  guaina([(0, 0.6), (0.3, 1), (0.7, 0.7), (1, 0)]);
+  guaina([(0, 0.6), (0.3, 1), (0.7, 0.7), (1, 0)]),
+
+  /// Ovale carnosa con il bordo a smerli, come il kalanchoe.
+  smerlata([
+    (0, 0.1),
+    (0.06, 0.55),
+    (0.14, 0.8),
+    (0.2, 0.72),
+    (0.3, 0.95),
+    (0.37, 0.86),
+    (0.47, 1),
+    (0.54, 0.9),
+    (0.64, 0.95),
+    (0.71, 0.82),
+    (0.8, 0.8),
+    (0.87, 0.6),
+    (0.95, 0.42),
+    (1, 0),
+  ]);
 
   const Forma(this.punti);
 
