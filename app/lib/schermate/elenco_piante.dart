@@ -4,6 +4,7 @@ import '../dati/archivio_piante.dart';
 import '../modello/etichette.dart';
 import '../modello/filtri.dart';
 import '../modello/pianta.dart';
+import 'contattaci.dart';
 import 'foto.dart';
 import 'info.dart';
 import 'scheda_pianta.dart';
@@ -51,12 +52,27 @@ class _ElencoPianteState extends State<ElencoPiante> {
           ],
         ),
         actions: [
-          IconButton(
-            tooltip: 'Informazioni e contributi',
-            icon: const Icon(Icons.info_outline),
-            onPressed: () =>
+          PopupMenuButton<Widget Function()>(
+            tooltip: 'Menu',
+            onSelected: (pagina) =>
                 Navigator.of(context)
-                    .push(MaterialPageRoute(builder: (_) => const Info())),
+                    .push(MaterialPageRoute(builder: (_) => pagina())),
+            itemBuilder: (_) => [
+              PopupMenuItem(
+                value: Contattaci.new,
+                child: const ListTile(
+                  leading: Icon(Icons.mail_outline),
+                  title: Text('Contattaci'),
+                ),
+              ),
+              PopupMenuItem(
+                value: Info.new,
+                child: const ListTile(
+                  leading: Icon(Icons.info_outline),
+                  title: Text('Informazioni e contributi'),
+                ),
+              ),
+            ],
           ),
         ],
       ),

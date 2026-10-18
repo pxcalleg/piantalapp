@@ -23,6 +23,7 @@ void main() {
 
   testWidgets('la pagina dei crediti elenca le foto', (tester) async {
     await tester.pumpWidget(const MaterialApp(home: Info()));
+    await tester.scrollUntilVisible(find.text('Crediti delle foto'), 200);
     await tester.tap(find.text('Crediti delle foto'));
     await tester.pumpAndSettle();
     expect(find.text('Dracaena trifasciata'), findsOneWidget);
