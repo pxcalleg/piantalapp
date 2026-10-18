@@ -171,11 +171,19 @@ class CreditiFoto extends StatelessWidget {
                 Text('«${c.titolo}» di ${c.autore}'),
                 Wrap(
                   spacing: 8,
+                  crossAxisAlignment: WrapCrossAlignment.center,
                   children: [
-                    TextButton(
-                      onPressed: () => _apri(c.urlLicenza),
-                      child: Text('Licenza ${c.licenza}'),
-                    ),
+                    if (c.urlLicenza.isEmpty)
+                      Text(
+                        c.licenza == 'Public domain'
+                            ? 'Pubblico dominio'
+                            : c.licenza,
+                      )
+                    else
+                      TextButton(
+                        onPressed: () => _apri(c.urlLicenza),
+                        child: Text('Licenza ${c.licenza}'),
+                      ),
                     TextButton(
                       onPressed: () => _apri(c.pagina),
                       child: const Text('Fonte su Wikimedia Commons'),
