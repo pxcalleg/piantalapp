@@ -44,9 +44,15 @@ def info(nome):
         testo = meta.get(k, {}).get("value", "")
         return html.unescape(re.sub(r"<[^>]+>", "", testo)).strip()
 
+    autore = campo("Artist") or campo("Credit") or "Autore sconosciuto"
+    # Commons a volte scrive "No machine-readable author provided. X assumed
+    # (based on copyright claims)." quando l'autore è dedotto dal caricatore.
+    dedotto = re.match(r"No machine-readable author provided\. (.+?) assumed", autore)
+    if dedotto:
+        autore = dedotto.group(1)
     return {
         "commons": nome,
-        "autore": campo("Artist") or campo("Credit") or "Autore sconosciuto",
+        "autore": autore,
         "licenza": campo("LicenseShortName"),
         "url_licenza": campo("LicenseUrl"),
         "pagina": ii["descriptionurl"],
