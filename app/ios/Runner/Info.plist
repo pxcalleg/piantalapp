@@ -21,6 +21,10 @@
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Serve per fotografare una pianta e riconoscerla.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Serve per scegliere la foto di una pianta da riconoscere.</string>
 	<key>CFBundleName</key>
 	<string>PiantalAPP</string>
 	<key>CFBundlePackageType</key>

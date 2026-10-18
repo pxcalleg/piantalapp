@@ -7,6 +7,7 @@ import '../modello/pianta.dart';
 import 'contattaci.dart';
 import 'foto.dart';
 import 'info.dart';
+import 'riconosci.dart';
 import 'scheda_pianta.dart';
 import 'testata.dart';
 
@@ -68,6 +69,16 @@ class _ElencoPianteState extends State<ElencoPiante> {
           ),
         ],
       ),
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: () => Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (_) => Riconosci(piante: widget.archivio.piante),
+          ),
+        ),
+        icon: const Icon(Icons.center_focus_weak),
+        label: const Text('Riconosci'),
+        tooltip: 'Riconosci una pianta da una foto',
+      ),
       body: ListenableBuilder(
         listenable: widget.archivio,
         builder: (context, _) {
@@ -97,6 +108,8 @@ class _ElencoPianteState extends State<ElencoPiante> {
                     itemCount: piante.length,
                     itemBuilder: (context, i) => _Riga(pianta: piante[i]),
                   ),
+                // Spazio perché il pulsante «Riconosci» non copra l'ultima pianta.
+                const SliverToBoxAdapter(child: SizedBox(height: 88)),
               ],
             ),
           );

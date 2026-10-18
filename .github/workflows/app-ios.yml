@@ -25,7 +25,7 @@ jobs:
       # Senza firma: verifica che l'app per iPhone e iPad si compili. Per
       # pubblicarla su TestFlight e App Store serve un account Apple Developer,
       # vedi la sezione "iPhone e iPad" nel README.
-      - run: flutter build ios --release --no-codesign
+      - run: flutter build ios --release --no-codesign --dart-define=PLANTNET_API_KEY=${{ secrets.PLANTNET_API_KEY }}
       - name: Prepara l'app compilata
         run: cd build/ios/iphoneos && zip -qr PiantalAPP-ios-senza-firma.zip Runner.app
       - uses: actions/upload-artifact@v4

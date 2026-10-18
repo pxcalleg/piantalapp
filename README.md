@@ -68,6 +68,19 @@ ARCHITETTURA.md     scelte tecniche e piano di lavoro
      TestFlight;
   4. provarla con TestFlight e inviarla alla revisione di Apple.
 
+## Riconoscere una pianta da una foto
+
+Il pulsante *Riconosci* invia la foto a [Pl@ntNet](https://plantnet.org),
+che la analizza senza conservarla e propone le specie più probabili, con il
+link alla scheda quando la pianta è già in archivio. Il piano gratuito
+consente 500 riconoscimenti al giorno.
+
+La chiave del servizio non è nel codice: GitHub la inserisce al momento della
+compilazione dal secret `PLANTNET_API_KEY`. Nelle impostazioni della chiave su
+[my.plantnet.org](https://my.plantnet.org) va spuntato *expose my API key*,
+con `https://pxcalleg.github.io` tra i domini autorizzati. Per provarla in
+locale: `flutter run --dart-define=PLANTNET_API_KEY=la-tua-chiave`.
+
 ## Contribuire
 
 Vedi [CONTRIBUTING.md](CONTRIBUTING.md). Non serve saper programmare.
