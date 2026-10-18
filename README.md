@@ -52,6 +52,22 @@ ARCHITETTURA.md     scelte tecniche e piano di lavoro
 | Mammillaria | *Mammillaria zeilmanniana* | appartamento, balcone, succulenta, fiorita |
 | Fico d'India nano | *Opuntia microdasys* | appartamento, balcone, succulenta |
 
+## iPhone e iPad
+
+- **Subito, senza App Store:** apri https://pxcalleg.github.io/piantalapp/ con
+  Safari, tocca *Condividi* e poi *Aggiungi alla schermata Home*. PiantalAPP
+  compare tra le app con la sua icona e si apre a schermo intero.
+- **App vera e propria:** il progetto iOS è in `app/ios` e GitHub lo compila a
+  ogni modifica (controllo *App iOS*). Per installarla sugli iPhone serve:
+  1. un account [Apple Developer](https://developer.apple.com/programs/)
+     (99 € l'anno, a nome di una persona o di un'azienda);
+  2. registrare l'identificativo `io.github.pxcalleg.piantalapp` e creare
+     l'app su [App Store Connect](https://appstoreconnect.apple.com);
+  3. firmare e caricare la build: da un Mac con Xcode, oppure aggiungendo a
+     GitHub le chiavi di App Store Connect perché la carichi da solo su
+     TestFlight;
+  4. provarla con TestFlight e inviarla alla revisione di Apple.
+
 ## Contribuire
 
 Vedi [CONTRIBUTING.md](CONTRIBUTING.md). Non serve saper programmare.
