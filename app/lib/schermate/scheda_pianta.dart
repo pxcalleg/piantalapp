@@ -18,9 +18,10 @@ class SchedaPianta extends StatelessWidget {
     final intro = Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        Text(p.nome, style: tema.textTheme.headlineSmall),
         Text(
           p.nomeScientifico,
-          style: tema.textTheme.titleLarge?.copyWith(
+          style: tema.textTheme.titleMedium?.copyWith(
             fontStyle: FontStyle.italic,
           ),
         ),
