@@ -145,7 +145,7 @@ class _ContattaciState extends State<Contattaci> {
                   for (final m in Motivo.values)
                     ChoiceChip(
                       avatar: Icon(m.icona, size: 18),
-                    showCheckmark: false,
+                      showCheckmark: false,
                       label: Text(m.etichetta),
                       selected: _motivo == m,
                       onSelected: (_) => setState(() => _motivo = m),
