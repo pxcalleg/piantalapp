@@ -99,8 +99,13 @@ class CreditiFoto extends StatelessWidget {
       await bundle.loadString('assets/immagini/crediti.json'),
     ) as Map<String, dynamic>;
     final piante =
-        (jsonDecode(await bundle.loadString('assets/piante.json'))
-                as Map<String, dynamic>)['piante']
+        // load invece di loadString: oltre i 50 KB loadString decodifica in
+        // un isolate, che nei test dei widget non termina mai.
+        (jsonDecode(
+              utf8.decode(
+                (await bundle.load('assets/piante.json')).buffer.asUint8List(),
+              ),
+            ) as Map<String, dynamic>)['piante']
             as List<dynamic>;
     final nomi = {
       for (final p in piante.cast<Map<String, dynamic>>())

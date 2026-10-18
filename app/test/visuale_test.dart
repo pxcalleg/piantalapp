@@ -151,13 +151,13 @@ void main() {
     await tester.runAsync(archivio.carica);
     await tester.pumpAndSettle();
 
-    final voce = find.text('Sansevieria').first;
+    final voce = find.text('Sansevieria');
     await tester.dragUntilVisible(
       voce,
-      find.byType(ListView).first,
+      find.byType(CustomScrollView).first,
       const Offset(0, -300),
     );
-    await tester.tap(voce);
+    await tester.tap(voce.first);
     await tester.pumpAndSettle();
 
     // In testa alla scheda si passa dalla foto alla pianta 3D.

@@ -22,7 +22,18 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('Pothos'), findsOneWidget);
+    // Le piante sono tante: la sansevieria può essere più in basso.
+    await tester.dragUntilVisible(
+      find.text('Sansevieria'),
+      find.byType(CustomScrollView).first,
+      const Offset(0, -300),
+    );
     expect(find.text('Sansevieria'), findsOneWidget);
+    await tester.dragUntilVisible(
+      find.widgetWithText(FilterChip, 'Terrarium'),
+      find.byType(CustomScrollView).first,
+      const Offset(0, 300),
+    );
 
     await tester.tap(find.widgetWithText(FilterChip, 'Terrarium'));
     await tester.pumpAndSettle();
