@@ -1,6 +1,8 @@
 import 'motore_3d.dart';
 import 'specie/ficus.dart';
+import 'specie/ficus_bambino.dart';
 import 'specie/fittonia.dart';
+import 'specie/liquidambar.dart';
 import 'specie/pothos.dart';
 import 'specie/sansevieria.dart';
 import 'specie/spatifillo.dart';
@@ -14,4 +16,6 @@ const Map<String, Specie> modelliVisuali = {
   'sansevieria': Sansevieria(),
   'fittonia': Fittonia(),
   'spatifillo': Spatifillo(),
+  'liquidambar': Liquidambar(),
+  'ficus-bambino': FicusBambino(),
 };
