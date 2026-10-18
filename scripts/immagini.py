@@ -60,7 +60,30 @@ def info(nome):
     }
 
 
+def verifica():
+    """Controlla solo che ogni foto esista su Commons e abbia licenza libera,
+    senza scaricare nulla: gira sulle pull request."""
+    errori = []
+    for file in sorted(PIANTE.glob("*.yaml")):
+        scheda = yaml.safe_load(file.read_text(encoding="utf-8"))
+        for imm in scheda.get("immagini", []):
+            try:
+                dati = info(imm["commons"])
+            except Exception as e:
+                errori.append(f"{file.name}: {e}")
+                continue
+            if not LICENZE_LIBERE.match(dati["licenza"]):
+                errori.append(f"{file.name}: licenza non libera '{dati['licenza']}' per {imm['commons']}")
+                continue
+            print(f"✓ {file.name}: {imm['commons']} ({dati['licenza']}, {dati['autore']})")
+    if errori:
+        print("\n".join(errori), file=sys.stderr)
+        sys.exit(1)
+
+
 def main():
+    if "--verifica" in sys.argv:
+        return verifica()
     CARTELLA.mkdir(parents=True, exist_ok=True)
     precedenti = {
         c["file"]: c["commons"]
