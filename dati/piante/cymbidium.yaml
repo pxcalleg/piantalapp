@@ -48,6 +48,17 @@ temperatura:
 terreno: Substrato per cymbidium, o corteccia fine con un po' di terriccio fibroso e perlite.
 rinvaso: Ogni 2-3 anni in primavera dopo la fioritura, quando i bulbi riempiono il vaso; si può dividere.
 propagazione: [divisione]
+come_si_propaga:
+  - metodo: divisione
+    quando: In primavera, subito dopo la fioritura, quando il vaso è pieno.
+    passi:
+      - Sfila la pianta dal vaso, togli il vecchio substrato ed elimina le radici marce o vuote.
+      - Dividi il cespo con le mani o un coltello disinfettato in porzioni di almeno 3-4 pseudobulbi con foglie.
+      - Invasa ogni porzione in un vaso appena più grande delle radici, con terriccio per Cymbidium o corteccia fine mescolata a torba.
+      - Tieni all'ombra luminosa e bagna poco per 2-3 settimane, finché vedi nuova crescita.
+    tempo: Riprende in 4-8 settimane; fiorisce di solito dopo 1-2 anni.
+    difficolta: media
+    note: Anche i vecchi pseudobulbi senza foglie, staccati e messi su sfagno umido, possono rimettere un germoglio in qualche mese.
 tossicita:
   animali: non_tossica
   persone: non_tossica

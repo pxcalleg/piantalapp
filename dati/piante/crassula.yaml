@@ -47,6 +47,28 @@ temperatura:
 terreno: Terriccio per piante grasse con pomice o sabbia grossa.
 rinvaso: Ogni 2-3 anni in primavera; vaso pesante in terracotta, perché la chioma tende a farla ribaltare.
 propagazione: [talea_fusto, talea_foglia]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: Da aprile a luglio, quando la pianta è in crescita.
+    passi:
+      - Taglia una punta di ramo lunga 8-12 cm con forbici pulite, appena sopra un nodo della pianta madre.
+      - Togli le foglie dei 2-3 cm più bassi e lascia asciugare la talea all'ombra per 3-5 giorni, finché il taglio fa la crosticina.
+      - Infila la base per 2-3 cm in un vasetto con terriccio per cactacee leggermente umido.
+      - Tieni in luce luminosa ma senza sole diretto, a 18-24 °C, senza coprire con plastica.
+      - Bagna solo quando il terriccio è asciutto; quando la talea resiste a una leggera tirata ha radicato.
+    tempo: Radici in 2-4 settimane.
+    difficolta: facile
+  - metodo: talea_foglia
+    quando: Da aprile a luglio.
+    passi:
+      - Stacca una foglia sana e carnosa con una leggera torsione, in modo che venga via intera con la sua base.
+      - Lasciala asciugare all'ombra per 2-3 giorni.
+      - Appoggiala sopra un terriccio per cactacee appena umido, con la base a contatto con il terreno o appena infilata.
+      - Metti in luce luminosa ma indiretta e nebulizza leggermente il terriccio quando è asciutto.
+      - Quando la piantina nuova è alta 2-3 cm e la foglia madre si è seccata, trapiantala in un vasetto piccolo.
+    tempo: Radici in 3-4 settimane, piantina visibile in 2-3 mesi.
+    difficolta: facile
+    note: È più lenta della talea di fusto; le foglie staccate a metà, senza la base, di solito non radicano.
 tossicita:
   animali: tossica
   persone: lieve

@@ -42,6 +42,8 @@ const etichettePropagazione = {
   'seme': 'seme',
   'margotta': 'margotta',
   'propaggine': 'propaggine',
+  'polloni': 'polloni (piantine figlie)',
+  'innesto': 'innesto',
 };
 
 const etichetteEsposizione = {

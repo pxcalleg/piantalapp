@@ -45,7 +45,38 @@ temperatura:
   note: Il riposo fresco (10-15 °C) e asciutto da ottobre a gennaio è ciò che fa nascere i boccioli.
 terreno: Corteccia di pino media per orchidee, in un vaso piccolo e ben drenato.
 rinvaso: Ogni 2-3 anni in primavera, quando spuntano le canne nuove; vaso appena più grande.
-propagazione: [divisione, talea_fusto]
+propagazione: [polloni, divisione, talea_fusto]
+come_si_propaga:
+  - metodo: polloni
+    quando: In primavera o estate, quando il keiki ha radici lunghe almeno 3-5 cm.
+    passi:
+      - Aspetta che la piantina (keiki) nata sulla canna abbia 2-3 foglie e qualche radice lunga 3-5 cm.
+      - Staccala con una leggera torsione o tagliala con un coltello disinfettato con alcol, con un pezzetto di canna.
+      - Mettila in un vasetto di 6-8 cm con corteccia fine per orchidee, fermandola con un tutore se dondola.
+      - Tieni in luce luminosa ma filtrata e nebulizza ogni 2-3 giorni finché le radici entrano nella corteccia.
+      - Bagna quando la corteccia è quasi asciutta, come una pianta adulta.
+    tempo: Si assesta in 4-6 settimane; fiorisce dopo 1-2 anni.
+    difficolta: facile
+  - metodo: divisione
+    quando: In primavera, quando spuntano le canne nuove alla base.
+    passi:
+      - Sfila la pianta dal vaso ed elimina la vecchia corteccia e le radici marce o vuote.
+      - Dividi il cespo con un coltello disinfettato in porzioni di almeno 3-4 canne, ognuna con radici sane e un germoglio nuovo.
+      - Metti ogni porzione in un vaso piccolo con corteccia per orchidee, con le canne vecchie verso il bordo.
+      - Lega le canne a un tutore e aspetta una settimana prima di bagnare, nebulizzando nel frattempo.
+    tempo: Riprende in 4-8 settimane.
+    difficolta: media
+    note: Le porzioni troppo piccole fanno fatica e possono non fiorire per un paio d'anni.
+  - metodo: talea_fusto
+    quando: Da maggio a luglio, con caldo e umidità.
+    passi:
+      - Taglia una canna vecchia e senza foglie alla base, con un coltello disinfettato.
+      - Dividila in pezzi di 10-15 cm, ognuno con almeno 2-3 nodi.
+      - Appoggia i pezzi sdraiati su sfagno umido in una vaschetta con coperchio trasparente.
+      - Tieni a 22-27 °C in luce luminosa ma filtrata, aprendo il coperchio ogni giorno per qualche minuto.
+      - Quando dai nodi spuntano piantine con radici di 3-5 cm, staccale e invasale come i keiki.
+    tempo: Piantine dai nodi in 2-4 mesi.
+    difficolta: difficile
 tossicita:
   animali: non_tossica
   persone: non_tossica

@@ -51,6 +51,18 @@ temperatura:
 terreno: Terriccio ben drenante con corteccia e perlite.
 rinvaso: Ogni 2 anni in primavera, in un vaso appena più grande.
 propagazione: [talea_fusto]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: Da maggio a luglio, con il caldo e la pianta in piena crescita.
+    passi:
+      - Taglia con forbici pulite una punta di 10-15 cm con 3-4 foglie, appena sotto un nodo, indossando i guanti.
+      - Sciacqua il taglio sotto l'acqua tiepida finché il lattice smette di uscire e togli le foglie più basse, lasciandone 2-3.
+      - Immergi la base in ormone radicante e interrala per 3-4 cm in un vasetto con torba e perlite in parti uguali.
+      - Copri con un sacchetto trasparente e tieni a 22-25 °C, in luce indiretta, con il terriccio appena umido.
+      - Quando spuntano foglie nuove togli il sacchetto e dopo un mese rinvasa in terriccio ben drenante con corteccia.
+    tempo: Radici in 4-8 settimane.
+    difficolta: media
+    note: La talea può radicare anche in un bicchiere d'acqua, cambiata ogni settimana. Le talee prese dal 'Bambino' restano nane come la pianta madre.
 tossicita:
   animali: tossica
   persone: lieve

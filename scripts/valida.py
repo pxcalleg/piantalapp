@@ -28,6 +28,12 @@ def controlli_extra(scheda, file):
     luce = scheda.get("luce", {})
     if luce.get("ideale") in luce.get("tollera", []):
         errori.append("luce: il livello ideale non va ripetuto in 'tollera'")
+    elencati = set(scheda.get("propagazione", []))
+    spiegati = [g["metodo"] for g in scheda.get("come_si_propaga", [])]
+    if len(spiegati) != len(set(spiegati)):
+        errori.append("come_si_propaga: ogni metodo va spiegato una volta sola")
+    if set(spiegati) != elencati:
+        errori.append("come_si_propaga: serve una spiegazione per ogni metodo di 'propagazione', e solo per quelli")
     return errori
 
 

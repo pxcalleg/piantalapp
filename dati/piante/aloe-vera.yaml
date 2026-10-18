@@ -46,7 +46,19 @@ temperatura:
   ideale_max_c: 30
 terreno: Terriccio per piante grasse, oppure universale con almeno un terzo di pomice o sabbia grossa.
 rinvaso: Ogni 2-3 anni in primavera, in un vaso di terracotta poco più largo, con fori di drenaggio.
-propagazione: [divisione]
+propagazione: [polloni]
+come_si_propaga:
+  - metodo: polloni
+    quando: In primavera o inizio estate, meglio durante il rinvaso.
+    passi:
+      - Scegli i polloni alti almeno 8-10 cm, con 4-5 foglie e qualche radice propria.
+      - Sfila la pianta dal vaso e separa il pollone dalla madre con le dita o con un coltello pulito, tenendo le sue radici.
+      - Lascia asciugare il taglio all'ombra per 1-2 giorni, finché fa la crosticina.
+      - Invasa in un vasetto di 10 cm con terriccio per cactacee e un po' di sabbia o pomice.
+      - Tieni in luce luminosa ma non al sole diretto e aspetta una settimana prima di bagnare poco.
+    tempo: Si assesta in 3-4 settimane, poi riprende a crescere.
+    difficolta: facile
+    note: I polloni troppo piccoli e senza radici marciscono facilmente; meglio aspettare che crescano attaccati alla madre.
 tossicita:
   animali: tossica
   persone: lieve

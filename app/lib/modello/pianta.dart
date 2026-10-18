@@ -23,6 +23,7 @@ class Pianta {
     this.terreno,
     this.rinvaso,
     this.propagazione = const [],
+    this.comeSiPropaga = const [],
     this.problemiComuni = const [],
     this.immagini = const [],
   });
@@ -45,6 +46,9 @@ class Pianta {
   final String? terreno;
   final String? rinvaso;
   final List<String> propagazione;
+
+  /// Spiegazione passo passo di ogni metodo di [propagazione].
+  final List<GuidaPropagazione> comeSiPropaga;
   final Tossicita tossicita;
   final List<ProblemaComune> problemiComuni;
   final List<Immagine> immagini;
@@ -82,6 +86,9 @@ class Pianta {
     terreno: j['terreno'] as String?,
     rinvaso: j['rinvaso'] as String?,
     propagazione: _stringhe(j['propagazione']),
+    comeSiPropaga: ((j['come_si_propaga'] as List?) ?? const [])
+        .map((g) => GuidaPropagazione.fromJson(g as Map<String, dynamic>))
+        .toList(),
     tossicita: Tossicita.fromJson(j['tossicita'] as Map<String, dynamic>),
     problemiComuni: ((j['problemi_comuni'] as List?) ?? const [])
         .map((p) => ProblemaComune.fromJson(p as Map<String, dynamic>))
@@ -268,6 +275,35 @@ class ProblemaComune {
     causa: j['causa'] as String,
     rimedio: j['rimedio'] as String,
   );
+}
+
+/// Come moltiplicare la pianta con un metodo: quando farlo e i passi.
+class GuidaPropagazione {
+  const GuidaPropagazione({
+    required this.metodo,
+    required this.quando,
+    required this.passi,
+    this.tempo,
+    this.difficolta,
+    this.note,
+  });
+
+  final String metodo;
+  final String quando;
+  final List<String> passi;
+  final String? tempo;
+  final String? difficolta;
+  final String? note;
+
+  factory GuidaPropagazione.fromJson(Map<String, dynamic> j) =>
+      GuidaPropagazione(
+        metodo: j['metodo'] as String,
+        quando: j['quando'] as String,
+        passi: _stringhe(j['passi']),
+        tempo: j['tempo'] as String?,
+        difficolta: j['difficolta'] as String?,
+        note: j['note'] as String?,
+      );
 }
 
 /// Foto reale da Wikimedia Commons, con i dati per citarne l'autore.

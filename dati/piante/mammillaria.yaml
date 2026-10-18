@@ -46,7 +46,28 @@ temperatura:
   note: Un inverno fresco (8-12 °C) e asciutto è il segreto per vederlo fiorire in primavera.
 terreno: Terriccio per cactus molto drenante, con metà pomice o lapillo.
 rinvaso: Ogni 2-3 anni in primavera, con terriccio asciutto e guanti o una striscia di carta per prenderlo.
-propagazione: [divisione, seme]
+propagazione: [polloni, seme]
+come_si_propaga:
+  - metodo: polloni
+    quando: Da aprile a giugno, quando la pianta riprende a crescere.
+    passi:
+      - Proteggi le mani con guanti spessi o una striscia di carta di giornale piegata attorno alla pianta.
+      - Stacca le testine laterali più grandi con le dita o una pinzetta, oppure tagliale alla base con un coltellino pulito.
+      - Lascia asciugare il taglio all'ombra per 3-7 giorni, finché fa la crosticina.
+      - Appoggia le testine su terriccio per cactacee asciutto con molta pomice, premendole appena.
+      - Aspetta 1-2 settimane prima di bagnare poco, e tieni in luce luminosa senza sole forte.
+    tempo: Radici in 3-6 settimane.
+    difficolta: facile
+  - metodo: seme
+    quando: In primavera, con 20-25 °C.
+    passi:
+      - Riempi un vasetto con terriccio per cactacee fine e sabbia, e inumidiscilo bene.
+      - Spargi i semi in superficie e coprili solo con un velo sottilissimo di sabbia fine.
+      - Copri con un sacchetto trasparente o un coperchio e metti in luce luminosa senza sole diretto.
+      - Mantieni appena umido e togli la copertura poco alla volta dopo 4-6 settimane dalla germinazione.
+      - Trapianta le piantine quando sono larghe circa 1 cm, di solito dopo un anno.
+    tempo: Germinazione in 1-4 settimane; prima fioritura dopo 2-4 anni.
+    difficolta: difficile
 tossicita:
   animali: non_tossica
   persone: non_tossica

@@ -44,6 +44,29 @@ temperatura:
 terreno: Terriccio per cactus con pomice o sabbia grossa.
 rinvaso: Ogni 2-3 anni in primavera; usare guanti spessi o un panno ripiegato per non riempirsi di glochidi.
 propagazione: [talea_fusto, seme]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: Da maggio a luglio, con il caldo.
+    passi:
+      - Indossa guanti spessi e afferra la pala con una pinza da cucina, perché i glochidi si staccano al minimo tocco.
+      - Stacca una pala intera nel punto di giunzione con una leggera torsione o un coltello pulito.
+      - Lascia asciugare la pala all'ombra per 1-2 settimane, finché la base forma una crosta secca.
+      - Infila la base per 2-3 cm in terriccio per cactacee asciutto, appoggiandola a un sostegno se serve.
+      - Tieni in pieno sole e inizia a bagnare poco dopo 2-3 settimane.
+    tempo: Radici in 3-6 settimane.
+    difficolta: facile
+    note: I glochidi sono finissimi e irritano la pelle; se ne restano attaccati, toglili con nastro adesivo.
+  - metodo: seme
+    quando: In primavera, con 20-30 °C.
+    passi:
+      - Metti i semi in acqua tiepida per 24 ore e graffia leggermente il guscio duro con carta vetrata fine.
+      - Seminali a circa 3-5 mm di profondità in terriccio per cactacee con sabbia, leggermente umido.
+      - Copri con pellicola trasparente e metti in un posto caldo e luminoso, senza sole diretto.
+      - Mantieni appena umido e togli la copertura quando le piantine sono spuntate.
+      - Trapianta in vasetti singoli quando hanno formato la prima piccola pala.
+    tempo: Germinazione in 3-8 settimane, a volte irregolare.
+    difficolta: difficile
+    note: Il seme è lento e la talea di pala dà una pianta grande molto prima.
 tossicita:
   animali: non_tossica
   persone: non_tossica

@@ -45,7 +45,50 @@ temperatura:
   ideale_max_c: 28
 terreno: Terriccio per piante grasse con molta pomice o lapillo.
 rinvaso: Ogni 2 anni in primavera, in vasi bassi di terracotta.
-propagazione: [talea_foglia, divisione, seme]
+propagazione: [polloni, talea_fusto, talea_foglia, seme]
+come_si_propaga:
+  - metodo: polloni
+    quando: Da marzo a giugno, anche durante il rinvaso.
+    passi:
+      - Scegli le rosette laterali larghe almeno 3-4 cm che crescono attorno alla madre.
+      - Staccale con le dita o tagliale con un coltellino pulito, tenendo un pezzetto di stolone o qualche radice.
+      - Lascia asciugare il taglio all'ombra per 1-2 giorni.
+      - Appoggiale su terriccio per cactacee con sabbia o pomice, leggermente umido.
+      - Tieni in luce luminosa senza sole forte per due settimane, poi tratta come una pianta adulta.
+    tempo: Radici in 2-3 settimane.
+    difficolta: facile
+  - metodo: talea_fusto
+    quando: Da aprile a giugno; è il rimedio ideale per una pianta allungata.
+    passi:
+      - Taglia la rosetta lasciando 2-3 cm di fusto sotto le foglie, con un coltello pulito e affilato.
+      - Togli le foglie più basse dal pezzetto di fusto e lascia asciugare la rosetta all'ombra per 3-5 giorni.
+      - Appoggia la rosetta su terriccio per cactacee asciutto, con il fusto appena infilato.
+      - Aspetta una settimana prima di bagnare poco, e tieni in luce luminosa indiretta.
+      - Lascia il vecchio fusto nel vaso, perché spesso produce nuove rosette dai lati.
+    tempo: Radici in 2-4 settimane.
+    difficolta: facile
+  - metodo: talea_foglia
+    quando: Da aprile a giugno, con temperature sopra i 18 °C.
+    passi:
+      - Stacca una foglia bassa e sana con una leggera torsione, in modo che venga via intera con la base.
+      - Lasciala asciugare all'ombra per 2-3 giorni.
+      - Appoggiala sdraiata su terriccio per cactacee asciutto, senza interrarla.
+      - Tieni in luce luminosa indiretta e nebulizza il terriccio una volta a settimana, quando spuntano le prime radici rosa.
+      - Quando la nuova rosetta è larga 2 cm e la foglia madre è secca, trapiantala in un vasetto piccolo.
+    tempo: Radici in 2-3 settimane, rosetta in 6-8 settimane.
+    difficolta: facile
+    note: Non tutte le foglie partono, quindi metti a radicare 5-10 foglie per avere qualche piantina sicura.
+  - metodo: seme
+    quando: In primavera, con 20-25 °C.
+    passi:
+      - Riempi una vaschetta con terriccio per cactacee setacciato e fine, e inumidiscilo bene.
+      - Spargi i semi, che sono minuscoli, sulla superficie senza coprirli.
+      - Copri con un coperchio trasparente o pellicola per tenere l'umidità e metti in luce luminosa senza sole diretto.
+      - Nebulizza per mantenere sempre appena umido e togli la copertura poco alla volta dopo la germinazione.
+      - Trapianta le piantine in vasetti singoli quando sono larghe circa 1 cm.
+    tempo: Germinazione in 1-3 settimane; piantine da trapiantare dopo 4-6 mesi.
+    difficolta: difficile
+    note: Le Echeveria si incrociano facilmente tra loro, quindi da seme le piantine possono non somigliare alla madre.
 tossicita:
   animali: non_tossica
   persone: non_tossica

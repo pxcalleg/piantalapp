@@ -209,19 +209,27 @@ class SchedaPianta extends StatelessWidget {
               ),
               _Sezione(
                 icona: Icons.grass,
-                titolo: 'Terreno, rinvaso e propagazione',
+                titolo: 'Terreno e rinvaso',
                 voci: [
                   if (p.terreno != null) ('Terreno', p.terreno!),
                   if (p.rinvaso != null) ('Rinvaso', p.rinvaso!),
-                  if (p.propagazione.isNotEmpty)
+                ],
+              ),
+              if (p.comeSiPropaga.isNotEmpty)
+                _ComeSiPropaga(p.comeSiPropaga)
+              else if (p.propagazione.isNotEmpty)
+                _Sezione(
+                  icona: Icons.content_cut,
+                  titolo: 'Come si propaga',
+                  voci: [
                     (
                       'Si moltiplica per',
                       p.propagazione
                           .map((m) => etichetta(etichettePropagazione, m))
                           .join(', '),
                     ),
-                ],
-              ),
+                  ],
+                ),
               _Sezione(
                 icona: Icons.pets,
                 titolo: 'Tossicità',
@@ -273,6 +281,128 @@ class _Pillola extends StatelessWidget {
   @override
   Widget build(BuildContext context) =>
       Chip(avatar: Icon(icona, size: 18), label: Text(testo));
+}
+
+/// Un riquadro per ogni metodo, dal più semplice, con periodo, passi
+/// numerati, tempi e difficoltà.
+class _ComeSiPropaga extends StatelessWidget {
+  const _ComeSiPropaga(this.guide);
+
+  final List<GuidaPropagazione> guide;
+
+  static const _difficolta = {
+    'facile': 'Facile',
+    'media': 'Media',
+    'difficile': 'Difficile',
+  };
+
+  @override
+  Widget build(BuildContext context) {
+    final tema = Theme.of(context);
+    final grassetto = const TextStyle(fontWeight: FontWeight.w600);
+    return Padding(
+      padding: const EdgeInsets.only(top: 24),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Icon(Icons.content_cut, color: tema.colorScheme.primary),
+              const SizedBox(width: 8),
+              Expanded(
+                child: Text(
+                  'Come si propaga',
+                  style: tema.textTheme.titleMedium,
+                ),
+              ),
+            ],
+          ),
+          for (final g in guide)
+            Container(
+              margin: const EdgeInsets.only(top: 10),
+              padding: const EdgeInsets.all(14),
+              decoration: BoxDecoration(
+                color: tema.colorScheme.surfaceContainerLow,
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Text(
+                          _maiuscola(
+                            etichetta(etichettePropagazione, g.metodo),
+                          ),
+                          style: tema.textTheme.titleSmall,
+                        ),
+                      ),
+                      if (_difficolta[g.difficolta] case final d?)
+                        Text(
+                          d,
+                          style: tema.textTheme.labelMedium?.copyWith(
+                            color: tema.colorScheme.primary,
+                          ),
+                        ),
+                    ],
+                  ),
+                  const SizedBox(height: 6),
+                  Text.rich(
+                    TextSpan(
+                      children: [
+                        TextSpan(text: 'Quando: ', style: grassetto),
+                        TextSpan(text: g.quando),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(height: 6),
+                  for (final (i, passo) in g.passi.indexed)
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 4),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          SizedBox(
+                            width: 22,
+                            child: Text('${i + 1}.', style: grassetto),
+                          ),
+                          Expanded(child: Text(passo)),
+                        ],
+                      ),
+                    ),
+                  if (g.tempo != null)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 4),
+                      child: Text.rich(
+                        TextSpan(
+                          children: [
+                            TextSpan(text: 'Tempi: ', style: grassetto),
+                            TextSpan(text: g.tempo),
+                          ],
+                        ),
+                      ),
+                    ),
+                  if (g.note != null)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 4),
+                      child: Text(
+                        g.note!,
+                        style: tema.textTheme.bodySmall?.copyWith(
+                          color: tema.colorScheme.onSurfaceVariant,
+                        ),
+                      ),
+                    ),
+                ],
+              ),
+            ),
+        ],
+      ),
+    );
+  }
+
+  static String _maiuscola(String s) =>
+      s.isEmpty ? s : s[0].toUpperCase() + s.substring(1);
 }
 
 class _Sezione extends StatelessWidget {

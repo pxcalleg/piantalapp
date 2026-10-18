@@ -65,6 +65,27 @@ rinvaso: >-
   solo i fiori secchi, tagliando sopra la prima coppia di gemme sane: i rami
   dell'anno prima portano i fiori.
 propagazione: [talea_fusto, propaggine]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: Da maggio a luglio, con germogli verdi dell'anno senza fiori; in alternativa a fine estate con rami semi-maturi.
+    passi:
+      - Taglia la punta di un germoglio senza fiori lunga 10-15 cm, con due o tre coppie di foglie, appena sotto un nodo.
+      - Togli le foglie più basse e taglia a metà quelle rimaste per ridurre la perdita d'acqua.
+      - Intingi la base in ormone radicante (aiuta, ma non è obbligatorio) e infilala fino al primo nodo in terriccio misto a perlite o sabbia.
+      - Annaffia, copri con un sacchetto trasparente e tieni all'ombra luminosa, a 18-22 °C, con il terriccio sempre umido.
+      - Quando la talea emette foglie nuove togli il sacchetto; trapianta in un vaso più grande dopo 2-3 mesi e proteggi dal gelo il primo inverno.
+    tempo: Radici in 3-4 settimane.
+    difficolta: facile
+    note: Il colore dei fiori dipende dal terreno, quindi la nuova pianta può fiorire rosa o blu in modo diverso dalla madre.
+  - metodo: propaggine
+    quando: In primavera o in estate, con un ramo basso e flessibile.
+    passi:
+      - Piega a terra un ramo basso e, nel punto che tocca il suolo, togli le foglie e incidi leggermente la corteccia.
+      - Interra quel tratto a 5-8 cm di profondità e fermalo con un picchetto o un sasso, lasciando fuori la punta con le foglie.
+      - Tieni il terreno umido per tutta l'estate.
+      - La primavera successiva, quando il ramo ha radicato, taglialo dalla pianta madre e trapiantalo.
+    tempo: Radici in una stagione, circa 6-12 mesi.
+    difficolta: facile
 tossicita:
   animali: tossica
   persone: lieve

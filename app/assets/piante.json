@@ -84,7 +84,23 @@
    "terreno": "Terriccio per piante grasse, oppure universale con almeno un terzo di pomice o sabbia grossa.",
    "rinvaso": "Ogni 2-3 anni in primavera, in un vaso di terracotta poco più largo, con fori di drenaggio.",
    "propagazione": [
-    "divisione"
+    "polloni"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "polloni",
+     "quando": "In primavera o inizio estate, meglio durante il rinvaso.",
+     "passi": [
+      "Scegli i polloni alti almeno 8-10 cm, con 4-5 foglie e qualche radice propria.",
+      "Sfila la pianta dal vaso e separa il pollone dalla madre con le dita o con un coltello pulito, tenendo le sue radici.",
+      "Lascia asciugare il taglio all'ombra per 1-2 giorni, finché fa la crosticina.",
+      "Invasa in un vasetto di 10 cm con terriccio per cactacee e un po' di sabbia o pomice.",
+      "Tieni in luce luminosa ma non al sole diretto e aspetta una settimana prima di bagnare poco."
+     ],
+     "tempo": "Si assesta in 3-4 settimane, poi riprende a crescere.",
+     "difficolta": "facile",
+     "note": "I polloni troppo piccoli e senza radici marciscono facilmente; meglio aspettare che crescano attaccati alla madre."
+    }
    ],
    "tossicita": {
     "animali": "tossica",
@@ -220,6 +236,35 @@
     "talea_fusto",
     "talea_foglia"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da aprile a luglio, quando la pianta è in crescita.",
+     "passi": [
+      "Taglia una punta di ramo lunga 8-12 cm con forbici pulite, appena sopra un nodo della pianta madre.",
+      "Togli le foglie dei 2-3 cm più bassi e lascia asciugare la talea all'ombra per 3-5 giorni, finché il taglio fa la crosticina.",
+      "Infila la base per 2-3 cm in un vasetto con terriccio per cactacee leggermente umido.",
+      "Tieni in luce luminosa ma senza sole diretto, a 18-24 °C, senza coprire con plastica.",
+      "Bagna solo quando il terriccio è asciutto; quando la talea resiste a una leggera tirata ha radicato."
+     ],
+     "tempo": "Radici in 2-4 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "talea_foglia",
+     "quando": "Da aprile a luglio.",
+     "passi": [
+      "Stacca una foglia sana e carnosa con una leggera torsione, in modo che venga via intera con la sua base.",
+      "Lasciala asciugare all'ombra per 2-3 giorni.",
+      "Appoggiala sopra un terriccio per cactacee appena umido, con la base a contatto con il terreno o appena infilata.",
+      "Metti in luce luminosa ma indiretta e nebulizza leggermente il terriccio quando è asciutto.",
+      "Quando la piantina nuova è alta 2-3 cm e la foglia madre si è seccata, trapiantala in un vasetto piccolo."
+     ],
+     "tempo": "Radici in 3-4 settimane, piantina visibile in 2-3 mesi.",
+     "difficolta": "facile",
+     "note": "È più lenta della talea di fusto; le foglie staccate a metà, senza la base, di solito non radicano."
+    }
+   ],
    "tossicita": {
     "animali": "tossica",
     "persone": "lieve",
@@ -351,6 +396,21 @@
    "propagazione": [
     "divisione"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "In primavera, subito dopo la fioritura, quando il vaso è pieno.",
+     "passi": [
+      "Sfila la pianta dal vaso, togli il vecchio substrato ed elimina le radici marce o vuote.",
+      "Dividi il cespo con le mani o un coltello disinfettato in porzioni di almeno 3-4 pseudobulbi con foglie.",
+      "Invasa ogni porzione in un vaso appena più grande delle radici, con terriccio per Cymbidium o corteccia fine mescolata a torba.",
+      "Tieni all'ombra luminosa e bagna poco per 2-3 settimane, finché vedi nuova crescita."
+     ],
+     "tempo": "Riprende in 4-8 settimane; fiorisce di solito dopo 1-2 anni.",
+     "difficolta": "media",
+     "note": "Anche i vecchi pseudobulbi senza foglie, staccati e messi su sfagno umido, possono rimettere un germoglio in qualche mese."
+    }
+   ],
    "tossicita": {
     "animali": "non_tossica",
     "persone": "non_tossica",
@@ -471,8 +531,50 @@
    "terreno": "Corteccia di pino media per orchidee, in un vaso piccolo e ben drenato.",
    "rinvaso": "Ogni 2-3 anni in primavera, quando spuntano le canne nuove; vaso appena più grande.",
    "propagazione": [
+    "polloni",
     "divisione",
     "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "polloni",
+     "quando": "In primavera o estate, quando il keiki ha radici lunghe almeno 3-5 cm.",
+     "passi": [
+      "Aspetta che la piantina (keiki) nata sulla canna abbia 2-3 foglie e qualche radice lunga 3-5 cm.",
+      "Staccala con una leggera torsione o tagliala con un coltello disinfettato con alcol, con un pezzetto di canna.",
+      "Mettila in un vasetto di 6-8 cm con corteccia fine per orchidee, fermandola con un tutore se dondola.",
+      "Tieni in luce luminosa ma filtrata e nebulizza ogni 2-3 giorni finché le radici entrano nella corteccia.",
+      "Bagna quando la corteccia è quasi asciutta, come una pianta adulta."
+     ],
+     "tempo": "Si assesta in 4-6 settimane; fiorisce dopo 1-2 anni.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "divisione",
+     "quando": "In primavera, quando spuntano le canne nuove alla base.",
+     "passi": [
+      "Sfila la pianta dal vaso ed elimina la vecchia corteccia e le radici marce o vuote.",
+      "Dividi il cespo con un coltello disinfettato in porzioni di almeno 3-4 canne, ognuna con radici sane e un germoglio nuovo.",
+      "Metti ogni porzione in un vaso piccolo con corteccia per orchidee, con le canne vecchie verso il bordo.",
+      "Lega le canne a un tutore e aspetta una settimana prima di bagnare, nebulizzando nel frattempo."
+     ],
+     "tempo": "Riprende in 4-8 settimane.",
+     "difficolta": "media",
+     "note": "Le porzioni troppo piccole fanno fatica e possono non fiorire per un paio d'anni."
+    },
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a luglio, con caldo e umidità.",
+     "passi": [
+      "Taglia una canna vecchia e senza foglie alla base, con un coltello disinfettato.",
+      "Dividila in pezzi di 10-15 cm, ognuno con almeno 2-3 nodi.",
+      "Appoggia i pezzi sdraiati su sfagno umido in una vaschetta con coperchio trasparente.",
+      "Tieni a 22-27 °C in luce luminosa ma filtrata, aprendo il coperchio ogni giorno per qualche minuto.",
+      "Quando dai nodi spuntano piantine con radici di 3-5 cm, staccale e invasale come i keiki."
+     ],
+     "tempo": "Piantine dai nodi in 2-4 mesi.",
+     "difficolta": "difficile"
+    }
    ],
    "tossicita": {
     "animali": "non_tossica",
@@ -598,9 +700,66 @@
    "terreno": "Terriccio per piante grasse con molta pomice o lapillo.",
    "rinvaso": "Ogni 2 anni in primavera, in vasi bassi di terracotta.",
    "propagazione": [
+    "polloni",
+    "talea_fusto",
     "talea_foglia",
-    "divisione",
     "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "polloni",
+     "quando": "Da marzo a giugno, anche durante il rinvaso.",
+     "passi": [
+      "Scegli le rosette laterali larghe almeno 3-4 cm che crescono attorno alla madre.",
+      "Staccale con le dita o tagliale con un coltellino pulito, tenendo un pezzetto di stolone o qualche radice.",
+      "Lascia asciugare il taglio all'ombra per 1-2 giorni.",
+      "Appoggiale su terriccio per cactacee con sabbia o pomice, leggermente umido.",
+      "Tieni in luce luminosa senza sole forte per due settimane, poi tratta come una pianta adulta."
+     ],
+     "tempo": "Radici in 2-3 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da aprile a giugno; è il rimedio ideale per una pianta allungata.",
+     "passi": [
+      "Taglia la rosetta lasciando 2-3 cm di fusto sotto le foglie, con un coltello pulito e affilato.",
+      "Togli le foglie più basse dal pezzetto di fusto e lascia asciugare la rosetta all'ombra per 3-5 giorni.",
+      "Appoggia la rosetta su terriccio per cactacee asciutto, con il fusto appena infilato.",
+      "Aspetta una settimana prima di bagnare poco, e tieni in luce luminosa indiretta.",
+      "Lascia il vecchio fusto nel vaso, perché spesso produce nuove rosette dai lati."
+     ],
+     "tempo": "Radici in 2-4 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "talea_foglia",
+     "quando": "Da aprile a giugno, con temperature sopra i 18 °C.",
+     "passi": [
+      "Stacca una foglia bassa e sana con una leggera torsione, in modo che venga via intera con la base.",
+      "Lasciala asciugare all'ombra per 2-3 giorni.",
+      "Appoggiala sdraiata su terriccio per cactacee asciutto, senza interrarla.",
+      "Tieni in luce luminosa indiretta e nebulizza il terriccio una volta a settimana, quando spuntano le prime radici rosa.",
+      "Quando la nuova rosetta è larga 2 cm e la foglia madre è secca, trapiantala in un vasetto piccolo."
+     ],
+     "tempo": "Radici in 2-3 settimane, rosetta in 6-8 settimane.",
+     "difficolta": "facile",
+     "note": "Non tutte le foglie partono, quindi metti a radicare 5-10 foglie per avere qualche piantina sicura."
+    },
+    {
+     "metodo": "seme",
+     "quando": "In primavera, con 20-25 °C.",
+     "passi": [
+      "Riempi una vaschetta con terriccio per cactacee setacciato e fine, e inumidiscilo bene.",
+      "Spargi i semi, che sono minuscoli, sulla superficie senza coprirli.",
+      "Copri con un coperchio trasparente o pellicola per tenere l'umidità e metti in luce luminosa senza sole diretto.",
+      "Nebulizza per mantenere sempre appena umido e togli la copertura poco alla volta dopo la germinazione.",
+      "Trapianta le piantine in vasetti singoli quando sono larghe circa 1 cm."
+     ],
+     "tempo": "Germinazione in 1-3 settimane; piantine da trapiantare dopo 4-6 mesi.",
+     "difficolta": "difficile",
+     "note": "Le Echeveria si incrociano facilmente tra loro, quindi da seme le piantine possono non somigliare alla madre."
+    }
    ],
    "tossicita": {
     "animali": "non_tossica",
@@ -730,6 +889,22 @@
    "propagazione": [
     "talea_fusto"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a luglio, con il caldo e la pianta in piena crescita.",
+     "passi": [
+      "Taglia con forbici pulite una punta di 10-15 cm con 3-4 foglie, appena sotto un nodo, indossando i guanti.",
+      "Sciacqua il taglio sotto l'acqua tiepida finché il lattice smette di uscire e togli le foglie più basse, lasciandone 2-3.",
+      "Immergi la base in ormone radicante e interrala per 3-4 cm in un vasetto con torba e perlite in parti uguali.",
+      "Copri con un sacchetto trasparente e tieni a 22-25 °C, in luce indiretta, con il terriccio appena umido.",
+      "Quando spuntano foglie nuove togli il sacchetto e dopo un mese rinvasa in terriccio ben drenante con corteccia."
+     ],
+     "tempo": "Radici in 4-8 settimane.",
+     "difficolta": "media",
+     "note": "La talea può radicare anche in un bicchiere d'acqua, cambiata ogni settimana. Le talee prese dal 'Bambino' restano nane come la pianta madre."
+    }
+   ],
    "tossicita": {
     "animali": "tossica",
     "persone": "lieve",
@@ -857,6 +1032,36 @@
     "talea_fusto",
     "margotta"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a luglio, con rametti dell'anno semilegnosi (non più teneri ma ancora flessibili).",
+     "passi": [
+      "Taglia con forbici pulite una punta di 10-15 cm con 4-6 foglie, appena sotto un nodo.",
+      "Togli le foglie della metà inferiore e sciacqua il taglio sotto l'acqua tiepida per fermare il lattice.",
+      "Immergi la base in ormone radicante in polvere e interrala per 3-4 cm in un vasetto con torba e perlite in parti uguali.",
+      "Copri con un sacchetto trasparente o una bottiglia tagliata e tieni a 21-24 °C, in luce indiretta, con il terriccio appena umido.",
+      "Quando la talea mette foglie nuove, togli la copertura e dopo qualche settimana rinvasala in terriccio universale."
+     ],
+     "tempo": "Radici in 4-8 settimane.",
+     "difficolta": "media",
+     "note": "Il lattice bianco che esce dal taglio irrita la pelle e gli occhi, quindi usa i guanti e lascialo asciugare prima di interrare la talea."
+    },
+    {
+     "metodo": "margotta",
+     "quando": "In primavera o inizio estate, su un ramo legnoso spesso almeno quanto una matita.",
+     "passi": [
+      "Scegli un ramo e, 20-30 cm sotto la punta, togli con un coltellino pulito un anello di corteccia largo circa 1-2 cm.",
+      "Spolvera la ferita con ormone radicante e avvolgila con una manciata di sfagno bagnato e strizzato.",
+      "Chiudi lo sfagno con una pellicola trasparente legata sopra e sotto, così resta umido e puoi vedere le radici.",
+      "Controlla ogni settimana e, se lo sfagno si asciuga, inumidiscilo con una siringa.",
+      "Quando le radici riempiono lo sfagno, taglia il ramo sotto la margotta, togli la pellicola e invasa senza staccare lo sfagno."
+     ],
+     "tempo": "Radici in 6-10 settimane.",
+     "difficolta": "media",
+     "note": "Ottima per avere subito una pianta già grande e per ringiovanire un esemplare spoglio in basso."
+    }
+   ],
    "tossicita": {
     "animali": "tossica",
     "persone": "lieve",
@@ -897,7 +1102,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-17"
+   "aggiornato": "2026-10-18"
   },
   {
    "schema_version": 1,
@@ -986,6 +1191,36 @@
     "talea_fusto",
     "margotta"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a luglio, con il caldo e la pianta in piena crescita.",
+     "passi": [
+      "Taglia con un coltello affilato e pulito una punta di 15-20 cm con 2-3 foglie, appena sotto un nodo.",
+      "Sciacqua il taglio sotto l'acqua tiepida finché il lattice smette di uscire e lascialo asciugare per un'ora.",
+      "Riduci le foglie a 2, e se sono molto grandi arrotolale o tagliale a metà per ridurre la perdita d'acqua.",
+      "Immergi la base in ormone radicante e interrala in un vasetto con torba e perlite in parti uguali, legandola a un bastoncino se serve.",
+      "Copri con un sacchetto trasparente, tieni a 22-25 °C in luce indiretta e rinvasa in terriccio normale quando spuntano foglie nuove."
+     ],
+     "tempo": "Radici in 4-8 settimane.",
+     "difficolta": "media",
+     "note": "Il lattice bianco irrita pelle e occhi, quindi usa i guanti. La talea si può anche far radicare in un vaso d'acqua, cambiandola ogni settimana."
+    },
+    {
+     "metodo": "margotta",
+     "quando": "In primavera o inizio estate, su un fusto o ramo legnoso.",
+     "passi": [
+      "Scegli il punto dove vuoi le radici, 30-40 cm sotto la punta, e togli un anello di corteccia largo 1-2 cm con un coltellino pulito.",
+      "Spolvera la ferita con ormone radicante e avvolgila con una grossa manciata di sfagno bagnato e strizzato.",
+      "Chiudi lo sfagno con pellicola trasparente legata sopra e sotto, per tenerlo umido e vedere le radici.",
+      "Controlla ogni settimana e inumidisci lo sfagno con una siringa se si asciuga.",
+      "Quando le radici riempiono lo sfagno, taglia il fusto sotto la margotta e invasa la nuova pianta senza togliere lo sfagno."
+     ],
+     "tempo": "Radici in 6-10 settimane.",
+     "difficolta": "media",
+     "note": "È il metodo più sicuro per il Ficus elastica, perché il ramo resta nutrito dalla pianta madre finché ha le sue radici. La pianta madre, cimata, rimette rami laterali."
+    }
+   ],
    "tossicita": {
     "animali": "tossica",
     "persone": "lieve",
@@ -1026,7 +1261,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-17"
+   "aggiornato": "2026-10-18"
   },
   {
    "schema_version": 1,
@@ -1111,6 +1346,36 @@
     "talea_fusto",
     "margotta"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a luglio, con il caldo e la pianta in piena crescita.",
+     "passi": [
+      "Taglia con un coltello affilato e pulito una punta di 15-20 cm con 2-3 foglie, appena sotto un nodo.",
+      "Sciacqua il taglio sotto l'acqua tiepida finché il lattice smette di uscire e lascialo asciugare per un'ora.",
+      "Riduci le foglie a 2, e se sono molto grandi arrotolale o tagliale a metà per ridurre la perdita d'acqua.",
+      "Immergi la base in ormone radicante e interrala in un vasetto con torba e perlite in parti uguali, legandola a un bastoncino se serve.",
+      "Copri con un sacchetto trasparente, tieni a 22-25 °C in luce indiretta e rinvasa in terriccio normale quando spuntano foglie nuove."
+     ],
+     "tempo": "Radici in 4-8 settimane.",
+     "difficolta": "media",
+     "note": "Il lattice bianco irrita pelle e occhi, quindi usa i guanti. Le talee di Ficus lyrata radicano anche in acqua, ma lentamente; una foglia singola senza un pezzo di fusto fa radici ma non germoglia."
+    },
+    {
+     "metodo": "margotta",
+     "quando": "In primavera o inizio estate, su un fusto o ramo legnoso.",
+     "passi": [
+      "Scegli il punto dove vuoi le radici, 30-40 cm sotto la punta, e togli un anello di corteccia largo 1-2 cm con un coltellino pulito.",
+      "Spolvera la ferita con ormone radicante e avvolgila con una grossa manciata di sfagno bagnato e strizzato.",
+      "Chiudi lo sfagno con pellicola trasparente legata sopra e sotto, per tenerlo umido e vedere le radici.",
+      "Controlla ogni settimana e inumidisci lo sfagno con una siringa se si asciuga.",
+      "Quando le radici riempiono lo sfagno, taglia il fusto sotto la margotta e invasa la nuova pianta senza togliere lo sfagno."
+     ],
+     "tempo": "Radici in 6-10 settimane.",
+     "difficolta": "media",
+     "note": "È il metodo più sicuro per il Ficus lyrata, perché il ramo resta nutrito dalla pianta madre finché ha le sue radici. La pianta madre, cimata, rimette rami laterali."
+    }
+   ],
    "tossicita": {
     "animali": "tossica",
     "persone": "lieve",
@@ -1151,7 +1416,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-17"
+   "aggiornato": "2026-10-18"
   },
   {
    "schema_version": 1,
@@ -1238,6 +1503,35 @@
     "talea_fusto",
     "talea_in_acqua"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da aprile a settembre; in terrarium chiuso si può fare tutto l'anno.",
+     "passi": [
+      "Taglia con forbici pulite una punta di 5-8 cm con 2-3 coppie di foglie, appena sotto un nodo.",
+      "Togli la coppia di foglie più bassa, in modo da avere un nodo nudo.",
+      "Interrala per 1-2 cm in un vasetto di terriccio soffice con torba o fibra di cocco, già umido.",
+      "Copri con un sacchetto trasparente o mettila direttamente nel terrarium, al caldo (20-25 °C) e in luce indiretta.",
+      "Quando la talea riprende a crescere, togli la copertura poco alla volta per abituarla all'aria di casa."
+     ],
+     "tempo": "Radici in 2-3 settimane.",
+     "difficolta": "facile",
+     "note": "Spesso i fusti che toccano il terriccio radicano da soli; basta tagliarli e invasarli."
+    },
+    {
+     "metodo": "talea_in_acqua",
+     "quando": "Da aprile a settembre, con temperature sopra i 20 °C.",
+     "passi": [
+      "Taglia una punta di 5-8 cm con almeno 2 nodi e togli le foglie più basse.",
+      "Mettila in un bicchiere d'acqua piovana o demineralizzata, con i nodi sott'acqua e le foglie fuori.",
+      "Tienila al caldo e in luce indiretta, cambiando l'acqua ogni 3-4 giorni.",
+      "Quando le radici sono lunghe 2-3 cm, invasala in terriccio umido e coprila con un sacchetto per qualche giorno."
+     ],
+     "tempo": "Radici in 2-3 settimane.",
+     "difficolta": "facile",
+     "note": "Le radici nate in acqua sono delicate; nel passaggio al terriccio la talea può afflosciarsi, ma con l'umidità alta si riprende."
+    }
+   ],
    "tossicita": {
     "animali": "non_tossica",
     "persone": "non_tossica"
@@ -1272,7 +1566,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-17"
+   "aggiornato": "2026-10-18"
   },
   {
    "schema_version": 1,
@@ -1359,8 +1653,37 @@
    "terreno": "Terriccio per piante grasse con molta pomice; le radici vogliono aria.",
    "rinvaso": "Ogni 2-3 anni in primavera, in vasi bassi e larghi; è il momento per dividere le rosette.",
    "propagazione": [
-    "divisione",
+    "polloni",
     "talea_foglia"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "polloni",
+     "quando": "In primavera o a inizio autunno, durante il rinvaso.",
+     "passi": [
+      "Sfila la pianta dal vaso ed elimina la terra in eccesso per vedere dove si attaccano i polloni.",
+      "Separa le rosette laterali larghe almeno 2-3 cm, meglio se hanno già qualche radice, con le dita o un coltellino pulito.",
+      "Lascia asciugare i tagli all'ombra per 1-2 giorni.",
+      "Invasa in vasetti piccoli con terriccio per cactacee mescolato a pomice o sabbia grossa.",
+      "Tieni in luce luminosa ma filtrata e bagna poco dopo una settimana."
+     ],
+     "tempo": "Si assestano in 3-4 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "talea_foglia",
+     "quando": "Da marzo a giugno, con temperature tra 18 e 25 °C.",
+     "passi": [
+      "Stacca una foglia sana con una leggera torsione verso il basso, in modo che venga via intera con la base.",
+      "Lasciala asciugare all'ombra per 3-5 giorni.",
+      "Infila la base per circa 1 cm in un terriccio per cactacee con molta pomice, appena umido.",
+      "Tieni in luce filtrata e bagna pochissimo, solo quando il terriccio è asciutto.",
+      "Trapianta quando vedi una piccola rosetta alla base della foglia."
+     ],
+     "tempo": "Radici in 4-8 settimane, rosetta in 2-4 mesi.",
+     "difficolta": "media",
+     "note": "Più lenta e meno sicura dei polloni, perché molte foglie marciscono se il terriccio resta umido."
+    }
    ],
    "tossicita": {
     "animali": "non_tossica",
@@ -1490,6 +1813,36 @@
     "talea_fusto",
     "talea_foglia"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Dalla primavera all'inizio dell'estate, dopo la fioritura.",
+     "passi": [
+      "Taglia la punta di un rametto lunga 5-8 cm con alcune coppie di foglie, appena sotto un nodo.",
+      "Togli le foglie più basse e lascia asciugare la talea all'ombra per 2-3 giorni, finché il taglio fa la crosticina.",
+      "Infilala per 2-3 cm in un vasetto con terriccio per piante grasse, appena umido.",
+      "Tieni in luce viva ma non al sole forte, a 20-25 °C, senza coprirla; annaffia solo quando il terriccio è asciutto.",
+      "Quando la talea resiste a un leggero tiro e fa foglie nuove, trapiantala in un vaso un po' più grande."
+     ],
+     "tempo": "Radici in 2-3 settimane.",
+     "difficolta": "facile",
+     "note": "Non coprire con il sacchetto, perché l'umidità alta fa marcire le talee delle piante grasse."
+    },
+    {
+     "metodo": "talea_foglia",
+     "quando": "In primavera o in estate, con foglie adulte e sane.",
+     "passi": [
+      "Stacca una foglia sana e carnosa con un po' di picciolo, tagliandola con un coltello pulito.",
+      "Lasciala asciugare all'ombra per 2-3 giorni.",
+      "Appoggia la foglia sul terriccio per piante grasse e infila appena il picciolo, oppure interrala per un terzo in verticale.",
+      "Tieni in luce viva indiretta a circa 20-25 °C e nebulizza il terriccio solo quando è asciutto.",
+      "Quando alla base spuntano radici e una piccola piantina, travasala in un vasetto suo."
+     ],
+     "tempo": "Radici in 3-4 settimane, nuova piantina in 6-8 settimane.",
+     "difficolta": "media",
+     "note": "È più lenta della talea di fusto e non tutte le foglie attecchiscono, quindi prepara qualche foglia in più."
+    }
+   ],
    "tossicita": {
     "animali": "tossica",
     "persone": "lieve",
@@ -1609,6 +1962,36 @@
    "propagazione": [
     "seme",
     "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "seme",
+     "quando": "Raccogli le palle spinose in autunno, quando diventano marroni; semina a fine inverno o in primavera dopo il freddo.",
+     "passi": [
+      "Lascia asciugare le palle in un sacchetto di carta in casa per qualche giorno, finché si aprono e fanno cadere i piccoli semi alati.",
+      "Metti i semi in un sacchetto con sabbia o torba appena umida e tienilo in frigorifero (circa 4 °C) per 1-3 mesi, per imitare l'inverno.",
+      "A marzo-aprile semina in vasetti o in una cassetta con terriccio per semina, coprendo i semi con appena 3-5 mm di terra.",
+      "Tieni all'aperto in mezz'ombra o in un posto luminoso a 18-22 °C, con il terriccio sempre leggermente umido.",
+      "Quando le piantine hanno qualche foglia vera trapiantale in vasi singoli; mettile in piena terra dopo 1-2 anni."
+     ],
+     "tempo": "Germinazione in 3-6 settimane dopo la semina.",
+     "difficolta": "facile",
+     "note": "Le varietà selezionate (per esempio 'Worplesdon') non nascono uguali dal seme e i colori d'autunno delle piantine possono variare."
+    },
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da fine maggio a luglio, con i rametti nuovi ancora teneri ma già un po' consistenti.",
+     "passi": [
+      "Al mattino presto taglia punte di 10-15 cm con 3-4 nodi e mettile subito in un sacchetto umido.",
+      "Togli le foglie basse lasciandone 2-3 in cima, e taglia a metà quelle più grandi.",
+      "Immergi la base in ormone radicante e interrala in un vasetto con torba e perlite in parti uguali.",
+      "Copri con un sacchetto trasparente o una mini serra e tieni in ombra luminosa, a 20-25 °C, con il terriccio sempre umido.",
+      "Quando la talea mette radici e foglie nuove, abituala all'aria poco alla volta e tienila in vaso al riparo il primo inverno."
+     ],
+     "tempo": "Radici in 5-8 settimane.",
+     "difficolta": "difficile",
+     "note": "Non tutte le talee radicano; prepararne parecchie aumenta le probabilità. È il modo per riprodurre fedelmente una varietà selezionata."
+    }
    ],
    "tossicita": {
     "animali": "sconosciuta",
@@ -1736,8 +2119,36 @@
    "terreno": "Terriccio per cactus molto drenante, con metà pomice o lapillo.",
    "rinvaso": "Ogni 2-3 anni in primavera, con terriccio asciutto e guanti o una striscia di carta per prenderlo.",
    "propagazione": [
-    "divisione",
+    "polloni",
     "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "polloni",
+     "quando": "Da aprile a giugno, quando la pianta riprende a crescere.",
+     "passi": [
+      "Proteggi le mani con guanti spessi o una striscia di carta di giornale piegata attorno alla pianta.",
+      "Stacca le testine laterali più grandi con le dita o una pinzetta, oppure tagliale alla base con un coltellino pulito.",
+      "Lascia asciugare il taglio all'ombra per 3-7 giorni, finché fa la crosticina.",
+      "Appoggia le testine su terriccio per cactacee asciutto con molta pomice, premendole appena.",
+      "Aspetta 1-2 settimane prima di bagnare poco, e tieni in luce luminosa senza sole forte."
+     ],
+     "tempo": "Radici in 3-6 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "seme",
+     "quando": "In primavera, con 20-25 °C.",
+     "passi": [
+      "Riempi un vasetto con terriccio per cactacee fine e sabbia, e inumidiscilo bene.",
+      "Spargi i semi in superficie e coprili solo con un velo sottilissimo di sabbia fine.",
+      "Copri con un sacchetto trasparente o un coperchio e metti in luce luminosa senza sole diretto.",
+      "Mantieni appena umido e togli la copertura poco alla volta dopo 4-6 settimane dalla germinazione.",
+      "Trapianta le piantine quando sono larghe circa 1 cm, di solito dopo un anno."
+     ],
+     "tempo": "Germinazione in 1-4 settimane; prima fioritura dopo 2-4 anni.",
+     "difficolta": "difficile"
+    }
    ],
    "tossicita": {
     "animali": "non_tossica",
@@ -1863,6 +2274,36 @@
    "propagazione": [
     "talea_fusto",
     "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a luglio, con il caldo.",
+     "passi": [
+      "Indossa guanti spessi e afferra la pala con una pinza da cucina, perché i glochidi si staccano al minimo tocco.",
+      "Stacca una pala intera nel punto di giunzione con una leggera torsione o un coltello pulito.",
+      "Lascia asciugare la pala all'ombra per 1-2 settimane, finché la base forma una crosta secca.",
+      "Infila la base per 2-3 cm in terriccio per cactacee asciutto, appoggiandola a un sostegno se serve.",
+      "Tieni in pieno sole e inizia a bagnare poco dopo 2-3 settimane."
+     ],
+     "tempo": "Radici in 3-6 settimane.",
+     "difficolta": "facile",
+     "note": "I glochidi sono finissimi e irritano la pelle; se ne restano attaccati, toglili con nastro adesivo."
+    },
+    {
+     "metodo": "seme",
+     "quando": "In primavera, con 20-30 °C.",
+     "passi": [
+      "Metti i semi in acqua tiepida per 24 ore e graffia leggermente il guscio duro con carta vetrata fine.",
+      "Seminali a circa 3-5 mm di profondità in terriccio per cactacee con sabbia, leggermente umido.",
+      "Copri con pellicola trasparente e metti in un posto caldo e luminoso, senza sole diretto.",
+      "Mantieni appena umido e togli la copertura quando le piantine sono spuntate.",
+      "Trapianta in vasetti singoli quando hanno formato la prima piccola pala."
+     ],
+     "tempo": "Germinazione in 3-8 settimane, a volte irregolare.",
+     "difficolta": "difficile",
+     "note": "Il seme è lento e la talea di pala dà una pianta grande molto prima."
+    }
    ],
    "tossicita": {
     "animali": "non_tossica",
@@ -1990,6 +2431,34 @@
    "propagazione": [
     "talea_fusto",
     "propaggine"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a luglio, con germogli verdi dell'anno senza fiori; in alternativa a fine estate con rami semi-maturi.",
+     "passi": [
+      "Taglia la punta di un germoglio senza fiori lunga 10-15 cm, con due o tre coppie di foglie, appena sotto un nodo.",
+      "Togli le foglie più basse e taglia a metà quelle rimaste per ridurre la perdita d'acqua.",
+      "Intingi la base in ormone radicante (aiuta, ma non è obbligatorio) e infilala fino al primo nodo in terriccio misto a perlite o sabbia.",
+      "Annaffia, copri con un sacchetto trasparente e tieni all'ombra luminosa, a 18-22 °C, con il terriccio sempre umido.",
+      "Quando la talea emette foglie nuove togli il sacchetto; trapianta in un vaso più grande dopo 2-3 mesi e proteggi dal gelo il primo inverno."
+     ],
+     "tempo": "Radici in 3-4 settimane.",
+     "difficolta": "facile",
+     "note": "Il colore dei fiori dipende dal terreno, quindi la nuova pianta può fiorire rosa o blu in modo diverso dalla madre."
+    },
+    {
+     "metodo": "propaggine",
+     "quando": "In primavera o in estate, con un ramo basso e flessibile.",
+     "passi": [
+      "Piega a terra un ramo basso e, nel punto che tocca il suolo, togli le foglie e incidi leggermente la corteccia.",
+      "Interra quel tratto a 5-8 cm di profondità e fermalo con un picchetto o un sasso, lasciando fuori la punta con le foglie.",
+      "Tieni il terreno umido per tutta l'estate.",
+      "La primavera successiva, quando il ramo ha radicato, taglialo dalla pianta madre e trapiantalo."
+     ],
+     "tempo": "Radici in una stagione, circa 6-12 mesi.",
+     "difficolta": "facile"
+    }
    ],
    "tossicita": {
     "animali": "tossica",
@@ -2124,7 +2593,23 @@
    "terreno": "Corteccia di pino per orchidee in pezzi medi, eventualmente con un po' di sfagno.",
    "rinvaso": "Ogni 2 anni dopo la fioritura, o quando la corteccia si sbriciola; vaso trasparente con molti fori.",
    "propagazione": [
-    "divisione"
+    "polloni"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "polloni",
+     "quando": "In primavera o estate, quando il keiki ha almeno 2-3 foglie e radici lunghe 5 cm.",
+     "passi": [
+      "Aspetta che la piantina (keiki) nata sullo stelo floreale abbia 2-3 foglie e almeno 3 radici lunghe 5-8 cm.",
+      "Taglia lo stelo 2-3 cm sopra e sotto il keiki con forbici disinfettate con alcol.",
+      "Metti il keiki in un vasetto trasparente di 6-8 cm con corteccia fine per orchidee o sfagno, senza pressare.",
+      "Tieni in luce luminosa ma filtrata, a 20-27 °C, e nebulizza le radici aeree.",
+      "Bagna quando la corteccia è quasi asciutta e concima con dose ridotta solo quando spuntano radici nuove."
+     ],
+     "tempo": "Si assesta in 4-8 settimane; fiorisce dopo 1-2 anni.",
+     "difficolta": "media",
+     "note": "La Phalaenopsis ha un solo fusto e non si divide come le altre piante; in casa si moltiplica quasi solo con i keiki."
+    }
    ],
    "tossicita": {
     "animali": "non_tossica",
@@ -2258,6 +2743,35 @@
     "talea_in_acqua",
     "talea_fusto"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_in_acqua",
+     "quando": "Da aprile a settembre, quando la pianta cresce attivamente.",
+     "passi": [
+      "Taglia con forbici pulite un pezzo di fusto lungo 10-15 cm con 2-4 foglie, appena sotto un nodo (il punto dove nasce la foglia e spesso una radichetta aerea marrone).",
+      "Togli la foglia più bassa, in modo che il nodo resti nudo.",
+      "Metti la talea in un bicchiere d'acqua a temperatura ambiente, con il nodo sott'acqua e le foglie fuori.",
+      "Tienila in un punto luminoso ma senza sole diretto e cambia l'acqua ogni 4-5 giorni.",
+      "Quando le radici sono lunghe 3-5 cm, trasferiscila in un vasetto con terriccio universale e perlite e tienilo umido per le prime settimane."
+     ],
+     "tempo": "Radici visibili in 2-3 settimane; pronta per il vaso in 4-6 settimane.",
+     "difficolta": "facile",
+     "note": "Una foglia staccata senza nodo può fare radici ma non darà mai una nuova pianta. Metti 3-4 talee nello stesso vaso per avere subito una pianta folta."
+    },
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da aprile a settembre, con temperature sopra i 20 °C.",
+     "passi": [
+      "Taglia una punta di 10-15 cm con almeno 2 nodi e 2-3 foglie, con forbici pulite.",
+      "Togli la foglia più bassa e interra la talea in un vasetto di terriccio universale misto a perlite, con almeno un nodo sotto terra.",
+      "Annaffia leggermente e copri il vaso con un sacchetto di plastica trasparente per tenere alta l'umidità.",
+      "Tienilo al caldo (20-25 °C) e in luce indiretta, arieggiando ogni pochi giorni e mantenendo il terriccio appena umido.",
+      "Quando spuntano foglie nuove togli il sacchetto e trattala come una pianta adulta."
+     ],
+     "tempo": "Radici in 3-4 settimane.",
+     "difficolta": "facile"
+    }
+   ],
    "tossicita": {
     "animali": "tossica",
     "persone": "lieve",
@@ -2293,7 +2807,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-17"
+   "aggiornato": "2026-10-18"
   },
   {
    "schema_version": 1,
@@ -2380,6 +2894,23 @@
    "rinvaso": "Ogni 2-3 anni a fine inverno, in un vaso più grande. Potatura a fine inverno: accorciare i rami di circa metà.",
    "propagazione": [
     "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Tra fine giugno e settembre, con rami dell'anno semi-maturi (ancora flessibili ma già induriti alla base); in alternativa a ottobre-novembre con rami legnosi.",
+     "passi": [
+      "Scegli un ramo sano che ha appena fiorito e taglia un pezzo di 15-20 cm, con forbici pulite e affilate.",
+      "Taglia la base appena sotto un nodo e la cima appena sopra un nodo, togliendo il fiore appassito.",
+      "Elimina tutte le foglie tranne le due più in alto e rimuovi le spine nella parte bassa.",
+      "Intingi la base in ormone radicante in polvere e infilala per due terzi in un vaso con metà terriccio e metà sabbia o perlite.",
+      "Annaffia, copri il vaso con un sacchetto di plastica trasparente e tienilo alla luce ma non al sole diretto, a 18-22 °C.",
+      "Quando spuntano foglie nuove e la talea resiste a un leggero tiro, trapiantala in un vaso singolo con terriccio per rose."
+     ],
+     "tempo": "Radici in 6-8 settimane per le talee estive; quelle autunnali radicano entro la primavera successiva.",
+     "difficolta": "media",
+     "note": "Le floribunde radicano di solito meglio delle tea ibride. Molte piante in vivaio sono innestate e le talee danno piante su radici proprie, un po' più lente il primo anno. Le varietà brevettate non si possono moltiplicare per venderle."
+    }
    ],
    "tossicita": {
     "animali": "non_tossica",
@@ -2512,6 +3043,23 @@
    "propagazione": [
     "talea_fusto"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Tra fine giugno e settembre, con rami dell'anno semi-maturi (ancora flessibili ma già induriti alla base); in alternativa a ottobre-novembre con rami legnosi.",
+     "passi": [
+      "Scegli un ramo sano che ha appena fiorito e taglia un pezzo di 15-20 cm, con forbici pulite e affilate.",
+      "Taglia la base appena sotto un nodo e la cima appena sopra un nodo, togliendo il fiore appassito.",
+      "Elimina tutte le foglie tranne le due più in alto e rimuovi le spine nella parte bassa.",
+      "Intingi la base in ormone radicante in polvere e infilala per due terzi in un vaso con metà terriccio e metà sabbia o perlite.",
+      "Annaffia, copri il vaso con un sacchetto di plastica trasparente e tienilo alla luce ma non al sole diretto, a 18-22 °C.",
+      "Quando spuntano foglie nuove e la talea resiste a un leggero tiro, trapiantala in un vaso singolo con terriccio per rose."
+     ],
+     "tempo": "Radici in 6-8 settimane per le talee estive; quelle autunnali radicano entro la primavera successiva.",
+     "difficolta": "media",
+     "note": "Molte rose inglesi radicano bene da talea e crescono vigorose su radici proprie. Quasi tutte sono varietà brevettate, che puoi moltiplicarle per uso personale ma non per venderle."
+    }
+   ],
    "tossicita": {
     "animali": "non_tossica",
     "persone": "non_tossica",
@@ -2642,6 +3190,22 @@
    "propagazione": [
     "talea_fusto"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a settembre, con rametti dell'anno semi-maturi.",
+     "passi": [
+      "Taglia un rametto di 5-8 cm con almeno tre nodi, appena sotto un nodo, con forbici pulite.",
+      "Togli fiori e boccioli e lascia solo le due o tre foglioline in cima.",
+      "Intingi la base in ormone radicante e infilala per metà in un vasetto con terriccio e perlite in parti uguali.",
+      "Copri con un sacchetto trasparente o una bottiglia tagliata e tieni in luce viva ma non al sole diretto, a circa 20 °C.",
+      "Quando compaiono foglie nuove, togli gradualmente la copertura e trapianta in un vaso di 10-12 cm."
+     ],
+     "tempo": "Radici in 3-5 settimane.",
+     "difficolta": "facile",
+     "note": "Le rose in miniatura sono quasi sempre coltivate su radici proprie, quindi le talee danno piante identiche alla madre."
+    }
+   ],
    "tossicita": {
     "animali": "non_tossica",
     "persone": "non_tossica",
@@ -2768,8 +3332,39 @@
    "terreno": "Terriccio specifico per rose o terriccio universale ricco con un terzo di terra di campo e un po' di stallatico maturo; strato drenante sul fondo.",
    "rinvaso": "In vaso ogni 2-3 anni a fine inverno, oppure sostituire i primi 5 cm di terriccio. Legare gli steli principali in orizzontale o a ventaglio e accorciare i rametti laterali a 2-3 gemme a fine inverno.",
    "propagazione": [
-    "talea_fusto",
-    "propaggine"
+    "propaggine",
+    "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "propaggine",
+     "quando": "In primavera o a fine estate, usando un ramo lungo e flessibile vicino al suolo.",
+     "passi": [
+      "Scegli un ramo giovane e flessibile e piegalo fino a terra, o fino a un vaso pieno di terriccio messo accanto alla pianta.",
+      "Nel punto che tocca il terreno, a circa 30 cm dalla punta, togli le foglie e fai un piccolo taglio obliquo sotto un nodo.",
+      "Interra quel tratto a 8-10 cm di profondità e fermalo con un picchetto a U o un sasso, lasciando la punta fuori e legata a un tutore.",
+      "Tieni il terreno sempre umido durante l'estate.",
+      "Dopo circa un anno, quando ha radici robuste, taglia il ramo che la collega alla madre e trapianta la nuova rosa in autunno o a fine inverno."
+     ],
+     "tempo": "Radici in 6-12 mesi.",
+     "difficolta": "facile",
+     "note": "È il modo più sicuro per le rampicanti e le rambler, perché il ramo resta nutrito dalla pianta madre finché non radica."
+    },
+    {
+     "metodo": "talea_fusto",
+     "quando": "Tra fine giugno e settembre, con rami dell'anno semi-maturi (ancora flessibili ma già induriti alla base); in alternativa a ottobre-novembre con rami legnosi.",
+     "passi": [
+      "Scegli un ramo sano che ha appena fiorito e taglia un pezzo di 20-25 cm, con forbici pulite e affilate.",
+      "Taglia la base appena sotto un nodo e la cima appena sopra un nodo, togliendo il fiore appassito.",
+      "Elimina tutte le foglie tranne le due più in alto e rimuovi le spine nella parte bassa.",
+      "Intingi la base in ormone radicante in polvere e infilala per due terzi in un vaso con metà terriccio e metà sabbia o perlite.",
+      "Annaffia, copri il vaso con un sacchetto di plastica trasparente e tienilo alla luce ma non al sole diretto, a 18-22 °C.",
+      "Quando spuntano foglie nuove e la talea resiste a un leggero tiro, trapiantala in un vaso singolo con terriccio per rose."
+     ],
+     "tempo": "Radici in 6-8 settimane per le talee estive; quelle autunnali radicano entro la primavera successiva.",
+     "difficolta": "media",
+     "note": "Le rambler e molte rampicanti vigorose radicano bene da talea. Le varietà brevettate non si possono moltiplicare per venderle."
+    }
    ],
    "tossicita": {
     "animali": "non_tossica",
@@ -2900,6 +3495,23 @@
    "rinvaso": "Ogni 2-3 anni a fine inverno, in un vaso più grande e profondo almeno 40 cm. Potatura a fine inverno: accorciare i rami a 3-5 gemme.",
    "propagazione": [
     "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Tra fine giugno e settembre, con rami dell'anno semi-maturi (ancora flessibili ma già induriti alla base); in alternativa a ottobre-novembre con rami legnosi.",
+     "passi": [
+      "Scegli un ramo sano che ha appena fiorito e taglia un pezzo di 15-20 cm, con forbici pulite e affilate.",
+      "Taglia la base appena sotto un nodo e la cima appena sopra un nodo, togliendo il fiore appassito.",
+      "Elimina tutte le foglie tranne le due più in alto e rimuovi le spine nella parte bassa.",
+      "Intingi la base in ormone radicante in polvere e infilala per due terzi in un vaso con metà terriccio e metà sabbia o perlite.",
+      "Annaffia, copri il vaso con un sacchetto di plastica trasparente e tienilo alla luce ma non al sole diretto, a 18-22 °C.",
+      "Quando spuntano foglie nuove e la talea resiste a un leggero tiro, trapiantala in un vaso singolo con terriccio per rose."
+     ],
+     "tempo": "Radici in 6-8 settimane per le talee estive; quelle autunnali radicano entro la primavera successiva.",
+     "difficolta": "media",
+     "note": "Molte rose tea ibride in vivaio sono innestate e su radici proprie possono crescere meno vigorose; aspettati qualche talea che non attecchisce. Le varietà brevettate non si possono moltiplicare per venderle."
+    }
    ],
    "tossicita": {
     "animali": "non_tossica",
@@ -3034,6 +3646,35 @@
     "divisione",
     "talea_foglia"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "In primavera o inizio estate, di solito al momento del rinvaso.",
+     "passi": [
+      "Annaffia poco il giorno prima, poi sfila la pianta dal vaso e togli il terriccio in eccesso dalle radici.",
+      "Individua i ciuffi di foglie collegati dal rizoma (il fusto sotterraneo) e separali con un coltello pulito, lasciando a ognuno radici proprie.",
+      "Lascia asciugare i tagli all'aria per 1-2 giorni.",
+      "Invasa ogni ciuffo in un vaso stretto con terriccio per piante grasse e aspetta una settimana prima di annaffiare."
+     ],
+     "tempo": "Si assesta in 3-4 settimane.",
+     "difficolta": "facile",
+     "note": "È l'unico metodo che mantiene il bordo giallo delle varietà variegate come 'Laurentii'."
+    },
+    {
+     "metodo": "talea_foglia",
+     "quando": "Da aprile ad agosto, con temperature sopra i 20 °C.",
+     "passi": [
+      "Taglia una foglia sana alla base e dividila in pezzi di 5-8 cm, segnando quale lato era in basso (i pezzi capovolti non radicano).",
+      "Lascia asciugare i pezzi all'aria per 2-3 giorni, finché il taglio fa una pellicina.",
+      "Interra ogni pezzo per 2 cm, con il lato basso giù, in terriccio per piante grasse misto a sabbia o pomice.",
+      "Tieni in luce indiretta e al caldo, annaffiando poco e solo quando il terriccio è asciutto.",
+      "Quando spunta un germoglio alla base del pezzo, lascialo crescere qualche mese prima di spostarlo in un vaso suo."
+     ],
+     "tempo": "Radici in 4-8 settimane; il primo germoglio può richiedere 2-3 mesi.",
+     "difficolta": "media",
+     "note": "Nelle varietà con il bordo giallo, le nuove piante nate da talea di foglia escono tutte verdi."
+    }
+   ],
    "tossicita": {
     "animali": "lieve",
     "persone": "lieve",
@@ -3069,7 +3710,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-17"
+   "aggiornato": "2026-10-18"
   },
   {
    "schema_version": 1,
@@ -3154,6 +3795,21 @@
    "propagazione": [
     "divisione"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "In primavera, da marzo a maggio, al momento del rinvaso.",
+     "passi": [
+      "Annaffia il giorno prima, poi sfila la pianta dal vaso e scuoti via parte del terriccio per vedere i ciuffi.",
+      "Separa con le mani o con un coltello pulito i ciuffi laterali, lasciando a ognuno almeno 2-3 foglie e un buon pezzo di radici.",
+      "Invasa ogni ciuffo in un vaso poco più grande delle radici, con terriccio universale ricco e un po' di perlite.",
+      "Annaffia bene e tienilo in luce indiretta, al riparo dal sole, per 2-3 settimane."
+     ],
+     "tempo": "Si riprende in 3-4 settimane; rifiorisce di solito dopo qualche mese.",
+     "difficolta": "facile",
+     "note": "Nei primi giorni le foglie possono afflosciarsi; è normale, basta tenere il terriccio umido e l'aria non troppo secca."
+    }
+   ],
    "tossicita": {
     "animali": "tossica",
     "persone": "lieve",
@@ -3189,7 +3845,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-17"
+   "aggiornato": "2026-10-18"
   },
   {
    "schema_version": 1,
@@ -3275,6 +3931,22 @@
    "rinvaso": "In primavera dopo la potatura, in un vaso appena più grande.",
    "propagazione": [
     "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a luglio, usando i germogli nuovi della pianta potata in primavera.",
+     "passi": [
+      "Taglia la punta di un germoglio lunga 7-10 cm con tre o quattro foglie, appena sotto un nodo.",
+      "Sciacqua la base sotto l'acqua tiepida o immergila per qualche minuto per fermare il lattice bianco, poi togli le foglie più basse.",
+      "Intingi la base in ormone radicante e infilala per 2-3 cm in un vasetto con terriccio e perlite in parti uguali, leggermente umido.",
+      "Copri con un sacchetto trasparente e tieni a 21-24 °C, in luce viva ma non al sole diretto; arieggia ogni giorno.",
+      "Quando compaiono foglie nuove, togli la copertura e trapianta in un vaso di 12-14 cm."
+     ],
+     "tempo": "Radici in 3-5 settimane.",
+     "difficolta": "media",
+     "note": "Usa i guanti, perché il lattice irrita pelle e occhi. Per avere le brattee colorate a dicembre la pianta deve poi stare al buio 14 ore a notte da inizio ottobre."
+    }
    ],
    "tossicita": {
     "animali": "lieve",

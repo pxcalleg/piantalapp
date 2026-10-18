@@ -30,6 +30,10 @@ python scripts/valida.py
 - **I giorni di annaffiatura sono indicativi.** Il campo `quando` descrive il
   criterio vero (es. "quando i primi 3 cm sono asciutti"): è quello che conta.
 - **Scrivi per chi inizia:** frasi brevi, niente gergo non spiegato.
+- **Come si propaga:** per ogni metodo elencato in `propagazione` serve una
+  voce in `come_si_propaga` con il periodo giusto (`quando`), da 2 a 8 `passi`
+  e, se utile, `tempo`, `difficolta` e `note`. Se un testo contiene «: »
+  mettilo tra virgolette, altrimenti il file YAML non è valido.
 - **Niente copia-incolla** da libri o siti protetti da copyright: riformula con
   parole tue e cita la fonte.
 - **Foto:** si usano foto reali da Wikimedia Commons. Basta scrivere nella
