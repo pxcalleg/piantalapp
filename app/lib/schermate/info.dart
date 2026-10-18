@@ -3,6 +3,8 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import 'contattaci.dart';
+
 const _repository = 'https://github.com/pxcalleg/piantalapp';
 
 class Info extends StatelessWidget {
@@ -42,6 +44,14 @@ class Info extends StatelessWidget {
             title: const Text('Contribuisci con una scheda'),
             subtitle: const Text('Aggiungi o correggi una pianta su GitHub'),
             onTap: () => _apri('$_repository/blob/main/CONTRIBUTING.md'),
+          ),
+          ListTile(
+            contentPadding: EdgeInsets.zero,
+            leading: const Icon(Icons.mail_outline),
+            title: const Text('Contattaci'),
+            subtitle: const Text('Collabora, proponi una pianta o scrivici'),
+            onTap: () => Navigator.of(context)
+                .push(MaterialPageRoute(builder: (_) => const Contattaci())),
           ),
           ListTile(
             contentPadding: EdgeInsets.zero,
