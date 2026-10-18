@@ -44,6 +44,11 @@ void main() {
     await tester.tap(find.widgetWithText(FilterChip, 'Terrarium'));
     await tester.pumpAndSettle();
     expect(find.text('Sansevieria'), findsNothing);
+    await tester.scrollUntilVisible(
+      find.text('Fittonia'),
+      300,
+      scrollable: elenco,
+    );
     expect(find.text('Fittonia'), findsOneWidget);
 
     await tester.tap(find.text('Fittonia'));

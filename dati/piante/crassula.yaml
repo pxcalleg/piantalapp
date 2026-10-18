@@ -1,0 +1,71 @@
+schema_version: 1
+id: crassula
+stato: bozza
+nome_scientifico: Crassula ovata
+sinonimi: [Crassula argentea, Crassula portulacea]
+famiglia: Crassulaceae
+nomi_comuni:
+  it: [Albero di giada, Crassula, Pianta del denaro]
+  en: [Jade plant, Money plant, Money tree]
+descrizione: >-
+  Alberello succulento con tronchetto legnoso, rami robusti e foglie ovali
+  carnose verde giada, spesso bordate di rosso al sole. Vive per decenni.
+categorie: [appartamento, balcone, succulenta]
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: "no"
+  note: >-
+    D'estate fuori al sole le fa benissimo; ritirarla prima che le notti
+    scendano sotto i 7-10 °C.
+difficolta: 1
+luce:
+  ideale: sole_diretto
+  tollera: [intensa_indiretta, media_indiretta]
+  sole_diretto: si
+  esposizione: [sud, ovest, est]
+  note: >-
+    Con poca luce i rami si allungano e si piegano e le foglie restano
+    piccole e distanziate. Al sole il bordo delle foglie diventa rosso.
+annaffiatura:
+  quando: Quando il terriccio è asciutto in profondità; d'inverno quasi niente.
+  primavera_estate: { min: 10, max: 14 }
+  autunno_inverno: { min: 30, max: 40 }
+  metodo: Annaffiare a fondo e lasciare scolare; mai acqua nel sottovaso.
+  segnali_troppa: Foglie gialle, molli e traslucide che cadono; base del tronco scura.
+  segnali_poca: Foglie raggrinzite, sottili e mosce.
+umidita: bassa
+concimazione:
+  mesi: [4, 5, 6, 7, 8, 9]
+  frequenza_giorni: { min: 30, max: 30 }
+  tipo: Concime per piante grasse a metà dose.
+temperatura:
+  min_c: 7
+  ideale_min_c: 15
+  ideale_max_c: 28
+  note: Un inverno fresco (10-15 °C) e asciutto favorisce i fiorellini bianchi o rosati.
+terreno: Terriccio per piante grasse con pomice o sabbia grossa.
+rinvaso: Ogni 2-3 anni in primavera; vaso pesante in terracotta, perché la chioma tende a farla ribaltare.
+propagazione: [talea_fusto, talea_foglia]
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: Se ingerita può causare vomito, abbattimento e mancanza di coordinazione in cani e gatti.
+problemi_comuni:
+  - sintomo: Foglie che cadono in massa
+    causa: Troppa acqua, freddo o spostamento brusco
+    rimedio: Controllare il terriccio, lasciarlo asciugare e tenerla sopra i 10 °C lontana da correnti.
+  - sintomo: Batuffoli bianchi cotonosi all'ascella delle foglie
+    causa: Cocciniglia farinosa
+    rimedio: Togliere con un cotton fioc imbevuto di alcol e ripetere dopo una settimana.
+  - sintomo: Rami lunghi e molli
+    causa: Luce insufficiente
+    rimedio: Più sole e una potatura in primavera per renderla compatta.
+immagini:
+  - commons: "Crassula ovata (potted, Nepal) 02.jpg"
+fonti:
+  - Royal Horticultural Society, scheda Crassula ovata (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche, voce Jade Plant (aspca.org)
+  - University of Wisconsin-Madison Extension, Jade plant (hort.extension.wisc.edu)
+autori: [piantalapp]
+aggiornato: "2026-10-18"

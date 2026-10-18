@@ -37,7 +37,8 @@ void main() {
     expect(terrarium, isNot(contains('sansevieria')));
 
     final sicure = cerca(piante, '', {Filtro.terrarium, Filtro.sicuraAnimali});
-    expect(sicure.map((p) => p.id), ['fittonia']);
+    expect(sicure.map((p) => p.id), contains('fittonia'));
+    expect(sicure.map((p) => p.id), isNot(contains('pothos')));
   });
 
   test('descrive i mesi di concimazione', () {

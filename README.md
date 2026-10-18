@@ -45,6 +45,12 @@ ARCHITETTURA.md     scelte tecniche e piano di lavoro
 | Cymbidium | *Cymbidium* | appartamento, balcone, fiorita |
 | Stella di Natale | *Euphorbia pulcherrima* | appartamento, fiorita |
 | Kalanchoe | *Kalanchoe blossfeldiana* | appartamento, succulenta, fiorita |
+| Aloe vera | *Aloe vera* | appartamento, balcone, succulenta |
+| Albero di giada | *Crassula ovata* | appartamento, balcone, succulenta |
+| Echeveria | *Echeveria elegans* | appartamento, balcone, succulenta |
+| Haworthia | *Haworthiopsis attenuata* | appartamento, succulenta |
+| Mammillaria | *Mammillaria zeilmanniana* | appartamento, balcone, succulenta, fiorita |
+| Fico d'India nano | *Opuntia microdasys* | appartamento, balcone, succulenta |
 
 ## Contribuire
 

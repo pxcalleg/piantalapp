@@ -1,4 +1,8 @@
 import 'motore_3d.dart';
+import 'specie/aloe.dart';
+import 'specie/cactus.dart';
+import 'specie/crassula.dart';
+import 'specie/echeveria.dart';
 import 'specie/ficus.dart';
 import 'specie/ficus_bambino.dart';
 import 'specie/fittonia.dart';
@@ -6,6 +10,7 @@ import 'specie/liquidambar.dart';
 import 'specie/ortensia.dart';
 import 'specie/kalanchoe.dart';
 import 'specie/orchidee.dart';
+import 'specie/haworthia.dart';
 import 'specie/pothos.dart';
 import 'specie/rosa.dart';
 import 'specie/sansevieria.dart';
@@ -34,4 +39,10 @@ const Map<String, Specie> modelliVisuali = {
   'cymbidium': Cymbidium(),
   'stella-di-natale': StellaDiNatale(),
   'kalanchoe': Kalanchoe(),
+  'aloe-vera': AloeVera(),
+  'crassula': Crassula(),
+  'echeveria': Echeveria(),
+  'haworthia': Haworthia(),
+  'mammillaria': Mammillaria(),
+  'opuntia': Opuntia(),
 };
