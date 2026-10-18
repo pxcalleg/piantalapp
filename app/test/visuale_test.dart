@@ -159,6 +159,20 @@ void main() {
     );
     await tester.tap(voce);
     await tester.pumpAndSettle();
+
+    // In testa alla scheda si passa dalla foto alla pianta 3D.
+    expect(find.byType(Image), findsWidgets);
+    await tester.tap(find.text('3D'));
+    await tester.pump(const Duration(milliseconds: 400));
+    expect(
+      find.byWidgetPredicate(
+        (w) => w is CustomPaint && w.painter is PiantaPainter,
+      ),
+      findsOneWidget,
+    );
+    // La pianta 3D gira di continuo: torniamo alla foto per proseguire.
+    await tester.tap(find.text('Foto'));
+    await tester.pump(const Duration(milliseconds: 400));
     await tester.ensureVisible(find.text('Ruota e simula'));
     await tester.pumpAndSettle();
     await tester.tap(find.text('Ruota e simula'));

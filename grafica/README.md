@@ -1,7 +1,9 @@
 # Grafica di PiantalAPP
 
 - `logo.svg`: logo principale (foglia a cuore su verde `#3B7D4F`, crema `#F3EBDD`).
-- `logo-maskable.svg`: variante a tutto campo per le icone adattive.
+- `logo-maskable.svg`: variante a tutto campo per le icone adattive del web.
+- `logo-foreground.svg`: solo la foglia, primo piano dell'icona adattiva Android
+  (lo sfondo verde è in `values/ic_launcher_background.xml`).
 - `logo-512.png`: icona ad alta risoluzione per il Play Store (512×512).
 - `feature-graphic.png`: immagine in evidenza per il Play Store (1024×500).
 
