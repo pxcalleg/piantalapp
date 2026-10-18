@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'contattaci.dart';
+import 'testata.dart';
 
 const _repository = 'https://github.com/pxcalleg/piantalapp';
 
@@ -17,7 +18,7 @@ class Info extends StatelessWidget {
   Widget build(BuildContext context) {
     final tema = Theme.of(context);
     return Scaffold(
-      appBar: AppBar(title: const Text('Informazioni')),
+      appBar: AppBar(title: const Testata(sottotitolo: 'Informazioni')),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
@@ -142,7 +143,7 @@ class CreditiFoto extends StatelessWidget {
   Widget build(BuildContext context) {
     final tema = Theme.of(context);
     return Scaffold(
-      appBar: AppBar(title: const Text('Crediti delle foto')),
+      appBar: AppBar(title: const Testata(sottotitolo: 'Crediti delle foto')),
       body: FutureBuilder(
         future: _carica(context),
         builder: (context, snap) {
@@ -170,11 +171,19 @@ class CreditiFoto extends StatelessWidget {
                 Text('«${c.titolo}» di ${c.autore}'),
                 Wrap(
                   spacing: 8,
+                  crossAxisAlignment: WrapCrossAlignment.center,
                   children: [
-                    TextButton(
-                      onPressed: () => _apri(c.urlLicenza),
-                      child: Text('Licenza ${c.licenza}'),
-                    ),
+                    if (c.urlLicenza.isEmpty)
+                      Text(
+                        c.licenza == 'Public domain'
+                            ? 'Pubblico dominio'
+                            : c.licenza,
+                      )
+                    else
+                      TextButton(
+                        onPressed: () => _apri(c.urlLicenza),
+                        child: Text('Licenza ${c.licenza}'),
+                      ),
                     TextButton(
                       onPressed: () => _apri(c.pagina),
                       child: const Text('Fonte su Wikimedia Commons'),

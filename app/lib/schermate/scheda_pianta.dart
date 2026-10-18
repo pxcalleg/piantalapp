@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../modello/etichette.dart';
 import '../modello/pianta.dart';
 import 'vetrina.dart';
+import 'testata.dart';
 
 class SchedaPianta extends StatelessWidget {
   const SchedaPianta({super.key, required this.pianta});
@@ -17,9 +18,10 @@ class SchedaPianta extends StatelessWidget {
     final intro = Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        Text(p.nome, style: tema.textTheme.headlineSmall),
         Text(
           p.nomeScientifico,
-          style: tema.textTheme.titleLarge?.copyWith(
+          style: tema.textTheme.titleMedium?.copyWith(
             fontStyle: FontStyle.italic,
           ),
         ),
@@ -86,7 +88,7 @@ class SchedaPianta extends StatelessWidget {
       ],
     );
     return Scaffold(
-      appBar: AppBar(title: Text(p.nome)),
+      appBar: AppBar(title: Testata(sottotitolo: p.nome)),
       body: LayoutBuilder(
         builder: (context, vincoli) {
           final largo = vincoli.maxWidth >= 840;

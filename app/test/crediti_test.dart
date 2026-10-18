@@ -13,8 +13,20 @@ void main() {
     for (final lista in crediti.values) {
       for (final c in (lista as List).cast<Map<String, dynamic>>()) {
         expect(c['autore'], isNot(contains('machine-readable')));
-        expect(c['licenza'], matches(RegExp(r'^(CC0|CC BY(-SA)? \d\.\d)$')));
-        expect(c['url_licenza'], startsWith('http'));
+        // Le stesse licenze accettate da scripts/immagini.py.
+        expect(
+          c['licenza'],
+          matches(
+            RegExp(
+              r'^(CC0|CC BY(-SA)? \d(\.\d)?|Public domain)$',
+              caseSensitive: false,
+            ),
+          ),
+        );
+        // Il pubblico dominio non ha un testo di licenza da linkare.
+        if (c['licenza'] != 'Public domain') {
+          expect(c['url_licenza'], startsWith('http'));
+        }
         expect(c['pagina'], startsWith('https://commons.wikimedia.org/'));
         expect(File('assets/immagini/${c['file']}').existsSync(), isTrue);
       }
@@ -26,7 +38,12 @@ void main() {
     await tester.scrollUntilVisible(find.text('Crediti delle foto'), 200);
     await tester.tap(find.text('Crediti delle foto'));
     await tester.pumpAndSettle();
-    expect(find.text('Dracaena trifasciata'), findsOneWidget);
+    expect(find.text('Aloe vera'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('Dracaena trifasciata'),
+      300,
+      scrollable: find.byType(Scrollable).first,
+    );
     await tester.scrollUntilVisible(find.textContaining('di Morrisjm'), 200);
     expect(find.textContaining('di Morrisjm'), findsOneWidget);
   });
