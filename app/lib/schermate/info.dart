@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -65,6 +67,14 @@ class Info extends StatelessWidget {
           Align(
             alignment: Alignment.centerLeft,
             child: TextButton(
+              onPressed: () => Navigator.of(context)
+                  .push(MaterialPageRoute(builder: (_) => const CreditiFoto())),
+              child: const Text('Crediti delle foto'),
+            ),
+          ),
+          Align(
+            alignment: Alignment.centerLeft,
+            child: TextButton(
               onPressed: () => showLicensePage(
                 context: context,
                 applicationName: 'PiantalAPP',
@@ -76,4 +86,109 @@ class Info extends StatelessWidget {
       ),
     );
   }
+}
+
+/// Elenco di tutte le foto incluse nell'app, con titolo, autore, licenza e
+/// link alla fonte, come chiedono le licenze Creative Commons.
+class CreditiFoto extends StatelessWidget {
+  const CreditiFoto({super.key});
+
+  Future<List<_Credito>> _carica(BuildContext context) async {
+    final bundle = DefaultAssetBundle.of(context);
+    final crediti = jsonDecode(
+      await bundle.loadString('assets/immagini/crediti.json'),
+    ) as Map<String, dynamic>;
+    final piante =
+        (jsonDecode(await bundle.loadString('assets/piante.json'))
+                as Map<String, dynamic>)['piante']
+            as List<dynamic>;
+    final nomi = {
+      for (final p in piante.cast<Map<String, dynamic>>())
+        p['id'] as String: p['nome_scientifico'] as String,
+    };
+    return [
+      for (final MapEntry(:key, :value) in crediti.entries)
+        for (final c in (value as List<dynamic>).cast<Map<String, dynamic>>())
+          _Credito(
+            pianta: nomi[key] ?? key,
+            titolo: c['commons'] as String,
+            autore: c['autore'] as String,
+            licenza: c['licenza'] as String,
+            urlLicenza: c['url_licenza'] as String,
+            pagina: c['pagina'] as String,
+          ),
+    ]..sort((a, b) => a.pianta.compareTo(b.pianta));
+  }
+
+  Future<void> _apri(String url) =>
+      launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
+
+  @override
+  Widget build(BuildContext context) {
+    final tema = Theme.of(context);
+    return Scaffold(
+      appBar: AppBar(title: const Text('Crediti delle foto')),
+      body: FutureBuilder(
+        future: _carica(context),
+        builder: (context, snap) {
+          final crediti = snap.data;
+          if (crediti == null) {
+            return const Center(child: CircularProgressIndicator());
+          }
+          return ListView(
+            padding: const EdgeInsets.all(16),
+            children: [
+              const Text(
+                'Le foto vengono da Wikimedia Commons e sono usate secondo la '
+                'licenza scelta dai loro autori. Sono ridimensionate ma non '
+                'modificate.',
+              ),
+              for (final c in crediti) ...[
+                const Divider(height: 32),
+                Text(
+                  c.pianta,
+                  style: tema.textTheme.titleSmall?.copyWith(
+                    fontStyle: FontStyle.italic,
+                  ),
+                ),
+                const SizedBox(height: 4),
+                Text('«${c.titolo}» di ${c.autore}'),
+                Wrap(
+                  spacing: 8,
+                  children: [
+                    TextButton(
+                      onPressed: () => _apri(c.urlLicenza),
+                      child: Text('Licenza ${c.licenza}'),
+                    ),
+                    TextButton(
+                      onPressed: () => _apri(c.pagina),
+                      child: const Text('Fonte su Wikimedia Commons'),
+                    ),
+                  ],
+                ),
+              ],
+            ],
+          );
+        },
+      ),
+    );
+  }
+}
+
+class _Credito {
+  const _Credito({
+    required this.pianta,
+    required this.titolo,
+    required this.autore,
+    required this.licenza,
+    required this.urlLicenza,
+    required this.pagina,
+  });
+
+  final String pianta;
+  final String titolo;
+  final String autore;
+  final String licenza;
+  final String urlLicenza;
+  final String pagina;
 }
