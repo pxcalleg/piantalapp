@@ -3,6 +3,240 @@
  "piante": [
   {
    "schema_version": 1,
+   "id": "cymbidium",
+   "stato": "bozza",
+   "nome_scientifico": "Cymbidium",
+   "sinonimi": [
+    "Cymbidium ibridi"
+   ],
+   "famiglia": "Orchidaceae",
+   "nomi_comuni": {
+    "it": [
+     "Cymbidium"
+    ],
+    "en": [
+     "Boat orchid",
+     "Cymbidium"
+    ]
+   },
+   "descrizione": "Orchidea robusta con un ciuffo di lunghe foglie a nastro che nascono da pseudobulbi tondi. In inverno fa steli eretti con molti grandi fiori cerosi che durano settimane. Ama il fresco e la luce.",
+   "categorie": [
+    "appartamento",
+    "fiorita",
+    "balcone"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "Da maggio a ottobre sta benissimo in balcone o in giardino a mezz'ombra: le notti fresche di fine estate fanno nascere gli steli. Va ritirata prima delle gelate."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "sole_diretto",
+     "media_indiretta"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ],
+    "note": "Ha bisogno di molta luce; foglie verde chiaro vanno bene, foglie scure e molli indicano poca luce."
+   },
+   "annaffiatura": {
+    "quando": "Quando la superficie del substrato è asciutta; non deve mai seccare del tutto.",
+    "primavera_estate": {
+     "min": 3,
+     "max": 7
+    },
+    "autunno_inverno": {
+     "min": 7,
+     "max": 14
+    },
+    "metodo": "Annaffiare a fondo e lasciar scolare; svuotare il sottovaso.",
+    "acqua": "Meglio acqua piovana o poco calcarea.",
+    "segnali_troppa": "Pseudobulbi molli, foglie gialle alla base, radici marce.",
+    "segnali_poca": "Pseudobulbi raggrinziti, punte delle foglie secche, boccioli che cadono."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime per orchidee ricco di azoto in primavera, poi più ricco di potassio da fine estate."
+   },
+   "temperatura": {
+    "min_c": 5,
+    "ideale_min_c": 10,
+    "ideale_max_c": 25,
+    "note": "Per fiorire vuole notti fresche (10-14 °C) tra fine estate e autunno."
+   },
+   "terreno": "Substrato per cymbidium, o corteccia fine con un po' di terriccio fibroso e perlite.",
+   "rinvaso": "Ogni 2-3 anni in primavera dopo la fioritura, quando i bulbi riempiono il vaso; si può dividere.",
+   "propagazione": [
+    "divisione"
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Secondo l'ASPCA le orchidee Cymbidium non sono tossiche per cani e gatti."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Tante foglie ma nessuno stelo",
+     "causa": "Poca luce, o estate e autunno passati al caldo in casa",
+     "rimedio": "Tenerla all'aperto in estate e fino ai primi freddi, con molta luce."
+    },
+    {
+     "sintomo": "Boccioli che cadono",
+     "causa": "Sbalzi di temperatura, aria calda e secca o substrato asciutto",
+     "rimedio": "Tenerla in una stanza fresca e luminosa, lontano dai termosifoni, con il substrato appena umido."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, guida alla coltivazione dei Cymbidium (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)",
+    "University of California Agriculture and Natural Resources, Cymbidium orchids (ucanr.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "dendrobium",
+   "stato": "bozza",
+   "nome_scientifico": "Dendrobium nobile",
+   "famiglia": "Orchidaceae",
+   "nomi_comuni": {
+    "it": [
+     "Dendrobium",
+     "Orchidea bambù"
+    ],
+    "en": [
+     "Noble dendrobium",
+     "Dendrobium nobile"
+    ]
+   },
+   "descrizione": "Orchidea con fusti eretti a canna, ingrossati e divisi in nodi, con foglie sulla parte alta. A fine inverno si copre di fiori rosa e bianchi a coppie lungo le canne. Per fiorire vuole un inverno fresco e asciutto.",
+   "categorie": [
+    "appartamento",
+    "fiorita"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "Da maggio a settembre può stare in balcone a mezz'ombra; in autunno va tenuta al fresco (10-15 °C), ma al riparo dal gelo."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "sole_diretto",
+     "media_indiretta"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "est",
+     "sud",
+     "ovest"
+    ],
+    "note": "Vuole molta luce, anche il sole del mattino; con poca luce fa solo foglie e non fiorisce."
+   },
+   "annaffiatura": {
+    "quando": "In crescita quando il substrato è quasi asciutto; da ottobre a febbraio solo se le canne si raggrinziscono.",
+    "primavera_estate": {
+     "min": 4,
+     "max": 7
+    },
+    "autunno_inverno": {
+     "min": 14,
+     "max": 21
+    },
+    "metodo": "Annaffiare a fondo o immergere il vaso e lasciarlo sgocciolare; d'estate nebulizzare le foglie.",
+    "acqua": "Meglio acqua piovana o poco calcarea.",
+    "segnali_troppa": "Canne molli e scure alla base, foglie gialle che cadono.",
+    "segnali_poca": "Canne raggrinzite e giallastre."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime liquido per orchidee a dose ridotta; stop da ottobre per avere fiori e non nuove piantine."
+   },
+   "temperatura": {
+    "min_c": 8,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28,
+    "note": "Il riposo fresco (10-15 °C) e asciutto da ottobre a gennaio è ciò che fa nascere i boccioli."
+   },
+   "terreno": "Corteccia di pino media per orchidee, in un vaso piccolo e ben drenato.",
+   "rinvaso": "Ogni 2-3 anni in primavera, quando spuntano le canne nuove; vaso appena più grande.",
+   "propagazione": [
+    "divisione",
+    "talea_fusto"
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Secondo l'ASPCA le orchidee Dendrobium non sono tossiche per cani e gatti."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Spuntano piantine (keiki) sulle canne invece dei fiori",
+     "causa": "Troppa acqua, concime o caldo in inverno",
+     "rimedio": "Rispettare il riposo fresco e asciutto; le piantine con radici si possono staccare e invasare."
+    },
+    {
+     "sintomo": "Non fiorisce",
+     "causa": "Poca luce o inverno troppo caldo",
+     "rimedio": "Più luce e un autunno al fresco, con poca acqua e niente concime."
+    },
+    {
+     "sintomo": "Canne vecchie senza foglie",
+     "causa": "È normale dopo uno o due anni",
+     "rimedio": "Non tagliarle, possono ancora fiorire e fanno da riserva."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, scheda Dendrobium nobile (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)",
+    "American Orchid Society, scheda di coltivazione dei Dendrobium (aos.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
    "id": "ficus-bambino",
    "stato": "bozza",
    "nome_scientifico": "Ficus lyrata 'Bambino'",
@@ -622,6 +856,119 @@
   },
   {
    "schema_version": 1,
+   "id": "kalanchoe",
+   "stato": "bozza",
+   "nome_scientifico": "Kalanchoe blossfeldiana",
+   "famiglia": "Crassulaceae",
+   "nomi_comuni": {
+    "it": [
+     "Kalanchoe",
+     "Calancola"
+    ],
+    "en": [
+     "Flaming Katy",
+     "Christmas kalanchoe"
+    ]
+   },
+   "descrizione": "Piccola pianta grassa con foglie carnose e lucide dal bordo a smerli e mazzetti fitti di fiorellini rossi, arancioni, rosa, gialli o bianchi che durano settimane. Facile e resistente alla siccità.",
+   "categorie": [
+    "appartamento",
+    "succulenta",
+    "fiorita",
+    "balcone"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "Da maggio a settembre può stare in balcone, riparata dal sole cocente e dalla pioggia insistente."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "sole_diretto",
+     "media_indiretta"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ],
+    "note": "Vuole molta luce; con poca luce i fusti si allungano e non fiorisce."
+   },
+   "annaffiatura": {
+    "quando": "Solo quando il terriccio è asciutto anche in profondità.",
+    "primavera_estate": {
+     "min": 7,
+     "max": 14
+    },
+    "autunno_inverno": {
+     "min": 14,
+     "max": 28
+    },
+    "metodo": "Annaffiare il terriccio senza bagnare foglie e fiori e svuotare il sottovaso.",
+    "segnali_troppa": "Foglie gialle e molli, fusti neri alla base.",
+    "segnali_poca": "Foglie raggrinzite e più sottili."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 30
+    },
+    "tipo": "Concime per piante grasse a metà dose."
+   },
+   "temperatura": {
+    "min_c": 10,
+    "ideale_min_c": 15,
+    "ideale_max_c": 27
+   },
+   "terreno": "Terriccio per piante grasse, o universale con un terzo di sabbia o pomice.",
+   "rinvaso": "Dopo la fioritura, ogni 1-2 anni, in un vaso poco più grande.",
+   "propagazione": [
+    "talea_fusto",
+    "talea_foglia"
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "lieve",
+    "note": "Secondo l'ASPCA è tossica per cani e gatti: se ingerita causa vomito e diarrea e, raramente, disturbi al cuore. Tenerla fuori dalla loro portata."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Non rifiorisce",
+     "causa": "È una pianta a giorno corto e la sera riceve luce artificiale",
+     "rimedio": "Da ottobre, per circa 6 settimane, 14 ore di buio completo ogni notte."
+    },
+    {
+     "sintomo": "Fusti lunghi e spogli",
+     "causa": "Poca luce",
+     "rimedio": "Spostarla in un punto più luminoso e accorciare i fusti; le cime tagliate si possono usare come talee."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, scheda Kalanchoe blossfeldiana (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)",
+    "University of Florida IFAS Extension, Kalanchoe blossfeldiana (edis.ifas.ufl.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
    "id": "liquidambar",
    "stato": "bozza",
    "nome_scientifico": "Liquidambar styraciflua",
@@ -848,6 +1195,130 @@
     "ASPCA, elenco piante tossiche e non tossiche, voce Hydrangea (aspca.org)",
     "University of Georgia Extension, \"Hydrangeas for Georgia Gardens\" (extension.uga.edu)",
     "Clemson Cooperative Extension, \"Hydrangea\" (hgic.clemson.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "phalaenopsis",
+   "stato": "bozza",
+   "nome_scientifico": "Phalaenopsis",
+   "sinonimi": [
+    "Phalaenopsis ibridi"
+   ],
+   "famiglia": "Orchidaceae",
+   "nomi_comuni": {
+    "it": [
+     "Phalaenopsis",
+     "Orchidea farfalla",
+     "Falenopsis"
+    ],
+    "en": [
+     "Moth orchid",
+     "Phalaenopsis"
+    ]
+   },
+   "descrizione": "L'orchidea più diffusa nelle case: poche foglie larghe e carnose, radici aeree argentate e lunghi steli ad arco con fiori a farfalla che durano mesi. Con le cure giuste rifiorisce ogni anno.",
+   "categorie": [
+    "appartamento",
+    "fiorita",
+    "da_ufficio",
+    "pet_friendly"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "no",
+    "terrarium": "no",
+    "note": "Vive bene in casa tutto l'anno. In natura cresce attaccata agli alberi, per questo vuole radici all'aria e un substrato di corteccia, non terriccio."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "media_indiretta"
+    ],
+    "sole_diretto": "no",
+    "esposizione": [
+     "est",
+     "ovest",
+     "nord"
+    ],
+    "note": "Una finestra a est è perfetta. Il sole diretto delle ore calde brucia le foglie; con troppa poca luce non rifiorisce."
+   },
+   "annaffiatura": {
+    "quando": "Quando le radici nel vaso trasparente sono diventate argentate e il substrato è quasi asciutto.",
+    "primavera_estate": {
+     "min": 7,
+     "max": 10
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 14
+    },
+    "metodo": "Immergere il vaso in acqua a temperatura ambiente per 10-15 minuti, poi lasciarlo sgocciolare bene. Non lasciare acqua nel cuore tra le foglie.",
+    "acqua": "Meglio acqua piovana o poco calcarea, mai fredda.",
+    "segnali_troppa": "Radici marroni e molli, foglie gialle e flosce.",
+    "segnali_poca": "Foglie raggrinzite e mosce, radici grigie e secche, boccioli che cadono."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime liquido per orchidee a dose ridotta, sciolto nell'acqua dell'immersione."
+   },
+   "temperatura": {
+    "min_c": 15,
+    "ideale_min_c": 18,
+    "ideale_max_c": 28,
+    "note": "Un calo di 5-6 °C di notte per qualche settimana in autunno favorisce i nuovi steli fioriti."
+   },
+   "terreno": "Corteccia di pino per orchidee in pezzi medi, eventualmente con un po' di sfagno.",
+   "rinvaso": "Ogni 2 anni dopo la fioritura, o quando la corteccia si sbriciola; vaso trasparente con molti fori.",
+   "propagazione": [
+    "divisione"
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Secondo l'ASPCA non è tossica per cani e gatti."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Non rifiorisce",
+     "causa": "Luce scarsa o temperatura sempre uguale",
+     "rimedio": "Spostarla in un punto più luminoso e tenerla per qualche settimana in una stanza più fresca di notte in autunno."
+    },
+    {
+     "sintomo": "Boccioli che cadono prima di aprirsi",
+     "causa": "Spifferi, sbalzi di temperatura, aria secca o spostamenti",
+     "rimedio": "Tenerla in un posto fisso, lontano da termosifoni e finestre aperte."
+    },
+    {
+     "sintomo": "Radici marroni e molli",
+     "causa": "Troppa acqua o corteccia vecchia e compatta",
+     "rimedio": "Tagliare le radici marce e rinvasare in corteccia nuova."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, scheda Phalaenopsis e guida alle orchidee da appartamento (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)",
+    "University of Florida IFAS Extension, coltivazione delle Phalaenopsis (edis.ifas.ufl.edu)"
    ],
    "autori": [
     "piantalapp"
@@ -1825,6 +2296,119 @@
     "piantalapp"
    ],
    "aggiornato": "2026-10-17"
+  },
+  {
+   "schema_version": 1,
+   "id": "stella-di-natale",
+   "stato": "bozza",
+   "nome_scientifico": "Euphorbia pulcherrima",
+   "sinonimi": [
+    "Poinsettia pulcherrima"
+   ],
+   "famiglia": "Euphorbiaceae",
+   "nomi_comuni": {
+    "it": [
+     "Stella di Natale",
+     "Poinsettia"
+    ],
+    "en": [
+     "Poinsettia",
+     "Christmas star"
+    ]
+   },
+   "descrizione": "La pianta simbolo del Natale. Le grandi \"foglie\" rosse in cima sono brattee; i veri fiori sono i piccoli bottoni gialli al centro. Teme freddo, correnti e ristagni d'acqua.",
+   "categorie": [
+    "appartamento",
+    "fiorita"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "no",
+    "terrarium": "no",
+    "note": "In Italia sta in casa; dopo le feste si può tenere in vita e d'estate portare fuori a mezz'ombra, ritirandola prima che le notti scendano sotto i 13 °C."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "media_indiretta"
+    ],
+    "sole_diretto": "no",
+    "esposizione": [
+     "est",
+     "sud",
+     "ovest"
+    ],
+    "note": "Ha bisogno di molta luce per tenere le brattee colorate; il sole diretto attraverso il vetro le macchia."
+   },
+   "annaffiatura": {
+    "quando": "Quando la superficie del terriccio è asciutta al tatto; il vaso diventa più leggero.",
+    "primavera_estate": {
+     "min": 4,
+     "max": 7
+    },
+    "autunno_inverno": {
+     "min": 5,
+     "max": 10
+    },
+    "metodo": "Annaffiare a fondo con acqua a temperatura ambiente e svuotare dopo 15 minuti il sottovaso o l'incarto decorativo: il ristagno è la causa più comune di morte.",
+    "segnali_troppa": "Foglie basse gialle che cadono, fusti molli alla base.",
+    "segnali_poca": "Pianta afflosciata, foglie e brattee che pendono e poi cadono."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 30
+    },
+    "tipo": "Concime liquido per piante verdi a metà dose; durante la fioritura non serve."
+   },
+   "temperatura": {
+    "min_c": 13,
+    "ideale_min_c": 18,
+    "ideale_max_c": 22,
+    "note": "Bastano pochi minuti sotto i 10 °C, anche nel tragitto dal negozio, per farle perdere le foglie."
+   },
+   "terreno": "Terriccio universale leggero con perlite, ben drenato.",
+   "rinvaso": "In primavera dopo la potatura, in un vaso appena più grande.",
+   "propagazione": [
+    "talea_fusto"
+   ],
+   "tossicita": {
+    "animali": "lieve",
+    "persone": "lieve",
+    "note": "Il lattice bianco irrita pelle, occhi e bocca; se masticata può dare salivazione e vomito leggero. La tossicità è molto più bassa di quanto si crede."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Foglie che cadono di colpo",
+     "causa": "Freddo, correnti d'aria o sbalzi di temperatura",
+     "rimedio": "Tenerla lontano da porte e finestre aperte, sopra i 15 °C."
+    },
+    {
+     "sintomo": "Le brattee non tornano rosse l'anno dopo",
+     "causa": "È una pianta a giorno corto, la luce artificiale di sera blocca la colorazione",
+     "rimedio": "Da fine settembre, 14 ore di buio completo ogni notte per circa 8 settimane."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, scheda Euphorbia pulcherrima (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)",
+    "University of Illinois Extension, Poinsettia care (extension.illinois.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
   }
  ]
 }

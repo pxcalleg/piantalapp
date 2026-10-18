@@ -40,6 +40,11 @@ ARCHITETTURA.md     scelte tecniche e piano di lavoro
 | Rosa inglese | *Rosa × hybrida* (arbustive e inglesi) | esterno, balcone, fiorita |
 | Rosa miniatura | *Rosa × hybrida* (miniatura) | balcone, fiorita |
 | Ortensia | *Hydrangea macrophylla* | esterno, balcone, fiorita |
+| Phalaenopsis | *Phalaenopsis* | appartamento, fiorita |
+| Dendrobium | *Dendrobium nobile* | appartamento, fiorita |
+| Cymbidium | *Cymbidium* | appartamento, balcone, fiorita |
+| Stella di Natale | *Euphorbia pulcherrima* | appartamento, fiorita |
+| Kalanchoe | *Kalanchoe blossfeldiana* | appartamento, succulenta, fiorita |
 
 ## Contribuire
 
