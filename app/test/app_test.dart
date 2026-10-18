@@ -21,8 +21,25 @@ void main() {
     await tester.runAsync(archivio.carica);
     await tester.pumpAndSettle();
 
+    // L'elenco è lungo: scorre fino alle piante cercate e poi torna su.
+    final elenco = find.byType(Scrollable).first;
+    await tester.scrollUntilVisible(
+      find.text('Pothos'),
+      300,
+      scrollable: elenco,
+    );
     expect(find.text('Pothos'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('Sansevieria'),
+      300,
+      scrollable: elenco,
+    );
     expect(find.text('Sansevieria'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.widgetWithText(FilterChip, 'Terrarium'),
+      -300,
+      scrollable: elenco,
+    );
 
     await tester.tap(find.widgetWithText(FilterChip, 'Terrarium'));
     await tester.pumpAndSettle();

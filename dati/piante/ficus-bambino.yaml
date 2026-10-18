@@ -1,0 +1,77 @@
+schema_version: 1
+id: ficus-bambino
+stato: bozza
+nome_scientifico: Ficus lyrata 'Bambino'
+famiglia: Moraceae
+nomi_comuni:
+  it: [Ficus Bambino, Ficus lyrata nano]
+  en: [Dwarf fiddle-leaf fig, Ficus Bambino]
+descrizione: >-
+  Varietà nana del Ficus lyrata: un cespuglio compatto e fitto, alto al
+  massimo 1-1,5 m, con foglie a violino più piccole, rigide e verde scuro.
+  Più facile del fratello grande e adatto anche agli spazi piccoli.
+categorie: [appartamento, da_ufficio]
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: "no"
+  note: >-
+    D'estate può stare fuori in un punto luminoso e riparato dal vento,
+    abituandolo al sole poco alla volta; ritirarlo quando la notte scende
+    sotto i 12-15 °C.
+difficolta: 3
+luce:
+  ideale: intensa_indiretta
+  tollera: [media_indiretta, sole_diretto]
+  sole_diretto: solo_mattino
+  esposizione: [est, sud, ovest]
+  note: >-
+    Vicino a una finestra molto luminosa. Con poca luce si allunga e perde
+    le foglie basse; ruotarlo ogni mese per farlo crescere uniforme.
+annaffiatura:
+  quando: Quando i primi 3 cm di terriccio sono asciutti.
+  primavera_estate: { min: 7, max: 10 }
+  autunno_inverno: { min: 14, max: 20 }
+  metodo: >-
+    Bagnare a fondo e lasciar sgocciolare; non lasciare mai il vaso
+    nell'acqua del sottovaso.
+  acqua: Acqua a temperatura ambiente, poco calcarea.
+  segnali_troppa: Macchie marroni scure sulle foglie e foglie basse che cadono.
+  segnali_poca: Foglie che si abbassano, bordi marroni e secchi.
+umidita: media
+concimazione:
+  mesi: [3, 4, 5, 6, 7, 8, 9]
+  frequenza_giorni: { min: 14, max: 30 }
+  tipo: Concime liquido per piante verdi, a metà dose.
+temperatura:
+  min_c: 13
+  ideale_min_c: 18
+  ideale_max_c: 27
+  note: Teme le correnti fredde, gli sbalzi di temperatura e l'aria calda dei termosifoni.
+terreno: Terriccio ben drenante con corteccia e perlite.
+rinvaso: Ogni 2 anni in primavera, in un vaso appena più grande.
+propagazione: [talea_fusto]
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: >-
+    Il lattice bianco irrita pelle e mucose e può dare allergie: usare i
+    guanti quando si pota. Tossico per cani e gatti se ingerito.
+problemi_comuni:
+  - sintomo: Foglie che cadono dopo uno spostamento
+    causa: Cambio di luce o di posizione, o una corrente fredda
+    rimedio: Trovargli un posto luminoso e lasciarlo lì; ricaccia in qualche settimana.
+  - sintomo: Macchie marroni al centro delle foglie
+    causa: Troppa acqua
+    rimedio: Diradare le annaffiature e controllare che il vaso abbia i fori di drenaggio.
+  - sintomo: Puntini chiari e ragnatele sotto le foglie
+    causa: Ragnetto rosso, con aria troppo secca
+    rimedio: Pulire le foglie con un panno umido e aumentare l'umidità attorno alla pianta.
+immagini:
+  - commons: "Fiddle leaf fig 5.jpg"
+fonti:
+  - Royal Horticultural Society, scheda Ficus lyrata 'Bambino' (rhs.org.uk)
+  - Royal Horticultural Society, scheda Ficus lyrata (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori: [piantalapp]
+aggiornato: "2026-10-18"

@@ -32,6 +32,8 @@ ARCHITETTURA.md     scelte tecniche e piano di lavoro
 | Sansevieria | *Dracaena trifasciata* | appartamento, succulenta |
 | Fittonia | *Fittonia albivenis* | terrarium, appartamento |
 | Spatifillo | *Spathiphyllum wallisii* | appartamento, fiorita |
+| Liquidambar | *Liquidambar styraciflua* | esterno |
+| Ficus Bambino | *Ficus lyrata* 'Bambino' | appartamento, da ufficio |
 
 ## Contribuire
 
