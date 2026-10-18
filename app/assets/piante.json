@@ -3,6 +3,366 @@
  "piante": [
   {
    "schema_version": 1,
+   "id": "aloe-vera",
+   "stato": "bozza",
+   "nome_scientifico": "Aloe vera",
+   "sinonimi": [
+    "Aloe barbadensis"
+   ],
+   "famiglia": "Asphodelaceae",
+   "nomi_comuni": {
+    "it": [
+     "Aloe vera",
+     "Aloe"
+    ],
+    "en": [
+     "Aloe vera",
+     "Medicinal aloe"
+    ]
+   },
+   "descrizione": "Rosetta di foglie spesse e carnose, grigio-verdi, con macchioline chiare da giovane e piccoli denti sul bordo. Ama il sole e teme solo l'acqua in eccesso e il freddo.",
+   "categorie": [
+    "appartamento",
+    "balcone",
+    "succulenta"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "Da maggio a settembre sta benissimo fuori, al sole e al riparo dalle piogge lunghe; ritirarla quando la notte scende sotto i 10 °C."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "ovest",
+     "est"
+    ],
+    "note": "Con poca luce le foglie si allungano, si appiattiscono e si piegano. Dopo l'inverno in casa va riabituata al sole pieno un po' alla volta."
+   },
+   "annaffiatura": {
+    "quando": "Solo quando il terriccio è completamente asciutto, anche in profondità.",
+    "primavera_estate": {
+     "min": 14,
+     "max": 21
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 45
+    },
+    "metodo": "Annaffiare a fondo il terriccio, senza bagnare il centro della rosetta, e svuotare il sottovaso.",
+    "segnali_troppa": "Foglie gonfie, molli e traslucide, base scura.",
+    "segnali_poca": "Foglie sottili che si incurvano verso l'interno, punte secche."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 60
+    },
+    "tipo": "Concime per piante grasse a metà dose."
+   },
+   "temperatura": {
+    "min_c": 10,
+    "ideale_min_c": 18,
+    "ideale_max_c": 30
+   },
+   "terreno": "Terriccio per piante grasse, oppure universale con almeno un terzo di pomice o sabbia grossa.",
+   "rinvaso": "Ogni 2-3 anni in primavera, in un vaso di terracotta poco più largo, con fori di drenaggio.",
+   "propagazione": [
+    "divisione"
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "lieve",
+    "note": "Il lattice giallo sotto la buccia contiene antrachinoni: se ingerito causa vomito e diarrea in cani e gatti, e ha effetto lassativo nelle persone. Il gel interno, usato sulla pelle, è in genere ben tollerato."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Foglie rosso-brune",
+     "causa": "Stress da sole forte o da sete",
+     "rimedio": "Un po' d'ombra nelle ore calde e un'annaffiatura a fondo; torna verde in qualche settimana."
+    },
+    {
+     "sintomo": "Foglie lunghe, piatte e piegate verso la finestra",
+     "causa": "Luce insufficiente",
+     "rimedio": "Spostarla nel punto più luminoso della casa o fuori d'estate."
+    },
+    {
+     "sintomo": "Base molle e scura",
+     "causa": "Marciume da troppa acqua",
+     "rimedio": "Togliere dal vaso, eliminare le parti marce, lasciare asciugare e rinvasare in terriccio asciutto."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, scheda Aloe vera (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Aloe (aspca.org)",
+    "University of Florida IFAS Extension, Aloe vera (edis.ifas.ufl.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "crassula",
+   "stato": "bozza",
+   "nome_scientifico": "Crassula ovata",
+   "sinonimi": [
+    "Crassula argentea",
+    "Crassula portulacea"
+   ],
+   "famiglia": "Crassulaceae",
+   "nomi_comuni": {
+    "it": [
+     "Albero di giada",
+     "Crassula",
+     "Pianta del denaro"
+    ],
+    "en": [
+     "Jade plant",
+     "Money plant",
+     "Money tree"
+    ]
+   },
+   "descrizione": "Alberello succulento con tronchetto legnoso, rami robusti e foglie ovali carnose verde giada, spesso bordate di rosso al sole. Vive per decenni.",
+   "categorie": [
+    "appartamento",
+    "balcone",
+    "succulenta"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "D'estate fuori al sole le fa benissimo; ritirarla prima che le notti scendano sotto i 7-10 °C."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta",
+     "media_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "ovest",
+     "est"
+    ],
+    "note": "Con poca luce i rami si allungano e si piegano e le foglie restano piccole e distanziate. Al sole il bordo delle foglie diventa rosso."
+   },
+   "annaffiatura": {
+    "quando": "Quando il terriccio è asciutto in profondità; d'inverno quasi niente.",
+    "primavera_estate": {
+     "min": 10,
+     "max": 14
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 40
+    },
+    "metodo": "Annaffiare a fondo e lasciare scolare; mai acqua nel sottovaso.",
+    "segnali_troppa": "Foglie gialle, molli e traslucide che cadono; base del tronco scura.",
+    "segnali_poca": "Foglie raggrinzite, sottili e mosce."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 30
+    },
+    "tipo": "Concime per piante grasse a metà dose."
+   },
+   "temperatura": {
+    "min_c": 7,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28,
+    "note": "Un inverno fresco (10-15 °C) e asciutto favorisce i fiorellini bianchi o rosati."
+   },
+   "terreno": "Terriccio per piante grasse con pomice o sabbia grossa.",
+   "rinvaso": "Ogni 2-3 anni in primavera; vaso pesante in terracotta, perché la chioma tende a farla ribaltare.",
+   "propagazione": [
+    "talea_fusto",
+    "talea_foglia"
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "lieve",
+    "note": "Se ingerita può causare vomito, abbattimento e mancanza di coordinazione in cani e gatti."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Foglie che cadono in massa",
+     "causa": "Troppa acqua, freddo o spostamento brusco",
+     "rimedio": "Controllare il terriccio, lasciarlo asciugare e tenerla sopra i 10 °C lontana da correnti."
+    },
+    {
+     "sintomo": "Batuffoli bianchi cotonosi all'ascella delle foglie",
+     "causa": "Cocciniglia farinosa",
+     "rimedio": "Togliere con un cotton fioc imbevuto di alcol e ripetere dopo una settimana."
+    },
+    {
+     "sintomo": "Rami lunghi e molli",
+     "causa": "Luce insufficiente",
+     "rimedio": "Più sole e una potatura in primavera per renderla compatta."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, scheda Crassula ovata (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Jade Plant (aspca.org)",
+    "University of Wisconsin-Madison Extension, Jade plant (hort.extension.wisc.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "echeveria",
+   "stato": "bozza",
+   "nome_scientifico": "Echeveria elegans",
+   "famiglia": "Crassulaceae",
+   "nomi_comuni": {
+    "it": [
+     "Echeveria",
+     "Rosa di alabastro",
+     "Rosa di pietra"
+    ],
+    "en": [
+     "Mexican snowball",
+     "White Mexican rose"
+    ]
+   },
+   "descrizione": "Rosetta compatta di foglie carnose a spatola, azzurro-grigie e coperte di pruina, con la punta rosata. In primavera fa steli arcuati con campanelline rosa e gialle.",
+   "categorie": [
+    "appartamento",
+    "balcone",
+    "succulenta",
+    "pet_friendly"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "Fuori da primavera ad autunno, al sole e al riparo dalla pioggia; nelle zone a inverno mite resta fuori se all'asciutto e sopra i 5 °C."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "ovest",
+     "est"
+    ],
+    "note": "È la succulenta che soffre di più la poca luce: il fusto si allunga, la rosetta si apre e perde il colore azzurro."
+   },
+   "annaffiatura": {
+    "quando": "Quando il terriccio è completamente asciutto; le foglie leggermente meno sode indicano sete.",
+    "primavera_estate": {
+     "min": 10,
+     "max": 14
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 45
+    },
+    "metodo": "Bagnare il terriccio senza lasciare acqua tra le foglie della rosetta; svuotare il sottovaso.",
+    "segnali_troppa": "Foglie gonfie, traslucide e giallastre che si staccano.",
+    "segnali_poca": "Foglie esterne raggrinzite e sottili."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 45
+    },
+    "tipo": "Concime per piante grasse a metà dose."
+   },
+   "temperatura": {
+    "min_c": 5,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28
+   },
+   "terreno": "Terriccio per piante grasse con molta pomice o lapillo.",
+   "rinvaso": "Ogni 2 anni in primavera, in vasi bassi di terracotta.",
+   "propagazione": [
+    "talea_foglia",
+    "divisione",
+    "seme"
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Le echeverie sono considerate non tossiche per cani e gatti."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Fusto lungo con foglie distanziate",
+     "causa": "Luce insufficiente",
+     "rimedio": "Tagliare la rosetta con un pezzo di fusto, lasciarla asciugare qualche giorno e ripiantarla al sole."
+    },
+    {
+     "sintomo": "Foglie basse che seccano",
+     "causa": "Normale ricambio della pianta",
+     "rimedio": "Toglierle quando sono secche, per evitare marciumi e parassiti."
+    },
+    {
+     "sintomo": "Batuffoli bianchi tra le foglie",
+     "causa": "Cocciniglia farinosa",
+     "rimedio": "Togliere con un cotton fioc imbevuto di alcol."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, scheda Echeveria elegans (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Echeveria (aspca.org)",
+    "North Carolina State University Extension Gardener Plant Toolbox, Echeveria elegans (plants.ces.ncsu.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
    "id": "ficus-benjamina",
    "stato": "bozza",
    "nome_scientifico": "Ficus benjamina",
@@ -501,6 +861,360 @@
     "piantalapp"
    ],
    "aggiornato": "2026-10-17"
+  },
+  {
+   "schema_version": 1,
+   "id": "haworthia",
+   "stato": "bozza",
+   "nome_scientifico": "Haworthiopsis attenuata",
+   "sinonimi": [
+    "Haworthia attenuata"
+   ],
+   "famiglia": "Asphodelaceae",
+   "nomi_comuni": {
+    "it": [
+     "Haworthia",
+     "Pianta zebra"
+    ],
+    "en": [
+     "Zebra plant",
+     "Zebra haworthia"
+    ]
+   },
+   "descrizione": "Piccola succulenta a rosetta con foglie appuntite verde scuro, decorate da fasce di tubercoli bianchi in rilievo. Resta piccola e sta bene anche in mezz'ombra.",
+   "categorie": [
+    "appartamento",
+    "succulenta",
+    "da_ufficio",
+    "pet_friendly"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "aperto",
+    "note": "D'estate può stare fuori in luce filtrata, al riparo dal sole delle ore calde e dalla pioggia. Le piccole rosette si usano anche nei terrarium aperti per piante grasse."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "media_indiretta",
+     "sole_diretto"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "est",
+     "ovest",
+     "sud"
+    ],
+    "note": "Il sole forte d'estate la fa diventare rosso-arancio; con troppa poca luce la rosetta si apre e sbiadisce."
+   },
+   "annaffiatura": {
+    "quando": "Quando il terriccio è completamente asciutto.",
+    "primavera_estate": {
+     "min": 10,
+     "max": 14
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 40
+    },
+    "metodo": "Annaffiare il terriccio attorno alla rosetta e lasciare scolare bene.",
+    "segnali_troppa": "Foglie gonfie, molli e traslucide, base che marcisce.",
+    "segnali_poca": "Foglie raggrinzite che si chiudono, punte secche."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 60
+    },
+    "tipo": "Concime per piante grasse a metà dose."
+   },
+   "temperatura": {
+    "min_c": 5,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28
+   },
+   "terreno": "Terriccio per piante grasse con molta pomice; le radici vogliono aria.",
+   "rinvaso": "Ogni 2-3 anni in primavera, in vasi bassi e larghi; è il momento per dividere le rosette.",
+   "propagazione": [
+    "divisione",
+    "talea_foglia"
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Considerata non tossica per cani e gatti."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Foglie rosso-arancio o brune",
+     "causa": "Troppo sole diretto",
+     "rimedio": "Spostarla in luce filtrata; torna verde in qualche settimana."
+    },
+    {
+     "sintomo": "Rosetta aperta con foglie lunghe e pallide",
+     "causa": "Luce insufficiente",
+     "rimedio": "Avvicinarla a una finestra luminosa."
+    },
+    {
+     "sintomo": "Base molle e scura",
+     "causa": "Marciume da troppa acqua",
+     "rimedio": "Separare le rosette sane, lasciarle asciugare e ripiantarle in terriccio asciutto."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, scheda Haworthiopsis attenuata (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Zebra Haworthia (aspca.org)",
+    "North Carolina State University Extension Gardener Plant Toolbox, Haworthiopsis attenuata (plants.ces.ncsu.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "mammillaria",
+   "stato": "bozza",
+   "nome_scientifico": "Mammillaria zeilmanniana",
+   "famiglia": "Cactaceae",
+   "nomi_comuni": {
+    "it": [
+     "Mammillaria",
+     "Cactus a palla",
+     "Cactus puntaspilli"
+    ],
+    "en": [
+     "Rose pincushion",
+     "Pincushion cactus"
+    ]
+   },
+   "descrizione": "Piccolo cactus a palla coperto di spine sottili, che in primavera fa una corona di fiorellini rosa attorno alla cima. Il genere Mammillaria conta molte specie simili, tutte con le stesse cure.",
+   "categorie": [
+    "appartamento",
+    "balcone",
+    "succulenta",
+    "fiorita"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "Da primavera ad autunno sta bene fuori al sole, al riparo dalle piogge lunghe. D'inverno ama un posto fresco e luminoso, all'asciutto."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "ovest",
+     "est"
+    ],
+    "note": "Con poca luce la cima si allunga stretta e pallida e non fiorisce. Dopo l'inverno va riabituato al sole un po' alla volta."
+   },
+   "annaffiatura": {
+    "quando": "Solo quando il terriccio è completamente asciutto; da novembre a febbraio quasi mai.",
+    "primavera_estate": {
+     "min": 10,
+     "max": 21
+    },
+    "autunno_inverno": {
+     "min": 45,
+     "max": 90
+    },
+    "metodo": "Annaffiare a fondo il terriccio senza bagnare il cactus e svuotare il sottovaso.",
+    "segnali_troppa": "Base gialla o marrone e molle.",
+    "segnali_poca": "Palla raggrinzita e più piccola."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 30
+    },
+    "tipo": "Concime per cactus povero di azoto, a metà dose."
+   },
+   "temperatura": {
+    "min_c": 5,
+    "ideale_min_c": 15,
+    "ideale_max_c": 32,
+    "note": "Un inverno fresco (8-12 °C) e asciutto è il segreto per vederlo fiorire in primavera."
+   },
+   "terreno": "Terriccio per cactus molto drenante, con metà pomice o lapillo.",
+   "rinvaso": "Ogni 2-3 anni in primavera, con terriccio asciutto e guanti o una striscia di carta per prenderlo.",
+   "propagazione": [
+    "divisione",
+    "seme"
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Non è velenoso, ma le spine possono pungere bocca e zampe degli animali curiosi."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Non fiorisce",
+     "causa": "Inverno troppo caldo o poca luce",
+     "rimedio": "D'inverno tenerlo fresco e asciutto, poi molto sole in primavera."
+    },
+    {
+     "sintomo": "Cima allungata e pallida",
+     "causa": "Luce insufficiente",
+     "rimedio": "Spostarlo sul davanzale più soleggiato."
+    },
+    {
+     "sintomo": "Base molle e scura",
+     "causa": "Marciume da troppa acqua",
+     "rimedio": "Se la parte alta è sana, tagliarla sopra il marcio, lasciarla asciugare e ripiantarla."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, scheda Mammillaria zeilmanniana (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)",
+    "University of Wisconsin-Madison Extension, Cacti and succulents (hort.extension.wisc.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "opuntia",
+   "stato": "bozza",
+   "nome_scientifico": "Opuntia microdasys",
+   "famiglia": "Cactaceae",
+   "nomi_comuni": {
+    "it": [
+     "Fico d'India nano",
+     "Orecchie di coniglio",
+     "Opunzia"
+    ],
+    "en": [
+     "Bunny ears cactus",
+     "Angel's wings"
+    ]
+   },
+   "descrizione": "Cactus fatto di pale piatte e ovali una sopra l'altra, senza spine lunghe ma con fitti ciuffetti gialli di glochidi, peli sottilissimi che si staccano al tocco e pungono.",
+   "categorie": [
+    "appartamento",
+    "balcone",
+    "succulenta"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "D'estate fuori in pieno sole; ritirarla prima delle notti fredde, sotto i 7-10 °C, e tenerla all'asciutto d'inverno."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "ovest"
+    ],
+    "note": "Con poca luce le pale nuove crescono strette, lunghe e pallide."
+   },
+   "annaffiatura": {
+    "quando": "Solo quando il terriccio è completamente asciutto; d'inverno quasi mai.",
+    "primavera_estate": {
+     "min": 10,
+     "max": 21
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 60
+    },
+    "metodo": "Annaffiare a fondo il terriccio, lasciare scolare e non lasciare acqua nel sottovaso.",
+    "segnali_troppa": "Pale giallastre e molli, base scura.",
+    "segnali_poca": "Pale raggrinzite e sottili."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 30
+    },
+    "tipo": "Concime per cactus a metà dose."
+   },
+   "temperatura": {
+    "min_c": 7,
+    "ideale_min_c": 15,
+    "ideale_max_c": 35
+   },
+   "terreno": "Terriccio per cactus con pomice o sabbia grossa.",
+   "rinvaso": "Ogni 2-3 anni in primavera; usare guanti spessi o un panno ripiegato per non riempirsi di glochidi.",
+   "propagazione": [
+    "talea_fusto",
+    "seme"
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Non è velenosa, ma i glochidi si staccano al minimo tocco e irritano la pelle e gli occhi; tenerla lontana da bambini e animali."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Pale nuove strette e allungate",
+     "causa": "Luce insufficiente",
+     "rimedio": "Più sole diretto; le pale filate si possono staccare e usare come talee."
+    },
+    {
+     "sintomo": "Glochidi nella pelle",
+     "causa": "Contatto con le pale",
+     "rimedio": "Toglierli con nastro adesivo o con uno strato di colla vinilica lasciata asciugare e poi staccata."
+    },
+    {
+     "sintomo": "Base delle pale scura e molle",
+     "causa": "Marciume da troppa acqua",
+     "rimedio": "Salvare le pale sane come talee e cambiare terriccio."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, scheda Opuntia microdasys (rhs.org.uk)",
+    "University of Florida IFAS Extension, Opuntia microdasys (edis.ifas.ufl.edu)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
   },
   {
    "schema_version": 1,

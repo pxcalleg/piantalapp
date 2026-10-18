@@ -21,8 +21,23 @@ void main() {
     await tester.runAsync(archivio.carica);
     await tester.pumpAndSettle();
 
+    // L'elenco è lungo: scorriamo fino alle piante cercate.
+    final elenco = find.byType(Scrollable).first;
+    await tester.scrollUntilVisible(
+      find.text('Pothos'),
+      300,
+      scrollable: elenco,
+    );
     expect(find.text('Pothos'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('Sansevieria'),
+      300,
+      scrollable: elenco,
+    );
     expect(find.text('Sansevieria'), findsOneWidget);
+    // Torniamo in cima, dove ci sono i filtri.
+    await tester.fling(elenco, const Offset(0, 3000), 3000);
+    await tester.pumpAndSettle();
 
     await tester.tap(find.widgetWithText(FilterChip, 'Terrarium'));
     await tester.pumpAndSettle();

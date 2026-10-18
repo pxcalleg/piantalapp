@@ -1,6 +1,11 @@
 import 'motore_3d.dart';
+import 'specie/aloe.dart';
+import 'specie/cactus.dart';
+import 'specie/crassula.dart';
+import 'specie/echeveria.dart';
 import 'specie/ficus.dart';
 import 'specie/fittonia.dart';
+import 'specie/haworthia.dart';
 import 'specie/pothos.dart';
 import 'specie/sansevieria.dart';
 import 'specie/spatifillo.dart';
@@ -14,4 +19,10 @@ const Map<String, Specie> modelliVisuali = {
   'sansevieria': Sansevieria(),
   'fittonia': Fittonia(),
   'spatifillo': Spatifillo(),
+  'aloe-vera': AloeVera(),
+  'crassula': Crassula(),
+  'echeveria': Echeveria(),
+  'haworthia': Haworthia(),
+  'mammillaria': Mammillaria(),
+  'opuntia': Opuntia(),
 };

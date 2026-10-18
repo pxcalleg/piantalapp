@@ -508,7 +508,28 @@ enum Forma {
   ]),
 
   /// Guaina sottile e appuntita in cima ai fusti del Ficus robusta.
-  guaina([(0, 0.6), (0.3, 1), (0.7, 0.7), (1, 0)]);
+  guaina([(0, 0.6), (0.3, 1), (0.7, 0.7), (1, 0)]),
+
+  /// Larga alla base e affusolata in punta, come l'aloe e l'haworthia.
+  triangolo([
+    (0, 0.8),
+    (0.12, 1),
+    (0.35, 0.86),
+    (0.6, 0.6),
+    (0.85, 0.28),
+    (1, 0),
+  ]),
+
+  /// A spatola con punta corta, come le foglie dell'echeveria.
+  spatola([
+    (0, 0.3),
+    (0.25, 0.6),
+    (0.5, 0.86),
+    (0.72, 1),
+    (0.88, 0.85),
+    (0.97, 0.4),
+    (1, 0),
+  ]);
 
   const Forma(this.punti);
 
@@ -552,6 +573,24 @@ enum Motivo {
 
   /// Nervature laterali parallele e incavate.
   spatifillo,
+
+  /// Macchioline chiare e dentini sul bordo; al sole forte si arrossa.
+  aloe,
+
+  /// Fasce trasversali di tubercoli bianchi; al sole forte si arrossa.
+  haworthia,
+
+  /// Bordo rosso che si accende con tanta luce.
+  crassula,
+
+  /// Punta rosata e pruina chiara.
+  echeveria,
+
+  /// Areole con spine bianche a stella.
+  cactus,
+
+  /// Ciuffi di glochidi gialli in file oblique.
+  opuntia,
 }
 
 class Foglia {
@@ -1188,6 +1227,120 @@ class _ElementoFoglia implements _Elemento {
       case Motivo.spatifillo:
         laterali(Colors.black, 0.18, px * 0.008, 9, 0.22, 0.95);
         centrale(const Color(0xFFCFE0B0), 0.45, px * 0.018);
+      case Motivo.aloe:
+        _arrossa(canvas, q, pxLargo);
+        final macchia = Paint()
+          ..color = const Color(0xFFDDE8CC).withValues(alpha: 0.5 * vivo);
+        for (var i = 0; i < 16; i++) {
+          final c = q(
+            0.08 + rnd.nextDouble() * 0.7,
+            (rnd.nextDouble() - 0.5) * 1.4,
+          );
+          canvas.drawOval(
+            Rect.fromCenter(
+              center: c,
+              width: pxLargo * 0.16,
+              height: pxLargo * 0.09,
+            ),
+            macchia,
+          );
+        }
+        final dente = Paint()
+          ..color = const Color(0xFFEDE6C4).withValues(alpha: 0.8 * vivo);
+        for (var u = 0.06; u < 0.9; u += 0.07) {
+          for (final lato in const [1.0, -1.0]) {
+            canvas.drawCircle(q(u, lato * 0.93), pxLargo * 0.055, dente);
+          }
+        }
+      case Motivo.haworthia:
+        _arrossa(canvas, q, pxLargo);
+        final tubercolo = Paint()
+          ..color = const Color(0xFFEFF1E8).withValues(alpha: 0.85 * vivo);
+        var riga = 0;
+        for (var u = 0.06; u < 0.9; u += 0.075) {
+          final sfasa = riga.isEven ? 0.0 : 0.14;
+          for (var v = -0.84 + sfasa; v <= 0.86; v += 0.28) {
+            canvas.drawCircle(q(u, v), pxLargo * 0.075, tubercolo);
+          }
+          riga++;
+        }
+      case Motivo.crassula:
+        final bordo = tratto(
+          const Color(0xFFB8433A)
+              .withValues(alpha: (0.1 + 0.55 * pittore.luce) * vivo),
+          pxLargo * 0.12,
+        );
+        for (final lato in const [1.0, -1.0]) {
+          linea(bordo, [
+            for (var u = 0.0; u <= 1.0; u += 0.1) (u, lato * 0.98),
+          ]);
+        }
+      case Motivo.echeveria:
+        canvas.drawCircle(
+          q(1, 0),
+          pxLargo * 0.6,
+          Paint()
+            ..color = const Color(0xFFD48A9C)
+                .withValues(alpha: (0.15 + 0.35 * pittore.luce) * vivo)
+            ..maskFilter = MaskFilter.blur(BlurStyle.normal, pxLargo * 0.3),
+        );
+        centrale(Colors.white, 0.14, px * 0.03);
+      case Motivo.cactus:
+        final spina = tratto(
+          const Color(0xFFF3F0E2).withValues(alpha: 0.85 * vivo),
+          pxLargo * 0.025,
+        );
+        final areola = Paint()
+          ..color = const Color(0xFFFFFFF4).withValues(alpha: 0.9 * vivo);
+        var riga = 0;
+        for (var u = 0.06; u < 0.95; u += 0.07) {
+          for (final v in riga.isEven ? const [-0.5, 0.5] : const [0.0]) {
+            final c = q(u, v);
+            final r = pxLargo * 0.2;
+            for (var a = 0; a < 6; a++) {
+              final ang = a * math.pi / 3 + riga * 0.4;
+              canvas.drawLine(
+                c,
+                c + Offset(math.cos(ang) * r, math.sin(ang) * r),
+                spina,
+              );
+            }
+            canvas.drawCircle(c, pxLargo * 0.045, areola);
+          }
+          riga++;
+        }
+      case Motivo.opuntia:
+        final ciuffo = Paint()
+          ..color = const Color(0xFFE9D47C).withValues(alpha: 0.95 * vivo);
+        final centro = Paint()
+          ..color = const Color(0xFF9C7A3A).withValues(alpha: 0.6 * vivo);
+        var riga = 0;
+        for (var u = 0.08; u < 0.95; u += 0.1) {
+          final sfasa = riga.isEven ? 0.0 : 0.2;
+          for (var v = -0.8 + sfasa; v <= 0.81; v += 0.4) {
+            final c = q(u, v);
+            canvas.drawCircle(c, pxLargo * 0.06, ciuffo);
+            canvas.drawCircle(c, pxLargo * 0.022, centro);
+          }
+          riga++;
+        }
     }
+  }
+
+  /// Le piante grasse al sole forte si tingono di rosso-bruno.
+  void _arrossa(
+    Canvas canvas,
+    Offset Function(double, double) q,
+    double pxLargo,
+  ) {
+    final rosso = m.bruciata * 0.55;
+    if (rosso < 0.02) return;
+    canvas.drawLine(
+      q(0, 0),
+      q(1, 0),
+      Paint()
+        ..color = const Color(0xFFA0503A).withValues(alpha: rosso)
+        ..strokeWidth = pxLargo * 2.4,
+    );
   }
 }

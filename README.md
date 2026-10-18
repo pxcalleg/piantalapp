@@ -32,6 +32,12 @@ ARCHITETTURA.md     scelte tecniche e piano di lavoro
 | Sansevieria | *Dracaena trifasciata* | appartamento, succulenta |
 | Fittonia | *Fittonia albivenis* | terrarium, appartamento |
 | Spatifillo | *Spathiphyllum wallisii* | appartamento, fiorita |
+| Aloe vera | *Aloe vera* | appartamento, balcone, succulenta |
+| Albero di giada | *Crassula ovata* | appartamento, balcone, succulenta |
+| Echeveria | *Echeveria elegans* | appartamento, balcone, succulenta |
+| Haworthia | *Haworthiopsis attenuata* | appartamento, succulenta |
+| Mammillaria | *Mammillaria zeilmanniana* | appartamento, balcone, succulenta, fiorita |
+| Fico d'India nano | *Opuntia microdasys* | appartamento, balcone, succulenta |
 
 ## Contribuire
 
