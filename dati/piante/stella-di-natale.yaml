@@ -48,6 +48,18 @@ temperatura:
 terreno: Terriccio universale leggero con perlite, ben drenato.
 rinvaso: In primavera dopo la potatura, in un vaso appena più grande.
 propagazione: [talea_fusto]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: Da maggio a luglio, usando i germogli nuovi della pianta potata in primavera.
+    passi:
+      - Taglia la punta di un germoglio lunga 7-10 cm con tre o quattro foglie, appena sotto un nodo.
+      - Sciacqua la base sotto l'acqua tiepida o immergila per qualche minuto per fermare il lattice bianco, poi togli le foglie più basse.
+      - Intingi la base in ormone radicante e infilala per 2-3 cm in un vasetto con terriccio e perlite in parti uguali, leggermente umido.
+      - Copri con un sacchetto trasparente e tieni a 21-24 °C, in luce viva ma non al sole diretto; arieggia ogni giorno.
+      - Quando compaiono foglie nuove, togli la copertura e trapianta in un vaso di 12-14 cm.
+    tempo: Radici in 3-5 settimane.
+    difficolta: media
+    note: Usa i guanti, perché il lattice irrita pelle e occhi. Per avere le brattee colorate a dicembre la pianta deve poi stare al buio 14 ore a notte da inizio ottobre.
 tossicita:
   animali: lieve
   persone: lieve

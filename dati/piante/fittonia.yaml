@@ -49,6 +49,28 @@ temperatura:
 terreno: Terriccio soffice e ricco di torba o fibra di cocco; in terrarium su strato drenante di argilla espansa e carbone attivo.
 rinvaso: Ogni anno in primavera; in terrarium potare spesso per contenerla.
 propagazione: [talea_fusto, talea_in_acqua]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: Da aprile a settembre; in terrarium chiuso si può fare tutto l'anno.
+    passi:
+      - Taglia con forbici pulite una punta di 5-8 cm con 2-3 coppie di foglie, appena sotto un nodo.
+      - Togli la coppia di foglie più bassa, in modo da avere un nodo nudo.
+      - Interrala per 1-2 cm in un vasetto di terriccio soffice con torba o fibra di cocco, già umido.
+      - Copri con un sacchetto trasparente o mettila direttamente nel terrarium, al caldo (20-25 °C) e in luce indiretta.
+      - Quando la talea riprende a crescere, togli la copertura poco alla volta per abituarla all'aria di casa.
+    tempo: Radici in 2-3 settimane.
+    difficolta: facile
+    note: Spesso i fusti che toccano il terriccio radicano da soli; basta tagliarli e invasarli.
+  - metodo: talea_in_acqua
+    quando: Da aprile a settembre, con temperature sopra i 20 °C.
+    passi:
+      - Taglia una punta di 5-8 cm con almeno 2 nodi e togli le foglie più basse.
+      - Mettila in un bicchiere d'acqua piovana o demineralizzata, con i nodi sott'acqua e le foglie fuori.
+      - Tienila al caldo e in luce indiretta, cambiando l'acqua ogni 3-4 giorni.
+      - Quando le radici sono lunghe 2-3 cm, invasala in terriccio umido e coprila con un sacchetto per qualche giorno.
+    tempo: Radici in 2-3 settimane.
+    difficolta: facile
+    note: Le radici nate in acqua sono delicate; nel passaggio al terriccio la talea può afflosciarsi, ma con l'umidità alta si riprende.
 tossicita:
   animali: non_tossica
   persone: non_tossica
@@ -65,4 +87,4 @@ fonti:
   - Royal Horticultural Society, scheda Fittonia albivenis (rhs.org.uk)
   - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
 autori: [piantalapp]
-aggiornato: "2026-10-17"
+aggiornato: "2026-10-18"

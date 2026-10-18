@@ -41,6 +41,17 @@ temperatura:
 terreno: Terriccio universale ricco di sostanza organica con un po' di perlite.
 rinvaso: Ogni 1-2 anni in primavera; si può dividere il cespo.
 propagazione: [divisione]
+come_si_propaga:
+  - metodo: divisione
+    quando: In primavera, da marzo a maggio, al momento del rinvaso.
+    passi:
+      - Annaffia il giorno prima, poi sfila la pianta dal vaso e scuoti via parte del terriccio per vedere i ciuffi.
+      - Separa con le mani o con un coltello pulito i ciuffi laterali, lasciando a ognuno almeno 2-3 foglie e un buon pezzo di radici.
+      - Invasa ogni ciuffo in un vaso poco più grande delle radici, con terriccio universale ricco e un po' di perlite.
+      - Annaffia bene e tienilo in luce indiretta, al riparo dal sole, per 2-3 settimane.
+    tempo: Si riprende in 3-4 settimane; rifiorisce di solito dopo qualche mese.
+    difficolta: facile
+    note: Nei primi giorni le foglie possono afflosciarsi; è normale, basta tenere il terriccio umido e l'aria non troppo secca.
 tossicita:
   animali: tossica
   persone: lieve
@@ -58,4 +69,4 @@ fonti:
   - Royal Horticultural Society, scheda Spathiphyllum wallisii (rhs.org.uk)
   - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
 autori: [piantalapp]
-aggiornato: "2026-10-17"
+aggiornato: "2026-10-18"

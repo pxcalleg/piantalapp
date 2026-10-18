@@ -62,6 +62,18 @@ rinvaso: >-
   terriccio nuovo; poi ogni 1-2 anni a fine inverno. Potatura a fine
   inverno: accorciare i rametti di metà.
 propagazione: [talea_fusto]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: Da maggio a settembre, con rametti dell'anno semi-maturi.
+    passi:
+      - Taglia un rametto di 5-8 cm con almeno tre nodi, appena sotto un nodo, con forbici pulite.
+      - Togli fiori e boccioli e lascia solo le due o tre foglioline in cima.
+      - Intingi la base in ormone radicante e infilala per metà in un vasetto con terriccio e perlite in parti uguali.
+      - Copri con un sacchetto trasparente o una bottiglia tagliata e tieni in luce viva ma non al sole diretto, a circa 20 °C.
+      - Quando compaiono foglie nuove, togli gradualmente la copertura e trapianta in un vaso di 10-12 cm.
+    tempo: Radici in 3-5 settimane.
+    difficolta: facile
+    note: Le rose in miniatura sono quasi sempre coltivate su radici proprie, quindi le talee danno piante identiche alla madre.
 tossicita:
   animali: non_tossica
   persone: non_tossica

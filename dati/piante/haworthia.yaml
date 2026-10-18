@@ -47,7 +47,29 @@ temperatura:
   ideale_max_c: 28
 terreno: Terriccio per piante grasse con molta pomice; le radici vogliono aria.
 rinvaso: Ogni 2-3 anni in primavera, in vasi bassi e larghi; è il momento per dividere le rosette.
-propagazione: [divisione, talea_foglia]
+propagazione: [polloni, talea_foglia]
+come_si_propaga:
+  - metodo: polloni
+    quando: In primavera o a inizio autunno, durante il rinvaso.
+    passi:
+      - Sfila la pianta dal vaso ed elimina la terra in eccesso per vedere dove si attaccano i polloni.
+      - Separa le rosette laterali larghe almeno 2-3 cm, meglio se hanno già qualche radice, con le dita o un coltellino pulito.
+      - Lascia asciugare i tagli all'ombra per 1-2 giorni.
+      - Invasa in vasetti piccoli con terriccio per cactacee mescolato a pomice o sabbia grossa.
+      - Tieni in luce luminosa ma filtrata e bagna poco dopo una settimana.
+    tempo: Si assestano in 3-4 settimane.
+    difficolta: facile
+  - metodo: talea_foglia
+    quando: Da marzo a giugno, con temperature tra 18 e 25 °C.
+    passi:
+      - Stacca una foglia sana con una leggera torsione verso il basso, in modo che venga via intera con la base.
+      - Lasciala asciugare all'ombra per 3-5 giorni.
+      - Infila la base per circa 1 cm in un terriccio per cactacee con molta pomice, appena umido.
+      - Tieni in luce filtrata e bagna pochissimo, solo quando il terriccio è asciutto.
+      - Trapianta quando vedi una piccola rosetta alla base della foglia.
+    tempo: Radici in 4-8 settimane, rosetta in 2-4 mesi.
+    difficolta: media
+    note: Più lenta e meno sicura dei polloni, perché molte foglie marciscono se il terriccio resta umido.
 tossicita:
   animali: non_tossica
   persone: non_tossica

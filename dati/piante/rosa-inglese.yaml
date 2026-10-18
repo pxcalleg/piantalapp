@@ -62,6 +62,19 @@ rinvaso: >-
   fine inverno: accorciare i rami di un terzo e togliere quelli vecchi o
   deboli.
 propagazione: [talea_fusto]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: Tra fine giugno e settembre, con rami dell'anno semi-maturi (ancora flessibili ma già induriti alla base); in alternativa a ottobre-novembre con rami legnosi.
+    passi:
+      - Scegli un ramo sano che ha appena fiorito e taglia un pezzo di 15-20 cm, con forbici pulite e affilate.
+      - Taglia la base appena sotto un nodo e la cima appena sopra un nodo, togliendo il fiore appassito.
+      - Elimina tutte le foglie tranne le due più in alto e rimuovi le spine nella parte bassa.
+      - Intingi la base in ormone radicante in polvere e infilala per due terzi in un vaso con metà terriccio e metà sabbia o perlite.
+      - Annaffia, copri il vaso con un sacchetto di plastica trasparente e tienilo alla luce ma non al sole diretto, a 18-22 °C.
+      - Quando spuntano foglie nuove e la talea resiste a un leggero tiro, trapiantala in un vaso singolo con terriccio per rose.
+    tempo: Radici in 6-8 settimane per le talee estive; quelle autunnali radicano entro la primavera successiva.
+    difficolta: media
+    note: Molte rose inglesi radicano bene da talea e crescono vigorose su radici proprie. Quasi tutte sono varietà brevettate, che puoi moltiplicarle per uso personale ma non per venderle.
 tossicita:
   animali: non_tossica
   persone: non_tossica

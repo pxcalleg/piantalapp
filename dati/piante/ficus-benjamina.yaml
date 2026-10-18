@@ -50,6 +50,29 @@ temperatura:
 terreno: Terriccio universale di buona qualità con un 20% di perlite per il drenaggio.
 rinvaso: Ogni 2-3 anni in primavera, in un vaso appena più grande.
 propagazione: [talea_fusto, margotta]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: Da maggio a luglio, con rametti dell'anno semilegnosi (non più teneri ma ancora flessibili).
+    passi:
+      - Taglia con forbici pulite una punta di 10-15 cm con 4-6 foglie, appena sotto un nodo.
+      - Togli le foglie della metà inferiore e sciacqua il taglio sotto l'acqua tiepida per fermare il lattice.
+      - Immergi la base in ormone radicante in polvere e interrala per 3-4 cm in un vasetto con torba e perlite in parti uguali.
+      - Copri con un sacchetto trasparente o una bottiglia tagliata e tieni a 21-24 °C, in luce indiretta, con il terriccio appena umido.
+      - Quando la talea mette foglie nuove, togli la copertura e dopo qualche settimana rinvasala in terriccio universale.
+    tempo: Radici in 4-8 settimane.
+    difficolta: media
+    note: Il lattice bianco che esce dal taglio irrita la pelle e gli occhi, quindi usa i guanti e lascialo asciugare prima di interrare la talea.
+  - metodo: margotta
+    quando: In primavera o inizio estate, su un ramo legnoso spesso almeno quanto una matita.
+    passi:
+      - Scegli un ramo e, 20-30 cm sotto la punta, togli con un coltellino pulito un anello di corteccia largo circa 1-2 cm.
+      - Spolvera la ferita con ormone radicante e avvolgila con una manciata di sfagno bagnato e strizzato.
+      - Chiudi lo sfagno con una pellicola trasparente legata sopra e sotto, così resta umido e puoi vedere le radici.
+      - Controlla ogni settimana e, se lo sfagno si asciuga, inumidiscilo con una siringa.
+      - Quando le radici riempiono lo sfagno, taglia il ramo sotto la margotta, togli la pellicola e invasa senza staccare lo sfagno.
+    tempo: Radici in 6-10 settimane.
+    difficolta: media
+    note: Ottima per avere subito una pianta già grande e per ringiovanire un esemplare spoglio in basso.
 tossicita:
   animali: tossica
   persone: lieve
@@ -70,4 +93,4 @@ fonti:
   - Royal Horticultural Society, scheda Ficus benjamina (rhs.org.uk)
   - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
 autori: [piantalapp]
-aggiornato: "2026-10-17"
+aggiornato: "2026-10-18"

@@ -58,5 +58,8 @@ void main() {
     expect(find.textContaining('Foto: Mokkie'), findsOneWidget);
     await tester.scrollUntilVisible(find.text('Tossicità'), 300);
     expect(find.text('Tossicità'), findsOneWidget);
+    await tester.scrollUntilVisible(find.text('Come si propaga'), 300);
+    expect(find.text('Come si propaga'), findsOneWidget);
+    expect(find.textContaining('Quando:'), findsWidgets);
   });
 }
