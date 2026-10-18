@@ -1,0 +1,34 @@
+name: App iOS
+
+on:
+  pull_request:
+    paths: ["app/**", ".github/workflows/app-ios.yml"]
+  push:
+    branches: [main]
+    paths: ["app/**", ".github/workflows/app-ios.yml"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.47.7"
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      # Senza firma: verifica che l'app per iPhone e iPad si compili. Per
+      # pubblicarla su TestFlight e App Store serve un account Apple Developer,
+      # vedi la sezione "iPhone e iPad" nel README.
+      - run: flutter build ios --release --no-codesign
+      - name: Prepara l'app compilata
+        run: cd build/ios/iphoneos && zip -qr PiantalAPP-ios-senza-firma.zip Runner.app
+      - uses: actions/upload-artifact@v4
+        with:
+          name: piantalapp-ios-senza-firma
+          path: app/build/ios/iphoneos/PiantalAPP-ios-senza-firma.zip
