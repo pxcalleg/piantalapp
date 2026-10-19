@@ -42,6 +42,28 @@ temperatura:
 terreno: Terriccio per piante grasse, oppure universale con 40% di sabbia o pomice.
 rinvaso: Ogni 3-4 anni; preferisce vasi stretti e pesanti, in terracotta.
 propagazione: [divisione, talea_foglia]
+come_si_propaga:
+  - metodo: divisione
+    quando: In primavera o inizio estate, di solito al momento del rinvaso.
+    passi:
+      - Annaffia poco il giorno prima, poi sfila la pianta dal vaso e togli il terriccio in eccesso dalle radici.
+      - Individua i ciuffi di foglie collegati dal rizoma (il fusto sotterraneo) e separali con un coltello pulito, lasciando a ognuno radici proprie.
+      - Lascia asciugare i tagli all'aria per 1-2 giorni.
+      - Invasa ogni ciuffo in un vaso stretto con terriccio per piante grasse e aspetta una settimana prima di annaffiare.
+    tempo: Si assesta in 3-4 settimane.
+    difficolta: facile
+    note: È l'unico metodo che mantiene il bordo giallo delle varietà variegate come 'Laurentii'.
+  - metodo: talea_foglia
+    quando: Da aprile ad agosto, con temperature sopra i 20 °C.
+    passi:
+      - Taglia una foglia sana alla base e dividila in pezzi di 5-8 cm, segnando quale lato era in basso (i pezzi capovolti non radicano).
+      - Lascia asciugare i pezzi all'aria per 2-3 giorni, finché il taglio fa una pellicina.
+      - Interra ogni pezzo per 2 cm, con il lato basso giù, in terriccio per piante grasse misto a sabbia o pomice.
+      - Tieni in luce indiretta e al caldo, annaffiando poco e solo quando il terriccio è asciutto.
+      - Quando spunta un germoglio alla base del pezzo, lascialo crescere qualche mese prima di spostarlo in un vaso suo.
+    tempo: Radici in 4-8 settimane; il primo germoglio può richiedere 2-3 mesi.
+    difficolta: media
+    note: Nelle varietà con il bordo giallo, le nuove piante nate da talea di foglia escono tutte verdi.
 tossicita:
   animali: lieve
   persone: lieve
@@ -59,4 +81,4 @@ fonti:
   - Royal Horticultural Society, scheda Dracaena trifasciata (rhs.org.uk)
   - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
 autori: [piantalapp]
-aggiornato: "2026-10-17"
+aggiornato: "2026-10-18"

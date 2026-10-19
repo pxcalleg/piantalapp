@@ -1,0 +1,93 @@
+schema_version: 1
+id: opuntia
+stato: bozza
+nome_scientifico: Opuntia microdasys
+famiglia: Cactaceae
+nomi_comuni:
+  it: [Fico d'India nano, Orecchie di coniglio, Opunzia]
+  en: [Bunny ears cactus, Angel's wings]
+descrizione: >-
+  Cactus fatto di pale piatte e ovali una sopra l'altra, senza spine lunghe
+  ma con fitti ciuffetti gialli di glochidi, peli sottilissimi che si
+  staccano al tocco e pungono.
+categorie: [appartamento, balcone, succulenta]
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: "no"
+  note: >-
+    D'estate fuori in pieno sole; ritirarla prima delle notti fredde, sotto
+    i 7-10 °C, e tenerla all'asciutto d'inverno.
+difficolta: 1
+luce:
+  ideale: sole_diretto
+  tollera: [intensa_indiretta]
+  sole_diretto: si
+  esposizione: [sud, ovest]
+  note: Con poca luce le pale nuove crescono strette, lunghe e pallide.
+annaffiatura:
+  quando: Solo quando il terriccio è completamente asciutto; d'inverno quasi mai.
+  primavera_estate: { min: 10, max: 21 }
+  autunno_inverno: { min: 30, max: 60 }
+  metodo: Annaffiare a fondo il terriccio, lasciare scolare e non lasciare acqua nel sottovaso.
+  segnali_troppa: Pale giallastre e molli, base scura.
+  segnali_poca: Pale raggrinzite e sottili.
+umidita: bassa
+concimazione:
+  mesi: [4, 5, 6, 7, 8]
+  frequenza_giorni: { min: 30, max: 30 }
+  tipo: Concime per cactus a metà dose.
+temperatura:
+  min_c: 7
+  ideale_min_c: 15
+  ideale_max_c: 35
+terreno: Terriccio per cactus con pomice o sabbia grossa.
+rinvaso: Ogni 2-3 anni in primavera; usare guanti spessi o un panno ripiegato per non riempirsi di glochidi.
+propagazione: [talea_fusto, seme]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: Da maggio a luglio, con il caldo.
+    passi:
+      - Indossa guanti spessi e afferra la pala con una pinza da cucina, perché i glochidi si staccano al minimo tocco.
+      - Stacca una pala intera nel punto di giunzione con una leggera torsione o un coltello pulito.
+      - Lascia asciugare la pala all'ombra per 1-2 settimane, finché la base forma una crosta secca.
+      - Infila la base per 2-3 cm in terriccio per cactacee asciutto, appoggiandola a un sostegno se serve.
+      - Tieni in pieno sole e inizia a bagnare poco dopo 2-3 settimane.
+    tempo: Radici in 3-6 settimane.
+    difficolta: facile
+    note: I glochidi sono finissimi e irritano la pelle; se ne restano attaccati, toglili con nastro adesivo.
+  - metodo: seme
+    quando: In primavera, con 20-30 °C.
+    passi:
+      - Metti i semi in acqua tiepida per 24 ore e graffia leggermente il guscio duro con carta vetrata fine.
+      - Seminali a circa 3-5 mm di profondità in terriccio per cactacee con sabbia, leggermente umido.
+      - Copri con pellicola trasparente e metti in un posto caldo e luminoso, senza sole diretto.
+      - Mantieni appena umido e togli la copertura quando le piantine sono spuntate.
+      - Trapianta in vasetti singoli quando hanno formato la prima piccola pala.
+    tempo: Germinazione in 3-8 settimane, a volte irregolare.
+    difficolta: difficile
+    note: Il seme è lento e la talea di pala dà una pianta grande molto prima.
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: >-
+    Non è velenosa, ma i glochidi si staccano al minimo tocco e irritano la
+    pelle e gli occhi; tenerla lontana da bambini e animali.
+problemi_comuni:
+  - sintomo: Pale nuove strette e allungate
+    causa: Luce insufficiente
+    rimedio: Più sole diretto; le pale filate si possono staccare e usare come talee.
+  - sintomo: Glochidi nella pelle
+    causa: Contatto con le pale
+    rimedio: Toglierli con nastro adesivo o con uno strato di colla vinilica lasciata asciugare e poi staccata.
+  - sintomo: Base delle pale scura e molle
+    causa: Marciume da troppa acqua
+    rimedio: Salvare le pale sane come talee e cambiare terriccio.
+immagini:
+  - commons: "OpuntiaMicrodasys.jpg"
+fonti:
+  - Royal Horticultural Society, scheda Opuntia microdasys (rhs.org.uk)
+  - University of Florida IFAS Extension, Opuntia microdasys (edis.ifas.ufl.edu)
+  - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori: [piantalapp]
+aggiornato: "2026-10-18"

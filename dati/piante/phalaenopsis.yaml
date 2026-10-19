@@ -1,0 +1,87 @@
+schema_version: 1
+id: phalaenopsis
+stato: bozza
+nome_scientifico: Phalaenopsis
+sinonimi: [Phalaenopsis ibridi]
+famiglia: Orchidaceae
+nomi_comuni:
+  it: [Phalaenopsis, Orchidea farfalla, Falenopsis]
+  en: [Moth orchid, Phalaenopsis]
+descrizione: >-
+  L'orchidea più diffusa nelle case: poche foglie larghe e carnose, radici
+  aeree argentate e lunghi steli ad arco con fiori a farfalla che durano mesi.
+  Con le cure giuste rifiorisce ogni anno.
+categorie: [appartamento, fiorita, da_ufficio, pet_friendly]
+ambiente:
+  interno: true
+  esterno: "no"
+  terrarium: "no"
+  note: >-
+    Vive bene in casa tutto l'anno. In natura cresce attaccata agli alberi, per
+    questo vuole radici all'aria e un substrato di corteccia, non terriccio.
+difficolta: 2
+luce:
+  ideale: intensa_indiretta
+  tollera: [media_indiretta]
+  sole_diretto: "no"
+  esposizione: [est, ovest, nord]
+  note: >-
+    Una finestra a est è perfetta. Il sole diretto delle ore calde brucia le
+    foglie; con troppa poca luce non rifiorisce.
+annaffiatura:
+  quando: Quando le radici nel vaso trasparente sono diventate argentate e il substrato è quasi asciutto.
+  primavera_estate: { min: 7, max: 10 }
+  autunno_inverno: { min: 10, max: 14 }
+  metodo: >-
+    Immergere il vaso in acqua a temperatura ambiente per 10-15 minuti, poi
+    lasciarlo sgocciolare bene. Non lasciare acqua nel cuore tra le foglie.
+  acqua: Meglio acqua piovana o poco calcarea, mai fredda.
+  segnali_troppa: Radici marroni e molli, foglie gialle e flosce.
+  segnali_poca: Foglie raggrinzite e mosce, radici grigie e secche, boccioli che cadono.
+umidita: media
+concimazione:
+  mesi: [3, 4, 5, 6, 7, 8, 9, 10]
+  frequenza_giorni: { min: 14, max: 21 }
+  tipo: Concime liquido per orchidee a dose ridotta, sciolto nell'acqua dell'immersione.
+temperatura:
+  min_c: 15
+  ideale_min_c: 18
+  ideale_max_c: 28
+  note: Un calo di 5-6 °C di notte per qualche settimana in autunno favorisce i nuovi steli fioriti.
+terreno: Corteccia di pino per orchidee in pezzi medi, eventualmente con un po' di sfagno.
+rinvaso: Ogni 2 anni dopo la fioritura, o quando la corteccia si sbriciola; vaso trasparente con molti fori.
+propagazione: [polloni]
+come_si_propaga:
+  - metodo: polloni
+    quando: In primavera o estate, quando il keiki ha almeno 2-3 foglie e radici lunghe 5 cm.
+    passi:
+      - Aspetta che la piantina (keiki) nata sullo stelo floreale abbia 2-3 foglie e almeno 3 radici lunghe 5-8 cm.
+      - Taglia lo stelo 2-3 cm sopra e sotto il keiki con forbici disinfettate con alcol.
+      - Metti il keiki in un vasetto trasparente di 6-8 cm con corteccia fine per orchidee o sfagno, senza pressare.
+      - Tieni in luce luminosa ma filtrata, a 20-27 °C, e nebulizza le radici aeree.
+      - Bagna quando la corteccia è quasi asciutta e concima con dose ridotta solo quando spuntano radici nuove.
+    tempo: Si assesta in 4-8 settimane; fiorisce dopo 1-2 anni.
+    difficolta: media
+    note: La Phalaenopsis ha un solo fusto e non si divide come le altre piante; in casa si moltiplica quasi solo con i keiki.
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Secondo l'ASPCA non è tossica per cani e gatti.
+problemi_comuni:
+  - sintomo: Non rifiorisce
+    causa: Luce scarsa o temperatura sempre uguale
+    rimedio: Spostarla in un punto più luminoso e tenerla per qualche settimana in una stanza più fresca di notte in autunno.
+  - sintomo: Boccioli che cadono prima di aprirsi
+    causa: Spifferi, sbalzi di temperatura, aria secca o spostamenti
+    rimedio: Tenerla in un posto fisso, lontano da termosifoni e finestre aperte.
+  - sintomo: Radici marroni e molli
+    causa: Troppa acqua o corteccia vecchia e compatta
+    rimedio: Tagliare le radici marce e rinvasare in corteccia nuova.
+immagini:
+  - commons: "Phalaenopsis Orchid.jpg"
+fonti:
+  - Royal Horticultural Society, scheda Phalaenopsis e guida alle orchidee da appartamento (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+  - University of Florida IFAS Extension, coltivazione delle Phalaenopsis (edis.ifas.ufl.edu)
+autori: [piantalapp]
+aggiornato: "2026-10-18"

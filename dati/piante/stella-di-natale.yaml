@@ -1,0 +1,83 @@
+schema_version: 1
+id: stella-di-natale
+stato: bozza
+nome_scientifico: Euphorbia pulcherrima
+sinonimi: [Poinsettia pulcherrima]
+famiglia: Euphorbiaceae
+nomi_comuni:
+  it: [Stella di Natale, Poinsettia]
+  en: [Poinsettia, Christmas star]
+descrizione: >-
+  La pianta simbolo del Natale. Le grandi "foglie" rosse in cima sono brattee;
+  i veri fiori sono i piccoli bottoni gialli al centro. Teme freddo, correnti e
+  ristagni d'acqua.
+categorie: [appartamento, fiorita]
+ambiente:
+  interno: true
+  esterno: "no"
+  terrarium: "no"
+  note: >-
+    In Italia sta in casa; dopo le feste si può tenere in vita e d'estate
+    portare fuori a mezz'ombra, ritirandola prima che le notti scendano sotto i 13 °C.
+difficolta: 3
+luce:
+  ideale: intensa_indiretta
+  tollera: [media_indiretta]
+  sole_diretto: "no"
+  esposizione: [est, sud, ovest]
+  note: Ha bisogno di molta luce per tenere le brattee colorate; il sole diretto attraverso il vetro le macchia.
+annaffiatura:
+  quando: Quando la superficie del terriccio è asciutta al tatto; il vaso diventa più leggero.
+  primavera_estate: { min: 4, max: 7 }
+  autunno_inverno: { min: 5, max: 10 }
+  metodo: >-
+    Annaffiare a fondo con acqua a temperatura ambiente e svuotare dopo 15 minuti
+    il sottovaso o l'incarto decorativo: il ristagno è la causa più comune di morte.
+  segnali_troppa: Foglie basse gialle che cadono, fusti molli alla base.
+  segnali_poca: Pianta afflosciata, foglie e brattee che pendono e poi cadono.
+umidita: media
+concimazione:
+  mesi: [4, 5, 6, 7, 8, 9]
+  frequenza_giorni: { min: 14, max: 30 }
+  tipo: Concime liquido per piante verdi a metà dose; durante la fioritura non serve.
+temperatura:
+  min_c: 13
+  ideale_min_c: 18
+  ideale_max_c: 22
+  note: Bastano pochi minuti sotto i 10 °C, anche nel tragitto dal negozio, per farle perdere le foglie.
+terreno: Terriccio universale leggero con perlite, ben drenato.
+rinvaso: In primavera dopo la potatura, in un vaso appena più grande.
+propagazione: [talea_fusto]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: Da maggio a luglio, usando i germogli nuovi della pianta potata in primavera.
+    passi:
+      - Taglia la punta di un germoglio lunga 7-10 cm con tre o quattro foglie, appena sotto un nodo.
+      - Sciacqua la base sotto l'acqua tiepida o immergila per qualche minuto per fermare il lattice bianco, poi togli le foglie più basse.
+      - Intingi la base in ormone radicante e infilala per 2-3 cm in un vasetto con terriccio e perlite in parti uguali, leggermente umido.
+      - Copri con un sacchetto trasparente e tieni a 21-24 °C, in luce viva ma non al sole diretto; arieggia ogni giorno.
+      - Quando compaiono foglie nuove, togli la copertura e trapianta in un vaso di 12-14 cm.
+    tempo: Radici in 3-5 settimane.
+    difficolta: media
+    note: Usa i guanti, perché il lattice irrita pelle e occhi. Per avere le brattee colorate a dicembre la pianta deve poi stare al buio 14 ore a notte da inizio ottobre.
+tossicita:
+  animali: lieve
+  persone: lieve
+  note: >-
+    Il lattice bianco irrita pelle, occhi e bocca; se masticata può dare
+    salivazione e vomito leggero. La tossicità è molto più bassa di quanto si crede.
+problemi_comuni:
+  - sintomo: Foglie che cadono di colpo
+    causa: Freddo, correnti d'aria o sbalzi di temperatura
+    rimedio: Tenerla lontano da porte e finestre aperte, sopra i 15 °C.
+  - sintomo: Le brattee non tornano rosse l'anno dopo
+    causa: È una pianta a giorno corto, la luce artificiale di sera blocca la colorazione
+    rimedio: Da fine settembre, 14 ore di buio completo ogni notte per circa 8 settimane.
+immagini:
+  - commons: "Weihnachtsstern - groß.jpg"
+fonti:
+  - Royal Horticultural Society, scheda Euphorbia pulcherrima (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+  - University of Illinois Extension, Poinsettia care (extension.illinois.edu)
+autori: [piantalapp]
+aggiornato: "2026-10-18"

@@ -4,10 +4,13 @@ import '../dati/archivio_piante.dart';
 import '../modello/etichette.dart';
 import '../modello/filtri.dart';
 import '../modello/pianta.dart';
+import 'contattaci.dart';
 import 'foto.dart';
 import 'info.dart';
+import 'riconosci.dart';
 import 'scheda_pianta.dart';
 import 'sostieni.dart';
+import 'testata.dart';
 
 class ElencoPiante extends StatefulWidget {
   const ElencoPiante({super.key, required this.archivio});
@@ -41,16 +44,7 @@ class _ElencoPianteState extends State<ElencoPiante> {
     return Scaffold(
       appBar: AppBar(
         titleSpacing: 16,
-        title: Row(
-          children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(8),
-              child: Image.asset('assets/logo.png', width: 32, height: 32),
-            ),
-            const SizedBox(width: 10),
-            const Text('PiantalAPP'),
-          ],
-        ),
+        title: const Testata(),
         actions: [
           if (mostraSostieni)
             IconButton(
@@ -59,14 +53,39 @@ class _ElencoPianteState extends State<ElencoPiante> {
               onPressed: () => Navigator.of(context)
                   .push(MaterialPageRoute(builder: (_) => const Sostieni())),
             ),
-          IconButton(
-            tooltip: 'Informazioni e contributi',
-            icon: const Icon(Icons.info_outline),
-            onPressed: () =>
+          PopupMenuButton<Widget Function()>(
+            tooltip: 'Menu',
+            onSelected: (pagina) =>
                 Navigator.of(context)
-                    .push(MaterialPageRoute(builder: (_) => const Info())),
+                    .push(MaterialPageRoute(builder: (_) => pagina())),
+            itemBuilder: (_) => [
+              PopupMenuItem(
+                value: Contattaci.new,
+                child: const ListTile(
+                  leading: Icon(Icons.mail_outline),
+                  title: Text('Contattaci'),
+                ),
+              ),
+              PopupMenuItem(
+                value: Info.new,
+                child: const ListTile(
+                  leading: Icon(Icons.info_outline),
+                  title: Text('Informazioni e contributi'),
+                ),
+              ),
+            ],
           ),
         ],
+      ),
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: () => Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (_) => Riconosci(piante: widget.archivio.piante),
+          ),
+        ),
+        icon: const Icon(Icons.center_focus_weak),
+        label: const Text('Riconosci'),
+        tooltip: 'Riconosci una pianta da una foto',
       ),
       body: ListenableBuilder(
         listenable: widget.archivio,
@@ -97,6 +116,8 @@ class _ElencoPianteState extends State<ElencoPiante> {
                     itemCount: piante.length,
                     itemBuilder: (context, i) => _Riga(pianta: piante[i]),
                   ),
+                // Spazio perché il pulsante «Riconosci» non copra l'ultima pianta.
+                const SliverToBoxAdapter(child: SizedBox(height: 88)),
               ],
             ),
           );

@@ -1,4 +1,70 @@
 {
+ "aloe-vera": [
+  {
+   "file": "aloe-vera-1.jpg",
+   "commons": "Aloe vera plant.JPG",
+   "autore": "Miansari66",
+   "licenza": "Public domain",
+   "url_licenza": "",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Aloe_vera_plant.JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Aloe_vera_plant.JPG/960px-Aloe_vera_plant.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "crassula": [
+  {
+   "file": "crassula-1.jpg",
+   "commons": "Crassula ovata (potted, Nepal) 02.jpg",
+   "autore": "Sabina Bajracharya",
+   "licenza": "CC BY-SA 4.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Crassula_ovata_(potted,_Nepal)_02.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Crassula_ovata_%28potted%2C_Nepal%29_02.jpg/960px-Crassula_ovata_%28potted%2C_Nepal%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "cymbidium": [
+  {
+   "file": "cymbidium-1.jpg",
+   "commons": "Cymbidium cv.01.JPG",
+   "autore": "Kor!An (Андрей Корзун)",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Cymbidium_cv.01.JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Cymbidium_cv.01.JPG/960px-Cymbidium_cv.01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "dendrobium": [
+  {
+   "file": "dendrobium-1.jpg",
+   "commons": "Dendrobium nobile (BG Zurich)-01.JPG",
+   "autore": "Guérin Nicolas (messages) 22:25, 25 September 2008 (UTC)",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Dendrobium_nobile_(BG_Zurich)-01.JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Dendrobium_nobile_%28BG_Zurich%29-01.JPG/960px-Dendrobium_nobile_%28BG_Zurich%29-01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "echeveria": [
+  {
+   "file": "echeveria-1.jpg",
+   "commons": "Rosa de alabastro (Echeveria elegans), Calatayud, España 2012-05-16, DD 01.JPG",
+   "autore": "Diego Delso",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Rosa_de_alabastro_(Echeveria_elegans),_Calatayud,_Espa%C3%B1a_2012-05-16,_DD_01.JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Rosa_de_alabastro_%28Echeveria_elegans%29%2C_Calatayud%2C_Espa%C3%B1a_2012-05-16%2C_DD_01.JPG/960px-Rosa_de_alabastro_%28Echeveria_elegans%29%2C_Calatayud%2C_Espa%C3%B1a_2012-05-16%2C_DD_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "ficus-bambino": [
+  {
+   "file": "ficus-bambino-1.jpg",
+   "commons": "Fiddle leaf fig 5.jpg",
+   "autore": "Mokkie",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Fiddle_leaf_fig_5.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Fiddle_leaf_fig_5.jpg/960px-Fiddle_leaf_fig_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
  "ficus-benjamina": [
   {
    "file": "ficus-benjamina-1.jpg",
@@ -25,7 +91,7 @@
   {
    "file": "ficus-lyrata-1.jpg",
    "commons": "Fiddle Leaf Fig in pot.jpg",
-   "autore": "No machine-readable author provided. Morrisjm assumed (based on copyright claims).",
+   "autore": "Morrisjm",
    "licenza": "CC BY-SA 3.0",
    "url_licenza": "http://creativecommons.org/licenses/by-sa/3.0/",
    "pagina": "https://commons.wikimedia.org/wiki/File:Fiddle_Leaf_Fig_in_pot.jpg",
@@ -43,6 +109,83 @@
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/White_Nerve_Plant_%28Fittonia_albivenis%29.jpg/960px-White_Nerve_Plant_%28Fittonia_albivenis%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
+ "haworthia": [
+  {
+   "file": "haworthia-1.jpg",
+   "commons": "Haworthia attenuata (1).jpg",
+   "autore": "Claire H. from New York City, USA",
+   "licenza": "CC BY-SA 2.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Haworthia_attenuata_(1).jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Haworthia_attenuata_%281%29.jpg/960px-Haworthia_attenuata_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "kalanchoe": [
+  {
+   "file": "kalanchoe-1.jpg",
+   "commons": "Kalanchoe blossfeldiana 2zz.jpg",
+   "autore": "Photo by David J. Stang",
+   "licenza": "CC BY-SA 4.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Kalanchoe_blossfeldiana_2zz.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Kalanchoe_blossfeldiana_2zz.jpg/960px-Kalanchoe_blossfeldiana_2zz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "liquidambar": [
+  {
+   "file": "liquidambar-1.jpg",
+   "commons": "Starr 051105-8369 Liquidambar styraciflua.jpg",
+   "autore": "Forest & Kim Starr",
+   "licenza": "CC BY 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Starr_051105-8369_Liquidambar_styraciflua.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Starr_051105-8369_Liquidambar_styraciflua.jpg/960px-Starr_051105-8369_Liquidambar_styraciflua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "mammillaria": [
+  {
+   "file": "mammillaria-1.jpg",
+   "commons": "Mammillaria zeilmanniana.jpg",
+   "autore": "Michael Wolf",
+   "licenza": "CC BY 2.5",
+   "url_licenza": "https://creativecommons.org/licenses/by/2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Mammillaria_zeilmanniana.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Mammillaria_zeilmanniana.jpg/960px-Mammillaria_zeilmanniana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "opuntia": [
+  {
+   "file": "opuntia-1.jpg",
+   "commons": "OpuntiaMicrodasys.jpg",
+   "autore": "Chhe (talk)",
+   "licenza": "Public domain",
+   "url_licenza": "",
+   "pagina": "https://commons.wikimedia.org/wiki/File:OpuntiaMicrodasys.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/OpuntiaMicrodasys.jpg/960px-OpuntiaMicrodasys.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "ortensia": [
+  {
+   "file": "ortensia-1.jpg",
+   "commons": "Hydrangea macrophylla - Hortensia hydrangea.jpg",
+   "autore": "Raul654",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hydrangea_macrophylla_-_Hortensia_hydrangea.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Hydrangea_macrophylla_-_Hortensia_hydrangea.jpg/960px-Hydrangea_macrophylla_-_Hortensia_hydrangea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "phalaenopsis": [
+  {
+   "file": "phalaenopsis-1.jpg",
+   "commons": "Phalaenopsis Orchid.jpg",
+   "autore": "Sanx",
+   "licenza": "CC BY 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Phalaenopsis_Orchid.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Phalaenopsis_Orchid.jpg/960px-Phalaenopsis_Orchid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
  "pothos": [
   {
    "file": "pothos-1.jpg",
@@ -52,6 +195,61 @@
    "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Pothos_epipremnum_aureus.jpg",
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Pothos_epipremnum_aureus.jpg/960px-Pothos_epipremnum_aureus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "rosa-floribunda": [
+  {
+   "file": "rosa-floribunda-1.jpg",
+   "commons": "Floribunda - Frensham 05 (b).JPG",
+   "autore": "HomeinSalem",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Floribunda_-_Frensham_05_(b).JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Floribunda_-_Frensham_05_%28b%29.JPG/960px-Floribunda_-_Frensham_05_%28b%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "rosa-inglese": [
+  {
+   "file": "rosa-inglese-1.jpg",
+   "commons": "Rosa 'Glamis Castle'.jpg",
+   "autore": "Roozitaa",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Rosa_%27Glamis_Castle%27.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Rosa_%27Glamis_Castle%27.jpg/960px-Rosa_%27Glamis_Castle%27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "rosa-miniatura": [
+  {
+   "file": "rosa-miniatura-1.jpg",
+   "commons": "\"Meillandine\" Rose in clay pot.jpg",
+   "autore": "Arch. Attilio Mileto - attilio.mileto@florero.net",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:%22Meillandine%22_Rose_in_clay_pot.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/%22Meillandine%22_Rose_in_clay_pot.jpg/960px-%22Meillandine%22_Rose_in_clay_pot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "rosa-rampicante": [
+  {
+   "file": "rosa-rampicante-1.jpg",
+   "commons": "Rosa New Dawn.jpg",
+   "autore": "Nockel12",
+   "licenza": "Public domain",
+   "url_licenza": "",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Rosa_New_Dawn.jpg",
+   "anteprima": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Rosa_New_Dawn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  }
+ ],
+ "rosa-tea-ibrida": [
+  {
+   "file": "rosa-tea-ibrida-1.jpg",
+   "commons": "Peace - hybrid tea rose - geograph.org.uk - 1025537.jpg",
+   "autore": "Christine Matthews",
+   "licenza": "CC BY-SA 2.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/2.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Peace_-_hybrid_tea_rose_-_geograph.org.uk_-_1025537.jpg",
+   "anteprima": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Peace_-_hybrid_tea_rose_-_geograph.org.uk_-_1025537.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
   }
  ],
  "sansevieria": [
@@ -74,6 +272,17 @@
    "url_licenza": "https://creativecommons.org/licenses/by-sa/4.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Spathiphyllum_wallisii_kz1.jpg",
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Spathiphyllum_wallisii_kz1.jpg/960px-Spathiphyllum_wallisii_kz1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "stella-di-natale": [
+  {
+   "file": "stella-di-natale-1.jpg",
+   "commons": "Weihnachtsstern - groß.jpg",
+   "autore": "André Karwath aka Aka",
+   "licenza": "CC BY-SA 2.5",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Weihnachtsstern_-_gro%C3%9F.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Weihnachtsstern_-_gro%C3%9F.jpg/960px-Weihnachtsstern_-_gro%C3%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ]
 }

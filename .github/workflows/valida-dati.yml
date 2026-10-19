@@ -21,6 +21,9 @@ jobs:
           python-version: "3.12"
       - run: pip install -r scripts/requirements.txt
       - run: python scripts/valida.py
+      - name: Controlla le foto
+        if: github.event_name == 'pull_request'
+        run: python scripts/immagini.py --verifica
       # Su main (o se lanciato a mano) scarica le foto da Wikimedia Commons,
       # rigenera il pacchetto letto dall'app e salva tutto da solo, così chi
       # contribuisce deve modificare solo i file YAML.

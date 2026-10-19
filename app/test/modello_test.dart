@@ -18,6 +18,24 @@ void main() {
     expect(perId['sansevieria']!.annaffiatura.autunnoInverno.max, 45);
   });
 
+  test('ogni pianta spiega come si propaga, metodo per metodo', () {
+    for (final p in piante) {
+      expect(p.comeSiPropaga, isNotEmpty, reason: p.id);
+      expect(
+        p.comeSiPropaga.map((g) => g.metodo).toSet(),
+        p.propagazione.toSet(),
+        reason: p.id,
+      );
+      for (final g in p.comeSiPropaga) {
+        expect(etichettePropagazione, contains(g.metodo));
+        expect(g.passi.length, greaterThanOrEqualTo(2));
+      }
+    }
+    final pothos = perId['pothos']!.comeSiPropaga;
+    expect(pothos.first.metodo, 'talea_in_acqua');
+    expect(pothos.first.difficolta, 'facile');
+  });
+
   test('ignora un pacchetto con schema più recente', () {
     expect(leggiPacchetto('{"schema_version": 99, "piante": []}'), isNull);
   });
@@ -37,7 +55,8 @@ void main() {
     expect(terrarium, isNot(contains('sansevieria')));
 
     final sicure = cerca(piante, '', {Filtro.terrarium, Filtro.sicuraAnimali});
-    expect(sicure.map((p) => p.id), ['fittonia']);
+    expect(sicure.map((p) => p.id), contains('fittonia'));
+    expect(sicure.map((p) => p.id), isNot(contains('pothos')));
   });
 
   test('descrive i mesi di concimazione', () {

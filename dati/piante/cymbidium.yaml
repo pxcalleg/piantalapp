@@ -1,0 +1,80 @@
+schema_version: 1
+id: cymbidium
+stato: bozza
+nome_scientifico: Cymbidium
+sinonimi: [Cymbidium ibridi]
+famiglia: Orchidaceae
+nomi_comuni:
+  it: [Cymbidium]
+  en: [Boat orchid, Cymbidium]
+descrizione: >-
+  Orchidea robusta con un ciuffo di lunghe foglie a nastro che nascono da
+  pseudobulbi tondi. In inverno fa steli eretti con molti grandi fiori cerosi
+  che durano settimane. Ama il fresco e la luce.
+categorie: [appartamento, fiorita, balcone]
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: "no"
+  note: >-
+    Da maggio a ottobre sta benissimo in balcone o in giardino a mezz'ombra: le
+    notti fresche di fine estate fanno nascere gli steli. Va ritirata prima
+    delle gelate.
+difficolta: 2
+luce:
+  ideale: intensa_indiretta
+  tollera: [sole_diretto, media_indiretta]
+  sole_diretto: solo_mattino
+  esposizione: [sud, est, ovest]
+  note: Ha bisogno di molta luce; foglie verde chiaro vanno bene, foglie scure e molli indicano poca luce.
+annaffiatura:
+  quando: Quando la superficie del substrato è asciutta; non deve mai seccare del tutto.
+  primavera_estate: { min: 3, max: 7 }
+  autunno_inverno: { min: 7, max: 14 }
+  metodo: Annaffiare a fondo e lasciar scolare; svuotare il sottovaso.
+  acqua: Meglio acqua piovana o poco calcarea.
+  segnali_troppa: Pseudobulbi molli, foglie gialle alla base, radici marce.
+  segnali_poca: Pseudobulbi raggrinziti, punte delle foglie secche, boccioli che cadono.
+umidita: media
+concimazione:
+  mesi: [3, 4, 5, 6, 7, 8, 9]
+  frequenza_giorni: { min: 14, max: 21 }
+  tipo: Concime per orchidee ricco di azoto in primavera, poi più ricco di potassio da fine estate.
+temperatura:
+  min_c: 5
+  ideale_min_c: 10
+  ideale_max_c: 25
+  note: Per fiorire vuole notti fresche (10-14 °C) tra fine estate e autunno.
+terreno: Substrato per cymbidium, o corteccia fine con un po' di terriccio fibroso e perlite.
+rinvaso: Ogni 2-3 anni in primavera dopo la fioritura, quando i bulbi riempiono il vaso; si può dividere.
+propagazione: [divisione]
+come_si_propaga:
+  - metodo: divisione
+    quando: In primavera, subito dopo la fioritura, quando il vaso è pieno.
+    passi:
+      - Sfila la pianta dal vaso, togli il vecchio substrato ed elimina le radici marce o vuote.
+      - Dividi il cespo con le mani o un coltello disinfettato in porzioni di almeno 3-4 pseudobulbi con foglie.
+      - Invasa ogni porzione in un vaso appena più grande delle radici, con terriccio per Cymbidium o corteccia fine mescolata a torba.
+      - Tieni all'ombra luminosa e bagna poco per 2-3 settimane, finché vedi nuova crescita.
+    tempo: Riprende in 4-8 settimane; fiorisce di solito dopo 1-2 anni.
+    difficolta: media
+    note: Anche i vecchi pseudobulbi senza foglie, staccati e messi su sfagno umido, possono rimettere un germoglio in qualche mese.
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Secondo l'ASPCA le orchidee Cymbidium non sono tossiche per cani e gatti.
+problemi_comuni:
+  - sintomo: Tante foglie ma nessuno stelo
+    causa: Poca luce, o estate e autunno passati al caldo in casa
+    rimedio: Tenerla all'aperto in estate e fino ai primi freddi, con molta luce.
+  - sintomo: Boccioli che cadono
+    causa: Sbalzi di temperatura, aria calda e secca o substrato asciutto
+    rimedio: Tenerla in una stanza fresca e luminosa, lontano dai termosifoni, con il substrato appena umido.
+immagini:
+  - commons: "Cymbidium cv.01.JPG"
+fonti:
+  - Royal Horticultural Society, guida alla coltivazione dei Cymbidium (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+  - University of California Agriculture and Natural Resources, Cymbidium orchids (ucanr.edu)
+autori: [piantalapp]
+aggiornato: "2026-10-18"

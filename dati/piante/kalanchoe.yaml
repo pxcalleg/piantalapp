@@ -1,0 +1,88 @@
+schema_version: 1
+id: kalanchoe
+stato: bozza
+nome_scientifico: Kalanchoe blossfeldiana
+famiglia: Crassulaceae
+nomi_comuni:
+  it: [Kalanchoe, Calancola]
+  en: [Flaming Katy, Christmas kalanchoe]
+descrizione: >-
+  Piccola pianta grassa con foglie carnose e lucide dal bordo a smerli e
+  mazzetti fitti di fiorellini rossi, arancioni, rosa, gialli o bianchi che
+  durano settimane. Facile e resistente alla siccità.
+categorie: [appartamento, succulenta, fiorita, balcone]
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: "no"
+  note: Da maggio a settembre può stare in balcone, riparata dal sole cocente e dalla pioggia insistente.
+difficolta: 1
+luce:
+  ideale: intensa_indiretta
+  tollera: [sole_diretto, media_indiretta]
+  sole_diretto: solo_mattino
+  esposizione: [sud, est, ovest]
+  note: Vuole molta luce; con poca luce i fusti si allungano e non fiorisce.
+annaffiatura:
+  quando: Solo quando il terriccio è asciutto anche in profondità.
+  primavera_estate: { min: 7, max: 14 }
+  autunno_inverno: { min: 14, max: 28 }
+  metodo: Annaffiare il terriccio senza bagnare foglie e fiori e svuotare il sottovaso.
+  segnali_troppa: Foglie gialle e molli, fusti neri alla base.
+  segnali_poca: Foglie raggrinzite e più sottili.
+umidita: bassa
+concimazione:
+  mesi: [4, 5, 6, 7, 8, 9]
+  frequenza_giorni: { min: 30, max: 30 }
+  tipo: Concime per piante grasse a metà dose.
+temperatura:
+  min_c: 10
+  ideale_min_c: 15
+  ideale_max_c: 27
+terreno: Terriccio per piante grasse, o universale con un terzo di sabbia o pomice.
+rinvaso: Dopo la fioritura, ogni 1-2 anni, in un vaso poco più grande.
+propagazione: [talea_fusto, talea_foglia]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: Dalla primavera all'inizio dell'estate, dopo la fioritura.
+    passi:
+      - Taglia la punta di un rametto lunga 5-8 cm con alcune coppie di foglie, appena sotto un nodo.
+      - Togli le foglie più basse e lascia asciugare la talea all'ombra per 2-3 giorni, finché il taglio fa la crosticina.
+      - Infilala per 2-3 cm in un vasetto con terriccio per piante grasse, appena umido.
+      - Tieni in luce viva ma non al sole forte, a 20-25 °C, senza coprirla; annaffia solo quando il terriccio è asciutto.
+      - Quando la talea resiste a un leggero tiro e fa foglie nuove, trapiantala in un vaso un po' più grande.
+    tempo: Radici in 2-3 settimane.
+    difficolta: facile
+    note: Non coprire con il sacchetto, perché l'umidità alta fa marcire le talee delle piante grasse.
+  - metodo: talea_foglia
+    quando: In primavera o in estate, con foglie adulte e sane.
+    passi:
+      - Stacca una foglia sana e carnosa con un po' di picciolo, tagliandola con un coltello pulito.
+      - Lasciala asciugare all'ombra per 2-3 giorni.
+      - Appoggia la foglia sul terriccio per piante grasse e infila appena il picciolo, oppure interrala per un terzo in verticale.
+      - Tieni in luce viva indiretta a circa 20-25 °C e nebulizza il terriccio solo quando è asciutto.
+      - Quando alla base spuntano radici e una piccola piantina, travasala in un vasetto suo.
+    tempo: Radici in 3-4 settimane, nuova piantina in 6-8 settimane.
+    difficolta: media
+    note: È più lenta della talea di fusto e non tutte le foglie attecchiscono, quindi prepara qualche foglia in più.
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: >-
+    Secondo l'ASPCA è tossica per cani e gatti: se ingerita causa vomito e
+    diarrea e, raramente, disturbi al cuore. Tenerla fuori dalla loro portata.
+problemi_comuni:
+  - sintomo: Non rifiorisce
+    causa: È una pianta a giorno corto e la sera riceve luce artificiale
+    rimedio: Da ottobre, per circa 6 settimane, 14 ore di buio completo ogni notte.
+  - sintomo: Fusti lunghi e spogli
+    causa: Poca luce
+    rimedio: Spostarla in un punto più luminoso e accorciare i fusti; le cime tagliate si possono usare come talee.
+immagini:
+  - commons: "Kalanchoe blossfeldiana 2zz.jpg"
+fonti:
+  - Royal Horticultural Society, scheda Kalanchoe blossfeldiana (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+  - University of Florida IFAS Extension, Kalanchoe blossfeldiana (edis.ifas.ufl.edu)
+autori: [piantalapp]
+aggiornato: "2026-10-18"

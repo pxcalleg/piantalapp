@@ -1,0 +1,114 @@
+schema_version: 1
+id: liquidambar
+stato: bozza
+nome_scientifico: Liquidambar styraciflua
+famiglia: Altingiaceae
+nomi_comuni:
+  it: [Liquidambar, Storace americano]
+  en: [Sweetgum, American sweetgum]
+descrizione: >-
+  Albero da giardino dalle foglie a stella con 5-7 lobi, verde lucido
+  d'estate e rosso, arancio e viola in autunno. Da giovane cresce bene in
+  un grande vaso, ma il suo posto è la piena terra.
+categorie: [esterno]
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: "no"
+  note: >-
+    È un albero che da adulto supera i 15-20 m: va piantato in piena terra,
+    lontano da case e tubature. Un esemplare giovane può stare qualche anno
+    in un vaso grande (almeno 40-50 cm) in terrazzo, mai in casa.
+difficolta: 2
+luce:
+  ideale: sole_diretto
+  tollera: [intensa_indiretta]
+  sole_diretto: si
+  esposizione: [sud, est, ovest]
+  note: >-
+    Pieno sole o mezz'ombra. Più sole prende, più accesi sono i colori
+    d'autunno; all'ombra le foglie restano gialle o cadono ancora verdi.
+annaffiatura:
+  quando: >-
+    In vaso quando i primi 3-5 cm di terriccio sono asciutti; in piena terra
+    solo nei primi due anni e nei periodi di siccità.
+  primavera_estate: { min: 2, max: 7 }
+  autunno_inverno: { min: 20, max: 40 }
+  metodo: >-
+    Bagnare a fondo e lentamente. In inverno, senza foglie, beve pochissimo:
+    in vaso basta che il terriccio non si secchi del tutto.
+  acqua: Meglio acqua piovana o poco calcarea, perché il calcare ingiallisce le foglie.
+  segnali_troppa: Foglie gialle e terriccio sempre fradicio nel vaso.
+  segnali_poca: Foglie che pendono, bordi secchi e marroni, caduta precoce in estate.
+umidita: media
+concimazione:
+  mesi: [3, 4, 5, 6]
+  frequenza_giorni: { min: 30, max: 60 }
+  tipo: Concime granulare a lenta cessione per piante acidofile, in primavera.
+  note: In piena terra un esemplare adulto di solito non ha bisogno di concime.
+temperatura:
+  min_c: -20
+  ideale_min_c: 10
+  ideale_max_c: 30
+  note: >-
+    Rustico, sopporta bene il gelo invernale. Le foglie appena nate però
+    temono le gelate tardive di primavera. In vaso le radici sono più
+    esposte al gelo: nelle zone molto fredde avvolgere il vaso.
+terreno: >-
+  Profondo, fresco e ben drenato, da acido a neutro. Nei terreni calcarei
+  le foglie ingialliscono (clorosi ferrica): in vaso usare terriccio per
+  acidofile.
+rinvaso: >-
+  In vaso ogni 2-3 anni, a fine inverno, in un vaso più grande. Appena
+  possibile metterlo a dimora in piena terra: da grande sopporta male i
+  trapianti.
+propagazione: [seme, talea_fusto]
+come_si_propaga:
+  - metodo: seme
+    quando: Raccogli le palle spinose in autunno, quando diventano marroni; semina a fine inverno o in primavera dopo il freddo.
+    passi:
+      - Lascia asciugare le palle in un sacchetto di carta in casa per qualche giorno, finché si aprono e fanno cadere i piccoli semi alati.
+      - Metti i semi in un sacchetto con sabbia o torba appena umida e tienilo in frigorifero (circa 4 °C) per 1-3 mesi, per imitare l'inverno.
+      - A marzo-aprile semina in vasetti o in una cassetta con terriccio per semina, coprendo i semi con appena 3-5 mm di terra.
+      - Tieni all'aperto in mezz'ombra o in un posto luminoso a 18-22 °C, con il terriccio sempre leggermente umido.
+      - Quando le piantine hanno qualche foglia vera trapiantale in vasi singoli; mettile in piena terra dopo 1-2 anni.
+    tempo: Germinazione in 3-6 settimane dopo la semina.
+    difficolta: facile
+    note: Le varietà selezionate (per esempio 'Worplesdon') non nascono uguali dal seme e i colori d'autunno delle piantine possono variare.
+  - metodo: talea_fusto
+    quando: Da fine maggio a luglio, con i rametti nuovi ancora teneri ma già un po' consistenti.
+    passi:
+      - Al mattino presto taglia punte di 10-15 cm con 3-4 nodi e mettile subito in un sacchetto umido.
+      - Togli le foglie basse lasciandone 2-3 in cima, e taglia a metà quelle più grandi.
+      - Immergi la base in ormone radicante e interrala in un vasetto con torba e perlite in parti uguali.
+      - Copri con un sacchetto trasparente o una mini serra e tieni in ombra luminosa, a 20-25 °C, con il terriccio sempre umido.
+      - Quando la talea mette radici e foglie nuove, abituala all'aria poco alla volta e tienila in vaso al riparo il primo inverno.
+    tempo: Radici in 5-8 settimane.
+    difficolta: difficile
+    note: Non tutte le talee radicano; prepararne parecchie aumenta le probabilità. È il modo per riprodurre fedelmente una varietà selezionata.
+tossicita:
+  animali: sconosciuta
+  persone: sconosciuta
+  note: >-
+    Non è elencata tra le piante tossiche dall'ASPCA, ma non ci sono dati
+    sicuri. I frutti secchi a palla spinosa possono pungere e sono
+    scivolosi sui vialetti.
+problemi_comuni:
+  - sintomo: Foglie gialle con le nervature verdi
+    causa: Clorosi ferrica, per terreno o acqua troppo calcarei
+    rimedio: Usare terriccio per acidofile e acqua piovana, e dare un prodotto a base di ferro chelato.
+  - sintomo: Foglie nuove annerite in primavera
+    causa: Gelata tardiva
+    rimedio: Coprire la chioma con tessuto non tessuto nelle notti fredde; le foglie danneggiate vengono sostituite.
+  - sintomo: Colori d'autunno spenti, solo gialli
+    causa: Poco sole o terreno troppo ricco di azoto
+    rimedio: Dargli una posizione più soleggiata e non concimare dopo l'inizio dell'estate.
+immagini:
+  - commons: "Starr 051105-8369 Liquidambar styraciflua.jpg"
+fonti:
+  - Royal Horticultural Society, scheda Liquidambar styraciflua (rhs.org.uk)
+  - University of Florida IFAS Extension, scheda Liquidambar styraciflua, Sweetgum (ST358)
+  - NC State Extension, Plant Toolbox, Liquidambar styraciflua (plants.ces.ncsu.edu)
+  - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori: [piantalapp]
+aggiornato: "2026-10-18"

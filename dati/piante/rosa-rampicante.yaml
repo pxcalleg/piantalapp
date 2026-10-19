@@ -1,0 +1,113 @@
+schema_version: 1
+id: rosa-rampicante
+stato: bozza
+nome_scientifico: "Rosa × hybrida (rampicanti)"
+famiglia: Rosaceae
+nomi_comuni:
+  it: [Rosa rampicante]
+  en: [Climbing rose]
+descrizione: >-
+  Rose con steli lunghi e flessibili, da legare a un muro, un arco o un
+  traliccio: possono superare i 2-3 metri. Varietà famose sono 'New Dawn',
+  'Pierre de Ronsard', 'Dortmund' e 'Gloire de Dijon'. Le rampicanti
+  rifiorenti fanno fiori da maggio all'autunno.
+categorie: [esterno, balcone, fiorita, pet_friendly]
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: "no"
+  note: >-
+    Pianta da esterno, contro un muro soleggiato o su un arco. In vaso serve
+    un contenitore grande (almeno 50 litri) con un traliccio robusto.
+difficolta: 3
+luce:
+  ideale: sole_diretto
+  tollera: [intensa_indiretta]
+  sole_diretto: si
+  esposizione: [sud, est, ovest]
+  note: >-
+    Servono almeno 6 ore di sole diretto al giorno per fiorire bene. Nelle
+    estati molto calde gradisce un po' d'ombra nelle ore centrali.
+annaffiatura:
+  quando: Quando i primi 3-4 cm di terriccio sono asciutti al tatto.
+  primavera_estate: { min: 2, max: 4 }
+  autunno_inverno: { min: 10, max: 21 }
+  metodo: >-
+    Annaffiare a fondo alla base, al mattino o alla sera, fino a far uscire
+    l'acqua dal foro del vaso. Non bagnare le foglie, per prevenire le malattie
+    fungine. In piena estate, in vaso, può servire acqua ogni giorno.
+  acqua: Va bene l'acqua del rubinetto; meglio ancora quella piovana.
+  segnali_troppa: Foglie che ingialliscono dal basso e cadono, terriccio sempre bagnato.
+  segnali_poca: Foglie e boccioli mosci, petali che seccano in fretta.
+umidita: media
+concimazione:
+  mesi: [3, 4, 5, 6, 7, 8]
+  frequenza_giorni: { min: 14, max: 21 }
+  tipo: Concime per rose o per piante da fiore, ricco di potassio.
+  note: >-
+    Smettere a fine agosto, perché i getti nuovi abbiano il tempo di
+    indurirsi prima dell'inverno.
+temperatura:
+  min_c: -12
+  ideale_min_c: 15
+  ideale_max_c: 28
+  note: >-
+    In piena terra è molto rustica; in vaso le radici gelano più facilmente,
+    quindi d'inverno conviene proteggere il vaso.
+terreno: >-
+  Terriccio specifico per rose o terriccio universale ricco con un terzo di
+  terra di campo e un po' di stallatico maturo; strato drenante sul fondo.
+rinvaso: >-
+  In vaso ogni 2-3 anni a fine inverno, oppure sostituire i primi 5 cm di
+  terriccio. Legare gli steli principali in orizzontale o a ventaglio e
+  accorciare i rametti laterali a 2-3 gemme a fine inverno.
+propagazione: [propaggine, talea_fusto]
+come_si_propaga:
+  - metodo: propaggine
+    quando: In primavera o a fine estate, usando un ramo lungo e flessibile vicino al suolo.
+    passi:
+      - Scegli un ramo giovane e flessibile e piegalo fino a terra, o fino a un vaso pieno di terriccio messo accanto alla pianta.
+      - Nel punto che tocca il terreno, a circa 30 cm dalla punta, togli le foglie e fai un piccolo taglio obliquo sotto un nodo.
+      - Interra quel tratto a 8-10 cm di profondità e fermalo con un picchetto a U o un sasso, lasciando la punta fuori e legata a un tutore.
+      - Tieni il terreno sempre umido durante l'estate.
+      - Dopo circa un anno, quando ha radici robuste, taglia il ramo che la collega alla madre e trapianta la nuova rosa in autunno o a fine inverno.
+    tempo: Radici in 6-12 mesi.
+    difficolta: facile
+    note: È il modo più sicuro per le rampicanti e le rambler, perché il ramo resta nutrito dalla pianta madre finché non radica.
+  - metodo: talea_fusto
+    quando: Tra fine giugno e settembre, con rami dell'anno semi-maturi (ancora flessibili ma già induriti alla base); in alternativa a ottobre-novembre con rami legnosi.
+    passi:
+      - Scegli un ramo sano che ha appena fiorito e taglia un pezzo di 20-25 cm, con forbici pulite e affilate.
+      - Taglia la base appena sotto un nodo e la cima appena sopra un nodo, togliendo il fiore appassito.
+      - Elimina tutte le foglie tranne le due più in alto e rimuovi le spine nella parte bassa.
+      - Intingi la base in ormone radicante in polvere e infilala per due terzi in un vaso con metà terriccio e metà sabbia o perlite.
+      - Annaffia, copri il vaso con un sacchetto di plastica trasparente e tienilo alla luce ma non al sole diretto, a 18-22 °C.
+      - Quando spuntano foglie nuove e la talea resiste a un leggero tiro, trapiantala in un vaso singolo con terriccio per rose.
+    tempo: Radici in 6-8 settimane per le talee estive; quelle autunnali radicano entro la primavera successiva.
+    difficolta: media
+    note: Le rambler e molte rampicanti vigorose radicano bene da talea. Le varietà brevettate non si possono moltiplicare per venderle.
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: >-
+    Secondo l'ASPCA la rosa non è tossica per cani e gatti; attenzione però
+    alle spine, che possono ferire bocca e zampe.
+problemi_comuni:
+  - sintomo: Macchie nere tonde sulle foglie, che poi ingialliscono e cadono
+    causa: Ticchiolatura (macchia nera), un fungo favorito dalle foglie bagnate
+    rimedio: Togliere e buttare le foglie colpite, annaffiare solo alla base e arieggiare; a inizio primavera un trattamento a base di rame.
+  - sintomo: Polvere bianca su foglie e boccioli
+    causa: Oidio (mal bianco), con giornate calde e notti umide
+    rimedio: Eliminare le parti colpite e migliorare l'aerazione; zolfo o bicarbonato di potassio nei casi diffusi.
+  - sintomo: Colonie di insetti verdi sui germogli e sui boccioli
+    causa: Afidi
+    rimedio: Getto d'acqua o sapone molle potassico; coccinelle e altri predatori aiutano.
+immagini:
+  - commons: 'Rosa New Dawn.jpg'
+fonti:
+  - Royal Horticultural Society, guide "Roses" e "Roses in containers" (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche, voce Rose (aspca.org)
+  - University of Minnesota Extension, "Growing roses" (extension.umn.edu)
+  - Clemson Cooperative Extension, "Roses" (hgic.clemson.edu)
+autori: [piantalapp]
+aggiornato: "2026-10-18"

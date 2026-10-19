@@ -44,9 +44,15 @@ def info(nome):
         testo = meta.get(k, {}).get("value", "")
         return html.unescape(re.sub(r"<[^>]+>", "", testo)).strip()
 
+    autore = campo("Artist") or campo("Credit") or "Autore sconosciuto"
+    # Commons a volte scrive "No machine-readable author provided. X assumed
+    # (based on copyright claims)." quando l'autore è dedotto dal caricatore.
+    dedotto = re.match(r"No machine-readable author provided\. (.+?) assumed", autore)
+    if dedotto:
+        autore = dedotto.group(1)
     return {
         "commons": nome,
-        "autore": campo("Artist") or campo("Credit") or "Autore sconosciuto",
+        "autore": autore,
         "licenza": campo("LicenseShortName"),
         "url_licenza": campo("LicenseUrl"),
         "pagina": ii["descriptionurl"],
@@ -54,7 +60,30 @@ def info(nome):
     }
 
 
+def verifica():
+    """Controlla solo che ogni foto esista su Commons e abbia licenza libera,
+    senza scaricare nulla: gira sulle pull request."""
+    errori = []
+    for file in sorted(PIANTE.glob("*.yaml")):
+        scheda = yaml.safe_load(file.read_text(encoding="utf-8"))
+        for imm in scheda.get("immagini", []):
+            try:
+                dati = info(imm["commons"])
+            except Exception as e:
+                errori.append(f"{file.name}: {e}")
+                continue
+            if not LICENZE_LIBERE.match(dati["licenza"]):
+                errori.append(f"{file.name}: licenza non libera '{dati['licenza']}' per {imm['commons']}")
+                continue
+            print(f"✓ {file.name}: {imm['commons']} ({dati['licenza']}, {dati['autore']})")
+    if errori:
+        print("\n".join(errori), file=sys.stderr)
+        sys.exit(1)
+
+
 def main():
+    if "--verifica" in sys.argv:
+        return verifica()
     CARTELLA.mkdir(parents=True, exist_ok=True)
     precedenti = {
         c["file"]: c["commons"]

@@ -1,0 +1,113 @@
+schema_version: 1
+id: echeveria
+stato: bozza
+nome_scientifico: Echeveria elegans
+famiglia: Crassulaceae
+nomi_comuni:
+  it: [Echeveria, Rosa di alabastro, Rosa di pietra]
+  en: [Mexican snowball, White Mexican rose]
+descrizione: >-
+  Rosetta compatta di foglie carnose a spatola, azzurro-grigie e coperte di
+  pruina, con la punta rosata. In primavera fa steli arcuati con
+  campanelline rosa e gialle.
+categorie: [appartamento, balcone, succulenta, pet_friendly]
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: "no"
+  note: >-
+    Fuori da primavera ad autunno, al sole e al riparo dalla pioggia; nelle
+    zone a inverno mite resta fuori se all'asciutto e sopra i 5 °C.
+difficolta: 2
+luce:
+  ideale: sole_diretto
+  tollera: [intensa_indiretta]
+  sole_diretto: si
+  esposizione: [sud, ovest, est]
+  note: >-
+    È la succulenta che soffre di più la poca luce: il fusto si allunga,
+    la rosetta si apre e perde il colore azzurro.
+annaffiatura:
+  quando: Quando il terriccio è completamente asciutto; le foglie leggermente meno sode indicano sete.
+  primavera_estate: { min: 10, max: 14 }
+  autunno_inverno: { min: 30, max: 45 }
+  metodo: Bagnare il terriccio senza lasciare acqua tra le foglie della rosetta; svuotare il sottovaso.
+  segnali_troppa: Foglie gonfie, traslucide e giallastre che si staccano.
+  segnali_poca: Foglie esterne raggrinzite e sottili.
+umidita: bassa
+concimazione:
+  mesi: [4, 5, 6, 7, 8]
+  frequenza_giorni: { min: 30, max: 45 }
+  tipo: Concime per piante grasse a metà dose.
+temperatura:
+  min_c: 5
+  ideale_min_c: 15
+  ideale_max_c: 28
+terreno: Terriccio per piante grasse con molta pomice o lapillo.
+rinvaso: Ogni 2 anni in primavera, in vasi bassi di terracotta.
+propagazione: [polloni, talea_fusto, talea_foglia, seme]
+come_si_propaga:
+  - metodo: polloni
+    quando: Da marzo a giugno, anche durante il rinvaso.
+    passi:
+      - Scegli le rosette laterali larghe almeno 3-4 cm che crescono attorno alla madre.
+      - Staccale con le dita o tagliale con un coltellino pulito, tenendo un pezzetto di stolone o qualche radice.
+      - Lascia asciugare il taglio all'ombra per 1-2 giorni.
+      - Appoggiale su terriccio per cactacee con sabbia o pomice, leggermente umido.
+      - Tieni in luce luminosa senza sole forte per due settimane, poi tratta come una pianta adulta.
+    tempo: Radici in 2-3 settimane.
+    difficolta: facile
+  - metodo: talea_fusto
+    quando: Da aprile a giugno; è il rimedio ideale per una pianta allungata.
+    passi:
+      - Taglia la rosetta lasciando 2-3 cm di fusto sotto le foglie, con un coltello pulito e affilato.
+      - Togli le foglie più basse dal pezzetto di fusto e lascia asciugare la rosetta all'ombra per 3-5 giorni.
+      - Appoggia la rosetta su terriccio per cactacee asciutto, con il fusto appena infilato.
+      - Aspetta una settimana prima di bagnare poco, e tieni in luce luminosa indiretta.
+      - Lascia il vecchio fusto nel vaso, perché spesso produce nuove rosette dai lati.
+    tempo: Radici in 2-4 settimane.
+    difficolta: facile
+  - metodo: talea_foglia
+    quando: Da aprile a giugno, con temperature sopra i 18 °C.
+    passi:
+      - Stacca una foglia bassa e sana con una leggera torsione, in modo che venga via intera con la base.
+      - Lasciala asciugare all'ombra per 2-3 giorni.
+      - Appoggiala sdraiata su terriccio per cactacee asciutto, senza interrarla.
+      - Tieni in luce luminosa indiretta e nebulizza il terriccio una volta a settimana, quando spuntano le prime radici rosa.
+      - Quando la nuova rosetta è larga 2 cm e la foglia madre è secca, trapiantala in un vasetto piccolo.
+    tempo: Radici in 2-3 settimane, rosetta in 6-8 settimane.
+    difficolta: facile
+    note: Non tutte le foglie partono, quindi metti a radicare 5-10 foglie per avere qualche piantina sicura.
+  - metodo: seme
+    quando: In primavera, con 20-25 °C.
+    passi:
+      - Riempi una vaschetta con terriccio per cactacee setacciato e fine, e inumidiscilo bene.
+      - Spargi i semi, che sono minuscoli, sulla superficie senza coprirli.
+      - Copri con un coperchio trasparente o pellicola per tenere l'umidità e metti in luce luminosa senza sole diretto.
+      - Nebulizza per mantenere sempre appena umido e togli la copertura poco alla volta dopo la germinazione.
+      - Trapianta le piantine in vasetti singoli quando sono larghe circa 1 cm.
+    tempo: Germinazione in 1-3 settimane; piantine da trapiantare dopo 4-6 mesi.
+    difficolta: difficile
+    note: Le Echeveria si incrociano facilmente tra loro, quindi da seme le piantine possono non somigliare alla madre.
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Le echeverie sono considerate non tossiche per cani e gatti.
+problemi_comuni:
+  - sintomo: Fusto lungo con foglie distanziate
+    causa: Luce insufficiente
+    rimedio: Tagliare la rosetta con un pezzo di fusto, lasciarla asciugare qualche giorno e ripiantarla al sole.
+  - sintomo: Foglie basse che seccano
+    causa: Normale ricambio della pianta
+    rimedio: Toglierle quando sono secche, per evitare marciumi e parassiti.
+  - sintomo: Batuffoli bianchi tra le foglie
+    causa: Cocciniglia farinosa
+    rimedio: Togliere con un cotton fioc imbevuto di alcol.
+immagini:
+  - commons: "Rosa de alabastro (Echeveria elegans), Calatayud, España 2012-05-16, DD 01.JPG"
+fonti:
+  - Royal Horticultural Society, scheda Echeveria elegans (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche, voce Echeveria (aspca.org)
+  - North Carolina State University Extension Gardener Plant Toolbox, Echeveria elegans (plants.ces.ncsu.edu)
+autori: [piantalapp]
+aggiornato: "2026-10-18"

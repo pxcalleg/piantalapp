@@ -32,6 +32,61 @@ ARCHITETTURA.md     scelte tecniche e piano di lavoro
 | Sansevieria | *Dracaena trifasciata* | appartamento, succulenta |
 | Fittonia | *Fittonia albivenis* | terrarium, appartamento |
 | Spatifillo | *Spathiphyllum wallisii* | appartamento, fiorita |
+| Liquidambar | *Liquidambar styraciflua* | esterno |
+| Ficus Bambino | *Ficus lyrata* 'Bambino' | appartamento, da ufficio |
+| Rosa ibrida di tea | *Rosa × hybrida* (Ibridi di Tea) | esterno, balcone, fiorita |
+| Rosa floribunda | *Rosa × hybrida* (Floribunda) | esterno, balcone, fiorita |
+| Rosa rampicante | *Rosa × hybrida* (rampicanti) | esterno, fiorita |
+| Rosa inglese | *Rosa × hybrida* (arbustive e inglesi) | esterno, balcone, fiorita |
+| Rosa miniatura | *Rosa × hybrida* (miniatura) | balcone, fiorita |
+| Ortensia | *Hydrangea macrophylla* | esterno, balcone, fiorita |
+| Phalaenopsis | *Phalaenopsis* | appartamento, fiorita |
+| Dendrobium | *Dendrobium nobile* | appartamento, fiorita |
+| Cymbidium | *Cymbidium* | appartamento, balcone, fiorita |
+| Stella di Natale | *Euphorbia pulcherrima* | appartamento, fiorita |
+| Kalanchoe | *Kalanchoe blossfeldiana* | appartamento, succulenta, fiorita |
+| Aloe vera | *Aloe vera* | appartamento, balcone, succulenta |
+| Albero di giada | *Crassula ovata* | appartamento, balcone, succulenta |
+| Echeveria | *Echeveria elegans* | appartamento, balcone, succulenta |
+| Haworthia | *Haworthiopsis attenuata* | appartamento, succulenta |
+| Mammillaria | *Mammillaria zeilmanniana* | appartamento, balcone, succulenta, fiorita |
+| Fico d'India nano | *Opuntia microdasys* | appartamento, balcone, succulenta |
+
+## Google Play Store
+
+I passi per la pubblicazione, le risposte ai moduli della Play Console e la
+gestione della chiave di caricamento sono in [docs/PLAY-STORE.md](docs/PLAY-STORE.md).
+Testi, icona, grafica e screenshot della scheda sono in
+`fastlane/metadata/android/it-IT`.
+
+## iPhone e iPad
+
+- **Subito, senza App Store:** apri https://pxcalleg.github.io/piantalapp/ con
+  Safari, tocca *Condividi* e poi *Aggiungi alla schermata Home*. PiantalAPP
+  compare tra le app con la sua icona e si apre a schermo intero.
+- **App vera e propria:** il progetto iOS è in `app/ios` e GitHub lo compila a
+  ogni modifica (controllo *App iOS*). Per installarla sugli iPhone serve:
+  1. un account [Apple Developer](https://developer.apple.com/programs/)
+     (99 € l'anno, a nome di una persona o di un'azienda);
+  2. registrare l'identificativo `io.github.pxcalleg.piantalapp` e creare
+     l'app su [App Store Connect](https://appstoreconnect.apple.com);
+  3. firmare e caricare la build: da un Mac con Xcode, oppure aggiungendo a
+     GitHub le chiavi di App Store Connect perché la carichi da solo su
+     TestFlight;
+  4. provarla con TestFlight e inviarla alla revisione di Apple.
+
+## Riconoscere una pianta da una foto
+
+Il pulsante *Riconosci* invia la foto a [Pl@ntNet](https://plantnet.org),
+che la analizza senza conservarla e propone le specie più probabili, con il
+link alla scheda quando la pianta è già in archivio. Il piano gratuito
+consente 500 riconoscimenti al giorno.
+
+La chiave del servizio non è nel codice: GitHub la inserisce al momento della
+compilazione dal secret `PLANTNET_API_KEY`. Nelle impostazioni della chiave su
+[my.plantnet.org](https://my.plantnet.org) va spuntato *expose my API key*,
+con `https://pxcalleg.github.io` tra i domini autorizzati. Per provarla in
+locale: `flutter run --dart-define=PLANTNET_API_KEY=la-tua-chiave`.
 
 ## Contribuire
 

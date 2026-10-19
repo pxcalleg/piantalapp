@@ -46,6 +46,28 @@ temperatura:
 terreno: Terriccio universale con perlite o corteccia per mantenerlo arioso.
 rinvaso: Ogni 2 anni o quando le radici escono dai fori.
 propagazione: [talea_in_acqua, talea_fusto]
+come_si_propaga:
+  - metodo: talea_in_acqua
+    quando: Da aprile a settembre, quando la pianta cresce attivamente.
+    passi:
+      - Taglia con forbici pulite un pezzo di fusto lungo 10-15 cm con 2-4 foglie, appena sotto un nodo (il punto dove nasce la foglia e spesso una radichetta aerea marrone).
+      - Togli la foglia più bassa, in modo che il nodo resti nudo.
+      - Metti la talea in un bicchiere d'acqua a temperatura ambiente, con il nodo sott'acqua e le foglie fuori.
+      - Tienila in un punto luminoso ma senza sole diretto e cambia l'acqua ogni 4-5 giorni.
+      - Quando le radici sono lunghe 3-5 cm, trasferiscila in un vasetto con terriccio universale e perlite e tienilo umido per le prime settimane.
+    tempo: Radici visibili in 2-3 settimane; pronta per il vaso in 4-6 settimane.
+    difficolta: facile
+    note: Una foglia staccata senza nodo può fare radici ma non darà mai una nuova pianta. Metti 3-4 talee nello stesso vaso per avere subito una pianta folta.
+  - metodo: talea_fusto
+    quando: Da aprile a settembre, con temperature sopra i 20 °C.
+    passi:
+      - Taglia una punta di 10-15 cm con almeno 2 nodi e 2-3 foglie, con forbici pulite.
+      - Togli la foglia più bassa e interra la talea in un vasetto di terriccio universale misto a perlite, con almeno un nodo sotto terra.
+      - Annaffia leggermente e copri il vaso con un sacchetto di plastica trasparente per tenere alta l'umidità.
+      - Tienilo al caldo (20-25 °C) e in luce indiretta, arieggiando ogni pochi giorni e mantenendo il terriccio appena umido.
+      - Quando spuntano foglie nuove togli il sacchetto e trattala come una pianta adulta.
+    tempo: Radici in 3-4 settimane.
+    difficolta: facile
 tossicita:
   animali: tossica
   persone: lieve
@@ -63,4 +85,4 @@ fonti:
   - Royal Horticultural Society, scheda Epipremnum aureum (rhs.org.uk)
   - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
 autori: [piantalapp]
-aggiornato: "2026-10-17"
+aggiornato: "2026-10-18"

@@ -3,6 +3,953 @@
  "piante": [
   {
    "schema_version": 1,
+   "id": "aloe-vera",
+   "stato": "bozza",
+   "nome_scientifico": "Aloe vera",
+   "sinonimi": [
+    "Aloe barbadensis"
+   ],
+   "famiglia": "Asphodelaceae",
+   "nomi_comuni": {
+    "it": [
+     "Aloe vera",
+     "Aloe"
+    ],
+    "en": [
+     "Aloe vera",
+     "Medicinal aloe"
+    ]
+   },
+   "descrizione": "Rosetta di foglie spesse e carnose, grigio-verdi, con macchioline chiare da giovane e piccoli denti sul bordo. Ama il sole e teme solo l'acqua in eccesso e il freddo.",
+   "categorie": [
+    "appartamento",
+    "balcone",
+    "succulenta"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "Da maggio a settembre sta benissimo fuori, al sole e al riparo dalle piogge lunghe; ritirarla quando la notte scende sotto i 10 °C."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "ovest",
+     "est"
+    ],
+    "note": "Con poca luce le foglie si allungano, si appiattiscono e si piegano. Dopo l'inverno in casa va riabituata al sole pieno un po' alla volta."
+   },
+   "annaffiatura": {
+    "quando": "Solo quando il terriccio è completamente asciutto, anche in profondità.",
+    "primavera_estate": {
+     "min": 14,
+     "max": 21
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 45
+    },
+    "metodo": "Annaffiare a fondo il terriccio, senza bagnare il centro della rosetta, e svuotare il sottovaso.",
+    "segnali_troppa": "Foglie gonfie, molli e traslucide, base scura.",
+    "segnali_poca": "Foglie sottili che si incurvano verso l'interno, punte secche."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 60
+    },
+    "tipo": "Concime per piante grasse a metà dose."
+   },
+   "temperatura": {
+    "min_c": 10,
+    "ideale_min_c": 18,
+    "ideale_max_c": 30
+   },
+   "terreno": "Terriccio per piante grasse, oppure universale con almeno un terzo di pomice o sabbia grossa.",
+   "rinvaso": "Ogni 2-3 anni in primavera, in un vaso di terracotta poco più largo, con fori di drenaggio.",
+   "propagazione": [
+    "polloni"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "polloni",
+     "quando": "In primavera o inizio estate, meglio durante il rinvaso.",
+     "passi": [
+      "Scegli i polloni alti almeno 8-10 cm, con 4-5 foglie e qualche radice propria.",
+      "Sfila la pianta dal vaso e separa il pollone dalla madre con le dita o con un coltello pulito, tenendo le sue radici.",
+      "Lascia asciugare il taglio all'ombra per 1-2 giorni, finché fa la crosticina.",
+      "Invasa in un vasetto di 10 cm con terriccio per cactacee e un po' di sabbia o pomice.",
+      "Tieni in luce luminosa ma non al sole diretto e aspetta una settimana prima di bagnare poco."
+     ],
+     "tempo": "Si assesta in 3-4 settimane, poi riprende a crescere.",
+     "difficolta": "facile",
+     "note": "I polloni troppo piccoli e senza radici marciscono facilmente; meglio aspettare che crescano attaccati alla madre."
+    }
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "lieve",
+    "note": "Il lattice giallo sotto la buccia contiene antrachinoni: se ingerito causa vomito e diarrea in cani e gatti, e ha effetto lassativo nelle persone. Il gel interno, usato sulla pelle, è in genere ben tollerato."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Foglie rosso-brune",
+     "causa": "Stress da sole forte o da sete",
+     "rimedio": "Un po' d'ombra nelle ore calde e un'annaffiatura a fondo; torna verde in qualche settimana."
+    },
+    {
+     "sintomo": "Foglie lunghe, piatte e piegate verso la finestra",
+     "causa": "Luce insufficiente",
+     "rimedio": "Spostarla nel punto più luminoso della casa o fuori d'estate."
+    },
+    {
+     "sintomo": "Base molle e scura",
+     "causa": "Marciume da troppa acqua",
+     "rimedio": "Togliere dal vaso, eliminare le parti marce, lasciare asciugare e rinvasare in terriccio asciutto."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "aloe-vera-1.jpg",
+     "commons": "Aloe vera plant.JPG",
+     "autore": "Miansari66",
+     "licenza": "Public domain",
+     "url_licenza": "",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Aloe_vera_plant.JPG",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Aloe_vera_plant.JPG/960px-Aloe_vera_plant.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, scheda Aloe vera (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Aloe (aspca.org)",
+    "University of Florida IFAS Extension, Aloe vera (edis.ifas.ufl.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "crassula",
+   "stato": "bozza",
+   "nome_scientifico": "Crassula ovata",
+   "sinonimi": [
+    "Crassula argentea",
+    "Crassula portulacea"
+   ],
+   "famiglia": "Crassulaceae",
+   "nomi_comuni": {
+    "it": [
+     "Albero di giada",
+     "Crassula",
+     "Pianta del denaro"
+    ],
+    "en": [
+     "Jade plant",
+     "Money plant",
+     "Money tree"
+    ]
+   },
+   "descrizione": "Alberello succulento con tronchetto legnoso, rami robusti e foglie ovali carnose verde giada, spesso bordate di rosso al sole. Vive per decenni.",
+   "categorie": [
+    "appartamento",
+    "balcone",
+    "succulenta"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "D'estate fuori al sole le fa benissimo; ritirarla prima che le notti scendano sotto i 7-10 °C."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta",
+     "media_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "ovest",
+     "est"
+    ],
+    "note": "Con poca luce i rami si allungano e si piegano e le foglie restano piccole e distanziate. Al sole il bordo delle foglie diventa rosso."
+   },
+   "annaffiatura": {
+    "quando": "Quando il terriccio è asciutto in profondità; d'inverno quasi niente.",
+    "primavera_estate": {
+     "min": 10,
+     "max": 14
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 40
+    },
+    "metodo": "Annaffiare a fondo e lasciare scolare; mai acqua nel sottovaso.",
+    "segnali_troppa": "Foglie gialle, molli e traslucide che cadono; base del tronco scura.",
+    "segnali_poca": "Foglie raggrinzite, sottili e mosce."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 30
+    },
+    "tipo": "Concime per piante grasse a metà dose."
+   },
+   "temperatura": {
+    "min_c": 7,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28,
+    "note": "Un inverno fresco (10-15 °C) e asciutto favorisce i fiorellini bianchi o rosati."
+   },
+   "terreno": "Terriccio per piante grasse con pomice o sabbia grossa.",
+   "rinvaso": "Ogni 2-3 anni in primavera; vaso pesante in terracotta, perché la chioma tende a farla ribaltare.",
+   "propagazione": [
+    "talea_fusto",
+    "talea_foglia"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da aprile a luglio, quando la pianta è in crescita.",
+     "passi": [
+      "Taglia una punta di ramo lunga 8-12 cm con forbici pulite, appena sopra un nodo della pianta madre.",
+      "Togli le foglie dei 2-3 cm più bassi e lascia asciugare la talea all'ombra per 3-5 giorni, finché il taglio fa la crosticina.",
+      "Infila la base per 2-3 cm in un vasetto con terriccio per cactacee leggermente umido.",
+      "Tieni in luce luminosa ma senza sole diretto, a 18-24 °C, senza coprire con plastica.",
+      "Bagna solo quando il terriccio è asciutto; quando la talea resiste a una leggera tirata ha radicato."
+     ],
+     "tempo": "Radici in 2-4 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "talea_foglia",
+     "quando": "Da aprile a luglio.",
+     "passi": [
+      "Stacca una foglia sana e carnosa con una leggera torsione, in modo che venga via intera con la sua base.",
+      "Lasciala asciugare all'ombra per 2-3 giorni.",
+      "Appoggiala sopra un terriccio per cactacee appena umido, con la base a contatto con il terreno o appena infilata.",
+      "Metti in luce luminosa ma indiretta e nebulizza leggermente il terriccio quando è asciutto.",
+      "Quando la piantina nuova è alta 2-3 cm e la foglia madre si è seccata, trapiantala in un vasetto piccolo."
+     ],
+     "tempo": "Radici in 3-4 settimane, piantina visibile in 2-3 mesi.",
+     "difficolta": "facile",
+     "note": "È più lenta della talea di fusto; le foglie staccate a metà, senza la base, di solito non radicano."
+    }
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "lieve",
+    "note": "Se ingerita può causare vomito, abbattimento e mancanza di coordinazione in cani e gatti."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Foglie che cadono in massa",
+     "causa": "Troppa acqua, freddo o spostamento brusco",
+     "rimedio": "Controllare il terriccio, lasciarlo asciugare e tenerla sopra i 10 °C lontana da correnti."
+    },
+    {
+     "sintomo": "Batuffoli bianchi cotonosi all'ascella delle foglie",
+     "causa": "Cocciniglia farinosa",
+     "rimedio": "Togliere con un cotton fioc imbevuto di alcol e ripetere dopo una settimana."
+    },
+    {
+     "sintomo": "Rami lunghi e molli",
+     "causa": "Luce insufficiente",
+     "rimedio": "Più sole e una potatura in primavera per renderla compatta."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "crassula-1.jpg",
+     "commons": "Crassula ovata (potted, Nepal) 02.jpg",
+     "autore": "Sabina Bajracharya",
+     "licenza": "CC BY-SA 4.0",
+     "url_licenza": "https://creativecommons.org/licenses/by-sa/4.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Crassula_ovata_(potted,_Nepal)_02.jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Crassula_ovata_%28potted%2C_Nepal%29_02.jpg/960px-Crassula_ovata_%28potted%2C_Nepal%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, scheda Crassula ovata (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Jade Plant (aspca.org)",
+    "University of Wisconsin-Madison Extension, Jade plant (hort.extension.wisc.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "cymbidium",
+   "stato": "bozza",
+   "nome_scientifico": "Cymbidium",
+   "sinonimi": [
+    "Cymbidium ibridi"
+   ],
+   "famiglia": "Orchidaceae",
+   "nomi_comuni": {
+    "it": [
+     "Cymbidium"
+    ],
+    "en": [
+     "Boat orchid",
+     "Cymbidium"
+    ]
+   },
+   "descrizione": "Orchidea robusta con un ciuffo di lunghe foglie a nastro che nascono da pseudobulbi tondi. In inverno fa steli eretti con molti grandi fiori cerosi che durano settimane. Ama il fresco e la luce.",
+   "categorie": [
+    "appartamento",
+    "fiorita",
+    "balcone"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "Da maggio a ottobre sta benissimo in balcone o in giardino a mezz'ombra: le notti fresche di fine estate fanno nascere gli steli. Va ritirata prima delle gelate."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "sole_diretto",
+     "media_indiretta"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ],
+    "note": "Ha bisogno di molta luce; foglie verde chiaro vanno bene, foglie scure e molli indicano poca luce."
+   },
+   "annaffiatura": {
+    "quando": "Quando la superficie del substrato è asciutta; non deve mai seccare del tutto.",
+    "primavera_estate": {
+     "min": 3,
+     "max": 7
+    },
+    "autunno_inverno": {
+     "min": 7,
+     "max": 14
+    },
+    "metodo": "Annaffiare a fondo e lasciar scolare; svuotare il sottovaso.",
+    "acqua": "Meglio acqua piovana o poco calcarea.",
+    "segnali_troppa": "Pseudobulbi molli, foglie gialle alla base, radici marce.",
+    "segnali_poca": "Pseudobulbi raggrinziti, punte delle foglie secche, boccioli che cadono."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime per orchidee ricco di azoto in primavera, poi più ricco di potassio da fine estate."
+   },
+   "temperatura": {
+    "min_c": 5,
+    "ideale_min_c": 10,
+    "ideale_max_c": 25,
+    "note": "Per fiorire vuole notti fresche (10-14 °C) tra fine estate e autunno."
+   },
+   "terreno": "Substrato per cymbidium, o corteccia fine con un po' di terriccio fibroso e perlite.",
+   "rinvaso": "Ogni 2-3 anni in primavera dopo la fioritura, quando i bulbi riempiono il vaso; si può dividere.",
+   "propagazione": [
+    "divisione"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "In primavera, subito dopo la fioritura, quando il vaso è pieno.",
+     "passi": [
+      "Sfila la pianta dal vaso, togli il vecchio substrato ed elimina le radici marce o vuote.",
+      "Dividi il cespo con le mani o un coltello disinfettato in porzioni di almeno 3-4 pseudobulbi con foglie.",
+      "Invasa ogni porzione in un vaso appena più grande delle radici, con terriccio per Cymbidium o corteccia fine mescolata a torba.",
+      "Tieni all'ombra luminosa e bagna poco per 2-3 settimane, finché vedi nuova crescita."
+     ],
+     "tempo": "Riprende in 4-8 settimane; fiorisce di solito dopo 1-2 anni.",
+     "difficolta": "media",
+     "note": "Anche i vecchi pseudobulbi senza foglie, staccati e messi su sfagno umido, possono rimettere un germoglio in qualche mese."
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Secondo l'ASPCA le orchidee Cymbidium non sono tossiche per cani e gatti."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Tante foglie ma nessuno stelo",
+     "causa": "Poca luce, o estate e autunno passati al caldo in casa",
+     "rimedio": "Tenerla all'aperto in estate e fino ai primi freddi, con molta luce."
+    },
+    {
+     "sintomo": "Boccioli che cadono",
+     "causa": "Sbalzi di temperatura, aria calda e secca o substrato asciutto",
+     "rimedio": "Tenerla in una stanza fresca e luminosa, lontano dai termosifoni, con il substrato appena umido."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "cymbidium-1.jpg",
+     "commons": "Cymbidium cv.01.JPG",
+     "autore": "Kor!An (Андрей Корзун)",
+     "licenza": "CC BY-SA 3.0",
+     "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Cymbidium_cv.01.JPG",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Cymbidium_cv.01.JPG/960px-Cymbidium_cv.01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, guida alla coltivazione dei Cymbidium (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)",
+    "University of California Agriculture and Natural Resources, Cymbidium orchids (ucanr.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "dendrobium",
+   "stato": "bozza",
+   "nome_scientifico": "Dendrobium nobile",
+   "famiglia": "Orchidaceae",
+   "nomi_comuni": {
+    "it": [
+     "Dendrobium",
+     "Orchidea bambù"
+    ],
+    "en": [
+     "Noble dendrobium",
+     "Dendrobium nobile"
+    ]
+   },
+   "descrizione": "Orchidea con fusti eretti a canna, ingrossati e divisi in nodi, con foglie sulla parte alta. A fine inverno si copre di fiori rosa e bianchi a coppie lungo le canne. Per fiorire vuole un inverno fresco e asciutto.",
+   "categorie": [
+    "appartamento",
+    "fiorita"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "Da maggio a settembre può stare in balcone a mezz'ombra; in autunno va tenuta al fresco (10-15 °C), ma al riparo dal gelo."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "sole_diretto",
+     "media_indiretta"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "est",
+     "sud",
+     "ovest"
+    ],
+    "note": "Vuole molta luce, anche il sole del mattino; con poca luce fa solo foglie e non fiorisce."
+   },
+   "annaffiatura": {
+    "quando": "In crescita quando il substrato è quasi asciutto; da ottobre a febbraio solo se le canne si raggrinziscono.",
+    "primavera_estate": {
+     "min": 4,
+     "max": 7
+    },
+    "autunno_inverno": {
+     "min": 14,
+     "max": 21
+    },
+    "metodo": "Annaffiare a fondo o immergere il vaso e lasciarlo sgocciolare; d'estate nebulizzare le foglie.",
+    "acqua": "Meglio acqua piovana o poco calcarea.",
+    "segnali_troppa": "Canne molli e scure alla base, foglie gialle che cadono.",
+    "segnali_poca": "Canne raggrinzite e giallastre."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime liquido per orchidee a dose ridotta; stop da ottobre per avere fiori e non nuove piantine."
+   },
+   "temperatura": {
+    "min_c": 8,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28,
+    "note": "Il riposo fresco (10-15 °C) e asciutto da ottobre a gennaio è ciò che fa nascere i boccioli."
+   },
+   "terreno": "Corteccia di pino media per orchidee, in un vaso piccolo e ben drenato.",
+   "rinvaso": "Ogni 2-3 anni in primavera, quando spuntano le canne nuove; vaso appena più grande.",
+   "propagazione": [
+    "polloni",
+    "divisione",
+    "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "polloni",
+     "quando": "In primavera o estate, quando il keiki ha radici lunghe almeno 3-5 cm.",
+     "passi": [
+      "Aspetta che la piantina (keiki) nata sulla canna abbia 2-3 foglie e qualche radice lunga 3-5 cm.",
+      "Staccala con una leggera torsione o tagliala con un coltello disinfettato con alcol, con un pezzetto di canna.",
+      "Mettila in un vasetto di 6-8 cm con corteccia fine per orchidee, fermandola con un tutore se dondola.",
+      "Tieni in luce luminosa ma filtrata e nebulizza ogni 2-3 giorni finché le radici entrano nella corteccia.",
+      "Bagna quando la corteccia è quasi asciutta, come una pianta adulta."
+     ],
+     "tempo": "Si assesta in 4-6 settimane; fiorisce dopo 1-2 anni.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "divisione",
+     "quando": "In primavera, quando spuntano le canne nuove alla base.",
+     "passi": [
+      "Sfila la pianta dal vaso ed elimina la vecchia corteccia e le radici marce o vuote.",
+      "Dividi il cespo con un coltello disinfettato in porzioni di almeno 3-4 canne, ognuna con radici sane e un germoglio nuovo.",
+      "Metti ogni porzione in un vaso piccolo con corteccia per orchidee, con le canne vecchie verso il bordo.",
+      "Lega le canne a un tutore e aspetta una settimana prima di bagnare, nebulizzando nel frattempo."
+     ],
+     "tempo": "Riprende in 4-8 settimane.",
+     "difficolta": "media",
+     "note": "Le porzioni troppo piccole fanno fatica e possono non fiorire per un paio d'anni."
+    },
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a luglio, con caldo e umidità.",
+     "passi": [
+      "Taglia una canna vecchia e senza foglie alla base, con un coltello disinfettato.",
+      "Dividila in pezzi di 10-15 cm, ognuno con almeno 2-3 nodi.",
+      "Appoggia i pezzi sdraiati su sfagno umido in una vaschetta con coperchio trasparente.",
+      "Tieni a 22-27 °C in luce luminosa ma filtrata, aprendo il coperchio ogni giorno per qualche minuto.",
+      "Quando dai nodi spuntano piantine con radici di 3-5 cm, staccale e invasale come i keiki."
+     ],
+     "tempo": "Piantine dai nodi in 2-4 mesi.",
+     "difficolta": "difficile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Secondo l'ASPCA le orchidee Dendrobium non sono tossiche per cani e gatti."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Spuntano piantine (keiki) sulle canne invece dei fiori",
+     "causa": "Troppa acqua, concime o caldo in inverno",
+     "rimedio": "Rispettare il riposo fresco e asciutto; le piantine con radici si possono staccare e invasare."
+    },
+    {
+     "sintomo": "Non fiorisce",
+     "causa": "Poca luce o inverno troppo caldo",
+     "rimedio": "Più luce e un autunno al fresco, con poca acqua e niente concime."
+    },
+    {
+     "sintomo": "Canne vecchie senza foglie",
+     "causa": "È normale dopo uno o due anni",
+     "rimedio": "Non tagliarle, possono ancora fiorire e fanno da riserva."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "dendrobium-1.jpg",
+     "commons": "Dendrobium nobile (BG Zurich)-01.JPG",
+     "autore": "Guérin Nicolas (messages) 22:25, 25 September 2008 (UTC)",
+     "licenza": "CC BY-SA 3.0",
+     "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Dendrobium_nobile_(BG_Zurich)-01.JPG",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Dendrobium_nobile_%28BG_Zurich%29-01.JPG/960px-Dendrobium_nobile_%28BG_Zurich%29-01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, scheda Dendrobium nobile (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)",
+    "American Orchid Society, scheda di coltivazione dei Dendrobium (aos.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "echeveria",
+   "stato": "bozza",
+   "nome_scientifico": "Echeveria elegans",
+   "famiglia": "Crassulaceae",
+   "nomi_comuni": {
+    "it": [
+     "Echeveria",
+     "Rosa di alabastro",
+     "Rosa di pietra"
+    ],
+    "en": [
+     "Mexican snowball",
+     "White Mexican rose"
+    ]
+   },
+   "descrizione": "Rosetta compatta di foglie carnose a spatola, azzurro-grigie e coperte di pruina, con la punta rosata. In primavera fa steli arcuati con campanelline rosa e gialle.",
+   "categorie": [
+    "appartamento",
+    "balcone",
+    "succulenta",
+    "pet_friendly"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "Fuori da primavera ad autunno, al sole e al riparo dalla pioggia; nelle zone a inverno mite resta fuori se all'asciutto e sopra i 5 °C."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "ovest",
+     "est"
+    ],
+    "note": "È la succulenta che soffre di più la poca luce: il fusto si allunga, la rosetta si apre e perde il colore azzurro."
+   },
+   "annaffiatura": {
+    "quando": "Quando il terriccio è completamente asciutto; le foglie leggermente meno sode indicano sete.",
+    "primavera_estate": {
+     "min": 10,
+     "max": 14
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 45
+    },
+    "metodo": "Bagnare il terriccio senza lasciare acqua tra le foglie della rosetta; svuotare il sottovaso.",
+    "segnali_troppa": "Foglie gonfie, traslucide e giallastre che si staccano.",
+    "segnali_poca": "Foglie esterne raggrinzite e sottili."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 45
+    },
+    "tipo": "Concime per piante grasse a metà dose."
+   },
+   "temperatura": {
+    "min_c": 5,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28
+   },
+   "terreno": "Terriccio per piante grasse con molta pomice o lapillo.",
+   "rinvaso": "Ogni 2 anni in primavera, in vasi bassi di terracotta.",
+   "propagazione": [
+    "polloni",
+    "talea_fusto",
+    "talea_foglia",
+    "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "polloni",
+     "quando": "Da marzo a giugno, anche durante il rinvaso.",
+     "passi": [
+      "Scegli le rosette laterali larghe almeno 3-4 cm che crescono attorno alla madre.",
+      "Staccale con le dita o tagliale con un coltellino pulito, tenendo un pezzetto di stolone o qualche radice.",
+      "Lascia asciugare il taglio all'ombra per 1-2 giorni.",
+      "Appoggiale su terriccio per cactacee con sabbia o pomice, leggermente umido.",
+      "Tieni in luce luminosa senza sole forte per due settimane, poi tratta come una pianta adulta."
+     ],
+     "tempo": "Radici in 2-3 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da aprile a giugno; è il rimedio ideale per una pianta allungata.",
+     "passi": [
+      "Taglia la rosetta lasciando 2-3 cm di fusto sotto le foglie, con un coltello pulito e affilato.",
+      "Togli le foglie più basse dal pezzetto di fusto e lascia asciugare la rosetta all'ombra per 3-5 giorni.",
+      "Appoggia la rosetta su terriccio per cactacee asciutto, con il fusto appena infilato.",
+      "Aspetta una settimana prima di bagnare poco, e tieni in luce luminosa indiretta.",
+      "Lascia il vecchio fusto nel vaso, perché spesso produce nuove rosette dai lati."
+     ],
+     "tempo": "Radici in 2-4 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "talea_foglia",
+     "quando": "Da aprile a giugno, con temperature sopra i 18 °C.",
+     "passi": [
+      "Stacca una foglia bassa e sana con una leggera torsione, in modo che venga via intera con la base.",
+      "Lasciala asciugare all'ombra per 2-3 giorni.",
+      "Appoggiala sdraiata su terriccio per cactacee asciutto, senza interrarla.",
+      "Tieni in luce luminosa indiretta e nebulizza il terriccio una volta a settimana, quando spuntano le prime radici rosa.",
+      "Quando la nuova rosetta è larga 2 cm e la foglia madre è secca, trapiantala in un vasetto piccolo."
+     ],
+     "tempo": "Radici in 2-3 settimane, rosetta in 6-8 settimane.",
+     "difficolta": "facile",
+     "note": "Non tutte le foglie partono, quindi metti a radicare 5-10 foglie per avere qualche piantina sicura."
+    },
+    {
+     "metodo": "seme",
+     "quando": "In primavera, con 20-25 °C.",
+     "passi": [
+      "Riempi una vaschetta con terriccio per cactacee setacciato e fine, e inumidiscilo bene.",
+      "Spargi i semi, che sono minuscoli, sulla superficie senza coprirli.",
+      "Copri con un coperchio trasparente o pellicola per tenere l'umidità e metti in luce luminosa senza sole diretto.",
+      "Nebulizza per mantenere sempre appena umido e togli la copertura poco alla volta dopo la germinazione.",
+      "Trapianta le piantine in vasetti singoli quando sono larghe circa 1 cm."
+     ],
+     "tempo": "Germinazione in 1-3 settimane; piantine da trapiantare dopo 4-6 mesi.",
+     "difficolta": "difficile",
+     "note": "Le Echeveria si incrociano facilmente tra loro, quindi da seme le piantine possono non somigliare alla madre."
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Le echeverie sono considerate non tossiche per cani e gatti."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Fusto lungo con foglie distanziate",
+     "causa": "Luce insufficiente",
+     "rimedio": "Tagliare la rosetta con un pezzo di fusto, lasciarla asciugare qualche giorno e ripiantarla al sole."
+    },
+    {
+     "sintomo": "Foglie basse che seccano",
+     "causa": "Normale ricambio della pianta",
+     "rimedio": "Toglierle quando sono secche, per evitare marciumi e parassiti."
+    },
+    {
+     "sintomo": "Batuffoli bianchi tra le foglie",
+     "causa": "Cocciniglia farinosa",
+     "rimedio": "Togliere con un cotton fioc imbevuto di alcol."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "echeveria-1.jpg",
+     "commons": "Rosa de alabastro (Echeveria elegans), Calatayud, España 2012-05-16, DD 01.JPG",
+     "autore": "Diego Delso",
+     "licenza": "CC BY-SA 3.0",
+     "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Rosa_de_alabastro_(Echeveria_elegans),_Calatayud,_Espa%C3%B1a_2012-05-16,_DD_01.JPG",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Rosa_de_alabastro_%28Echeveria_elegans%29%2C_Calatayud%2C_Espa%C3%B1a_2012-05-16%2C_DD_01.JPG/960px-Rosa_de_alabastro_%28Echeveria_elegans%29%2C_Calatayud%2C_Espa%C3%B1a_2012-05-16%2C_DD_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, scheda Echeveria elegans (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Echeveria (aspca.org)",
+    "North Carolina State University Extension Gardener Plant Toolbox, Echeveria elegans (plants.ces.ncsu.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "ficus-bambino",
+   "stato": "bozza",
+   "nome_scientifico": "Ficus lyrata 'Bambino'",
+   "famiglia": "Moraceae",
+   "nomi_comuni": {
+    "it": [
+     "Ficus Bambino",
+     "Ficus lyrata nano"
+    ],
+    "en": [
+     "Dwarf fiddle-leaf fig",
+     "Ficus Bambino"
+    ]
+   },
+   "descrizione": "Varietà nana del Ficus lyrata: un cespuglio compatto e fitto, alto al massimo 1-1,5 m, con foglie a violino più piccole, rigide e verde scuro. Più facile del fratello grande e adatto anche agli spazi piccoli.",
+   "categorie": [
+    "appartamento",
+    "da_ufficio"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "D'estate può stare fuori in un punto luminoso e riparato dal vento, abituandolo al sole poco alla volta; ritirarlo quando la notte scende sotto i 12-15 °C."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "media_indiretta",
+     "sole_diretto"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "est",
+     "sud",
+     "ovest"
+    ],
+    "note": "Vicino a una finestra molto luminosa. Con poca luce si allunga e perde le foglie basse; ruotarlo ogni mese per farlo crescere uniforme."
+   },
+   "annaffiatura": {
+    "quando": "Quando i primi 3 cm di terriccio sono asciutti.",
+    "primavera_estate": {
+     "min": 7,
+     "max": 10
+    },
+    "autunno_inverno": {
+     "min": 14,
+     "max": 20
+    },
+    "metodo": "Bagnare a fondo e lasciar sgocciolare; non lasciare mai il vaso nell'acqua del sottovaso.",
+    "acqua": "Acqua a temperatura ambiente, poco calcarea.",
+    "segnali_troppa": "Macchie marroni scure sulle foglie e foglie basse che cadono.",
+    "segnali_poca": "Foglie che si abbassano, bordi marroni e secchi."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 30
+    },
+    "tipo": "Concime liquido per piante verdi, a metà dose."
+   },
+   "temperatura": {
+    "min_c": 13,
+    "ideale_min_c": 18,
+    "ideale_max_c": 27,
+    "note": "Teme le correnti fredde, gli sbalzi di temperatura e l'aria calda dei termosifoni."
+   },
+   "terreno": "Terriccio ben drenante con corteccia e perlite.",
+   "rinvaso": "Ogni 2 anni in primavera, in un vaso appena più grande.",
+   "propagazione": [
+    "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a luglio, con il caldo e la pianta in piena crescita.",
+     "passi": [
+      "Taglia con forbici pulite una punta di 10-15 cm con 3-4 foglie, appena sotto un nodo, indossando i guanti.",
+      "Sciacqua il taglio sotto l'acqua tiepida finché il lattice smette di uscire e togli le foglie più basse, lasciandone 2-3.",
+      "Immergi la base in ormone radicante e interrala per 3-4 cm in un vasetto con torba e perlite in parti uguali.",
+      "Copri con un sacchetto trasparente e tieni a 22-25 °C, in luce indiretta, con il terriccio appena umido.",
+      "Quando spuntano foglie nuove togli il sacchetto e dopo un mese rinvasa in terriccio ben drenante con corteccia."
+     ],
+     "tempo": "Radici in 4-8 settimane.",
+     "difficolta": "media",
+     "note": "La talea può radicare anche in un bicchiere d'acqua, cambiata ogni settimana. Le talee prese dal 'Bambino' restano nane come la pianta madre."
+    }
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "lieve",
+    "note": "Il lattice bianco irrita pelle e mucose e può dare allergie: usare i guanti quando si pota. Tossico per cani e gatti se ingerito."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Foglie che cadono dopo uno spostamento",
+     "causa": "Cambio di luce o di posizione, o una corrente fredda",
+     "rimedio": "Trovargli un posto luminoso e lasciarlo lì; ricaccia in qualche settimana."
+    },
+    {
+     "sintomo": "Macchie marroni al centro delle foglie",
+     "causa": "Troppa acqua",
+     "rimedio": "Diradare le annaffiature e controllare che il vaso abbia i fori di drenaggio."
+    },
+    {
+     "sintomo": "Puntini chiari e ragnatele sotto le foglie",
+     "causa": "Ragnetto rosso, con aria troppo secca",
+     "rimedio": "Pulire le foglie con un panno umido e aumentare l'umidità attorno alla pianta."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "ficus-bambino-1.jpg",
+     "commons": "Fiddle leaf fig 5.jpg",
+     "autore": "Mokkie",
+     "licenza": "CC BY-SA 3.0",
+     "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Fiddle_leaf_fig_5.jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Fiddle_leaf_fig_5.jpg/960px-Fiddle_leaf_fig_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, scheda Ficus lyrata 'Bambino' (rhs.org.uk)",
+    "Royal Horticultural Society, scheda Ficus lyrata (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
    "id": "ficus-benjamina",
    "stato": "bozza",
    "nome_scientifico": "Ficus benjamina",
@@ -85,6 +1032,36 @@
     "talea_fusto",
     "margotta"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a luglio, con rametti dell'anno semilegnosi (non più teneri ma ancora flessibili).",
+     "passi": [
+      "Taglia con forbici pulite una punta di 10-15 cm con 4-6 foglie, appena sotto un nodo.",
+      "Togli le foglie della metà inferiore e sciacqua il taglio sotto l'acqua tiepida per fermare il lattice.",
+      "Immergi la base in ormone radicante in polvere e interrala per 3-4 cm in un vasetto con torba e perlite in parti uguali.",
+      "Copri con un sacchetto trasparente o una bottiglia tagliata e tieni a 21-24 °C, in luce indiretta, con il terriccio appena umido.",
+      "Quando la talea mette foglie nuove, togli la copertura e dopo qualche settimana rinvasala in terriccio universale."
+     ],
+     "tempo": "Radici in 4-8 settimane.",
+     "difficolta": "media",
+     "note": "Il lattice bianco che esce dal taglio irrita la pelle e gli occhi, quindi usa i guanti e lascialo asciugare prima di interrare la talea."
+    },
+    {
+     "metodo": "margotta",
+     "quando": "In primavera o inizio estate, su un ramo legnoso spesso almeno quanto una matita.",
+     "passi": [
+      "Scegli un ramo e, 20-30 cm sotto la punta, togli con un coltellino pulito un anello di corteccia largo circa 1-2 cm.",
+      "Spolvera la ferita con ormone radicante e avvolgila con una manciata di sfagno bagnato e strizzato.",
+      "Chiudi lo sfagno con una pellicola trasparente legata sopra e sotto, così resta umido e puoi vedere le radici.",
+      "Controlla ogni settimana e, se lo sfagno si asciuga, inumidiscilo con una siringa.",
+      "Quando le radici riempiono lo sfagno, taglia il ramo sotto la margotta, togli la pellicola e invasa senza staccare lo sfagno."
+     ],
+     "tempo": "Radici in 6-10 settimane.",
+     "difficolta": "media",
+     "note": "Ottima per avere subito una pianta già grande e per ringiovanire un esemplare spoglio in basso."
+    }
+   ],
    "tossicita": {
     "animali": "tossica",
     "persone": "lieve",
@@ -125,7 +1102,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-17"
+   "aggiornato": "2026-10-18"
   },
   {
    "schema_version": 1,
@@ -214,6 +1191,36 @@
     "talea_fusto",
     "margotta"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a luglio, con il caldo e la pianta in piena crescita.",
+     "passi": [
+      "Taglia con un coltello affilato e pulito una punta di 15-20 cm con 2-3 foglie, appena sotto un nodo.",
+      "Sciacqua il taglio sotto l'acqua tiepida finché il lattice smette di uscire e lascialo asciugare per un'ora.",
+      "Riduci le foglie a 2, e se sono molto grandi arrotolale o tagliale a metà per ridurre la perdita d'acqua.",
+      "Immergi la base in ormone radicante e interrala in un vasetto con torba e perlite in parti uguali, legandola a un bastoncino se serve.",
+      "Copri con un sacchetto trasparente, tieni a 22-25 °C in luce indiretta e rinvasa in terriccio normale quando spuntano foglie nuove."
+     ],
+     "tempo": "Radici in 4-8 settimane.",
+     "difficolta": "media",
+     "note": "Il lattice bianco irrita pelle e occhi, quindi usa i guanti. La talea si può anche far radicare in un vaso d'acqua, cambiandola ogni settimana."
+    },
+    {
+     "metodo": "margotta",
+     "quando": "In primavera o inizio estate, su un fusto o ramo legnoso.",
+     "passi": [
+      "Scegli il punto dove vuoi le radici, 30-40 cm sotto la punta, e togli un anello di corteccia largo 1-2 cm con un coltellino pulito.",
+      "Spolvera la ferita con ormone radicante e avvolgila con una grossa manciata di sfagno bagnato e strizzato.",
+      "Chiudi lo sfagno con pellicola trasparente legata sopra e sotto, per tenerlo umido e vedere le radici.",
+      "Controlla ogni settimana e inumidisci lo sfagno con una siringa se si asciuga.",
+      "Quando le radici riempiono lo sfagno, taglia il fusto sotto la margotta e invasa la nuova pianta senza togliere lo sfagno."
+     ],
+     "tempo": "Radici in 6-10 settimane.",
+     "difficolta": "media",
+     "note": "È il metodo più sicuro per il Ficus elastica, perché il ramo resta nutrito dalla pianta madre finché ha le sue radici. La pianta madre, cimata, rimette rami laterali."
+    }
+   ],
    "tossicita": {
     "animali": "tossica",
     "persone": "lieve",
@@ -254,7 +1261,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-17"
+   "aggiornato": "2026-10-18"
   },
   {
    "schema_version": 1,
@@ -339,6 +1346,36 @@
     "talea_fusto",
     "margotta"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a luglio, con il caldo e la pianta in piena crescita.",
+     "passi": [
+      "Taglia con un coltello affilato e pulito una punta di 15-20 cm con 2-3 foglie, appena sotto un nodo.",
+      "Sciacqua il taglio sotto l'acqua tiepida finché il lattice smette di uscire e lascialo asciugare per un'ora.",
+      "Riduci le foglie a 2, e se sono molto grandi arrotolale o tagliale a metà per ridurre la perdita d'acqua.",
+      "Immergi la base in ormone radicante e interrala in un vasetto con torba e perlite in parti uguali, legandola a un bastoncino se serve.",
+      "Copri con un sacchetto trasparente, tieni a 22-25 °C in luce indiretta e rinvasa in terriccio normale quando spuntano foglie nuove."
+     ],
+     "tempo": "Radici in 4-8 settimane.",
+     "difficolta": "media",
+     "note": "Il lattice bianco irrita pelle e occhi, quindi usa i guanti. Le talee di Ficus lyrata radicano anche in acqua, ma lentamente; una foglia singola senza un pezzo di fusto fa radici ma non germoglia."
+    },
+    {
+     "metodo": "margotta",
+     "quando": "In primavera o inizio estate, su un fusto o ramo legnoso.",
+     "passi": [
+      "Scegli il punto dove vuoi le radici, 30-40 cm sotto la punta, e togli un anello di corteccia largo 1-2 cm con un coltellino pulito.",
+      "Spolvera la ferita con ormone radicante e avvolgila con una grossa manciata di sfagno bagnato e strizzato.",
+      "Chiudi lo sfagno con pellicola trasparente legata sopra e sotto, per tenerlo umido e vedere le radici.",
+      "Controlla ogni settimana e inumidisci lo sfagno con una siringa se si asciuga.",
+      "Quando le radici riempiono lo sfagno, taglia il fusto sotto la margotta e invasa la nuova pianta senza togliere lo sfagno."
+     ],
+     "tempo": "Radici in 6-10 settimane.",
+     "difficolta": "media",
+     "note": "È il metodo più sicuro per il Ficus lyrata, perché il ramo resta nutrito dalla pianta madre finché ha le sue radici. La pianta madre, cimata, rimette rami laterali."
+    }
+   ],
    "tossicita": {
     "animali": "tossica",
     "persone": "lieve",
@@ -365,7 +1402,7 @@
     {
      "file": "ficus-lyrata-1.jpg",
      "commons": "Fiddle Leaf Fig in pot.jpg",
-     "autore": "No machine-readable author provided. Morrisjm assumed (based on copyright claims).",
+     "autore": "Morrisjm",
      "licenza": "CC BY-SA 3.0",
      "url_licenza": "http://creativecommons.org/licenses/by-sa/3.0/",
      "pagina": "https://commons.wikimedia.org/wiki/File:Fiddle_Leaf_Fig_in_pot.jpg",
@@ -379,7 +1416,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-17"
+   "aggiornato": "2026-10-18"
   },
   {
    "schema_version": 1,
@@ -466,6 +1503,35 @@
     "talea_fusto",
     "talea_in_acqua"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da aprile a settembre; in terrarium chiuso si può fare tutto l'anno.",
+     "passi": [
+      "Taglia con forbici pulite una punta di 5-8 cm con 2-3 coppie di foglie, appena sotto un nodo.",
+      "Togli la coppia di foglie più bassa, in modo da avere un nodo nudo.",
+      "Interrala per 1-2 cm in un vasetto di terriccio soffice con torba o fibra di cocco, già umido.",
+      "Copri con un sacchetto trasparente o mettila direttamente nel terrarium, al caldo (20-25 °C) e in luce indiretta.",
+      "Quando la talea riprende a crescere, togli la copertura poco alla volta per abituarla all'aria di casa."
+     ],
+     "tempo": "Radici in 2-3 settimane.",
+     "difficolta": "facile",
+     "note": "Spesso i fusti che toccano il terriccio radicano da soli; basta tagliarli e invasarli."
+    },
+    {
+     "metodo": "talea_in_acqua",
+     "quando": "Da aprile a settembre, con temperature sopra i 20 °C.",
+     "passi": [
+      "Taglia una punta di 5-8 cm con almeno 2 nodi e togli le foglie più basse.",
+      "Mettila in un bicchiere d'acqua piovana o demineralizzata, con i nodi sott'acqua e le foglie fuori.",
+      "Tienila al caldo e in luce indiretta, cambiando l'acqua ogni 3-4 giorni.",
+      "Quando le radici sono lunghe 2-3 cm, invasala in terriccio umido e coprila con un sacchetto per qualche giorno."
+     ],
+     "tempo": "Radici in 2-3 settimane.",
+     "difficolta": "facile",
+     "note": "Le radici nate in acqua sono delicate; nel passaggio al terriccio la talea può afflosciarsi, ma con l'umidità alta si riprende."
+    }
+   ],
    "tossicita": {
     "animali": "non_tossica",
     "persone": "non_tossica"
@@ -500,7 +1566,1093 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-17"
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "haworthia",
+   "stato": "bozza",
+   "nome_scientifico": "Haworthiopsis attenuata",
+   "sinonimi": [
+    "Haworthia attenuata"
+   ],
+   "famiglia": "Asphodelaceae",
+   "nomi_comuni": {
+    "it": [
+     "Haworthia",
+     "Pianta zebra"
+    ],
+    "en": [
+     "Zebra plant",
+     "Zebra haworthia"
+    ]
+   },
+   "descrizione": "Piccola succulenta a rosetta con foglie appuntite verde scuro, decorate da fasce di tubercoli bianchi in rilievo. Resta piccola e sta bene anche in mezz'ombra.",
+   "categorie": [
+    "appartamento",
+    "succulenta",
+    "da_ufficio",
+    "pet_friendly"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "aperto",
+    "note": "D'estate può stare fuori in luce filtrata, al riparo dal sole delle ore calde e dalla pioggia. Le piccole rosette si usano anche nei terrarium aperti per piante grasse."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "media_indiretta",
+     "sole_diretto"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "est",
+     "ovest",
+     "sud"
+    ],
+    "note": "Il sole forte d'estate la fa diventare rosso-arancio; con troppa poca luce la rosetta si apre e sbiadisce."
+   },
+   "annaffiatura": {
+    "quando": "Quando il terriccio è completamente asciutto.",
+    "primavera_estate": {
+     "min": 10,
+     "max": 14
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 40
+    },
+    "metodo": "Annaffiare il terriccio attorno alla rosetta e lasciare scolare bene.",
+    "segnali_troppa": "Foglie gonfie, molli e traslucide, base che marcisce.",
+    "segnali_poca": "Foglie raggrinzite che si chiudono, punte secche."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 60
+    },
+    "tipo": "Concime per piante grasse a metà dose."
+   },
+   "temperatura": {
+    "min_c": 5,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28
+   },
+   "terreno": "Terriccio per piante grasse con molta pomice; le radici vogliono aria.",
+   "rinvaso": "Ogni 2-3 anni in primavera, in vasi bassi e larghi; è il momento per dividere le rosette.",
+   "propagazione": [
+    "polloni",
+    "talea_foglia"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "polloni",
+     "quando": "In primavera o a inizio autunno, durante il rinvaso.",
+     "passi": [
+      "Sfila la pianta dal vaso ed elimina la terra in eccesso per vedere dove si attaccano i polloni.",
+      "Separa le rosette laterali larghe almeno 2-3 cm, meglio se hanno già qualche radice, con le dita o un coltellino pulito.",
+      "Lascia asciugare i tagli all'ombra per 1-2 giorni.",
+      "Invasa in vasetti piccoli con terriccio per cactacee mescolato a pomice o sabbia grossa.",
+      "Tieni in luce luminosa ma filtrata e bagna poco dopo una settimana."
+     ],
+     "tempo": "Si assestano in 3-4 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "talea_foglia",
+     "quando": "Da marzo a giugno, con temperature tra 18 e 25 °C.",
+     "passi": [
+      "Stacca una foglia sana con una leggera torsione verso il basso, in modo che venga via intera con la base.",
+      "Lasciala asciugare all'ombra per 3-5 giorni.",
+      "Infila la base per circa 1 cm in un terriccio per cactacee con molta pomice, appena umido.",
+      "Tieni in luce filtrata e bagna pochissimo, solo quando il terriccio è asciutto.",
+      "Trapianta quando vedi una piccola rosetta alla base della foglia."
+     ],
+     "tempo": "Radici in 4-8 settimane, rosetta in 2-4 mesi.",
+     "difficolta": "media",
+     "note": "Più lenta e meno sicura dei polloni, perché molte foglie marciscono se il terriccio resta umido."
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Considerata non tossica per cani e gatti."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Foglie rosso-arancio o brune",
+     "causa": "Troppo sole diretto",
+     "rimedio": "Spostarla in luce filtrata; torna verde in qualche settimana."
+    },
+    {
+     "sintomo": "Rosetta aperta con foglie lunghe e pallide",
+     "causa": "Luce insufficiente",
+     "rimedio": "Avvicinarla a una finestra luminosa."
+    },
+    {
+     "sintomo": "Base molle e scura",
+     "causa": "Marciume da troppa acqua",
+     "rimedio": "Separare le rosette sane, lasciarle asciugare e ripiantarle in terriccio asciutto."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "haworthia-1.jpg",
+     "commons": "Haworthia attenuata (1).jpg",
+     "autore": "Claire H. from New York City, USA",
+     "licenza": "CC BY-SA 2.0",
+     "url_licenza": "https://creativecommons.org/licenses/by-sa/2.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Haworthia_attenuata_(1).jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Haworthia_attenuata_%281%29.jpg/960px-Haworthia_attenuata_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, scheda Haworthiopsis attenuata (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Zebra Haworthia (aspca.org)",
+    "North Carolina State University Extension Gardener Plant Toolbox, Haworthiopsis attenuata (plants.ces.ncsu.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "kalanchoe",
+   "stato": "bozza",
+   "nome_scientifico": "Kalanchoe blossfeldiana",
+   "famiglia": "Crassulaceae",
+   "nomi_comuni": {
+    "it": [
+     "Kalanchoe",
+     "Calancola"
+    ],
+    "en": [
+     "Flaming Katy",
+     "Christmas kalanchoe"
+    ]
+   },
+   "descrizione": "Piccola pianta grassa con foglie carnose e lucide dal bordo a smerli e mazzetti fitti di fiorellini rossi, arancioni, rosa, gialli o bianchi che durano settimane. Facile e resistente alla siccità.",
+   "categorie": [
+    "appartamento",
+    "succulenta",
+    "fiorita",
+    "balcone"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "Da maggio a settembre può stare in balcone, riparata dal sole cocente e dalla pioggia insistente."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "sole_diretto",
+     "media_indiretta"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ],
+    "note": "Vuole molta luce; con poca luce i fusti si allungano e non fiorisce."
+   },
+   "annaffiatura": {
+    "quando": "Solo quando il terriccio è asciutto anche in profondità.",
+    "primavera_estate": {
+     "min": 7,
+     "max": 14
+    },
+    "autunno_inverno": {
+     "min": 14,
+     "max": 28
+    },
+    "metodo": "Annaffiare il terriccio senza bagnare foglie e fiori e svuotare il sottovaso.",
+    "segnali_troppa": "Foglie gialle e molli, fusti neri alla base.",
+    "segnali_poca": "Foglie raggrinzite e più sottili."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 30
+    },
+    "tipo": "Concime per piante grasse a metà dose."
+   },
+   "temperatura": {
+    "min_c": 10,
+    "ideale_min_c": 15,
+    "ideale_max_c": 27
+   },
+   "terreno": "Terriccio per piante grasse, o universale con un terzo di sabbia o pomice.",
+   "rinvaso": "Dopo la fioritura, ogni 1-2 anni, in un vaso poco più grande.",
+   "propagazione": [
+    "talea_fusto",
+    "talea_foglia"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Dalla primavera all'inizio dell'estate, dopo la fioritura.",
+     "passi": [
+      "Taglia la punta di un rametto lunga 5-8 cm con alcune coppie di foglie, appena sotto un nodo.",
+      "Togli le foglie più basse e lascia asciugare la talea all'ombra per 2-3 giorni, finché il taglio fa la crosticina.",
+      "Infilala per 2-3 cm in un vasetto con terriccio per piante grasse, appena umido.",
+      "Tieni in luce viva ma non al sole forte, a 20-25 °C, senza coprirla; annaffia solo quando il terriccio è asciutto.",
+      "Quando la talea resiste a un leggero tiro e fa foglie nuove, trapiantala in un vaso un po' più grande."
+     ],
+     "tempo": "Radici in 2-3 settimane.",
+     "difficolta": "facile",
+     "note": "Non coprire con il sacchetto, perché l'umidità alta fa marcire le talee delle piante grasse."
+    },
+    {
+     "metodo": "talea_foglia",
+     "quando": "In primavera o in estate, con foglie adulte e sane.",
+     "passi": [
+      "Stacca una foglia sana e carnosa con un po' di picciolo, tagliandola con un coltello pulito.",
+      "Lasciala asciugare all'ombra per 2-3 giorni.",
+      "Appoggia la foglia sul terriccio per piante grasse e infila appena il picciolo, oppure interrala per un terzo in verticale.",
+      "Tieni in luce viva indiretta a circa 20-25 °C e nebulizza il terriccio solo quando è asciutto.",
+      "Quando alla base spuntano radici e una piccola piantina, travasala in un vasetto suo."
+     ],
+     "tempo": "Radici in 3-4 settimane, nuova piantina in 6-8 settimane.",
+     "difficolta": "media",
+     "note": "È più lenta della talea di fusto e non tutte le foglie attecchiscono, quindi prepara qualche foglia in più."
+    }
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "lieve",
+    "note": "Secondo l'ASPCA è tossica per cani e gatti: se ingerita causa vomito e diarrea e, raramente, disturbi al cuore. Tenerla fuori dalla loro portata."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Non rifiorisce",
+     "causa": "È una pianta a giorno corto e la sera riceve luce artificiale",
+     "rimedio": "Da ottobre, per circa 6 settimane, 14 ore di buio completo ogni notte."
+    },
+    {
+     "sintomo": "Fusti lunghi e spogli",
+     "causa": "Poca luce",
+     "rimedio": "Spostarla in un punto più luminoso e accorciare i fusti; le cime tagliate si possono usare come talee."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "kalanchoe-1.jpg",
+     "commons": "Kalanchoe blossfeldiana 2zz.jpg",
+     "autore": "Photo by David J. Stang",
+     "licenza": "CC BY-SA 4.0",
+     "url_licenza": "https://creativecommons.org/licenses/by-sa/4.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Kalanchoe_blossfeldiana_2zz.jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Kalanchoe_blossfeldiana_2zz.jpg/960px-Kalanchoe_blossfeldiana_2zz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, scheda Kalanchoe blossfeldiana (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)",
+    "University of Florida IFAS Extension, Kalanchoe blossfeldiana (edis.ifas.ufl.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "liquidambar",
+   "stato": "bozza",
+   "nome_scientifico": "Liquidambar styraciflua",
+   "famiglia": "Altingiaceae",
+   "nomi_comuni": {
+    "it": [
+     "Liquidambar",
+     "Storace americano"
+    ],
+    "en": [
+     "Sweetgum",
+     "American sweetgum"
+    ]
+   },
+   "descrizione": "Albero da giardino dalle foglie a stella con 5-7 lobi, verde lucido d'estate e rosso, arancio e viola in autunno. Da giovane cresce bene in un grande vaso, ma il suo posto è la piena terra.",
+   "categorie": [
+    "esterno"
+   ],
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "È un albero che da adulto supera i 15-20 m: va piantato in piena terra, lontano da case e tubature. Un esemplare giovane può stare qualche anno in un vaso grande (almeno 40-50 cm) in terrazzo, mai in casa."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ],
+    "note": "Pieno sole o mezz'ombra. Più sole prende, più accesi sono i colori d'autunno; all'ombra le foglie restano gialle o cadono ancora verdi."
+   },
+   "annaffiatura": {
+    "quando": "In vaso quando i primi 3-5 cm di terriccio sono asciutti; in piena terra solo nei primi due anni e nei periodi di siccità.",
+    "primavera_estate": {
+     "min": 2,
+     "max": 7
+    },
+    "autunno_inverno": {
+     "min": 20,
+     "max": 40
+    },
+    "metodo": "Bagnare a fondo e lentamente. In inverno, senza foglie, beve pochissimo: in vaso basta che il terriccio non si secchi del tutto.",
+    "acqua": "Meglio acqua piovana o poco calcarea, perché il calcare ingiallisce le foglie.",
+    "segnali_troppa": "Foglie gialle e terriccio sempre fradicio nel vaso.",
+    "segnali_poca": "Foglie che pendono, bordi secchi e marroni, caduta precoce in estate."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 60
+    },
+    "tipo": "Concime granulare a lenta cessione per piante acidofile, in primavera.",
+    "note": "In piena terra un esemplare adulto di solito non ha bisogno di concime."
+   },
+   "temperatura": {
+    "min_c": -20,
+    "ideale_min_c": 10,
+    "ideale_max_c": 30,
+    "note": "Rustico, sopporta bene il gelo invernale. Le foglie appena nate però temono le gelate tardive di primavera. In vaso le radici sono più esposte al gelo: nelle zone molto fredde avvolgere il vaso."
+   },
+   "terreno": "Profondo, fresco e ben drenato, da acido a neutro. Nei terreni calcarei le foglie ingialliscono (clorosi ferrica): in vaso usare terriccio per acidofile.",
+   "rinvaso": "In vaso ogni 2-3 anni, a fine inverno, in un vaso più grande. Appena possibile metterlo a dimora in piena terra: da grande sopporta male i trapianti.",
+   "propagazione": [
+    "seme",
+    "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "seme",
+     "quando": "Raccogli le palle spinose in autunno, quando diventano marroni; semina a fine inverno o in primavera dopo il freddo.",
+     "passi": [
+      "Lascia asciugare le palle in un sacchetto di carta in casa per qualche giorno, finché si aprono e fanno cadere i piccoli semi alati.",
+      "Metti i semi in un sacchetto con sabbia o torba appena umida e tienilo in frigorifero (circa 4 °C) per 1-3 mesi, per imitare l'inverno.",
+      "A marzo-aprile semina in vasetti o in una cassetta con terriccio per semina, coprendo i semi con appena 3-5 mm di terra.",
+      "Tieni all'aperto in mezz'ombra o in un posto luminoso a 18-22 °C, con il terriccio sempre leggermente umido.",
+      "Quando le piantine hanno qualche foglia vera trapiantale in vasi singoli; mettile in piena terra dopo 1-2 anni."
+     ],
+     "tempo": "Germinazione in 3-6 settimane dopo la semina.",
+     "difficolta": "facile",
+     "note": "Le varietà selezionate (per esempio 'Worplesdon') non nascono uguali dal seme e i colori d'autunno delle piantine possono variare."
+    },
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da fine maggio a luglio, con i rametti nuovi ancora teneri ma già un po' consistenti.",
+     "passi": [
+      "Al mattino presto taglia punte di 10-15 cm con 3-4 nodi e mettile subito in un sacchetto umido.",
+      "Togli le foglie basse lasciandone 2-3 in cima, e taglia a metà quelle più grandi.",
+      "Immergi la base in ormone radicante e interrala in un vasetto con torba e perlite in parti uguali.",
+      "Copri con un sacchetto trasparente o una mini serra e tieni in ombra luminosa, a 20-25 °C, con il terriccio sempre umido.",
+      "Quando la talea mette radici e foglie nuove, abituala all'aria poco alla volta e tienila in vaso al riparo il primo inverno."
+     ],
+     "tempo": "Radici in 5-8 settimane.",
+     "difficolta": "difficile",
+     "note": "Non tutte le talee radicano; prepararne parecchie aumenta le probabilità. È il modo per riprodurre fedelmente una varietà selezionata."
+    }
+   ],
+   "tossicita": {
+    "animali": "sconosciuta",
+    "persone": "sconosciuta",
+    "note": "Non è elencata tra le piante tossiche dall'ASPCA, ma non ci sono dati sicuri. I frutti secchi a palla spinosa possono pungere e sono scivolosi sui vialetti."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Foglie gialle con le nervature verdi",
+     "causa": "Clorosi ferrica, per terreno o acqua troppo calcarei",
+     "rimedio": "Usare terriccio per acidofile e acqua piovana, e dare un prodotto a base di ferro chelato."
+    },
+    {
+     "sintomo": "Foglie nuove annerite in primavera",
+     "causa": "Gelata tardiva",
+     "rimedio": "Coprire la chioma con tessuto non tessuto nelle notti fredde; le foglie danneggiate vengono sostituite."
+    },
+    {
+     "sintomo": "Colori d'autunno spenti, solo gialli",
+     "causa": "Poco sole o terreno troppo ricco di azoto",
+     "rimedio": "Dargli una posizione più soleggiata e non concimare dopo l'inizio dell'estate."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "liquidambar-1.jpg",
+     "commons": "Starr 051105-8369 Liquidambar styraciflua.jpg",
+     "autore": "Forest & Kim Starr",
+     "licenza": "CC BY 3.0",
+     "url_licenza": "https://creativecommons.org/licenses/by/3.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Starr_051105-8369_Liquidambar_styraciflua.jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Starr_051105-8369_Liquidambar_styraciflua.jpg/960px-Starr_051105-8369_Liquidambar_styraciflua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, scheda Liquidambar styraciflua (rhs.org.uk)",
+    "University of Florida IFAS Extension, scheda Liquidambar styraciflua, Sweetgum (ST358)",
+    "NC State Extension, Plant Toolbox, Liquidambar styraciflua (plants.ces.ncsu.edu)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "mammillaria",
+   "stato": "bozza",
+   "nome_scientifico": "Mammillaria zeilmanniana",
+   "famiglia": "Cactaceae",
+   "nomi_comuni": {
+    "it": [
+     "Mammillaria",
+     "Cactus a palla",
+     "Cactus puntaspilli"
+    ],
+    "en": [
+     "Rose pincushion",
+     "Pincushion cactus"
+    ]
+   },
+   "descrizione": "Piccolo cactus a palla coperto di spine sottili, che in primavera fa una corona di fiorellini rosa attorno alla cima. Il genere Mammillaria conta molte specie simili, tutte con le stesse cure.",
+   "categorie": [
+    "appartamento",
+    "balcone",
+    "succulenta",
+    "fiorita"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "Da primavera ad autunno sta bene fuori al sole, al riparo dalle piogge lunghe. D'inverno ama un posto fresco e luminoso, all'asciutto."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "ovest",
+     "est"
+    ],
+    "note": "Con poca luce la cima si allunga stretta e pallida e non fiorisce. Dopo l'inverno va riabituato al sole un po' alla volta."
+   },
+   "annaffiatura": {
+    "quando": "Solo quando il terriccio è completamente asciutto; da novembre a febbraio quasi mai.",
+    "primavera_estate": {
+     "min": 10,
+     "max": 21
+    },
+    "autunno_inverno": {
+     "min": 45,
+     "max": 90
+    },
+    "metodo": "Annaffiare a fondo il terriccio senza bagnare il cactus e svuotare il sottovaso.",
+    "segnali_troppa": "Base gialla o marrone e molle.",
+    "segnali_poca": "Palla raggrinzita e più piccola."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 30
+    },
+    "tipo": "Concime per cactus povero di azoto, a metà dose."
+   },
+   "temperatura": {
+    "min_c": 5,
+    "ideale_min_c": 15,
+    "ideale_max_c": 32,
+    "note": "Un inverno fresco (8-12 °C) e asciutto è il segreto per vederlo fiorire in primavera."
+   },
+   "terreno": "Terriccio per cactus molto drenante, con metà pomice o lapillo.",
+   "rinvaso": "Ogni 2-3 anni in primavera, con terriccio asciutto e guanti o una striscia di carta per prenderlo.",
+   "propagazione": [
+    "polloni",
+    "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "polloni",
+     "quando": "Da aprile a giugno, quando la pianta riprende a crescere.",
+     "passi": [
+      "Proteggi le mani con guanti spessi o una striscia di carta di giornale piegata attorno alla pianta.",
+      "Stacca le testine laterali più grandi con le dita o una pinzetta, oppure tagliale alla base con un coltellino pulito.",
+      "Lascia asciugare il taglio all'ombra per 3-7 giorni, finché fa la crosticina.",
+      "Appoggia le testine su terriccio per cactacee asciutto con molta pomice, premendole appena.",
+      "Aspetta 1-2 settimane prima di bagnare poco, e tieni in luce luminosa senza sole forte."
+     ],
+     "tempo": "Radici in 3-6 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "seme",
+     "quando": "In primavera, con 20-25 °C.",
+     "passi": [
+      "Riempi un vasetto con terriccio per cactacee fine e sabbia, e inumidiscilo bene.",
+      "Spargi i semi in superficie e coprili solo con un velo sottilissimo di sabbia fine.",
+      "Copri con un sacchetto trasparente o un coperchio e metti in luce luminosa senza sole diretto.",
+      "Mantieni appena umido e togli la copertura poco alla volta dopo 4-6 settimane dalla germinazione.",
+      "Trapianta le piantine quando sono larghe circa 1 cm, di solito dopo un anno."
+     ],
+     "tempo": "Germinazione in 1-4 settimane; prima fioritura dopo 2-4 anni.",
+     "difficolta": "difficile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Non è velenoso, ma le spine possono pungere bocca e zampe degli animali curiosi."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Non fiorisce",
+     "causa": "Inverno troppo caldo o poca luce",
+     "rimedio": "D'inverno tenerlo fresco e asciutto, poi molto sole in primavera."
+    },
+    {
+     "sintomo": "Cima allungata e pallida",
+     "causa": "Luce insufficiente",
+     "rimedio": "Spostarlo sul davanzale più soleggiato."
+    },
+    {
+     "sintomo": "Base molle e scura",
+     "causa": "Marciume da troppa acqua",
+     "rimedio": "Se la parte alta è sana, tagliarla sopra il marcio, lasciarla asciugare e ripiantarla."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "mammillaria-1.jpg",
+     "commons": "Mammillaria zeilmanniana.jpg",
+     "autore": "Michael Wolf",
+     "licenza": "CC BY 2.5",
+     "url_licenza": "https://creativecommons.org/licenses/by/2.5",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Mammillaria_zeilmanniana.jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Mammillaria_zeilmanniana.jpg/960px-Mammillaria_zeilmanniana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, scheda Mammillaria zeilmanniana (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)",
+    "University of Wisconsin-Madison Extension, Cacti and succulents (hort.extension.wisc.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "opuntia",
+   "stato": "bozza",
+   "nome_scientifico": "Opuntia microdasys",
+   "famiglia": "Cactaceae",
+   "nomi_comuni": {
+    "it": [
+     "Fico d'India nano",
+     "Orecchie di coniglio",
+     "Opunzia"
+    ],
+    "en": [
+     "Bunny ears cactus",
+     "Angel's wings"
+    ]
+   },
+   "descrizione": "Cactus fatto di pale piatte e ovali una sopra l'altra, senza spine lunghe ma con fitti ciuffetti gialli di glochidi, peli sottilissimi che si staccano al tocco e pungono.",
+   "categorie": [
+    "appartamento",
+    "balcone",
+    "succulenta"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "D'estate fuori in pieno sole; ritirarla prima delle notti fredde, sotto i 7-10 °C, e tenerla all'asciutto d'inverno."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "ovest"
+    ],
+    "note": "Con poca luce le pale nuove crescono strette, lunghe e pallide."
+   },
+   "annaffiatura": {
+    "quando": "Solo quando il terriccio è completamente asciutto; d'inverno quasi mai.",
+    "primavera_estate": {
+     "min": 10,
+     "max": 21
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 60
+    },
+    "metodo": "Annaffiare a fondo il terriccio, lasciare scolare e non lasciare acqua nel sottovaso.",
+    "segnali_troppa": "Pale giallastre e molli, base scura.",
+    "segnali_poca": "Pale raggrinzite e sottili."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 30
+    },
+    "tipo": "Concime per cactus a metà dose."
+   },
+   "temperatura": {
+    "min_c": 7,
+    "ideale_min_c": 15,
+    "ideale_max_c": 35
+   },
+   "terreno": "Terriccio per cactus con pomice o sabbia grossa.",
+   "rinvaso": "Ogni 2-3 anni in primavera; usare guanti spessi o un panno ripiegato per non riempirsi di glochidi.",
+   "propagazione": [
+    "talea_fusto",
+    "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a luglio, con il caldo.",
+     "passi": [
+      "Indossa guanti spessi e afferra la pala con una pinza da cucina, perché i glochidi si staccano al minimo tocco.",
+      "Stacca una pala intera nel punto di giunzione con una leggera torsione o un coltello pulito.",
+      "Lascia asciugare la pala all'ombra per 1-2 settimane, finché la base forma una crosta secca.",
+      "Infila la base per 2-3 cm in terriccio per cactacee asciutto, appoggiandola a un sostegno se serve.",
+      "Tieni in pieno sole e inizia a bagnare poco dopo 2-3 settimane."
+     ],
+     "tempo": "Radici in 3-6 settimane.",
+     "difficolta": "facile",
+     "note": "I glochidi sono finissimi e irritano la pelle; se ne restano attaccati, toglili con nastro adesivo."
+    },
+    {
+     "metodo": "seme",
+     "quando": "In primavera, con 20-30 °C.",
+     "passi": [
+      "Metti i semi in acqua tiepida per 24 ore e graffia leggermente il guscio duro con carta vetrata fine.",
+      "Seminali a circa 3-5 mm di profondità in terriccio per cactacee con sabbia, leggermente umido.",
+      "Copri con pellicola trasparente e metti in un posto caldo e luminoso, senza sole diretto.",
+      "Mantieni appena umido e togli la copertura quando le piantine sono spuntate.",
+      "Trapianta in vasetti singoli quando hanno formato la prima piccola pala."
+     ],
+     "tempo": "Germinazione in 3-8 settimane, a volte irregolare.",
+     "difficolta": "difficile",
+     "note": "Il seme è lento e la talea di pala dà una pianta grande molto prima."
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Non è velenosa, ma i glochidi si staccano al minimo tocco e irritano la pelle e gli occhi; tenerla lontana da bambini e animali."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Pale nuove strette e allungate",
+     "causa": "Luce insufficiente",
+     "rimedio": "Più sole diretto; le pale filate si possono staccare e usare come talee."
+    },
+    {
+     "sintomo": "Glochidi nella pelle",
+     "causa": "Contatto con le pale",
+     "rimedio": "Toglierli con nastro adesivo o con uno strato di colla vinilica lasciata asciugare e poi staccata."
+    },
+    {
+     "sintomo": "Base delle pale scura e molle",
+     "causa": "Marciume da troppa acqua",
+     "rimedio": "Salvare le pale sane come talee e cambiare terriccio."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "opuntia-1.jpg",
+     "commons": "OpuntiaMicrodasys.jpg",
+     "autore": "Chhe (talk)",
+     "licenza": "Public domain",
+     "url_licenza": "",
+     "pagina": "https://commons.wikimedia.org/wiki/File:OpuntiaMicrodasys.jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/OpuntiaMicrodasys.jpg/960px-OpuntiaMicrodasys.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, scheda Opuntia microdasys (rhs.org.uk)",
+    "University of Florida IFAS Extension, Opuntia microdasys (edis.ifas.ufl.edu)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "ortensia",
+   "stato": "bozza",
+   "nome_scientifico": "Hydrangea macrophylla",
+   "famiglia": "Hydrangeaceae",
+   "nomi_comuni": {
+    "it": [
+     "Ortensia"
+    ],
+    "en": [
+     "Bigleaf hydrangea",
+     "Hortensia",
+     "Mophead hydrangea"
+    ]
+   },
+   "descrizione": "Arbusto dalle grandi foglie seghettate e dai fiori riuniti in grossi globi azzurri, rosa, lilla o bianchi, da giugno a settembre. Il colore dipende dal terreno: azzurro se è acido, rosa se è calcareo. Ha bisogno di molta acqua.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita"
+   ],
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Pianta da esterno, in giardino o in un vaso grande su balcone o terrazzo. Le ortensie regalate in vaso in primavera si tengono in casa solo durante la fioritura, poi vanno portate fuori."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "media_indiretta",
+     "sole_diretto"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "est",
+     "nord"
+    ],
+    "note": "L'ideale è il sole del mattino e l'ombra nelle ore calde. Al sole pieno del pomeriggio foglie e fiori si bruciano; in ombra fitta fiorisce poco."
+   },
+   "annaffiatura": {
+    "quando": "Quando la superficie del terriccio inizia ad asciugarsi; non deve mai seccare del tutto.",
+    "primavera_estate": {
+     "min": 1,
+     "max": 3
+    },
+    "autunno_inverno": {
+     "min": 7,
+     "max": 14
+    },
+    "metodo": "Annaffiare abbondantemente alla base, al mattino presto o alla sera. D'estate in vaso può servire acqua ogni giorno; pacciamare il terriccio aiuta a tenerlo fresco.",
+    "acqua": "Meglio acqua piovana o poco calcarea: il calcare fa ingiallire le foglie e fa virare i fiori azzurri al rosa.",
+    "segnali_troppa": "Foglie che ingialliscono e cadono, terriccio sempre fradicio.",
+    "segnali_poca": "Foglie e fiori afflosciati di colpo, bordi delle foglie secchi."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime per piante acidofile, ricco di potassio.",
+    "note": "Per i fiori azzurri si può aggiungere solfato di alluminio specifico per ortensie; non concimare dopo luglio."
+   },
+   "temperatura": {
+    "min_c": -15,
+    "ideale_min_c": 15,
+    "ideale_max_c": 26,
+    "note": "La pianta è rustica, ma le gemme dei fiori si formano sui rami dell'anno prima e possono essere rovinate dalle gelate tardive: in vaso proteggerla d'inverno."
+   },
+   "terreno": "Terriccio per piante acidofile (pH 5-6 per i fiori azzurri), soffice e ricco di sostanza organica, con buon drenaggio.",
+   "rinvaso": "Ogni 2-3 anni a fine inverno, in un vaso più grande. Potare a fine inverno solo i fiori secchi, tagliando sopra la prima coppia di gemme sane: i rami dell'anno prima portano i fiori.",
+   "propagazione": [
+    "talea_fusto",
+    "propaggine"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a luglio, con germogli verdi dell'anno senza fiori; in alternativa a fine estate con rami semi-maturi.",
+     "passi": [
+      "Taglia la punta di un germoglio senza fiori lunga 10-15 cm, con due o tre coppie di foglie, appena sotto un nodo.",
+      "Togli le foglie più basse e taglia a metà quelle rimaste per ridurre la perdita d'acqua.",
+      "Intingi la base in ormone radicante (aiuta, ma non è obbligatorio) e infilala fino al primo nodo in terriccio misto a perlite o sabbia.",
+      "Annaffia, copri con un sacchetto trasparente e tieni all'ombra luminosa, a 18-22 °C, con il terriccio sempre umido.",
+      "Quando la talea emette foglie nuove togli il sacchetto; trapianta in un vaso più grande dopo 2-3 mesi e proteggi dal gelo il primo inverno."
+     ],
+     "tempo": "Radici in 3-4 settimane.",
+     "difficolta": "facile",
+     "note": "Il colore dei fiori dipende dal terreno, quindi la nuova pianta può fiorire rosa o blu in modo diverso dalla madre."
+    },
+    {
+     "metodo": "propaggine",
+     "quando": "In primavera o in estate, con un ramo basso e flessibile.",
+     "passi": [
+      "Piega a terra un ramo basso e, nel punto che tocca il suolo, togli le foglie e incidi leggermente la corteccia.",
+      "Interra quel tratto a 5-8 cm di profondità e fermalo con un picchetto o un sasso, lasciando fuori la punta con le foglie.",
+      "Tieni il terreno umido per tutta l'estate.",
+      "La primavera successiva, quando il ramo ha radicato, taglialo dalla pianta madre e trapiantalo."
+     ],
+     "tempo": "Radici in una stagione, circa 6-12 mesi.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "lieve",
+    "note": "Contiene glicosidi cianogenetici: tossica per cani, gatti e cavalli (vomito, diarrea, abbattimento). Nelle persone può dare disturbi gastrointestinali se ingerita."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Foglie gialle con le nervature verdi",
+     "causa": "Clorosi ferrica, per terreno o acqua troppo calcarei",
+     "rimedio": "Usare acqua piovana, terriccio per acidofile e un concime con ferro chelato."
+    },
+    {
+     "sintomo": "Non fiorisce",
+     "causa": "Potatura sbagliata dei rami dell'anno prima, gelate tardive o troppa ombra",
+     "rimedio": "Potare solo i fiori secchi, proteggere le gemme dal gelo e darle qualche ora di sole al mattino."
+    },
+    {
+     "sintomo": "Fiori azzurri che diventano rosa",
+     "causa": "Terreno poco acido o acqua calcarea",
+     "rimedio": "Terriccio per acidofile, acqua piovana e solfato di alluminio per ortensie."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "ortensia-1.jpg",
+     "commons": "Hydrangea macrophylla - Hortensia hydrangea.jpg",
+     "autore": "Raul654",
+     "licenza": "CC BY-SA 3.0",
+     "url_licenza": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Hydrangea_macrophylla_-_Hortensia_hydrangea.jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Hydrangea_macrophylla_-_Hortensia_hydrangea.jpg/960px-Hydrangea_macrophylla_-_Hortensia_hydrangea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, scheda Hydrangea macrophylla e guida \"Hydrangeas\" (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Hydrangea (aspca.org)",
+    "University of Georgia Extension, \"Hydrangeas for Georgia Gardens\" (extension.uga.edu)",
+    "Clemson Cooperative Extension, \"Hydrangea\" (hgic.clemson.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "phalaenopsis",
+   "stato": "bozza",
+   "nome_scientifico": "Phalaenopsis",
+   "sinonimi": [
+    "Phalaenopsis ibridi"
+   ],
+   "famiglia": "Orchidaceae",
+   "nomi_comuni": {
+    "it": [
+     "Phalaenopsis",
+     "Orchidea farfalla",
+     "Falenopsis"
+    ],
+    "en": [
+     "Moth orchid",
+     "Phalaenopsis"
+    ]
+   },
+   "descrizione": "L'orchidea più diffusa nelle case: poche foglie larghe e carnose, radici aeree argentate e lunghi steli ad arco con fiori a farfalla che durano mesi. Con le cure giuste rifiorisce ogni anno.",
+   "categorie": [
+    "appartamento",
+    "fiorita",
+    "da_ufficio",
+    "pet_friendly"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "no",
+    "terrarium": "no",
+    "note": "Vive bene in casa tutto l'anno. In natura cresce attaccata agli alberi, per questo vuole radici all'aria e un substrato di corteccia, non terriccio."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "media_indiretta"
+    ],
+    "sole_diretto": "no",
+    "esposizione": [
+     "est",
+     "ovest",
+     "nord"
+    ],
+    "note": "Una finestra a est è perfetta. Il sole diretto delle ore calde brucia le foglie; con troppa poca luce non rifiorisce."
+   },
+   "annaffiatura": {
+    "quando": "Quando le radici nel vaso trasparente sono diventate argentate e il substrato è quasi asciutto.",
+    "primavera_estate": {
+     "min": 7,
+     "max": 10
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 14
+    },
+    "metodo": "Immergere il vaso in acqua a temperatura ambiente per 10-15 minuti, poi lasciarlo sgocciolare bene. Non lasciare acqua nel cuore tra le foglie.",
+    "acqua": "Meglio acqua piovana o poco calcarea, mai fredda.",
+    "segnali_troppa": "Radici marroni e molli, foglie gialle e flosce.",
+    "segnali_poca": "Foglie raggrinzite e mosce, radici grigie e secche, boccioli che cadono."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime liquido per orchidee a dose ridotta, sciolto nell'acqua dell'immersione."
+   },
+   "temperatura": {
+    "min_c": 15,
+    "ideale_min_c": 18,
+    "ideale_max_c": 28,
+    "note": "Un calo di 5-6 °C di notte per qualche settimana in autunno favorisce i nuovi steli fioriti."
+   },
+   "terreno": "Corteccia di pino per orchidee in pezzi medi, eventualmente con un po' di sfagno.",
+   "rinvaso": "Ogni 2 anni dopo la fioritura, o quando la corteccia si sbriciola; vaso trasparente con molti fori.",
+   "propagazione": [
+    "polloni"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "polloni",
+     "quando": "In primavera o estate, quando il keiki ha almeno 2-3 foglie e radici lunghe 5 cm.",
+     "passi": [
+      "Aspetta che la piantina (keiki) nata sullo stelo floreale abbia 2-3 foglie e almeno 3 radici lunghe 5-8 cm.",
+      "Taglia lo stelo 2-3 cm sopra e sotto il keiki con forbici disinfettate con alcol.",
+      "Metti il keiki in un vasetto trasparente di 6-8 cm con corteccia fine per orchidee o sfagno, senza pressare.",
+      "Tieni in luce luminosa ma filtrata, a 20-27 °C, e nebulizza le radici aeree.",
+      "Bagna quando la corteccia è quasi asciutta e concima con dose ridotta solo quando spuntano radici nuove."
+     ],
+     "tempo": "Si assesta in 4-8 settimane; fiorisce dopo 1-2 anni.",
+     "difficolta": "media",
+     "note": "La Phalaenopsis ha un solo fusto e non si divide come le altre piante; in casa si moltiplica quasi solo con i keiki."
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Secondo l'ASPCA non è tossica per cani e gatti."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Non rifiorisce",
+     "causa": "Luce scarsa o temperatura sempre uguale",
+     "rimedio": "Spostarla in un punto più luminoso e tenerla per qualche settimana in una stanza più fresca di notte in autunno."
+    },
+    {
+     "sintomo": "Boccioli che cadono prima di aprirsi",
+     "causa": "Spifferi, sbalzi di temperatura, aria secca o spostamenti",
+     "rimedio": "Tenerla in un posto fisso, lontano da termosifoni e finestre aperte."
+    },
+    {
+     "sintomo": "Radici marroni e molli",
+     "causa": "Troppa acqua o corteccia vecchia e compatta",
+     "rimedio": "Tagliare le radici marce e rinvasare in corteccia nuova."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "phalaenopsis-1.jpg",
+     "commons": "Phalaenopsis Orchid.jpg",
+     "autore": "Sanx",
+     "licenza": "CC BY 3.0",
+     "url_licenza": "https://creativecommons.org/licenses/by/3.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Phalaenopsis_Orchid.jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Phalaenopsis_Orchid.jpg/960px-Phalaenopsis_Orchid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, scheda Phalaenopsis e guida alle orchidee da appartamento (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)",
+    "University of Florida IFAS Extension, coltivazione delle Phalaenopsis (edis.ifas.ufl.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
   },
   {
    "schema_version": 1,
@@ -591,6 +2743,35 @@
     "talea_in_acqua",
     "talea_fusto"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_in_acqua",
+     "quando": "Da aprile a settembre, quando la pianta cresce attivamente.",
+     "passi": [
+      "Taglia con forbici pulite un pezzo di fusto lungo 10-15 cm con 2-4 foglie, appena sotto un nodo (il punto dove nasce la foglia e spesso una radichetta aerea marrone).",
+      "Togli la foglia più bassa, in modo che il nodo resti nudo.",
+      "Metti la talea in un bicchiere d'acqua a temperatura ambiente, con il nodo sott'acqua e le foglie fuori.",
+      "Tienila in un punto luminoso ma senza sole diretto e cambia l'acqua ogni 4-5 giorni.",
+      "Quando le radici sono lunghe 3-5 cm, trasferiscila in un vasetto con terriccio universale e perlite e tienilo umido per le prime settimane."
+     ],
+     "tempo": "Radici visibili in 2-3 settimane; pronta per il vaso in 4-6 settimane.",
+     "difficolta": "facile",
+     "note": "Una foglia staccata senza nodo può fare radici ma non darà mai una nuova pianta. Metti 3-4 talee nello stesso vaso per avere subito una pianta folta."
+    },
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da aprile a settembre, con temperature sopra i 20 °C.",
+     "passi": [
+      "Taglia una punta di 10-15 cm con almeno 2 nodi e 2-3 foglie, con forbici pulite.",
+      "Togli la foglia più bassa e interra la talea in un vasetto di terriccio universale misto a perlite, con almeno un nodo sotto terra.",
+      "Annaffia leggermente e copri il vaso con un sacchetto di plastica trasparente per tenere alta l'umidità.",
+      "Tienilo al caldo (20-25 °C) e in luce indiretta, arieggiando ogni pochi giorni e mantenendo il terriccio appena umido.",
+      "Quando spuntano foglie nuove togli il sacchetto e trattala come una pianta adulta."
+     ],
+     "tempo": "Radici in 3-4 settimane.",
+     "difficolta": "facile"
+    }
+   ],
    "tossicita": {
     "animali": "tossica",
     "persone": "lieve",
@@ -626,7 +2807,755 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-17"
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "rosa-floribunda",
+   "stato": "bozza",
+   "nome_scientifico": "Rosa × hybrida (Floribunda)",
+   "famiglia": "Rosaceae",
+   "nomi_comuni": {
+    "it": [
+     "Rosa floribunda",
+     "Rosa a mazzi"
+    ],
+    "en": [
+     "Floribunda rose",
+     "Cluster-flowered rose"
+    ]
+   },
+   "descrizione": "Cespuglio compatto che porta i fiori a mazzetti e rifiorisce quasi senza sosta fino all'autunno. Varietà famose sono 'Iceberg' (Schneewittchen), 'Frensham', 'Queen Elizabeth' e 'Sangerhäuser Jubiläumsrose'. Ideale per aiuole e vasi.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita",
+    "pet_friendly"
+   ],
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Pianta da esterno; sta bene anche in vaso (almeno 30 litri) su un balcone soleggiato."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ],
+    "note": "Servono almeno 6 ore di sole diretto al giorno per fiorire bene. Nelle estati molto calde gradisce un po' d'ombra nelle ore centrali."
+   },
+   "annaffiatura": {
+    "quando": "Quando i primi 3-4 cm di terriccio sono asciutti al tatto.",
+    "primavera_estate": {
+     "min": 2,
+     "max": 4
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 21
+    },
+    "metodo": "Annaffiare a fondo alla base, al mattino o alla sera, fino a far uscire l'acqua dal foro del vaso. Non bagnare le foglie, per prevenire le malattie fungine. In piena estate, in vaso, può servire acqua ogni giorno.",
+    "acqua": "Va bene l'acqua del rubinetto; meglio ancora quella piovana.",
+    "segnali_troppa": "Foglie che ingialliscono dal basso e cadono, terriccio sempre bagnato.",
+    "segnali_poca": "Foglie e boccioli mosci, petali che seccano in fretta."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime per rose o per piante da fiore, ricco di potassio.",
+    "note": "Smettere a fine agosto, perché i getti nuovi abbiano il tempo di indurirsi prima dell'inverno."
+   },
+   "temperatura": {
+    "min_c": -12,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28,
+    "note": "In piena terra è molto rustica; in vaso le radici gelano più facilmente, quindi d'inverno conviene proteggere il vaso."
+   },
+   "terreno": "Terriccio specifico per rose o terriccio universale ricco con un terzo di terra di campo e un po' di stallatico maturo; strato drenante sul fondo.",
+   "rinvaso": "Ogni 2-3 anni a fine inverno, in un vaso più grande. Potatura a fine inverno: accorciare i rami di circa metà.",
+   "propagazione": [
+    "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Tra fine giugno e settembre, con rami dell'anno semi-maturi (ancora flessibili ma già induriti alla base); in alternativa a ottobre-novembre con rami legnosi.",
+     "passi": [
+      "Scegli un ramo sano che ha appena fiorito e taglia un pezzo di 15-20 cm, con forbici pulite e affilate.",
+      "Taglia la base appena sotto un nodo e la cima appena sopra un nodo, togliendo il fiore appassito.",
+      "Elimina tutte le foglie tranne le due più in alto e rimuovi le spine nella parte bassa.",
+      "Intingi la base in ormone radicante in polvere e infilala per due terzi in un vaso con metà terriccio e metà sabbia o perlite.",
+      "Annaffia, copri il vaso con un sacchetto di plastica trasparente e tienilo alla luce ma non al sole diretto, a 18-22 °C.",
+      "Quando spuntano foglie nuove e la talea resiste a un leggero tiro, trapiantala in un vaso singolo con terriccio per rose."
+     ],
+     "tempo": "Radici in 6-8 settimane per le talee estive; quelle autunnali radicano entro la primavera successiva.",
+     "difficolta": "media",
+     "note": "Le floribunde radicano di solito meglio delle tea ibride. Molte piante in vivaio sono innestate e le talee danno piante su radici proprie, un po' più lente il primo anno. Le varietà brevettate non si possono moltiplicare per venderle."
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Secondo l'ASPCA la rosa non è tossica per cani e gatti; attenzione però alle spine, che possono ferire bocca e zampe."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Macchie nere tonde sulle foglie, che poi ingialliscono e cadono",
+     "causa": "Ticchiolatura (macchia nera), un fungo favorito dalle foglie bagnate",
+     "rimedio": "Togliere e buttare le foglie colpite, annaffiare solo alla base e arieggiare; a inizio primavera un trattamento a base di rame."
+    },
+    {
+     "sintomo": "Polvere bianca su foglie e boccioli",
+     "causa": "Oidio (mal bianco), con giornate calde e notti umide",
+     "rimedio": "Eliminare le parti colpite e migliorare l'aerazione; zolfo o bicarbonato di potassio nei casi diffusi."
+    },
+    {
+     "sintomo": "Colonie di insetti verdi sui germogli e sui boccioli",
+     "causa": "Afidi",
+     "rimedio": "Getto d'acqua o sapone molle potassico; coccinelle e altri predatori aiutano."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "rosa-floribunda-1.jpg",
+     "commons": "Floribunda - Frensham 05 (b).JPG",
+     "autore": "HomeinSalem",
+     "licenza": "CC BY-SA 3.0",
+     "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Floribunda_-_Frensham_05_(b).JPG",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Floribunda_-_Frensham_05_%28b%29.JPG/960px-Floribunda_-_Frensham_05_%28b%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, guide \"Roses\" e \"Roses in containers\" (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Rose (aspca.org)",
+    "University of Minnesota Extension, \"Growing roses\" (extension.umn.edu)",
+    "Clemson Cooperative Extension, \"Roses\" (hgic.clemson.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "rosa-inglese",
+   "stato": "bozza",
+   "nome_scientifico": "Rosa × hybrida (arbustive e inglesi)",
+   "famiglia": "Rosaceae",
+   "nomi_comuni": {
+    "it": [
+     "Rosa inglese",
+     "Rosa arbustiva",
+     "Rosa di David Austin"
+    ],
+    "en": [
+     "English rose",
+     "Shrub rose"
+    ]
+   },
+   "descrizione": "Arbusti dal portamento morbido e arcuato, con fiori a coppa pieni di petali e profumo intenso, nello stile delle rose antiche ma rifiorenti. Le più note sono le rose inglesi di David Austin come 'Graham Thomas', 'Gertrude Jekyll', 'Glamis Castle' e 'Lady of Shalott'.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita",
+    "pet_friendly"
+   ],
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Pianta da esterno, in giardino o in un vaso ampio (almeno 40 litri); molte varietà tollerano anche la mezz'ombra luminosa."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ],
+    "note": "Servono almeno 6 ore di sole diretto al giorno per fiorire bene. Nelle estati molto calde gradisce un po' d'ombra nelle ore centrali."
+   },
+   "annaffiatura": {
+    "quando": "Quando i primi 3-4 cm di terriccio sono asciutti al tatto.",
+    "primavera_estate": {
+     "min": 2,
+     "max": 4
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 21
+    },
+    "metodo": "Annaffiare a fondo alla base, al mattino o alla sera, fino a far uscire l'acqua dal foro del vaso. Non bagnare le foglie, per prevenire le malattie fungine. In piena estate, in vaso, può servire acqua ogni giorno.",
+    "acqua": "Va bene l'acqua del rubinetto; meglio ancora quella piovana.",
+    "segnali_troppa": "Foglie che ingialliscono dal basso e cadono, terriccio sempre bagnato.",
+    "segnali_poca": "Foglie e boccioli mosci, petali che seccano in fretta."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime per rose o per piante da fiore, ricco di potassio.",
+    "note": "Smettere a fine agosto, perché i getti nuovi abbiano il tempo di indurirsi prima dell'inverno."
+   },
+   "temperatura": {
+    "min_c": -15,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28,
+    "note": "In piena terra è molto rustica; in vaso le radici gelano più facilmente, quindi d'inverno conviene proteggere il vaso."
+   },
+   "terreno": "Terriccio specifico per rose o terriccio universale ricco con un terzo di terra di campo e un po' di stallatico maturo; strato drenante sul fondo.",
+   "rinvaso": "Ogni 2-3 anni a fine inverno, in un vaso più grande. Potatura leggera a fine inverno: accorciare i rami di un terzo e togliere quelli vecchi o deboli.",
+   "propagazione": [
+    "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Tra fine giugno e settembre, con rami dell'anno semi-maturi (ancora flessibili ma già induriti alla base); in alternativa a ottobre-novembre con rami legnosi.",
+     "passi": [
+      "Scegli un ramo sano che ha appena fiorito e taglia un pezzo di 15-20 cm, con forbici pulite e affilate.",
+      "Taglia la base appena sotto un nodo e la cima appena sopra un nodo, togliendo il fiore appassito.",
+      "Elimina tutte le foglie tranne le due più in alto e rimuovi le spine nella parte bassa.",
+      "Intingi la base in ormone radicante in polvere e infilala per due terzi in un vaso con metà terriccio e metà sabbia o perlite.",
+      "Annaffia, copri il vaso con un sacchetto di plastica trasparente e tienilo alla luce ma non al sole diretto, a 18-22 °C.",
+      "Quando spuntano foglie nuove e la talea resiste a un leggero tiro, trapiantala in un vaso singolo con terriccio per rose."
+     ],
+     "tempo": "Radici in 6-8 settimane per le talee estive; quelle autunnali radicano entro la primavera successiva.",
+     "difficolta": "media",
+     "note": "Molte rose inglesi radicano bene da talea e crescono vigorose su radici proprie. Quasi tutte sono varietà brevettate, che puoi moltiplicarle per uso personale ma non per venderle."
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Secondo l'ASPCA la rosa non è tossica per cani e gatti; attenzione però alle spine, che possono ferire bocca e zampe."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Macchie nere tonde sulle foglie, che poi ingialliscono e cadono",
+     "causa": "Ticchiolatura (macchia nera), un fungo favorito dalle foglie bagnate",
+     "rimedio": "Togliere e buttare le foglie colpite, annaffiare solo alla base e arieggiare; a inizio primavera un trattamento a base di rame."
+    },
+    {
+     "sintomo": "Polvere bianca su foglie e boccioli",
+     "causa": "Oidio (mal bianco), con giornate calde e notti umide",
+     "rimedio": "Eliminare le parti colpite e migliorare l'aerazione; zolfo o bicarbonato di potassio nei casi diffusi."
+    },
+    {
+     "sintomo": "Colonie di insetti verdi sui germogli e sui boccioli",
+     "causa": "Afidi",
+     "rimedio": "Getto d'acqua o sapone molle potassico; coccinelle e altri predatori aiutano."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "rosa-inglese-1.jpg",
+     "commons": "Rosa 'Glamis Castle'.jpg",
+     "autore": "Roozitaa",
+     "licenza": "CC BY-SA 3.0",
+     "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Rosa_%27Glamis_Castle%27.jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Rosa_%27Glamis_Castle%27.jpg/960px-Rosa_%27Glamis_Castle%27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, guide \"Roses\" e \"Roses in containers\" (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Rose (aspca.org)",
+    "University of Minnesota Extension, \"Growing roses\" (extension.umn.edu)",
+    "Clemson Cooperative Extension, \"Roses\" (hgic.clemson.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "rosa-miniatura",
+   "stato": "bozza",
+   "nome_scientifico": "Rosa × hybrida (miniatura)",
+   "famiglia": "Rosaceae",
+   "nomi_comuni": {
+    "it": [
+     "Rosa miniatura",
+     "Rosellina",
+     "Rosa nana"
+    ],
+    "en": [
+     "Miniature rose"
+    ]
+   },
+   "descrizione": "Rose piccole, alte 20-40 cm, con foglie e fiori in miniatura. Spesso si comprano in vasetto come pianta da regalo, ma vivono meglio all'aperto al sole. Varietà note sono 'Meillandine', 'Starina', 'Baby Masquerade' e le serie Parade e Patio Hit.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita",
+    "pet_friendly"
+   ],
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Sta bene su un balcone o un davanzale soleggiato. In casa resiste solo poche settimane vicino a una finestra a sud, poi va portata fuori."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ],
+    "note": "Servono almeno 6 ore di sole diretto al giorno per fiorire bene. Nelle estati molto calde gradisce un po' d'ombra nelle ore centrali."
+   },
+   "annaffiatura": {
+    "quando": "Quando i primi 2 cm di terriccio sono asciutti al tatto.",
+    "primavera_estate": {
+     "min": 1,
+     "max": 3
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 21
+    },
+    "metodo": "Annaffiare a fondo alla base, al mattino o alla sera, fino a far uscire l'acqua dal foro del vaso. Non bagnare le foglie, per prevenire le malattie fungine. In piena estate, in vaso, può servire acqua ogni giorno.",
+    "acqua": "Va bene l'acqua del rubinetto; meglio ancora quella piovana.",
+    "segnali_troppa": "Foglie che ingialliscono dal basso e cadono, terriccio sempre bagnato.",
+    "segnali_poca": "Foglie e boccioli mosci, petali che seccano in fretta."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime per rose o per piante da fiore, ricco di potassio.",
+    "note": "Smettere a fine agosto, perché i getti nuovi abbiano il tempo di indurirsi prima dell'inverno."
+   },
+   "temperatura": {
+    "min_c": -10,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28,
+    "note": "In piena terra è molto rustica; in vaso le radici gelano più facilmente, quindi d'inverno conviene proteggere il vaso."
+   },
+   "terreno": "Terriccio specifico per rose o terriccio universale ricco con un terzo di terra di campo e un po' di stallatico maturo; strato drenante sul fondo.",
+   "rinvaso": "Appena comprata, rinvasare in un vaso un po' più grande (15-20 cm) con terriccio nuovo; poi ogni 1-2 anni a fine inverno. Potatura a fine inverno: accorciare i rametti di metà.",
+   "propagazione": [
+    "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a settembre, con rametti dell'anno semi-maturi.",
+     "passi": [
+      "Taglia un rametto di 5-8 cm con almeno tre nodi, appena sotto un nodo, con forbici pulite.",
+      "Togli fiori e boccioli e lascia solo le due o tre foglioline in cima.",
+      "Intingi la base in ormone radicante e infilala per metà in un vasetto con terriccio e perlite in parti uguali.",
+      "Copri con un sacchetto trasparente o una bottiglia tagliata e tieni in luce viva ma non al sole diretto, a circa 20 °C.",
+      "Quando compaiono foglie nuove, togli gradualmente la copertura e trapianta in un vaso di 10-12 cm."
+     ],
+     "tempo": "Radici in 3-5 settimane.",
+     "difficolta": "facile",
+     "note": "Le rose in miniatura sono quasi sempre coltivate su radici proprie, quindi le talee danno piante identiche alla madre."
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Secondo l'ASPCA la rosa non è tossica per cani e gatti; attenzione però alle spine, che possono ferire bocca e zampe."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Macchie nere tonde sulle foglie, che poi ingialliscono e cadono",
+     "causa": "Ticchiolatura (macchia nera), un fungo favorito dalle foglie bagnate",
+     "rimedio": "Togliere e buttare le foglie colpite, annaffiare solo alla base e arieggiare; a inizio primavera un trattamento a base di rame."
+    },
+    {
+     "sintomo": "Polvere bianca su foglie e boccioli",
+     "causa": "Oidio (mal bianco), con giornate calde e notti umide",
+     "rimedio": "Eliminare le parti colpite e migliorare l'aerazione; zolfo o bicarbonato di potassio nei casi diffusi."
+    },
+    {
+     "sintomo": "Colonie di insetti verdi sui germogli e sui boccioli",
+     "causa": "Afidi",
+     "rimedio": "Getto d'acqua o sapone molle potassico; coccinelle e altri predatori aiutano."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "rosa-miniatura-1.jpg",
+     "commons": "\"Meillandine\" Rose in clay pot.jpg",
+     "autore": "Arch. Attilio Mileto - attilio.mileto@florero.net",
+     "licenza": "CC BY-SA 3.0",
+     "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:%22Meillandine%22_Rose_in_clay_pot.jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/%22Meillandine%22_Rose_in_clay_pot.jpg/960px-%22Meillandine%22_Rose_in_clay_pot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, guide \"Roses\" e \"Roses in containers\" (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Rose (aspca.org)",
+    "University of Minnesota Extension, \"Growing roses\" (extension.umn.edu)",
+    "Clemson Cooperative Extension, \"Roses\" (hgic.clemson.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "rosa-rampicante",
+   "stato": "bozza",
+   "nome_scientifico": "Rosa × hybrida (rampicanti)",
+   "famiglia": "Rosaceae",
+   "nomi_comuni": {
+    "it": [
+     "Rosa rampicante"
+    ],
+    "en": [
+     "Climbing rose"
+    ]
+   },
+   "descrizione": "Rose con steli lunghi e flessibili, da legare a un muro, un arco o un traliccio: possono superare i 2-3 metri. Varietà famose sono 'New Dawn', 'Pierre de Ronsard', 'Dortmund' e 'Gloire de Dijon'. Le rampicanti rifiorenti fanno fiori da maggio all'autunno.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita",
+    "pet_friendly"
+   ],
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Pianta da esterno, contro un muro soleggiato o su un arco. In vaso serve un contenitore grande (almeno 50 litri) con un traliccio robusto."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ],
+    "note": "Servono almeno 6 ore di sole diretto al giorno per fiorire bene. Nelle estati molto calde gradisce un po' d'ombra nelle ore centrali."
+   },
+   "annaffiatura": {
+    "quando": "Quando i primi 3-4 cm di terriccio sono asciutti al tatto.",
+    "primavera_estate": {
+     "min": 2,
+     "max": 4
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 21
+    },
+    "metodo": "Annaffiare a fondo alla base, al mattino o alla sera, fino a far uscire l'acqua dal foro del vaso. Non bagnare le foglie, per prevenire le malattie fungine. In piena estate, in vaso, può servire acqua ogni giorno.",
+    "acqua": "Va bene l'acqua del rubinetto; meglio ancora quella piovana.",
+    "segnali_troppa": "Foglie che ingialliscono dal basso e cadono, terriccio sempre bagnato.",
+    "segnali_poca": "Foglie e boccioli mosci, petali che seccano in fretta."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime per rose o per piante da fiore, ricco di potassio.",
+    "note": "Smettere a fine agosto, perché i getti nuovi abbiano il tempo di indurirsi prima dell'inverno."
+   },
+   "temperatura": {
+    "min_c": -12,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28,
+    "note": "In piena terra è molto rustica; in vaso le radici gelano più facilmente, quindi d'inverno conviene proteggere il vaso."
+   },
+   "terreno": "Terriccio specifico per rose o terriccio universale ricco con un terzo di terra di campo e un po' di stallatico maturo; strato drenante sul fondo.",
+   "rinvaso": "In vaso ogni 2-3 anni a fine inverno, oppure sostituire i primi 5 cm di terriccio. Legare gli steli principali in orizzontale o a ventaglio e accorciare i rametti laterali a 2-3 gemme a fine inverno.",
+   "propagazione": [
+    "propaggine",
+    "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "propaggine",
+     "quando": "In primavera o a fine estate, usando un ramo lungo e flessibile vicino al suolo.",
+     "passi": [
+      "Scegli un ramo giovane e flessibile e piegalo fino a terra, o fino a un vaso pieno di terriccio messo accanto alla pianta.",
+      "Nel punto che tocca il terreno, a circa 30 cm dalla punta, togli le foglie e fai un piccolo taglio obliquo sotto un nodo.",
+      "Interra quel tratto a 8-10 cm di profondità e fermalo con un picchetto a U o un sasso, lasciando la punta fuori e legata a un tutore.",
+      "Tieni il terreno sempre umido durante l'estate.",
+      "Dopo circa un anno, quando ha radici robuste, taglia il ramo che la collega alla madre e trapianta la nuova rosa in autunno o a fine inverno."
+     ],
+     "tempo": "Radici in 6-12 mesi.",
+     "difficolta": "facile",
+     "note": "È il modo più sicuro per le rampicanti e le rambler, perché il ramo resta nutrito dalla pianta madre finché non radica."
+    },
+    {
+     "metodo": "talea_fusto",
+     "quando": "Tra fine giugno e settembre, con rami dell'anno semi-maturi (ancora flessibili ma già induriti alla base); in alternativa a ottobre-novembre con rami legnosi.",
+     "passi": [
+      "Scegli un ramo sano che ha appena fiorito e taglia un pezzo di 20-25 cm, con forbici pulite e affilate.",
+      "Taglia la base appena sotto un nodo e la cima appena sopra un nodo, togliendo il fiore appassito.",
+      "Elimina tutte le foglie tranne le due più in alto e rimuovi le spine nella parte bassa.",
+      "Intingi la base in ormone radicante in polvere e infilala per due terzi in un vaso con metà terriccio e metà sabbia o perlite.",
+      "Annaffia, copri il vaso con un sacchetto di plastica trasparente e tienilo alla luce ma non al sole diretto, a 18-22 °C.",
+      "Quando spuntano foglie nuove e la talea resiste a un leggero tiro, trapiantala in un vaso singolo con terriccio per rose."
+     ],
+     "tempo": "Radici in 6-8 settimane per le talee estive; quelle autunnali radicano entro la primavera successiva.",
+     "difficolta": "media",
+     "note": "Le rambler e molte rampicanti vigorose radicano bene da talea. Le varietà brevettate non si possono moltiplicare per venderle."
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Secondo l'ASPCA la rosa non è tossica per cani e gatti; attenzione però alle spine, che possono ferire bocca e zampe."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Macchie nere tonde sulle foglie, che poi ingialliscono e cadono",
+     "causa": "Ticchiolatura (macchia nera), un fungo favorito dalle foglie bagnate",
+     "rimedio": "Togliere e buttare le foglie colpite, annaffiare solo alla base e arieggiare; a inizio primavera un trattamento a base di rame."
+    },
+    {
+     "sintomo": "Polvere bianca su foglie e boccioli",
+     "causa": "Oidio (mal bianco), con giornate calde e notti umide",
+     "rimedio": "Eliminare le parti colpite e migliorare l'aerazione; zolfo o bicarbonato di potassio nei casi diffusi."
+    },
+    {
+     "sintomo": "Colonie di insetti verdi sui germogli e sui boccioli",
+     "causa": "Afidi",
+     "rimedio": "Getto d'acqua o sapone molle potassico; coccinelle e altri predatori aiutano."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "rosa-rampicante-1.jpg",
+     "commons": "Rosa New Dawn.jpg",
+     "autore": "Nockel12",
+     "licenza": "Public domain",
+     "url_licenza": "",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Rosa_New_Dawn.jpg",
+     "anteprima": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Rosa_New_Dawn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, guide \"Roses\" e \"Roses in containers\" (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Rose (aspca.org)",
+    "University of Minnesota Extension, \"Growing roses\" (extension.umn.edu)",
+    "Clemson Cooperative Extension, \"Roses\" (hgic.clemson.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "rosa-tea-ibrida",
+   "stato": "bozza",
+   "nome_scientifico": "Rosa × hybrida (Ibridi di Tea)",
+   "famiglia": "Rosaceae",
+   "nomi_comuni": {
+    "it": [
+     "Rosa ibrida di tea",
+     "Rosa a grande fiore"
+    ],
+    "en": [
+     "Hybrid tea rose",
+     "Large-flowered rose"
+    ]
+   },
+   "descrizione": "Le classiche rose da recidere: steli lunghi e dritti con un solo grande fiore a punta, spesso profumato. Varietà famose sono 'Peace' (Gloria Dei), 'Papa Meilland', 'Double Delight' e 'Pascali'. Rifiorisce da maggio all'autunno.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita",
+    "pet_friendly"
+   ],
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Pianta da esterno, in giardino o in un vaso grande (almeno 30-40 litri) su un balcone o terrazzo soleggiato."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ],
+    "note": "Servono almeno 6 ore di sole diretto al giorno per fiorire bene. Nelle estati molto calde gradisce un po' d'ombra nelle ore centrali."
+   },
+   "annaffiatura": {
+    "quando": "Quando i primi 3-4 cm di terriccio sono asciutti al tatto.",
+    "primavera_estate": {
+     "min": 2,
+     "max": 4
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 21
+    },
+    "metodo": "Annaffiare a fondo alla base, al mattino o alla sera, fino a far uscire l'acqua dal foro del vaso. Non bagnare le foglie, per prevenire le malattie fungine. In piena estate, in vaso, può servire acqua ogni giorno.",
+    "acqua": "Va bene l'acqua del rubinetto; meglio ancora quella piovana.",
+    "segnali_troppa": "Foglie che ingialliscono dal basso e cadono, terriccio sempre bagnato.",
+    "segnali_poca": "Foglie e boccioli mosci, petali che seccano in fretta."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime per rose o per piante da fiore, ricco di potassio.",
+    "note": "Smettere a fine agosto, perché i getti nuovi abbiano il tempo di indurirsi prima dell'inverno."
+   },
+   "temperatura": {
+    "min_c": -10,
+    "ideale_min_c": 15,
+    "ideale_max_c": 28,
+    "note": "In piena terra è molto rustica; in vaso le radici gelano più facilmente, quindi d'inverno conviene proteggere il vaso."
+   },
+   "terreno": "Terriccio specifico per rose o terriccio universale ricco con un terzo di terra di campo e un po' di stallatico maturo; strato drenante sul fondo.",
+   "rinvaso": "Ogni 2-3 anni a fine inverno, in un vaso più grande e profondo almeno 40 cm. Potatura a fine inverno: accorciare i rami a 3-5 gemme.",
+   "propagazione": [
+    "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Tra fine giugno e settembre, con rami dell'anno semi-maturi (ancora flessibili ma già induriti alla base); in alternativa a ottobre-novembre con rami legnosi.",
+     "passi": [
+      "Scegli un ramo sano che ha appena fiorito e taglia un pezzo di 15-20 cm, con forbici pulite e affilate.",
+      "Taglia la base appena sotto un nodo e la cima appena sopra un nodo, togliendo il fiore appassito.",
+      "Elimina tutte le foglie tranne le due più in alto e rimuovi le spine nella parte bassa.",
+      "Intingi la base in ormone radicante in polvere e infilala per due terzi in un vaso con metà terriccio e metà sabbia o perlite.",
+      "Annaffia, copri il vaso con un sacchetto di plastica trasparente e tienilo alla luce ma non al sole diretto, a 18-22 °C.",
+      "Quando spuntano foglie nuove e la talea resiste a un leggero tiro, trapiantala in un vaso singolo con terriccio per rose."
+     ],
+     "tempo": "Radici in 6-8 settimane per le talee estive; quelle autunnali radicano entro la primavera successiva.",
+     "difficolta": "media",
+     "note": "Molte rose tea ibride in vivaio sono innestate e su radici proprie possono crescere meno vigorose; aspettati qualche talea che non attecchisce. Le varietà brevettate non si possono moltiplicare per venderle."
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Secondo l'ASPCA la rosa non è tossica per cani e gatti; attenzione però alle spine, che possono ferire bocca e zampe."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Macchie nere tonde sulle foglie, che poi ingialliscono e cadono",
+     "causa": "Ticchiolatura (macchia nera), un fungo favorito dalle foglie bagnate",
+     "rimedio": "Togliere e buttare le foglie colpite, annaffiare solo alla base e arieggiare; a inizio primavera un trattamento a base di rame."
+    },
+    {
+     "sintomo": "Polvere bianca su foglie e boccioli",
+     "causa": "Oidio (mal bianco), con giornate calde e notti umide",
+     "rimedio": "Eliminare le parti colpite e migliorare l'aerazione; zolfo o bicarbonato di potassio nei casi diffusi."
+    },
+    {
+     "sintomo": "Colonie di insetti verdi sui germogli e sui boccioli",
+     "causa": "Afidi",
+     "rimedio": "Getto d'acqua o sapone molle potassico; coccinelle e altri predatori aiutano."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "rosa-tea-ibrida-1.jpg",
+     "commons": "Peace - hybrid tea rose - geograph.org.uk - 1025537.jpg",
+     "autore": "Christine Matthews",
+     "licenza": "CC BY-SA 2.0",
+     "url_licenza": "https://creativecommons.org/licenses/by-sa/2.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Peace_-_hybrid_tea_rose_-_geograph.org.uk_-_1025537.jpg",
+     "anteprima": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Peace_-_hybrid_tea_rose_-_geograph.org.uk_-_1025537.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, guide \"Roses\" e \"Roses in containers\" (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche, voce Rose (aspca.org)",
+    "University of Minnesota Extension, \"Growing roses\" (extension.umn.edu)",
+    "Clemson Cooperative Extension, \"Roses\" (hgic.clemson.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
   },
   {
    "schema_version": 1,
@@ -717,6 +3646,35 @@
     "divisione",
     "talea_foglia"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "In primavera o inizio estate, di solito al momento del rinvaso.",
+     "passi": [
+      "Annaffia poco il giorno prima, poi sfila la pianta dal vaso e togli il terriccio in eccesso dalle radici.",
+      "Individua i ciuffi di foglie collegati dal rizoma (il fusto sotterraneo) e separali con un coltello pulito, lasciando a ognuno radici proprie.",
+      "Lascia asciugare i tagli all'aria per 1-2 giorni.",
+      "Invasa ogni ciuffo in un vaso stretto con terriccio per piante grasse e aspetta una settimana prima di annaffiare."
+     ],
+     "tempo": "Si assesta in 3-4 settimane.",
+     "difficolta": "facile",
+     "note": "È l'unico metodo che mantiene il bordo giallo delle varietà variegate come 'Laurentii'."
+    },
+    {
+     "metodo": "talea_foglia",
+     "quando": "Da aprile ad agosto, con temperature sopra i 20 °C.",
+     "passi": [
+      "Taglia una foglia sana alla base e dividila in pezzi di 5-8 cm, segnando quale lato era in basso (i pezzi capovolti non radicano).",
+      "Lascia asciugare i pezzi all'aria per 2-3 giorni, finché il taglio fa una pellicina.",
+      "Interra ogni pezzo per 2 cm, con il lato basso giù, in terriccio per piante grasse misto a sabbia o pomice.",
+      "Tieni in luce indiretta e al caldo, annaffiando poco e solo quando il terriccio è asciutto.",
+      "Quando spunta un germoglio alla base del pezzo, lascialo crescere qualche mese prima di spostarlo in un vaso suo."
+     ],
+     "tempo": "Radici in 4-8 settimane; il primo germoglio può richiedere 2-3 mesi.",
+     "difficolta": "media",
+     "note": "Nelle varietà con il bordo giallo, le nuove piante nate da talea di foglia escono tutte verdi."
+    }
+   ],
    "tossicita": {
     "animali": "lieve",
     "persone": "lieve",
@@ -752,7 +3710,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-17"
+   "aggiornato": "2026-10-18"
   },
   {
    "schema_version": 1,
@@ -837,6 +3795,21 @@
    "propagazione": [
     "divisione"
    ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "In primavera, da marzo a maggio, al momento del rinvaso.",
+     "passi": [
+      "Annaffia il giorno prima, poi sfila la pianta dal vaso e scuoti via parte del terriccio per vedere i ciuffi.",
+      "Separa con le mani o con un coltello pulito i ciuffi laterali, lasciando a ognuno almeno 2-3 foglie e un buon pezzo di radici.",
+      "Invasa ogni ciuffo in un vaso poco più grande delle radici, con terriccio universale ricco e un po' di perlite.",
+      "Annaffia bene e tienilo in luce indiretta, al riparo dal sole, per 2-3 settimane."
+     ],
+     "tempo": "Si riprende in 3-4 settimane; rifiorisce di solito dopo qualche mese.",
+     "difficolta": "facile",
+     "note": "Nei primi giorni le foglie possono afflosciarsi; è normale, basta tenere il terriccio umido e l'aria non troppo secca."
+    }
+   ],
    "tossicita": {
     "animali": "tossica",
     "persone": "lieve",
@@ -872,7 +3845,146 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-17"
+   "aggiornato": "2026-10-18"
+  },
+  {
+   "schema_version": 1,
+   "id": "stella-di-natale",
+   "stato": "bozza",
+   "nome_scientifico": "Euphorbia pulcherrima",
+   "sinonimi": [
+    "Poinsettia pulcherrima"
+   ],
+   "famiglia": "Euphorbiaceae",
+   "nomi_comuni": {
+    "it": [
+     "Stella di Natale",
+     "Poinsettia"
+    ],
+    "en": [
+     "Poinsettia",
+     "Christmas star"
+    ]
+   },
+   "descrizione": "La pianta simbolo del Natale. Le grandi \"foglie\" rosse in cima sono brattee; i veri fiori sono i piccoli bottoni gialli al centro. Teme freddo, correnti e ristagni d'acqua.",
+   "categorie": [
+    "appartamento",
+    "fiorita"
+   ],
+   "ambiente": {
+    "interno": true,
+    "esterno": "no",
+    "terrarium": "no",
+    "note": "In Italia sta in casa; dopo le feste si può tenere in vita e d'estate portare fuori a mezz'ombra, ritirandola prima che le notti scendano sotto i 13 °C."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "media_indiretta"
+    ],
+    "sole_diretto": "no",
+    "esposizione": [
+     "est",
+     "sud",
+     "ovest"
+    ],
+    "note": "Ha bisogno di molta luce per tenere le brattee colorate; il sole diretto attraverso il vetro le macchia."
+   },
+   "annaffiatura": {
+    "quando": "Quando la superficie del terriccio è asciutta al tatto; il vaso diventa più leggero.",
+    "primavera_estate": {
+     "min": 4,
+     "max": 7
+    },
+    "autunno_inverno": {
+     "min": 5,
+     "max": 10
+    },
+    "metodo": "Annaffiare a fondo con acqua a temperatura ambiente e svuotare dopo 15 minuti il sottovaso o l'incarto decorativo: il ristagno è la causa più comune di morte.",
+    "segnali_troppa": "Foglie basse gialle che cadono, fusti molli alla base.",
+    "segnali_poca": "Pianta afflosciata, foglie e brattee che pendono e poi cadono."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 30
+    },
+    "tipo": "Concime liquido per piante verdi a metà dose; durante la fioritura non serve."
+   },
+   "temperatura": {
+    "min_c": 13,
+    "ideale_min_c": 18,
+    "ideale_max_c": 22,
+    "note": "Bastano pochi minuti sotto i 10 °C, anche nel tragitto dal negozio, per farle perdere le foglie."
+   },
+   "terreno": "Terriccio universale leggero con perlite, ben drenato.",
+   "rinvaso": "In primavera dopo la potatura, in un vaso appena più grande.",
+   "propagazione": [
+    "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da maggio a luglio, usando i germogli nuovi della pianta potata in primavera.",
+     "passi": [
+      "Taglia la punta di un germoglio lunga 7-10 cm con tre o quattro foglie, appena sotto un nodo.",
+      "Sciacqua la base sotto l'acqua tiepida o immergila per qualche minuto per fermare il lattice bianco, poi togli le foglie più basse.",
+      "Intingi la base in ormone radicante e infilala per 2-3 cm in un vasetto con terriccio e perlite in parti uguali, leggermente umido.",
+      "Copri con un sacchetto trasparente e tieni a 21-24 °C, in luce viva ma non al sole diretto; arieggia ogni giorno.",
+      "Quando compaiono foglie nuove, togli la copertura e trapianta in un vaso di 12-14 cm."
+     ],
+     "tempo": "Radici in 3-5 settimane.",
+     "difficolta": "media",
+     "note": "Usa i guanti, perché il lattice irrita pelle e occhi. Per avere le brattee colorate a dicembre la pianta deve poi stare al buio 14 ore a notte da inizio ottobre."
+    }
+   ],
+   "tossicita": {
+    "animali": "lieve",
+    "persone": "lieve",
+    "note": "Il lattice bianco irrita pelle, occhi e bocca; se masticata può dare salivazione e vomito leggero. La tossicità è molto più bassa di quanto si crede."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Foglie che cadono di colpo",
+     "causa": "Freddo, correnti d'aria o sbalzi di temperatura",
+     "rimedio": "Tenerla lontano da porte e finestre aperte, sopra i 15 °C."
+    },
+    {
+     "sintomo": "Le brattee non tornano rosse l'anno dopo",
+     "causa": "È una pianta a giorno corto, la luce artificiale di sera blocca la colorazione",
+     "rimedio": "Da fine settembre, 14 ore di buio completo ogni notte per circa 8 settimane."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "stella-di-natale-1.jpg",
+     "commons": "Weihnachtsstern - groß.jpg",
+     "autore": "André Karwath aka Aka",
+     "licenza": "CC BY-SA 2.5",
+     "url_licenza": "https://creativecommons.org/licenses/by-sa/2.5",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Weihnachtsstern_-_gro%C3%9F.jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Weihnachtsstern_-_gro%C3%9F.jpg/960px-Weihnachtsstern_-_gro%C3%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, scheda Euphorbia pulcherrima (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)",
+    "University of Illinois Extension, Poinsettia care (extension.illinois.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-18"
   }
  ]
 }
