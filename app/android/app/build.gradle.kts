@@ -29,11 +29,24 @@ android {
         versionName = flutter.versionName
     }
 
+    // Il pacchetto per il Play Store è firmato con la chiave di caricamento
+    // privata, che arriva dai secret di GitHub solo nel passo che lo costruisce.
+    // Senza chiave (APK di anteprima, build locali) si usa quella di debug.
+    val chiave = System.getenv("PIANTALAPP_KEYSTORE")?.let { file(it) }?.takeIf { it.exists() }
+    signingConfigs {
+        if (chiave != null) {
+            create("caricamento") {
+                storeFile = chiave
+                storePassword = System.getenv("PIANTALAPP_KEYSTORE_PASSWORD")
+                keyAlias = System.getenv("PIANTALAPP_KEY_ALIAS") ?: "caricamento"
+                keyPassword = System.getenv("PIANTALAPP_KEYSTORE_PASSWORD")
+            }
+        }
+    }
+
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.getByName(if (chiave != null) "caricamento" else "debug")
         }
     }
 }

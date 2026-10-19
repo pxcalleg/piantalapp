@@ -101,7 +101,7 @@ class _RiconosciState extends State<Riconosci> {
                   child: FilledButton.icon(
                     onPressed: _inCorso ? null : () => _usa(ImageSource.camera),
                     icon: const Icon(Icons.photo_camera_outlined),
-                    label: const Text('Scatta una foto'),
+                    label: const Text('Scatta'),
                   ),
                 ),
                 const SizedBox(width: 12),
@@ -111,7 +111,7 @@ class _RiconosciState extends State<Riconosci> {
                         ? null
                         : () => _usa(ImageSource.gallery),
                     icon: const Icon(Icons.photo_library_outlined),
-                    label: const Text('Dalla galleria'),
+                    label: const Text('Galleria'),
                   ),
                 ),
               ],

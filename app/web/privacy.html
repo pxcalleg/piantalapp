@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Informativa sulla privacy · PiantalAPP</title>
+  <link rel="icon" type="image/png" href="favicon.png?v=2">
+  <style>
+    :root { --testo: #1f2a22; --tenue: #56635a; --sfondo: #f6f8f2; --verde: #3b7d50; --riga: #dde4d8; }
+    @media (prefers-color-scheme: dark) {
+      :root { --testo: #e4ebe2; --tenue: #a9b6ab; --sfondo: #141a16; --verde: #8fcc9f; --riga: #2c362f; }
+    }
+    body { margin: 0; background: var(--sfondo); color: var(--testo);
+           font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+    header { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+    header img { width: 44px; height: 44px; border-radius: 12px; }
+    h1 { font-size: 1.6rem; margin: 0; }
+    h2 { font-size: 1.15rem; margin: 2rem 0 .4rem; }
+    p, li { color: var(--testo); }
+    .data { color: var(--tenue); font-size: .9rem; margin-top: 0; }
+    a { color: var(--verde); }
+    table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+    th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--riga); }
+    th { color: var(--tenue); font-weight: 600; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icons/Icon-192.png" alt="">
+    <h1>Informativa sulla privacy</h1>
+  </header>
+  <p class="data">PiantalAPP · aggiornata il 19 ottobre 2026</p>
+
+  <p>PiantalAPP è un'app gratuita e open source con le schede di cura di piante e fiori.
+  Non ha account, non mostra pubblicità e non usa strumenti di analisi o di tracciamento.
+  Questa pagina spiega quali dati escono dal tuo dispositivo e perché.</p>
+
+  <h2>In breve</h2>
+  <ul>
+    <li>Non raccogliamo dati personali e non abbiamo un nostro server.</li>
+    <li>Le foto che scegli di far riconoscere vengono inviate a Pl@ntNet solo per l'analisi e non vengono conservate.</li>
+    <li>Se ci scrivi dal modulo «Contattaci», il messaggio parte dalla tua app di posta e lo riceviamo come una normale email.</li>
+  </ul>
+
+  <h2>Cosa succede ai dati</h2>
+  <table>
+    <tr><th>Quando</th><th>Cosa viene inviato</th><th>A chi</th></tr>
+    <tr>
+      <td>Usi «Riconosci» per identificare una pianta</td>
+      <td>La foto che scatti o scegli, ridimensionata, e l'indirizzo IP del dispositivo</td>
+      <td><a href="https://plantnet.org">Pl@ntNet</a> (consorzio di ricerca pubblica francese, server in Europa). La foto viene analizzata in memoria e non viene salvata; il servizio registra solo data e ora della richiesta per le statistiche d'uso.
+        <a href="https://my.plantnet.org/terms_of_use">Condizioni del servizio</a>.</td>
+    </tr>
+    <tr>
+      <td>L'app aggiorna le schede delle piante</td>
+      <td>Una normale richiesta di download, con l'indirizzo IP del dispositivo</td>
+      <td>GitHub, dove sono pubblicate le schede. <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">Informativa di GitHub</a>.</td>
+    </tr>
+    <tr>
+      <td>Una foto di una pianta non è inclusa nell'app</td>
+      <td>Una richiesta di download dell'immagine, con l'indirizzo IP del dispositivo</td>
+      <td>Wikimedia Commons, da cui provengono le foto. <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">Informativa di Wikimedia</a>.</td>
+    </tr>
+    <tr>
+      <td>Ci scrivi dal modulo «Contattaci»</td>
+      <td>Il messaggio, il nome se lo inserisci e il tuo indirizzo email</td>
+      <td>Noi, all'indirizzo piantalapp@lcsoluzioni.it. Usiamo questi dati solo per risponderti e non li cediamo a nessuno.</td>
+    </tr>
+  </table>
+
+  <h2>Fotocamera e foto</h2>
+  <p>L'app chiede di usare la fotocamera o di scegliere una foto solo quando tocchi «Riconosci».
+  La foto non viene salvata dall'app e non viene usata per altri scopi.</p>
+
+  <h2>Dati salvati sul dispositivo</h2>
+  <p>L'app salva sul telefono una copia delle schede delle piante, così funziona anche senza rete.
+  Non contiene dati personali e viene cancellata quando disinstalli l'app.</p>
+
+  <h2>Bambini</h2>
+  <p>L'app non è rivolta in modo specifico ai bambini e non raccoglie consapevolmente dati di minori.</p>
+
+  <h2>I tuoi diritti e i contatti</h2>
+  <p>Per qualsiasi domanda su questa informativa, o per chiedere la cancellazione di un messaggio che ci hai inviato,
+  scrivi a <a href="mailto:piantalapp@lcsoluzioni.it">piantalapp@lcsoluzioni.it</a>.
+  Hai inoltre il diritto di presentare reclamo al Garante per la protezione dei dati personali
+  (<a href="https://www.garanteprivacy.it">garanteprivacy.it</a>).</p>
+
+  <h2>Modifiche</h2>
+  <p>Se l'app cambierà il modo in cui tratta i dati, aggiorneremo questa pagina e la data in alto.
+  Lo storico delle modifiche è pubblico nel <a href="https://github.com/pxcalleg/piantalapp">repository del progetto</a>.</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,30 @@
+PiantalAPP ti aiuta a curare le piante di casa, del balcone e del giardino con schede chiare, scritte per chi inizia e verificate da una comunità di appassionati.
+
+🌿 SCHEDE DI CURA COMPLETE
+Per ogni pianta trovi:
+• dove tenerla e quanta luce le serve
+• quando e quanto annaffiarla, in estate e in inverno
+• concimazione, temperatura, terreno e rinvaso
+• come si propaga, metodo per metodo: periodo giusto, passi da seguire, tempi e difficoltà
+• tossicità per persone, cani e gatti
+• i problemi più comuni, con la causa e il rimedio
+
+📷 RICONOSCI UNA PIANTA DA UNA FOTO
+Fotografa una foglia o un fiore: l'app ti dice di che specie si tratta e, se è nell'archivio, apre la sua scheda. Il riconoscimento è offerto da Pl@ntNet, il progetto scientifico internazionale per l'identificazione delle piante.
+
+🪴 PIANTA INTERATTIVA
+Ruota la pianta in 3D, cambia la luce e prova le situazioni più comuni (troppa acqua, poca luce, freddo…) per imparare a riconoscere i sintomi e capire cosa fare.
+
+🔎 TROVA SUBITO QUELLO CHE CERCHI
+Cerca per nome comune, nome scientifico o sinonimo e filtra per «in casa», «all'aperto», «terrarium», «poca luce», «facile» o «sicura per animali».
+
+📶 FUNZIONA ANCHE SENZA RETE
+Le schede sono salvate sul telefono e si aggiornano da sole quando sei connesso.
+
+🌹 LE PIANTE
+Pothos, sansevieria, ficus (benjamina, elastica, lyrata e bambino), spatifillo, fittonia, rose (ibridi di tea, floribunde, rampicanti, inglesi e in miniatura), ortensia, stella di Natale, kalanchoe, orchidee (phalaenopsis, dendrobium, cymbidium), piante grasse e cactus (aloe vera, albero di giada, echeveria, haworthia, mammillaria, fico d'India nano) e liquidambar. Le schede crescono con ogni aggiornamento.
+
+🤝 APERTA E GRATUITA
+PiantalAPP è gratuita, senza pubblicità e senza account. Il codice e le schede sono open source: chiunque può proporre una nuova pianta o correggere una scheda, anche senza saper programmare. Le foto provengono da Wikimedia Commons e sono indicati autore e licenza di ciascuna.
+
+Hai un suggerimento o vuoi collaborare? Scrivici dal menu «Contattaci».
