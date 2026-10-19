@@ -46,13 +46,13 @@ class _ElencoPianteState extends State<ElencoPiante> {
         titleSpacing: 16,
         title: const Testata(),
         actions: [
-          if (mostraSostieni)
-            IconButton(
-              tooltip: titoloSostieni,
-              icon: const Icon(Icons.favorite_border),
-              onPressed: () => Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (_) => const Sostieni())),
-            ),
+          IconButton(
+            tooltip: titoloSostieni,
+            icon: const Icon(Icons.favorite_border),
+            onPressed: () =>
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (_) => Sostieni())),
+          ),
           PopupMenuButton<Widget Function()>(
             tooltip: 'Menu',
             onSelected: (pagina) =>

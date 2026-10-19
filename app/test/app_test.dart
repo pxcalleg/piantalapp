@@ -76,6 +76,6 @@ void main() {
     await tester.tap(find.byTooltip('Sostieni lo sviluppo di PiantalAPP'));
     await tester.pumpAndSettle();
     expect(find.text('Sostieni lo sviluppo di PiantalAPP'), findsOneWidget);
-    expect(find.text('Fai una donazione'), findsOneWidget);
+    expect(find.text('Altri modi per aiutare'), findsOneWidget);
   });
 }

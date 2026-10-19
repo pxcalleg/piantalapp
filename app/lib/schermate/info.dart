@@ -43,15 +43,15 @@ class Info extends StatelessWidget {
             'e si aggiornano da sole quando sei connesso.',
           ),
           const SizedBox(height: 16),
-          if (mostraSostieni)
-            ListTile(
-              contentPadding: EdgeInsets.zero,
-              leading: const Icon(Icons.favorite_border),
-              title: const Text(titoloSostieni),
-              subtitle: const Text('Una donazione aiuta l\'app a crescere'),
-              onTap: () => Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (_) => const Sostieni())),
-            ),
+          ListTile(
+            contentPadding: EdgeInsets.zero,
+            leading: const Icon(Icons.favorite_border),
+            title: const Text(titoloSostieni),
+            subtitle: const Text('Una donazione aiuta l\'app a crescere'),
+            onTap: () =>
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (_) => Sostieni())),
+          ),
           ListTile(
             contentPadding: EdgeInsets.zero,
             leading: const Icon(Icons.volunteer_activism_outlined),

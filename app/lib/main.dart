@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 
 import 'dati/archivio_piante.dart';
+import 'dati/donazioni.dart';
 import 'schermate/elenco_piante.dart';
 
 void main() {
   final archivio = ArchivioPiante();
   runApp(PiantalApp(archivio: archivio));
   archivio.carica().then((_) => archivio.aggiorna());
+  donazioniApp.avvia();
 }
 
 class PiantalApp extends StatelessWidget {

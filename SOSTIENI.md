@@ -5,13 +5,9 @@ Se ti è utile, puoi aiutare il progetto a crescere.
 
 ## Con una donazione
 
-<!-- Aggiungere qui i link agli account per le donazioni, ad esempio:
-- [Ko-fi](https://ko-fi.com/...)
-- [GitHub Sponsors](https://github.com/sponsors/pxcalleg)
-- [Liberapay](https://liberapay.com/...)
--->
-
-I link per le donazioni arriveranno a breve.
+Apri l'app scaricata dal Google Play Store e tocca il cuore in alto
+nell'elenco delle piante: puoi donare 1, 3 o 5 € in modo sicuro tramite
+Google Play.
 
 ## Senza spendere nulla
 

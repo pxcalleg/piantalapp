@@ -1,19 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-// Con --dart-define=SOSTIENI=false il tasto sparisce, ad esempio per una
-// build destinata a uno store che non ammette link a donazioni esterne.
-const mostraSostieni = bool.fromEnvironment('SOSTIENI', defaultValue: true);
+import '../dati/donazioni.dart';
 
-// Pagina del repository con i modi per sostenere il progetto: si aggiorna
-// senza bisogno di una nuova versione dell'app.
+// Pagina del repository con gli altri modi per aiutare il progetto: si
+// aggiorna senza bisogno di una nuova versione dell'app.
 const _paginaSostegno =
     'https://github.com/pxcalleg/piantalapp/blob/main/SOSTIENI.md';
 
 const titoloSostieni = 'Sostieni lo sviluppo di PiantalAPP';
 
 class Sostieni extends StatelessWidget {
-  const Sostieni({super.key});
+  Sostieni({super.key, Donazioni? donazioni})
+    : donazioni = donazioni ?? _predefinite();
+
+  final Donazioni donazioni;
+
+  static Donazioni _predefinite() => donazioniApp..avvia();
 
   @override
   Widget build(BuildContext context) {
@@ -36,29 +39,79 @@ class Sostieni extends StatelessWidget {
             'così. Se ti è utile, una piccola donazione aiuta a coprire i costi '
             'e il tempo per aggiungere nuove piante e migliorare l\'app.',
           ),
-          const SizedBox(height: 8),
+          const SizedBox(height: 24),
+          ListenableBuilder(
+            listenable: donazioni,
+            builder: (context, _) => _donazioni(tema),
+          ),
+          const SizedBox(height: 24),
           const Text(
             'Puoi aiutare anche senza spendere nulla: scrivendo o correggendo '
             'una scheda, segnalando un errore o consigliando l\'app a chi ama '
             'le piante.',
           ),
-          const SizedBox(height: 24),
-          FilledButton.icon(
-            icon: const Icon(Icons.volunteer_activism),
-            label: const Text('Fai una donazione'),
-            onPressed: () => launchUrl(
-              Uri.parse(_paginaSostegno),
-              mode: LaunchMode.externalApplication,
+          Align(
+            alignment: Alignment.centerLeft,
+            child: TextButton(
+              onPressed: () => launchUrl(
+                Uri.parse(_paginaSostegno),
+                mode: LaunchMode.externalApplication,
+              ),
+              child: const Text('Altri modi per aiutare'),
             ),
-          ),
-          const SizedBox(height: 8),
-          Text(
-            'Si apre una pagina web con i modi per donare.',
-            style: tema.textTheme.bodySmall,
-            textAlign: TextAlign.center,
           ),
         ],
       ),
     );
+  }
+
+  Widget _donazioni(ThemeData tema) {
+    switch (donazioni.stato) {
+      case StatoDonazioni.caricamento:
+        return const Center(child: CircularProgressIndicator());
+      case StatoDonazioni.nonDisponibili:
+        return Text(
+          'Le donazioni si fanno dall\'app scaricata dal Google Play Store.',
+          style: tema.textTheme.bodyMedium,
+          textAlign: TextAlign.center,
+        );
+      case StatoDonazioni.pronte:
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            if (donazioni.grazie)
+              Padding(
+                padding: const EdgeInsets.only(bottom: 12),
+                child: Text(
+                  'Grazie di cuore per il tuo sostegno!',
+                  style: tema.textTheme.titleMedium?.copyWith(
+                    color: tema.colorScheme.primary,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            for (final offerta in donazioni.offerte)
+              Padding(
+                padding: const EdgeInsets.only(bottom: 8),
+                child: FilledButton.icon(
+                  icon: const Icon(Icons.volunteer_activism),
+                  label: Text('Dona ${offerta.price}'),
+                  onPressed: () => donazioni.dona(offerta),
+                ),
+              ),
+            if (donazioni.errore != null)
+              Text(
+                donazioni.errore!,
+                style: TextStyle(color: tema.colorScheme.error),
+                textAlign: TextAlign.center,
+              ),
+            Text(
+              'Il pagamento avviene in modo sicuro tramite Google Play.',
+              style: tema.textTheme.bodySmall,
+              textAlign: TextAlign.center,
+            ),
+          ],
+        );
+    }
   }
 }
