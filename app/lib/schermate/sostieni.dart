@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -7,6 +8,10 @@ import '../dati/donazioni.dart';
 // aggiorna senza bisogno di una nuova versione dell'app.
 const _paginaSostegno =
     'https://github.com/pxcalleg/piantalapp/blob/main/SOSTIENI.md';
+
+// Nome utente Ko-fi per le donazioni dalla versione web; vuoto finché
+// l'account non esiste. Nell'app Android si dona solo con Google Play.
+const utenteKofi = '';
 
 const titoloSostieni = 'Sostieni lo sviluppo di PiantalAPP';
 
@@ -70,6 +75,16 @@ class Sostieni extends StatelessWidget {
       case StatoDonazioni.caricamento:
         return const Center(child: CircularProgressIndicator());
       case StatoDonazioni.nonDisponibili:
+        if (kIsWeb && utenteKofi.isNotEmpty) {
+          return FilledButton.icon(
+            icon: const Icon(Icons.volunteer_activism),
+            label: const Text('Dona con Ko-fi'),
+            onPressed: () => launchUrl(
+              Uri.parse('https://ko-fi.com/$utenteKofi'),
+              mode: LaunchMode.externalApplication,
+            ),
+          );
+        }
         return Text(
           'Le donazioni si fanno dall\'app scaricata dal Google Play Store.',
           style: tema.textTheme.bodyMedium,

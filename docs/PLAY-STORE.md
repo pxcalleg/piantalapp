@@ -128,8 +128,13 @@ Google li bonifica ogni mese sul conto indicato, trattenendo il 15%.
    donazione senza essere addebitato.
 
 Finché i prodotti non esistono, la pagina «Sostieni» dice che le donazioni si
-fanno dall'app del Play Store e mostra solo gli altri modi per aiutare. Lo
-stesso succede nella versione web.
+fanno dall'app del Play Store e mostra solo gli altri modi per aiutare.
+
+Nella versione web, dove Google Play non c'è, la pagina propone invece Ko-fi,
+con il nome utente scritto in `utenteKofi` in
+[`app/lib/schermate/sostieni.dart`](../app/lib/schermate/sostieni.dart).
+Nell'app Android il link a Ko-fi non compare: le regole del Play Store
+chiedono di usare Google Play per i pagamenti dentro l'app.
 
 ## 5. Prima release
 

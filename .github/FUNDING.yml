@@ -1,3 +1,4 @@
-# Il tasto «Sponsor» di GitHub: porta alla pagina con i modi per sostenere
-# il progetto (le donazioni si fanno dall'app, tramite Google Play).
+# Il tasto «Sponsor» di GitHub. Quando c'è l'account Ko-fi, togliere il
+# commento e scrivere il nome utente.
+# ko_fi: nomeutente
 custom: ["https://github.com/pxcalleg/piantalapp/blob/main/SOSTIENI.md"]
