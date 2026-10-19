@@ -52,6 +52,13 @@ ARCHITETTURA.md     scelte tecniche e piano di lavoro
 | Mammillaria | *Mammillaria zeilmanniana* | appartamento, balcone, succulenta, fiorita |
 | Fico d'India nano | *Opuntia microdasys* | appartamento, balcone, succulenta |
 
+## Google Play Store
+
+I passi per la pubblicazione, le risposte ai moduli della Play Console e la
+gestione della chiave di caricamento sono in [docs/PLAY-STORE.md](docs/PLAY-STORE.md).
+Testi, icona, grafica e screenshot della scheda sono in
+`fastlane/metadata/android/it-IT`.
+
 ## iPhone e iPad
 
 - **Subito, senza App Store:** apri https://pxcalleg.github.io/piantalapp/ con

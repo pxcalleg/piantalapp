@@ -8,6 +8,9 @@ import 'testata.dart';
 
 const _repository = 'https://github.com/pxcalleg/piantalapp';
 
+/// Informativa pubblicata insieme alla versione web (app/web/privacy.html).
+const urlPrivacy = 'https://pxcalleg.github.io/piantalapp/privacy.html';
+
 class Info extends StatelessWidget {
   const Info({super.key});
 
@@ -60,6 +63,13 @@ class Info extends StatelessWidget {
             title: const Text('Segnala un errore'),
             subtitle: const Text('Apri una segnalazione sul progetto'),
             onTap: () => _apri('$_repository/issues/new'),
+          ),
+          ListTile(
+            contentPadding: EdgeInsets.zero,
+            leading: const Icon(Icons.privacy_tip_outlined),
+            title: const Text('Informativa sulla privacy'),
+            subtitle: const Text('Quali dati escono dal telefono e perché'),
+            onTap: () => _apri(urlPrivacy),
           ),
           const Divider(height: 32),
           Text('Licenze', style: tema.textTheme.titleMedium),

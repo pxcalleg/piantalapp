@@ -122,7 +122,7 @@ void main() {
       ),
     );
     expect(find.textContaining('non è ancora attivo'), findsOneWidget);
-    expect(find.text('Scatta una foto'), findsNothing);
+    expect(find.text('Scatta'), findsNothing);
   });
 
   testWidgets('dalla foto mostra le specie e apre la scheda', (tester) async {
@@ -138,7 +138,7 @@ void main() {
         ),
       ),
     );
-    await tester.tap(find.text('Dalla galleria'));
+    await tester.tap(find.text('Galleria'));
     await tester.pumpAndSettle();
 
     expect(find.text('Potrebbe essere'), findsOneWidget);
