@@ -9,9 +9,9 @@ import '../dati/donazioni.dart';
 const _paginaSostegno =
     'https://github.com/pxcalleg/piantalapp/blob/main/SOSTIENI.md';
 
-// Nome utente Ko-fi per le donazioni dalla versione web; vuoto finché
-// l'account non esiste. Nell'app Android si dona solo con Google Play.
-const utenteKofi = '';
+// Nome utente Ko-fi per le donazioni dalla versione web. Nell'app Android
+// si dona solo con Google Play.
+const utenteKofi = 'piantalapp';
 
 const titoloSostieni = 'Sostieni lo sviluppo di PiantalAPP';
 

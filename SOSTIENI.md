@@ -8,8 +8,8 @@ Se ti è utile, puoi aiutare il progetto a crescere.
 - **Dall'app**: apri PiantalAPP scaricata dal Google Play Store e tocca il
   cuore in alto nell'elenco delle piante. Puoi donare 1, 3 o 5 € in modo
   sicuro tramite Google Play.
-- **Dal web**: con [Ko-fi](https://ko-fi.com/), scegliendo tu l'importo.
-  <!-- Sostituire con il link al profilo, ad esempio https://ko-fi.com/nomeutente -->
+- **Dal web**: con [Ko-fi](https://ko-fi.com/piantalapp), scegliendo tu
+  l'importo.
 
 ## Senza spendere nulla
 
