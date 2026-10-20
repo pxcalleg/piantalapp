@@ -78,7 +78,7 @@ Email: piantalapp@lcsoluzioni.it. Sito: https://pxcalleg.github.io/piantalapp/
   - violenza, paura, sessualità, linguaggio volgare, sostanze, gioco d'azzardo: **No** a tutto;
   - gli utenti possono interagire o scambiarsi contenuti: **No**;
   - condivide la posizione dell'utente: **No**;
-  - acquisti digitali: **No**;
+  - acquisti digitali: **Sì** (le donazioni in-app);
   - risultato atteso: **PEGI 3** / *Per tutti*.
 - **Pubblico di destinazione**: fasce **13-15, 16-17 e 18+**. Non selezionare
   le fasce sotto i 13 anni, altrimenti si applicano i requisiti del programma
@@ -95,12 +95,48 @@ Email: piantalapp@lcsoluzioni.it. Sito: https://pxcalleg.github.io/piantalapp/
     come fornitore del servizio), **trattati in modo temporaneo: Sì**,
     **facoltativi** (solo se l'utente usa «Riconosci»), finalità
     **Funzionalità dell'app**.
+  - Le donazioni passano dal sistema di pagamento di Google Play: i dati di
+    pagamento li tratta Google e l'app non li vede, quindi non vanno
+    dichiarati (da ricontrollare nel modulo al momento della compilazione).
   - Nessun altro tipo di dati. Il modulo «Contattaci» apre l'app di posta
     dell'utente: il messaggio non passa dall'app, quindi non va dichiarato.
 - **Autorizzazioni**: l'app non chiede la posizione né l'accesso a tutte le
   foto; la fotocamera e la scelta della foto passano dal sistema.
 
-## 4. Prima release
+## 4. Donazioni in-app
+
+Il tasto «Sostieni lo sviluppo di PiantalAPP» propone donazioni da pagare con
+Google Play. I soldi arrivano sul profilo pagamenti dell'account Play Console e
+Google li bonifica ogni mese sul conto indicato, trattenendo il 15%.
+
+1. *Impostazioni › Profilo pagamenti*: crea il profilo da commerciante della
+   ditta, con partita IVA e IBAN. Senza profilo non si possono creare prodotti.
+2. Carica almeno una release (anche solo nel test interno): i prodotti in-app
+   si possono creare solo dopo.
+3. *Monetizza › Prodotti › Prodotti in-app › Crea prodotto*, tre volte:
+
+   | ID prodotto | Nome | Prezzo |
+   | --- | --- | --- |
+   | `donazione_1` | Donazione piccola | 1 € |
+   | `donazione_3` | Donazione media | 3 € |
+   | `donazione_5` | Donazione grande | 5 € |
+
+   Descrizione: «Sostieni lo sviluppo di PiantalAPP». Attiva ogni prodotto.
+   Gli ID devono essere esattamente questi (sono in
+   [`app/lib/dati/donazioni.dart`](../app/lib/dati/donazioni.dart)).
+4. *Impostazioni › Test delle licenze*: aggiungi la tua email per provare una
+   donazione senza essere addebitato.
+
+Finché i prodotti non esistono, la pagina «Sostieni» dice che le donazioni si
+fanno dall'app del Play Store e mostra solo gli altri modi per aiutare.
+
+Nella versione web, dove Google Play non c'è, la pagina propone invece Ko-fi
+(https://ko-fi.com/piantalapp), con il nome utente scritto in `utenteKofi` in
+[`app/lib/schermate/sostieni.dart`](../app/lib/schermate/sostieni.dart).
+Nell'app Android il link a Ko-fi non compare: le regole del Play Store
+chiedono di usare Google Play per i pagamenti dentro l'app.
+
+## 5. Prima release
 
 1. *Test › Test interno*: crea una release, carica `app-release.aab`, accetta
    *Play App Signing* con la chiave gestita da Google. Aggiungi la tua email

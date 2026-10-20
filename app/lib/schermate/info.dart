@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'contattaci.dart';
+import 'sostieni.dart';
 import 'testata.dart';
 
 const _repository = 'https://github.com/pxcalleg/piantalapp';
@@ -42,6 +43,15 @@ class Info extends StatelessWidget {
             'e si aggiornano da sole quando sei connesso.',
           ),
           const SizedBox(height: 16),
+          ListTile(
+            contentPadding: EdgeInsets.zero,
+            leading: const Icon(Icons.favorite_border),
+            title: const Text(titoloSostieni),
+            subtitle: const Text('Una donazione aiuta l\'app a crescere'),
+            onTap: () =>
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (_) => Sostieni())),
+          ),
           ListTile(
             contentPadding: EdgeInsets.zero,
             leading: const Icon(Icons.volunteer_activism_outlined),

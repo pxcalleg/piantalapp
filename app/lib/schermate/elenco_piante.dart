@@ -9,6 +9,7 @@ import 'foto.dart';
 import 'info.dart';
 import 'riconosci.dart';
 import 'scheda_pianta.dart';
+import 'sostieni.dart';
 import 'testata.dart';
 
 class ElencoPiante extends StatefulWidget {
@@ -45,6 +46,13 @@ class _ElencoPianteState extends State<ElencoPiante> {
         titleSpacing: 16,
         title: const Testata(),
         actions: [
+          IconButton(
+            tooltip: titoloSostieni,
+            icon: const Icon(Icons.favorite_border),
+            onPressed: () =>
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (_) => Sostieni())),
+          ),
           PopupMenuButton<Widget Function()>(
             tooltip: 'Menu',
             onSelected: (pagina) =>

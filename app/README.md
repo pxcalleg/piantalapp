@@ -32,6 +32,7 @@ lib/modello/pianta.dart         la scheda pianta (rispecchia lo schema JSON)
 lib/modello/filtri.dart         ricerca e filtri rapidi
 lib/modello/etichette.dart      testi italiani per i valori codificati
 lib/dati/archivio_piante.dart   caricamento offline e aggiornamento da GitHub
+lib/dati/donazioni.dart         donazioni in-app con Google Play
 lib/schermate/                  elenco, scheda, simulatore, informazioni
 lib/visuale/                    piante interattive disegnate dall'app
 lib/visuale/motore_3d.dart      stanza, vaso, foglie e sintomi comuni a tutte
