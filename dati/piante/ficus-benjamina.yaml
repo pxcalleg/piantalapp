@@ -10,6 +10,7 @@ descrizione: >-
   Alberello sempreverde dalle foglie piccole e lucide, tra le piante da
   appartamento più diffuse. Cresce bene ma è sensibile ai cambiamenti.
 categorie: [appartamento, da_ufficio]
+gruppo: appartamento
 ambiente:
   interno: true
   esterno: estate
@@ -93,4 +94,4 @@ fonti:
   - Royal Horticultural Society, scheda Ficus benjamina (rhs.org.uk)
   - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
 autori: [piantalapp]
-aggiornato: "2026-10-18"
+aggiornato: "2026-10-23"

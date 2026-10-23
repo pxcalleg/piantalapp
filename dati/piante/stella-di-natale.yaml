@@ -12,6 +12,7 @@ descrizione: >-
   i veri fiori sono i piccoli bottoni gialli al centro. Teme freddo, correnti e
   ristagni d'acqua.
 categorie: [appartamento, fiorita]
+gruppo: appartamento
 ambiente:
   interno: true
   esterno: "no"
@@ -80,4 +81,4 @@ fonti:
   - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
   - University of Illinois Extension, Poinsettia care (extension.illinois.edu)
 autori: [piantalapp]
-aggiornato: "2026-10-18"
+aggiornato: "2026-10-23"

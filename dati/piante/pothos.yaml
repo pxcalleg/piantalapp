@@ -11,6 +11,7 @@ descrizione: >-
   Rampicante o ricadente dalle foglie a cuore, verdi o variegate.
   Robustissima, ideale per chi inizia.
 categorie: [appartamento, ricadente, da_ufficio]
+gruppo: appartamento
 ambiente:
   interno: true
   esterno: "no"
@@ -85,4 +86,4 @@ fonti:
   - Royal Horticultural Society, scheda Epipremnum aureum (rhs.org.uk)
   - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
 autori: [piantalapp]
-aggiornato: "2026-10-18"
+aggiornato: "2026-10-23"

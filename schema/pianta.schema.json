@@ -12,6 +12,7 @@
     "nome_scientifico",
     "nomi_comuni",
     "categorie",
+    "gruppo",
     "ambiente",
     "difficolta",
     "luce",
@@ -124,7 +125,17 @@
           "da_ufficio",
           "pet_friendly"
         ]
-      }
+      },
+      "description": "Caratteristiche della pianta, anche più di una: servono per i filtri."
+    },
+    "gruppo": {
+      "enum": [
+        "appartamento",
+        "grasse",
+        "orchidee",
+        "esterno"
+      ],
+      "description": "Categoria principale in cui l'app mostra la pianta, una sola: 'appartamento' (piante verdi e fiorite da tenere in casa), 'grasse' (succulente e cactus), 'orchidee', 'esterno' (giardino e balcone tutto l'anno)."
     },
     "ambiente": {
       "type": "object",

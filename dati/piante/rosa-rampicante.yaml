@@ -12,6 +12,7 @@ descrizione: >-
   'Pierre de Ronsard', 'Dortmund' e 'Gloire de Dijon'. Le rampicanti
   rifiorenti fanno fiori da maggio all'autunno.
 categorie: [esterno, balcone, fiorita, pet_friendly]
+gruppo: esterno
 ambiente:
   interno: false
   esterno: tutto_anno
@@ -110,4 +111,4 @@ fonti:
   - University of Minnesota Extension, "Growing roses" (extension.umn.edu)
   - Clemson Cooperative Extension, "Roses" (hgic.clemson.edu)
 autori: [piantalapp]
-aggiornato: "2026-10-18"
+aggiornato: "2026-10-23"

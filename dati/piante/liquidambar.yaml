@@ -11,6 +11,7 @@ descrizione: >-
   d'estate e rosso, arancio e viola in autunno. Da giovane cresce bene in
   un grande vaso, ma il suo posto è la piena terra.
 categorie: [esterno]
+gruppo: esterno
 ambiente:
   interno: false
   esterno: tutto_anno
@@ -111,4 +112,4 @@ fonti:
   - NC State Extension, Plant Toolbox, Liquidambar styraciflua (plants.ces.ncsu.edu)
   - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
 autori: [piantalapp]
-aggiornato: "2026-10-18"
+aggiornato: "2026-10-23"

@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://piantalapp.org/schema/fungo.schema.json",
+  "title": "Scheda fungo PiantalAPP",
+  "description": "Schema di una scheda fungo, a scopo divulgativo. Un file YAML per specie in dati/funghi/<id>.yaml. Le schede NON servono a stabilire se un fungo raccolto è commestibile: per quello serve il controllo gratuito dell'Ispettorato micologico della ASL.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "stato",
+    "nome_scientifico",
+    "nomi_comuni",
+    "famiglia",
+    "descrizione",
+    "commestibilita",
+    "habitat",
+    "stagione",
+    "caratteristiche",
+    "sosia",
+    "fonti",
+    "autori",
+    "aggiornato"
+  ],
+  "$defs": {
+    "testo": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 1200
+    },
+    "commestibilita": {
+      "enum": [
+        "commestibile",
+        "commestibile_con_cautela",
+        "non_commestibile",
+        "tossico",
+        "mortale"
+      ],
+      "description": "'commestibile_con_cautela' = commestibile solo con una preparazione particolare (es. bollitura) o con rischi noti."
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Slug univoco, uguale al nome del file."
+    },
+    "stato": {
+      "enum": [
+        "bozza",
+        "in_revisione",
+        "revisionata"
+      ],
+      "description": "Una scheda diventa 'revisionata' solo dopo l'approvazione di un micologo."
+    },
+    "nome_scientifico": {
+      "type": "string",
+      "minLength": 3,
+      "description": "Nome latino, mostrato tra parentesi dopo il nome comune: Porcino (Boletus edulis)."
+    },
+    "sinonimi": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "famiglia": {
+      "type": "string"
+    },
+    "nomi_comuni": {
+      "type": "object",
+      "required": [
+        "it"
+      ],
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1
+      },
+      "propertyNames": {
+        "pattern": "^[a-z]{2}$"
+      },
+      "description": "Nomi comuni per lingua (codice ISO 639-1). Il primo nome italiano è quello principale."
+    },
+    "descrizione": {
+      "$ref": "#/$defs/testo"
+    },
+    "commestibilita": {
+      "$ref": "#/$defs/commestibilita"
+    },
+    "note_commestibilita": {
+      "$ref": "#/$defs/testo"
+    },
+    "habitat": {
+      "$ref": "#/$defs/testo",
+      "description": "Dove cresce: boschi, alberi associati, quota, terreno."
+    },
+    "stagione": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 12
+      },
+      "description": "Mesi in cui di solito compare in Italia."
+    },
+    "caratteristiche": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cappello",
+        "sotto_il_cappello",
+        "gambo",
+        "carne"
+      ],
+      "properties": {
+        "cappello": {
+          "$ref": "#/$defs/testo"
+        },
+        "sotto_il_cappello": {
+          "$ref": "#/$defs/testo",
+          "description": "Lamelle, tubuli e pori, pliche o aculei."
+        },
+        "gambo": {
+          "$ref": "#/$defs/testo"
+        },
+        "carne": {
+          "$ref": "#/$defs/testo"
+        },
+        "sporata": {
+          "type": "string",
+          "description": "Colore della polvere di spore."
+        }
+      }
+    },
+    "sosia": {
+      "type": "array",
+      "description": "Specie con cui si può confondere. Per i funghi commestibili vanno indicati soprattutto i sosia tossici.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "nome",
+          "nome_scientifico",
+          "commestibilita",
+          "differenze"
+        ],
+        "properties": {
+          "nome": {
+            "type": "string"
+          },
+          "nome_scientifico": {
+            "type": "string"
+          },
+          "commestibilita": {
+            "$ref": "#/$defs/commestibilita"
+          },
+          "differenze": {
+            "$ref": "#/$defs/testo"
+          }
+        }
+      }
+    },
+    "curiosita": {
+      "$ref": "#/$defs/testo"
+    },
+    "fonti": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "autori": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      },
+      "description": "Handle GitHub di chi ha scritto o revisionato la scheda."
+    },
+    "aggiornato": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    }
+  }
+}

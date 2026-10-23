@@ -25,6 +25,22 @@ const etichetteTerrarium = {
   'entrambi': 'Terrarium aperto o chiuso',
 };
 
+/// Categorie dell'elenco, nell'ordine in cui compaiono.
+const etichetteGruppo = {
+  'appartamento': 'Da appartamento',
+  'grasse': 'Piante grasse',
+  'orchidee': 'Orchidee',
+  'esterno': 'Da esterno',
+};
+
+const etichetteCommestibilita = {
+  'commestibile': 'Commestibile',
+  'commestibile_con_cautela': 'Commestibile con cautela',
+  'non_commestibile': 'Non commestibile',
+  'tossico': 'Tossico',
+  'mortale': 'Mortale',
+};
+
 const etichetteUmidita = {'bassa': 'Bassa', 'media': 'Media', 'alta': 'Alta'};
 
 const etichetteTossicita = {

@@ -6,6 +6,7 @@ import '../modello/filtri.dart';
 import '../modello/pianta.dart';
 import 'contattaci.dart';
 import 'foto.dart';
+import 'funghi.dart';
 import 'info.dart';
 import 'riconosci.dart';
 import 'scheda_pianta.dart';
@@ -24,6 +25,12 @@ class ElencoPiante extends StatefulWidget {
 class _ElencoPianteState extends State<ElencoPiante> {
   String _testo = '';
   final Set<Filtro> _filtri = {};
+
+  /// Categoria scelta, o null per vederle tutte divise per categoria.
+  String? _gruppo;
+
+  /// 0 = piante, 1 = funghi.
+  int _sezione = 0;
 
   Future<void> _aggiorna() async {
     final cambiate = await widget.archivio.aggiorna();
@@ -77,23 +84,52 @@ class _ElencoPianteState extends State<ElencoPiante> {
           ),
         ],
       ),
-      floatingActionButton: FloatingActionButton.extended(
-        onPressed: () => Navigator.of(context).push(
-          MaterialPageRoute(
-            builder: (_) => Riconosci(piante: widget.archivio.piante),
+      bottomNavigationBar: NavigationBar(
+        selectedIndex: _sezione,
+        onDestinationSelected: (i) => setState(() => _sezione = i),
+        destinations: const [
+          NavigationDestination(
+            icon: Icon(Icons.local_florist_outlined),
+            selectedIcon: Icon(Icons.local_florist),
+            label: 'Piante',
           ),
-        ),
-        icon: const Icon(Icons.center_focus_weak),
-        label: const Text('Riconosci'),
-        tooltip: 'Riconosci una pianta da una foto',
+          NavigationDestination(
+            icon: Icon(Icons.forest_outlined),
+            selectedIcon: Icon(Icons.forest),
+            label: 'Funghi',
+          ),
+        ],
       ),
+      floatingActionButton: _sezione != 0
+          ? null
+          : FloatingActionButton.extended(
+              onPressed: () => Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (_) => Riconosci(piante: widget.archivio.piante),
+                ),
+              ),
+              icon: const Icon(Icons.center_focus_weak),
+              label: const Text('Riconosci'),
+              tooltip: 'Riconosci una pianta da una foto',
+            ),
       body: ListenableBuilder(
         listenable: widget.archivio,
         builder: (context, _) {
           if (!widget.archivio.caricato) {
             return const Center(child: CircularProgressIndicator());
           }
-          final piante = cerca(widget.archivio.piante, _testo, _filtri);
+          if (_sezione == 1) {
+            return RefreshIndicator(
+              onRefresh: _aggiorna,
+              child: ElencoFunghi(funghi: widget.archivio.funghi),
+            );
+          }
+          final piante = cerca(
+            widget.archivio.piante,
+            _testo,
+            _filtri,
+          ).where((p) => _gruppo == null || p.gruppo == _gruppo).toList();
+          final voci = _gruppo == null ? perCategoria(piante) : piante;
           return RefreshIndicator(
             onRefresh: _aggiorna,
             child: CustomScrollView(
@@ -113,8 +149,12 @@ class _ElencoPianteState extends State<ElencoPiante> {
                   )
                 else
                   SliverList.builder(
-                    itemCount: piante.length,
-                    itemBuilder: (context, i) => _Riga(pianta: piante[i]),
+                    itemCount: voci.length,
+                    itemBuilder: (context, i) => switch (voci[i]) {
+                      final Pianta p => _Riga(pianta: p),
+                      final String gruppo => _TitoloCategoria(gruppo),
+                      _ => const SizedBox.shrink(),
+                    },
                   ),
                 // Spazio perché il pulsante «Riconosci» non copra l'ultima pianta.
                 const SliverToBoxAdapter(child: SizedBox(height: 88)),
@@ -142,6 +182,26 @@ class _ElencoPianteState extends State<ElencoPiante> {
             spacing: 8,
             runSpacing: 4,
             children: [
+              ChoiceChip(
+                label: const Text('Tutte'),
+                selected: _gruppo == null,
+                onSelected: (_) => setState(() => _gruppo = null),
+              ),
+              for (final MapEntry(key: gruppo, value: nome)
+                  in etichetteGruppo.entries)
+                ChoiceChip(
+                  label: Text(nome),
+                  selected: _gruppo == gruppo,
+                  onSelected: (on) =>
+                      setState(() => _gruppo = on ? gruppo : null),
+                ),
+            ],
+          ),
+          const Divider(height: 20),
+          Wrap(
+            spacing: 8,
+            runSpacing: 4,
+            children: [
               for (final f in Filtro.values)
                 FilterChip(
                   label: Text(f.etichetta),
@@ -152,6 +212,43 @@ class _ElencoPianteState extends State<ElencoPiante> {
             ],
           ),
         ],
+      ),
+    );
+  }
+}
+
+/// Le piante divise per categoria: prima del gruppo il suo codice (una
+/// stringa, che diventa un titolo), poi le sue piante. I gruppi vuoti
+/// non compaiono.
+List<Object> perCategoria(List<Pianta> piante) => [
+  for (final gruppo in etichetteGruppo.keys)
+    if (piante.where((p) => p.gruppo == gruppo).toList() case final g
+        when g.isNotEmpty) ...[
+      gruppo,
+      ...g,
+    ],
+  // Categorie arrivate con dati più recenti di questa versione dell'app.
+  ...piante.where((p) => !etichetteGruppo.containsKey(p.gruppo)),
+];
+
+class _TitoloCategoria extends StatelessWidget {
+  const _TitoloCategoria(this.gruppo);
+
+  final String gruppo;
+
+  @override
+  Widget build(BuildContext context) {
+    final tema = Theme.of(context);
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(20, 16, 16, 4),
+      child: Semantics(
+        header: true,
+        child: Text(
+          etichetta(etichetteGruppo, gruppo),
+          style: tema.textTheme.titleSmall?.copyWith(
+            color: tema.colorScheme.primary,
+          ),
+        ),
       ),
     );
   }

@@ -1,0 +1,59 @@
+schema_version: 1
+id: tignosa-verdognola
+stato: bozza
+nome_scientifico: Amanita phalloides
+famiglia: Amanitaceae
+nomi_comuni:
+  it: [Tignosa verdognola, Amanita falloide]
+  en: [Death cap]
+descrizione: >-
+  Il fungo più pericoloso d'Europa, causa della maggior parte delle morti per
+  funghi. È qui perché impararlo a riconoscere è la prima regola di chi va
+  per boschi.
+commestibilita: mortale
+note_commestibilita: >-
+  Mortale anche cotto: le sue tossine (amanitine) non si distruggono con la
+  cottura né con l'essiccazione e danneggiano il fegato. Un solo esemplare può
+  bastare a uccidere un adulto. I sintomi compaiono tardi, da 6 a 24 ore dopo
+  il pasto, quando il danno è già in corso. Al minimo dubbio chiama subito un
+  Centro antiveleni.
+habitat: >-
+  Boschi di latifoglie, soprattutto querce, castagni e faggi, ma anche di
+  conifere e nei parchi cittadini; dalla pianura alla collina.
+stagione: [7, 8, 9, 10, 11]
+caratteristiche:
+  cappello: >-
+    Da 5 a 15 cm, verde oliva o giallo verdastro, a volte quasi bianco, con
+    sottili fibre scure che partono dal centro; liscio, di solito senza
+    verruche.
+  sotto_il_cappello: Lamelle bianche, fitte, libere dal gambo.
+  gambo: >-
+    Bianco con zebrature verdastre, anello bianco a gonnellino e base a bulbo
+    avvolta da una volva bianca a sacco.
+  carne: Bianca; odore debole da giovane, sgradevole negli esemplari vecchi.
+  sporata: Bianca
+sosia:
+  - nome: Prataiolo
+    nome_scientifico: Agaricus campestris
+    commestibilita: commestibile
+    differenze: >-
+      Lamelle rosa che diventano bruno nere, nessuna volva alla base del
+      gambo; cresce nei prati, non nel bosco.
+  - nome: Colombina verde
+    nome_scientifico: Russula virescens
+    commestibilita: commestibile
+    differenze: >-
+      Né anello né volva; cappello verde screpolato a piccole placche e carne
+      gessosa che si spezza come un gessetto.
+  - nome: Ovolo buono
+    nome_scientifico: Amanita caesarea
+    commestibilita: commestibile
+    differenze: >-
+      Si confonde allo stadio di ovulo chiuso. Tagliato a metà, l'ovulo dell'ovolo buono mostra dentro il cappello
+      giallo arancio; quello della tignosa è bianco o verdastro.
+fonti:
+  - Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)
+  - Centro Antiveleni di Milano, Ospedale Niguarda (ospedaleniguarda.it)
+  - Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)
+autori: [piantalapp]
+aggiornato: "2026-10-23"

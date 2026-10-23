@@ -13,7 +13,8 @@ revisionati da una comunità di appassionati ed esperti.
 
 ```
 dati/piante/        una scheda YAML per pianta (contenuti, CC BY-SA 4.0)
-schema/             schema JSON che ogni scheda deve rispettare
+dati/funghi/        una scheda YAML per fungo, solo divulgativa
+schema/             schemi JSON di piante e funghi
 scripts/valida.py   validazione e generazione di dist/piante.json
 .github/            validazione automatica delle pull request e modelli
 app/                app Flutter (vedi app/README.md)
@@ -22,6 +23,10 @@ ARCHITETTURA.md     scelte tecniche e piano di lavoro
 ```
 
 ## Piante presenti
+
+Nell'app le piante sono divise in quattro categorie, indicate nel campo
+`gruppo` di ogni scheda: *Da appartamento*, *Piante grasse*, *Orchidee* e
+*Da esterno*.
 
 | Pianta | Nome scientifico | Dove |
 |---|---|---|
@@ -51,6 +56,26 @@ ARCHITETTURA.md     scelte tecniche e piano di lavoro
 | Haworthia | *Haworthiopsis attenuata* | appartamento, succulenta |
 | Mammillaria | *Mammillaria zeilmanniana* | appartamento, balcone, succulenta, fiorita |
 | Fico d'India nano | *Opuntia microdasys* | appartamento, balcone, succulenta |
+
+## Funghi
+
+La sezione *Funghi* mostra ogni specie con il nome comune e, tra parentesi, il
+nome latino: ad esempio *Porcino (Boletus edulis)*. Ogni scheda descrive
+habitat, stagione, aspetto, commestibilità e soprattutto i **sosia** con cui si
+può confondere.
+
+> **Le schede non servono a riconoscere i funghi da mangiare.** L'app lo
+> ricorda in cima all'elenco e in ogni scheda: prima di consumare funghi
+> raccolti bisogna farli controllare, gratis, dall'Ispettorato micologico
+> della ASL.
+
+| Fungo | Commestibilità |
+|---|---|
+| Porcino (*Boletus edulis*) | commestibile |
+| Ovolo buono (*Amanita caesarea*) | commestibile |
+| Finferlo (*Cantharellus cibarius*) | commestibile |
+| Chiodino (*Armillaria mellea*) | commestibile con cautela |
+| Tignosa verdognola (*Amanita phalloides*) | mortale |
 
 ## Google Play Store
 

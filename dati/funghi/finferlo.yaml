@@ -1,0 +1,46 @@
+schema_version: 1
+id: finferlo
+stato: bozza
+nome_scientifico: Cantharellus cibarius
+famiglia: Cantharellaceae
+nomi_comuni:
+  it: [Finferlo, Gallinaccio, Galletto, Cantarello]
+  en: [Chanterelle, Golden chanterelle]
+descrizione: >-
+  Fungo giallo uovo a forma di piccolo imbuto, con il profumo che ricorda
+  l'albicocca. Sotto il cappello non ha vere lamelle ma pieghe spesse.
+commestibilita: commestibile
+note_commestibilita: Ottimo commestibile, da consumare ben cotto.
+habitat: >-
+  Boschi di latifoglie e di conifere, spesso tra il muschio, su terreni
+  acidi; dalla collina alla montagna.
+stagione: [6, 7, 8, 9, 10]
+caratteristiche:
+  cappello: >-
+    Da 2 a 10 cm, giallo uovo o giallo arancio, prima convesso poi a imbuto,
+    con il bordo ondulato e irregolare.
+  sotto_il_cappello: >-
+    Pieghe (false lamelle) spesse, basse, ramificate, che scendono lungo il
+    gambo; dello stesso colore del cappello.
+  gambo: Pieno e sodo, giallo, più sottile verso la base.
+  carne: Bianca o giallina, fibrosa; odore fruttato di albicocca.
+  sporata: Crema o ocra pallido
+sosia:
+  - nome: Fungo dell'olivo
+    nome_scientifico: Omphalotus olearius
+    commestibilita: tossico
+    differenze: >-
+      Cresce a grandi cespi su ceppi e radici di olivo, quercia e castagno;
+      arancio intenso, con vere lamelle sottili e fitte. Causa vomito e
+      diarrea violenti.
+  - nome: Falso gallinaccio
+    nome_scientifico: Hygrophoropsis aurantiaca
+    commestibilita: non_commestibile
+    differenze: >-
+      Arancione più carico, vere lamelle fitte e sottili che si biforcano,
+      carne molle e senza profumo; spesso su legno marcio di conifera.
+fonti:
+  - Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)
+  - Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)
+autori: [piantalapp]
+aggiornato: "2026-10-23"
