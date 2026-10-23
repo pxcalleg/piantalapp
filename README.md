@@ -73,11 +73,13 @@ soprattutto i **sosia** con cui si può confondere.
 |---|---|
 | Chiodino (*Armillaria mellea*) | commestibile con cautela |
 | Colombina (*Russula virescens*) | commestibile |
+| Dentino (*Hydnum repandum*) | commestibile |
 | Galletto (*Cantharellus cibarius*) | commestibile |
 | Mazza di tamburo (*Macrolepiota procera*) | commestibile |
 | Ovolo (*Amanita caesarea*) | commestibile |
 | Porcino (*Boletus edulis*) | commestibile |
 | Tignosa verdognola (*Amanita phalloides*) | mortale |
+| Trombetta dei morti (*Craterellus cornucopioides*) | commestibile |
 
 ## Google Play Store
 

@@ -4150,6 +4150,66 @@
   },
   {
    "schema_version": 1,
+   "id": "dentino",
+   "stato": "bozza",
+   "nome_scientifico": "Hydnum repandum",
+   "famiglia": "Hydnaceae",
+   "nomi_comuni": {
+    "it": [
+     "Dentino",
+     "Steccherino dorato",
+     "Lingua di gatto"
+    ],
+    "en": [
+     "Hedgehog mushroom",
+     "Wood hedgehog"
+    ]
+   },
+   "descrizione": "Fungo color camoscio che sotto il cappello, al posto delle lamelle, ha tanti piccoli aculei simili a denti. Proprio questi aculei lo rendono facile da distinguere.",
+   "commestibilita": "commestibile",
+   "note_commestibilita": "Buon commestibile da giovane e ben cotto; gli esemplari vecchi diventano amarognoli. Gli aculei si staccano facilmente e si possono togliere prima di cucinarlo.",
+   "habitat": "Boschi di latifoglie e di conifere, spesso in gruppi o in file e cerchi, dalla collina alla montagna.",
+   "stagione": [
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "caratteristiche": {
+    "cappello": "Da 3 a 15 cm, crema, camoscio o arancio pallido, carnoso e irregolare, con il bordo spesso ondulato.",
+    "sotto_il_cappello": "Aculei fitti e fragili, lunghi pochi millimetri, color crema, che scendono un poco sul gambo.",
+    "gambo": "Corto e robusto, biancastro, spesso non centrato sotto il cappello.",
+    "carne": "Bianca, soda ma fragile, che ingiallisce lentamente al taglio; sapore dolce da giovane, amarognolo da vecchio.",
+    "sporata": "Bianca"
+   },
+   "sosia": [
+    {
+     "nome": "Dentino rossiccio",
+     "nome_scientifico": "Hydnum rufescens",
+     "commestibilita": "commestibile",
+     "differenze": "Più piccolo e di colore arancio rossiccio, con gambo più slanciato e aculei che non scendono sul gambo."
+    },
+    {
+     "nome": "Idnello",
+     "nome_scientifico": "Hydnellum ferrugineum",
+     "commestibilita": "non_commestibile",
+     "differenze": "Anche lui ha aculei, ma è duro e legnoso, bruno ruggine e spesso con goccioline rossastre sul cappello; cresce sotto le conifere."
+    }
+   ],
+   "curiosita": "È uno dei funghi con meno sosia pericolosi: per questo le associazioni micologiche lo indicano spesso a chi inizia, sempre con il controllo dell'Ispettorato micologico.",
+   "immagini": [],
+   "fonti": [
+    "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
+    "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
    "id": "galletto",
    "stato": "bozza",
    "nome_scientifico": "Cantharellus cibarius",
@@ -4494,6 +4554,65 @@
    "fonti": [
     "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
     "Centro Antiveleni di Milano, Ospedale Niguarda (ospedaleniguarda.it)",
+    "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "trombetta-dei-morti",
+   "stato": "bozza",
+   "nome_scientifico": "Craterellus cornucopioides",
+   "famiglia": "Cantharellaceae",
+   "nomi_comuni": {
+    "it": [
+     "Trombetta dei morti",
+     "Trombetta da morto",
+     "Corno dell'abbondanza"
+    ],
+    "en": [
+     "Black trumpet",
+     "Horn of plenty"
+    ]
+   },
+   "descrizione": "Fungo grigio nero a forma di tromba, cavo fino alla base. Si mimetizza tra le foglie secche ma, una volta trovato, ne crescono spesso molti insieme.",
+   "commestibilita": "commestibile",
+   "note_commestibilita": "Ottimo commestibile, da consumare ben cotto; si conserva bene essiccato e ridotto in polvere per insaporire sughi e risotti.",
+   "habitat": "Boschi di latifoglie, soprattutto faggi, querce e castagni, in gruppi numerosi tra il fogliame e il muschio, su terreni umidi.",
+   "stagione": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "caratteristiche": {
+    "cappello": "Da 3 a 8 cm di larghezza, a imbuto profondo o a tromba, bruno nero o grigio scuro all'interno, con il bordo arricciato e ondulato.",
+    "sotto_il_cappello": "All'esterno nessuna lamella: superficie liscia o appena rugosa, grigio cenere.",
+    "gambo": "Non separato dal cappello, cavo, continua l'imbuto fino alla base.",
+    "carne": "Sottile ed elastica, grigio nera, con odore fruttato gradevole.",
+    "sporata": "Bianca"
+   },
+   "sosia": [
+    {
+     "nome": "Finferlo grigio",
+     "nome_scientifico": "Craterellus cinereus",
+     "commestibilita": "commestibile",
+     "differenze": "All'esterno ha pieghe ben visibili, simili a false lamelle, che mancano nella trombetta."
+    },
+    {
+     "nome": "Finferlo giallo",
+     "nome_scientifico": "Craterellus lutescens",
+     "commestibilita": "commestibile",
+     "differenze": "Stessa forma a tromba, ma con il gambo giallo arancio vivo e l'esterno rosato o arancio."
+    }
+   ],
+   "curiosita": "Il nome viene dal colore scuro e dal periodo in cui è più abbondante, a cavallo della festa dei morti di novembre.",
+   "immagini": [],
+   "fonti": [
+    "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
     "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
    ],
    "autori": [

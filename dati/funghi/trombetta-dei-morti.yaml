@@ -1,0 +1,52 @@
+schema_version: 1
+id: trombetta-dei-morti
+stato: bozza
+nome_scientifico: Craterellus cornucopioides
+famiglia: Cantharellaceae
+nomi_comuni:
+  it: [Trombetta dei morti, Trombetta da morto, Corno dell'abbondanza]
+  en: [Black trumpet, Horn of plenty]
+descrizione: >-
+  Fungo grigio nero a forma di tromba, cavo fino alla base. Si mimetizza tra
+  le foglie secche ma, una volta trovato, ne crescono spesso molti insieme.
+commestibilita: commestibile
+note_commestibilita: >-
+  Ottimo commestibile, da consumare ben cotto; si conserva bene essiccato e
+  ridotto in polvere per insaporire sughi e risotti.
+habitat: >-
+  Boschi di latifoglie, soprattutto faggi, querce e castagni, in gruppi
+  numerosi tra il fogliame e il muschio, su terreni umidi.
+stagione: [8, 9, 10, 11]
+caratteristiche:
+  cappello: >-
+    Da 3 a 8 cm di larghezza, a imbuto profondo o a tromba, bruno nero o
+    grigio scuro all'interno, con il bordo arricciato e ondulato.
+  sotto_il_cappello: >-
+    All'esterno nessuna lamella: superficie liscia o appena rugosa, grigio
+    cenere.
+  gambo: Non separato dal cappello, cavo, continua l'imbuto fino alla base.
+  carne: Sottile ed elastica, grigio nera, con odore fruttato gradevole.
+  sporata: Bianca
+sosia:
+  - nome: Finferlo grigio
+    nome_scientifico: Craterellus cinereus
+    commestibilita: commestibile
+    differenze: >-
+      All'esterno ha pieghe ben visibili, simili a false lamelle, che
+      mancano nella trombetta.
+  - nome: Finferlo giallo
+    nome_scientifico: Craterellus lutescens
+    commestibilita: commestibile
+    differenze: >-
+      Stessa forma a tromba, ma con il gambo giallo arancio vivo e l'esterno
+      rosato o arancio.
+curiosita: >-
+  Il nome viene dal colore scuro e dal periodo in cui è più abbondante, a
+  cavallo della festa dei morti di novembre.
+immagini:
+  - commons: "Craterellus cornucopioides in Finland.jpg"
+fonti:
+  - Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)
+  - Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)
+autori: [piantalapp]
+aggiornato: "2026-10-23"
