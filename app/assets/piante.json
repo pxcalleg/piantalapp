@@ -5357,6 +5357,70 @@
   },
   {
    "schema_version": 1,
+   "id": "pioppino",
+   "stato": "bozza",
+   "nome_scientifico": "Cyclocybe aegerita",
+   "sinonimi": [
+    "Agrocybe aegerita",
+    "Agrocybe cylindracea"
+   ],
+   "famiglia": "Tubariaceae",
+   "nomi_comuni": {
+    "it": [
+     "Pioppino",
+     "Piopparello",
+     "Famigliola di pioppo"
+    ],
+    "en": [
+     "Poplar mushroom",
+     "Velvet pioppino"
+    ]
+   },
+   "descrizione": "Fungo a cespi che nasce sui tronchi e sui ceppi di pioppo e di altre latifoglie. Molto apprezzato in cucina e coltivato anche su legno o substrati.",
+   "commestibilita": "commestibile",
+   "note_commestibilita": "Ottimo cotto; si scarta la parte bassa del gambo, che è fibrosa. Va sempre fatto controllare dall'Ispettorato micologico perché sui ceppi crescono anche funghi tossici o mortali.",
+   "habitat": "A cespi su tronchi, ceppi e ferite di pioppi, salici, sambuchi, olmi e aceri, anche in città lungo viali e fiumi. Dalla pianura alla collina.",
+   "stagione": [
+    4,
+    5,
+    6,
+    9,
+    10,
+    11
+   ],
+   "caratteristiche": {
+    "cappello": "Da 3 a 10 cm, bruno scuro da giovane poi nocciola chiaro, più scuro al centro, spesso screpolato con l'età.",
+    "sotto_il_cappello": "Lamelle fitte, prima biancastre poi bruno tabacco per le spore.",
+    "gambo": "Lungo, bianco crema, fibroso, con un anello membranoso alto che si colora di bruno per le spore che vi cadono sopra.",
+    "carne": "Bianca, soda, con odore gradevole di farina e un po' di vino.",
+    "sporata": "Bruno tabacco"
+   },
+   "sosia": [
+    {
+     "nome": "Galerina marginata",
+     "nome_scientifico": "Galerina marginata",
+     "commestibilita": "mortale",
+     "differenze": "Più piccola e sottile, bruno arancio, cresce su legno soprattutto di conifera; anellino fragile e sporata bruno ruggine. Contiene le stesse tossine di Amanita phalloides."
+    },
+    {
+     "nome": "Falso chiodino",
+     "nome_scientifico": "Hypholoma fasciculare",
+     "commestibilita": "tossico",
+     "differenze": "A cespi sui ceppi ma giallo zolfo, con lamelle giallo verdi poi viola scuro, senza vero anello e con sapore amarissimo."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
+    "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
    "id": "porcino",
    "stato": "bozza",
    "nome_scientifico": "Boletus edulis",
@@ -5419,6 +5483,196 @@
    ],
    "fonti": [
     "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
+    "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "prataiolo",
+   "stato": "bozza",
+   "nome_scientifico": "Agaricus campestris",
+   "famiglia": "Agaricaceae",
+   "nomi_comuni": {
+    "it": [
+     "Prataiolo",
+     "Prataiolo dei campi",
+     "Pratarolo"
+    ],
+    "en": [
+     "Field mushroom",
+     "Meadow mushroom"
+    ]
+   },
+   "descrizione": "Il parente selvatico dello champignon coltivato. Nasce nei prati concimati e nei pascoli. È facile da confondere con alcune amanite mortali, quindi è tra i funghi più a rischio per chi è alle prime armi.",
+   "commestibilita": "commestibile",
+   "note_commestibilita": "Buono crudo in insalata o cotto, ma solo se sicuramente riconosciuto: diverse intossicazioni mortali vengono da amanite bianche scambiate per prataioli. Va sempre fatto controllare dall'Ispettorato micologico. Evitare quelli raccolti vicino a strade o campi trattati.",
+   "habitat": "Nei prati, pascoli e campi concimati, spesso in gruppi o cerchi, mai nel bosco fitto. Dalla pianura alla montagna, soprattutto dopo le piogge.",
+   "stagione": [
+    5,
+    6,
+    8,
+    9,
+    10,
+    11
+   ],
+   "caratteristiche": {
+    "cappello": "Da 4 a 10 cm, bianco o appena grigiastro, liscio o con fini squame sericee, prima a cupola poi aperto.",
+    "sotto_il_cappello": "Lamelle libere, fitte, rosa vivo da giovane, poi bruno cioccolato e infine quasi nere. Non sono mai bianche.",
+    "gambo": "Corto, bianco, con un anello sottile e fragile; alla base non c'è una volva a sacco.",
+    "carne": "Bianca, appena rosata al taglio, odore gradevole di fungo; non ingiallisce né sa di inchiostro.",
+    "sporata": "Bruno porpora scuro"
+   },
+   "sosia": [
+    {
+     "nome": "Tignosa bianca primaverile",
+     "nome_scientifico": "Amanita verna",
+     "commestibilita": "mortale",
+     "differenze": "Tutta bianca, ma con lamelle sempre bianche, anello ampio e soprattutto una volva a sacco alla base del gambo, spesso nascosta nel terreno: bisogna sempre estrarre il fungo intero."
+    },
+    {
+     "nome": "Tignosa bianca",
+     "nome_scientifico": "Amanita virosa",
+     "commestibilita": "mortale",
+     "differenze": "Bianca, con lamelle bianche, gambo fioccoso, volva alla base e odore sgradevole. Cresce nei boschi ma anche ai loro margini."
+    },
+    {
+     "nome": "Prataiolo ingiallente",
+     "nome_scientifico": "Agaricus xanthodermus",
+     "commestibilita": "tossico",
+     "differenze": "Se si graffia la base del gambo la carne diventa subito giallo cromo, e ha odore di inchiostro o di fenolo. Causa forti disturbi gastrointestinali."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
+    "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "tartufo-bianco",
+   "stato": "bozza",
+   "nome_scientifico": "Tuber magnatum",
+   "famiglia": "Tuberaceae",
+   "nomi_comuni": {
+    "it": [
+     "Tartufo bianco",
+     "Tartufo bianco d'Alba",
+     "Trifola"
+    ],
+    "en": [
+     "White truffle",
+     "Alba truffle"
+    ]
+   },
+   "descrizione": "Il tartufo più pregiato e costoso. Cresce sotto terra, legato alle radici di alcuni alberi, e si trova solo con l'aiuto di un cane addestrato. Il profumo è intensissimo e si perde con la cottura.",
+   "commestibilita": "commestibile",
+   "note_commestibilita": "Si mangia crudo, a lamelle sottili su piatti caldi. In Italia la raccolta è regolata dalla legge 752/1985 e dalle leggi regionali: serve il tesserino di idoneità, si cerca solo con il cane e nei periodi stabiliti, e non si può zappare il terreno a caso.",
+   "habitat": "Sotto terra, da 5 a 30 cm, in simbiosi con pioppi, salici, querce e tigli, in terreni calcarei, freschi e soffici di fondovalle e lungo i corsi d'acqua. In Piemonte (Langhe, Roero), Marche, Umbria, Toscana, Molise.",
+   "stagione": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "caratteristiche": {
+    "cappello": "Non ha cappello: è un tubero irregolare e bitorzoluto, da 2 a 10 cm e oltre, con la buccia (peridio) liscia, giallo ocra o crema verdastro.",
+    "sotto_il_cappello": "Non ha lamelle né pori: le spore si formano all'interno, nella polpa (gleba).",
+    "gambo": "Assente.",
+    "carne": "Gleba compatta, da nocciola chiaro a bruno rosato, percorsa da sottili venature bianche. Profumo forte di aglio, formaggio e miele."
+   },
+   "sosia": [
+    {
+     "nome": "Bianchetto",
+     "nome_scientifico": "Tuber borchii",
+     "commestibilita": "commestibile",
+     "differenze": "Più piccolo, buccia bianco sporca che diventa rossiccia, gleba più scura con poche venature e odore più agliaceo. Matura in inverno e primavera (gennaio-aprile) e vale molto meno."
+    },
+    {
+     "nome": "Falso tartufo",
+     "nome_scientifico": "Scleroderma citrinum",
+     "commestibilita": "tossico",
+     "differenze": "Cresce in superficie o appena interrato, ha una buccia spessa e screpolata giallastra e la polpa che diventa nero violacea e poi polverosa. Odore sgradevole. Causa disturbi gastrointestinali."
+    }
+   ],
+   "curiosita": "Non si coltiva: tutto il tartufo bianco in commercio viene da piante spontanee. Le aste di Alba possono superare i 4000 euro al chilo.",
+   "immagini": [],
+   "fonti": [
+    "Legge 16 dicembre 1985 n. 752, raccolta e commercio dei tartufi",
+    "Centro Nazionale Studi Tartufo, schede delle specie (tuberstudi.org)",
+    "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "tartufo-nero",
+   "stato": "bozza",
+   "nome_scientifico": "Tuber melanosporum",
+   "famiglia": "Tuberaceae",
+   "nomi_comuni": {
+    "it": [
+     "Tartufo nero",
+     "Tartufo nero pregiato",
+     "Tartufo di Norcia"
+    ],
+    "en": [
+     "Black truffle",
+     "Périgord truffle"
+    ]
+   },
+   "descrizione": "Il tartufo nero pregiato, con la buccia scura a piccole verruche e la polpa nero violacea. Ha un profumo più delicato del bianco e, al contrario di questo, regge bene la cottura.",
+   "commestibilita": "commestibile",
+   "note_commestibilita": "Si usa crudo o cotto, grattugiato o in salse. La raccolta è regolata dalla legge 752/1985 e dalle leggi regionali: serve il tesserino, si cerca con il cane e solo nei periodi consentiti.",
+   "habitat": "Sotto terra, in terreni calcarei, sassosi e ben drenati, in simbiosi con roverella, leccio, nocciolo e carpino nero. Attorno alla pianta l'erba spesso manca (il «pianello»). Umbria, Marche, Abruzzo, Toscana, Piemonte.",
+   "stagione": [
+    12,
+    1,
+    2,
+    3
+   ],
+   "caratteristiche": {
+    "cappello": "Non ha cappello: tubero tondeggiante da 2 a 8 cm, con la buccia nera coperta di piccole verruche a punta, a volte con riflessi rossicci.",
+    "sotto_il_cappello": "Non ha lamelle né pori: le spore si formano all'interno, nella polpa (gleba).",
+    "gambo": "Assente.",
+    "carne": "Gleba nero violacea a maturità, con sottili venature bianche che arrossano all'aria. Profumo intenso e gradevole, di sottobosco e cacao."
+   },
+   "sosia": [
+    {
+     "nome": "Scorzone",
+     "nome_scientifico": "Tuber aestivum",
+     "commestibilita": "commestibile",
+     "differenze": "Buccia nera con verruche più grosse e piramidali, ma gleba chiara, color nocciola. Matura in estate e ha un profumo più leggero."
+    },
+    {
+     "nome": "Tartufo nero d'inverno",
+     "nome_scientifico": "Tuber brumale",
+     "commestibilita": "commestibile",
+     "differenze": "Simile e nella stessa stagione, ma la gleba è grigio bruna con venature bianche più larghe e il profumo è più pungente, quasi di rapa."
+    },
+    {
+     "nome": "Falso tartufo",
+     "nome_scientifico": "Scleroderma citrinum",
+     "commestibilita": "tossico",
+     "differenze": "Buccia spessa giallastra e screpolata, non nera a verruche; la polpa diventa nero violacea e poi si sfalda in polvere. Causa disturbi gastrointestinali."
+    }
+   ],
+   "curiosita": "A differenza del bianco si coltiva: si piantano alberi con le radici già «inoculate» con il tartufo e dopo 6-10 anni si iniziano a raccogliere.",
+   "immagini": [],
+   "fonti": [
+    "Legge 16 dicembre 1985 n. 752, raccolta e commercio dei tartufi",
+    "Centro Nazionale Studi Tartufo, schede delle specie (tuberstudi.org)",
     "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
    ],
    "autori": [

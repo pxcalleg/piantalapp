@@ -1,0 +1,54 @@
+schema_version: 1
+id: pioppino
+stato: bozza
+nome_scientifico: Cyclocybe aegerita
+sinonimi: [Agrocybe aegerita, Agrocybe cylindracea]
+famiglia: Tubariaceae
+nomi_comuni:
+  it: [Pioppino, Piopparello, Famigliola di pioppo]
+  en: [Poplar mushroom, Velvet pioppino]
+descrizione: >-
+  Fungo a cespi che nasce sui tronchi e sui ceppi di pioppo e di altre
+  latifoglie. Molto apprezzato in cucina e coltivato anche su legno o
+  substrati.
+commestibilita: commestibile
+note_commestibilita: >-
+  Ottimo cotto; si scarta la parte bassa del gambo, che è fibrosa. Va sempre
+  fatto controllare dall'Ispettorato micologico perché sui ceppi crescono
+  anche funghi tossici o mortali.
+habitat: >-
+  A cespi su tronchi, ceppi e ferite di pioppi, salici, sambuchi, olmi e
+  aceri, anche in città lungo viali e fiumi. Dalla pianura alla collina.
+stagione: [4, 5, 6, 9, 10, 11]
+caratteristiche:
+  cappello: >-
+    Da 3 a 10 cm, bruno scuro da giovane poi nocciola chiaro, più scuro al
+    centro, spesso screpolato con l'età.
+  sotto_il_cappello: >-
+    Lamelle fitte, prima biancastre poi bruno tabacco per le spore.
+  gambo: >-
+    Lungo, bianco crema, fibroso, con un anello membranoso alto che si
+    colora di bruno per le spore che vi cadono sopra.
+  carne: Bianca, soda, con odore gradevole di farina e un po' di vino.
+  sporata: Bruno tabacco
+sosia:
+  - nome: Galerina marginata
+    nome_scientifico: Galerina marginata
+    commestibilita: mortale
+    differenze: >-
+      Più piccola e sottile, bruno arancio, cresce su legno soprattutto di
+      conifera; anellino fragile e sporata bruno ruggine. Contiene le stesse
+      tossine di Amanita phalloides.
+  - nome: Falso chiodino
+    nome_scientifico: Hypholoma fasciculare
+    commestibilita: tossico
+    differenze: >-
+      A cespi sui ceppi ma giallo zolfo, con lamelle giallo verdi poi viola
+      scuro, senza vero anello e con sapore amarissimo.
+immagini:
+  - commons: "Agrocybe aegerita.jpg"
+fonti:
+  - Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)
+  - Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)
+autori: [piantalapp]
+aggiornato: "2026-10-23"

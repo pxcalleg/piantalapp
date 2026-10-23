@@ -1,0 +1,60 @@
+schema_version: 1
+id: tartufo-bianco
+stato: bozza
+nome_scientifico: Tuber magnatum
+famiglia: Tuberaceae
+nomi_comuni:
+  it: [Tartufo bianco, Tartufo bianco d'Alba, Trifola]
+  en: [White truffle, Alba truffle]
+descrizione: >-
+  Il tartufo più pregiato e costoso. Cresce sotto terra, legato alle radici di
+  alcuni alberi, e si trova solo con l'aiuto di un cane addestrato. Il
+  profumo è intensissimo e si perde con la cottura.
+commestibilita: commestibile
+note_commestibilita: >-
+  Si mangia crudo, a lamelle sottili su piatti caldi. In Italia la raccolta è
+  regolata dalla legge 752/1985 e dalle leggi regionali: serve il tesserino
+  di idoneità, si cerca solo con il cane e nei periodi stabiliti, e non si
+  può zappare il terreno a caso.
+habitat: >-
+  Sotto terra, da 5 a 30 cm, in simbiosi con pioppi, salici, querce e tigli,
+  in terreni calcarei, freschi e soffici di fondovalle e lungo i corsi
+  d'acqua. In Piemonte (Langhe, Roero), Marche, Umbria, Toscana, Molise.
+stagione: [9, 10, 11, 12]
+caratteristiche:
+  cappello: >-
+    Non ha cappello: è un tubero irregolare e bitorzoluto, da 2 a 10 cm e
+    oltre, con la buccia (peridio) liscia, giallo ocra o crema verdastro.
+  sotto_il_cappello: >-
+    Non ha lamelle né pori: le spore si formano all'interno, nella polpa
+    (gleba).
+  gambo: Assente.
+  carne: >-
+    Gleba compatta, da nocciola chiaro a bruno rosato, percorsa da sottili
+    venature bianche. Profumo forte di aglio, formaggio e miele.
+sosia:
+  - nome: Bianchetto
+    nome_scientifico: Tuber borchii
+    commestibilita: commestibile
+    differenze: >-
+      Più piccolo, buccia bianco sporca che diventa rossiccia, gleba più
+      scura con poche venature e odore più agliaceo. Matura in inverno e
+      primavera (gennaio-aprile) e vale molto meno.
+  - nome: Falso tartufo
+    nome_scientifico: Scleroderma citrinum
+    commestibilita: tossico
+    differenze: >-
+      Cresce in superficie o appena interrato, ha una buccia spessa e
+      screpolata giallastra e la polpa che diventa nero violacea e poi
+      polverosa. Odore sgradevole. Causa disturbi gastrointestinali.
+curiosita: >-
+  Non si coltiva: tutto il tartufo bianco in commercio viene da piante
+  spontanee. Le aste di Alba possono superare i 4000 euro al chilo.
+immagini:
+  - commons: "Tuber Magnatum Pico.jpg"
+fonti:
+  - Legge 16 dicembre 1985 n. 752, raccolta e commercio dei tartufi
+  - Centro Nazionale Studi Tartufo, schede delle specie (tuberstudi.org)
+  - Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)
+autori: [piantalapp]
+aggiornato: "2026-10-23"
