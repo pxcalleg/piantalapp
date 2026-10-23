@@ -24,7 +24,7 @@ ARCHITETTURA.md     scelte tecniche e piano di lavoro
 
 ## Piante presenti
 
-Nell'app le piante sono divise in quattro categorie, indicate nel campo
+Nell'app le piante sono divise in cinque categorie, indicate nel campo
 `gruppo` di ogni scheda: *Da appartamento*, *Piante grasse*, *Orchidee*,
 *Da esterno* e *Aromatiche*.
 
