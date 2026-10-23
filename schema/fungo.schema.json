@@ -172,6 +172,27 @@
     "curiosita": {
       "$ref": "#/$defs/testo"
     },
+    "immagini": {
+      "type": "array",
+      "description": "Foto reali da Wikimedia Commons. Basta indicare il nome del file: autore, licenza e copia locale vengono aggiunti in automatico da scripts/immagini.py.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "commons"
+        ],
+        "properties": {
+          "commons": {
+            "type": "string",
+            "pattern": "^[^/]+\\.(jpe?g|JPE?G|png|PNG)$",
+            "description": "Nome del file su Wikimedia Commons, senza il prefisso 'File:'."
+          },
+          "didascalia": {
+            "type": "string"
+          }
+        }
+      }
+    },
     "fonti": {
       "type": "array",
       "minItems": 1,

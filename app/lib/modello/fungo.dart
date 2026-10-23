@@ -21,6 +21,7 @@ class Fungo implements Scheda {
     this.noteCommestibilita,
     this.sosia = const [],
     this.curiosita,
+    this.immagini = const [],
   });
 
   @override
@@ -45,6 +46,7 @@ class Fungo implements Scheda {
   /// Specie con cui si confonde, soprattutto quelle tossiche.
   final List<Sosia> sosia;
   final String? curiosita;
+  final List<Immagine> immagini;
   final List<String> fonti;
   final List<String> autori;
   @override
@@ -79,6 +81,9 @@ class Fungo implements Scheda {
         .map((s) => Sosia.fromJson(s as Map<String, dynamic>))
         .toList(),
     curiosita: j['curiosita'] as String?,
+    immagini: ((j['immagini'] as List?) ?? const [])
+        .map((i) => Immagine.fromJson(i as Map<String, dynamic>))
+        .toList(),
     fonti: _stringhe(j['fonti']),
     autori: _stringhe(j['autori']),
     aggiornato: j['aggiornato'] as String,

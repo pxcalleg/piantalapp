@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../modello/etichette.dart';
 import '../modello/filtri.dart';
 import '../modello/fungo.dart';
+import 'foto.dart';
 import 'sezione.dart';
 import 'testata.dart';
 
@@ -137,10 +138,12 @@ class EtichettaCommestibilita extends StatelessWidget {
               Icon(Icons.dangerous_outlined, size: 14, color: testo),
               const SizedBox(width: 4),
             ],
-            Text(
-              etichetta(etichetteCommestibilita, valore),
-              style: Theme.of(context).textTheme.labelMedium
-                  ?.copyWith(color: testo),
+            Flexible(
+              child: Text(
+                etichetta(etichetteCommestibilita, valore),
+                style: Theme.of(context).textTheme.labelMedium
+                    ?.copyWith(color: testo),
+              ),
             ),
           ],
         ),
@@ -224,11 +227,13 @@ class _RigaFungo extends StatelessWidget {
           onTap: () => Navigator.of(
             context,
           ).push(MaterialPageRoute(builder: (_) => SchedaFungo(fungo: fungo))),
-          child: Padding(
-            padding: const EdgeInsets.fromLTRB(16, 14, 12, 14),
-            child: Row(
-              children: [
-                Expanded(
+          child: Row(
+            children: [
+              SizedBox(width: 96, height: 96, child: FotoFungo(fungo: fungo)),
+              const SizedBox(width: 16),
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 12),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -255,9 +260,12 @@ class _RigaFungo extends StatelessWidget {
                     ],
                   ),
                 ),
-                const Icon(Icons.chevron_right),
-              ],
-            ),
+              ),
+              const Padding(
+                padding: EdgeInsets.only(right: 12),
+                child: Icon(Icons.chevron_right),
+              ),
+            ],
           ),
         ),
       ),
@@ -286,6 +294,17 @@ class SchedaFungo extends StatelessWidget {
           return ListView(
             padding: EdgeInsets.fromLTRB(margine, 8, margine, 32),
             children: [
+              if (f.immagini.firstOrNull case final foto?) ...[
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(24),
+                  child: AspectRatio(
+                    aspectRatio: 4 / 3,
+                    child: FotoFungo(fungo: f),
+                  ),
+                ),
+                CreditoFoto(immagine: foto),
+                const SizedBox(height: 12),
+              ],
               NomeFungo(
                 nome: f.nome,
                 nomeScientifico: f.nomeScientifico,

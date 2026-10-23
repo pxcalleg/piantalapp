@@ -60,9 +60,9 @@ Nell'app le piante sono divise in quattro categorie, indicate nel campo
 ## Funghi
 
 La sezione *Funghi* mostra ogni specie con il nome comune e, tra parentesi, il
-nome latino: ad esempio *Porcino (Boletus edulis)*. Ogni scheda descrive
-habitat, stagione, aspetto, commestibilità e soprattutto i **sosia** con cui si
-può confondere.
+nome latino: ad esempio *Porcino (Boletus edulis)*. Ogni scheda ha una foto
+da Wikimedia Commons e descrive habitat, stagione, aspetto, commestibilità e
+soprattutto i **sosia** con cui si può confondere.
 
 > **Le schede non servono a riconoscere i funghi da mangiare.** L'app lo
 > ricorda in cima all'elenco e in ogni scheda: prima di consumare funghi
@@ -71,10 +71,12 @@ può confondere.
 
 | Fungo | Commestibilità |
 |---|---|
-| Porcino (*Boletus edulis*) | commestibile |
-| Ovolo buono (*Amanita caesarea*) | commestibile |
-| Finferlo (*Cantharellus cibarius*) | commestibile |
 | Chiodino (*Armillaria mellea*) | commestibile con cautela |
+| Colombina (*Russula virescens*) | commestibile |
+| Galletto (*Cantharellus cibarius*) | commestibile |
+| Mazza di tamburo (*Macrolepiota procera*) | commestibile |
+| Ovolo (*Amanita caesarea*) | commestibile |
+| Porcino (*Boletus edulis*) | commestibile |
 | Tignosa verdognola (*Amanita phalloides*) | mortale |
 
 ## Google Play Store

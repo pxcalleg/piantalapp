@@ -1,10 +1,10 @@
 schema_version: 1
-id: finferlo
+id: galletto
 stato: bozza
 nome_scientifico: Cantharellus cibarius
 famiglia: Cantharellaceae
 nomi_comuni:
-  it: [Finferlo, Gallinaccio, Galletto, Cantarello]
+  it: [Galletto, Finferlo, Gallinaccio, Cantarello]
   en: [Chanterelle, Golden chanterelle]
 descrizione: >-
   Fungo giallo uovo a forma di piccolo imbuto, con il profumo che ricorda
@@ -39,6 +39,8 @@ sosia:
     differenze: >-
       Arancione più carico, vere lamelle fitte e sottili che si biforcano,
       carne molle e senza profumo; spesso su legno marcio di conifera.
+immagini:
+  - commons: "2007-07-14 Cantharellus cibarius.jpg"
 fonti:
   - Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)
   - Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)
