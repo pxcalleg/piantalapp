@@ -39,18 +39,20 @@ sosia:
     differenze: >-
       Lamelle rosa che diventano bruno nere, nessuna volva alla base del
       gambo; cresce nei prati, non nel bosco.
-  - nome: Colombina verde
+  - nome: Colombina
     nome_scientifico: Russula virescens
     commestibilita: commestibile
     differenze: >-
       Né anello né volva; cappello verde screpolato a piccole placche e carne
       gessosa che si spezza come un gessetto.
-  - nome: Ovolo buono
+  - nome: Ovolo
     nome_scientifico: Amanita caesarea
     commestibilita: commestibile
     differenze: >-
       Si confonde allo stadio di ovulo chiuso. Tagliato a metà, l'ovulo dell'ovolo buono mostra dentro il cappello
       giallo arancio; quello della tignosa è bianco o verdastro.
+immagini:
+  - commons: "Amanita phalloides 2011 G2.jpg"
 fonti:
   - Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)
   - Centro Antiveleni di Milano, Ospedale Niguarda (ospedaleniguarda.it)

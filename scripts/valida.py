@@ -81,7 +81,7 @@ def main():
     if args.build:
         # Le foto scaricate da scripts/immagini.py portano autore e licenza.
         crediti = json.loads(CREDITI.read_text(encoding="utf-8")) if CREDITI.exists() else {}
-        for scheda in schede:
+        for scheda in schede + funghi:
             scheda["immagini"] = crediti.get(scheda["id"], [])
         out = args.out.resolve()
         out.parent.mkdir(parents=True, exist_ok=True)

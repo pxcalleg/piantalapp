@@ -1,0 +1,59 @@
+schema_version: 1
+id: mazza-di-tamburo
+stato: bozza
+nome_scientifico: Macrolepiota procera
+famiglia: Agaricaceae
+nomi_comuni:
+  it: [Mazza di tamburo, Bubbola maggiore, Parasole]
+  en: [Parasol mushroom]
+descrizione: >-
+  Uno dei funghi più grandi dei nostri boschi. Da giovane ha la forma di una
+  bacchetta di tamburo, poi si apre come un ombrellone coperto di squame
+  brune.
+commestibilita: commestibile
+note_commestibilita: >-
+  Si consuma solo il cappello, sempre ben cotto; il gambo è fibroso e si
+  scarta. Vanno raccolti solo esemplari grandi, con il cappello oltre i 10 cm:
+  le piccole lepiote simili possono essere mortali.
+habitat: >-
+  Radure, margini dei boschi, prati e pascoli, sia vicino a latifoglie sia a
+  conifere; spesso in gruppi o in cerchio.
+stagione: [7, 8, 9, 10]
+caratteristiche:
+  cappello: >-
+    Da 10 a 30 cm, prima chiuso a uovo poi aperto a ombrello con una gobba
+    centrale bruna; il fondo crema è coperto da squame brune disposte in
+    cerchi.
+  sotto_il_cappello: Lamelle bianche, fitte, morbide, libere dal gambo.
+  gambo: >-
+    Alto e slanciato, da 15 a 40 cm, con una fine tigratura bruna, base a
+    bulbo senza volva e un anello doppio che scorre lungo il gambo.
+  carne: >-
+    Bianca e tenera nel cappello, non cambia colore al taglio; odore e sapore
+    gradevoli, di nocciola.
+  sporata: Bianca
+sosia:
+  - nome: Lepiota bruno incarnata
+    nome_scientifico: Lepiota brunneoincarnata
+    commestibilita: mortale
+    differenze: >-
+      Molto più piccola (cappello sotto i 6 cm), con squame rosate o vinose,
+      anello poco evidente. Contiene le stesse tossine della tignosa
+      verdognola.
+  - nome: Mazza di tamburo arrossante
+    nome_scientifico: Chlorophyllum rachodes
+    commestibilita: commestibile_con_cautela
+    differenze: >-
+      Gambo liscio e senza tigratura, carne che diventa arancio rossa al
+      taglio, squame più grossolane. In alcune persone provoca disturbi
+      gastrointestinali.
+curiosita: >-
+  L'anello si stacca dal cappello quando si apre e resta libero di scorrere
+  lungo il gambo, come un anello su un dito.
+immagini:
+  - commons: "Macrolepiota procera (Mazza di tamburo) (A).jpg"
+fonti:
+  - Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)
+  - Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)
+autori: [piantalapp]
+aggiornato: "2026-10-23"

@@ -4060,6 +4060,7 @@
      "differenze": "Più piccola, bruno arancio, su legno di conifera; anellino fragile e sporata bruno ruggine. Contiene le stesse tossine di Amanita phalloides e può crescere accanto ai chiodini."
     }
    ],
+   "immagini": [],
    "fonti": [
     "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
     "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
@@ -4071,15 +4072,73 @@
   },
   {
    "schema_version": 1,
-   "id": "finferlo",
+   "id": "colombina",
+   "stato": "bozza",
+   "nome_scientifico": "Russula virescens",
+   "famiglia": "Russulaceae",
+   "nomi_comuni": {
+    "it": [
+     "Colombina",
+     "Colombina verde",
+     "Verdone"
+    ],
+    "en": [
+     "Green-cracking russula"
+    ]
+   },
+   "descrizione": "Fungo verde dei boschi di latifoglie, con la pelle del cappello che si screpola in tante piccole placche. Molto apprezzato, ma il colore verde lo avvicina pericolosamente alla tignosa verdognola.",
+   "commestibilita": "commestibile",
+   "note_commestibilita": "Ottimo commestibile, anche alla griglia. Va raccolto intero, con la base del gambo, per controllare che non ci siano anello e volva: sono i segni della tignosa verdognola, mortale.",
+   "habitat": "Boschi di latifoglie, soprattutto querce, faggi e castagni, in collina e in bassa montagna.",
+   "stagione": [
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "caratteristiche": {
+    "cappello": "Da 5 a 15 cm, verde o verde grigiastro, prima convesso poi appiattito; la pelle si screpola in piccole placche a mosaico.",
+    "sotto_il_cappello": "Lamelle bianche o crema, fitte e fragili.",
+    "gambo": "Bianco, corto e duro, senza anello e senza volva.",
+    "carne": "Bianca, soda e cassante: si spezza netta come un gessetto. Sapore dolce, odore lieve.",
+    "sporata": "Bianca o crema chiaro"
+   },
+   "sosia": [
+    {
+     "nome": "Tignosa verdognola",
+     "nome_scientifico": "Amanita phalloides",
+     "commestibilita": "mortale",
+     "differenze": "Cappello liscio e senza placche, anello bianco a gonnellino sul gambo e volva a sacco alla base, spesso nascosta nel terreno. Per questo non si raccolgono mai funghi verdi tagliandoli sopra la base."
+    },
+    {
+     "nome": "Colombina maggiore",
+     "nome_scientifico": "Russula cyanoxantha",
+     "commestibilita": "commestibile",
+     "differenze": "Cappello dai colori misti, dal viola al verde, senza placche; lamelle elastiche e lardacee al tatto invece che fragili."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
+    "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "galletto",
    "stato": "bozza",
    "nome_scientifico": "Cantharellus cibarius",
    "famiglia": "Cantharellaceae",
    "nomi_comuni": {
     "it": [
+     "Galletto",
      "Finferlo",
      "Gallinaccio",
-     "Galletto",
      "Cantarello"
     ],
     "en": [
@@ -4119,6 +4178,65 @@
      "differenze": "Arancione più carico, vere lamelle fitte e sottili che si biforcano, carne molle e senza profumo; spesso su legno marcio di conifera."
     }
    ],
+   "immagini": [],
+   "fonti": [
+    "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
+    "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "mazza-di-tamburo",
+   "stato": "bozza",
+   "nome_scientifico": "Macrolepiota procera",
+   "famiglia": "Agaricaceae",
+   "nomi_comuni": {
+    "it": [
+     "Mazza di tamburo",
+     "Bubbola maggiore",
+     "Parasole"
+    ],
+    "en": [
+     "Parasol mushroom"
+    ]
+   },
+   "descrizione": "Uno dei funghi più grandi dei nostri boschi. Da giovane ha la forma di una bacchetta di tamburo, poi si apre come un ombrellone coperto di squame brune.",
+   "commestibilita": "commestibile",
+   "note_commestibilita": "Si consuma solo il cappello, sempre ben cotto; il gambo è fibroso e si scarta. Vanno raccolti solo esemplari grandi, con il cappello oltre i 10 cm: le piccole lepiote simili possono essere mortali.",
+   "habitat": "Radure, margini dei boschi, prati e pascoli, sia vicino a latifoglie sia a conifere; spesso in gruppi o in cerchio.",
+   "stagione": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "caratteristiche": {
+    "cappello": "Da 10 a 30 cm, prima chiuso a uovo poi aperto a ombrello con una gobba centrale bruna; il fondo crema è coperto da squame brune disposte in cerchi.",
+    "sotto_il_cappello": "Lamelle bianche, fitte, morbide, libere dal gambo.",
+    "gambo": "Alto e slanciato, da 15 a 40 cm, con una fine tigratura bruna, base a bulbo senza volva e un anello doppio che scorre lungo il gambo.",
+    "carne": "Bianca e tenera nel cappello, non cambia colore al taglio; odore e sapore gradevoli, di nocciola.",
+    "sporata": "Bianca"
+   },
+   "sosia": [
+    {
+     "nome": "Lepiota bruno incarnata",
+     "nome_scientifico": "Lepiota brunneoincarnata",
+     "commestibilita": "mortale",
+     "differenze": "Molto più piccola (cappello sotto i 6 cm), con squame rosate o vinose, anello poco evidente. Contiene le stesse tossine della tignosa verdognola."
+    },
+    {
+     "nome": "Mazza di tamburo arrossante",
+     "nome_scientifico": "Chlorophyllum rachodes",
+     "commestibilita": "commestibile_con_cautela",
+     "differenze": "Gambo liscio e senza tigratura, carne che diventa arancio rossa al taglio, squame più grossolane. In alcune persone provoca disturbi gastrointestinali."
+    }
+   ],
+   "curiosita": "L'anello si stacca dal cappello quando si apre e resta libero di scorrere lungo il gambo, come un anello su un dito.",
+   "immagini": [],
    "fonti": [
     "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
     "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
@@ -4136,6 +4254,7 @@
    "famiglia": "Amanitaceae",
    "nomi_comuni": {
     "it": [
+     "Ovolo",
      "Ovolo buono",
      "Ovolo reale",
      "Fungo reale"
@@ -4177,6 +4296,7 @@
     }
    ],
    "curiosita": "Il nome latino ricorda che era il fungo preferito degli imperatori romani.",
+   "immagini": [],
    "fonti": [
     "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
     "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
@@ -4237,6 +4357,7 @@
     }
    ],
    "curiosita": "Vive in simbiosi con le radici degli alberi (micorriza): per questo non si riesce a coltivarlo.",
+   "immagini": [],
    "fonti": [
     "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
     "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
@@ -4287,18 +4408,19 @@
      "differenze": "Lamelle rosa che diventano bruno nere, nessuna volva alla base del gambo; cresce nei prati, non nel bosco."
     },
     {
-     "nome": "Colombina verde",
+     "nome": "Colombina",
      "nome_scientifico": "Russula virescens",
      "commestibilita": "commestibile",
      "differenze": "Né anello né volva; cappello verde screpolato a piccole placche e carne gessosa che si spezza come un gessetto."
     },
     {
-     "nome": "Ovolo buono",
+     "nome": "Ovolo",
      "nome_scientifico": "Amanita caesarea",
      "commestibilita": "commestibile",
      "differenze": "Si confonde allo stadio di ovulo chiuso. Tagliato a metà, l'ovulo dell'ovolo buono mostra dentro il cappello giallo arancio; quello della tignosa è bianco o verdastro."
     }
    ],
+   "immagini": [],
    "fonti": [
     "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
     "Centro Antiveleni di Milano, Ospedale Niguarda (ospedaleniguarda.it)",

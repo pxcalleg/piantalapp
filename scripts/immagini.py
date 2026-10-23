@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Scarica da Wikimedia Commons le foto indicate nel campo `immagini` delle
-schede, ne verifica la licenza e scrive app/assets/immagini/crediti.json con
-autore, licenza e link di ogni foto. Serve la rete: gira su GitHub Actions."""
+schede di piante e funghi, ne verifica la licenza e scrive
+app/assets/immagini/crediti.json con autore, licenza e link di ogni foto.
+Serve la rete: gira su GitHub Actions."""
 import html
 import json
 import re
@@ -14,6 +15,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 PIANTE = ROOT / "dati" / "piante"
+FUNGHI = ROOT / "dati" / "funghi"
 CARTELLA = ROOT / "app" / "assets" / "immagini"
 CREDITI = CARTELLA / "crediti.json"
 API = "https://commons.wikimedia.org/w/api.php"
@@ -60,11 +62,15 @@ def info(nome):
     }
 
 
+def schede():
+    return sorted(PIANTE.glob("*.yaml")) + sorted(FUNGHI.glob("*.yaml"))
+
+
 def verifica():
     """Controlla solo che ogni foto esista su Commons e abbia licenza libera,
     senza scaricare nulla: gira sulle pull request."""
     errori = []
-    for file in sorted(PIANTE.glob("*.yaml")):
+    for file in schede():
         scheda = yaml.safe_load(file.read_text(encoding="utf-8"))
         for imm in scheda.get("immagini", []):
             try:
@@ -91,7 +97,7 @@ def main():
         for c in lista
     }
     crediti, errori, usati = {}, [], set()
-    for file in sorted(PIANTE.glob("*.yaml")):
+    for file in schede():
         scheda = yaml.safe_load(file.read_text(encoding="utf-8"))
         for i, imm in enumerate(scheda.get("immagini", [])):
             nome = imm["commons"]

@@ -2,10 +2,16 @@ name: App web
 
 # Pubblica la versione web dell'app su GitHub Pages a ogni modifica di main:
 # https://pxcalleg.github.io/piantalapp/
+# Le foto nuove le scarica «Valida dati piante» con un commit del bot, che non
+# avvia altri workflow: per questo si ripubblica anche quando quello finisce.
 on:
   push:
     branches: [main]
     paths: ["app/**", ".github/workflows/web.yml"]
+  workflow_run:
+    workflows: ["Valida dati piante"]
+    branches: [main]
+    types: [completed]
   workflow_dispatch:
 
 permissions:

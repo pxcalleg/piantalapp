@@ -1,0 +1,52 @@
+schema_version: 1
+id: colombina
+stato: bozza
+nome_scientifico: Russula virescens
+famiglia: Russulaceae
+nomi_comuni:
+  it: [Colombina, Colombina verde, Verdone]
+  en: [Green-cracking russula]
+descrizione: >-
+  Fungo verde dei boschi di latifoglie, con la pelle del cappello che si
+  screpola in tante piccole placche. Molto apprezzato, ma il colore verde lo
+  avvicina pericolosamente alla tignosa verdognola.
+commestibilita: commestibile
+note_commestibilita: >-
+  Ottimo commestibile, anche alla griglia. Va raccolto intero, con la base del
+  gambo, per controllare che non ci siano anello e volva: sono i segni della
+  tignosa verdognola, mortale.
+habitat: >-
+  Boschi di latifoglie, soprattutto querce, faggi e castagni, in collina e in
+  bassa montagna.
+stagione: [6, 7, 8, 9, 10]
+caratteristiche:
+  cappello: >-
+    Da 5 a 15 cm, verde o verde grigiastro, prima convesso poi appiattito; la
+    pelle si screpola in piccole placche a mosaico.
+  sotto_il_cappello: Lamelle bianche o crema, fitte e fragili.
+  gambo: Bianco, corto e duro, senza anello e senza volva.
+  carne: >-
+    Bianca, soda e cassante: si spezza netta come un gessetto. Sapore dolce,
+    odore lieve.
+  sporata: Bianca o crema chiaro
+sosia:
+  - nome: Tignosa verdognola
+    nome_scientifico: Amanita phalloides
+    commestibilita: mortale
+    differenze: >-
+      Cappello liscio e senza placche, anello bianco a gonnellino sul gambo e
+      volva a sacco alla base, spesso nascosta nel terreno. Per questo non si
+      raccolgono mai funghi verdi tagliandoli sopra la base.
+  - nome: Colombina maggiore
+    nome_scientifico: Russula cyanoxantha
+    commestibilita: commestibile
+    differenze: >-
+      Cappello dai colori misti, dal viola al verde, senza placche; lamelle
+      elastiche e lardacee al tatto invece che fragili.
+immagini:
+  - commons: "Russula virescens BŻ2.1.jpg"
+fonti:
+  - Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)
+  - Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)
+autori: [piantalapp]
+aggiornato: "2026-10-23"

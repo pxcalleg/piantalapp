@@ -64,7 +64,7 @@ void main() {
       }
     }
     expect(cercaFunghi(funghi, 'boletus').map((f) => f.id), ['porcino']);
-    expect(cercaFunghi(funghi, 'gallinaccio').map((f) => f.id), ['finferlo']);
+    expect(cercaFunghi(funghi, 'gallinaccio').map((f) => f.id), ['galletto']);
   });
 
   test('un pacchetto senza funghi dà un elenco vuoto', () {
@@ -95,9 +95,16 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Attenzione: rischio di avvelenamento'), findsOneWidget);
     expect(find.byTooltip('Riconosci una pianta da una foto'), findsNothing);
+    await tester.scrollUntilVisible(
+      find.text('Galletto (Cantharellus cibarius)', findRichText: true),
+      100,
+      scrollable: find.byType(Scrollable).first,
+    );
+    await tester.enterText(find.byType(TextField), 'boletus');
+    await tester.pumpAndSettle();
     final porcino = find.text('Porcino (Boletus edulis)', findRichText: true);
     expect(porcino, findsOneWidget);
-
+    expect(find.text('Galletto (Cantharellus cibarius)'), findsNothing);
     await tester.tap(porcino);
     await tester.pumpAndSettle();
     expect(find.text('Attenzione: rischio di avvelenamento'), findsOneWidget);

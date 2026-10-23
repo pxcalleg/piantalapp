@@ -4,7 +4,7 @@ stato: bozza
 nome_scientifico: Amanita caesarea
 famiglia: Amanitaceae
 nomi_comuni:
-  it: [Ovolo buono, Ovolo reale, Fungo reale]
+  it: [Ovolo, Ovolo buono, Ovolo reale, Fungo reale]
   en: [Caesar's mushroom]
 descrizione: >-
   Nasce chiuso in un involucro bianco simile a un uovo, da cui esce un
@@ -47,6 +47,8 @@ sosia:
       base del gambo.
 curiosita: >-
   Il nome latino ricorda che era il fungo preferito degli imperatori romani.
+immagini:
+  - commons: "Amanita caesarea (Ovulo buono) September 14, 2013 034 (9740848314).jpg"
 fonti:
   - Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)
   - Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)
