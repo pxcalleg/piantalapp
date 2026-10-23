@@ -21,6 +21,28 @@
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Aloe_vera_plant.JPG/960px-Aloe_vera_plant.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
+ "anthurium": [
+  {
+   "file": "anthurium-1.jpg",
+   "commons": "Anthurium andraeanum hatem moushir.JPG",
+   "autore": "Hatem Moushir",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Anthurium_andraeanum_hatem_moushir.JPG",
+   "anteprima": "https://upload.wikimedia.org/wikipedia/commons/4/43/Anthurium_andraeanum_hatem_moushir.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  }
+ ],
+ "basilico": [
+  {
+   "file": "basilico-1.jpg",
+   "commons": "Planta de Albahaca (Ocimum basilicum).jpg",
+   "autore": "Martín Huamán/Archivo Centro Takiwasi",
+   "licenza": "CC BY-SA 4.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Planta_de_Albahaca_(Ocimum_basilicum).jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Planta_de_Albahaca_%28Ocimum_basilicum%29.jpg/960px-Planta_de_Albahaca_%28Ocimum_basilicum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
  "bosso": [
   {
    "file": "bosso-1.jpg",
@@ -30,6 +52,28 @@
    "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Buxus_sempervirens_bush.jpg",
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Buxus_sempervirens_bush.jpg/960px-Buxus_sempervirens_bush.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "bouganvillea": [
+  {
+   "file": "bouganvillea-1.jpg",
+   "commons": "Bougainvillea glabra.JPG",
+   "autore": "Carsten Niehaus (= user:Lumbar).",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Bougainvillea_glabra.JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bougainvillea_glabra.JPG/960px-Bougainvillea_glabra.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "cactus-di-natale": [
+  {
+   "file": "cactus-di-natale-1.jpg",
+   "commons": "Schlumbergera truncata 02.JPG",
+   "autore": "Lestat (Jan Mehlich)",
+   "licenza": "CC BY-SA 2.5",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Schlumbergera_truncata_02.JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Schlumbergera_truncata_02.JPG/960px-Schlumbergera_truncata_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
  "crassula": [
@@ -74,6 +118,39 @@
    "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Rosa_de_alabastro_(Echeveria_elegans),_Calatayud,_Espa%C3%B1a_2012-05-16,_DD_01.JPG",
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Rosa_de_alabastro_%28Echeveria_elegans%29%2C_Calatayud%2C_Espa%C3%B1a_2012-05-16%2C_DD_01.JPG/960px-Rosa_de_alabastro_%28Echeveria_elegans%29%2C_Calatayud%2C_Espa%C3%B1a_2012-05-16%2C_DD_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "erba-cipollina": [
+  {
+   "file": "erba-cipollina-1.jpg",
+   "commons": "Allium schoenoprasum 001.JPG",
+   "autore": "H. Zell",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Allium_schoenoprasum_001.JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Allium_schoenoprasum_001.JPG/960px-Allium_schoenoprasum_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "falangio": [
+  {
+   "file": "falangio-1.jpg",
+   "commons": "Spider Plant (Chlorophytum comosum).jpg",
+   "autore": "Mokkie",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Spider_Plant_(Chlorophytum_comosum).jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Spider_Plant_%28Chlorophytum_comosum%29.jpg/960px-Spider_Plant_%28Chlorophytum_comosum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "falso-gelsomino": [
+  {
+   "file": "falso-gelsomino-1.jpg",
+   "commons": "Trachelospermum jasminoides.jpg",
+   "autore": "A. Barra",
+   "licenza": "CC BY-SA 4.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Trachelospermum_jasminoides.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Trachelospermum_jasminoides.jpg/960px-Trachelospermum_jasminoides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
  "ficus-bambino": [
@@ -142,6 +219,28 @@
    "anteprima": "https://upload.wikimedia.org/wikipedia/commons/1/15/Photinia_Red_Robin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
   }
  ],
+ "geranio": [
+  {
+   "file": "geranio-1.jpg",
+   "commons": "Pelargonium zonale (Geraniaceae).jpg",
+   "autore": "Petar Milošević",
+   "licenza": "CC BY-SA 4.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pelargonium_zonale_(Geraniaceae).jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Pelargonium_zonale_%28Geraniaceae%29.jpg/960px-Pelargonium_zonale_%28Geraniaceae%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "glicine": [
+  {
+   "file": "glicine-1.jpg",
+   "commons": "Wisteria sinensis an Pergola.jpg",
+   "autore": "G.Hagedorn",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Wisteria_sinensis_an_Pergola.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Wisteria_sinensis_an_Pergola.jpg/960px-Wisteria_sinensis_an_Pergola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
  "haworthia": [
   {
    "file": "haworthia-1.jpg",
@@ -175,6 +274,17 @@
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Prunus_laurocerasus.JPG/960px-Prunus_laurocerasus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
+ "lavanda": [
+  {
+   "file": "lavanda-1.jpg",
+   "commons": "Lavandula angustifolia 01.JPG",
+   "autore": "Sanja565658",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Lavandula_angustifolia_01.JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Lavandula_angustifolia_01.JPG/960px-Lavandula_angustifolia_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
  "ligustro": [
   {
    "file": "ligustro-1.jpg",
@@ -197,6 +307,17 @@
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Starr_051105-8369_Liquidambar_styraciflua.jpg/960px-Starr_051105-8369_Liquidambar_styraciflua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
+ "maggiorana": [
+  {
+   "file": "maggiorana-1.jpg",
+   "commons": "Origanum majorana 001.JPG",
+   "autore": "H. Zell",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Origanum_majorana_001.JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Origanum_majorana_001.JPG/960px-Origanum_majorana_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
  "mammillaria": [
   {
    "file": "mammillaria-1.jpg",
@@ -206,6 +327,28 @@
    "url_licenza": "https://creativecommons.org/licenses/by/2.5",
    "pagina": "https://commons.wikimedia.org/wiki/File:Mammillaria_zeilmanniana.jpg",
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Mammillaria_zeilmanniana.jpg/960px-Mammillaria_zeilmanniana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "menta": [
+  {
+   "file": "menta-1.jpg",
+   "commons": "Mentha spicata var. viridis 001.JPG",
+   "autore": "H. Zell",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Mentha_spicata_var._viridis_001.JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Mentha_spicata_var._viridis_001.JPG/960px-Mentha_spicata_var._viridis_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "monstera": [
+  {
+   "file": "monstera-1.jpg",
+   "commons": "Monstera deliciosa DSC02600.jpg",
+   "autore": "Smatu",
+   "licenza": "CC BY-SA 4.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Monstera_deliciosa_DSC02600.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Monstera_deliciosa_DSC02600.jpg/960px-Monstera_deliciosa_DSC02600.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
  "oleandro": [
@@ -219,6 +362,17 @@
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Nerium_oleander_%28bloom%29.jpg/960px-Nerium_oleander_%28bloom%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
+ "oncidium": [
+  {
+   "file": "oncidium-1.jpg",
+   "commons": "Kandyan dancer orchid (Oncidium sp.).jpg",
+   "autore": "AntanO",
+   "licenza": "CC BY-SA 4.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Kandyan_dancer_orchid_(Oncidium_sp.).jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Kandyan_dancer_orchid_%28Oncidium_sp.%29.jpg/960px-Kandyan_dancer_orchid_%28Oncidium_sp.%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
  "opuntia": [
   {
    "file": "opuntia-1.jpg",
@@ -228,6 +382,17 @@
    "url_licenza": "",
    "pagina": "https://commons.wikimedia.org/wiki/File:OpuntiaMicrodasys.jpg",
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/OpuntiaMicrodasys.jpg/960px-OpuntiaMicrodasys.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "origano": [
+  {
+   "file": "origano-1.jpg",
+   "commons": "Origanum vulgare 001.JPG",
+   "autore": "H. Zell",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Origanum_vulgare_001.JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Origanum_vulgare_001.JPG/960px-Origanum_vulgare_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
  "ortensia": [
@@ -272,6 +437,17 @@
    "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Pothos_epipremnum_aureus.jpg",
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Pothos_epipremnum_aureus.jpg/960px-Pothos_epipremnum_aureus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "prezzemolo": [
+  {
+   "file": "prezzemolo-1.jpg",
+   "commons": "Petroselinum crispum 003.JPG",
+   "autore": "H. Zell",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Petroselinum_crispum_003.JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Petroselinum_crispum_003.JPG/960px-Petroselinum_crispum_003.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
  "rosa-floribunda": [
@@ -329,6 +505,28 @@
    "anteprima": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Peace_-_hybrid_tea_rose_-_geograph.org.uk_-_1025537.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
   }
  ],
+ "rosmarino": [
+  {
+   "file": "rosmarino-1.jpg",
+   "commons": "Rosmarinus officinalis 10zz.jpg",
+   "autore": "Photo by David J. Stang",
+   "licenza": "CC BY-SA 4.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Rosmarinus_officinalis_10zz.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Rosmarinus_officinalis_10zz.jpg/960px-Rosmarinus_officinalis_10zz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "salvia": [
+  {
+   "file": "salvia-1.jpg",
+   "commons": "Salvia officinalis in vaso.JPG",
+   "autore": "Petar43",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Salvia_officinalis_in_vaso.JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Salvia_officinalis_in_vaso.JPG/960px-Salvia_officinalis_in_vaso.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
  "sansevieria": [
   {
    "file": "sansevieria-1.jpg",
@@ -360,6 +558,28 @@
    "url_licenza": "https://creativecommons.org/licenses/by-sa/2.5",
    "pagina": "https://commons.wikimedia.org/wiki/File:Weihnachtsstern_-_gro%C3%9F.jpg",
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Weihnachtsstern_-_gro%C3%9F.jpg/960px-Weihnachtsstern_-_gro%C3%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "timo": [
+  {
+   "file": "timo-1.jpg",
+   "commons": "Thymus vulgaris 'Common thyme' (Lamiaceae) plant.JPG",
+   "autore": "Magnus Manske",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Thymus_vulgaris_%27Common_thyme%27_(Lamiaceae)_plant.JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Thymus_vulgaris_%27Common_thyme%27_%28Lamiaceae%29_plant.JPG/960px-Thymus_vulgaris_%27Common_thyme%27_%28Lamiaceae%29_plant.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "zamioculcas": [
+  {
+   "file": "zamioculcas-1.jpg",
+   "commons": "Zamioculcas zamiifolia 1.jpg",
+   "autore": "User:WeFt",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Zamioculcas_zamiifolia_1.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Zamioculcas_zamiifolia_1.jpg/960px-Zamioculcas_zamiifolia_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
  "chiodino": [
