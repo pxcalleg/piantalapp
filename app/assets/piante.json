@@ -121,7 +121,17 @@
      "rimedio": "Eliminare gli insetti con olio bianco o sapone molle e lavare le foglie."
     }
    ],
-   "immagini": [],
+   "immagini": [
+    {
+     "file": "alloro-1.jpg",
+     "commons": "Laurus nobilis Laurel tree.jpg",
+     "autore": "G.Hagedorn",
+     "licenza": "CC BY-SA 3.0",
+     "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Laurus_nobilis_Laurel_tree.jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Laurus_nobilis_Laurel_tree.jpg/960px-Laurus_nobilis_Laurel_tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
    "fonti": [
     "Royal Horticultural Society, scheda Laurus nobilis (rhs.org.uk)",
     "ASPCA, elenco piante tossiche e non tossiche, voce Bay laurel (aspca.org)"
@@ -387,7 +397,17 @@
      "rimedio": "Togliere e bruciare le parti colpite, non bagnare le foglie e arieggiare."
     }
    ],
-   "immagini": [],
+   "immagini": [
+    {
+     "file": "bosso-1.jpg",
+     "commons": "Buxus sempervirens bush.jpg",
+     "autore": "Urutseg",
+     "licenza": "CC BY-SA 3.0",
+     "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Buxus_sempervirens_bush.jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Buxus_sempervirens_bush.jpg/960px-Buxus_sempervirens_bush.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
    "fonti": [
     "Royal Horticultural Society, scheda Buxus sempervirens e guida \"Box tree caterpillar\" (rhs.org.uk)",
     "ASPCA, elenco piante tossiche e non tossiche, voce Boxwood (aspca.org)"
@@ -1932,7 +1952,17 @@
      "rimedio": "Annaffiare alla base, togliere le foglie colpite, arieggiare la siepe e trattare con rame in primavera."
     }
    ],
-   "immagini": [],
+   "immagini": [
+    {
+     "file": "fotinia-1.jpg",
+     "commons": "Photinia Red Robin.jpg",
+     "autore": "Jean-Jacques MILAN",
+     "licenza": "CC BY-SA 3.0",
+     "url_licenza": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Photinia_Red_Robin.jpg",
+     "anteprima": "https://upload.wikimedia.org/wikipedia/commons/1/15/Photinia_Red_Robin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+   ],
    "fonti": [
     "Royal Horticultural Society, scheda Photinia × fraseri 'Red Robin' (rhs.org.uk)",
     "Clemson Cooperative Extension, \"Photinia\" (hgic.clemson.edu)"
@@ -2364,7 +2394,17 @@
      "rimedio": "Togliere le foglie colpite e trattare con prodotti a base di rame in autunno."
     }
    ],
-   "immagini": [],
+   "immagini": [
+    {
+     "file": "lauroceraso-1.jpg",
+     "commons": "Prunus laurocerasus.JPG",
+     "autore": "Retama",
+     "licenza": "CC BY-SA 4.0",
+     "url_licenza": "https://creativecommons.org/licenses/by-sa/4.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Prunus_laurocerasus.JPG",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Prunus_laurocerasus.JPG/960px-Prunus_laurocerasus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
    "fonti": [
     "Royal Horticultural Society, scheda Prunus laurocerasus (rhs.org.uk)",
     "ASPCA, elenco piante tossiche e non tossiche, voce Cherry laurel (aspca.org)"
@@ -2476,7 +2516,17 @@
      "rimedio": "Getto d'acqua o sapone molle; di solito i predatori naturali li tengono sotto controllo."
     }
    ],
-   "immagini": [],
+   "immagini": [
+    {
+     "file": "ligustro-1.jpg",
+     "commons": "Ligustrum ovalifolium.jpg",
+     "autore": "MPF",
+     "licenza": "CC BY 2.5",
+     "url_licenza": "https://creativecommons.org/licenses/by/2.5",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Ligustrum_ovalifolium.jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Ligustrum_ovalifolium.jpg/960px-Ligustrum_ovalifolium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
    "fonti": [
     "Royal Horticultural Society, scheda Ligustrum ovalifolium (rhs.org.uk)",
     "ASPCA, elenco piante tossiche e non tossiche, voce Privet (aspca.org)"
@@ -2928,7 +2978,17 @@
      "rimedio": "Spostarlo al sole pieno e potare solo a fine inverno."
     }
    ],
-   "immagini": [],
+   "immagini": [
+    {
+     "file": "oleandro-1.jpg",
+     "commons": "Nerium oleander (bloom).jpg",
+     "autore": "Morray",
+     "licenza": "CC BY 3.0",
+     "url_licenza": "https://creativecommons.org/licenses/by/3.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Nerium_oleander_(bloom).jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Nerium_oleander_%28bloom%29.jpg/960px-Nerium_oleander_%28bloom%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
    "fonti": [
     "Royal Horticultural Society, scheda Nerium oleander (rhs.org.uk)",
     "ASPCA, elenco piante tossiche e non tossiche, voce Oleander (aspca.org)",
@@ -3520,7 +3580,17 @@
      "rimedio": "Olio bianco a fine inverno e lavaggio delle foglie."
     }
    ],
-   "immagini": [],
+   "immagini": [
+    {
+     "file": "pitosforo-1.jpg",
+     "commons": "Pittosporum tobira.JPG",
+     "autore": "JFKCom",
+     "licenza": "CC BY-SA 3.0",
+     "url_licenza": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Pittosporum_tobira.JPG",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Pittosporum_tobira.JPG/960px-Pittosporum_tobira.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
    "fonti": [
     "Royal Horticultural Society, scheda Pittosporum tobira (rhs.org.uk)",
     "Clemson Cooperative Extension, \"Pittosporum\" (hgic.clemson.edu)"

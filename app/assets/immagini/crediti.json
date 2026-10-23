@@ -1,4 +1,15 @@
 {
+ "alloro": [
+  {
+   "file": "alloro-1.jpg",
+   "commons": "Laurus nobilis Laurel tree.jpg",
+   "autore": "G.Hagedorn",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Laurus_nobilis_Laurel_tree.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Laurus_nobilis_Laurel_tree.jpg/960px-Laurus_nobilis_Laurel_tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
  "aloe-vera": [
   {
    "file": "aloe-vera-1.jpg",
@@ -8,6 +19,17 @@
    "url_licenza": "",
    "pagina": "https://commons.wikimedia.org/wiki/File:Aloe_vera_plant.JPG",
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Aloe_vera_plant.JPG/960px-Aloe_vera_plant.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "bosso": [
+  {
+   "file": "bosso-1.jpg",
+   "commons": "Buxus sempervirens bush.jpg",
+   "autore": "Urutseg",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Buxus_sempervirens_bush.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Buxus_sempervirens_bush.jpg/960px-Buxus_sempervirens_bush.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
  "crassula": [
@@ -109,6 +131,17 @@
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/White_Nerve_Plant_%28Fittonia_albivenis%29.jpg/960px-White_Nerve_Plant_%28Fittonia_albivenis%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
+ "fotinia": [
+  {
+   "file": "fotinia-1.jpg",
+   "commons": "Photinia Red Robin.jpg",
+   "autore": "Jean-Jacques MILAN",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Photinia_Red_Robin.jpg",
+   "anteprima": "https://upload.wikimedia.org/wikipedia/commons/1/15/Photinia_Red_Robin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  }
+ ],
  "haworthia": [
   {
    "file": "haworthia-1.jpg",
@@ -131,6 +164,28 @@
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Kalanchoe_blossfeldiana_2zz.jpg/960px-Kalanchoe_blossfeldiana_2zz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
+ "lauroceraso": [
+  {
+   "file": "lauroceraso-1.jpg",
+   "commons": "Prunus laurocerasus.JPG",
+   "autore": "Retama",
+   "licenza": "CC BY-SA 4.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/4.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Prunus_laurocerasus.JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Prunus_laurocerasus.JPG/960px-Prunus_laurocerasus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "ligustro": [
+  {
+   "file": "ligustro-1.jpg",
+   "commons": "Ligustrum ovalifolium.jpg",
+   "autore": "MPF",
+   "licenza": "CC BY 2.5",
+   "url_licenza": "https://creativecommons.org/licenses/by/2.5",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Ligustrum_ovalifolium.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Ligustrum_ovalifolium.jpg/960px-Ligustrum_ovalifolium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
  "liquidambar": [
   {
    "file": "liquidambar-1.jpg",
@@ -151,6 +206,17 @@
    "url_licenza": "https://creativecommons.org/licenses/by/2.5",
    "pagina": "https://commons.wikimedia.org/wiki/File:Mammillaria_zeilmanniana.jpg",
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Mammillaria_zeilmanniana.jpg/960px-Mammillaria_zeilmanniana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "oleandro": [
+  {
+   "file": "oleandro-1.jpg",
+   "commons": "Nerium oleander (bloom).jpg",
+   "autore": "Morray",
+   "licenza": "CC BY 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Nerium_oleander_(bloom).jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Nerium_oleander_%28bloom%29.jpg/960px-Nerium_oleander_%28bloom%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
  "opuntia": [
@@ -184,6 +250,17 @@
    "url_licenza": "https://creativecommons.org/licenses/by/3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Phalaenopsis_Orchid.jpg",
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Phalaenopsis_Orchid.jpg/960px-Phalaenopsis_Orchid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "pitosforo": [
+  {
+   "file": "pitosforo-1.jpg",
+   "commons": "Pittosporum tobira.JPG",
+   "autore": "JFKCom",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Pittosporum_tobira.JPG",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Pittosporum_tobira.JPG/960px-Pittosporum_tobira.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
  "pothos": [
