@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../modello/etichette.dart';
 import '../modello/pianta.dart';
+import 'sezione.dart';
 import 'vetrina.dart';
 import 'testata.dart';
 
@@ -114,7 +115,7 @@ class SchedaPianta extends StatelessWidget {
                 intro,
               ],
               const SizedBox(height: 8),
-              _Sezione(
+              SezioneScheda(
                 icona: Icons.home_outlined,
                 titolo: 'Dove tenerla',
                 voci: [
@@ -130,7 +131,7 @@ class SchedaPianta extends StatelessWidget {
                   if (p.ambiente.note != null) ('', p.ambiente.note!),
                 ],
               ),
-              _Sezione(
+              SezioneScheda(
                 icona: Icons.wb_sunny_outlined,
                 titolo: 'Luce ed esposizione',
                 voci: [
@@ -157,7 +158,7 @@ class SchedaPianta extends StatelessWidget {
                   if (p.luce.note != null) ('', p.luce.note!),
                 ],
               ),
-              _Sezione(
+              SezioneScheda(
                 icona: Icons.water_drop_outlined,
                 titolo: 'Annaffiatura',
                 voci: [
@@ -185,7 +186,7 @@ class SchedaPianta extends StatelessWidget {
                     ),
                 ],
               ),
-              _Sezione(
+              SezioneScheda(
                 icona: Icons.science_outlined,
                 titolo: 'Concimazione',
                 voci: [
@@ -195,7 +196,7 @@ class SchedaPianta extends StatelessWidget {
                   if (p.concimazione.note != null) ('', p.concimazione.note!),
                 ],
               ),
-              _Sezione(
+              SezioneScheda(
                 icona: Icons.thermostat,
                 titolo: 'Temperatura',
                 voci: [
@@ -207,7 +208,7 @@ class SchedaPianta extends StatelessWidget {
                   if (p.temperatura.note != null) ('', p.temperatura.note!),
                 ],
               ),
-              _Sezione(
+              SezioneScheda(
                 icona: Icons.grass,
                 titolo: 'Terreno e rinvaso',
                 voci: [
@@ -218,7 +219,7 @@ class SchedaPianta extends StatelessWidget {
               if (p.comeSiPropaga.isNotEmpty)
                 _ComeSiPropaga(p.comeSiPropaga)
               else if (p.propagazione.isNotEmpty)
-                _Sezione(
+                SezioneScheda(
                   icona: Icons.content_cut,
                   titolo: 'Come si propaga',
                   voci: [
@@ -230,7 +231,7 @@ class SchedaPianta extends StatelessWidget {
                     ),
                   ],
                 ),
-              _Sezione(
+              SezioneScheda(
                 icona: Icons.pets,
                 titolo: 'Tossicità',
                 voci: [
@@ -246,7 +247,7 @@ class SchedaPianta extends StatelessWidget {
                 ],
               ),
               if (p.problemiComuni.isNotEmpty)
-                _Sezione(
+                SezioneScheda(
                   icona: Icons.healing_outlined,
                   titolo: 'Problemi comuni',
                   voci: [
@@ -254,7 +255,7 @@ class SchedaPianta extends StatelessWidget {
                       (pr.sintomo, '${pr.causa}. ${pr.rimedio}'),
                   ],
                 ),
-              _Sezione(
+              SezioneScheda(
                 icona: Icons.menu_book_outlined,
                 titolo: 'Fonti e autori',
                 voci: [
@@ -403,56 +404,4 @@ class _ComeSiPropaga extends StatelessWidget {
 
   static String _maiuscola(String s) =>
       s.isEmpty ? s : s[0].toUpperCase() + s.substring(1);
-}
-
-class _Sezione extends StatelessWidget {
-  const _Sezione({
-    required this.icona,
-    required this.titolo,
-    required this.voci,
-  });
-
-  final IconData icona;
-  final String titolo;
-
-  /// Coppie (etichetta, testo); un'etichetta vuota mostra solo il testo.
-  final List<(String, String)> voci;
-
-  @override
-  Widget build(BuildContext context) {
-    if (voci.isEmpty) return const SizedBox.shrink();
-    final tema = Theme.of(context);
-    return Padding(
-      padding: const EdgeInsets.only(top: 24),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            children: [
-              Icon(icona, color: tema.colorScheme.primary),
-              const SizedBox(width: 8),
-              Expanded(child: Text(titolo, style: tema.textTheme.titleMedium)),
-            ],
-          ),
-          const SizedBox(height: 8),
-          for (final (nome, testo) in voci)
-            Padding(
-              padding: const EdgeInsets.only(bottom: 6),
-              child: Text.rich(
-                TextSpan(
-                  children: [
-                    if (nome.isNotEmpty)
-                      TextSpan(
-                        text: '$nome: ',
-                        style: const TextStyle(fontWeight: FontWeight.w600),
-                      ),
-                    TextSpan(text: testo),
-                  ],
-                ),
-              ),
-            ),
-        ],
-      ),
-    );
-  }
 }

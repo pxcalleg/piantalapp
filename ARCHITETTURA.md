@@ -49,6 +49,7 @@ Definito in `schema/pianta.schema.json`. Campi principali:
 
 - identità: `id`, `nome_scientifico`, `sinonimi`, `famiglia`, `nomi_comuni` per lingua
 - `categorie` (appartamento, terrarium, esterno, succulenta, fiorita, pet_friendly...)
+- `gruppo`: la categoria in cui la pianta compare nell'app (appartamento, grasse, orchidee, esterno)
 - `ambiente`: interno, esterno (no / solo estate / tutto l'anno), terrarium (aperto / chiuso)
 - `luce`: livello ideale e tollerato, sole diretto, esposizione della finestra
 - `annaffiatura`: criterio ("quando..."), intervallo di giorni per stagione, segnali di troppa o poca acqua
@@ -58,6 +59,11 @@ Definito in `schema/pianta.schema.json`. Campi principali:
 - `problemi_comuni`: sintomo, causa, rimedio
 - `immagini` con autore e licenza, `fonti`, `autori`, `aggiornato`
 - `stato`: bozza, in revisione, revisionata
+
+Le schede dei funghi (`dati/funghi/`, `schema/fungo.schema.json`) finiscono
+nello stesso `piante.json`, sotto la voce `funghi`: le versioni precedenti
+dell'app la ignorano. Hanno solo scopo divulgativo, con nome comune e latino,
+habitat, stagione, aspetto, commestibilità e sosia pericolosi.
 
 I valori strutturati (enumerazioni, intervalli numerici) permettono all'app di
 filtrare ("piante per poca luce", "sicure per i gatti") e in futuro di generare

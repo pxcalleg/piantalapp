@@ -31,7 +31,7 @@ void main() {
     expect(find.text('Pothos'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.text('Sansevieria'),
-      300,
+      100,
       scrollable: elenco,
     );
     expect(find.text('Sansevieria'), findsOneWidget);

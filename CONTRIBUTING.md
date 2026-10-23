@@ -9,6 +9,8 @@ programmare: ogni pianta è un semplice file di testo.
    nuova pianta (minuscole e trattini, es. `monstera-deliciosa.yaml`).
 2. Compila i campi. Lo schema completo, con la descrizione di ogni campo, è in
    `schema/pianta.schema.json`.
+   Scegli in `gruppo` la categoria in cui la pianta compare nell'app:
+   `appartamento`, `grasse` (succulente e cactus), `orchidee` o `esterno`.
 3. Metti `stato: bozza`, il tuo handle GitHub in `autori` e la data di oggi in
    `aggiornato`.
 4. Indica in `fonti` da dove vengono le informazioni.
@@ -48,6 +50,20 @@ python scripts/valida.py
   libera e salva da solo autore e licenza.
 - **Attenzione a YAML:** scrivi `"no"` tra virgolette, altrimenti viene letto
   come valore booleano.
+
+## Schede dei funghi
+
+Le schede dei funghi sono in `dati/funghi/` e seguono `schema/fungo.schema.json`.
+Servono a conoscere le specie, **non a decidere se un fungo raccolto è
+commestibile**. Per questo:
+
+- `nome_scientifico` è obbligatorio: l'app lo mostra tra parentesi dopo il nome
+  comune, es. *Porcino (Boletus edulis)*.
+- Per ogni fungo commestibile vanno elencati in `sosia` i funghi tossici o
+  mortali con cui si può confondere, con le differenze principali.
+- Le fonti devono essere micologiche (associazioni micologiche, ASL, Centri
+  antiveleni, testi specialistici). Una scheda di funghi diventa `revisionata`
+  solo dopo il controllo di un micologo.
 
 ## Revisione
 

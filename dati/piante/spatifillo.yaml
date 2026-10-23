@@ -10,6 +10,7 @@ descrizione: >-
   Pianta da appartamento con foglie verde scuro e fiori bianchi a spata.
   Avvisa quando ha sete afflosciando le foglie.
 categorie: [appartamento, fiorita, da_ufficio]
+gruppo: appartamento
 ambiente:
   interno: true
   esterno: "no"
@@ -69,4 +70,4 @@ fonti:
   - Royal Horticultural Society, scheda Spathiphyllum wallisii (rhs.org.uk)
   - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
 autori: [piantalapp]
-aggiornato: "2026-10-18"
+aggiornato: "2026-10-23"

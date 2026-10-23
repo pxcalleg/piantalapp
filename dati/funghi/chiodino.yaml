@@ -1,0 +1,52 @@
+schema_version: 1
+id: chiodino
+stato: bozza
+nome_scientifico: Armillaria mellea
+famiglia: Physalacriaceae
+nomi_comuni:
+  it: [Chiodino, Famigliola buona, Piopparello di bosco]
+  en: [Honey fungus]
+descrizione: >-
+  Cresce in grandi cespi su ceppi e radici, color miele. È tra i funghi più
+  raccolti ma anche tra quelli che causano più intossicazioni, perché va
+  cucinato nel modo giusto.
+commestibilita: commestibile_con_cautela
+note_commestibilita: >-
+  Tossico crudo o poco cotto. Si consumano solo i cappelli, dopo una
+  bollitura di qualche minuto buttando via l'acqua, e poi una cottura lunga.
+  Anche così alcune persone non lo tollerano.
+habitat: >-
+  A cespi su ceppi, radici e tronchi di latifoglie e conifere, vivi o morti;
+  è un parassita che fa marcire il legno. Anche in parchi e giardini.
+stagione: [9, 10, 11]
+caratteristiche:
+  cappello: >-
+    Da 3 a 10 cm, giallo miele o bruno, con piccole squame scure più fitte al
+    centro.
+  sotto_il_cappello: >-
+    Lamelle bianche poi crema, che con l'età si macchiano di bruno; scendono
+    appena sul gambo.
+  gambo: >-
+    Lungo, fibroso, con un anello bianco o giallino ben visibile; gli
+    esemplari sono uniti alla base.
+  carne: Bianca, tenera nel cappello e dura e fibrosa nel gambo.
+  sporata: Bianca
+sosia:
+  - nome: Falso chiodino
+    nome_scientifico: Hypholoma fasciculare
+    commestibilita: tossico
+    differenze: >-
+      Anche lui a cespi sui ceppi, ma giallo zolfo, con lamelle giallo verdi
+      che diventano viola scuro, senza vero anello e con sapore amaro.
+  - nome: Galerina marginata
+    nome_scientifico: Galerina marginata
+    commestibilita: mortale
+    differenze: >-
+      Più piccola, bruno arancio, su legno di conifera; anellino fragile e
+      sporata bruno ruggine. Contiene le stesse tossine di Amanita phalloides
+      e può crescere accanto ai chiodini.
+fonti:
+  - Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)
+  - Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)
+autori: [piantalapp]
+aggiornato: "2026-10-23"

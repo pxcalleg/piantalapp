@@ -1,0 +1,53 @@
+schema_version: 1
+id: porcino
+stato: bozza
+nome_scientifico: Boletus edulis
+famiglia: Boletaceae
+nomi_comuni:
+  it: [Porcino, Porcino d'autunno, Brisa]
+  en: [Penny bun, Cep, King bolete]
+descrizione: >-
+  Il fungo più cercato d'Italia. Massiccio, con il cappello color nocciola e
+  sotto, al posto delle lamelle, una spugna di tubuli che si apre in piccoli
+  pori.
+commestibilita: commestibile
+note_commestibilita: >-
+  Ottimo commestibile, ma solo se giovane, sodo e sano: gli esemplari vecchi,
+  molli o pieni di larve possono causare disturbi.
+habitat: >-
+  Boschi di faggio, castagno, quercia e abete rosso, dalla collina alla
+  montagna, spesso ai margini delle radure.
+stagione: [6, 7, 8, 9, 10]
+caratteristiche:
+  cappello: >-
+    Da 5 a 25 cm, prima a mezza sfera poi convesso, bruno nocciola con il bordo
+    spesso più chiaro; liscio, un po' viscido con l'umidità.
+  sotto_il_cappello: >-
+    Tubuli e pori bianchi nei giovani, poi giallo-verdastri; non cambiano
+    colore se toccati.
+  gambo: >-
+    Robusto e panciuto, biancastro o nocciola chiaro, coperto in alto da un
+    sottile reticolo bianco in rilievo.
+  carne: Bianca e soda, non cambia colore al taglio; odore gradevole e sapore dolce.
+  sporata: Bruno olivastra
+sosia:
+  - nome: Porcino amaro
+    nome_scientifico: Tylopilus felleus
+    commestibilita: non_commestibile
+    differenze: >-
+      Pori che diventano rosati, reticolo scuro e a maglie larghe sul gambo,
+      sapore amarissimo: un solo esemplare rovina tutto il piatto.
+  - nome: Boleto satana
+    nome_scientifico: Rubroboletus satanas
+    commestibilita: tossico
+    differenze: >-
+      Cappello biancastro, pori rossi, gambo con reticolo rosso e carne che
+      diventa blu al taglio. Provoca forti disturbi gastrointestinali.
+curiosita: >-
+  Vive in simbiosi con le radici degli alberi (micorriza): per questo non si
+  riesce a coltivarlo.
+fonti:
+  - Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)
+  - Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)
+autori: [piantalapp]
+aggiornato: "2026-10-23"

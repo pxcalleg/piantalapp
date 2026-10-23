@@ -11,6 +11,7 @@ descrizione: >-
   azzurri, rosa, lilla o bianchi, da giugno a settembre. Il colore dipende dal
   terreno: azzurro se è acido, rosa se è calcareo. Ha bisogno di molta acqua.
 categorie: [esterno, balcone, fiorita]
+gruppo: esterno
 ambiente:
   interno: false
   esterno: tutto_anno
@@ -111,4 +112,4 @@ fonti:
   - University of Georgia Extension, "Hydrangeas for Georgia Gardens" (extension.uga.edu)
   - Clemson Cooperative Extension, "Hydrangea" (hgic.clemson.edu)
 autori: [piantalapp]
-aggiornato: "2026-10-18"
+aggiornato: "2026-10-23"

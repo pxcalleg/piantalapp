@@ -1,11 +1,19 @@
+/// Quello che serve all'archivio per tenere la versione più recente di una
+/// scheda, pianta o fungo.
+abstract interface class Scheda {
+  String get id;
+  String get aggiornato;
+}
+
 /// Scheda di una pianta, come definita in schema/pianta.schema.json.
-class Pianta {
+class Pianta implements Scheda {
   const Pianta({
     required this.id,
     required this.stato,
     required this.nomeScientifico,
     required this.nomiComuni,
     required this.categorie,
+    required this.gruppo,
     required this.ambiente,
     required this.difficolta,
     required this.luce,
@@ -28,6 +36,7 @@ class Pianta {
     this.immagini = const [],
   });
 
+  @override
   final String id;
   final String stato;
   final String nomeScientifico;
@@ -36,6 +45,10 @@ class Pianta {
   final Map<String, List<String>> nomiComuni;
   final String? descrizione;
   final List<String> categorie;
+
+  /// Categoria principale in cui la pianta compare nell'elenco:
+  /// 'appartamento', 'grasse', 'orchidee' o 'esterno'.
+  final String gruppo;
   final Ambiente ambiente;
   final int difficolta;
   final Luce luce;
@@ -54,6 +67,7 @@ class Pianta {
   final List<Immagine> immagini;
   final List<String> fonti;
   final List<String> autori;
+  @override
   final String aggiornato;
 
   /// Nome principale in italiano, o il nome scientifico se manca.
@@ -72,6 +86,7 @@ class Pianta {
     ),
     descrizione: j['descrizione'] as String?,
     categorie: _stringhe(j['categorie']),
+    gruppo: j['gruppo'] as String? ?? _gruppoDa(_stringhe(j['categorie'])),
     ambiente: Ambiente.fromJson(j['ambiente'] as Map<String, dynamic>),
     difficolta: j['difficolta'] as int,
     luce: Luce.fromJson(j['luce'] as Map<String, dynamic>),
@@ -340,6 +355,15 @@ class Immagine {
     anteprima: j['anteprima'] as String,
     didascalia: j['didascalia'] as String?,
   );
+}
+
+/// Per le schede salvate prima che esistesse il campo `gruppo`.
+String _gruppoDa(List<String> categorie) {
+  if (categorie.contains('succulenta')) return 'grasse';
+  if (!categorie.contains('appartamento') && categorie.contains('esterno')) {
+    return 'esterno';
+  }
+  return 'appartamento';
 }
 
 List<String> _stringhe(Object? v) =>

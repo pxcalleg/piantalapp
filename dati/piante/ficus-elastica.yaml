@@ -11,6 +11,7 @@ descrizione: >-
   variegate. In casa diventa un alberello alto anche due metri ed è più
   tollerante del Ficus benjamina.
 categorie: [appartamento, da_ufficio]
+gruppo: appartamento
 ambiente:
   interno: true
   esterno: estate
@@ -92,4 +93,4 @@ fonti:
   - Royal Horticultural Society, scheda Ficus elastica (rhs.org.uk)
   - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
 autori: [piantalapp]
-aggiornato: "2026-10-18"
+aggiornato: "2026-10-23"

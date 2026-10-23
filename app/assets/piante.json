@@ -26,6 +26,7 @@
     "balcone",
     "succulenta"
    ],
+   "gruppo": "grasse",
    "ambiente": {
     "interno": true,
     "esterno": "estate",
@@ -143,7 +144,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -173,6 +174,7 @@
     "balcone",
     "succulenta"
    ],
+   "gruppo": "grasse",
    "ambiente": {
     "interno": true,
     "esterno": "estate",
@@ -306,7 +308,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -332,6 +334,7 @@
     "fiorita",
     "balcone"
    ],
+   "gruppo": "orchidee",
    "ambiente": {
     "interno": true,
     "esterno": "estate",
@@ -447,7 +450,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -470,6 +473,7 @@
     "appartamento",
     "fiorita"
    ],
+   "gruppo": "orchidee",
    "ambiente": {
     "interno": true,
     "esterno": "estate",
@@ -617,7 +621,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -643,6 +647,7 @@
     "succulenta",
     "pet_friendly"
    ],
+   "gruppo": "grasse",
    "ambiente": {
     "interno": true,
     "esterno": "estate",
@@ -802,7 +807,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -825,6 +830,7 @@
     "appartamento",
     "da_ufficio"
    ],
+   "gruppo": "appartamento",
    "ambiente": {
     "interno": true,
     "esterno": "estate",
@@ -946,7 +952,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -968,6 +974,7 @@
     "appartamento",
     "da_ufficio"
    ],
+   "gruppo": "appartamento",
    "ambiente": {
     "interno": true,
     "esterno": "estate",
@@ -1102,7 +1109,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -1126,6 +1133,7 @@
     "appartamento",
     "da_ufficio"
    ],
+   "gruppo": "appartamento",
    "ambiente": {
     "interno": true,
     "esterno": "estate",
@@ -1261,7 +1269,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -1282,6 +1290,7 @@
    "categorie": [
     "appartamento"
    ],
+   "gruppo": "appartamento",
    "ambiente": {
     "interno": true,
     "esterno": "estate",
@@ -1416,7 +1425,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -1440,6 +1449,7 @@
     "terrarium",
     "pet_friendly"
    ],
+   "gruppo": "appartamento",
    "ambiente": {
     "interno": true,
     "esterno": "no",
@@ -1566,7 +1576,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -1594,6 +1604,7 @@
     "da_ufficio",
     "pet_friendly"
    ],
+   "gruppo": "grasse",
    "ambiente": {
     "interno": true,
     "esterno": "estate",
@@ -1726,7 +1737,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -1751,6 +1762,7 @@
     "fiorita",
     "balcone"
    ],
+   "gruppo": "grasse",
    "ambiente": {
     "interno": true,
     "esterno": "estate",
@@ -1879,7 +1891,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -1901,6 +1913,7 @@
    "categorie": [
     "esterno"
    ],
+   "gruppo": "esterno",
    "ambiente": {
     "interno": false,
     "esterno": "tutto_anno",
@@ -2035,7 +2048,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -2061,6 +2074,7 @@
     "succulenta",
     "fiorita"
    ],
+   "gruppo": "grasse",
    "ambiente": {
     "interno": true,
     "esterno": "estate",
@@ -2191,7 +2205,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -2216,6 +2230,7 @@
     "balcone",
     "succulenta"
    ],
+   "gruppo": "grasse",
    "ambiente": {
     "interno": true,
     "esterno": "estate",
@@ -2346,7 +2361,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -2370,6 +2385,7 @@
     "balcone",
     "fiorita"
    ],
+   "gruppo": "esterno",
    "ambiente": {
     "interno": false,
     "esterno": "tutto_anno",
@@ -2502,7 +2518,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -2531,6 +2547,7 @@
     "da_ufficio",
     "pet_friendly"
    ],
+   "gruppo": "orchidee",
    "ambiente": {
     "interno": true,
     "esterno": "no",
@@ -2652,7 +2669,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -2681,6 +2698,7 @@
     "ricadente",
     "da_ufficio"
    ],
+   "gruppo": "appartamento",
    "ambiente": {
     "interno": true,
     "esterno": "no",
@@ -2807,7 +2825,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -2832,6 +2850,7 @@
     "fiorita",
     "pet_friendly"
    ],
+   "gruppo": "esterno",
    "ambiente": {
     "interno": false,
     "esterno": "tutto_anno",
@@ -2954,7 +2973,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -2980,6 +2999,7 @@
     "fiorita",
     "pet_friendly"
    ],
+   "gruppo": "esterno",
    "ambiente": {
     "interno": false,
     "esterno": "tutto_anno",
@@ -3102,7 +3122,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -3127,6 +3147,7 @@
     "fiorita",
     "pet_friendly"
    ],
+   "gruppo": "esterno",
    "ambiente": {
     "interno": false,
     "esterno": "tutto_anno",
@@ -3248,7 +3269,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -3271,6 +3292,7 @@
     "fiorita",
     "pet_friendly"
    ],
+   "gruppo": "esterno",
    "ambiente": {
     "interno": false,
     "esterno": "tutto_anno",
@@ -3408,7 +3430,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -3433,6 +3455,7 @@
     "fiorita",
     "pet_friendly"
    ],
+   "gruppo": "esterno",
    "ambiente": {
     "interno": false,
     "esterno": "tutto_anno",
@@ -3555,7 +3578,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -3582,6 +3605,7 @@
     "succulenta",
     "da_ufficio"
    ],
+   "gruppo": "appartamento",
    "ambiente": {
     "interno": true,
     "esterno": "estate",
@@ -3710,7 +3734,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -3733,6 +3757,7 @@
     "fiorita",
     "da_ufficio"
    ],
+   "gruppo": "appartamento",
    "ambiente": {
     "interno": true,
     "esterno": "no",
@@ -3845,7 +3870,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
   },
   {
    "schema_version": 1,
@@ -3871,6 +3896,7 @@
     "appartamento",
     "fiorita"
    ],
+   "gruppo": "appartamento",
    "ambiente": {
     "interno": true,
     "esterno": "no",
@@ -3984,7 +4010,304 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-18"
+   "aggiornato": "2026-10-23"
+  }
+ ],
+ "funghi": [
+  {
+   "schema_version": 1,
+   "id": "chiodino",
+   "stato": "bozza",
+   "nome_scientifico": "Armillaria mellea",
+   "famiglia": "Physalacriaceae",
+   "nomi_comuni": {
+    "it": [
+     "Chiodino",
+     "Famigliola buona",
+     "Piopparello di bosco"
+    ],
+    "en": [
+     "Honey fungus"
+    ]
+   },
+   "descrizione": "Cresce in grandi cespi su ceppi e radici, color miele. È tra i funghi più raccolti ma anche tra quelli che causano più intossicazioni, perché va cucinato nel modo giusto.",
+   "commestibilita": "commestibile_con_cautela",
+   "note_commestibilita": "Tossico crudo o poco cotto. Si consumano solo i cappelli, dopo una bollitura di qualche minuto buttando via l'acqua, e poi una cottura lunga. Anche così alcune persone non lo tollerano.",
+   "habitat": "A cespi su ceppi, radici e tronchi di latifoglie e conifere, vivi o morti; è un parassita che fa marcire il legno. Anche in parchi e giardini.",
+   "stagione": [
+    9,
+    10,
+    11
+   ],
+   "caratteristiche": {
+    "cappello": "Da 3 a 10 cm, giallo miele o bruno, con piccole squame scure più fitte al centro.",
+    "sotto_il_cappello": "Lamelle bianche poi crema, che con l'età si macchiano di bruno; scendono appena sul gambo.",
+    "gambo": "Lungo, fibroso, con un anello bianco o giallino ben visibile; gli esemplari sono uniti alla base.",
+    "carne": "Bianca, tenera nel cappello e dura e fibrosa nel gambo.",
+    "sporata": "Bianca"
+   },
+   "sosia": [
+    {
+     "nome": "Falso chiodino",
+     "nome_scientifico": "Hypholoma fasciculare",
+     "commestibilita": "tossico",
+     "differenze": "Anche lui a cespi sui ceppi, ma giallo zolfo, con lamelle giallo verdi che diventano viola scuro, senza vero anello e con sapore amaro."
+    },
+    {
+     "nome": "Galerina marginata",
+     "nome_scientifico": "Galerina marginata",
+     "commestibilita": "mortale",
+     "differenze": "Più piccola, bruno arancio, su legno di conifera; anellino fragile e sporata bruno ruggine. Contiene le stesse tossine di Amanita phalloides e può crescere accanto ai chiodini."
+    }
+   ],
+   "fonti": [
+    "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
+    "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "finferlo",
+   "stato": "bozza",
+   "nome_scientifico": "Cantharellus cibarius",
+   "famiglia": "Cantharellaceae",
+   "nomi_comuni": {
+    "it": [
+     "Finferlo",
+     "Gallinaccio",
+     "Galletto",
+     "Cantarello"
+    ],
+    "en": [
+     "Chanterelle",
+     "Golden chanterelle"
+    ]
+   },
+   "descrizione": "Fungo giallo uovo a forma di piccolo imbuto, con il profumo che ricorda l'albicocca. Sotto il cappello non ha vere lamelle ma pieghe spesse.",
+   "commestibilita": "commestibile",
+   "note_commestibilita": "Ottimo commestibile, da consumare ben cotto.",
+   "habitat": "Boschi di latifoglie e di conifere, spesso tra il muschio, su terreni acidi; dalla collina alla montagna.",
+   "stagione": [
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "caratteristiche": {
+    "cappello": "Da 2 a 10 cm, giallo uovo o giallo arancio, prima convesso poi a imbuto, con il bordo ondulato e irregolare.",
+    "sotto_il_cappello": "Pieghe (false lamelle) spesse, basse, ramificate, che scendono lungo il gambo; dello stesso colore del cappello.",
+    "gambo": "Pieno e sodo, giallo, più sottile verso la base.",
+    "carne": "Bianca o giallina, fibrosa; odore fruttato di albicocca.",
+    "sporata": "Crema o ocra pallido"
+   },
+   "sosia": [
+    {
+     "nome": "Fungo dell'olivo",
+     "nome_scientifico": "Omphalotus olearius",
+     "commestibilita": "tossico",
+     "differenze": "Cresce a grandi cespi su ceppi e radici di olivo, quercia e castagno; arancio intenso, con vere lamelle sottili e fitte. Causa vomito e diarrea violenti."
+    },
+    {
+     "nome": "Falso gallinaccio",
+     "nome_scientifico": "Hygrophoropsis aurantiaca",
+     "commestibilita": "non_commestibile",
+     "differenze": "Arancione più carico, vere lamelle fitte e sottili che si biforcano, carne molle e senza profumo; spesso su legno marcio di conifera."
+    }
+   ],
+   "fonti": [
+    "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
+    "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "ovolo-buono",
+   "stato": "bozza",
+   "nome_scientifico": "Amanita caesarea",
+   "famiglia": "Amanitaceae",
+   "nomi_comuni": {
+    "it": [
+     "Ovolo buono",
+     "Ovolo reale",
+     "Fungo reale"
+    ],
+    "en": [
+     "Caesar's mushroom"
+    ]
+   },
+   "descrizione": "Nasce chiuso in un involucro bianco simile a un uovo, da cui esce un cappello arancio vivo. Elegante e pregiato, ma è parente stretto delle amanite mortali.",
+   "commestibilita": "commestibile",
+   "note_commestibilita": "Ottimo commestibile da adulto, quando il cappello arancio, le lamelle e il gambo gialli sono ben visibili. Allo stadio di «ovulo» chiuso si confonde con gli ovuli mortali di Amanita phalloides: in diverse regioni raccoglierlo chiuso è vietato.",
+   "habitat": "Boschi luminosi e caldi di querce e castagni, in collina, su terreni ben drenati.",
+   "stagione": [
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "caratteristiche": {
+    "cappello": "Da 8 a 20 cm, arancio o rosso arancio, liscio e lucido, con il bordo striato; raramente porta qualche lembo bianco dell'involucro.",
+    "sotto_il_cappello": "Lamelle fitte, libere, giallo oro.",
+    "gambo": "Giallo, con un ampio anello giallo pendente; la base è avvolta da una volva bianca a sacco, larga e spessa.",
+    "carne": "Bianca, giallina sotto la pelle del cappello; odore e sapore delicati.",
+    "sporata": "Bianca"
+   },
+   "sosia": [
+    {
+     "nome": "Tignosa verdognola",
+     "nome_scientifico": "Amanita phalloides",
+     "commestibilita": "mortale",
+     "differenze": "Allo stadio di ovulo è quasi identica. Tagliandola a metà, dentro si vede un abbozzo bianco o verdastro invece che giallo arancio. È proprio questa confusione a rendere pericolosa la raccolta degli ovoli chiusi."
+    },
+    {
+     "nome": "Ovolo malefico",
+     "nome_scientifico": "Amanita muscaria",
+     "commestibilita": "tossico",
+     "differenze": "Cappello rosso coperto di verruche bianche (che la pioggia può lavare via), lamelle e gambo bianchi, volva ridotta ad anelli di verruche alla base del gambo."
+    }
+   ],
+   "curiosita": "Il nome latino ricorda che era il fungo preferito degli imperatori romani.",
+   "fonti": [
+    "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
+    "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "porcino",
+   "stato": "bozza",
+   "nome_scientifico": "Boletus edulis",
+   "famiglia": "Boletaceae",
+   "nomi_comuni": {
+    "it": [
+     "Porcino",
+     "Porcino d'autunno",
+     "Brisa"
+    ],
+    "en": [
+     "Penny bun",
+     "Cep",
+     "King bolete"
+    ]
+   },
+   "descrizione": "Il fungo più cercato d'Italia. Massiccio, con il cappello color nocciola e sotto, al posto delle lamelle, una spugna di tubuli che si apre in piccoli pori.",
+   "commestibilita": "commestibile",
+   "note_commestibilita": "Ottimo commestibile, ma solo se giovane, sodo e sano: gli esemplari vecchi, molli o pieni di larve possono causare disturbi.",
+   "habitat": "Boschi di faggio, castagno, quercia e abete rosso, dalla collina alla montagna, spesso ai margini delle radure.",
+   "stagione": [
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "caratteristiche": {
+    "cappello": "Da 5 a 25 cm, prima a mezza sfera poi convesso, bruno nocciola con il bordo spesso più chiaro; liscio, un po' viscido con l'umidità.",
+    "sotto_il_cappello": "Tubuli e pori bianchi nei giovani, poi giallo-verdastri; non cambiano colore se toccati.",
+    "gambo": "Robusto e panciuto, biancastro o nocciola chiaro, coperto in alto da un sottile reticolo bianco in rilievo.",
+    "carne": "Bianca e soda, non cambia colore al taglio; odore gradevole e sapore dolce.",
+    "sporata": "Bruno olivastra"
+   },
+   "sosia": [
+    {
+     "nome": "Porcino amaro",
+     "nome_scientifico": "Tylopilus felleus",
+     "commestibilita": "non_commestibile",
+     "differenze": "Pori che diventano rosati, reticolo scuro e a maglie larghe sul gambo, sapore amarissimo: un solo esemplare rovina tutto il piatto."
+    },
+    {
+     "nome": "Boleto satana",
+     "nome_scientifico": "Rubroboletus satanas",
+     "commestibilita": "tossico",
+     "differenze": "Cappello biancastro, pori rossi, gambo con reticolo rosso e carne che diventa blu al taglio. Provoca forti disturbi gastrointestinali."
+    }
+   ],
+   "curiosita": "Vive in simbiosi con le radici degli alberi (micorriza): per questo non si riesce a coltivarlo.",
+   "fonti": [
+    "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
+    "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "tignosa-verdognola",
+   "stato": "bozza",
+   "nome_scientifico": "Amanita phalloides",
+   "famiglia": "Amanitaceae",
+   "nomi_comuni": {
+    "it": [
+     "Tignosa verdognola",
+     "Amanita falloide"
+    ],
+    "en": [
+     "Death cap"
+    ]
+   },
+   "descrizione": "Il fungo più pericoloso d'Europa, causa della maggior parte delle morti per funghi. È qui perché impararlo a riconoscere è la prima regola di chi va per boschi.",
+   "commestibilita": "mortale",
+   "note_commestibilita": "Mortale anche cotto: le sue tossine (amanitine) non si distruggono con la cottura né con l'essiccazione e danneggiano il fegato. Un solo esemplare può bastare a uccidere un adulto. I sintomi compaiono tardi, da 6 a 24 ore dopo il pasto, quando il danno è già in corso. Al minimo dubbio chiama subito un Centro antiveleni.",
+   "habitat": "Boschi di latifoglie, soprattutto querce, castagni e faggi, ma anche di conifere e nei parchi cittadini; dalla pianura alla collina.",
+   "stagione": [
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "caratteristiche": {
+    "cappello": "Da 5 a 15 cm, verde oliva o giallo verdastro, a volte quasi bianco, con sottili fibre scure che partono dal centro; liscio, di solito senza verruche.",
+    "sotto_il_cappello": "Lamelle bianche, fitte, libere dal gambo.",
+    "gambo": "Bianco con zebrature verdastre, anello bianco a gonnellino e base a bulbo avvolta da una volva bianca a sacco.",
+    "carne": "Bianca; odore debole da giovane, sgradevole negli esemplari vecchi.",
+    "sporata": "Bianca"
+   },
+   "sosia": [
+    {
+     "nome": "Prataiolo",
+     "nome_scientifico": "Agaricus campestris",
+     "commestibilita": "commestibile",
+     "differenze": "Lamelle rosa che diventano bruno nere, nessuna volva alla base del gambo; cresce nei prati, non nel bosco."
+    },
+    {
+     "nome": "Colombina verde",
+     "nome_scientifico": "Russula virescens",
+     "commestibilita": "commestibile",
+     "differenze": "Né anello né volva; cappello verde screpolato a piccole placche e carne gessosa che si spezza come un gessetto."
+    },
+    {
+     "nome": "Ovolo buono",
+     "nome_scientifico": "Amanita caesarea",
+     "commestibilita": "commestibile",
+     "differenze": "Si confonde allo stadio di ovulo chiuso. Tagliato a metà, l'ovulo dell'ovolo buono mostra dentro il cappello giallo arancio; quello della tignosa è bianco o verdastro."
+    }
+   ],
+   "fonti": [
+    "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
+    "Centro Antiveleni di Milano, Ospedale Niguarda (ospedaleniguarda.it)",
+    "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
   }
  ]
 }

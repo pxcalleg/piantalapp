@@ -6,6 +6,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
 
+import '../modello/fungo.dart';
 import '../modello/pianta.dart';
 
 /// Versione dello schema dati che questa versione dell'app sa leggere.
@@ -28,9 +29,11 @@ class ArchivioPiante extends ChangeNotifier {
   final Future<Directory> Function() _cartella;
 
   List<Pianta> _piante = const [];
+  List<Fungo> _funghi = const [];
   bool _caricato = false;
 
   List<Pianta> get piante => _piante;
+  List<Fungo> get funghi => _funghi;
   bool get caricato => _caricato;
 
   Future<File> get _fileCache async =>
@@ -39,14 +42,17 @@ class ArchivioPiante extends ChangeNotifier {
   /// Legge la copia salvata o, la prima volta, quella inclusa nell'app.
   Future<void> carica() async {
     List<Pianta>? piante;
-    final incluse =
-        leggiPacchetto(await rootBundle.loadString('assets/piante.json')) ??
-        const [];
+    List<Fungo>? funghi;
+    final pacchetto = await rootBundle.loadString('assets/piante.json');
+    final incluse = leggiPacchetto(pacchetto) ?? const [];
+    final funghiInclusi = leggiFunghi(pacchetto) ?? const [];
     if (!kIsWeb) {
       try {
         final cache = await _fileCache;
         if (await cache.exists()) {
-          piante = leggiPacchetto(await cache.readAsString());
+          final salvato = await cache.readAsString();
+          piante = leggiPacchetto(salvato);
+          funghi = leggiFunghi(salvato);
         }
       } catch (e) {
         debugPrint('Copia salvata non leggibile: $e');
@@ -55,6 +61,7 @@ class ArchivioPiante extends ChangeNotifier {
     // Dopo un aggiornamento dell'app le schede incluse possono essere più
     // recenti di quelle salvate: si tiene la versione più nuova di ciascuna.
     _piante = unisci(incluse, piante ?? const []);
+    _funghi = unisci(funghiInclusi, funghi ?? const []);
     _caricato = true;
     notifyListeners();
   }
@@ -74,11 +81,10 @@ class ArchivioPiante extends ChangeNotifier {
       // Sul web il browser fa già da cache; il file locale serve solo sul telefono.
       if (!kIsWeb) await (await _fileCache).writeAsString(testo);
       final unite = unisci(_piante, nuove);
-      final cambiate =
-          unite.length != _piante.length ||
-          Iterable.generate(unite.length)
-              .any((i) => !identical(unite[i], _piante[i]));
+      final funghi = unisci(_funghi, leggiFunghi(testo) ?? const <Fungo>[]);
+      final cambiate = _diverse(unite, _piante) || _diverse(funghi, _funghi);
       _piante = unite;
+      _funghi = funghi;
       if (cambiate) notifyListeners();
       return cambiate;
     } catch (e) {
@@ -88,9 +94,13 @@ class ArchivioPiante extends ChangeNotifier {
   }
 }
 
-/// Unisce due elenchi di schede tenendo, per ogni pianta, quella con la data
-/// `aggiornato` più recente; a parità di data vince [attuali].
-List<Pianta> unisci(List<Pianta> attuali, List<Pianta> nuove) {
+bool _diverse(List<Scheda> a, List<Scheda> b) =>
+    a.length != b.length ||
+    Iterable.generate(a.length).any((i) => !identical(a[i], b[i]));
+
+/// Unisce due elenchi di schede tenendo, per ogni pianta o fungo, quella con
+/// la data `aggiornato` più recente; a parità di data vince [attuali].
+List<T> unisci<T extends Scheda>(List<T> attuali, List<T> nuove) {
   final perId = {for (final p in attuali) p.id: p};
   for (final p in nuove) {
     final vecchia = perId[p.id];
@@ -108,5 +118,15 @@ List<Pianta>? leggiPacchetto(String testo) {
   if ((dati['schema_version'] as int) > versioneSchemaSupportata) return null;
   return (dati['piante'] as List)
       .map((p) => Pianta.fromJson(p as Map<String, dynamic>))
+      .toList();
+}
+
+/// I funghi dello stesso pacchetto. I pacchetti precedenti alla sezione
+/// Funghi non hanno la voce e danno un elenco vuoto.
+List<Fungo>? leggiFunghi(String testo) {
+  final dati = jsonDecode(testo) as Map<String, dynamic>;
+  if ((dati['schema_version'] as int) > versioneSchemaSupportata) return null;
+  return ((dati['funghi'] as List?) ?? const [])
+      .map((f) => Fungo.fromJson(f as Map<String, dynamic>))
       .toList();
 }

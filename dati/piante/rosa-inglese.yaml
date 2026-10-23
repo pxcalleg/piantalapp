@@ -12,6 +12,7 @@ descrizione: >-
   più note sono le rose inglesi di David Austin come 'Graham Thomas',
   'Gertrude Jekyll', 'Glamis Castle' e 'Lady of Shalott'.
 categorie: [esterno, balcone, fiorita, pet_friendly]
+gruppo: esterno
 ambiente:
   interno: false
   esterno: tutto_anno
@@ -99,4 +100,4 @@ fonti:
   - University of Minnesota Extension, "Growing roses" (extension.umn.edu)
   - Clemson Cooperative Extension, "Roses" (hgic.clemson.edu)
 autori: [piantalapp]
-aggiornato: "2026-10-18"
+aggiornato: "2026-10-23"

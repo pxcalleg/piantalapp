@@ -1,0 +1,54 @@
+schema_version: 1
+id: ovolo-buono
+stato: bozza
+nome_scientifico: Amanita caesarea
+famiglia: Amanitaceae
+nomi_comuni:
+  it: [Ovolo buono, Ovolo reale, Fungo reale]
+  en: [Caesar's mushroom]
+descrizione: >-
+  Nasce chiuso in un involucro bianco simile a un uovo, da cui esce un
+  cappello arancio vivo. Elegante e pregiato, ma è parente stretto delle
+  amanite mortali.
+commestibilita: commestibile
+note_commestibilita: >-
+  Ottimo commestibile da adulto, quando il cappello arancio, le lamelle e il
+  gambo gialli sono ben visibili. Allo stadio di «ovulo» chiuso si confonde
+  con gli ovuli mortali di Amanita phalloides: in diverse regioni raccoglierlo
+  chiuso è vietato.
+habitat: >-
+  Boschi luminosi e caldi di querce e castagni, in collina, su terreni ben
+  drenati.
+stagione: [6, 7, 8, 9, 10]
+caratteristiche:
+  cappello: >-
+    Da 8 a 20 cm, arancio o rosso arancio, liscio e lucido, con il bordo
+    striato; raramente porta qualche lembo bianco dell'involucro.
+  sotto_il_cappello: Lamelle fitte, libere, giallo oro.
+  gambo: >-
+    Giallo, con un ampio anello giallo pendente; la base è avvolta da una
+    volva bianca a sacco, larga e spessa.
+  carne: Bianca, giallina sotto la pelle del cappello; odore e sapore delicati.
+  sporata: Bianca
+sosia:
+  - nome: Tignosa verdognola
+    nome_scientifico: Amanita phalloides
+    commestibilita: mortale
+    differenze: >-
+      Allo stadio di ovulo è quasi identica. Tagliandola a metà, dentro si
+      vede un abbozzo bianco o verdastro invece che giallo arancio. È proprio questa confusione a rendere
+      pericolosa la raccolta degli ovoli chiusi.
+  - nome: Ovolo malefico
+    nome_scientifico: Amanita muscaria
+    commestibilita: tossico
+    differenze: >-
+      Cappello rosso coperto di verruche bianche (che la pioggia può lavare
+      via), lamelle e gambo bianchi, volva ridotta ad anelli di verruche alla
+      base del gambo.
+curiosita: >-
+  Il nome latino ricorda che era il fungo preferito degli imperatori romani.
+fonti:
+  - Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)
+  - Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)
+autori: [piantalapp]
+aggiornato: "2026-10-23"
