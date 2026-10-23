@@ -1,0 +1,97 @@
+schema_version: 1
+id: timo
+stato: bozza
+nome_scientifico: Thymus vulgaris
+famiglia: Lamiaceae
+nomi_comuni:
+  it:
+  - Timo
+  en:
+  - Thyme
+  - Common thyme
+descrizione: Piccolo cespuglio perenne con foglioline profumatissime e fiori rosa
+  chiaro amati dalle api. Perfetto in vaso o tra i sassi.
+categorie:
+- esterno
+- balcone
+- fiorita
+- pet_friendly
+gruppo: aromatiche
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: Fuori tutto l'anno; resiste al gelo ma non al terreno bagnato.
+difficolta: 1
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - ovest
+annaffiatura:
+  quando: Solo quando il terriccio è ben asciutto; sopporta la siccità.
+  primavera_estate:
+    min: 5
+    max: 10
+  autunno_inverno:
+    min: 20
+    max: 30
+  segnali_troppa: Rametti che anneriscono e seccano dal centro.
+  segnali_poca: Foglie che si seccano sulle punte.
+umidita: bassa
+concimazione:
+  mesi:
+  - 4
+  - 5
+  frequenza_giorni:
+    min: 45
+    max: 60
+  tipo: 'Quasi niente: una manciata di concime a lenta cessione in primavera.'
+temperatura:
+  min_c: -15
+  ideale_min_c: 10
+  ideale_max_c: 32
+terreno: Terreno povero, sassoso e molto drenante, anche calcareo.
+rinvaso: Ogni 2-3 anni in primavera. Dopo la fioritura spunta i rami per tenerlo
+  compatto.
+propagazione:
+- talea_fusto
+- divisione
+come_si_propaga:
+- metodo: talea_fusto
+  quando: In primavera o a fine estate.
+  passi:
+  - Taglia una punta non fiorita di 8-10 cm, appena sotto un nodo.
+  - Togli le foglie della metà bassa.
+  - Interrala in terriccio leggero misto a sabbia e annaffia.
+  - Tienila in un posto luminoso ma senza sole forte, con il terriccio appena umido.
+  tempo: Radica in 3-4 settimane.
+  difficolta: facile
+- metodo: divisione
+  quando: In primavera.
+  passi:
+  - Estrai la pianta dal vaso o scalza il cespo con la vanga.
+  - Dividi la zolla in due o più parti, ognuna con radici e germogli.
+  - Rinvasa ogni parte in terriccio fresco alla stessa profondità di prima.
+  - Annaffia e tienila in mezz'ombra per qualche giorno.
+  tempo: Riprende in 2-4 settimane.
+  difficolta: facile
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Non tossico per cani e gatti secondo l'ASPCA.
+problemi_comuni:
+- sintomo: Base del fusto molle e scura, pianta che appassisce
+  causa: Marciume delle radici per troppa acqua
+  rimedio: Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante.
+immagini:
+- commons: Thymus vulgaris 'Common thyme' (Lamiaceae) plant.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

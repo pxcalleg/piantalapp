@@ -1,0 +1,107 @@
+schema_version: 1
+id: menta
+stato: bozza
+nome_scientifico: Mentha spicata
+famiglia: Lamiaceae
+nomi_comuni:
+  it:
+  - Menta
+  - Menta romana
+  - Menta verde
+  en:
+  - Spearmint
+  - Mint
+descrizione: 'Erba perenne vigorosa e profumata, per mojito, tè e insalate. Si espande
+  con stoloni sotterranei: meglio tenerla in un vaso suo.'
+categorie:
+- esterno
+- balcone
+gruppo: aromatiche
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: D'inverno perde le foglie e ricaccia in primavera.
+difficolta: 1
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - sole_diretto
+  - media_indiretta
+  sole_diretto: solo_mattino
+  esposizione:
+  - est
+  - ovest
+  - nord
+annaffiatura:
+  quando: 'Il terriccio deve restare sempre un po'' umido: è una delle poche aromatiche
+    che ama l''acqua.'
+  primavera_estate:
+    min: 1
+    max: 3
+  autunno_inverno:
+    min: 7
+    max: 14
+  segnali_troppa: Foglie gialle e odore di marcio nel vaso.
+  segnali_poca: Foglie molli e bordi secchi.
+umidita: media
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  frequenza_giorni:
+    min: 21
+    max: 30
+  tipo: Concime liquido per aromatiche o universale.
+temperatura:
+  min_c: -15
+  ideale_min_c: 12
+  ideale_max_c: 28
+terreno: Terriccio fresco, ricco e che trattenga un po' d'acqua.
+rinvaso: Ogni anno in primavera, dividendo il cespo che altrimenti riempie il vaso
+  di radici.
+propagazione:
+- divisione
+- talea_in_acqua
+come_si_propaga:
+- metodo: divisione
+  quando: In primavera.
+  passi:
+  - Estrai la pianta dal vaso o scalza il cespo con la vanga.
+  - Dividi la zolla in due o più parti, ognuna con radici e germogli.
+  - Rinvasa ogni parte in terriccio fresco alla stessa profondità di prima.
+  - Annaffia e tienila in mezz'ombra per qualche giorno.
+  tempo: Riprende in 2-4 settimane.
+  difficolta: facile
+- metodo: talea_in_acqua
+  quando: Da aprile a settembre.
+  passi:
+  - Taglia un rametto di 10 cm.
+  - Togli le foglie basse e mettilo in un bicchiere d'acqua.
+  - Cambia l'acqua ogni 2-3 giorni.
+  - Invasalo quando ha radici di qualche centimetro.
+  tempo: Radica in 1 settimana.
+  difficolta: facile
+tossicita:
+  animali: lieve
+  persone: non_tossica
+  note: Per l'ASPCA la menta può dare vomito e diarrea a cani e gatti se ne mangiano
+    in quantità. L'olio essenziale è tossico per i gatti.
+problemi_comuni:
+- sintomo: Macchie arancio sotto le foglie
+  causa: Ruggine della menta
+  rimedio: Tagliare tutta la parte aerea e bruciarla o buttarla; ricresce sana.
+- sintomo: Foglie puntinate di giallo con sottili ragnatele
+  causa: Ragnetto rosso, favorito da aria secca e caldo
+  rimedio: Lavare le foglie, aumentare l'umidità e, se serve, usare un acaricida.
+immagini:
+- commons: Mentha spicata var. viridis 001.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

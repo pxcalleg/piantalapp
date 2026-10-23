@@ -288,6 +288,260 @@
   },
   {
    "schema_version": 1,
+   "id": "anthurium",
+   "stato": "bozza",
+   "nome_scientifico": "Anthurium andraeanum",
+   "famiglia": "Araceae",
+   "nomi_comuni": {
+    "it": [
+     "Anthurium",
+     "Anturio"
+    ],
+    "en": [
+     "Flamingo flower",
+     "Anthurium"
+    ]
+   },
+   "descrizione": "Pianta da appartamento con foglie a cuore e «fiori» lucidi rossi, rosa o bianchi (in realtà una foglia colorata, la spata) che durano settimane.",
+   "categorie": [
+    "appartamento",
+    "fiorita",
+    "da_ufficio"
+   ],
+   "gruppo": "appartamento",
+   "ambiente": {
+    "interno": true,
+    "esterno": "no",
+    "terrarium": "no",
+    "note": "In casa, al caldo e lontano da correnti fredde e termosifoni."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "media_indiretta"
+    ],
+    "sole_diretto": "no",
+    "esposizione": [
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Quando i primi 2-3 cm di terriccio sono asciutti, con acqua non calcarea.",
+    "primavera_estate": {
+     "min": 5,
+     "max": 7
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 14
+    },
+    "segnali_troppa": "Foglie gialle e radici marce.",
+    "segnali_poca": "Foglie con punte secche e spate che sbiadiscono."
+   },
+   "umidita": "alta",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime liquido per piante fiorite a metà dose."
+   },
+   "temperatura": {
+    "min_c": 15,
+    "ideale_min_c": 18,
+    "ideale_max_c": 28
+   },
+   "terreno": "Terriccio leggero per orchidee o per piante acidofile con corteccia.",
+   "rinvaso": "Ogni 2 anni in primavera, in un vaso poco più grande.",
+   "propagazione": [
+    "divisione"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "In primavera, al rinvaso.",
+     "passi": [
+      "Estrai la pianta dal vaso o scalza il cespo con la vanga.",
+      "Dividi la zolla in due o più parti, ognuna con radici e germogli.",
+      "Rinvasa ogni parte in terriccio fresco alla stessa profondità di prima.",
+      "Annaffia e tienila in mezz'ombra per qualche giorno."
+     ],
+     "tempo": "Riprende in 1 mese.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "lieve",
+    "note": "Contiene ossalato di calcio: dà bruciore alla bocca, bava e vomito a cani e gatti; nei bambini irrita bocca e gola."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Niente fiori",
+     "causa": "Poca luce",
+     "rimedio": "Spostarla in un punto più luminoso, senza sole diretto."
+    },
+    {
+     "sintomo": "Batuffoli bianchi o scudetti sui rami",
+     "causa": "Cocciniglia",
+     "rimedio": "Togliere con un cotton fioc imbevuto di alcol e trattare con olio bianco o sapone molle."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "basilico",
+   "stato": "bozza",
+   "nome_scientifico": "Ocimum basilicum",
+   "famiglia": "Lamiaceae",
+   "nomi_comuni": {
+    "it": [
+     "Basilico"
+    ],
+    "en": [
+     "Basil",
+     "Sweet basil"
+    ]
+   },
+   "descrizione": "L'erba aromatica più usata nella cucina italiana, base del pesto. È annuale: si semina in primavera e dura fino ai primi freddi.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "pet_friendly"
+   ],
+   "gruppo": "aromatiche",
+   "ambiente": {
+    "interno": false,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "Fuori da maggio a settembre; d'inverno si può tenere su un davanzale molto luminoso, ma soffre."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Quando il terriccio in superficie è asciutto, senza bagnare le foglie; in vaso d'estate anche ogni giorno.",
+    "primavera_estate": {
+     "min": 1,
+     "max": 2
+    },
+    "autunno_inverno": {
+     "min": 4,
+     "max": 7
+    },
+    "segnali_troppa": "Foglie basse gialle, fusto scuro alla base.",
+    "segnali_poca": "Foglie molli e pendenti che si riprendono dopo l'acqua."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime liquido per piante aromatiche o orticole, a metà dose."
+   },
+   "temperatura": {
+    "min_c": 10,
+    "ideale_min_c": 18,
+    "ideale_max_c": 30
+   },
+   "terreno": "Terriccio universale soffice, ricco e ben drenato.",
+   "rinvaso": "Le piantine comprate al supermercato sono molte in un vasetto: dividile in 3-4 gruppi e mettile in vasi più grandi. Cima le punte per non farlo fiorire e farlo cespugliare.",
+   "propagazione": [
+    "seme",
+    "talea_in_acqua"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "seme",
+     "quando": "Da aprile a giugno, a temperature sopra i 15 °C.",
+     "passi": [
+      "Riempi un vasetto o una cassetta con terriccio da semina.",
+      "Spargi i semi radi e coprili con un velo sottile di terriccio.",
+      "Annaffia con lo spruzzino e tieni il terriccio sempre umido, al caldo e alla luce.",
+      "Quando le piantine hanno 4-6 foglie, diradale o trapiantale in vasi singoli."
+     ],
+     "tempo": "Germina in 5-10 giorni.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "talea_in_acqua",
+     "quando": "Da maggio ad agosto.",
+     "passi": [
+      "Taglia una punta di 10 cm sotto un nodo.",
+      "Togli le foglie basse e mettila in un bicchiere d'acqua.",
+      "Cambia l'acqua ogni 2-3 giorni e tieni il bicchiere alla luce.",
+      "Quando le radici sono lunghe 2-3 cm, invasala."
+     ],
+     "tempo": "Radica in 7-14 giorni.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Sicuro per cani, gatti e persone."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Foglie con macchie scure e muffa grigia sotto",
+     "causa": "Peronospora del basilico, con umidità e foglie bagnate",
+     "rimedio": "Eliminare le piante colpite, annaffiare solo alla base e non affollare i vasi."
+    },
+    {
+     "sintomo": "Germogli coperti di piccoli insetti verdi o neri",
+     "causa": "Afidi",
+     "rimedio": "Lavare con un getto d'acqua o con sapone molle diluito."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
    "id": "bosso",
    "stato": "bozza",
    "nome_scientifico": "Buxus sempervirens",
@@ -411,6 +665,250 @@
    "fonti": [
     "Royal Horticultural Society, scheda Buxus sempervirens e guida \"Box tree caterpillar\" (rhs.org.uk)",
     "ASPCA, elenco piante tossiche e non tossiche, voce Boxwood (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "bouganvillea",
+   "stato": "bozza",
+   "nome_scientifico": "Bougainvillea glabra",
+   "famiglia": "Nyctaginaceae",
+   "nomi_comuni": {
+    "it": [
+     "Bouganvillea",
+     "Buganvillea"
+    ],
+    "en": [
+     "Bougainvillea",
+     "Paperflower"
+    ]
+   },
+   "descrizione": "Rampicante spinoso dei paesi di mare, che da primavera ad autunno si copre di brattee viola, fucsia o arancio, scambiate spesso per i fiori.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita"
+   ],
+   "gruppo": "esterno",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Fuori tutto l'anno solo nelle zone senza gelo (Sud, isole, Liguria); altrove in vaso, da riparare d'inverno in un posto luminoso sopra i 5 °C."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Quando il terriccio è asciutto; fiorisce di più se l'acqua è un po' scarsa. D'inverno quasi niente.",
+    "primavera_estate": {
+     "min": 3,
+     "max": 5
+    },
+    "autunno_inverno": {
+     "min": 14,
+     "max": 30
+    },
+    "segnali_troppa": "Foglie gialle e poche brattee.",
+    "segnali_poca": "Foglie e brattee che cadono."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime per piante fiorite ricco di potassio."
+   },
+   "temperatura": {
+    "min_c": 3,
+    "ideale_min_c": 15,
+    "ideale_max_c": 35
+   },
+   "terreno": "Terriccio ben drenato, anche povero.",
+   "rinvaso": "Odia i rinvasi: falli solo quando serve, senza rompere la zolla. Pota a fine inverno e dopo ogni fioritura, con guanti per le spine.",
+   "propagazione": [
+    "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "In primavera o estate.",
+     "passi": [
+      "Taglia un rametto semi-maturo di 15 cm.",
+      "Togli le foglie basse e, se l'hai, intingi la base in ormone radicante.",
+      "Interralo in terriccio e sabbia e copri con un sacchetto.",
+      "Tienilo al caldo, sopra i 20 °C."
+     ],
+     "tempo": "Radica in 6-8 settimane.",
+     "difficolta": "difficile"
+    }
+   ],
+   "tossicita": {
+    "animali": "lieve",
+    "persone": "lieve",
+    "note": "Poco tossica: se mangiata può dare disturbi intestinali lievi. Le spine possono ferire e la linfa irritare la pelle."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Batuffoli bianchi o scudetti sui rami",
+     "causa": "Cocciniglia",
+     "rimedio": "Togliere con un cotton fioc imbevuto di alcol e trattare con olio bianco o sapone molle."
+    },
+    {
+     "sintomo": "Brattee e foglie che cadono tutte insieme",
+     "causa": "Spostamento, freddo o rinvaso",
+     "rimedio": "Lasciarla al suo posto al sole e al caldo: ributta."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "cactus-di-natale",
+   "stato": "bozza",
+   "nome_scientifico": "Schlumbergera × buckleyi",
+   "famiglia": "Cactaceae",
+   "nomi_comuni": {
+    "it": [
+     "Cactus di Natale",
+     "Schlumbergera",
+     "Zigocactus"
+    ],
+    "en": [
+     "Christmas cactus"
+    ]
+   },
+   "descrizione": "Cactus delle foreste brasiliane, senza spine, con fusti a segmenti ricadenti che a dicembre si coprono di fiori rosa, rossi o bianchi.",
+   "categorie": [
+    "appartamento",
+    "succulenta",
+    "fiorita",
+    "ricadente",
+    "pet_friendly"
+   ],
+   "gruppo": "grasse",
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "D'estate fuori all'ombra; in autunno qualche settimana al fresco (12-15 °C) e al buio di notte fa nascere i boccioli."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "media_indiretta"
+    ],
+    "sole_diretto": "no",
+    "esposizione": [
+     "est",
+     "ovest",
+     "nord"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Quando il terriccio è asciutto in superficie; più spesso durante la fioritura, meno dopo.",
+    "primavera_estate": {
+     "min": 7,
+     "max": 10
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 14
+    },
+    "segnali_troppa": "Segmenti molli e base marcia.",
+    "segnali_poca": "Segmenti grinzosi e rossastri."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 21,
+     "max": 30
+    },
+    "tipo": "Concime per piante fiorite o per cactus a metà dose."
+   },
+   "temperatura": {
+    "min_c": 8,
+    "ideale_min_c": 15,
+    "ideale_max_c": 25
+   },
+   "terreno": "Terriccio per cactus misto a terriccio universale e corteccia.",
+   "rinvaso": "Ogni 2-3 anni in primavera, dopo la fioritura. Non spostarlo quando ha i boccioli: li fa cadere.",
+   "propagazione": [
+    "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "In primavera o inizio estate.",
+     "passi": [
+      "Stacca con una torsione un pezzo di 2-3 segmenti.",
+      "Lascialo asciugare un giorno.",
+      "Interralo per un segmento in terriccio per cactus.",
+      "Annaffia poco finché non ricresce."
+     ],
+     "tempo": "Radica in 2-4 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Non tossico per cani e gatti secondo l'ASPCA."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Boccioli che cadono",
+     "causa": "Spostamenti, sbalzi di temperatura o aria troppo calda",
+     "rimedio": "Lasciarlo fermo in un posto fresco e luminoso."
+    },
+    {
+     "sintomo": "Base del fusto molle e scura, pianta che appassisce",
+     "causa": "Marciume delle radici per troppa acqua",
+     "rimedio": "Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
    ],
    "autori": [
     "piantalapp"
@@ -1074,6 +1572,405 @@
     "Royal Horticultural Society, scheda Echeveria elegans (rhs.org.uk)",
     "ASPCA, elenco piante tossiche e non tossiche, voce Echeveria (aspca.org)",
     "North Carolina State University Extension Gardener Plant Toolbox, Echeveria elegans (plants.ces.ncsu.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "erba-cipollina",
+   "stato": "bozza",
+   "nome_scientifico": "Allium schoenoprasum",
+   "famiglia": "Amaryllidaceae",
+   "nomi_comuni": {
+    "it": [
+     "Erba cipollina"
+    ],
+    "en": [
+     "Chives"
+    ]
+   },
+   "descrizione": "Ciuffi di foglie sottili e cave dal sapore delicato di cipolla, con fiori a pompon lilla, commestibili anche loro.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita"
+   ],
+   "gruppo": "aromatiche",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "D'inverno scompare e ricresce a fine inverno."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta",
+     "media_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Regolarmente, senza lasciare il terriccio secco a lungo.",
+    "primavera_estate": {
+     "min": 2,
+     "max": 4
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 20
+    },
+    "segnali_troppa": "Punte gialle e bulbetti molli.",
+    "segnali_poca": "Foglie che ingialliscono dalle punte."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 30
+    },
+    "tipo": "Concime universale liquido dopo i tagli più forti."
+   },
+   "temperatura": {
+    "min_c": -20,
+    "ideale_min_c": 10,
+    "ideale_max_c": 28
+   },
+   "terreno": "Terriccio fertile e fresco.",
+   "rinvaso": "Ogni 2-3 anni in primavera, dividendo i cespi. Taglia le foglie a 3-4 cm da terra: ricrescono più volte.",
+   "propagazione": [
+    "divisione",
+    "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "In primavera o in autunno.",
+     "passi": [
+      "Estrai la pianta dal vaso o scalza il cespo con la vanga.",
+      "Dividi la zolla in due o più parti, ognuna con radici e germogli.",
+      "Rinvasa ogni parte in terriccio fresco alla stessa profondità di prima.",
+      "Annaffia e tienila in mezz'ombra per qualche giorno."
+     ],
+     "tempo": "Riprende in 2-4 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "seme",
+     "quando": "In primavera.",
+     "passi": [
+      "Riempi un vasetto o una cassetta con terriccio da semina.",
+      "Spargi i semi radi e coprili con un velo sottile di terriccio.",
+      "Annaffia con lo spruzzino e tieni il terriccio sempre umido, al caldo e alla luce.",
+      "Quando le piantine hanno 4-6 foglie, diradale o trapiantale in vasi singoli."
+     ],
+     "tempo": "Germina in 2 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "non_tossica",
+    "note": "Come cipolla e aglio è tossica per cani e gatti: anche poca, mangiata spesso, danneggia i globuli rossi. Tienila fuori dalla loro portata."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Germogli coperti di piccoli insetti verdi o neri",
+     "causa": "Afidi",
+     "rimedio": "Lavare con un getto d'acqua o con sapone molle diluito."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "falangio",
+   "stato": "bozza",
+   "nome_scientifico": "Chlorophytum comosum",
+   "famiglia": "Asparagaceae",
+   "nomi_comuni": {
+    "it": [
+     "Falangio",
+     "Nastrino",
+     "Clorofito"
+    ],
+    "en": [
+     "Spider plant"
+    ]
+   },
+   "descrizione": "Ciuffi di foglie a nastro verdi e bianche da cui pendono tante piantine figlie. Facilissima, adatta ai vasi appesi e sicura per gli animali.",
+   "categorie": [
+    "appartamento",
+    "ricadente",
+    "da_ufficio",
+    "pet_friendly"
+   ],
+   "gruppo": "appartamento",
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "D'estate può andare fuori all'ombra."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "media_indiretta",
+     "bassa"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "est",
+     "ovest",
+     "nord"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Quando il terriccio è asciutto in superficie.",
+    "primavera_estate": {
+     "min": 5,
+     "max": 7
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 14
+    },
+    "segnali_troppa": "Foglie gialle e molli alla base.",
+    "segnali_poca": "Punte delle foglie secche e marroni."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 30
+    },
+    "tipo": "Concime liquido per piante verdi."
+   },
+   "temperatura": {
+    "min_c": 7,
+    "ideale_min_c": 15,
+    "ideale_max_c": 27
+   },
+   "terreno": "Terriccio universale.",
+   "rinvaso": "Ogni 1-2 anni in primavera: le radici carnose riempiono presto il vaso.",
+   "propagazione": [
+    "polloni",
+    "divisione"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "polloni",
+     "quando": "Tutto l'anno, meglio in primavera.",
+     "passi": [
+      "Scegli una piantina figlia con qualche radichetta.",
+      "Staccala dal suo stelo.",
+      "Mettila in un vasetto di terriccio o in un bicchiere d'acqua.",
+      "Tieni umido e alla luce."
+     ],
+     "tempo": "Radica in 1-2 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "divisione",
+     "quando": "In primavera.",
+     "passi": [
+      "Estrai la pianta dal vaso o scalza il cespo con la vanga.",
+      "Dividi la zolla in due o più parti, ognuna con radici e germogli.",
+      "Rinvasa ogni parte in terriccio fresco alla stessa profondità di prima.",
+      "Annaffia e tienila in mezz'ombra per qualche giorno."
+     ],
+     "tempo": "Riprende in 2-4 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Non tossico per cani e gatti secondo l'ASPCA. Ai gatti piace mordicchiarlo."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Punte marroni",
+     "causa": "Aria secca o acqua molto calcarea",
+     "rimedio": "Usare acqua piovana o lasciata riposare, e tagliare le punte."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "falso-gelsomino",
+   "stato": "bozza",
+   "nome_scientifico": "Trachelospermum jasminoides",
+   "famiglia": "Apocynaceae",
+   "nomi_comuni": {
+    "it": [
+     "Falso gelsomino",
+     "Rincospermo",
+     "Gelsomino stellato"
+    ],
+    "en": [
+     "Star jasmine",
+     "Confederate jasmine"
+    ]
+   },
+   "descrizione": "Il «gelsomino» rampicante più diffuso in Italia per coprire ringhiere e recinzioni: sempreverde, con fiori bianchi a stella profumatissimi a maggio e giugno.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita",
+    "siepe"
+   ],
+   "gruppo": "esterno",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Resiste fino a circa -10 °C; nelle zone più fredde in posizione riparata."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta",
+     "media_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "In vaso quando il terriccio è asciutto in superficie; in piena terra solo d'estate nei periodi secchi.",
+    "primavera_estate": {
+     "min": 3,
+     "max": 5
+    },
+    "autunno_inverno": {
+     "min": 14,
+     "max": 21
+    },
+    "segnali_troppa": "Foglie gialle che cadono.",
+    "segnali_poca": "Foglie arrotolate e fiori che cadono in boccio."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 21,
+     "max": 30
+    },
+    "tipo": "Concime per piante fiorite in primavera ed estate."
+   },
+   "temperatura": {
+    "min_c": -10,
+    "ideale_min_c": 10,
+    "ideale_max_c": 32
+   },
+   "terreno": "Terreno fertile, leggermente acido o neutro, ben drenato.",
+   "rinvaso": "In vaso ogni 2-3 anni. Pota dopo la fioritura per contenerlo e lega i nuovi rami al supporto.",
+   "propagazione": [
+    "talea_fusto",
+    "propaggine"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "In estate, con rami semi-maturi.",
+     "passi": [
+      "Taglia un rametto di 10-15 cm.",
+      "Togli le foglie basse e interralo in terriccio e sabbia.",
+      "Copri con un sacchetto trasparente e tienilo all'ombra luminosa."
+     ],
+     "tempo": "Radica in 6-8 settimane.",
+     "difficolta": "media"
+    },
+    {
+     "metodo": "propaggine",
+     "quando": "In primavera.",
+     "passi": [
+      "Piega a terra un ramo lungo e flessibile.",
+      "Interra un tratto del ramo fermandolo con un ferretto, lasciando fuori la punta.",
+      "Tieni umido il terreno.",
+      "Dopo qualche mese, quando ha radicato, taglialo dalla pianta madre."
+     ],
+     "tempo": "Radica in 3-6 mesi.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "lieve",
+    "note": "L'ASPCA lo indica come non tossico per cani e gatti. Il lattice bianco che esce dai rami tagliati può irritare la pelle sensibile."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Batuffoli bianchi o scudetti sui rami",
+     "causa": "Cocciniglia",
+     "rimedio": "Togliere con un cotton fioc imbevuto di alcol e trattare con olio bianco o sapone molle."
+    },
+    {
+     "sintomo": "Foglie rosse in inverno",
+     "causa": "Freddo: è una reazione normale",
+     "rimedio": "Nessun rimedio: in primavera tornano verdi."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
    ],
    "autori": [
     "piantalapp"
@@ -1974,6 +2871,251 @@
   },
   {
    "schema_version": 1,
+   "id": "geranio",
+   "stato": "bozza",
+   "nome_scientifico": "Pelargonium × hortorum",
+   "famiglia": "Geraniaceae",
+   "nomi_comuni": {
+    "it": [
+     "Geranio",
+     "Geranio zonale"
+    ],
+    "en": [
+     "Zonal geranium"
+    ]
+   },
+   "descrizione": "Il fiore da balcone più diffuso in Italia: fiorisce da aprile ai primi freddi in rosso, rosa, bianco o arancio, e chiede poche cure.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita"
+   ],
+   "gruppo": "esterno",
+   "ambiente": {
+    "interno": false,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "Da aprile a ottobre fuori; teme il gelo, quindi d'inverno va in un locale luminoso e fresco (5-12 °C), o fuori al riparo nelle zone di mare."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Quando il terriccio è asciutto in superficie, senza bagnare foglie e fiori; d'inverno pochissimo.",
+    "primavera_estate": {
+     "min": 2,
+     "max": 4
+    },
+    "autunno_inverno": {
+     "min": 14,
+     "max": 21
+    },
+    "segnali_troppa": "Foglie gialle, gambi neri alla base.",
+    "segnali_poca": "Foglie basse rosse o gialle che seccano."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 10,
+     "max": 14
+    },
+    "tipo": "Concime liquido per piante fiorite, ricco di potassio."
+   },
+   "temperatura": {
+    "min_c": 2,
+    "ideale_min_c": 12,
+    "ideale_max_c": 30
+   },
+   "terreno": "Terriccio universale ben drenato.",
+   "rinvaso": "A marzo, poco prima di portarlo fuori, accorciando i rami di metà. Togli spesso i fiori appassiti.",
+   "propagazione": [
+    "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da fine agosto a settembre, o in primavera.",
+     "passi": [
+      "Taglia una punta di 10 cm appena sotto un nodo.",
+      "Togli foglie basse e fiori e lasciala asciugare un'ora.",
+      "Interrala in terriccio e sabbia senza coprirla.",
+      "Annaffia poco e tienila alla luce, senza sacchetto: teme la muffa."
+     ],
+     "tempo": "Radica in 2-4 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "lieve",
+    "persone": "non_tossica",
+    "note": "Per l'ASPCA è tossico per cani e gatti: se mangiato dà vomito e, a contatto, irritazione della pelle."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Fori nei boccioli e foglie rosicchiate",
+     "causa": "Farfallina del geranio (Cacyreus marshalli), le cui larve scavano nei rami",
+     "rimedio": "Togliere i boccioli bucati e usare un insetticida a base di Bacillus thuringiensis."
+    },
+    {
+     "sintomo": "Muffa grigia su fiori e foglie",
+     "causa": "Botrite, con umidità e annaffiature dall'alto",
+     "rimedio": "Togliere le parti colpite e annaffiare solo alla base."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "glicine",
+   "stato": "bozza",
+   "nome_scientifico": "Wisteria sinensis",
+   "famiglia": "Fabaceae",
+   "nomi_comuni": {
+    "it": [
+     "Glicine"
+    ],
+    "en": [
+     "Chinese wisteria"
+    ]
+   },
+   "descrizione": "Rampicante vigoroso e longevo che ad aprile si copre di grappoli di fiori lilla profumati. Ideale per pergolati robusti.",
+   "categorie": [
+    "esterno",
+    "fiorita"
+   ],
+   "gruppo": "esterno",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "In piena terra, con un supporto molto robusto: col tempo i fusti diventano tronchi pesanti."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Le piante giovani regolarmente; quelle adulte solo nelle estati molto secche.",
+    "primavera_estate": {
+     "min": 5,
+     "max": 7
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 30
+    },
+    "segnali_troppa": "Foglie gialle.",
+    "segnali_poca": "Foglie che seccano ai bordi e boccioli che cadono."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 45
+    },
+    "tipo": "Concime per piante fiorite povero di azoto: troppo azoto dà foglie e niente fiori."
+   },
+   "temperatura": {
+    "min_c": -20,
+    "ideale_min_c": 10,
+    "ideale_max_c": 32
+   },
+   "terreno": "Terreno fertile, profondo e ben drenato, non troppo calcareo.",
+   "rinvaso": "Va potato due volte: in estate accorcia i nuovi rami lunghi a 5-6 foglie, a febbraio accorcia gli stessi rami a 2-3 gemme.",
+   "propagazione": [
+    "propaggine",
+    "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "propaggine",
+     "quando": "In primavera.",
+     "passi": [
+      "Piega a terra un ramo giovane.",
+      "Fai una piccola incisione nel punto da interrare e fermalo con un ferretto.",
+      "Copri con terra lasciando fuori la punta e tieni umido.",
+      "Dopo un anno taglialo dalla pianta madre e trapiantalo."
+     ],
+     "tempo": "Radica in 6-12 mesi.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "seme",
+     "quando": "In primavera.",
+     "passi": [
+      "Metti i semi a bagno per 24 ore.",
+      "Seminali in vasetti a 2 cm di profondità.",
+      "Tieni al caldo e umido."
+     ],
+     "tempo": "Germina in 3-4 settimane, ma fiorisce solo dopo 10-15 anni.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "tossica",
+    "note": "Semi e baccelli sono velenosi per persone e animali: bastano pochi semi per dare vomito, dolori addominali e disidratazione, soprattutto ai bambini. Raccogli i baccelli caduti."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Tante foglie ma pochi fiori",
+     "causa": "Pianta giovane, troppo concime azotato o potatura sbagliata",
+     "rimedio": "Seguire le due potature, usare concime ricco di potassio e avere pazienza."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
    "id": "haworthia",
    "stato": "bozza",
    "nome_scientifico": "Haworthiopsis attenuata",
@@ -2416,6 +3558,118 @@
   },
   {
    "schema_version": 1,
+   "id": "lavanda",
+   "stato": "bozza",
+   "nome_scientifico": "Lavandula angustifolia",
+   "famiglia": "Lamiaceae",
+   "nomi_comuni": {
+    "it": [
+     "Lavanda",
+     "Lavanda vera"
+    ],
+    "en": [
+     "Lavender",
+     "English lavender"
+    ]
+   },
+   "descrizione": "Arbusto sempreverde grigio argento con spighe di fiori viola profumatissimi d'estate. Si usa per sacchetti profumati, dolci e tisane, e attira api e farfalle.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita",
+    "siepe"
+   ],
+   "gruppo": "aromatiche",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Resiste al gelo e alla siccità; soffre l'umidità e l'ombra."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Poca: solo quando il terriccio è asciutto in profondità. In piena terra dopo il primo anno quasi mai.",
+    "primavera_estate": {
+     "min": 5,
+     "max": 10
+    },
+    "autunno_inverno": {
+     "min": 20,
+     "max": 30
+    },
+    "segnali_troppa": "Foglie grigie che diventano gialle, rami che seccano.",
+    "segnali_poca": "Fiori piccoli e foglie che si seccano."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4
+    ],
+    "frequenza_giorni": {
+     "min": 60,
+     "max": 60
+    },
+    "tipo": "Quasi niente; troppo concime la rende disordinata e meno profumata."
+   },
+   "temperatura": {
+    "min_c": -15,
+    "ideale_min_c": 10,
+    "ideale_max_c": 35
+   },
+   "terreno": "Terreno povero, sassoso, calcareo e molto drenante.",
+   "rinvaso": "Ogni 2-3 anni in primavera. Dopo la fioritura taglia gli steli e accorcia la pianta di un terzo, senza arrivare al legno nudo.",
+   "propagazione": [
+    "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "A fine estate, con rametti non fioriti.",
+     "passi": [
+      "Taglia una punta non fiorita di 8-10 cm, appena sotto un nodo.",
+      "Togli le foglie della metà bassa.",
+      "Interrala in terriccio leggero misto a sabbia e annaffia.",
+      "Tienila in un posto luminoso ma senza sole forte, con il terriccio appena umido."
+     ],
+     "tempo": "Radica in 4-8 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "lieve",
+    "persone": "non_tossica",
+    "note": "Per l'ASPCA è tossica per cani e gatti in quantità (vomito, nausea); l'olio essenziale è pericoloso per i gatti."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Base del fusto molle e scura, pianta che appassisce",
+     "causa": "Marciume delle radici per troppa acqua",
+     "rimedio": "Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
    "id": "ligustro",
    "stato": "bozza",
    "nome_scientifico": "Ligustrum ovalifolium",
@@ -2695,6 +3949,132 @@
   },
   {
    "schema_version": 1,
+   "id": "maggiorana",
+   "stato": "bozza",
+   "nome_scientifico": "Origanum majorana",
+   "famiglia": "Lamiaceae",
+   "nomi_comuni": {
+    "it": [
+     "Maggiorana"
+    ],
+    "en": [
+     "Marjoram",
+     "Sweet marjoram"
+    ]
+   },
+   "descrizione": "Parente dell'origano, con un profumo più dolce e delicato. Usata in Liguria per ripieni e torte salate.",
+   "categorie": [
+    "esterno",
+    "balcone"
+   ],
+   "gruppo": "aromatiche",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Teme il gelo: al Nord in vaso va riparata d'inverno o trattata come annuale."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Quando il terriccio è asciutto in superficie.",
+    "primavera_estate": {
+     "min": 3,
+     "max": 5
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 20
+    },
+    "segnali_troppa": "Foglie gialle e marciume alla base.",
+    "segnali_poca": "Foglie secche e cadenti."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 30
+    },
+    "tipo": "Concime per aromatiche, poco."
+   },
+   "temperatura": {
+    "min_c": -3,
+    "ideale_min_c": 12,
+    "ideale_max_c": 30
+   },
+   "terreno": "Terriccio leggero e ben drenato.",
+   "rinvaso": "Ogni anno in primavera. Taglia i rametti prima della fioritura per raccogliere le foglie più profumate.",
+   "propagazione": [
+    "seme",
+    "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "seme",
+     "quando": "In primavera, al caldo.",
+     "passi": [
+      "Riempi un vasetto o una cassetta con terriccio da semina.",
+      "Spargi i semi radi e coprili con un velo sottile di terriccio.",
+      "Annaffia con lo spruzzino e tieni il terriccio sempre umido, al caldo e alla luce.",
+      "Quando le piantine hanno 4-6 foglie, diradale o trapiantale in vasi singoli."
+     ],
+     "tempo": "Germina in 1-2 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "talea_fusto",
+     "quando": "In primavera o a inizio estate.",
+     "passi": [
+      "Taglia una punta non fiorita di 8-10 cm, appena sotto un nodo.",
+      "Togli le foglie della metà bassa.",
+      "Interrala in terriccio leggero misto a sabbia e annaffia.",
+      "Tienila in un posto luminoso ma senza sole forte, con il terriccio appena umido."
+     ],
+     "tempo": "Radica in 3-4 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "lieve",
+    "persone": "non_tossica",
+    "note": "Per l'ASPCA può dare vomito e diarrea a cani e gatti se ne mangiano molto."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Base del fusto molle e scura, pianta che appassisce",
+     "causa": "Marciume delle radici per troppa acqua",
+     "rimedio": "Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
    "id": "mammillaria",
    "stato": "bozza",
    "nome_scientifico": "Mammillaria zeilmanniana",
@@ -2852,6 +4232,268 @@
   },
   {
    "schema_version": 1,
+   "id": "menta",
+   "stato": "bozza",
+   "nome_scientifico": "Mentha spicata",
+   "famiglia": "Lamiaceae",
+   "nomi_comuni": {
+    "it": [
+     "Menta",
+     "Menta romana",
+     "Menta verde"
+    ],
+    "en": [
+     "Spearmint",
+     "Mint"
+    ]
+   },
+   "descrizione": "Erba perenne vigorosa e profumata, per mojito, tè e insalate. Si espande con stoloni sotterranei: meglio tenerla in un vaso suo.",
+   "categorie": [
+    "esterno",
+    "balcone"
+   ],
+   "gruppo": "aromatiche",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "D'inverno perde le foglie e ricaccia in primavera."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "sole_diretto",
+     "media_indiretta"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "est",
+     "ovest",
+     "nord"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Il terriccio deve restare sempre un po' umido: è una delle poche aromatiche che ama l'acqua.",
+    "primavera_estate": {
+     "min": 1,
+     "max": 3
+    },
+    "autunno_inverno": {
+     "min": 7,
+     "max": 14
+    },
+    "segnali_troppa": "Foglie gialle e odore di marcio nel vaso.",
+    "segnali_poca": "Foglie molli e bordi secchi."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 21,
+     "max": 30
+    },
+    "tipo": "Concime liquido per aromatiche o universale."
+   },
+   "temperatura": {
+    "min_c": -15,
+    "ideale_min_c": 12,
+    "ideale_max_c": 28
+   },
+   "terreno": "Terriccio fresco, ricco e che trattenga un po' d'acqua.",
+   "rinvaso": "Ogni anno in primavera, dividendo il cespo che altrimenti riempie il vaso di radici.",
+   "propagazione": [
+    "divisione",
+    "talea_in_acqua"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "In primavera.",
+     "passi": [
+      "Estrai la pianta dal vaso o scalza il cespo con la vanga.",
+      "Dividi la zolla in due o più parti, ognuna con radici e germogli.",
+      "Rinvasa ogni parte in terriccio fresco alla stessa profondità di prima.",
+      "Annaffia e tienila in mezz'ombra per qualche giorno."
+     ],
+     "tempo": "Riprende in 2-4 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "talea_in_acqua",
+     "quando": "Da aprile a settembre.",
+     "passi": [
+      "Taglia un rametto di 10 cm.",
+      "Togli le foglie basse e mettilo in un bicchiere d'acqua.",
+      "Cambia l'acqua ogni 2-3 giorni.",
+      "Invasalo quando ha radici di qualche centimetro."
+     ],
+     "tempo": "Radica in 1 settimana.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "lieve",
+    "persone": "non_tossica",
+    "note": "Per l'ASPCA la menta può dare vomito e diarrea a cani e gatti se ne mangiano in quantità. L'olio essenziale è tossico per i gatti."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Macchie arancio sotto le foglie",
+     "causa": "Ruggine della menta",
+     "rimedio": "Tagliare tutta la parte aerea e bruciarla o buttarla; ricresce sana."
+    },
+    {
+     "sintomo": "Foglie puntinate di giallo con sottili ragnatele",
+     "causa": "Ragnetto rosso, favorito da aria secca e caldo",
+     "rimedio": "Lavare le foglie, aumentare l'umidità e, se serve, usare un acaricida."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "monstera",
+   "stato": "bozza",
+   "nome_scientifico": "Monstera deliciosa",
+   "famiglia": "Araceae",
+   "nomi_comuni": {
+    "it": [
+     "Monstera",
+     "Filodendro"
+    ],
+    "en": [
+     "Swiss cheese plant",
+     "Monstera"
+    ]
+   },
+   "descrizione": "Pianta tropicale dalle grandi foglie lucide e incise, oggi tra le più amate in casa. Cresce in fretta e ama appoggiarsi a un tutore.",
+   "categorie": [
+    "appartamento",
+    "da_ufficio"
+   ],
+   "gruppo": "appartamento",
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "D'estate può stare fuori all'ombra luminosa, lontano dal sole diretto."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "media_indiretta"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "est",
+     "ovest",
+     "nord"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Quando i primi 3-4 cm di terriccio sono asciutti.",
+    "primavera_estate": {
+     "min": 7,
+     "max": 10
+    },
+    "autunno_inverno": {
+     "min": 14,
+     "max": 21
+    },
+    "segnali_troppa": "Foglie gialle e macchie scure, gocce d'acqua sulle punte.",
+    "segnali_poca": "Foglie che si arricciano e bordi secchi."
+   },
+   "umidita": "alta",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 30
+    },
+    "tipo": "Concime liquido per piante verdi."
+   },
+   "temperatura": {
+    "min_c": 12,
+    "ideale_min_c": 18,
+    "ideale_max_c": 28
+   },
+   "terreno": "Terriccio per piante verdi misto a corteccia e perlite.",
+   "rinvaso": "Ogni 2 anni in primavera, con un tutore di cocco o muschio a cui legare i fusti.",
+   "propagazione": [
+    "talea_in_acqua"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_in_acqua",
+     "quando": "Da primavera a inizio autunno.",
+     "passi": [
+      "Taglia un pezzo di fusto con almeno un nodo e una radice aerea.",
+      "Mettilo in un vaso d'acqua, con il nodo sommerso.",
+      "Cambia l'acqua ogni settimana e tienilo alla luce indiretta.",
+      "Invasalo quando le radici sono lunghe 5 cm."
+     ],
+     "tempo": "Radica in 3-5 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "lieve",
+    "note": "Contiene cristalli di ossalato di calcio: masticata brucia la bocca e dà bava e vomito a cani e gatti, e irrita la bocca dei bambini."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Foglie nuove senza tagli",
+     "causa": "Poca luce o pianta giovane",
+     "rimedio": "Avvicinarla a una finestra luminosa."
+    },
+    {
+     "sintomo": "Foglie puntinate di giallo con sottili ragnatele",
+     "causa": "Ragnetto rosso, favorito da aria secca e caldo",
+     "rimedio": "Lavare le foglie, aumentare l'umidità e, se serve, usare un acaricida."
+    },
+    {
+     "sintomo": "Batuffoli bianchi o scudetti sui rami",
+     "causa": "Cocciniglia",
+     "rimedio": "Togliere con un cotton fioc imbevuto di alcol e trattare con olio bianco o sapone molle."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
    "id": "oleandro",
    "stato": "bozza",
    "nome_scientifico": "Nerium oleander",
@@ -2993,6 +4635,128 @@
     "Royal Horticultural Society, scheda Nerium oleander (rhs.org.uk)",
     "ASPCA, elenco piante tossiche e non tossiche, voce Oleander (aspca.org)",
     "Centro Antiveleni di Milano, Ospedale Niguarda, piante tossiche (ospedaleniguarda.it)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "oncidium",
+   "stato": "bozza",
+   "nome_scientifico": "Oncidium",
+   "famiglia": "Orchidaceae",
+   "nomi_comuni": {
+    "it": [
+     "Oncidium",
+     "Orchidea ballerina"
+    ],
+    "en": [
+     "Dancing lady orchid"
+    ]
+   },
+   "descrizione": "Orchidea con lunghi steli di tanti piccoli fiori gialli e marroni che sembrano ballerine. Dopo la Phalaenopsis è tra le più facili.",
+   "categorie": [
+    "appartamento",
+    "fiorita",
+    "pet_friendly"
+   ],
+   "gruppo": "orchidee",
+   "ambiente": {
+    "interno": true,
+    "esterno": "estate",
+    "terrarium": "no",
+    "note": "D'estate può stare fuori all'ombra luminosa, al riparo dal vento."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "media_indiretta"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Per immersione, quando la corteccia è quasi asciutta; non far restare acqua nel sottovaso. Usa acqua piovana o demineralizzata.",
+    "primavera_estate": {
+     "min": 5,
+     "max": 7
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 14
+    },
+    "segnali_troppa": "Radici marroni e molli, pseudobulbi che marciscono.",
+    "segnali_poca": "Pseudobulbi grinzosi."
+   },
+   "umidita": "alta",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "frequenza_giorni": {
+     "min": 14,
+     "max": 21
+    },
+    "tipo": "Concime per orchidee a metà dose, ogni 2-3 annaffiature."
+   },
+   "temperatura": {
+    "min_c": 12,
+    "ideale_min_c": 18,
+    "ideale_max_c": 28
+   },
+   "terreno": "Corteccia di pino fine per orchidee.",
+   "rinvaso": "Ogni 2 anni in primavera, quando spuntano i nuovi germogli.",
+   "propagazione": [
+    "divisione"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "In primavera, al rinvaso.",
+     "passi": [
+      "Estrai la pianta e togli la vecchia corteccia.",
+      "Dividi il rizoma lasciando almeno 3 pseudobulbi per parte.",
+      "Rinvasa ogni parte in corteccia nuova.",
+      "Aspetta una settimana prima di annaffiare."
+     ],
+     "tempo": "Riprende in 1-2 mesi.",
+     "difficolta": "media"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Le orchidee comuni non sono tossiche per cani e gatti secondo l'ASPCA."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Batuffoli bianchi o scudetti sui rami",
+     "causa": "Cocciniglia",
+     "rimedio": "Togliere con un cotton fioc imbevuto di alcol e trattare con olio bianco o sapone molle."
+    },
+    {
+     "sintomo": "Niente fiori",
+     "causa": "Poca luce o poca differenza di temperatura tra giorno e notte",
+     "rimedio": "Spostarla in un punto più luminoso e, in autunno, tenerla qualche settimana più fresca di notte."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
    ],
    "autori": [
     "piantalapp"
@@ -3148,6 +4912,132 @@
    "fonti": [
     "Royal Horticultural Society, scheda Opuntia microdasys (rhs.org.uk)",
     "University of Florida IFAS Extension, Opuntia microdasys (edis.ifas.ufl.edu)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "origano",
+   "stato": "bozza",
+   "nome_scientifico": "Origanum vulgare",
+   "famiglia": "Lamiaceae",
+   "nomi_comuni": {
+    "it": [
+     "Origano"
+    ],
+    "en": [
+     "Oregano",
+     "Wild marjoram"
+    ]
+   },
+   "descrizione": "Erba perenne che forma cespi e d'estate si copre di fiorellini rosa. Le foglie e le cime fiorite seccate sono quelle della pizza.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita"
+   ],
+   "gruppo": "aromatiche",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "D'inverno la parte aerea può seccare e ricresce in primavera."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Quando il terriccio è asciutto; resiste bene alla siccità.",
+    "primavera_estate": {
+     "min": 4,
+     "max": 7
+    },
+    "autunno_inverno": {
+     "min": 15,
+     "max": 30
+    },
+    "segnali_troppa": "Foglie gialle e marciume alla base.",
+    "segnali_poca": "Foglie che seccano e cadono."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 45
+    },
+    "tipo": "Poco concime: troppo azoto toglie profumo."
+   },
+   "temperatura": {
+    "min_c": -15,
+    "ideale_min_c": 10,
+    "ideale_max_c": 32
+   },
+   "terreno": "Terreno leggero, calcareo e ben drenato.",
+   "rinvaso": "Ogni 2 anni in primavera. Raccogli le cime appena fiorite in luglio e falle seccare all'ombra a mazzetti.",
+   "propagazione": [
+    "divisione",
+    "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "In primavera o in autunno.",
+     "passi": [
+      "Estrai la pianta dal vaso o scalza il cespo con la vanga.",
+      "Dividi la zolla in due o più parti, ognuna con radici e germogli.",
+      "Rinvasa ogni parte in terriccio fresco alla stessa profondità di prima.",
+      "Annaffia e tienila in mezz'ombra per qualche giorno."
+     ],
+     "tempo": "Riprende in 2-4 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "seme",
+     "quando": "In primavera, coprendo appena i semi, che sono minuscoli.",
+     "passi": [
+      "Riempi un vasetto o una cassetta con terriccio da semina.",
+      "Spargi i semi radi e coprili con un velo sottile di terriccio.",
+      "Annaffia con lo spruzzino e tieni il terriccio sempre umido, al caldo e alla luce.",
+      "Quando le piantine hanno 4-6 foglie, diradale o trapiantale in vasi singoli."
+     ],
+     "tempo": "Germina in 1-2 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "lieve",
+    "persone": "non_tossica",
+    "note": "Per l'ASPCA può dare vomito o diarrea a cani e gatti se ne mangiano molto."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Base del fusto molle e scura, pianta che appassisce",
+     "causa": "Marciume delle radici per troppa acqua",
+     "rimedio": "Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
     "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
    ],
    "autori": [
@@ -3749,6 +5639,125 @@
    ],
    "fonti": [
     "Royal Horticultural Society, scheda Epipremnum aureum (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "prezzemolo",
+   "stato": "bozza",
+   "nome_scientifico": "Petroselinum crispum",
+   "famiglia": "Apiaceae",
+   "nomi_comuni": {
+    "it": [
+     "Prezzemolo"
+    ],
+    "en": [
+     "Parsley"
+    ]
+   },
+   "descrizione": "L'erba più comune in cucina. È biennale: il primo anno fa le foglie, il secondo fiorisce e muore, per cui conviene riseminarlo ogni anno.",
+   "categorie": [
+    "esterno",
+    "balcone"
+   ],
+   "gruppo": "aromatiche",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Resiste al freddo; in pieno sole d'estate meglio mezz'ombra."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "sole_diretto",
+     "media_indiretta"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Spesso, tenendo il terriccio fresco ma non zuppo.",
+    "primavera_estate": {
+     "min": 2,
+     "max": 3
+    },
+    "autunno_inverno": {
+     "min": 7,
+     "max": 10
+    },
+    "segnali_troppa": "Foglie gialle e colletto marcio.",
+    "segnali_poca": "Foglie che ingialliscono e la pianta va a seme presto."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 21,
+     "max": 30
+    },
+    "tipo": "Concime liquido per orticole, a metà dose."
+   },
+   "temperatura": {
+    "min_c": -8,
+    "ideale_min_c": 10,
+    "ideale_max_c": 25
+   },
+   "terreno": "Terriccio ricco, profondo e fresco.",
+   "rinvaso": "Non ama i trapianti per la radice a fittone: seminalo direttamente nel vaso definitivo, profondo almeno 20 cm.",
+   "propagazione": [
+    "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "seme",
+     "quando": "Da febbraio a settembre.",
+     "passi": [
+      "Metti i semi a bagno in acqua tiepida per una notte.",
+      "Seminali radi nel vaso definitivo e coprili con mezzo centimetro di terriccio.",
+      "Tieni il terriccio sempre umido.",
+      "Quando le piantine sono alte 5 cm, diradale a 10 cm l'una dall'altra."
+     ],
+     "tempo": "Germina lentamente, in 2-4 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "lieve",
+    "persone": "non_tossica",
+    "note": "Per l'ASPCA in grandi quantità può rendere la pelle di cani e gatti sensibile al sole. Attenzione a non confonderlo con la cicuta o con l'erba aglina selvatiche, che sono velenose: usa solo prezzemolo seminato da te."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Bruchi verdi a strisce nere che mangiano le foglie",
+     "causa": "Larve della farfalla macaone",
+     "rimedio": "Spostarle a mano su una carota selvatica o un finocchio: diventano farfalle protette."
+    },
+    {
+     "sintomo": "Germogli coperti di piccoli insetti verdi o neri",
+     "causa": "Afidi",
+     "rimedio": "Lavare con un getto d'acqua o con sapone molle diluito."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
     "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
    ],
    "autori": [
@@ -4511,6 +6520,262 @@
   },
   {
    "schema_version": 1,
+   "id": "rosmarino",
+   "stato": "bozza",
+   "nome_scientifico": "Salvia rosmarinus",
+   "sinonimi": [
+    "Rosmarinus officinalis"
+   ],
+   "famiglia": "Lamiaceae",
+   "nomi_comuni": {
+    "it": [
+     "Rosmarino"
+    ],
+    "en": [
+     "Rosemary"
+    ]
+   },
+   "descrizione": "Arbusto sempreverde mediterraneo dalle foglie aghiformi profumate, con fiorellini azzurri a fine inverno. Robusto e longevo, vive anni in vaso o in piena terra.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita",
+    "siepe",
+    "pet_friendly"
+   ],
+   "gruppo": "aromatiche",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Fuori tutto l'anno in quasi tutta Italia; in montagna riparalo dal gelo intenso e dall'umidità."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Poca: quando il terriccio è asciutto in profondità. Teme molto più l'acqua in eccesso che la siccità.",
+    "primavera_estate": {
+     "min": 5,
+     "max": 10
+    },
+    "autunno_inverno": {
+     "min": 15,
+     "max": 30
+    },
+    "segnali_troppa": "Aghi che ingialliscono e cadono, rami che seccano dalla base.",
+    "segnali_poca": "Aghi opachi e arricciati."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 45
+    },
+    "tipo": "Pochissimo: un concime a lenta cessione in primavera basta."
+   },
+   "temperatura": {
+    "min_c": -8,
+    "ideale_min_c": 10,
+    "ideale_max_c": 32
+   },
+   "terreno": "Terreno povero, sassoso o sabbioso, molto drenante; anche calcareo.",
+   "rinvaso": "Ogni 2-3 anni in primavera, in un vaso di terracotta con argilla espansa sul fondo. Pota leggermente dopo la fioritura.",
+   "propagazione": [
+    "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Da fine estate all'autunno, oppure in primavera.",
+     "passi": [
+      "Taglia una punta non fiorita di 8-10 cm, appena sotto un nodo.",
+      "Togli le foglie della metà bassa.",
+      "Interrala in terriccio leggero misto a sabbia e annaffia.",
+      "Tienila in un posto luminoso ma senza sole forte, con il terriccio appena umido."
+     ],
+     "tempo": "Radica in 4-6 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Non tossico per cani e gatti secondo l'ASPCA."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Base del fusto molle e scura, pianta che appassisce",
+     "causa": "Marciume delle radici per troppa acqua",
+     "rimedio": "Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante."
+    },
+    {
+     "sintomo": "Foglie rosicchiate e piccoli insetti verdi metallici",
+     "causa": "Crisomela del rosmarino",
+     "rimedio": "Scuotere i rami su un foglio e raccogliere gli insetti a mano."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "salvia",
+   "stato": "bozza",
+   "nome_scientifico": "Salvia officinalis",
+   "famiglia": "Lamiaceae",
+   "nomi_comuni": {
+    "it": [
+     "Salvia"
+    ],
+    "en": [
+     "Sage",
+     "Common sage"
+    ]
+   },
+   "descrizione": "Piccolo arbusto perenne dalle foglie grigio verdi vellutate e molto aromatiche, con spighe di fiori viola in tarda primavera.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita",
+    "pet_friendly"
+   ],
+   "gruppo": "aromatiche",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Resiste al freddo se il terreno non resta bagnato. In vaso scegli un posto riparato dalla pioggia d'inverno."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Quando il terriccio è asciutto per qualche centimetro; d'inverno quasi mai.",
+    "primavera_estate": {
+     "min": 4,
+     "max": 7
+    },
+    "autunno_inverno": {
+     "min": 15,
+     "max": 30
+    },
+    "segnali_troppa": "Foglie basse gialle e molli, base del fusto annerita.",
+    "segnali_poca": "Foglie pendenti e accartocciate."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 30
+    },
+    "tipo": "Concime per aromatiche a lenta cessione in primavera."
+   },
+   "temperatura": {
+    "min_c": -12,
+    "ideale_min_c": 10,
+    "ideale_max_c": 30
+   },
+   "terreno": "Terreno leggero, ben drenato, anche povero o calcareo.",
+   "rinvaso": "Ogni 2 anni in primavera. Dopo la fioritura accorcia i rami di un terzo, senza tagliare il legno vecchio senza foglie.",
+   "propagazione": [
+    "talea_fusto",
+    "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "In primavera o a fine estate.",
+     "passi": [
+      "Taglia una punta non fiorita di 8-10 cm, appena sotto un nodo.",
+      "Togli le foglie della metà bassa.",
+      "Interrala in terriccio leggero misto a sabbia e annaffia.",
+      "Tienila in un posto luminoso ma senza sole forte, con il terriccio appena umido."
+     ],
+     "tempo": "Radica in 3-4 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "seme",
+     "quando": "In primavera, in semenzaio.",
+     "passi": [
+      "Riempi un vasetto o una cassetta con terriccio da semina.",
+      "Spargi i semi radi e coprili con un velo sottile di terriccio.",
+      "Annaffia con lo spruzzino e tieni il terriccio sempre umido, al caldo e alla luce.",
+      "Quando le piantine hanno 4-6 foglie, diradale o trapiantale in vasi singoli."
+     ],
+     "tempo": "Germina in 2-3 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Non tossica per cani e gatti secondo l'ASPCA. In cucina si usa in piccole quantità."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Patina bianca polverosa sulle foglie",
+     "causa": "Oidio (mal bianco)",
+     "rimedio": "Togliere le foglie colpite, arieggiare e non bagnare il fogliame."
+    },
+    {
+     "sintomo": "Base del fusto molle e scura, pianta che appassisce",
+     "causa": "Marciume delle radici per troppa acqua",
+     "rimedio": "Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
    "id": "sansevieria",
    "stato": "bozza",
    "nome_scientifico": "Dracaena trifasciata",
@@ -4935,6 +7200,259 @@
     "Royal Horticultural Society, scheda Euphorbia pulcherrima (rhs.org.uk)",
     "ASPCA, elenco piante tossiche e non tossiche (aspca.org)",
     "University of Illinois Extension, Poinsettia care (extension.illinois.edu)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "timo",
+   "stato": "bozza",
+   "nome_scientifico": "Thymus vulgaris",
+   "famiglia": "Lamiaceae",
+   "nomi_comuni": {
+    "it": [
+     "Timo"
+    ],
+    "en": [
+     "Thyme",
+     "Common thyme"
+    ]
+   },
+   "descrizione": "Piccolo cespuglio perenne con foglioline profumatissime e fiori rosa chiaro amati dalle api. Perfetto in vaso o tra i sassi.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "fiorita",
+    "pet_friendly"
+   ],
+   "gruppo": "aromatiche",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Fuori tutto l'anno; resiste al gelo ma non al terreno bagnato."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Solo quando il terriccio è ben asciutto; sopporta la siccità.",
+    "primavera_estate": {
+     "min": 5,
+     "max": 10
+    },
+    "autunno_inverno": {
+     "min": 20,
+     "max": 30
+    },
+    "segnali_troppa": "Rametti che anneriscono e seccano dal centro.",
+    "segnali_poca": "Foglie che si seccano sulle punte."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5
+    ],
+    "frequenza_giorni": {
+     "min": 45,
+     "max": 60
+    },
+    "tipo": "Quasi niente: una manciata di concime a lenta cessione in primavera."
+   },
+   "temperatura": {
+    "min_c": -15,
+    "ideale_min_c": 10,
+    "ideale_max_c": 32
+   },
+   "terreno": "Terreno povero, sassoso e molto drenante, anche calcareo.",
+   "rinvaso": "Ogni 2-3 anni in primavera. Dopo la fioritura spunta i rami per tenerlo compatto.",
+   "propagazione": [
+    "talea_fusto",
+    "divisione"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "In primavera o a fine estate.",
+     "passi": [
+      "Taglia una punta non fiorita di 8-10 cm, appena sotto un nodo.",
+      "Togli le foglie della metà bassa.",
+      "Interrala in terriccio leggero misto a sabbia e annaffia.",
+      "Tienila in un posto luminoso ma senza sole forte, con il terriccio appena umido."
+     ],
+     "tempo": "Radica in 3-4 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "divisione",
+     "quando": "In primavera.",
+     "passi": [
+      "Estrai la pianta dal vaso o scalza il cespo con la vanga.",
+      "Dividi la zolla in due o più parti, ognuna con radici e germogli.",
+      "Rinvasa ogni parte in terriccio fresco alla stessa profondità di prima.",
+      "Annaffia e tienila in mezz'ombra per qualche giorno."
+     ],
+     "tempo": "Riprende in 2-4 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Non tossico per cani e gatti secondo l'ASPCA."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Base del fusto molle e scura, pianta che appassisce",
+     "causa": "Marciume delle radici per troppa acqua",
+     "rimedio": "Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "zamioculcas",
+   "stato": "bozza",
+   "nome_scientifico": "Zamioculcas zamiifolia",
+   "famiglia": "Araceae",
+   "nomi_comuni": {
+    "it": [
+     "Zamioculcas",
+     "Pianta ZZ"
+    ],
+    "en": [
+     "ZZ plant",
+     "Zanzibar gem"
+    ]
+   },
+   "descrizione": "Pianta dalle foglie lucide e carnose quasi indistruttibile: sopporta poca luce, aria secca e dimenticanze nell'annaffiare.",
+   "categorie": [
+    "appartamento",
+    "da_ufficio"
+   ],
+   "gruppo": "appartamento",
+   "ambiente": {
+    "interno": true,
+    "esterno": "no",
+    "terrarium": "no",
+    "note": "In casa tutto l'anno, anche lontano dalle finestre."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "media_indiretta",
+    "tollera": [
+     "bassa",
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "no",
+    "esposizione": [
+     "nord",
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Solo quando il terriccio è asciutto fino in fondo: i rizomi sotto terra tengono l'acqua.",
+    "primavera_estate": {
+     "min": 14,
+     "max": 21
+    },
+    "autunno_inverno": {
+     "min": 21,
+     "max": 30
+    },
+    "segnali_troppa": "Fusti che ingialliscono e diventano molli alla base.",
+    "segnali_poca": "Foglioline che cadono e fusti che si piegano."
+   },
+   "umidita": "bassa",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 30
+    },
+    "tipo": "Concime liquido per piante verdi a metà dose."
+   },
+   "temperatura": {
+    "min_c": 12,
+    "ideale_min_c": 18,
+    "ideale_max_c": 28
+   },
+   "terreno": "Terriccio per piante verdi con sabbia o perlite, molto drenante.",
+   "rinvaso": "Ogni 2-3 anni, quando i rizomi deformano il vaso.",
+   "propagazione": [
+    "divisione",
+    "talea_foglia"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "In primavera.",
+     "passi": [
+      "Estrai la pianta dal vaso o scalza il cespo con la vanga.",
+      "Dividi la zolla in due o più parti, ognuna con radici e germogli.",
+      "Rinvasa ogni parte in terriccio fresco alla stessa profondità di prima.",
+      "Annaffia e tienila in mezz'ombra per qualche giorno."
+     ],
+     "tempo": "Riprende in 1-2 mesi.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "talea_foglia",
+     "quando": "In primavera o estate.",
+     "passi": [
+      "Stacca una fogliolina con la sua base.",
+      "Interrala per un terzo in terriccio e sabbia.",
+      "Tieni appena umido, al caldo e alla luce indiretta."
+     ],
+     "tempo": "Forma un piccolo rizoma in 2-4 mesi.",
+     "difficolta": "media"
+    }
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "lieve",
+    "note": "Contiene ossalato di calcio: masticata irrita bocca e stomaco di cani e gatti. Lavati le mani dopo averla potata."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Base del fusto molle e scura, pianta che appassisce",
+     "causa": "Marciume delle radici per troppa acqua",
+     "rimedio": "Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
    ],
    "autori": [
     "piantalapp"

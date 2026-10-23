@@ -1,0 +1,101 @@
+schema_version: 1
+id: glicine
+stato: bozza
+nome_scientifico: Wisteria sinensis
+famiglia: Fabaceae
+nomi_comuni:
+  it:
+  - Glicine
+  en:
+  - Chinese wisteria
+descrizione: Rampicante vigoroso e longevo che ad aprile si copre di grappoli di
+  fiori lilla profumati. Ideale per pergolati robusti.
+categorie:
+- esterno
+- fiorita
+gruppo: esterno
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: 'In piena terra, con un supporto molto robusto: col tempo i fusti diventano
+    tronchi pesanti.'
+difficolta: 3
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - est
+  - ovest
+annaffiatura:
+  quando: Le piante giovani regolarmente; quelle adulte solo nelle estati molto
+    secche.
+  primavera_estate:
+    min: 5
+    max: 7
+  autunno_inverno:
+    min: 30
+    max: 30
+  segnali_troppa: Foglie gialle.
+  segnali_poca: Foglie che seccano ai bordi e boccioli che cadono.
+umidita: media
+concimazione:
+  mesi:
+  - 3
+  - 4
+  - 5
+  - 6
+  frequenza_giorni:
+    min: 30
+    max: 45
+  tipo: 'Concime per piante fiorite povero di azoto: troppo azoto dà foglie e niente
+    fiori.'
+temperatura:
+  min_c: -20
+  ideale_min_c: 10
+  ideale_max_c: 32
+terreno: Terreno fertile, profondo e ben drenato, non troppo calcareo.
+rinvaso: 'Va potato due volte: in estate accorcia i nuovi rami lunghi a 5-6 foglie,
+  a febbraio accorcia gli stessi rami a 2-3 gemme.'
+propagazione:
+- propaggine
+- seme
+come_si_propaga:
+- metodo: propaggine
+  quando: In primavera.
+  passi:
+  - Piega a terra un ramo giovane.
+  - Fai una piccola incisione nel punto da interrare e fermalo con un ferretto.
+  - Copri con terra lasciando fuori la punta e tieni umido.
+  - Dopo un anno taglialo dalla pianta madre e trapiantalo.
+  tempo: Radica in 6-12 mesi.
+  difficolta: facile
+- metodo: seme
+  quando: In primavera.
+  passi:
+  - Metti i semi a bagno per 24 ore.
+  - Seminali in vasetti a 2 cm di profondità.
+  - Tieni al caldo e umido.
+  tempo: Germina in 3-4 settimane, ma fiorisce solo dopo 10-15 anni.
+  difficolta: facile
+tossicita:
+  animali: tossica
+  persone: tossica
+  note: 'Semi e baccelli sono velenosi per persone e animali: bastano pochi semi
+    per dare vomito, dolori addominali e disidratazione, soprattutto ai bambini.
+    Raccogli i baccelli caduti.'
+problemi_comuni:
+- sintomo: Tante foglie ma pochi fiori
+  causa: Pianta giovane, troppo concime azotato o potatura sbagliata
+  rimedio: Seguire le due potature, usare concime ricco di potassio e avere pazienza.
+immagini:
+- commons: Wisteria sinensis an Pergola.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

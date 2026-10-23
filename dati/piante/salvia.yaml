@@ -1,0 +1,108 @@
+schema_version: 1
+id: salvia
+stato: bozza
+nome_scientifico: Salvia officinalis
+famiglia: Lamiaceae
+nomi_comuni:
+  it:
+  - Salvia
+  en:
+  - Sage
+  - Common sage
+descrizione: Piccolo arbusto perenne dalle foglie grigio verdi vellutate e molto
+  aromatiche, con spighe di fiori viola in tarda primavera.
+categorie:
+- esterno
+- balcone
+- fiorita
+- pet_friendly
+gruppo: aromatiche
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: Resiste al freddo se il terreno non resta bagnato. In vaso scegli un posto
+    riparato dalla pioggia d'inverno.
+difficolta: 1
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - est
+  - ovest
+annaffiatura:
+  quando: Quando il terriccio è asciutto per qualche centimetro; d'inverno quasi
+    mai.
+  primavera_estate:
+    min: 4
+    max: 7
+  autunno_inverno:
+    min: 15
+    max: 30
+  segnali_troppa: Foglie basse gialle e molli, base del fusto annerita.
+  segnali_poca: Foglie pendenti e accartocciate.
+umidita: bassa
+concimazione:
+  mesi:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  frequenza_giorni:
+    min: 30
+    max: 30
+  tipo: Concime per aromatiche a lenta cessione in primavera.
+temperatura:
+  min_c: -12
+  ideale_min_c: 10
+  ideale_max_c: 30
+terreno: Terreno leggero, ben drenato, anche povero o calcareo.
+rinvaso: Ogni 2 anni in primavera. Dopo la fioritura accorcia i rami di un terzo,
+  senza tagliare il legno vecchio senza foglie.
+propagazione:
+- talea_fusto
+- seme
+come_si_propaga:
+- metodo: talea_fusto
+  quando: In primavera o a fine estate.
+  passi:
+  - Taglia una punta non fiorita di 8-10 cm, appena sotto un nodo.
+  - Togli le foglie della metà bassa.
+  - Interrala in terriccio leggero misto a sabbia e annaffia.
+  - Tienila in un posto luminoso ma senza sole forte, con il terriccio appena umido.
+  tempo: Radica in 3-4 settimane.
+  difficolta: facile
+- metodo: seme
+  quando: In primavera, in semenzaio.
+  passi:
+  - Riempi un vasetto o una cassetta con terriccio da semina.
+  - Spargi i semi radi e coprili con un velo sottile di terriccio.
+  - Annaffia con lo spruzzino e tieni il terriccio sempre umido, al caldo e alla
+    luce.
+  - Quando le piantine hanno 4-6 foglie, diradale o trapiantale in vasi singoli.
+  tempo: Germina in 2-3 settimane.
+  difficolta: facile
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Non tossica per cani e gatti secondo l'ASPCA. In cucina si usa in piccole
+    quantità.
+problemi_comuni:
+- sintomo: Patina bianca polverosa sulle foglie
+  causa: Oidio (mal bianco)
+  rimedio: Togliere le foglie colpite, arieggiare e non bagnare il fogliame.
+- sintomo: Base del fusto molle e scura, pianta che appassisce
+  causa: Marciume delle radici per troppa acqua
+  rimedio: Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante.
+immagini:
+- commons: Salvia officinalis in vaso.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

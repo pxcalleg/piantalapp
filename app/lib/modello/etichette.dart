@@ -31,6 +31,7 @@ const etichetteGruppo = {
   'grasse': 'Piante grasse',
   'orchidee': 'Orchidee',
   'esterno': 'Da esterno',
+  'aromatiche': 'Aromatiche',
 };
 
 const etichetteCommestibilita = {

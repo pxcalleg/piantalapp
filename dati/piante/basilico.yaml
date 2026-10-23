@@ -1,0 +1,107 @@
+schema_version: 1
+id: basilico
+stato: bozza
+nome_scientifico: Ocimum basilicum
+famiglia: Lamiaceae
+nomi_comuni:
+  it:
+  - Basilico
+  en:
+  - Basil
+  - Sweet basil
+descrizione: 'L''erba aromatica più usata nella cucina italiana, base del pesto.
+  È annuale: si semina in primavera e dura fino ai primi freddi.'
+categorie:
+- esterno
+- balcone
+- pet_friendly
+gruppo: aromatiche
+ambiente:
+  interno: false
+  esterno: estate
+  terrarium: 'no'
+  note: Fuori da maggio a settembre; d'inverno si può tenere su un davanzale molto
+    luminoso, ma soffre.
+difficolta: 1
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - est
+  - ovest
+annaffiatura:
+  quando: Quando il terriccio in superficie è asciutto, senza bagnare le foglie;
+    in vaso d'estate anche ogni giorno.
+  primavera_estate:
+    min: 1
+    max: 2
+  autunno_inverno:
+    min: 4
+    max: 7
+  segnali_troppa: Foglie basse gialle, fusto scuro alla base.
+  segnali_poca: Foglie molli e pendenti che si riprendono dopo l'acqua.
+umidita: media
+concimazione:
+  mesi:
+  - 5
+  - 6
+  - 7
+  - 8
+  frequenza_giorni:
+    min: 14
+    max: 21
+  tipo: Concime liquido per piante aromatiche o orticole, a metà dose.
+temperatura:
+  min_c: 10
+  ideale_min_c: 18
+  ideale_max_c: 30
+terreno: Terriccio universale soffice, ricco e ben drenato.
+rinvaso: 'Le piantine comprate al supermercato sono molte in un vasetto: dividile
+  in 3-4 gruppi e mettile in vasi più grandi. Cima le punte per non farlo fiorire
+  e farlo cespugliare.'
+propagazione:
+- seme
+- talea_in_acqua
+come_si_propaga:
+- metodo: seme
+  quando: Da aprile a giugno, a temperature sopra i 15 °C.
+  passi:
+  - Riempi un vasetto o una cassetta con terriccio da semina.
+  - Spargi i semi radi e coprili con un velo sottile di terriccio.
+  - Annaffia con lo spruzzino e tieni il terriccio sempre umido, al caldo e alla
+    luce.
+  - Quando le piantine hanno 4-6 foglie, diradale o trapiantale in vasi singoli.
+  tempo: Germina in 5-10 giorni.
+  difficolta: facile
+- metodo: talea_in_acqua
+  quando: Da maggio ad agosto.
+  passi:
+  - Taglia una punta di 10 cm sotto un nodo.
+  - Togli le foglie basse e mettila in un bicchiere d'acqua.
+  - Cambia l'acqua ogni 2-3 giorni e tieni il bicchiere alla luce.
+  - Quando le radici sono lunghe 2-3 cm, invasala.
+  tempo: Radica in 7-14 giorni.
+  difficolta: facile
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Sicuro per cani, gatti e persone.
+problemi_comuni:
+- sintomo: Foglie con macchie scure e muffa grigia sotto
+  causa: Peronospora del basilico, con umidità e foglie bagnate
+  rimedio: Eliminare le piante colpite, annaffiare solo alla base e non affollare
+    i vasi.
+- sintomo: Germogli coperti di piccoli insetti verdi o neri
+  causa: Afidi
+  rimedio: Lavare con un getto d'acqua o con sapone molle diluito.
+immagini:
+- commons: Planta de Albahaca (Ocimum basilicum).jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

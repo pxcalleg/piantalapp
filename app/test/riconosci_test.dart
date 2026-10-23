@@ -31,8 +31,8 @@ final _risposta = {
     {
       'score': 0.02,
       'species': {
-        'scientificNameWithoutAuthor': 'Monstera deliciosa',
-        'commonNames': ['Monstera'],
+        'scientificNameWithoutAuthor': 'Goeppertia orbifolia',
+        'commonNames': ['Calathea'],
       },
     },
   ],
@@ -50,7 +50,7 @@ void main() {
     expect(ipotesi.map((i) => i.nomeScientifico), [
       'Epipremnum aureum',
       'Rosa chinensis',
-      'Monstera deliciosa',
+      'Goeppertia orbifolia',
     ]);
     expect(ipotesi.first.percentuale, 83);
     expect(ipotesi.first.famiglia, 'Araceae');
@@ -72,9 +72,9 @@ void main() {
     );
     expect(ids(sinonimo.stessaSpecie), ['sansevieria']);
 
-    final monstera = schedeCollegate(piante, ipotesi[2]);
-    expect(monstera.stessaSpecie, isEmpty);
-    expect(monstera.stessoGenere, isEmpty);
+    final calathea = schedeCollegate(piante, ipotesi[2]);
+    expect(calathea.stessaSpecie, isEmpty);
+    expect(calathea.stessoGenere, isEmpty);
   });
 
   test('invia la foto con la chiave e il sito autorizzato', () async {

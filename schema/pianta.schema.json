@@ -134,9 +134,10 @@
         "appartamento",
         "grasse",
         "orchidee",
-        "esterno"
+        "esterno",
+        "aromatiche"
       ],
-      "description": "Categoria principale in cui l'app mostra la pianta, una sola: 'appartamento' (piante verdi e fiorite da tenere in casa), 'grasse' (succulente e cactus), 'orchidee', 'esterno' (giardino e balcone tutto l'anno)."
+      "description": "Categoria principale in cui l'app mostra la pianta, una sola: 'appartamento' (piante verdi e fiorite da tenere in casa), 'grasse' (succulente e cactus), 'orchidee', 'esterno' (giardino e balcone tutto l'anno), 'aromatiche' (erbe da cucina e officinali)."
     },
     "ambiente": {
       "type": "object",

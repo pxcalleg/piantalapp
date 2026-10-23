@@ -1,0 +1,103 @@
+schema_version: 1
+id: erba-cipollina
+stato: bozza
+nome_scientifico: Allium schoenoprasum
+famiglia: Amaryllidaceae
+nomi_comuni:
+  it:
+  - Erba cipollina
+  en:
+  - Chives
+descrizione: Ciuffi di foglie sottili e cave dal sapore delicato di cipolla, con
+  fiori a pompon lilla, commestibili anche loro.
+categorie:
+- esterno
+- balcone
+- fiorita
+gruppo: aromatiche
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: D'inverno scompare e ricresce a fine inverno.
+difficolta: 1
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  - media_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - est
+  - ovest
+annaffiatura:
+  quando: Regolarmente, senza lasciare il terriccio secco a lungo.
+  primavera_estate:
+    min: 2
+    max: 4
+  autunno_inverno:
+    min: 10
+    max: 20
+  segnali_troppa: Punte gialle e bulbetti molli.
+  segnali_poca: Foglie che ingialliscono dalle punte.
+umidita: media
+concimazione:
+  mesi:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  frequenza_giorni:
+    min: 30
+    max: 30
+  tipo: Concime universale liquido dopo i tagli più forti.
+temperatura:
+  min_c: -20
+  ideale_min_c: 10
+  ideale_max_c: 28
+terreno: Terriccio fertile e fresco.
+rinvaso: 'Ogni 2-3 anni in primavera, dividendo i cespi. Taglia le foglie a 3-4
+  cm da terra: ricrescono più volte.'
+propagazione:
+- divisione
+- seme
+come_si_propaga:
+- metodo: divisione
+  quando: In primavera o in autunno.
+  passi:
+  - Estrai la pianta dal vaso o scalza il cespo con la vanga.
+  - Dividi la zolla in due o più parti, ognuna con radici e germogli.
+  - Rinvasa ogni parte in terriccio fresco alla stessa profondità di prima.
+  - Annaffia e tienila in mezz'ombra per qualche giorno.
+  tempo: Riprende in 2-4 settimane.
+  difficolta: facile
+- metodo: seme
+  quando: In primavera.
+  passi:
+  - Riempi un vasetto o una cassetta con terriccio da semina.
+  - Spargi i semi radi e coprili con un velo sottile di terriccio.
+  - Annaffia con lo spruzzino e tieni il terriccio sempre umido, al caldo e alla
+    luce.
+  - Quando le piantine hanno 4-6 foglie, diradale o trapiantale in vasi singoli.
+  tempo: Germina in 2 settimane.
+  difficolta: facile
+tossicita:
+  animali: tossica
+  persone: non_tossica
+  note: 'Come cipolla e aglio è tossica per cani e gatti: anche poca, mangiata spesso,
+    danneggia i globuli rossi. Tienila fuori dalla loro portata.'
+problemi_comuni:
+- sintomo: Germogli coperti di piccoli insetti verdi o neri
+  causa: Afidi
+  rimedio: Lavare con un getto d'acqua o con sapone molle diluito.
+immagini:
+- commons: Allium schoenoprasum 001.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

@@ -1,0 +1,101 @@
+schema_version: 1
+id: zamioculcas
+stato: bozza
+nome_scientifico: Zamioculcas zamiifolia
+famiglia: Araceae
+nomi_comuni:
+  it:
+  - Zamioculcas
+  - Pianta ZZ
+  en:
+  - ZZ plant
+  - Zanzibar gem
+descrizione: 'Pianta dalle foglie lucide e carnose quasi indistruttibile: sopporta
+  poca luce, aria secca e dimenticanze nell''annaffiare.'
+categorie:
+- appartamento
+- da_ufficio
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: 'no'
+  terrarium: 'no'
+  note: In casa tutto l'anno, anche lontano dalle finestre.
+difficolta: 1
+luce:
+  ideale: media_indiretta
+  tollera:
+  - bassa
+  - intensa_indiretta
+  sole_diretto: 'no'
+  esposizione:
+  - nord
+  - est
+  - ovest
+annaffiatura:
+  quando: 'Solo quando il terriccio è asciutto fino in fondo: i rizomi sotto terra
+    tengono l''acqua.'
+  primavera_estate:
+    min: 14
+    max: 21
+  autunno_inverno:
+    min: 21
+    max: 30
+  segnali_troppa: Fusti che ingialliscono e diventano molli alla base.
+  segnali_poca: Foglioline che cadono e fusti che si piegano.
+umidita: bassa
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  frequenza_giorni:
+    min: 30
+    max: 30
+  tipo: Concime liquido per piante verdi a metà dose.
+temperatura:
+  min_c: 12
+  ideale_min_c: 18
+  ideale_max_c: 28
+terreno: Terriccio per piante verdi con sabbia o perlite, molto drenante.
+rinvaso: Ogni 2-3 anni, quando i rizomi deformano il vaso.
+propagazione:
+- divisione
+- talea_foglia
+come_si_propaga:
+- metodo: divisione
+  quando: In primavera.
+  passi:
+  - Estrai la pianta dal vaso o scalza il cespo con la vanga.
+  - Dividi la zolla in due o più parti, ognuna con radici e germogli.
+  - Rinvasa ogni parte in terriccio fresco alla stessa profondità di prima.
+  - Annaffia e tienila in mezz'ombra per qualche giorno.
+  tempo: Riprende in 1-2 mesi.
+  difficolta: facile
+- metodo: talea_foglia
+  quando: In primavera o estate.
+  passi:
+  - Stacca una fogliolina con la sua base.
+  - Interrala per un terzo in terriccio e sabbia.
+  - Tieni appena umido, al caldo e alla luce indiretta.
+  tempo: Forma un piccolo rizoma in 2-4 mesi.
+  difficolta: media
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: 'Contiene ossalato di calcio: masticata irrita bocca e stomaco di cani e
+    gatti. Lavati le mani dopo averla potata.'
+problemi_comuni:
+- sintomo: Base del fusto molle e scura, pianta che appassisce
+  causa: Marciume delle radici per troppa acqua
+  rimedio: Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante.
+immagini:
+- commons: Zamioculcas zamiifolia 1.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

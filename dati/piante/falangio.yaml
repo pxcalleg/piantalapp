@@ -1,0 +1,104 @@
+schema_version: 1
+id: falangio
+stato: bozza
+nome_scientifico: Chlorophytum comosum
+famiglia: Asparagaceae
+nomi_comuni:
+  it:
+  - Falangio
+  - Nastrino
+  - Clorofito
+  en:
+  - Spider plant
+descrizione: Ciuffi di foglie a nastro verdi e bianche da cui pendono tante piantine
+  figlie. Facilissima, adatta ai vasi appesi e sicura per gli animali.
+categorie:
+- appartamento
+- ricadente
+- da_ufficio
+- pet_friendly
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: D'estate può andare fuori all'ombra.
+difficolta: 1
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - media_indiretta
+  - bassa
+  sole_diretto: solo_mattino
+  esposizione:
+  - est
+  - ovest
+  - nord
+annaffiatura:
+  quando: Quando il terriccio è asciutto in superficie.
+  primavera_estate:
+    min: 5
+    max: 7
+  autunno_inverno:
+    min: 10
+    max: 14
+  segnali_troppa: Foglie gialle e molli alla base.
+  segnali_poca: Punte delle foglie secche e marroni.
+umidita: media
+concimazione:
+  mesi:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 14
+    max: 30
+  tipo: Concime liquido per piante verdi.
+temperatura:
+  min_c: 7
+  ideale_min_c: 15
+  ideale_max_c: 27
+terreno: Terriccio universale.
+rinvaso: 'Ogni 1-2 anni in primavera: le radici carnose riempiono presto il vaso.'
+propagazione:
+- polloni
+- divisione
+come_si_propaga:
+- metodo: polloni
+  quando: Tutto l'anno, meglio in primavera.
+  passi:
+  - Scegli una piantina figlia con qualche radichetta.
+  - Staccala dal suo stelo.
+  - Mettila in un vasetto di terriccio o in un bicchiere d'acqua.
+  - Tieni umido e alla luce.
+  tempo: Radica in 1-2 settimane.
+  difficolta: facile
+- metodo: divisione
+  quando: In primavera.
+  passi:
+  - Estrai la pianta dal vaso o scalza il cespo con la vanga.
+  - Dividi la zolla in due o più parti, ognuna con radici e germogli.
+  - Rinvasa ogni parte in terriccio fresco alla stessa profondità di prima.
+  - Annaffia e tienila in mezz'ombra per qualche giorno.
+  tempo: Riprende in 2-4 settimane.
+  difficolta: facile
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Non tossico per cani e gatti secondo l'ASPCA. Ai gatti piace mordicchiarlo.
+problemi_comuni:
+- sintomo: Punte marroni
+  causa: Aria secca o acqua molto calcarea
+  rimedio: Usare acqua piovana o lasciata riposare, e tagliare le punte.
+immagini:
+- commons: Spider Plant (Chlorophytum comosum).jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

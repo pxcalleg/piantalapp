@@ -1,0 +1,97 @@
+schema_version: 1
+id: rosmarino
+stato: bozza
+nome_scientifico: Salvia rosmarinus
+sinonimi:
+- Rosmarinus officinalis
+famiglia: Lamiaceae
+nomi_comuni:
+  it:
+  - Rosmarino
+  en:
+  - Rosemary
+descrizione: Arbusto sempreverde mediterraneo dalle foglie aghiformi profumate,
+  con fiorellini azzurri a fine inverno. Robusto e longevo, vive anni in vaso o
+  in piena terra.
+categorie:
+- esterno
+- balcone
+- fiorita
+- siepe
+- pet_friendly
+gruppo: aromatiche
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: Fuori tutto l'anno in quasi tutta Italia; in montagna riparalo dal gelo
+    intenso e dall'umidità.
+difficolta: 1
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - ovest
+annaffiatura:
+  quando: 'Poca: quando il terriccio è asciutto in profondità. Teme molto più l''acqua
+    in eccesso che la siccità.'
+  primavera_estate:
+    min: 5
+    max: 10
+  autunno_inverno:
+    min: 15
+    max: 30
+  segnali_troppa: Aghi che ingialliscono e cadono, rami che seccano dalla base.
+  segnali_poca: Aghi opachi e arricciati.
+umidita: bassa
+concimazione:
+  mesi:
+  - 3
+  - 4
+  - 5
+  - 6
+  frequenza_giorni:
+    min: 30
+    max: 45
+  tipo: 'Pochissimo: un concime a lenta cessione in primavera basta.'
+temperatura:
+  min_c: -8
+  ideale_min_c: 10
+  ideale_max_c: 32
+terreno: Terreno povero, sassoso o sabbioso, molto drenante; anche calcareo.
+rinvaso: Ogni 2-3 anni in primavera, in un vaso di terracotta con argilla espansa
+  sul fondo. Pota leggermente dopo la fioritura.
+propagazione:
+- talea_fusto
+come_si_propaga:
+- metodo: talea_fusto
+  quando: Da fine estate all'autunno, oppure in primavera.
+  passi:
+  - Taglia una punta non fiorita di 8-10 cm, appena sotto un nodo.
+  - Togli le foglie della metà bassa.
+  - Interrala in terriccio leggero misto a sabbia e annaffia.
+  - Tienila in un posto luminoso ma senza sole forte, con il terriccio appena umido.
+  tempo: Radica in 4-6 settimane.
+  difficolta: facile
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Non tossico per cani e gatti secondo l'ASPCA.
+problemi_comuni:
+- sintomo: Base del fusto molle e scura, pianta che appassisce
+  causa: Marciume delle radici per troppa acqua
+  rimedio: Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante.
+- sintomo: Foglie rosicchiate e piccoli insetti verdi metallici
+  causa: Crisomela del rosmarino
+  rimedio: Scuotere i rami su un foglio e raccogliere gli insetti a mano.
+immagini:
+- commons: Rosmarinus officinalis 10zz.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

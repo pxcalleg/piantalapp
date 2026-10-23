@@ -1,0 +1,97 @@
+schema_version: 1
+id: oncidium
+stato: bozza
+nome_scientifico: Oncidium
+famiglia: Orchidaceae
+nomi_comuni:
+  it:
+  - Oncidium
+  - Orchidea ballerina
+  en:
+  - Dancing lady orchid
+descrizione: Orchidea con lunghi steli di tanti piccoli fiori gialli e marroni che
+  sembrano ballerine. Dopo la Phalaenopsis è tra le più facili.
+categorie:
+- appartamento
+- fiorita
+- pet_friendly
+gruppo: orchidee
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: D'estate può stare fuori all'ombra luminosa, al riparo dal vento.
+difficolta: 3
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - media_indiretta
+  sole_diretto: solo_mattino
+  esposizione:
+  - est
+  - ovest
+annaffiatura:
+  quando: Per immersione, quando la corteccia è quasi asciutta; non far restare
+    acqua nel sottovaso. Usa acqua piovana o demineralizzata.
+  primavera_estate:
+    min: 5
+    max: 7
+  autunno_inverno:
+    min: 10
+    max: 14
+  segnali_troppa: Radici marroni e molli, pseudobulbi che marciscono.
+  segnali_poca: Pseudobulbi grinzosi.
+umidita: alta
+concimazione:
+  mesi:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  frequenza_giorni:
+    min: 14
+    max: 21
+  tipo: Concime per orchidee a metà dose, ogni 2-3 annaffiature.
+temperatura:
+  min_c: 12
+  ideale_min_c: 18
+  ideale_max_c: 28
+terreno: Corteccia di pino fine per orchidee.
+rinvaso: Ogni 2 anni in primavera, quando spuntano i nuovi germogli.
+propagazione:
+- divisione
+come_si_propaga:
+- metodo: divisione
+  quando: In primavera, al rinvaso.
+  passi:
+  - Estrai la pianta e togli la vecchia corteccia.
+  - Dividi il rizoma lasciando almeno 3 pseudobulbi per parte.
+  - Rinvasa ogni parte in corteccia nuova.
+  - Aspetta una settimana prima di annaffiare.
+  tempo: Riprende in 1-2 mesi.
+  difficolta: media
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Le orchidee comuni non sono tossiche per cani e gatti secondo l'ASPCA.
+problemi_comuni:
+- sintomo: Batuffoli bianchi o scudetti sui rami
+  causa: Cocciniglia
+  rimedio: Togliere con un cotton fioc imbevuto di alcol e trattare con olio bianco
+    o sapone molle.
+- sintomo: Niente fiori
+  causa: Poca luce o poca differenza di temperatura tra giorno e notte
+  rimedio: Spostarla in un punto più luminoso e, in autunno, tenerla qualche settimana
+    più fresca di notte.
+immagini:
+- commons: Kandyan dancer orchid (Oncidium sp.).jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

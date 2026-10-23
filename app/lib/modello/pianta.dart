@@ -47,7 +47,7 @@ class Pianta implements Scheda {
   final List<String> categorie;
 
   /// Categoria principale in cui la pianta compare nell'elenco:
-  /// 'appartamento', 'grasse', 'orchidee' o 'esterno'.
+  /// 'appartamento', 'grasse', 'orchidee', 'esterno' o 'aromatiche'.
   final String gruppo;
   final Ambiente ambiente;
   final int difficolta;

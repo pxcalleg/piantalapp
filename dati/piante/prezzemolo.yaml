@@ -1,0 +1,95 @@
+schema_version: 1
+id: prezzemolo
+stato: bozza
+nome_scientifico: Petroselinum crispum
+famiglia: Apiaceae
+nomi_comuni:
+  it:
+  - Prezzemolo
+  en:
+  - Parsley
+descrizione: 'L''erba più comune in cucina. È biennale: il primo anno fa le foglie,
+  il secondo fiorisce e muore, per cui conviene riseminarlo ogni anno.'
+categorie:
+- esterno
+- balcone
+gruppo: aromatiche
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: Resiste al freddo; in pieno sole d'estate meglio mezz'ombra.
+difficolta: 2
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - sole_diretto
+  - media_indiretta
+  sole_diretto: solo_mattino
+  esposizione:
+  - est
+  - ovest
+annaffiatura:
+  quando: Spesso, tenendo il terriccio fresco ma non zuppo.
+  primavera_estate:
+    min: 2
+    max: 3
+  autunno_inverno:
+    min: 7
+    max: 10
+  segnali_troppa: Foglie gialle e colletto marcio.
+  segnali_poca: Foglie che ingialliscono e la pianta va a seme presto.
+umidita: media
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 21
+    max: 30
+  tipo: Concime liquido per orticole, a metà dose.
+temperatura:
+  min_c: -8
+  ideale_min_c: 10
+  ideale_max_c: 25
+terreno: Terriccio ricco, profondo e fresco.
+rinvaso: 'Non ama i trapianti per la radice a fittone: seminalo direttamente nel
+  vaso definitivo, profondo almeno 20 cm.'
+propagazione:
+- seme
+come_si_propaga:
+- metodo: seme
+  quando: Da febbraio a settembre.
+  passi:
+  - Metti i semi a bagno in acqua tiepida per una notte.
+  - Seminali radi nel vaso definitivo e coprili con mezzo centimetro di terriccio.
+  - Tieni il terriccio sempre umido.
+  - Quando le piantine sono alte 5 cm, diradale a 10 cm l'una dall'altra.
+  tempo: Germina lentamente, in 2-4 settimane.
+  difficolta: facile
+tossicita:
+  animali: lieve
+  persone: non_tossica
+  note: 'Per l''ASPCA in grandi quantità può rendere la pelle di cani e gatti sensibile
+    al sole. Attenzione a non confonderlo con la cicuta o con l''erba aglina selvatiche,
+    che sono velenose: usa solo prezzemolo seminato da te.'
+problemi_comuni:
+- sintomo: Bruchi verdi a strisce nere che mangiano le foglie
+  causa: Larve della farfalla macaone
+  rimedio: 'Spostarle a mano su una carota selvatica o un finocchio: diventano farfalle
+    protette.'
+- sintomo: Germogli coperti di piccoli insetti verdi o neri
+  causa: Afidi
+  rimedio: Lavare con un getto d'acqua o con sapone molle diluito.
+immagini:
+- commons: Petroselinum crispum 003.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

@@ -95,11 +95,8 @@ void main() {
     await tester.runAsync(archivio.carica);
     await tester.pumpAndSettle();
 
-    await tester.scrollUntilVisible(
-      find.text('Pothos'),
-      300,
-      scrollable: find.byType(Scrollable).first,
-    );
+    await tester.enterText(find.byType(TextField), 'pothos');
+    await tester.pumpAndSettle();
     await tester.tap(find.text('Pothos'));
     await tester.pumpAndSettle();
     await tester.ensureVisible(find.text('Ruota e simula'));

@@ -1,0 +1,111 @@
+schema_version: 1
+id: falso-gelsomino
+stato: bozza
+nome_scientifico: Trachelospermum jasminoides
+famiglia: Apocynaceae
+nomi_comuni:
+  it:
+  - Falso gelsomino
+  - Rincospermo
+  - Gelsomino stellato
+  en:
+  - Star jasmine
+  - Confederate jasmine
+descrizione: 'Il «gelsomino» rampicante più diffuso in Italia per coprire ringhiere
+  e recinzioni: sempreverde, con fiori bianchi a stella profumatissimi a maggio
+  e giugno.'
+categorie:
+- esterno
+- balcone
+- fiorita
+- siepe
+gruppo: esterno
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: Resiste fino a circa -10 °C; nelle zone più fredde in posizione riparata.
+difficolta: 1
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  - media_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - est
+  - ovest
+annaffiatura:
+  quando: In vaso quando il terriccio è asciutto in superficie; in piena terra solo
+    d'estate nei periodi secchi.
+  primavera_estate:
+    min: 3
+    max: 5
+  autunno_inverno:
+    min: 14
+    max: 21
+  segnali_troppa: Foglie gialle che cadono.
+  segnali_poca: Foglie arrotolate e fiori che cadono in boccio.
+umidita: media
+concimazione:
+  mesi:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  frequenza_giorni:
+    min: 21
+    max: 30
+  tipo: Concime per piante fiorite in primavera ed estate.
+temperatura:
+  min_c: -10
+  ideale_min_c: 10
+  ideale_max_c: 32
+terreno: Terreno fertile, leggermente acido o neutro, ben drenato.
+rinvaso: In vaso ogni 2-3 anni. Pota dopo la fioritura per contenerlo e lega i nuovi
+  rami al supporto.
+propagazione:
+- talea_fusto
+- propaggine
+come_si_propaga:
+- metodo: talea_fusto
+  quando: In estate, con rami semi-maturi.
+  passi:
+  - Taglia un rametto di 10-15 cm.
+  - Togli le foglie basse e interralo in terriccio e sabbia.
+  - Copri con un sacchetto trasparente e tienilo all'ombra luminosa.
+  tempo: Radica in 6-8 settimane.
+  difficolta: media
+- metodo: propaggine
+  quando: In primavera.
+  passi:
+  - Piega a terra un ramo lungo e flessibile.
+  - Interra un tratto del ramo fermandolo con un ferretto, lasciando fuori la punta.
+  - Tieni umido il terreno.
+  - Dopo qualche mese, quando ha radicato, taglialo dalla pianta madre.
+  tempo: Radica in 3-6 mesi.
+  difficolta: facile
+tossicita:
+  animali: non_tossica
+  persone: lieve
+  note: L'ASPCA lo indica come non tossico per cani e gatti. Il lattice bianco che
+    esce dai rami tagliati può irritare la pelle sensibile.
+problemi_comuni:
+- sintomo: Batuffoli bianchi o scudetti sui rami
+  causa: Cocciniglia
+  rimedio: Togliere con un cotton fioc imbevuto di alcol e trattare con olio bianco
+    o sapone molle.
+- sintomo: Foglie rosse in inverno
+  causa: 'Freddo: è una reazione normale'
+  rimedio: 'Nessun rimedio: in primavera tornano verdi.'
+immagini:
+- commons: Trachelospermum jasminoides.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'
