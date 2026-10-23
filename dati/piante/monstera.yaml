@@ -1,0 +1,100 @@
+schema_version: 1
+id: monstera
+stato: bozza
+nome_scientifico: Monstera deliciosa
+famiglia: Araceae
+nomi_comuni:
+  it:
+  - Monstera
+  - Filodendro
+  en:
+  - Swiss cheese plant
+  - Monstera
+descrizione: Pianta tropicale dalle grandi foglie lucide e incise, oggi tra le più
+  amate in casa. Cresce in fretta e ama appoggiarsi a un tutore.
+categorie:
+- appartamento
+- da_ufficio
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: D'estate può stare fuori all'ombra luminosa, lontano dal sole diretto.
+difficolta: 2
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - media_indiretta
+  sole_diretto: solo_mattino
+  esposizione:
+  - est
+  - ovest
+  - nord
+annaffiatura:
+  quando: Quando i primi 3-4 cm di terriccio sono asciutti.
+  primavera_estate:
+    min: 7
+    max: 10
+  autunno_inverno:
+    min: 14
+    max: 21
+  segnali_troppa: Foglie gialle e macchie scure, gocce d'acqua sulle punte.
+  segnali_poca: Foglie che si arricciano e bordi secchi.
+umidita: alta
+concimazione:
+  mesi:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 14
+    max: 30
+  tipo: Concime liquido per piante verdi.
+temperatura:
+  min_c: 12
+  ideale_min_c: 18
+  ideale_max_c: 28
+terreno: Terriccio per piante verdi misto a corteccia e perlite.
+rinvaso: Ogni 2 anni in primavera, con un tutore di cocco o muschio a cui legare
+  i fusti.
+propagazione:
+- talea_in_acqua
+come_si_propaga:
+- metodo: talea_in_acqua
+  quando: Da primavera a inizio autunno.
+  passi:
+  - Taglia un pezzo di fusto con almeno un nodo e una radice aerea.
+  - Mettilo in un vaso d'acqua, con il nodo sommerso.
+  - Cambia l'acqua ogni settimana e tienilo alla luce indiretta.
+  - Invasalo quando le radici sono lunghe 5 cm.
+  tempo: Radica in 3-5 settimane.
+  difficolta: facile
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: 'Contiene cristalli di ossalato di calcio: masticata brucia la bocca e dà
+    bava e vomito a cani e gatti, e irrita la bocca dei bambini.'
+problemi_comuni:
+- sintomo: Foglie nuove senza tagli
+  causa: Poca luce o pianta giovane
+  rimedio: Avvicinarla a una finestra luminosa.
+- sintomo: Foglie puntinate di giallo con sottili ragnatele
+  causa: Ragnetto rosso, favorito da aria secca e caldo
+  rimedio: Lavare le foglie, aumentare l'umidità e, se serve, usare un acaricida.
+- sintomo: Batuffoli bianchi o scudetti sui rami
+  causa: Cocciniglia
+  rimedio: Togliere con un cotton fioc imbevuto di alcol e trattare con olio bianco
+    o sapone molle.
+immagini:
+- commons: Monstera deliciosa DSC02600.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

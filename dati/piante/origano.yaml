@@ -1,0 +1,99 @@
+schema_version: 1
+id: origano
+stato: bozza
+nome_scientifico: Origanum vulgare
+famiglia: Lamiaceae
+nomi_comuni:
+  it:
+  - Origano
+  en:
+  - Oregano
+  - Wild marjoram
+descrizione: Erba perenne che forma cespi e d'estate si copre di fiorellini rosa.
+  Le foglie e le cime fiorite seccate sono quelle della pizza.
+categorie:
+- esterno
+- balcone
+- fiorita
+gruppo: aromatiche
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: D'inverno la parte aerea può seccare e ricresce in primavera.
+difficolta: 1
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - est
+  - ovest
+annaffiatura:
+  quando: Quando il terriccio è asciutto; resiste bene alla siccità.
+  primavera_estate:
+    min: 4
+    max: 7
+  autunno_inverno:
+    min: 15
+    max: 30
+  segnali_troppa: Foglie gialle e marciume alla base.
+  segnali_poca: Foglie che seccano e cadono.
+umidita: bassa
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  frequenza_giorni:
+    min: 30
+    max: 45
+  tipo: 'Poco concime: troppo azoto toglie profumo.'
+temperatura:
+  min_c: -15
+  ideale_min_c: 10
+  ideale_max_c: 32
+terreno: Terreno leggero, calcareo e ben drenato.
+rinvaso: Ogni 2 anni in primavera. Raccogli le cime appena fiorite in luglio e falle
+  seccare all'ombra a mazzetti.
+propagazione:
+- divisione
+- seme
+come_si_propaga:
+- metodo: divisione
+  quando: In primavera o in autunno.
+  passi:
+  - Estrai la pianta dal vaso o scalza il cespo con la vanga.
+  - Dividi la zolla in due o più parti, ognuna con radici e germogli.
+  - Rinvasa ogni parte in terriccio fresco alla stessa profondità di prima.
+  - Annaffia e tienila in mezz'ombra per qualche giorno.
+  tempo: Riprende in 2-4 settimane.
+  difficolta: facile
+- metodo: seme
+  quando: In primavera, coprendo appena i semi, che sono minuscoli.
+  passi:
+  - Riempi un vasetto o una cassetta con terriccio da semina.
+  - Spargi i semi radi e coprili con un velo sottile di terriccio.
+  - Annaffia con lo spruzzino e tieni il terriccio sempre umido, al caldo e alla
+    luce.
+  - Quando le piantine hanno 4-6 foglie, diradale o trapiantale in vasi singoli.
+  tempo: Germina in 1-2 settimane.
+  difficolta: facile
+tossicita:
+  animali: lieve
+  persone: non_tossica
+  note: Per l'ASPCA può dare vomito o diarrea a cani e gatti se ne mangiano molto.
+problemi_comuni:
+- sintomo: Base del fusto molle e scura, pianta che appassisce
+  causa: Marciume delle radici per troppa acqua
+  rimedio: Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante.
+immagini:
+- commons: Origanum vulgare 001.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

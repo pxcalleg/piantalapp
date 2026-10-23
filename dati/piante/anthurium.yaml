@@ -1,0 +1,96 @@
+schema_version: 1
+id: anthurium
+stato: bozza
+nome_scientifico: Anthurium andraeanum
+famiglia: Araceae
+nomi_comuni:
+  it:
+  - Anthurium
+  - Anturio
+  en:
+  - Flamingo flower
+  - Anthurium
+descrizione: Pianta da appartamento con foglie a cuore e «fiori» lucidi rossi, rosa
+  o bianchi (in realtà una foglia colorata, la spata) che durano settimane.
+categorie:
+- appartamento
+- fiorita
+- da_ufficio
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: 'no'
+  terrarium: 'no'
+  note: In casa, al caldo e lontano da correnti fredde e termosifoni.
+difficolta: 2
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - media_indiretta
+  sole_diretto: 'no'
+  esposizione:
+  - est
+  - ovest
+annaffiatura:
+  quando: Quando i primi 2-3 cm di terriccio sono asciutti, con acqua non calcarea.
+  primavera_estate:
+    min: 5
+    max: 7
+  autunno_inverno:
+    min: 10
+    max: 14
+  segnali_troppa: Foglie gialle e radici marce.
+  segnali_poca: Foglie con punte secche e spate che sbiadiscono.
+umidita: alta
+concimazione:
+  mesi:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 14
+    max: 21
+  tipo: Concime liquido per piante fiorite a metà dose.
+temperatura:
+  min_c: 15
+  ideale_min_c: 18
+  ideale_max_c: 28
+terreno: Terriccio leggero per orchidee o per piante acidofile con corteccia.
+rinvaso: Ogni 2 anni in primavera, in un vaso poco più grande.
+propagazione:
+- divisione
+come_si_propaga:
+- metodo: divisione
+  quando: In primavera, al rinvaso.
+  passi:
+  - Estrai la pianta dal vaso o scalza il cespo con la vanga.
+  - Dividi la zolla in due o più parti, ognuna con radici e germogli.
+  - Rinvasa ogni parte in terriccio fresco alla stessa profondità di prima.
+  - Annaffia e tienila in mezz'ombra per qualche giorno.
+  tempo: Riprende in 1 mese.
+  difficolta: facile
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: 'Contiene ossalato di calcio: dà bruciore alla bocca, bava e vomito a cani
+    e gatti; nei bambini irrita bocca e gola.'
+problemi_comuni:
+- sintomo: Niente fiori
+  causa: Poca luce
+  rimedio: Spostarla in un punto più luminoso, senza sole diretto.
+- sintomo: Batuffoli bianchi o scudetti sui rami
+  causa: Cocciniglia
+  rimedio: Togliere con un cotton fioc imbevuto di alcol e trattare con olio bianco
+    o sapone molle.
+immagini:
+- commons: Anthurium andraeanum hatem moushir.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

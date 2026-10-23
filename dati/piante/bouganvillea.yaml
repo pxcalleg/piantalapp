@@ -1,0 +1,98 @@
+schema_version: 1
+id: bouganvillea
+stato: bozza
+nome_scientifico: Bougainvillea glabra
+famiglia: Nyctaginaceae
+nomi_comuni:
+  it:
+  - Bouganvillea
+  - Buganvillea
+  en:
+  - Bougainvillea
+  - Paperflower
+descrizione: Rampicante spinoso dei paesi di mare, che da primavera ad autunno si
+  copre di brattee viola, fucsia o arancio, scambiate spesso per i fiori.
+categorie:
+- esterno
+- balcone
+- fiorita
+gruppo: esterno
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: Fuori tutto l'anno solo nelle zone senza gelo (Sud, isole, Liguria); altrove
+    in vaso, da riparare d'inverno in un posto luminoso sopra i 5 °C.
+difficolta: 3
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - ovest
+annaffiatura:
+  quando: Quando il terriccio è asciutto; fiorisce di più se l'acqua è un po' scarsa.
+    D'inverno quasi niente.
+  primavera_estate:
+    min: 3
+    max: 5
+  autunno_inverno:
+    min: 14
+    max: 30
+  segnali_troppa: Foglie gialle e poche brattee.
+  segnali_poca: Foglie e brattee che cadono.
+umidita: bassa
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 14
+    max: 21
+  tipo: Concime per piante fiorite ricco di potassio.
+temperatura:
+  min_c: 3
+  ideale_min_c: 15
+  ideale_max_c: 35
+terreno: Terriccio ben drenato, anche povero.
+rinvaso: 'Odia i rinvasi: falli solo quando serve, senza rompere la zolla. Pota
+  a fine inverno e dopo ogni fioritura, con guanti per le spine.'
+propagazione:
+- talea_fusto
+come_si_propaga:
+- metodo: talea_fusto
+  quando: In primavera o estate.
+  passi:
+  - Taglia un rametto semi-maturo di 15 cm.
+  - Togli le foglie basse e, se l'hai, intingi la base in ormone radicante.
+  - Interralo in terriccio e sabbia e copri con un sacchetto.
+  - Tienilo al caldo, sopra i 20 °C.
+  tempo: Radica in 6-8 settimane.
+  difficolta: difficile
+tossicita:
+  animali: lieve
+  persone: lieve
+  note: 'Poco tossica: se mangiata può dare disturbi intestinali lievi. Le spine
+    possono ferire e la linfa irritare la pelle.'
+problemi_comuni:
+- sintomo: Batuffoli bianchi o scudetti sui rami
+  causa: Cocciniglia
+  rimedio: Togliere con un cotton fioc imbevuto di alcol e trattare con olio bianco
+    o sapone molle.
+- sintomo: Brattee e foglie che cadono tutte insieme
+  causa: Spostamento, freddo o rinvaso
+  rimedio: 'Lasciarla al suo posto al sole e al caldo: ributta.'
+immagini:
+- commons: Bougainvillea glabra.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

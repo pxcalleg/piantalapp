@@ -1,0 +1,89 @@
+schema_version: 1
+id: lavanda
+stato: bozza
+nome_scientifico: Lavandula angustifolia
+famiglia: Lamiaceae
+nomi_comuni:
+  it:
+  - Lavanda
+  - Lavanda vera
+  en:
+  - Lavender
+  - English lavender
+descrizione: Arbusto sempreverde grigio argento con spighe di fiori viola profumatissimi
+  d'estate. Si usa per sacchetti profumati, dolci e tisane, e attira api e farfalle.
+categorie:
+- esterno
+- balcone
+- fiorita
+- siepe
+gruppo: aromatiche
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: Resiste al gelo e alla siccità; soffre l'umidità e l'ombra.
+difficolta: 2
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - ovest
+annaffiatura:
+  quando: 'Poca: solo quando il terriccio è asciutto in profondità. In piena terra
+    dopo il primo anno quasi mai.'
+  primavera_estate:
+    min: 5
+    max: 10
+  autunno_inverno:
+    min: 20
+    max: 30
+  segnali_troppa: Foglie grigie che diventano gialle, rami che seccano.
+  segnali_poca: Fiori piccoli e foglie che si seccano.
+umidita: bassa
+concimazione:
+  mesi:
+  - 4
+  frequenza_giorni:
+    min: 60
+    max: 60
+  tipo: Quasi niente; troppo concime la rende disordinata e meno profumata.
+temperatura:
+  min_c: -15
+  ideale_min_c: 10
+  ideale_max_c: 35
+terreno: Terreno povero, sassoso, calcareo e molto drenante.
+rinvaso: Ogni 2-3 anni in primavera. Dopo la fioritura taglia gli steli e accorcia
+  la pianta di un terzo, senza arrivare al legno nudo.
+propagazione:
+- talea_fusto
+come_si_propaga:
+- metodo: talea_fusto
+  quando: A fine estate, con rametti non fioriti.
+  passi:
+  - Taglia una punta non fiorita di 8-10 cm, appena sotto un nodo.
+  - Togli le foglie della metà bassa.
+  - Interrala in terriccio leggero misto a sabbia e annaffia.
+  - Tienila in un posto luminoso ma senza sole forte, con il terriccio appena umido.
+  tempo: Radica in 4-8 settimane.
+  difficolta: facile
+tossicita:
+  animali: lieve
+  persone: non_tossica
+  note: Per l'ASPCA è tossica per cani e gatti in quantità (vomito, nausea); l'olio
+    essenziale è pericoloso per i gatti.
+problemi_comuni:
+- sintomo: Base del fusto molle e scura, pianta che appassisce
+  causa: Marciume delle radici per troppa acqua
+  rimedio: Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante.
+immagini:
+- commons: Lavandula angustifolia 01.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

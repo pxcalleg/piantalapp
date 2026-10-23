@@ -25,8 +25,8 @@ ARCHITETTURA.md     scelte tecniche e piano di lavoro
 ## Piante presenti
 
 Nell'app le piante sono divise in quattro categorie, indicate nel campo
-`gruppo` di ogni scheda: *Da appartamento*, *Piante grasse*, *Orchidee* e
-*Da esterno*.
+`gruppo` di ogni scheda: *Da appartamento*, *Piante grasse*, *Orchidee*,
+*Da esterno* e *Aromatiche*.
 
 | Pianta | Nome scientifico | Dove |
 |---|---|---|
@@ -63,6 +63,26 @@ Nell'app le piante sono divise in quattro categorie, indicate nel campo
 | Bosso | *Buxus sempervirens* | esterno, balcone, siepe |
 | Ligustro | *Ligustrum ovalifolium* | esterno, fiorita, siepe |
 | Pitosforo | *Pittosporum tobira* | esterno, balcone, fiorita, siepe |
+| Basilico | *Ocimum basilicum* | esterno, balcone, pet_friendly |
+| Rosmarino | *Salvia rosmarinus* | esterno, balcone, fiorita, siepe, pet_friendly |
+| Salvia | *Salvia officinalis* | esterno, balcone, fiorita, pet_friendly |
+| Timo | *Thymus vulgaris* | esterno, balcone, fiorita, pet_friendly |
+| Origano | *Origanum vulgare* | esterno, balcone, fiorita |
+| Menta | *Mentha spicata* | esterno, balcone |
+| Prezzemolo | *Petroselinum crispum* | esterno, balcone |
+| Lavanda | *Lavandula angustifolia* | esterno, balcone, fiorita, siepe |
+| Maggiorana | *Origanum majorana* | esterno, balcone |
+| Erba cipollina | *Allium schoenoprasum* | esterno, balcone, fiorita |
+| Geranio | *Pelargonium × hortorum* | esterno, balcone, fiorita |
+| Falso gelsomino | *Trachelospermum jasminoides* | esterno, balcone, fiorita, siepe |
+| Glicine | *Wisteria sinensis* | esterno, fiorita |
+| Bouganvillea | *Bougainvillea glabra* | esterno, balcone, fiorita |
+| Monstera | *Monstera deliciosa* | appartamento, da_ufficio |
+| Zamioculcas | *Zamioculcas zamiifolia* | appartamento, da_ufficio |
+| Anthurium | *Anthurium andraeanum* | appartamento, fiorita, da_ufficio |
+| Falangio | *Chlorophytum comosum* | appartamento, ricadente, da_ufficio, pet_friendly |
+| Cactus di Natale | *Schlumbergera × buckleyi* | appartamento, succulenta, fiorita, ricadente, pet_friendly |
+| Oncidium | *Oncidium* | appartamento, fiorita, pet_friendly |
 
 ## Funghi
 

@@ -1,0 +1,98 @@
+schema_version: 1
+id: geranio
+stato: bozza
+nome_scientifico: Pelargonium × hortorum
+famiglia: Geraniaceae
+nomi_comuni:
+  it:
+  - Geranio
+  - Geranio zonale
+  en:
+  - Zonal geranium
+descrizione: 'Il fiore da balcone più diffuso in Italia: fiorisce da aprile ai primi
+  freddi in rosso, rosa, bianco o arancio, e chiede poche cure.'
+categorie:
+- esterno
+- balcone
+- fiorita
+gruppo: esterno
+ambiente:
+  interno: false
+  esterno: estate
+  terrarium: 'no'
+  note: Da aprile a ottobre fuori; teme il gelo, quindi d'inverno va in un locale
+    luminoso e fresco (5-12 °C), o fuori al riparo nelle zone di mare.
+difficolta: 1
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - est
+  - ovest
+annaffiatura:
+  quando: Quando il terriccio è asciutto in superficie, senza bagnare foglie e fiori;
+    d'inverno pochissimo.
+  primavera_estate:
+    min: 2
+    max: 4
+  autunno_inverno:
+    min: 14
+    max: 21
+  segnali_troppa: Foglie gialle, gambi neri alla base.
+  segnali_poca: Foglie basse rosse o gialle che seccano.
+umidita: bassa
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 10
+    max: 14
+  tipo: Concime liquido per piante fiorite, ricco di potassio.
+temperatura:
+  min_c: 2
+  ideale_min_c: 12
+  ideale_max_c: 30
+terreno: Terriccio universale ben drenato.
+rinvaso: A marzo, poco prima di portarlo fuori, accorciando i rami di metà. Togli
+  spesso i fiori appassiti.
+propagazione:
+- talea_fusto
+come_si_propaga:
+- metodo: talea_fusto
+  quando: Da fine agosto a settembre, o in primavera.
+  passi:
+  - Taglia una punta di 10 cm appena sotto un nodo.
+  - Togli foglie basse e fiori e lasciala asciugare un'ora.
+  - Interrala in terriccio e sabbia senza coprirla.
+  - 'Annaffia poco e tienila alla luce, senza sacchetto: teme la muffa.'
+  tempo: Radica in 2-4 settimane.
+  difficolta: facile
+tossicita:
+  animali: lieve
+  persone: non_tossica
+  note: 'Per l''ASPCA è tossico per cani e gatti: se mangiato dà vomito e, a contatto,
+    irritazione della pelle.'
+problemi_comuni:
+- sintomo: Fori nei boccioli e foglie rosicchiate
+  causa: Farfallina del geranio (Cacyreus marshalli), le cui larve scavano nei rami
+  rimedio: Togliere i boccioli bucati e usare un insetticida a base di Bacillus
+    thuringiensis.
+- sintomo: Muffa grigia su fiori e foglie
+  causa: Botrite, con umidità e annaffiature dall'alto
+  rimedio: Togliere le parti colpite e annaffiare solo alla base.
+immagini:
+- commons: Pelargonium zonale (Geraniaceae).jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

@@ -1,0 +1,98 @@
+schema_version: 1
+id: cactus-di-natale
+stato: bozza
+nome_scientifico: Schlumbergera × buckleyi
+famiglia: Cactaceae
+nomi_comuni:
+  it:
+  - Cactus di Natale
+  - Schlumbergera
+  - Zigocactus
+  en:
+  - Christmas cactus
+descrizione: Cactus delle foreste brasiliane, senza spine, con fusti a segmenti
+  ricadenti che a dicembre si coprono di fiori rosa, rossi o bianchi.
+categorie:
+- appartamento
+- succulenta
+- fiorita
+- ricadente
+- pet_friendly
+gruppo: grasse
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: D'estate fuori all'ombra; in autunno qualche settimana al fresco (12-15
+    °C) e al buio di notte fa nascere i boccioli.
+difficolta: 2
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - media_indiretta
+  sole_diretto: 'no'
+  esposizione:
+  - est
+  - ovest
+  - nord
+annaffiatura:
+  quando: Quando il terriccio è asciutto in superficie; più spesso durante la fioritura,
+    meno dopo.
+  primavera_estate:
+    min: 7
+    max: 10
+  autunno_inverno:
+    min: 10
+    max: 14
+  segnali_troppa: Segmenti molli e base marcia.
+  segnali_poca: Segmenti grinzosi e rossastri.
+umidita: media
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  frequenza_giorni:
+    min: 21
+    max: 30
+  tipo: Concime per piante fiorite o per cactus a metà dose.
+temperatura:
+  min_c: 8
+  ideale_min_c: 15
+  ideale_max_c: 25
+terreno: Terriccio per cactus misto a terriccio universale e corteccia.
+rinvaso: 'Ogni 2-3 anni in primavera, dopo la fioritura. Non spostarlo quando ha
+  i boccioli: li fa cadere.'
+propagazione:
+- talea_fusto
+come_si_propaga:
+- metodo: talea_fusto
+  quando: In primavera o inizio estate.
+  passi:
+  - Stacca con una torsione un pezzo di 2-3 segmenti.
+  - Lascialo asciugare un giorno.
+  - Interralo per un segmento in terriccio per cactus.
+  - Annaffia poco finché non ricresce.
+  tempo: Radica in 2-4 settimane.
+  difficolta: facile
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Non tossico per cani e gatti secondo l'ASPCA.
+problemi_comuni:
+- sintomo: Boccioli che cadono
+  causa: Spostamenti, sbalzi di temperatura o aria troppo calda
+  rimedio: Lasciarlo fermo in un posto fresco e luminoso.
+- sintomo: Base del fusto molle e scura, pianta che appassisce
+  causa: Marciume delle radici per troppa acqua
+  rimedio: Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante.
+immagini:
+- commons: Schlumbergera truncata 02.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'

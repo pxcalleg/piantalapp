@@ -1,0 +1,99 @@
+schema_version: 1
+id: maggiorana
+stato: bozza
+nome_scientifico: Origanum majorana
+famiglia: Lamiaceae
+nomi_comuni:
+  it:
+  - Maggiorana
+  en:
+  - Marjoram
+  - Sweet marjoram
+descrizione: Parente dell'origano, con un profumo più dolce e delicato. Usata in
+  Liguria per ripieni e torte salate.
+categorie:
+- esterno
+- balcone
+gruppo: aromatiche
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: 'Teme il gelo: al Nord in vaso va riparata d''inverno o trattata come annuale.'
+difficolta: 2
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - est
+  - ovest
+annaffiatura:
+  quando: Quando il terriccio è asciutto in superficie.
+  primavera_estate:
+    min: 3
+    max: 5
+  autunno_inverno:
+    min: 10
+    max: 20
+  segnali_troppa: Foglie gialle e marciume alla base.
+  segnali_poca: Foglie secche e cadenti.
+umidita: bassa
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  frequenza_giorni:
+    min: 30
+    max: 30
+  tipo: Concime per aromatiche, poco.
+temperatura:
+  min_c: -3
+  ideale_min_c: 12
+  ideale_max_c: 30
+terreno: Terriccio leggero e ben drenato.
+rinvaso: Ogni anno in primavera. Taglia i rametti prima della fioritura per raccogliere
+  le foglie più profumate.
+propagazione:
+- seme
+- talea_fusto
+come_si_propaga:
+- metodo: seme
+  quando: In primavera, al caldo.
+  passi:
+  - Riempi un vasetto o una cassetta con terriccio da semina.
+  - Spargi i semi radi e coprili con un velo sottile di terriccio.
+  - Annaffia con lo spruzzino e tieni il terriccio sempre umido, al caldo e alla
+    luce.
+  - Quando le piantine hanno 4-6 foglie, diradale o trapiantale in vasi singoli.
+  tempo: Germina in 1-2 settimane.
+  difficolta: facile
+- metodo: talea_fusto
+  quando: In primavera o a inizio estate.
+  passi:
+  - Taglia una punta non fiorita di 8-10 cm, appena sotto un nodo.
+  - Togli le foglie della metà bassa.
+  - Interrala in terriccio leggero misto a sabbia e annaffia.
+  - Tienila in un posto luminoso ma senza sole forte, con il terriccio appena umido.
+  tempo: Radica in 3-4 settimane.
+  difficolta: facile
+tossicita:
+  animali: lieve
+  persone: non_tossica
+  note: Per l'ASPCA può dare vomito e diarrea a cani e gatti se ne mangiano molto.
+problemi_comuni:
+- sintomo: Base del fusto molle e scura, pianta che appassisce
+  causa: Marciume delle radici per troppa acqua
+  rimedio: Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante.
+immagini:
+- commons: Origanum majorana 001.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-23'
