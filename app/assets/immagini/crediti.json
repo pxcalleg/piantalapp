@@ -428,6 +428,17 @@
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Amanita_caesarea_%28Ovulo_buono%29_September_14%2C_2013_034_%289740848314%29.jpg/960px-Amanita_caesarea_%28Ovulo_buono%29_September_14%2C_2013_034_%289740848314%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
+ "pioppino": [
+  {
+   "file": "pioppino-1.jpg",
+   "commons": "Agrocybe aegerita.jpg",
+   "autore": "Ramiro Barreiro",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Agrocybe_aegerita.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Agrocybe_aegerita.jpg/960px-Agrocybe_aegerita.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
  "porcino": [
   {
    "file": "porcino-1.jpg",
@@ -437,6 +448,39 @@
    "url_licenza": "https://creativecommons.org/licenses/by/3.0",
    "pagina": "https://commons.wikimedia.org/wiki/File:Boletus_edulis_(5).jpg",
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Boletus_edulis_%285%29.jpg/960px-Boletus_edulis_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "prataiolo": [
+  {
+   "file": "prataiolo-1.jpg",
+   "commons": "Agaricus campestris.jpg",
+   "autore": "Autore sconosciuto",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Agaricus_campestris.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Agaricus_campestris.jpg/960px-Agaricus_campestris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "tartufo-bianco": [
+  {
+   "file": "tartufo-bianco-1.jpg",
+   "commons": "Tuber Magnatum Pico.jpg",
+   "autore": "Lucarelli",
+   "licenza": "Public domain",
+   "url_licenza": "",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tuber_Magnatum_Pico.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Tuber_Magnatum_Pico.jpg/960px-Tuber_Magnatum_Pico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "tartufo-nero": [
+  {
+   "file": "tartufo-nero-1.jpg",
+   "commons": "Tuber melanosporum - trufa negra, Ágreda, España.jpg",
+   "autore": "Diego Delso",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Tuber_melanosporum_-_trufa_negra,_%C3%81greda,_Espa%C3%B1a.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Tuber_melanosporum_-_trufa_negra%2C_%C3%81greda%2C_Espa%C3%B1a.jpg/960px-Tuber_melanosporum_-_trufa_negra%2C_%C3%81greda%2C_Espa%C3%B1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
  "tignosa-verdognola": [
