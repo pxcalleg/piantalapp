@@ -1,0 +1,95 @@
+schema_version: 1
+id: oleandro
+stato: bozza
+nome_scientifico: Nerium oleander
+famiglia: Apocynaceae
+nomi_comuni:
+  it: [Oleandro, Mazza di San Giuseppe]
+  en: [Oleander, Nerium]
+descrizione: >-
+  Arbusto sempreverde mediterraneo con foglie strette e coriacee e fiori
+  rosa, rossi, bianchi o gialli da maggio a ottobre. Resiste a sole, caldo,
+  siccità e salsedine, ma è una delle piante più velenose dei nostri
+  giardini.
+categorie: [esterno, balcone, fiorita, siepe]
+gruppo: esterno
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: "no"
+  note: >-
+    In piena terra al centro-sud e sulle coste; al nord in zona riparata o in
+    vaso, da spostare contro un muro o sotto una tettoia nelle notti di gelo.
+difficolta: 1
+luce:
+  ideale: sole_diretto
+  tollera: [intensa_indiretta]
+  sole_diretto: si
+  esposizione: [sud, ovest]
+  note: Più sole riceve, più fiorisce; in mezz'ombra cresce ma fa pochi fiori.
+annaffiatura:
+  quando: In vaso, quando i primi 3-4 cm di terriccio sono asciutti; in piena terra solo nei periodi di siccità.
+  primavera_estate: { min: 2, max: 4 }
+  autunno_inverno: { min: 10, max: 20 }
+  metodo: Annaffiare a fondo alla base, senza bagnare i fiori, e svuotare il sottovaso.
+  segnali_troppa: Foglie gialle che cadono, radici marce nel vaso sempre bagnato.
+  segnali_poca: Foglie che si arricciano e boccioli che cadono prima di aprirsi.
+umidita: bassa
+concimazione:
+  mesi: [4, 5, 6, 7, 8]
+  frequenza_giorni: { min: 15, max: 20 }
+  tipo: Concime per piante da fiore, ricco di potassio, solo per le piante in vaso.
+temperatura:
+  min_c: -8
+  ideale_min_c: 18
+  ideale_max_c: 35
+  note: Sotto i -8 °C la parte aerea si secca, ma spesso la pianta ributta dalla base in primavera.
+terreno: Qualsiasi terreno ben drenato, anche povero e calcareo; in vaso terriccio universale con sabbia.
+rinvaso: >-
+  In vaso ogni 2-3 anni in primavera. Potare a fine inverno, accorciando i
+  rami che hanno fiorito, sempre con i guanti.
+propagazione: [talea_in_acqua, talea_fusto]
+come_si_propaga:
+  - metodo: talea_in_acqua
+    quando: Da maggio a settembre.
+    passi:
+      - Con i guanti, taglia la punta di un ramo lunga 15-20 cm, senza fiori.
+      - Togli le foglie più basse e lascia solo le 3-4 in alto.
+      - Metti la talea in un vasetto con 4-5 cm d'acqua, in un punto luminoso ma senza sole diretto.
+      - Cambia l'acqua ogni settimana; quando le radici sono lunghe 3-4 cm trasferiscila in un vaso con terriccio e sabbia.
+    tempo: Radici in 3-5 settimane.
+    difficolta: facile
+    note: Lavati le mani dopo aver maneggiato rami e foglie, e non usare per altro il contenitore dell'acqua.
+  - metodo: talea_fusto
+    quando: Da giugno a settembre, con rami semi-maturi.
+    passi:
+      - Con i guanti, taglia un ramo di 15 cm appena sotto un nodo e togli le foglie basse.
+      - Interralo per un terzo in terriccio misto a sabbia e annaffia.
+      - Tienilo all'ombra luminosa, con il terriccio appena umido.
+      - Quando spuntano foglie nuove trapiantalo in un vaso più grande.
+    tempo: Radici in 4-6 settimane.
+    difficolta: facile
+tossicita:
+  animali: tossica
+  persone: tossica
+  note: >-
+    Tutte le parti, anche secche, contengono glicosidi che agiscono sul cuore
+    (oleandrina): bastano poche foglie per un avvelenamento grave di persone,
+    cani, gatti e cavalli. Potare con i guanti, non bruciare i rami (il fumo è
+    tossico), non usarli come spiedini e tenerlo lontano da bambini e animali.
+    In caso di ingestione chiama subito un Centro antiveleni.
+problemi_comuni:
+  - sintomo: Foglie appiccicose con scudetti marroni sui rami
+    causa: Cocciniglia
+    rimedio: Togliere le cocciniglie con un batuffolo d'alcol e, se sono tante, usare olio bianco a fine inverno.
+  - sintomo: Pochi fiori
+    causa: Troppa ombra o potatura in primavera inoltrata
+    rimedio: Spostarlo al sole pieno e potare solo a fine inverno.
+immagini:
+  - commons: "Nerium oleander (bloom).jpg"
+fonti:
+  - Royal Horticultural Society, scheda Nerium oleander (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche, voce Oleander (aspca.org)
+  - Centro Antiveleni di Milano, Ospedale Niguarda, piante tossiche (ospedaleniguarda.it)
+autori: [piantalapp]
+aggiornato: "2026-10-23"

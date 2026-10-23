@@ -1,0 +1,77 @@
+schema_version: 1
+id: pitosforo
+stato: bozza
+nome_scientifico: Pittosporum tobira
+famiglia: Pittosporaceae
+nomi_comuni:
+  it: [Pitosforo]
+  en: [Japanese cheesewood, Mock orange]
+descrizione: >-
+  Arbusto sempreverde dalle foglie lucide e arrotondate. Ad aprile e maggio
+  si copre di fiori bianchi che profumano di zagara. Resiste al vento e alla
+  salsedine: è la siepe tipica dei giardini al mare.
+categorie: [esterno, balcone, fiorita, siepe]
+gruppo: esterno
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: "no"
+  note: Al nord va in posizione riparata o in vaso, da proteggere nelle gelate forti.
+difficolta: 1
+luce:
+  ideale: sole_diretto
+  tollera: [intensa_indiretta, media_indiretta]
+  sole_diretto: si
+  esposizione: [sud, est, ovest]
+annaffiatura:
+  quando: In vaso quando il terriccio è asciutto in superficie; in piena terra solo nelle estati secche.
+  primavera_estate: { min: 3, max: 6 }
+  autunno_inverno: { min: 14, max: 28 }
+  segnali_troppa: Foglie gialle e radici marce nei terreni pesanti.
+umidita: media
+concimazione:
+  mesi: [3, 4, 5, 6]
+  frequenza_giorni: { min: 30, max: 30 }
+  tipo: Concime per arbusti da fiore a lenta cessione.
+temperatura:
+  min_c: -8
+  ideale_min_c: 12
+  ideale_max_c: 32
+terreno: Terreno ben drenato, anche sabbioso o calcareo.
+rinvaso: >-
+  In vaso ogni 2-3 anni. Potare dopo la fioritura per non perdere i fiori
+  dell'anno dopo.
+propagazione: [talea_fusto, seme]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: Da luglio a settembre, con rami semi-maturi.
+    passi:
+      - Taglia una punta di 10-12 cm sotto un nodo e togli le foglie basse.
+      - Interrala in terriccio e sabbia e copri con un sacchetto trasparente.
+      - Tienila all'ombra luminosa e al caldo, con il terriccio appena umido.
+      - Trapiantala in un vaso più grande la primavera successiva.
+    tempo: Radici in 6-8 settimane.
+    difficolta: media
+  - metodo: seme
+    quando: In autunno, appena le capsule si aprono, o in primavera.
+    passi:
+      - Raccogli i semi rossi e appiccicosi dalle capsule aperte e lavali.
+      - Seminali appena coperti in terriccio da semina e tienili umidi.
+      - Trapianta le piantine quando hanno 3-4 foglie.
+    tempo: Germinazione in 1-3 mesi; crescita lenta.
+    difficolta: media
+tossicita:
+  animali: sconosciuta
+  persone: sconosciuta
+  note: Non risultano casi di avvelenamento noti, ma i semi non vanno mangiati.
+problemi_comuni:
+  - sintomo: Foglie appiccicose coperte di patina nera
+    causa: Cocciniglie e afidi con fumaggine
+    rimedio: Olio bianco a fine inverno e lavaggio delle foglie.
+immagini:
+  - commons: "Pittosporum tobira.JPG"
+fonti:
+  - Royal Horticultural Society, scheda Pittosporum tobira (rhs.org.uk)
+  - Clemson Cooperative Extension, "Pittosporum" (hgic.clemson.edu)
+autori: [piantalapp]
+aggiornato: "2026-10-23"

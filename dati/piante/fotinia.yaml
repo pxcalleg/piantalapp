@@ -1,0 +1,71 @@
+schema_version: 1
+id: fotinia
+stato: bozza
+nome_scientifico: Photinia × fraseri 'Red Robin'
+famiglia: Rosaceae
+nomi_comuni:
+  it: [Fotinia, Fotinia Red Robin]
+  en: [Red tip photinia, Red Robin]
+descrizione: >-
+  Arbusto sempreverde le cui foglie nuove spuntano di un rosso acceso, poi
+  diventano verdi. Molto usata per siepi colorate: ogni potatura fa nascere
+  nuovi germogli rossi.
+categorie: [esterno, siepe]
+gruppo: esterno
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: "no"
+difficolta: 2
+luce:
+  ideale: sole_diretto
+  tollera: [intensa_indiretta]
+  sole_diretto: si
+  esposizione: [sud, est, ovest]
+  note: In ombra i germogli restano poco colorati.
+annaffiatura:
+  quando: Il primo anno quando il terreno è asciutto in superficie; poi solo nelle estati secche.
+  primavera_estate: { min: 3, max: 7 }
+  autunno_inverno: { min: 21, max: 30 }
+  segnali_troppa: Macchie scure sulle foglie e caduta di foglie, aggravate dall'umidità.
+umidita: media
+concimazione:
+  mesi: [3, 4, 5, 6]
+  frequenza_giorni: { min: 30, max: 60 }
+  tipo: Concime a lenta cessione per arbusti, a fine inverno.
+temperatura:
+  min_c: -12
+  ideale_min_c: 10
+  ideale_max_c: 30
+terreno: Terreno fertile e ben drenato; teme i ristagni d'acqua.
+rinvaso: >-
+  Potare la siepe due o tre volte tra primavera ed estate per avere sempre
+  germogli rossi; non dopo settembre.
+propagazione: [talea_fusto]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: Da luglio a settembre, con rami semi-maturi.
+    passi:
+      - Taglia una punta di 10-15 cm appena sotto un nodo.
+      - Togli le foglie basse e intingi la base in ormone radicante.
+      - Interrala in terriccio e perlite, annaffia e copri con un sacchetto trasparente.
+      - Tienila all'ombra luminosa e al riparo dal gelo fino alla primavera.
+    tempo: Radici in 6-10 settimane.
+    difficolta: media
+tossicita:
+  animali: lieve
+  persone: lieve
+  note: >-
+    Come altre Rosacee, foglie e semi contengono sostanze cianogenetiche:
+    meglio evitare che bambini e animali le mastichino.
+problemi_comuni:
+  - sintomo: Macchie rosse poi grigie sulle foglie, che cadono
+    causa: Maculatura fogliare (Entomosporium), favorita dall'umidità
+    rimedio: Annaffiare alla base, togliere le foglie colpite, arieggiare la siepe e trattare con rame in primavera.
+immagini:
+  - commons: "Photinia Red Robin.jpg"
+fonti:
+  - Royal Horticultural Society, scheda Photinia × fraseri 'Red Robin' (rhs.org.uk)
+  - Clemson Cooperative Extension, "Photinia" (hgic.clemson.edu)
+autori: [piantalapp]
+aggiornato: "2026-10-23"

@@ -1,0 +1,74 @@
+schema_version: 1
+id: lauroceraso
+stato: bozza
+nome_scientifico: Prunus laurocerasus
+famiglia: Rosaceae
+nomi_comuni:
+  it: [Lauroceraso, Lauro ceraso, Lauro regio]
+  en: [Cherry laurel, English laurel]
+descrizione: >-
+  Arbusto sempreverde dalle grandi foglie lucide, tra le siepi più usate
+  perché cresce in fretta e sopporta anche l'ombra. In primavera fa spighe
+  di fiorellini bianchi, poi bacche nere.
+categorie: [esterno, siepe]
+gruppo: esterno
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: "no"
+difficolta: 1
+luce:
+  ideale: intensa_indiretta
+  tollera: [sole_diretto, media_indiretta, bassa]
+  sole_diretto: si
+  esposizione: [nord, est, ovest, sud]
+  note: Cresce sia al sole sia in ombra; in pieno sole al sud va annaffiato di più d'estate.
+annaffiatura:
+  quando: Le siepi giovani quando il terreno è asciutto in superficie; da adulto solo nelle estati secche.
+  primavera_estate: { min: 3, max: 7 }
+  autunno_inverno: { min: 21, max: 30 }
+  segnali_poca: Foglie flosce e bordi secchi, soprattutto in pieno sole.
+umidita: media
+concimazione:
+  mesi: [3, 4, 5, 6]
+  frequenza_giorni: { min: 30, max: 60 }
+  tipo: Concime organico o a lenta cessione per siepi, a fine inverno.
+temperatura:
+  min_c: -15
+  ideale_min_c: 10
+  ideale_max_c: 28
+terreno: Si adatta a quasi tutti i terreni, purché non sempre zuppi.
+rinvaso: >-
+  Le siepi si potano due volte l'anno, dopo la fioritura e a fine estate,
+  meglio con le cesoie che con il tagliasiepi per non strappare le foglie
+  grandi.
+propagazione: [talea_fusto]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: Da fine estate all'autunno, con rami semi-maturi.
+    passi:
+      - Con i guanti, taglia una punta di 15 cm e togli le foglie basse.
+      - Taglia a metà le foglie rimaste per ridurre l'evaporazione.
+      - Interrala in terriccio e sabbia e annaffia.
+      - Tienila in un posto fresco e ombreggiato, con il terriccio appena umido, fino alla primavera.
+    tempo: Radici in 2-3 mesi.
+    difficolta: facile
+tossicita:
+  animali: tossica
+  persone: tossica
+  note: >-
+    Foglie, rami e semi contengono sostanze che liberano acido cianidrico:
+    non masticarli e non usare le foglie in cucina al posto dell'alloro. La
+    polpa delle bacche è poco tossica, ma i noccioli sono velenosi.
+    Lavarsi le mani dopo la potatura e non bruciare i rami.
+problemi_comuni:
+  - sintomo: Foglie bucherellate come da pallini
+    causa: Corineo, una malattia fungina
+    rimedio: Togliere le foglie colpite e trattare con prodotti a base di rame in autunno.
+immagini:
+  - commons: "Prunus laurocerasus.JPG"
+fonti:
+  - Royal Horticultural Society, scheda Prunus laurocerasus (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche, voce Cherry laurel (aspca.org)
+autori: [piantalapp]
+aggiornato: "2026-10-23"

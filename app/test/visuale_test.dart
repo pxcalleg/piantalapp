@@ -48,8 +48,6 @@ void main() {
         .map((f) => f.uri.pathSegments.last.replaceAll('.yaml', ''))
         .toSet();
     expect(ids, containsAll(modelliVisuali.keys));
-    // Per ora ogni scheda ha la sua pianta interattiva.
-    expect(modelliVisuali.keys.toSet(), ids);
   });
 
   test('gli scenari hanno valori tra 0 e 1', () {
