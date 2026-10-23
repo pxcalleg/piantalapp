@@ -95,13 +95,20 @@ const nomiMesi = [
 String etichetta(Map<String, String> mappa, String? valore) =>
     valore == null ? '' : (mappa[valore] ?? valore);
 
-/// "mar-set" se i mesi sono consecutivi, altrimenti l'elenco.
+/// "mar-set" se i mesi sono consecutivi, anche a cavallo dell'anno come
+/// "dic-mar", altrimenti l'elenco.
 String descriviMesi(List<int> mesi) {
   if (mesi.isEmpty) return 'mai';
-  final ordinati = [...mesi]..sort();
-  final consecutivi = ordinati.last - ordinati.first == ordinati.length - 1;
-  if (consecutivi && ordinati.length > 2) {
-    return '${nomiMesi[ordinati.first - 1]}-${nomiMesi[ordinati.last - 1]}';
+  final ordinati = mesi.toSet().toList()..sort();
+  if (ordinati.length == 12) return 'gen-dic';
+  int prima(int m) => m == 1 ? 12 : m - 1;
+  int dopo(int m) => m == 12 ? 1 : m + 1;
+  // Un mese apre un periodo se quello prima non c'è, lo chiude se manca il
+  // successivo.
+  final inizi = ordinati.where((m) => !ordinati.contains(prima(m))).toList();
+  if (inizi.length == 1 && ordinati.length > 2) {
+    final fine = ordinati.firstWhere((m) => !ordinati.contains(dopo(m)));
+    return '${nomiMesi[inizi.first - 1]}-${nomiMesi[fine - 1]}';
   }
   return ordinati.map((m) => nomiMesi[m - 1]).join(', ');
 }

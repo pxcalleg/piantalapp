@@ -62,6 +62,8 @@ void main() {
   test('descrive i mesi di concimazione', () {
     expect(descriviMesi([3, 4, 5, 6, 7, 8, 9]), 'mar-set');
     expect(descriviMesi([4, 9]), 'apr, set');
+    expect(descriviMesi([12, 1, 2, 3]), 'dic-mar');
+    expect(descriviMesi([9, 10, 11, 12]), 'set-dic');
     expect(descriviMesi([]), 'mai');
   });
 

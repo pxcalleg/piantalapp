@@ -1,0 +1,64 @@
+schema_version: 1
+id: prataiolo
+stato: bozza
+nome_scientifico: Agaricus campestris
+famiglia: Agaricaceae
+nomi_comuni:
+  it: [Prataiolo, Prataiolo dei campi, Pratarolo]
+  en: [Field mushroom, Meadow mushroom]
+descrizione: >-
+  Il parente selvatico dello champignon coltivato. Nasce nei prati
+  concimati e nei pascoli. È facile da confondere con alcune amanite
+  mortali, quindi è tra i funghi più a rischio per chi è alle prime armi.
+commestibilita: commestibile
+note_commestibilita: >-
+  Buono crudo in insalata o cotto, ma solo se sicuramente riconosciuto:
+  diverse intossicazioni mortali vengono da amanite bianche scambiate per
+  prataioli. Va sempre fatto controllare dall'Ispettorato micologico. Evitare
+  quelli raccolti vicino a strade o campi trattati.
+habitat: >-
+  Nei prati, pascoli e campi concimati, spesso in gruppi o cerchi, mai nel
+  bosco fitto. Dalla pianura alla montagna, soprattutto dopo le piogge.
+stagione: [5, 6, 8, 9, 10, 11]
+caratteristiche:
+  cappello: >-
+    Da 4 a 10 cm, bianco o appena grigiastro, liscio o con fini squame
+    sericee, prima a cupola poi aperto.
+  sotto_il_cappello: >-
+    Lamelle libere, fitte, rosa vivo da giovane, poi bruno cioccolato e
+    infine quasi nere. Non sono mai bianche.
+  gambo: >-
+    Corto, bianco, con un anello sottile e fragile; alla base non c'è una
+    volva a sacco.
+  carne: >-
+    Bianca, appena rosata al taglio, odore gradevole di fungo; non ingiallisce
+    né sa di inchiostro.
+  sporata: Bruno porpora scuro
+sosia:
+  - nome: Tignosa bianca primaverile
+    nome_scientifico: Amanita verna
+    commestibilita: mortale
+    differenze: >-
+      Tutta bianca, ma con lamelle sempre bianche, anello ampio e soprattutto
+      una volva a sacco alla base del gambo, spesso nascosta nel terreno:
+      bisogna sempre estrarre il fungo intero.
+  - nome: Tignosa bianca
+    nome_scientifico: Amanita virosa
+    commestibilita: mortale
+    differenze: >-
+      Bianca, con lamelle bianche, gambo fioccoso, volva alla base e odore
+      sgradevole. Cresce nei boschi ma anche ai loro margini.
+  - nome: Prataiolo ingiallente
+    nome_scientifico: Agaricus xanthodermus
+    commestibilita: tossico
+    differenze: >-
+      Se si graffia la base del gambo la carne diventa subito giallo cromo, e
+      ha odore di inchiostro o di fenolo. Causa forti disturbi
+      gastrointestinali.
+immagini:
+  - commons: "Agaricus campestris.jpg"
+fonti:
+  - Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)
+  - Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)
+autori: [piantalapp]
+aggiornato: "2026-10-23"

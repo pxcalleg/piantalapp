@@ -1,0 +1,64 @@
+schema_version: 1
+id: tartufo-nero
+stato: bozza
+nome_scientifico: Tuber melanosporum
+famiglia: Tuberaceae
+nomi_comuni:
+  it: [Tartufo nero, Tartufo nero pregiato, Tartufo di Norcia]
+  en: [Black truffle, Périgord truffle]
+descrizione: >-
+  Il tartufo nero pregiato, con la buccia scura a piccole verruche e la polpa
+  nero violacea. Ha un profumo più delicato del bianco e, al contrario di
+  questo, regge bene la cottura.
+commestibilita: commestibile
+note_commestibilita: >-
+  Si usa crudo o cotto, grattugiato o in salse. La raccolta è regolata dalla
+  legge 752/1985 e dalle leggi regionali: serve il tesserino, si cerca con il
+  cane e solo nei periodi consentiti.
+habitat: >-
+  Sotto terra, in terreni calcarei, sassosi e ben drenati, in simbiosi con
+  roverella, leccio, nocciolo e carpino nero. Attorno alla pianta l'erba
+  spesso manca (il «pianello»). Umbria, Marche, Abruzzo, Toscana, Piemonte.
+stagione: [12, 1, 2, 3]
+caratteristiche:
+  cappello: >-
+    Non ha cappello: tubero tondeggiante da 2 a 8 cm, con la buccia nera
+    coperta di piccole verruche a punta, a volte con riflessi rossicci.
+  sotto_il_cappello: >-
+    Non ha lamelle né pori: le spore si formano all'interno, nella polpa
+    (gleba).
+  gambo: Assente.
+  carne: >-
+    Gleba nero violacea a maturità, con sottili venature bianche che
+    arrossano all'aria. Profumo intenso e gradevole, di sottobosco e cacao.
+sosia:
+  - nome: Scorzone
+    nome_scientifico: Tuber aestivum
+    commestibilita: commestibile
+    differenze: >-
+      Buccia nera con verruche più grosse e piramidali, ma gleba chiara,
+      color nocciola. Matura in estate e ha un profumo più leggero.
+  - nome: Tartufo nero d'inverno
+    nome_scientifico: Tuber brumale
+    commestibilita: commestibile
+    differenze: >-
+      Simile e nella stessa stagione, ma la gleba è grigio bruna con venature
+      bianche più larghe e il profumo è più pungente, quasi di rapa.
+  - nome: Falso tartufo
+    nome_scientifico: Scleroderma citrinum
+    commestibilita: tossico
+    differenze: >-
+      Buccia spessa giallastra e screpolata, non nera a verruche; la polpa
+      diventa nero violacea e poi si sfalda in polvere. Causa disturbi
+      gastrointestinali.
+curiosita: >-
+  A differenza del bianco si coltiva: si piantano alberi con le radici già
+  «inoculate» con il tartufo e dopo 6-10 anni si iniziano a raccogliere.
+immagini:
+  - commons: "Tuber melanosporum - trufa negra, Ágreda, España.jpg"
+fonti:
+  - Legge 16 dicembre 1985 n. 752, raccolta e commercio dei tartufi
+  - Centro Nazionale Studi Tartufo, schede delle specie (tuberstudi.org)
+  - Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)
+autori: [piantalapp]
+aggiornato: "2026-10-23"

@@ -84,7 +84,11 @@ soprattutto i **sosia** con cui si può confondere.
 | Galletto (*Cantharellus cibarius*) | commestibile |
 | Mazza di tamburo (*Macrolepiota procera*) | commestibile |
 | Ovolo (*Amanita caesarea*) | commestibile |
+| Pioppino (*Cyclocybe aegerita*) | commestibile |
 | Porcino (*Boletus edulis*) | commestibile |
+| Prataiolo (*Agaricus campestris*) | commestibile |
+| Tartufo bianco (*Tuber magnatum*) | commestibile |
+| Tartufo nero (*Tuber melanosporum*) | commestibile |
 | Tignosa verdognola (*Amanita phalloides*) | mortale |
 | Trombetta dei morti (*Craterellus cornucopioides*) | commestibile |
 
