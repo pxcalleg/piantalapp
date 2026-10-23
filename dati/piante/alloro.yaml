@@ -1,0 +1,82 @@
+schema_version: 1
+id: alloro
+stato: bozza
+nome_scientifico: Laurus nobilis
+famiglia: Lauraceae
+nomi_comuni:
+  it: [Alloro, Lauro]
+  en: [Bay laurel, Sweet bay]
+descrizione: >-
+  Arbusto o piccolo albero sempreverde dalle foglie aromatiche, usate in
+  cucina. Si pota bene e forma siepi fitte e profumate, oppure alberelli in
+  vaso.
+categorie: [esterno, balcone, siepe]
+gruppo: esterno
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: "no"
+  note: In piena terra in tutta Italia, nelle zone più fredde in posizione riparata dai venti gelidi.
+difficolta: 1
+luce:
+  ideale: sole_diretto
+  tollera: [intensa_indiretta, media_indiretta]
+  sole_diretto: si
+  esposizione: [sud, est, ovest]
+annaffiatura:
+  quando: In vaso quando il terriccio è asciutto in superficie; in piena terra solo il primo anno e nelle estati secche.
+  primavera_estate: { min: 3, max: 5 }
+  autunno_inverno: { min: 14, max: 21 }
+  segnali_troppa: Foglie gialle e cadute, base dei rami scura.
+  segnali_poca: Foglie che perdono lucentezza e si accartocciano.
+umidita: media
+concimazione:
+  mesi: [3, 4, 5, 6, 7, 8]
+  frequenza_giorni: { min: 30, max: 30 }
+  tipo: Concime universale a lenta cessione in primavera; in vaso concime liquido per piante verdi.
+temperatura:
+  min_c: -10
+  ideale_min_c: 12
+  ideale_max_c: 30
+terreno: Terreno fertile e ben drenato, anche calcareo; teme i ristagni.
+rinvaso: >-
+  In vaso ogni 2-3 anni in primavera. Le siepi si potano a fine primavera e
+  a fine estate.
+propagazione: [talea_fusto, polloni]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: Da fine agosto a ottobre, con rami semi-maturi.
+    passi:
+      - Taglia una punta di 10-15 cm con un pezzetto di ramo vecchio alla base (un «tallone»).
+      - Togli le foglie basse e accorcia a metà quelle rimaste.
+      - Interrala in terriccio e sabbia, annaffia e copri con un sacchetto trasparente.
+      - Tienila all'ombra luminosa e al riparo dal gelo fino alla primavera.
+    tempo: Radica lentamente, in 2-4 mesi.
+    difficolta: media
+  - metodo: polloni
+    quando: In primavera.
+    passi:
+      - Scava attorno a un pollone che spunta dalla base della pianta.
+      - Taglialo con un pezzo di radice usando una vanga affilata.
+      - Mettilo in un vaso con terriccio e tienilo umido e in mezz'ombra per qualche settimana.
+    tempo: Attecchisce in 4-8 settimane.
+    difficolta: facile
+tossicita:
+  animali: lieve
+  persone: non_tossica
+  note: >-
+    Le foglie si usano in cucina, ma masticate in quantità possono dare
+    vomito a cani e gatti. Attenzione a non confonderlo con il lauroceraso,
+    che ha foglie simili ma è velenoso: le foglie di alloro spezzate
+    profumano di alloro, quelle di lauroceraso di mandorla amara.
+problemi_comuni:
+  - sintomo: Foglie con una patina nera
+    causa: Fumaggine, che cresce sulla melata di cocciniglie e psille
+    rimedio: Eliminare gli insetti con olio bianco o sapone molle e lavare le foglie.
+immagini:
+  - commons: "Laurus nobilis Laurel tree.jpg"
+fonti:
+  - Royal Horticultural Society, scheda Laurus nobilis (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche, voce Bay laurel (aspca.org)
+autori: [piantalapp]
+aggiornato: "2026-10-23"

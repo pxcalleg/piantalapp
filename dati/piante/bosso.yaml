@@ -1,0 +1,75 @@
+schema_version: 1
+id: bosso
+stato: bozza
+nome_scientifico: Buxus sempervirens
+famiglia: Buxaceae
+nomi_comuni:
+  it: [Bosso, Bossolo]
+  en: [Common box, Boxwood]
+descrizione: >-
+  Arbusto sempreverde dalle foglioline lucide, a crescita lenta. È la pianta
+  classica delle siepi basse e delle forme potate a palla o a cono nei
+  giardini all'italiana.
+categorie: [esterno, balcone, siepe]
+gruppo: esterno
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: "no"
+difficolta: 2
+luce:
+  ideale: intensa_indiretta
+  tollera: [sole_diretto, media_indiretta]
+  sole_diretto: si
+  esposizione: [est, ovest, nord]
+  note: In pieno sole estivo e con poca acqua le foglie possono arrossarsi.
+annaffiatura:
+  quando: In vaso quando i primi 2-3 cm di terriccio sono asciutti; in piena terra nelle estati secche.
+  primavera_estate: { min: 3, max: 6 }
+  autunno_inverno: { min: 14, max: 28 }
+  segnali_poca: Foglie arancio o bronzo, soprattutto in vaso.
+umidita: media
+concimazione:
+  mesi: [3, 4, 5, 6, 7]
+  frequenza_giorni: { min: 30, max: 45 }
+  tipo: Concime per piante verdi ricco di azoto, o a lenta cessione in primavera.
+temperatura:
+  min_c: -20
+  ideale_min_c: 10
+  ideale_max_c: 28
+terreno: Terreno fertile, ben drenato, anche calcareo.
+rinvaso: >-
+  In vaso ogni 2-3 anni. Potare le forme a fine maggio e a fine agosto,
+  evitando i giorni più caldi.
+propagazione: [talea_fusto]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: Da fine agosto a ottobre.
+    passi:
+      - Taglia punte di 8-10 cm da rami sani.
+      - Togli le foglie nei 3-4 cm più bassi.
+      - Interrale fitte in terriccio e sabbia, in una cassetta all'ombra.
+      - Tieni il terriccio appena umido durante l'inverno e trapianta nella primavera dopo.
+    tempo: Radici in 2-3 mesi.
+    difficolta: facile
+tossicita:
+  animali: tossica
+  persone: tossica
+  note: >-
+    Foglie e rami contengono alcaloidi tossici: se masticati danno vomito,
+    diarrea e, in grandi quantità, disturbi più gravi. Attenzione a cani e
+    cavalli che rosicchiano le siepi.
+problemi_comuni:
+  - sintomo: Ragnatele e foglie mangiate fino a lasciare la siepe spoglia
+    causa: Piralide del bosso, un bruco verde e nero arrivato dall'Asia
+    rimedio: Controllare la siepe da aprile, togliere a mano i bruchi e usare un insetticida biologico a base di Bacillus thuringiensis.
+  - sintomo: Macchie marroni e foglie che cadono a chiazze
+    causa: Malattie fungine favorite dall'umidità
+    rimedio: Togliere e bruciare le parti colpite, non bagnare le foglie e arieggiare.
+immagini:
+  - commons: "Buxus sempervirens bush.jpg"
+fonti:
+  - Royal Horticultural Society, scheda Buxus sempervirens e guida "Box tree caterpillar" (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche, voce Boxwood (aspca.org)
+autori: [piantalapp]
+aggiornato: "2026-10-23"

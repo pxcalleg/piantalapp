@@ -56,6 +56,13 @@ Nell'app le piante sono divise in quattro categorie, indicate nel campo
 | Haworthia | *Haworthiopsis attenuata* | appartamento, succulenta |
 | Mammillaria | *Mammillaria zeilmanniana* | appartamento, balcone, succulenta, fiorita |
 | Fico d'India nano | *Opuntia microdasys* | appartamento, balcone, succulenta |
+| Oleandro | *Nerium oleander* | esterno, balcone, fiorita, siepe |
+| Alloro | *Laurus nobilis* | esterno, balcone, siepe |
+| Lauroceraso | *Prunus laurocerasus* | esterno, siepe |
+| Fotinia | *Photinia × fraseri* | esterno, siepe |
+| Bosso | *Buxus sempervirens* | esterno, balcone, siepe |
+| Ligustro | *Ligustrum ovalifolium* | esterno, fiorita, siepe |
+| Pitosforo | *Pittosporum tobira* | esterno, balcone, fiorita, siepe |
 
 ## Funghi
 

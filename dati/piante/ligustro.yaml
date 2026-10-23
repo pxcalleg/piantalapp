@@ -1,0 +1,68 @@
+schema_version: 1
+id: ligustro
+stato: bozza
+nome_scientifico: Ligustrum ovalifolium
+famiglia: Oleaceae
+nomi_comuni:
+  it: [Ligustro, Ligustro ovalifoglio]
+  en: [Garden privet, Californian privet]
+descrizione: >-
+  Arbusto rustico e veloce, molto usato per siepi cittadine. A inizio estate
+  fa pannocchie di fiorellini bianchi profumati, poi bacche nere.
+categorie: [esterno, fiorita, siepe]
+gruppo: esterno
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: "no"
+  note: Nelle zone più fredde può perdere parte delle foglie d'inverno e ributta in primavera.
+difficolta: 1
+luce:
+  ideale: sole_diretto
+  tollera: [intensa_indiretta, media_indiretta]
+  sole_diretto: si
+  esposizione: [sud, est, ovest, nord]
+annaffiatura:
+  quando: Il primo anno quando il terreno è asciutto; poi solo nelle estati molto secche.
+  primavera_estate: { min: 4, max: 7 }
+  autunno_inverno: { min: 21, max: 30 }
+umidita: media
+concimazione:
+  mesi: [3, 4]
+  frequenza_giorni: { min: 30, max: 30 }
+  tipo: Concime organico o a lenta cessione a fine inverno.
+temperatura:
+  min_c: -15
+  ideale_min_c: 8
+  ideale_max_c: 30
+terreno: Qualsiasi terreno, anche povero o calcareo.
+rinvaso: >-
+  Le siepi si potano due o tre volte tra maggio e settembre; se si vuole
+  la fioritura, la prima potatura va fatta dopo i fiori.
+propagazione: [talea_fusto]
+come_si_propaga:
+  - metodo: talea_fusto
+    quando: In estate con rami semi-maturi, oppure in inverno con rami legnosi.
+    passi:
+      - Taglia rami di 15-20 cm e togli le foglie della metà inferiore.
+      - Interrali per metà in terriccio e sabbia, o direttamente in un angolo riparato dell'orto.
+      - Tieni il terreno umido e lasciali al loro posto fino alla primavera successiva.
+    tempo: Radici in 1-2 mesi d'estate, in primavera per le talee invernali.
+    difficolta: facile
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: >-
+    Le bacche nere e le foglie sono tossiche: possono dare vomito e diarrea a
+    bambini e animali che le mangiano.
+problemi_comuni:
+  - sintomo: Foglie accartocciate e appiccicose
+    causa: Afidi
+    rimedio: Getto d'acqua o sapone molle; di solito i predatori naturali li tengono sotto controllo.
+immagini:
+  - commons: "Ligustrum ovalifolium.jpg"
+fonti:
+  - Royal Horticultural Society, scheda Ligustrum ovalifolium (rhs.org.uk)
+  - ASPCA, elenco piante tossiche e non tossiche, voce Privet (aspca.org)
+autori: [piantalapp]
+aggiornato: "2026-10-23"
