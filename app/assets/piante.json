@@ -4198,7 +4198,17 @@
     }
    ],
    "curiosita": "È uno dei funghi con meno sosia pericolosi: per questo le associazioni micologiche lo indicano spesso a chi inizia, sempre con il controllo dell'Ispettorato micologico.",
-   "immagini": [],
+   "immagini": [
+    {
+     "file": "dentino-1.jpg",
+     "commons": "Hydnum repandum 1.jpg",
+     "autore": "Karelj",
+     "licenza": "Public domain",
+     "url_licenza": "",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Hydnum_repandum_1.jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Hydnum_repandum_1.jpg/960px-Hydnum_repandum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
    "fonti": [
     "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
     "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
@@ -4610,7 +4620,17 @@
     }
    ],
    "curiosita": "Il nome viene dal colore scuro e dal periodo in cui è più abbondante, a cavallo della festa dei morti di novembre.",
-   "immagini": [],
+   "immagini": [
+    {
+     "file": "trombetta-dei-morti-1.jpg",
+     "commons": "Craterellus cornucopioides in Finland.jpg",
+     "autore": "Tiia Monto",
+     "licenza": "CC BY-SA 3.0",
+     "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Craterellus_cornucopioides_in_Finland.jpg",
+     "anteprima": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Craterellus_cornucopioides_in_Finland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+   ],
    "fonti": [
     "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
     "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"

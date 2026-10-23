@@ -307,6 +307,17 @@
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Russula_virescens_B%C5%BB2.1.jpg/960px-Russula_virescens_B%C5%BB2.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  ],
+ "dentino": [
+  {
+   "file": "dentino-1.jpg",
+   "commons": "Hydnum repandum 1.jpg",
+   "autore": "Karelj",
+   "licenza": "Public domain",
+   "url_licenza": "",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Hydnum_repandum_1.jpg",
+   "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Hydnum_repandum_1.jpg/960px-Hydnum_repandum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
  "galletto": [
   {
    "file": "galletto-1.jpg",
@@ -360,6 +371,17 @@
    "url_licenza": "",
    "pagina": "https://commons.wikimedia.org/wiki/File:Amanita_phalloides_2011_G2.jpg",
    "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Amanita_phalloides_2011_G2.jpg/960px-Amanita_phalloides_2011_G2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "trombetta-dei-morti": [
+  {
+   "file": "trombetta-dei-morti-1.jpg",
+   "commons": "Craterellus cornucopioides in Finland.jpg",
+   "autore": "Tiia Monto",
+   "licenza": "CC BY-SA 3.0",
+   "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+   "pagina": "https://commons.wikimedia.org/wiki/File:Craterellus_cornucopioides_in_Finland.jpg",
+   "anteprima": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Craterellus_cornucopioides_in_Finland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
   }
  ]
 }
