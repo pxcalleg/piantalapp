@@ -1,0 +1,111 @@
+schema_version: 1
+id: schefflera
+stato: bozza
+nome_scientifico: Schefflera arboricola
+sinonimi:
+- Heptapleurum arboricola
+famiglia: Araliaceae
+nomi_comuni:
+  it:
+  - Schefflera
+  - Albero ombrello
+  en:
+  - Dwarf umbrella tree
+  - Schefflera
+descrizione: Arbusto con foglie a raggiera come piccoli ombrelli, verdi o variegate
+  di giallo. Si pota facilmente per tenerla compatta.
+categorie:
+- appartamento
+- da_ufficio
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: In casa tutto l'anno; in estate può stare fuori all'ombra, al riparo dal
+    vento.
+difficolta: 1
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - media_indiretta
+  sole_diretto: 'no'
+  esposizione:
+  - est
+  - ovest
+annaffiatura:
+  quando: Quando i primi 2-3 cm di terriccio sono asciutti.
+  primavera_estate:
+    min: 7
+    max: 10
+  autunno_inverno:
+    min: 12
+    max: 18
+  segnali_troppa: Foglie gialle e molli, terriccio che resta bagnato.
+  segnali_poca: Foglie flosce o che si arricciano, bordi secchi.
+umidita: media
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 15
+    max: 30
+  tipo: Concime liquido per piante verdi a metà dose.
+temperatura:
+  min_c: 10
+  ideale_min_c: 16
+  ideale_max_c: 26
+terreno: Terriccio universale con perlite o corteccia.
+rinvaso: Ogni 2 anni in primavera, in un vaso appena più grande.
+propagazione:
+- talea_fusto
+- margotta
+come_si_propaga:
+- metodo: talea_fusto
+  quando: In primavera o all'inizio dell'estate.
+  passi:
+  - Taglia una punta di 10-15 cm con 3-4 foglie, appena sotto un nodo.
+  - Togli le foglie basse e, se vuoi, intingi il taglio in ormone radicante.
+  - Interrala in un mix di torba e perlite e annaffia leggermente.
+  - Copri con un sacchetto trasparente e tieni al caldo (22-25 °C) e alla luce indiretta.
+  - Arieggia ogni pochi giorni; quando spuntano foglie nuove togli il sacchetto.
+  tempo: Radici in 4-6 settimane.
+  difficolta: facile
+- metodo: margotta
+  quando: Da maggio a luglio.
+  passi:
+  - Scegli un ramo o un fusto legnoso e incidi la corteccia per 1-2 cm sotto un
+    nodo.
+  - Avvolgi la ferita con sfagno umido e chiudi con pellicola legata sopra e sotto.
+  - Controlla che lo sfagno resti umido; quando vedi le radici, taglia sotto la
+    margotta.
+  - Interra la nuova pianta in un vaso e tienila riparata per qualche settimana.
+  tempo: Radici in 6-10 settimane.
+  difficolta: media
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: 'Contiene ossalato di calcio: se masticata irrita bocca e gola di persone
+    e animali. Per gli animali è tossica anche per le saponine.'
+problemi_comuni:
+- sintomo: Batuffoli bianchi o scudetti sui rami
+  causa: Cocciniglia
+  rimedio: Togliere con un cotton fioc imbevuto di alcol e trattare con olio bianco
+    o sapone molle.
+- sintomo: Foglie puntinate di giallo con sottili ragnatele
+  causa: Ragnetto rosso, favorito da aria secca e caldo
+  rimedio: Lavare le foglie, aumentare l'umidità e, se serve, usare un acaricida.
+immagini:
+- commons: Schefflera arboricola.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

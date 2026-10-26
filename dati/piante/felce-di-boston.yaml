@@ -1,0 +1,102 @@
+schema_version: 1
+id: felce-di-boston
+stato: bozza
+nome_scientifico: Nephrolepis exaltata
+famiglia: Nephrolepidaceae
+nomi_comuni:
+  it:
+  - Felce di Boston
+  - Nefrolepis
+  en:
+  - Boston fern
+  - Sword fern
+descrizione: Felce dalle fronde lunghe e arcuate, perfetta appesa o su una colonna.
+  Vuole umidità e terriccio sempre umido.
+categorie:
+- appartamento
+- ricadente
+- pet_friendly
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: Solo in casa, lontano da termosifoni e correnti d'aria; ama le stanze umide
+    come il bagno.
+difficolta: 2
+luce:
+  ideale: media_indiretta
+  tollera:
+  - bassa
+  sole_diretto: 'no'
+  esposizione:
+  - nord
+  - est
+annaffiatura:
+  quando: Tieni il terriccio sempre appena umido, mai fradicio; usa acqua non calcarea.
+  primavera_estate:
+    min: 4
+    max: 7
+  autunno_inverno:
+    min: 7
+    max: 12
+  segnali_troppa: Foglie che ingialliscono e marciscono alla base.
+  segnali_poca: Foglie che si arrotolano e bordi bruciati.
+umidita: alta
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 15
+    max: 30
+  tipo: Concime liquido per piante verdi a un quarto della dose.
+temperatura:
+  min_c: 12
+  ideale_min_c: 16
+  ideale_max_c: 24
+terreno: Terriccio ricco di torba o fibra di cocco, soffice e drenante.
+rinvaso: Ogni 2 anni in primavera, in un vaso appena più grande.
+propagazione:
+- divisione
+- polloni
+come_si_propaga:
+- metodo: divisione
+  quando: In primavera, durante il rinvaso.
+  passi:
+  - Sfila la pianta dal vaso e scuoti via parte del terriccio.
+  - Separa con le mani o con un coltello pulito i cespi, ognuno con radici e foglie.
+  - Rinvasa ogni parte in terriccio fresco e annaffia.
+  - Tienila in luce indiretta per un paio di settimane, senza concimare.
+  tempo: Riprende in 3-4 settimane.
+  difficolta: facile
+- metodo: polloni
+  quando: In primavera o in estate.
+  passi:
+  - Cerca gli stoloni sottili che partono dalla base e toccano il terriccio.
+  - Fissane uno con una forcina in un vasetto vicino con terriccio umido.
+  - Quando ha fatto radici e nuove fronde, taglia lo stolone.
+  tempo: Radica in 3-4 settimane.
+  difficolta: facile
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Non tossica per cani e gatti secondo l'ASPCA.
+problemi_comuni:
+- sintomo: Foglioline che ingialliscono e cadono in massa
+  causa: Aria secca o terriccio lasciato asciugare
+  rimedio: Vaporizzare spesso, non far mai seccare il terriccio, allontanare dai
+    termosifoni.
+immagini:
+- commons: Nephrolepis exaltata 6zz.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

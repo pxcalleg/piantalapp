@@ -1,0 +1,107 @@
+schema_version: 1
+id: tradescantia-zebrina
+stato: bozza
+nome_scientifico: Tradescantia zebrina
+sinonimi:
+- Zebrina pendula
+famiglia: Commelinaceae
+nomi_comuni:
+  it:
+  - Tradescantia zebrina
+  - Erba miseria
+  en:
+  - Inch plant
+  - Wandering dude
+  - Silver inch plant
+descrizione: Ricadente dalle foglie striate d'argento e viola, con il rovescio porpora.
+  Cresce velocissima e si moltiplica in un attimo.
+categorie:
+- appartamento
+- ricadente
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: In casa tutto l'anno; in estate può stare fuori all'ombra, al riparo dal
+    vento.
+difficolta: 1
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - media_indiretta
+  sole_diretto: 'no'
+  esposizione:
+  - est
+  - ovest
+annaffiatura:
+  quando: Quando i primi 2-3 cm di terriccio sono asciutti.
+  primavera_estate:
+    min: 7
+    max: 10
+  autunno_inverno:
+    min: 12
+    max: 18
+  segnali_troppa: Foglie gialle e molli, terriccio che resta bagnato.
+  segnali_poca: Foglie flosce o che si arricciano, bordi secchi.
+umidita: media
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 15
+    max: 30
+  tipo: Concime liquido per piante verdi a metà dose.
+temperatura:
+  min_c: 13
+  ideale_min_c: 18
+  ideale_max_c: 27
+terreno: Terriccio universale con perlite o corteccia.
+rinvaso: Ogni 2 anni in primavera, in un vaso appena più grande.
+propagazione:
+- talea_in_acqua
+- talea_fusto
+come_si_propaga:
+- metodo: talea_in_acqua
+  quando: Da aprile a settembre, quando la pianta cresce.
+  passi:
+  - Taglia un pezzo di fusto di 10-15 cm con almeno un nodo e 2-3 foglie.
+  - Togli la foglia più bassa, così il nodo resta nudo.
+  - Mettilo in un bicchiere d'acqua con il nodo sommerso e le foglie fuori.
+  - Tienilo alla luce indiretta e cambia l'acqua ogni 4-5 giorni.
+  - Quando le radici sono lunghe 3-5 cm, interralo in un vasetto.
+  tempo: Radici in 1 settimana.
+  difficolta: facile
+- metodo: talea_fusto
+  quando: In primavera o all'inizio dell'estate.
+  passi:
+  - Taglia una punta di 10-15 cm con 3-4 foglie, appena sotto un nodo.
+  - Togli le foglie basse e, se vuoi, intingi il taglio in ormone radicante.
+  - Interrala in un mix di torba e perlite e annaffia leggermente.
+  - Copri con un sacchetto trasparente e tieni al caldo (22-25 °C) e alla luce indiretta.
+  - Arieggia ogni pochi giorni; quando spuntano foglie nuove togli il sacchetto.
+  tempo: Radici in 1-2 settimane.
+  difficolta: facile
+tossicita:
+  animali: lieve
+  persone: lieve
+  note: La linfa può irritare la pelle di persone e animali.
+problemi_comuni:
+- sintomo: Fusti lunghi e foglie piccole e distanziate
+  causa: Luce insufficiente
+  rimedio: Spostare la pianta in un punto più luminoso, senza sole diretto nelle
+    ore calde.
+immagini:
+- commons: Silvery Wandering Jew (Tradescantia zebrina) 1.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

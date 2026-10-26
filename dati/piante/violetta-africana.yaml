@@ -1,0 +1,97 @@
+schema_version: 1
+id: violetta-africana
+stato: bozza
+nome_scientifico: Streptocarpus ionanthus
+sinonimi:
+- Saintpaulia ionantha
+famiglia: Gesneriaceae
+nomi_comuni:
+  it:
+  - Violetta africana
+  - Saintpaulia
+  en:
+  - African violet
+descrizione: Rosetta di foglie vellutate e fiori viola, rosa o bianchi quasi tutto
+  l'anno. Piccola, perfetta sul davanzale.
+categorie:
+- appartamento
+- fiorita
+- pet_friendly
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: In casa tutto l'anno; in estate può stare fuori all'ombra, al riparo dal
+    vento.
+difficolta: 3
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - media_indiretta
+  sole_diretto: 'no'
+  esposizione:
+  - est
+  - ovest
+annaffiatura:
+  quando: Dal sottovaso, con acqua a temperatura ambiente, quando la superficie
+    è asciutta. Non bagnare le foglie.
+  primavera_estate:
+    min: 5
+    max: 7
+  autunno_inverno:
+    min: 7
+    max: 10
+  segnali_troppa: Colletto molle e foglie che si afflosciano.
+  segnali_poca: Foglie molli e fiori che appassiscono presto.
+umidita: media
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 15
+    max: 30
+  tipo: Concime liquido per piante fiorite ogni 2 settimane durante la fioritura.
+temperatura:
+  min_c: 15
+  ideale_min_c: 18
+  ideale_max_c: 26
+terreno: Terriccio specifico per saintpaulie, leggero e acido.
+rinvaso: Ogni anno, in un vaso basso e piccolo.
+propagazione:
+- talea_foglia
+come_si_propaga:
+- metodo: talea_foglia
+  quando: In primavera o in estate.
+  passi:
+  - Stacca una foglia sana con 2-3 cm di picciolo.
+  - Interra il picciolo per 1 cm in terriccio leggero misto a perlite.
+  - Copri con un sacchetto trasparente e tieni al caldo e alla luce indiretta.
+  - Tieni il terriccio appena umido; separa le piantine quando hanno 3-4 foglie.
+  tempo: Radici in 3-4 settimane, piantine in 2-3 mesi.
+  difficolta: facile
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Non tossica per cani e gatti secondo l'ASPCA.
+problemi_comuni:
+- sintomo: Macchie chiare sulle foglie
+  causa: Acqua fredda o gocce sulle foglie al sole
+  rimedio: Annaffiare dal sottovaso con acqua tiepida.
+- sintomo: Patina bianca polverosa sulle foglie
+  causa: Oidio (mal bianco)
+  rimedio: Togliere le foglie colpite, arieggiare e non bagnare il fogliame.
+immagini:
+- commons: Saintpaulia ionantha kz01.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

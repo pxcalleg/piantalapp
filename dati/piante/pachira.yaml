@@ -1,0 +1,108 @@
+schema_version: 1
+id: pachira
+stato: bozza
+nome_scientifico: Pachira aquatica
+famiglia: Malvaceae
+nomi_comuni:
+  it:
+  - Pachira
+  - Albero dei soldi
+  - Castagno della Guiana
+  en:
+  - Money tree
+  - Guiana chestnut
+  - Malabar chestnut
+descrizione: Alberello con foglie palmate lucide; spesso venduto con più tronchi
+  intrecciati. Porta fortuna secondo il feng shui.
+categorie:
+- appartamento
+- da_ufficio
+- pet_friendly
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: In casa tutto l'anno; in estate può stare fuori all'ombra, al riparo dal
+    vento.
+difficolta: 1
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - media_indiretta
+  sole_diretto: 'no'
+  esposizione:
+  - est
+  - ovest
+annaffiatura:
+  quando: Quando i primi 2-3 cm di terriccio sono asciutti.
+  primavera_estate:
+    min: 7
+    max: 12
+  autunno_inverno:
+    min: 14
+    max: 21
+  segnali_troppa: Foglie gialle e molli, terriccio che resta bagnato.
+  segnali_poca: Foglie flosce o che si arricciano, bordi secchi.
+umidita: media
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 15
+    max: 30
+  tipo: Concime liquido per piante verdi a metà dose.
+temperatura:
+  min_c: 12
+  ideale_min_c: 18
+  ideale_max_c: 27
+terreno: Terriccio universale con perlite o corteccia.
+rinvaso: Ogni 2 anni in primavera, in un vaso appena più grande.
+propagazione:
+- talea_fusto
+- seme
+come_si_propaga:
+- metodo: talea_fusto
+  quando: In primavera o all'inizio dell'estate.
+  passi:
+  - Taglia una punta di 10-15 cm con 3-4 foglie, appena sotto un nodo.
+  - Togli le foglie basse e, se vuoi, intingi il taglio in ormone radicante.
+  - Interrala in un mix di torba e perlite e annaffia leggermente.
+  - Copri con un sacchetto trasparente e tieni al caldo (22-25 °C) e alla luce indiretta.
+  - Arieggia ogni pochi giorni; quando spuntano foglie nuove togli il sacchetto.
+  tempo: Radici in 4-8 settimane.
+  difficolta: media
+- metodo: seme
+  quando: In primavera, con semi freschi.
+  passi:
+  - Usa semi freschi e mettili a bagno in acqua tiepida per 12-24 ore.
+  - Seminali poco profondi in terriccio da semina umido.
+  - Copri con pellicola o un coperchio trasparente e tieni a 22-27 °C.
+  - Quando le piantine hanno 2-3 foglie vere, trapiantale in vasetti singoli.
+  tempo: Germina in 1-3 settimane.
+  difficolta: facile
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Non tossica per cani e gatti secondo l'ASPCA.
+problemi_comuni:
+- sintomo: Base del fusto molle e scura, pianta che appassisce
+  causa: Marciume delle radici per troppa acqua
+  rimedio: Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante.
+- sintomo: Foglie puntinate di giallo con sottili ragnatele
+  causa: Ragnetto rosso, favorito da aria secca e caldo
+  rimedio: Lavare le foglie, aumentare l'umidità e, se serve, usare un acaricida.
+immagini:
+- commons: A potted Pachira aquatica.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

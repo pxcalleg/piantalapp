@@ -1,0 +1,96 @@
+schema_version: 1
+id: gardenia
+stato: bozza
+nome_scientifico: Gardenia jasminoides
+famiglia: Rubiaceae
+nomi_comuni:
+  it:
+  - Gardenia
+  en:
+  - Gardenia
+  - Cape jasmine
+descrizione: 'Arbusto sempreverde dalle foglie lucide e fiori bianchi profumatissimi
+  in estate. Esigente: vuole acqua non calcarea e posto fisso.'
+categorie:
+- appartamento
+- fiorita
+- balcone
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: Da maggio a settembre fuori a mezz'ombra; d'inverno in casa al fresco e
+    in luce, con molta umidità.
+difficolta: 4
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - media_indiretta
+  sole_diretto: solo_mattino
+  esposizione:
+  - est
+  - ovest
+annaffiatura:
+  quando: Tieni il terriccio sempre leggermente umido, solo con acqua piovana o
+    demineralizzata.
+  primavera_estate:
+    min: 4
+    max: 7
+  autunno_inverno:
+    min: 7
+    max: 12
+  segnali_troppa: Foglie gialle e molli, terriccio che resta bagnato.
+  segnali_poca: Foglie flosce o che si arricciano, bordi secchi.
+umidita: alta
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 15
+    max: 30
+  tipo: Concime per acidofile ogni 2 settimane.
+temperatura:
+  min_c: 10
+  ideale_min_c: 16
+  ideale_max_c: 24
+terreno: Terriccio acido per acidofile (azalee, camelie).
+rinvaso: Ogni 2 anni in primavera, in un vaso appena più grande.
+propagazione:
+- talea_fusto
+come_si_propaga:
+- metodo: talea_fusto
+  quando: In primavera o all'inizio dell'estate.
+  passi:
+  - Taglia una punta di 10-15 cm con 3-4 foglie, appena sotto un nodo.
+  - Togli le foglie basse e, se vuoi, intingi il taglio in ormone radicante.
+  - Interrala in un mix di torba e perlite e annaffia leggermente.
+  - Copri con un sacchetto trasparente e tieni al caldo (22-25 °C) e alla luce indiretta.
+  - Arieggia ogni pochi giorni; quando spuntano foglie nuove togli il sacchetto.
+  tempo: Radici in 6-8 settimane.
+  difficolta: difficile
+tossicita:
+  animali: lieve
+  persone: non_tossica
+  note: Per cani e gatti può causare vomito e diarrea lievi (ASPCA).
+problemi_comuni:
+- sintomo: Boccioli che cadono prima di aprirsi
+  causa: Spostamenti, aria secca o sbalzi di temperatura
+  rimedio: Non spostarla durante la fioritura e vaporizzare intorno.
+- sintomo: Foglie gialle con nervature verdi
+  causa: Clorosi per acqua calcarea
+  rimedio: Usare acqua piovana e un concime con ferro chelato.
+immagini:
+- commons: Gardenia jasminoides flower.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

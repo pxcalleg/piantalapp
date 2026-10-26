@@ -31,8 +31,8 @@ final _risposta = {
     {
       'score': 0.02,
       'species': {
-        'scientificNameWithoutAuthor': 'Goeppertia orbifolia',
-        'commonNames': ['Calathea'],
+        'scientificNameWithoutAuthor': 'Welwitschia mirabilis',
+        'commonNames': ['Welwitschia'],
       },
     },
   ],
@@ -50,7 +50,7 @@ void main() {
     expect(ipotesi.map((i) => i.nomeScientifico), [
       'Epipremnum aureum',
       'Rosa chinensis',
-      'Goeppertia orbifolia',
+      'Welwitschia mirabilis',
     ]);
     expect(ipotesi.first.percentuale, 83);
     expect(ipotesi.first.famiglia, 'Araceae');
@@ -72,9 +72,9 @@ void main() {
     );
     expect(ids(sinonimo.stessaSpecie), ['sansevieria']);
 
-    final calathea = schedeCollegate(piante, ipotesi[2]);
-    expect(calathea.stessaSpecie, isEmpty);
-    expect(calathea.stessoGenere, isEmpty);
+    final assente = schedeCollegate(piante, ipotesi[2]);
+    expect(assente.stessaSpecie, isEmpty);
+    expect(assente.stessoGenere, isEmpty);
   });
 
   test('invia la foto con la chiave e il sito autorizzato', () async {

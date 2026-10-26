@@ -1,0 +1,106 @@
+schema_version: 1
+id: filodendro-selloum
+stato: bozza
+nome_scientifico: Thaumatophyllum bipinnatifidum
+sinonimi:
+- Philodendron bipinnatifidum
+- Philodendron selloum
+famiglia: Araceae
+nomi_comuni:
+  it:
+  - Filodendro selloum
+  - Filodendro xanadu gigante
+  en:
+  - Tree philodendron
+  - Lacy tree philodendron
+  - Split-leaf philodendron
+descrizione: Grandi foglie lucide profondamente frastagliate su un fusto corto.
+  Diventa una pianta imponente, larga anche più di un metro.
+categorie:
+- appartamento
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: In casa tutto l'anno; in estate può stare fuori all'ombra, al riparo dal
+    vento.
+difficolta: 2
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - media_indiretta
+  sole_diretto: 'no'
+  esposizione:
+  - est
+  - ovest
+annaffiatura:
+  quando: Quando i primi 2-3 cm di terriccio sono asciutti.
+  primavera_estate:
+    min: 7
+    max: 10
+  autunno_inverno:
+    min: 12
+    max: 18
+  segnali_troppa: Foglie gialle e molli, terriccio che resta bagnato.
+  segnali_poca: Foglie flosce o che si arricciano, bordi secchi.
+umidita: media
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 15
+    max: 30
+  tipo: Concime liquido per piante verdi a metà dose.
+temperatura:
+  min_c: 10
+  ideale_min_c: 16
+  ideale_max_c: 28
+terreno: Terriccio universale con perlite o corteccia.
+rinvaso: Ogni 2 anni in primavera, in un vaso appena più grande.
+propagazione:
+- seme
+- divisione
+come_si_propaga:
+- metodo: seme
+  quando: In primavera, al caldo.
+  passi:
+  - Usa semi freschi e mettili a bagno in acqua tiepida per 12-24 ore.
+  - Seminali poco profondi in terriccio da semina umido.
+  - Copri con pellicola o un coperchio trasparente e tieni a 22-27 °C.
+  - Quando le piantine hanno 2-3 foglie vere, trapiantale in vasetti singoli.
+  tempo: Germina in 2-4 settimane.
+  difficolta: media
+- metodo: divisione
+  quando: In primavera, durante il rinvaso.
+  passi:
+  - Sfila la pianta dal vaso e scuoti via parte del terriccio.
+  - Separa con le mani o con un coltello pulito i cespi, ognuno con radici e foglie.
+  - Rinvasa ogni parte in terriccio fresco e annaffia.
+  - Tienila in luce indiretta per un paio di settimane, senza concimare.
+  tempo: Riprende in 3-4 settimane.
+  difficolta: facile
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: 'Contiene ossalato di calcio: se masticata irrita bocca e gola di persone
+    e animali.'
+problemi_comuni:
+- sintomo: Batuffoli bianchi o scudetti sui rami
+  causa: Cocciniglia
+  rimedio: Togliere con un cotton fioc imbevuto di alcol e trattare con olio bianco
+    o sapone molle.
+immagini:
+- commons: Philodendron bipinnatifidum.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

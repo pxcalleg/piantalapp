@@ -1,0 +1,95 @@
+schema_version: 1
+id: dieffenbachia
+stato: bozza
+nome_scientifico: Dieffenbachia seguine
+famiglia: Araceae
+nomi_comuni:
+  it:
+  - Dieffenbachia
+  en:
+  - Dumb cane
+  - Dieffenbachia
+descrizione: Grandi foglie ovali verdi macchiate di bianco o crema su un fusto robusto.
+  Cresce in fretta e dà subito un tocco tropicale.
+categorie:
+- appartamento
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: In casa tutto l'anno; in estate può stare fuori all'ombra, al riparo dal
+    vento.
+difficolta: 2
+luce:
+  ideale: media_indiretta
+  tollera:
+  - bassa
+  - intensa_indiretta
+  sole_diretto: 'no'
+  esposizione:
+  - nord
+  - est
+  - ovest
+annaffiatura:
+  quando: Quando i primi 2-3 cm di terriccio sono asciutti.
+  primavera_estate:
+    min: 7
+    max: 10
+  autunno_inverno:
+    min: 12
+    max: 18
+  segnali_troppa: Foglie gialle e molli, terriccio che resta bagnato.
+  segnali_poca: Foglie flosce o che si arricciano, bordi secchi.
+umidita: media
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 15
+    max: 30
+  tipo: Concime liquido per piante verdi a metà dose.
+temperatura:
+  min_c: 15
+  ideale_min_c: 18
+  ideale_max_c: 27
+terreno: Terriccio universale con perlite o corteccia.
+rinvaso: Ogni 2 anni in primavera, in un vaso appena più grande.
+propagazione:
+- talea_fusto
+come_si_propaga:
+- metodo: talea_fusto
+  quando: In primavera o in estate.
+  passi:
+  - Taglia un pezzo di fusto spoglio in tronchetti di 5-8 cm, ognuno con almeno
+    un nodo.
+  - Lascia asciugare i tagli per un giorno, con i guanti.
+  - Adagia i tronchetti orizzontali sul terriccio umido, interrati per metà.
+  - Copri con un sacchetto trasparente e tieni al caldo finché spuntano i germogli.
+  tempo: Germogli in 6-8 settimane.
+  difficolta: media
+tossicita:
+  animali: tossica
+  persone: tossica
+  note: 'La linfa contiene ossalato di calcio e enzimi irritanti: masticare la pianta
+    fa gonfiare bocca e lingua. Usa i guanti quando la tagli e tienila lontana da
+    bambini e animali.'
+problemi_comuni:
+- sintomo: Foglie basse che ingialliscono e cadono
+  causa: Normale invecchiamento o poca luce
+  rimedio: Togliere le foglie secche; se il fusto si spoglia troppo, cimarlo e fare
+    talee.
+immagini:
+- commons: Dieffenbachia seguine 001.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

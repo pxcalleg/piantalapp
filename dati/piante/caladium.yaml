@@ -1,0 +1,92 @@
+schema_version: 1
+id: caladium
+stato: bozza
+nome_scientifico: Caladium bicolor
+famiglia: Araceae
+nomi_comuni:
+  it:
+  - Caladium
+  - Ali d'angelo
+  en:
+  - Angel wings
+  - Heart of Jesus
+  - Caladium
+descrizione: 'Foglie sottili a cuore dipinte di rosa, rosso, bianco e verde. Nasce
+  da un tubero: vegeta da primavera ad autunno, poi riposa.'
+categorie:
+- appartamento
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: 'In casa, al caldo e lontano dai condizionatori. In autunno le foglie seccano:
+    si tiene il tubero all''asciutto a 16-18 °C fino a marzo.'
+difficolta: 3
+luce:
+  ideale: media_indiretta
+  tollera:
+  - bassa
+  - intensa_indiretta
+  sole_diretto: 'no'
+  esposizione:
+  - nord
+  - est
+  - ovest
+annaffiatura:
+  quando: Tieni il terriccio sempre appena umido, mai fradicio; usa acqua non calcarea.
+  primavera_estate:
+    min: 4
+    max: 7
+  autunno_inverno:
+    min: 7
+    max: 12
+  segnali_troppa: Foglie che ingialliscono e marciscono alla base.
+  segnali_poca: Foglie che si arrotolano e bordi bruciati.
+umidita: alta
+concimazione:
+  mesi:
+  - 5
+  - 6
+  - 7
+  - 8
+  frequenza_giorni:
+    min: 15
+    max: 30
+  tipo: Concime liquido per piante verdi a metà dose.
+temperatura:
+  min_c: 16
+  ideale_min_c: 20
+  ideale_max_c: 29
+terreno: Terriccio leggero per piante verdi con torba e perlite.
+rinvaso: Ogni primavera si ripianta il tubero in terriccio fresco.
+propagazione:
+- divisione
+come_si_propaga:
+- metodo: divisione
+  quando: A marzo, prima di ripiantare.
+  passi:
+  - Prendi il tubero a riposo e cerca le gemme sulla parte superiore.
+  - Taglialo in pezzi con almeno 1-2 gemme ciascuno, con un coltello pulito.
+  - Lascia asciugare i tagli un giorno e spolverali di polvere di cannella o zolfo.
+  - Interra i pezzi a 3-5 cm in terriccio umido e tieni al caldo (24 °C).
+  tempo: Germogli in 3-6 settimane.
+  difficolta: media
+tossicita:
+  animali: tossica
+  persone: tossica
+  note: 'Contiene ossalato di calcio: se masticata irrita bocca e gola di persone
+    e animali.'
+problemi_comuni:
+- sintomo: Base del fusto molle e scura, pianta che appassisce
+  causa: Marciume delle radici per troppa acqua
+  rimedio: Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante.
+immagini:
+- commons: Caladium bicolor 5zz.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

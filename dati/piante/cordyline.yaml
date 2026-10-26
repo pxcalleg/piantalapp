@@ -1,0 +1,108 @@
+schema_version: 1
+id: cordyline
+stato: bozza
+nome_scientifico: Cordyline fruticosa
+sinonimi:
+- Cordyline terminalis
+famiglia: Asparagaceae
+nomi_comuni:
+  it:
+  - Cordyline
+  - Dracena rossa
+  en:
+  - Ti plant
+  - Good luck plant
+descrizione: Ciuffi di foglie larghe e lucide, rosse, rosa o viola scuro. Spesso
+  confusa con le dracene.
+categorie:
+- appartamento
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: In casa tutto l'anno; in estate può stare fuori all'ombra, al riparo dal
+    vento.
+difficolta: 2
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - media_indiretta
+  sole_diretto: 'no'
+  esposizione:
+  - est
+  - ovest
+annaffiatura:
+  quando: Quando i primi 2-3 cm di terriccio sono asciutti.
+  primavera_estate:
+    min: 7
+    max: 10
+  autunno_inverno:
+    min: 12
+    max: 18
+  segnali_troppa: Foglie gialle e molli, terriccio che resta bagnato.
+  segnali_poca: Foglie flosce o che si arricciano, bordi secchi.
+umidita: media
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 15
+    max: 30
+  tipo: Concime liquido per piante verdi a metà dose.
+temperatura:
+  min_c: 13
+  ideale_min_c: 18
+  ideale_max_c: 27
+terreno: Terriccio universale con perlite o corteccia.
+rinvaso: Ogni 2 anni in primavera, in un vaso appena più grande.
+propagazione:
+- talea_fusto
+- margotta
+come_si_propaga:
+- metodo: talea_fusto
+  quando: In primavera o in estate.
+  passi:
+  - Taglia il fusto spoglio in tronchetti di 5-8 cm.
+  - Adagiali orizzontali sul terriccio umido, interrati per metà.
+  - Copri con un sacchetto trasparente e tieni al caldo (24 °C).
+  - Quando i germogli hanno 2-3 foglie, separali e invasali.
+  tempo: Germogli in 4-8 settimane.
+  difficolta: media
+- metodo: margotta
+  quando: Da maggio a luglio.
+  passi:
+  - Scegli un ramo o un fusto legnoso e incidi la corteccia per 1-2 cm sotto un
+    nodo.
+  - Avvolgi la ferita con sfagno umido e chiudi con pellicola legata sopra e sotto.
+  - Controlla che lo sfagno resti umido; quando vedi le radici, taglia sotto la
+    margotta.
+  - Interra la nuova pianta in un vaso e tienila riparata per qualche settimana.
+  tempo: Radici in 6-10 settimane.
+  difficolta: media
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: 'Contiene saponine: per cani e gatti provoca vomito e salivazione.'
+problemi_comuni:
+- sintomo: Punte e bordi delle foglie marroni e secchi
+  causa: Aria troppo secca o acqua calcarea
+  rimedio: Vaporizzare, usare un sottovaso con argilla umida e annaffiare con acqua
+    piovana o demineralizzata.
+- sintomo: Foglie puntinate di giallo con sottili ragnatele
+  causa: Ragnetto rosso, favorito da aria secca e caldo
+  rimedio: Lavare le foglie, aumentare l'umidità e, se serve, usare un acaricida.
+immagini:
+- commons: Cordyline fruticosa Rubra.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

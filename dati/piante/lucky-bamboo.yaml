@@ -1,0 +1,96 @@
+schema_version: 1
+id: lucky-bamboo
+stato: bozza
+nome_scientifico: Dracaena sanderiana
+sinonimi:
+- Dracaena braunii
+famiglia: Asparagaceae
+nomi_comuni:
+  it:
+  - Lucky bamboo
+  - Bambù della fortuna
+  en:
+  - Lucky bamboo
+  - Ribbon plant
+descrizione: 'Non è un bambù ma una dracena: canne verdi con ciuffi di foglie, vendute
+  spesso in acqua, a spirale o a torre.'
+categorie:
+- appartamento
+- da_ufficio
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: In casa tutto l'anno; in estate può stare fuori all'ombra, al riparo dal
+    vento.
+difficolta: 1
+luce:
+  ideale: media_indiretta
+  tollera:
+  - bassa
+  sole_diretto: 'no'
+  esposizione:
+  - nord
+  - est
+  - ovest
+annaffiatura:
+  quando: 'In acqua: tieni 3-5 cm sopra le radici e cambiala ogni 1-2 settimane,
+    con acqua non calcarea. In terra: quando la superficie è asciutta.'
+  primavera_estate:
+    min: 7
+    max: 10
+  autunno_inverno:
+    min: 12
+    max: 18
+  segnali_troppa: Foglie gialle e molli, terriccio che resta bagnato.
+  segnali_poca: Foglie flosce o che si arricciano, bordi secchi.
+umidita: media
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 30
+    max: 30
+  tipo: Concime liquido per piante verdi molto diluito, una volta al mese.
+temperatura:
+  min_c: 13
+  ideale_min_c: 18
+  ideale_max_c: 27
+terreno: Acqua con sassolini, oppure terriccio universale drenante.
+rinvaso: Quando le radici riempiono il contenitore.
+propagazione:
+- talea_in_acqua
+come_si_propaga:
+- metodo: talea_in_acqua
+  quando: Da aprile a settembre, quando la pianta cresce.
+  passi:
+  - Taglia un pezzo di fusto di 10-15 cm con almeno un nodo e 2-3 foglie.
+  - Togli la foglia più bassa, così il nodo resta nudo.
+  - Mettilo in un bicchiere d'acqua con il nodo sommerso e le foglie fuori.
+  - Tienilo alla luce indiretta e cambia l'acqua ogni 4-5 giorni.
+  - Quando le radici sono lunghe 3-5 cm, interralo in un vasetto.
+  tempo: Radici in 3-4 settimane.
+  difficolta: facile
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: 'Contiene saponine: per cani e gatti provoca vomito e salivazione.'
+problemi_comuni:
+- sintomo: Canne e foglie gialle
+  causa: Acqua vecchia, calcarea o troppo sole
+  rimedio: Cambiare l'acqua spesso, usare acqua filtrata e tenerlo in luce indiretta.
+immagini:
+- commons: Many Dracaena sanderiana.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

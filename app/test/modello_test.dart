@@ -45,7 +45,7 @@ void main() {
         cerca(piante, q, {}).map((p) => p.id).toList();
     expect(ids('lingua di suocera'), ['sansevieria']);
     expect(ids('epipremnum'), ['pothos']);
-    expect(ids('scindapsus'), ['pothos']);
+    expect(ids('scindapsus aureus'), ['pothos']);
     expect(ids('PIANGENTE'), ['ficus-benjamina']);
   });
 

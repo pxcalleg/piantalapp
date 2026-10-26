@@ -83,6 +83,59 @@ Nell'app le piante sono divise in sette categorie, indicate nel campo
 | Falangio | *Chlorophytum comosum* | appartamento, ricadente, da_ufficio, pet_friendly |
 | Cactus di Natale | *Schlumbergera × buckleyi* | appartamento, succulenta, fiorita, ricadente, pet_friendly |
 | Oncidium | *Oncidium* | appartamento, fiorita, pet_friendly |
+| Aechmea | *Aechmea fasciata* | appartamento, fiorita, pet_friendly |
+| Aglaonema | *Aglaonema commutatum* | appartamento, da_ufficio |
+| Alocasia | *Alocasia × amazonica* | appartamento |
+| Areca | *Dypsis lutescens* | appartamento, da_ufficio, pet_friendly |
+| Aspidistra | *Aspidistra elatior* | appartamento, da_ufficio, pet_friendly |
+| Asplenio | *Asplenium nidus* | appartamento, pet_friendly |
+| Azalea | *Rhododendron simsii* | appartamento, fiorita, balcone |
+| Beaucarnea | *Beaucarnea recurvata* | appartamento, succulenta, da_ufficio, pet_friendly |
+| Begonia maculata | *Begonia maculata* | appartamento, fiorita |
+| Begonia rex | *Begonia rex* | appartamento |
+| Pianta del caffè | *Coffea arabica* | appartamento |
+| Caladium | *Caladium bicolor* | appartamento |
+| Calamondino | *Citrus × microcarpa* | appartamento, fiorita, balcone |
+| Calathea | *Goeppertia makoyana* | appartamento, pet_friendly |
+| Ceropegia | *Ceropegia woodii* | appartamento, succulenta, ricadente, pet_friendly |
+| Chamaedorea | *Chamaedorea elegans* | appartamento, da_ufficio, pet_friendly |
+| Ciclamino | *Cyclamen persicum* | appartamento, fiorita, balcone |
+| Cissus | *Cissus rhombifolia* | appartamento, ricadente, da_ufficio, pet_friendly |
+| Clivia | *Clivia miniata* | appartamento, fiorita |
+| Cordyline | *Cordyline fruticosa* | appartamento |
+| Croton | *Codiaeum variegatum* | appartamento |
+| Ctenanthe | *Ctenanthe burle-marxii* | appartamento, pet_friendly |
+| Dieffenbachia | *Dieffenbachia seguine* | appartamento |
+| Dracena marginata | *Dracaena marginata* | appartamento, da_ufficio |
+| Edera | *Hedera helix* | appartamento, ricadente |
+| Felce di Boston | *Nephrolepis exaltata* | appartamento, ricadente, pet_friendly |
+| Ficus ginseng | *Ficus microcarpa* | appartamento, da_ufficio |
+| Filodendro a foglia di cuore | *Philodendron hederaceum* | appartamento, ricadente, da_ufficio |
+| Filodendro selloum | *Thaumatophyllum bipinnatifidum* | appartamento |
+| Gardenia | *Gardenia jasminoides* | appartamento, fiorita, balcone |
+| Gelsomino polyanthum | *Jasminum polyanthum* | appartamento, fiorita, balcone, ricadente, pet_friendly |
+| Guzmania | *Guzmania lingulata* | appartamento, fiorita, pet_friendly |
+| Hoya | *Hoya carnosa* | appartamento, ricadente, fiorita, pet_friendly |
+| Ibisco | *Hibiscus rosa-sinensis* | appartamento, fiorita, balcone, pet_friendly |
+| Kenzia | *Howea forsteriana* | appartamento, da_ufficio, pet_friendly |
+| Lucky bamboo | *Dracaena sanderiana* | appartamento, da_ufficio |
+| Maranta | *Maranta leuconeura* | appartamento, ricadente, pet_friendly |
+| Monstera adansonii | *Monstera adansonii* | appartamento, ricadente |
+| Pachira | *Pachira aquatica* | appartamento, da_ufficio, pet_friendly |
+| Peperomia anguria | *Peperomia argyreia* | appartamento, da_ufficio, pet_friendly |
+| Peperomia obtusifolia | *Peperomia obtusifolia* | appartamento, da_ufficio, pet_friendly |
+| Pilea | *Pilea peperomioides* | appartamento, da_ufficio, pet_friendly |
+| Platicerio | *Platycerium bifurcatum* | appartamento, pet_friendly |
+| Radermachera | *Radermachera sinica* | appartamento, pet_friendly |
+| Rhapis | *Rhapis excelsa* | appartamento, da_ufficio, pet_friendly |
+| Schefflera | *Schefflera arboricola* | appartamento, da_ufficio |
+| Scindapsus pictus | *Scindapsus pictus* | appartamento, ricadente, da_ufficio |
+| Strelitzia | *Strelitzia reginae* | appartamento, fiorita |
+| Syngonium | *Syngonium podophyllum* | appartamento, ricadente, da_ufficio |
+| Tradescantia zebrina | *Tradescantia zebrina* | appartamento, ricadente |
+| Tronchetto della felicità | *Dracaena fragrans* | appartamento, da_ufficio |
+| Violetta africana | *Streptocarpus ionanthus* | appartamento, fiorita, pet_friendly |
+| Yucca | *Yucca gigantea* | appartamento, da_ufficio |
 | Castagno | *Castanea sativa* | esterno |
 | Faggio | *Fagus sylvatica* | esterno, siepe |
 | Farnia | *Quercus robur* | esterno |

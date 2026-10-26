@@ -1,0 +1,98 @@
+schema_version: 1
+id: ibisco
+stato: bozza
+nome_scientifico: Hibiscus rosa-sinensis
+famiglia: Malvaceae
+nomi_comuni:
+  it:
+  - Ibisco
+  - Ibisco cinese
+  - Rosa della Cina
+  en:
+  - Chinese hibiscus
+  - Tropical hibiscus
+descrizione: Arbusto dalle foglie lucide e grandi fiori a imbuto rossi, rosa, gialli
+  o arancioni, che durano un giorno ma si susseguono per mesi.
+categorie:
+- appartamento
+- fiorita
+- balcone
+- pet_friendly
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: In casa d'inverno, accanto alla finestra più luminosa; da maggio a settembre
+    sta meglio fuori, a mezz'ombra.
+difficolta: 3
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - ovest
+annaffiatura:
+  quando: Quando i primi 2-3 cm di terriccio sono asciutti.
+  primavera_estate:
+    min: 3
+    max: 5
+  autunno_inverno:
+    min: 12
+    max: 18
+  segnali_troppa: Foglie gialle e molli, terriccio che resta bagnato.
+  segnali_poca: Foglie flosce o che si arricciano, bordi secchi.
+umidita: media
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 15
+    max: 30
+  tipo: Concime per piante fiorite ogni 2 settimane.
+temperatura:
+  min_c: 10
+  ideale_min_c: 16
+  ideale_max_c: 30
+terreno: Terriccio universale con perlite o corteccia.
+rinvaso: Ogni 2 anni in primavera, in un vaso appena più grande.
+propagazione:
+- talea_fusto
+come_si_propaga:
+- metodo: talea_fusto
+  quando: In primavera o all'inizio dell'estate.
+  passi:
+  - Taglia una punta di 10-15 cm con 3-4 foglie, appena sotto un nodo.
+  - Togli le foglie basse e, se vuoi, intingi il taglio in ormone radicante.
+  - Interrala in un mix di torba e perlite e annaffia leggermente.
+  - Copri con un sacchetto trasparente e tieni al caldo (22-25 °C) e alla luce indiretta.
+  - Arieggia ogni pochi giorni; quando spuntano foglie nuove togli il sacchetto.
+  tempo: Radici in 4-8 settimane.
+  difficolta: media
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Non tossica per cani e gatti secondo l'ASPCA.
+problemi_comuni:
+- sintomo: Germogli coperti di piccoli insetti verdi o neri
+  causa: Afidi
+  rimedio: Lavare con un getto d'acqua o con sapone molle diluito.
+- sintomo: Boccioli che cadono
+  causa: Poca luce, sbalzi o terriccio secco
+  rimedio: Darle più sole e non far seccare il terriccio.
+immagini:
+- commons: Hibiscus rosa-sinensis (20).jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

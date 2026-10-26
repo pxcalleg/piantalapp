@@ -1,0 +1,91 @@
+schema_version: 1
+id: asplenio
+stato: bozza
+nome_scientifico: Asplenium nidus
+famiglia: Aspleniaceae
+nomi_comuni:
+  it:
+  - Asplenio
+  - Felce nido d'uccello
+  en:
+  - Bird's nest fern
+descrizione: Felce con foglie intere, lucide e ondulate disposte a rosetta come
+  un nido. Più facile delle felci classiche.
+categorie:
+- appartamento
+- pet_friendly
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: Solo in casa, lontano da termosifoni e correnti d'aria; ama le stanze umide
+    come il bagno.
+difficolta: 2
+luce:
+  ideale: media_indiretta
+  tollera:
+  - bassa
+  sole_diretto: 'no'
+  esposizione:
+  - nord
+  - est
+annaffiatura:
+  quando: Quando la superficie è asciutta; non versare acqua nel centro della rosetta.
+  primavera_estate:
+    min: 4
+    max: 7
+  autunno_inverno:
+    min: 7
+    max: 12
+  segnali_troppa: Foglie che ingialliscono e marciscono alla base.
+  segnali_poca: Foglie che si arrotolano e bordi bruciati.
+umidita: alta
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 15
+    max: 30
+  tipo: Concime liquido per piante verdi a un quarto della dose.
+temperatura:
+  min_c: 12
+  ideale_min_c: 16
+  ideale_max_c: 24
+terreno: Terriccio ricco di torba o fibra di cocco, soffice e drenante.
+rinvaso: Ogni 2 anni in primavera, in un vaso appena più grande.
+propagazione:
+- seme
+come_si_propaga:
+- metodo: seme
+  quando: Tutto l'anno, al caldo.
+  passi:
+  - Raccogli le spore marroni sul rovescio di una foglia matura, su un foglio di
+    carta.
+  - Spargile su torba umida in un vasetto sterilizzato.
+  - Chiudi il vaso in un sacchetto trasparente e tienilo al caldo e all'ombra luminosa.
+  - Quando le piantine sono alte 2-3 cm, trapiantale in vasetti singoli.
+  tempo: Piccole piantine dopo 2-4 mesi.
+  difficolta: difficile
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Non tossica per cani e gatti secondo l'ASPCA.
+problemi_comuni:
+- sintomo: Centro della rosetta marrone e molle
+  causa: Acqua ristagnata nel cuore della pianta
+  rimedio: Annaffiare solo il terriccio, ai bordi del vaso.
+immagini:
+- commons: Asplenium nidus.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'
