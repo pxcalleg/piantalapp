@@ -1,0 +1,89 @@
+schema_version: 1
+id: dionea
+stato: bozza
+nome_scientifico: Dionaea muscipula
+famiglia: Droseraceae
+nomi_comuni:
+  it:
+  - Dionea
+  - Pigliamosche
+  - Venere acchiappamosche
+  en:
+  - Venus flytrap
+descrizione: 'Pianta carnivora con foglie a trappola che si chiudono di scatto sugli
+  insetti. Ha bisogno di molta luce e di acqua senza sali: è la regola più importante.'
+categorie:
+- terrarium
+- balcone
+- pet_friendly
+gruppo: terrari
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: aperto
+  note: Vive meglio all'aperto, al sole, o in un terrarium aperto vicino a una finestra
+    molto luminosa. In inverno ha bisogno di un riposo al fresco (0-10 °C).
+difficolta: 4
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - est
+  - ovest
+annaffiatura:
+  quando: Sempre e solo acqua distillata o piovana, lasciando 1-2 cm d'acqua nel
+    sottovaso da primavera ad autunno; d'inverno terriccio solo umido.
+  primavera_estate:
+    min: 1
+    max: 3
+  autunno_inverno:
+    min: 7
+    max: 10
+  segnali_troppa: 'Raramente: ama i terreni bagnati.'
+  segnali_poca: Trappole nere e foglie secche.
+umidita: alta
+concimazione:
+  mesi:
+  - 5
+  frequenza_giorni:
+    min: 365
+    max: 365
+  tipo: 'Mai concime: si nutre di insetti. Non darle carne.'
+temperatura:
+  min_c: -2
+  ideale_min_c: 15
+  ideale_max_c: 32
+terreno: Solo torba bionda e perlite, senza concime né terriccio normale.
+rinvaso: 'Ogni 2 anni a fine inverno, in torba nuova. Non far scattare le trappole
+  per gioco: si esauriscono.'
+propagazione:
+- divisione
+come_si_propaga:
+- metodo: divisione
+  quando: A fine inverno, al rinvaso.
+  passi:
+  - Estrai la pianta dal vaso o scalza il cespo con la vanga.
+  - Dividi la zolla in due o più parti, ognuna con radici e germogli.
+  - Rinvasa ogni parte in terriccio fresco alla stessa profondità di prima.
+  - Annaffia e tienila in mezz'ombra per qualche giorno.
+  tempo: Riprende in 1 mese.
+  difficolta: facile
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Non è tossica; le trappole non fanno male alle dita.
+problemi_comuni:
+- sintomo: Trappole che diventano nere
+  causa: Normale ricambio, oppure acqua del rubinetto o poca luce
+  rimedio: Usare solo acqua distillata, darle più sole e togliere le trappole nere.
+immagini:
+- commons: Dionaea muscipula.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

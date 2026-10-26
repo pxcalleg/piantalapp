@@ -10,7 +10,7 @@ descrizione: >-
   Piccola pianta tappezzante dalle foglie con venature bianche, rosa o
   rosse. Ama l'umidità alta ed è una delle piante più adatte ai terrarium.
 categorie: [appartamento, terrarium, pet_friendly]
-gruppo: appartamento
+gruppo: terrari
 ambiente:
   interno: true
   esterno: "no"
@@ -88,4 +88,4 @@ fonti:
   - Royal Horticultural Society, scheda Fittonia albivenis (rhs.org.uk)
   - ASPCA, elenco piante tossiche e non tossiche (aspca.org)
 autori: [piantalapp]
-aggiornato: "2026-10-23"
+aggiornato: "2026-10-26"

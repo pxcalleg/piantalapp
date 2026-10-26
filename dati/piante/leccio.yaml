@@ -1,0 +1,98 @@
+schema_version: 1
+id: leccio
+stato: bozza
+nome_scientifico: Quercus ilex
+famiglia: Fagaceae
+nomi_comuni:
+  it:
+  - Leccio
+  - Elce
+  en:
+  - Holm oak
+  - Evergreen oak
+descrizione: Quercia sempreverde della macchia mediterranea, con foglie coriacee
+  verde scuro sopra e grigie sotto. Molto usata nei viali, nei parchi e anche come
+  siepe alta.
+categorie:
+- esterno
+- siepe
+gruppo: alberi
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: In piena terra; perfetto nelle zone di mare e di collina. Resiste al vento
+    e alla salsedine.
+difficolta: 1
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  - media_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - est
+  - ovest
+annaffiatura:
+  quando: Le piante giovani d'estate; da adulto resiste alla siccità.
+  primavera_estate:
+    min: 7
+    max: 14
+  autunno_inverno:
+    min: 30
+    max: 30
+  segnali_troppa: Foglie gialle che cadono.
+  segnali_poca: Foglie opache e cadute in estate.
+umidita: media
+concimazione:
+  mesi:
+  - 3
+  - 4
+  frequenza_giorni:
+    min: 60
+    max: 60
+  tipo: Non serve.
+temperatura:
+  min_c: -12
+  ideale_min_c: 12
+  ideale_max_c: 35
+terreno: Qualsiasi terreno ben drenato, anche calcareo e povero.
+rinvaso: Si pianta in autunno o in primavera. Si pota bene, anche a forma geometrica.
+propagazione:
+- seme
+come_si_propaga:
+- metodo: seme
+  quando: In autunno, con le ghiande appena cadute.
+  passi:
+  - Raccogli i frutti maturi appena caduti, scartando quelli bucati o vuoti.
+  - Seminali subito in vasi profondi con terriccio, a 2-3 cm di profondità, oppure
+    conservali al fresco in sabbia umida fino a fine inverno.
+  - 'Lascia i vasi all''aperto in inverno: il freddo serve a farli germogliare.'
+  - Tieni umido e, dopo uno o due anni, trapianta la piantina in piena terra.
+  tempo: Germina in primavera.
+  difficolta: facile
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: 'Ghiande e foglie giovani contengono tannini: mangiate in quantità danno
+    vomito e problemi ai reni a cani, cavalli e bovini. Le ghiande crude sono amare
+    e indigeste anche per le persone.'
+problemi_comuni:
+- sintomo: Patina bianca sulle foglie
+  causa: Oidio della quercia
+  rimedio: Sulle piante adulte non serve intervenire; sulle giovani si può usare
+    zolfo.
+- sintomo: Nidi di seta e bruchi pelosi sui rami in primavera
+  causa: Processionaria della quercia
+  rimedio: 'Non toccarli: i peli sono urticanti. Chiamare un tecnico del verde per
+    toglierli.'
+immagini:
+- commons: Quercus ilex JPG1.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- Acta Plantarum, flora delle regioni italiane (actaplantarum.org)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

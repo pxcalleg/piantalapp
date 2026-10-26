@@ -1,0 +1,81 @@
+schema_version: 1
+id: cryptanthus
+stato: bozza
+nome_scientifico: Cryptanthus bivittatus
+famiglia: Bromeliaceae
+nomi_comuni:
+  it:
+  - Cryptanthus
+  - Stella della terra
+  en:
+  - Earth star
+descrizione: Piccola bromelia a rosetta piatta, con foglie ondulate a strisce rosa,
+  verdi e crema. Resta bassa ed è perfetta come «stella» al centro di un terrarium.
+categorie:
+- appartamento
+- terrarium
+- pet_friendly
+gruppo: terrari
+ambiente:
+  interno: true
+  esterno: 'no'
+  terrarium: entrambi
+  note: Ama caldo e umidità; in vaso fuori dal terrarium va spruzzata spesso.
+difficolta: 2
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - media_indiretta
+  sole_diretto: 'no'
+  esposizione:
+  - est
+  - ovest
+annaffiatura:
+  quando: Quando il terriccio in superficie è asciutto, con acqua non calcarea.
+  primavera_estate:
+    min: 5
+    max: 7
+  autunno_inverno:
+    min: 10
+    max: 14
+  segnali_troppa: Base della rosetta che marcisce.
+  segnali_poca: Foglie che si arrotolano.
+umidita: alta
+concimazione:
+  mesi:
+  - 4
+  - 6
+  - 8
+  frequenza_giorni:
+    min: 60
+    max: 60
+  tipo: Concime per bromelie o orchidee a metà dose.
+temperatura:
+  min_c: 15
+  ideale_min_c: 20
+  ideale_max_c: 28
+terreno: Terriccio per bromelie o orchidee con torba.
+rinvaso: 'Raramente: ha poche radici.'
+propagazione:
+- polloni
+come_si_propaga:
+- metodo: polloni
+  quando: In primavera o estate.
+  passi:
+  - Stacca i piccoli getti che nascono tra le foglie quando sono lunghi 3-4 cm.
+  - Appoggiali su terriccio umido e premili appena.
+  - Tieni al caldo e umido.
+  tempo: Radicano in 3-4 settimane.
+  difficolta: facile
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Le bromelie non risultano tossiche per cani e gatti.
+immagini:
+- commons: Cryptanthus bivittatus var. minor.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

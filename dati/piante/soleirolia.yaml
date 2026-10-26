@@ -1,0 +1,87 @@
+schema_version: 1
+id: soleirolia
+stato: bozza
+nome_scientifico: Soleirolia soleirolii
+famiglia: Urticaceae
+nomi_comuni:
+  it:
+  - Soleirolia
+  - Lacrime d'angelo
+  - Elxine
+  en:
+  - Baby's tears
+  - Mind-your-own-business
+descrizione: Tappezzante con migliaia di foglioline tonde che formano un cuscino
+  verde brillante. Copre il fondo dei terrari e dei vasi come un prato in miniatura.
+categorie:
+- appartamento
+- terrarium
+- pet_friendly
+gruppo: terrari
+ambiente:
+  interno: true
+  esterno: 'no'
+  terrarium: entrambi
+  note: Sta bene anche in vaso in un posto fresco e umido, e all'aperto all'ombra
+    nelle zone miti.
+difficolta: 2
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - media_indiretta
+  sole_diretto: 'no'
+  esposizione:
+  - nord
+  - est
+  - ovest
+annaffiatura:
+  quando: 'Sempre umida, mai secca: se si asciuga collassa in poche ore.'
+  primavera_estate:
+    min: 2
+    max: 4
+  autunno_inverno:
+    min: 4
+    max: 7
+  segnali_troppa: Parti che marciscono e anneriscono.
+  segnali_poca: Cuscino che si affloscia e secca a chiazze.
+umidita: alta
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  frequenza_giorni:
+    min: 30
+    max: 30
+  tipo: Concime liquido a metà dose.
+temperatura:
+  min_c: 2
+  ideale_min_c: 12
+  ideale_max_c: 24
+terreno: Terriccio universale umido.
+rinvaso: Si accorcia con le forbici; in vaso si divide ogni anno.
+propagazione:
+- divisione
+come_si_propaga:
+- metodo: divisione
+  quando: In primavera o estate.
+  passi:
+  - Stacca un ciuffo con le radici.
+  - Appoggialo su terriccio umido.
+  - Tieni umido e all'ombra luminosa.
+  tempo: Attecchisce in 1-2 settimane.
+  difficolta: facile
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Non tossica per cani e gatti secondo l'ASPCA.
+immagini:
+- commons: Soleirolia soleirolii 2zz.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

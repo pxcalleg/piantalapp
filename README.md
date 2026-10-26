@@ -24,9 +24,9 @@ ARCHITETTURA.md     scelte tecniche e piano di lavoro
 
 ## Piante presenti
 
-Nell'app le piante sono divise in cinque categorie, indicate nel campo
+Nell'app le piante sono divise in sette categorie, indicate nel campo
 `gruppo` di ogni scheda: *Da appartamento*, *Piante grasse*, *Orchidee*,
-*Da esterno* e *Aromatiche*.
+*Da esterno*, *Aromatiche*, *Alberi* e *Terrari*.
 
 | Pianta | Nome scientifico | Dove |
 |---|---|---|
@@ -83,6 +83,23 @@ Nell'app le piante sono divise in cinque categorie, indicate nel campo
 | Falangio | *Chlorophytum comosum* | appartamento, ricadente, da_ufficio, pet_friendly |
 | Cactus di Natale | *Schlumbergera × buckleyi* | appartamento, succulenta, fiorita, ricadente, pet_friendly |
 | Oncidium | *Oncidium* | appartamento, fiorita, pet_friendly |
+| Castagno | *Castanea sativa* | esterno |
+| Faggio | *Fagus sylvatica* | esterno, siepe |
+| Farnia | *Quercus robur* | esterno |
+| Roverella | *Quercus pubescens* | esterno |
+| Leccio | *Quercus ilex* | esterno, siepe |
+| Acero campestre | *Acer campestre* | esterno, siepe |
+| Acero di monte | *Acer pseudoplatanus* | esterno |
+| Acero giapponese | *Acer palmatum* | esterno, balcone |
+| Selaginella | *Selaginella kraussiana* | appartamento, terrarium, pet_friendly |
+| Soleirolia | *Soleirolia soleirolii* | appartamento, terrarium, pet_friendly |
+| Ipoestes | *Hypoestes phyllostachya* | appartamento, terrarium, pet_friendly |
+| Capelvenere | *Adiantum raddianum* | appartamento, terrarium, pet_friendly |
+| Peperomia caperata | *Peperomia caperata* | appartamento, terrarium, da_ufficio, pet_friendly |
+| Cryptanthus | *Cryptanthus bivittatus* | appartamento, terrarium, pet_friendly |
+| Ficus pumila | *Ficus pumila* | appartamento, terrarium, ricadente |
+| Dionea | *Dionaea muscipula* | terrarium, balcone, pet_friendly |
+| Muschio a cuscino | *Leucobryum glaucum* | terrarium, pet_friendly |
 
 ## Funghi
 
@@ -102,6 +119,7 @@ soprattutto i **sosia** con cui si può confondere.
 | Colombina (*Russula virescens*) | commestibile |
 | Dentino (*Hydnum repandum*) | commestibile |
 | Galletto (*Cantharellus cibarius*) | commestibile |
+| Grifone o maitake, 舞茸 (*Grifola frondosa*) | commestibile |
 | Mazza di tamburo (*Macrolepiota procera*) | commestibile |
 | Ovolo (*Amanita caesarea*) | commestibile |
 | Pioppino (*Cyclocybe aegerita*) | commestibile |

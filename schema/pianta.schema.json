@@ -135,9 +135,11 @@
         "grasse",
         "orchidee",
         "esterno",
-        "aromatiche"
+        "aromatiche",
+        "alberi",
+        "terrari"
       ],
-      "description": "Categoria principale in cui l'app mostra la pianta, una sola: 'appartamento' (piante verdi e fiorite da tenere in casa), 'grasse' (succulente e cactus), 'orchidee', 'esterno' (giardino e balcone tutto l'anno), 'aromatiche' (erbe da cucina e officinali)."
+      "description": "Categoria principale in cui l'app mostra la pianta, una sola: 'appartamento' (piante verdi e fiorite da tenere in casa), 'grasse' (succulente e cactus), 'orchidee', 'esterno' (giardino e balcone tutto l'anno), 'aromatiche' (erbe da cucina e officinali), 'alberi' (alberi da bosco, parco e giardino), 'terrari' (piante piccole adatte ai terrari aperti o chiusi)."
     },
     "ambiente": {
       "type": "object",

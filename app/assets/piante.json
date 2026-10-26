@@ -3,6 +3,365 @@
  "piante": [
   {
    "schema_version": 1,
+   "id": "acero-campestre",
+   "stato": "bozza",
+   "nome_scientifico": "Acer campestre",
+   "famiglia": "Sapindaceae",
+   "nomi_comuni": {
+    "it": [
+     "Acero campestre",
+     "Oppio",
+     "Loppio"
+    ],
+    "en": [
+     "Field maple"
+    ]
+   },
+   "descrizione": "Acero di taglia media dei boschi e delle campagne italiane, un tempo usato per sostenere le viti. Le foglie a cinque lobi diventano giallo oro in autunno.",
+   "categorie": [
+    "esterno",
+    "siepe"
+   ],
+   "gruppo": "alberi",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "In piena terra, anche in città; si pota bene come siepe campestre."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta",
+     "media_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest",
+     "nord"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Le piante giovani nei primi 2 anni in estate.",
+    "primavera_estate": {
+     "min": 7,
+     "max": 10
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 30
+    },
+    "segnali_troppa": "Foglie gialle.",
+    "segnali_poca": "Foglie bruciate ai bordi."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4
+    ],
+    "frequenza_giorni": {
+     "min": 60,
+     "max": 60
+    },
+    "tipo": "Concime organico a fine inverno per le piante giovani."
+   },
+   "temperatura": {
+    "min_c": -25,
+    "ideale_min_c": 8,
+    "ideale_max_c": 32
+   },
+   "terreno": "Qualsiasi terreno, anche calcareo e argilloso.",
+   "rinvaso": "Si pianta in autunno. Le siepi si potano a fine inverno e in estate.",
+   "propagazione": [
+    "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "seme",
+     "quando": "In autunno, con le samare (i semi con l'ala) appena cadute.",
+     "passi": [
+      "Raccogli i frutti maturi appena caduti, scartando quelli bucati o vuoti.",
+      "Seminali subito in vasi profondi con terriccio, a 2-3 cm di profondità, oppure conservali al fresco in sabbia umida fino a fine inverno.",
+      "Lascia i vasi all'aperto in inverno: il freddo serve a farli germogliare.",
+      "Tieni umido e, dopo uno o due anni, trapianta la piantina in piena terra."
+     ],
+     "tempo": "Germina in primavera.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "lieve",
+    "persone": "non_tossica",
+    "note": "I semi di alcuni aceri sono pericolosi per i cavalli al pascolo; per cani e gatti non risultano problemi seri."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Patina bianca sulle foglie",
+     "causa": "Oidio dell'acero",
+     "rimedio": "Di solito non serve intervenire."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "Acta Plantarum, flora delle regioni italiane (actaplantarum.org)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
+  },
+  {
+   "schema_version": 1,
+   "id": "acero-di-monte",
+   "stato": "bozza",
+   "nome_scientifico": "Acer pseudoplatanus",
+   "famiglia": "Sapindaceae",
+   "nomi_comuni": {
+    "it": [
+     "Acero di monte",
+     "Acero montano",
+     "Acero sicomoro"
+    ],
+    "en": [
+     "Sycamore maple",
+     "Sycamore"
+    ]
+   },
+   "descrizione": "Grande acero dei boschi di montagna, dalle foglie larghe a cinque lobi e semi alati che cadono volteggiando. Cresce in fretta.",
+   "categorie": [
+    "esterno"
+   ],
+   "gruppo": "alberi",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "In piena terra e in spazi ampi; preferisce le zone fresche."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta",
+     "media_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "est",
+     "ovest",
+     "nord"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Le piante giovani nei primi anni, d'estate.",
+    "primavera_estate": {
+     "min": 7,
+     "max": 10
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 30
+    },
+    "segnali_troppa": "Foglie gialle.",
+    "segnali_poca": "Foglie bruciate ai bordi in estate."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4
+    ],
+    "frequenza_giorni": {
+     "min": 60,
+     "max": 60
+    },
+    "tipo": "Non serve di solito."
+   },
+   "temperatura": {
+    "min_c": -25,
+    "ideale_min_c": 8,
+    "ideale_max_c": 28
+   },
+   "terreno": "Terreno fresco, profondo e fertile.",
+   "rinvaso": "Si pianta in autunno o a fine inverno.",
+   "propagazione": [
+    "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "seme",
+     "quando": "In autunno, con le samare (i semi con l'ala) appena cadute.",
+     "passi": [
+      "Raccogli i frutti maturi appena caduti, scartando quelli bucati o vuoti.",
+      "Seminali subito in vasi profondi con terriccio, a 2-3 cm di profondità, oppure conservali al fresco in sabbia umida fino a fine inverno.",
+      "Lascia i vasi all'aperto in inverno: il freddo serve a farli germogliare.",
+      "Tieni umido e, dopo uno o due anni, trapianta la piantina in piena terra."
+     ],
+     "tempo": "Germina in primavera.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "non_tossica",
+    "note": "Semi e piantine contengono ipoglicina A, che provoca nei cavalli una grave malattia muscolare (miopatia atipica): non piantarlo vicino ai pascoli."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Grosse macchie nere sulle foglie",
+     "causa": "Maculatura nera dell'acero (Rhytisma)",
+     "rimedio": "Raccogliere e distruggere le foglie cadute in autunno."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "Acta Plantarum, flora delle regioni italiane (actaplantarum.org)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
+  },
+  {
+   "schema_version": 1,
+   "id": "acero-giapponese",
+   "stato": "bozza",
+   "nome_scientifico": "Acer palmatum",
+   "famiglia": "Sapindaceae",
+   "nomi_comuni": {
+    "it": [
+     "Acero giapponese",
+     "Acero palmato"
+    ],
+    "en": [
+     "Japanese maple"
+    ]
+   },
+   "descrizione": "Piccolo acero ornamentale dalle foglie finemente lobate, verdi o rosso porpora, che in autunno diventano rosso fuoco. Sta bene anche in un grande vaso sul terrazzo.",
+   "categorie": [
+    "esterno",
+    "balcone"
+   ],
+   "gruppo": "alberi",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "In giardino o in un grande vaso, a mezz'ombra e al riparo dal vento e dal sole del pomeriggio."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "sole_diretto",
+     "media_indiretta"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "est",
+     "nord"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Il terriccio deve restare fresco: in vaso d'estate anche ogni giorno, con acqua non calcarea.",
+    "primavera_estate": {
+     "min": 2,
+     "max": 4
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 20
+    },
+    "segnali_troppa": "Foglie gialle e rami che seccano dal basso.",
+    "segnali_poca": "Bordi delle foglie secchi e bruciati."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 30
+    },
+    "tipo": "Concime per acidofile a lenta cessione in primavera."
+   },
+   "temperatura": {
+    "min_c": -20,
+    "ideale_min_c": 10,
+    "ideale_max_c": 30
+   },
+   "terreno": "Terriccio per acidofile, soffice e ben drenato.",
+   "rinvaso": "In vaso ogni 2-3 anni a fine inverno. Pota poco, solo per togliere i rami secchi o incrociati.",
+   "propagazione": [
+    "seme",
+    "innesto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "seme",
+     "quando": "In autunno, con le samare (i semi con l'ala) appena cadute.",
+     "passi": [
+      "Raccogli i frutti maturi appena caduti, scartando quelli bucati o vuoti.",
+      "Seminali subito in vasi profondi con terriccio, a 2-3 cm di profondità, oppure conservali al fresco in sabbia umida fino a fine inverno.",
+      "Lascia i vasi all'aperto in inverno: il freddo serve a farli germogliare.",
+      "Tieni umido e, dopo uno o due anni, trapianta la piantina in piena terra."
+     ],
+     "tempo": "Germina in primavera.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "innesto",
+     "quando": "A fine inverno.",
+     "passi": [
+      "Le varietà colorate si innestano su piantine di acero palmato da seme.",
+      "Il lavoro di solito lo fa il vivaista."
+     ],
+     "tempo": "Attecchisce in qualche settimana.",
+     "difficolta": "difficile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Non risulta tossico per cani, gatti e persone."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Foglie bruciate in estate",
+     "causa": "Sole forte del pomeriggio, vento o acqua calcarea",
+     "rimedio": "Spostarlo a mezz'ombra, annaffiare con acqua piovana e pacciamare."
+    },
+    {
+     "sintomo": "Germogli coperti di piccoli insetti verdi o neri",
+     "causa": "Afidi",
+     "rimedio": "Lavare con un getto d'acqua o con sapone molle diluito."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "Acta Plantarum, flora delle regioni italiane (actaplantarum.org)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
+  },
+  {
+   "schema_version": 1,
    "id": "alloro",
    "stato": "bozza",
    "nome_scientifico": "Laurus nobilis",
@@ -957,6 +1316,244 @@
   },
   {
    "schema_version": 1,
+   "id": "capelvenere",
+   "stato": "bozza",
+   "nome_scientifico": "Adiantum raddianum",
+   "famiglia": "Pteridaceae",
+   "nomi_comuni": {
+    "it": [
+     "Capelvenere",
+     "Adianto"
+    ],
+    "en": [
+     "Maidenhair fern",
+     "Delta maidenhair fern"
+    ]
+   },
+   "descrizione": "Felce elegante con fronde leggere di foglioline a ventaglio su steli neri e sottili. È tra le più adatte ai terrari grandi, dove trova l'umidità che ama.",
+   "categorie": [
+    "appartamento",
+    "terrarium",
+    "pet_friendly"
+   ],
+   "gruppo": "terrari",
+   "ambiente": {
+    "interno": true,
+    "esterno": "no",
+    "terrarium": "entrambi",
+    "note": "In vaso fuori dal terrarium va tenuta lontana dai termosifoni, in una stanza umida come il bagno."
+   },
+   "difficolta": 4,
+   "luce": {
+    "ideale": "media_indiretta",
+    "tollera": [
+     "bassa",
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "no",
+    "esposizione": [
+     "nord",
+     "est"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Il terriccio non deve mai asciugarsi del tutto; usa acqua non calcarea.",
+    "primavera_estate": {
+     "min": 2,
+     "max": 4
+    },
+    "autunno_inverno": {
+     "min": 4,
+     "max": 7
+    },
+    "segnali_troppa": "Base delle fronde nera e marcia.",
+    "segnali_poca": "Fronde che seccano e si accartocciano in poche ore."
+   },
+   "umidita": "alta",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 30
+    },
+    "tipo": "Concime liquido per piante verdi a un quarto di dose."
+   },
+   "temperatura": {
+    "min_c": 12,
+    "ideale_min_c": 18,
+    "ideale_max_c": 25
+   },
+   "terreno": "Terriccio torboso leggero con un po' di sabbia.",
+   "rinvaso": "Ogni 2 anni in primavera. Taglia alla base le fronde secche: ne ricresceranno di nuove.",
+   "propagazione": [
+    "divisione"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "In primavera.",
+     "passi": [
+      "Estrai la pianta dal vaso o scalza il cespo con la vanga.",
+      "Dividi la zolla in due o più parti, ognuna con radici e germogli.",
+      "Rinvasa ogni parte in terriccio fresco alla stessa profondità di prima.",
+      "Annaffia e tienila in mezz'ombra per qualche giorno."
+     ],
+     "tempo": "Riprende in 2-4 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Non tossica per cani e gatti secondo l'ASPCA."
+   },
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
+  },
+  {
+   "schema_version": 1,
+   "id": "castagno",
+   "stato": "bozza",
+   "nome_scientifico": "Castanea sativa",
+   "famiglia": "Fagaceae",
+   "nomi_comuni": {
+    "it": [
+     "Castagno",
+     "Castagno europeo"
+    ],
+    "en": [
+     "Sweet chestnut",
+     "Spanish chestnut"
+    ]
+   },
+   "descrizione": "Grande albero dei boschi di collina e mezza montagna, che in autunno dà le castagne. Vive secoli e da adulto supera i 25 m.",
+   "categorie": [
+    "esterno"
+   ],
+   "gruppo": "alberi",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Solo in piena terra e in grandi spazi, tra 300 e 1000 m circa; non adatto al vaso."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Solo le piante giovani nei primi 2-3 anni, nelle estati secche; poi bastano le piogge.",
+    "primavera_estate": {
+     "min": 7,
+     "max": 14
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 30
+    },
+    "segnali_troppa": "Foglie gialle e radici che marciscono nei terreni pesanti.",
+    "segnali_poca": "Foglie che seccano ai bordi e ricci che cadono acerbi."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4
+    ],
+    "frequenza_giorni": {
+     "min": 60,
+     "max": 60
+    },
+    "tipo": "Letame maturo o concime organico a fine inverno, solo nei terreni poveri."
+   },
+   "temperatura": {
+    "min_c": -20,
+    "ideale_min_c": 10,
+    "ideale_max_c": 30
+   },
+   "terreno": "Terreno acido o neutro, profondo e sciolto; non sopporta il calcare.",
+   "rinvaso": "Si pianta in autunno o a fine inverno. Le potature servono solo a togliere rami secchi o malati.",
+   "propagazione": [
+    "seme",
+    "innesto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "seme",
+     "quando": "In autunno, con le castagne appena cadute.",
+     "passi": [
+      "Raccogli i frutti maturi appena caduti, scartando quelli bucati o vuoti.",
+      "Seminali subito in vasi profondi con terriccio, a 2-3 cm di profondità, oppure conservali al fresco in sabbia umida fino a fine inverno.",
+      "Lascia i vasi all'aperto in inverno: il freddo serve a farli germogliare.",
+      "Tieni umido e, dopo uno o due anni, trapianta la piantina in piena terra."
+     ],
+     "tempo": "Germina in primavera.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "innesto",
+     "quando": "In primavera.",
+     "passi": [
+      "Si usa per avere le varietà da frutto, come i marroni.",
+      "Su una piantina di castagno da seme di 2-3 anni si innesta un rametto della varietà scelta.",
+      "Di solito lo fa un vivaista o un castanicoltore esperto."
+     ],
+     "tempo": "Attecchisce in poche settimane.",
+     "difficolta": "difficile"
+    }
+   ],
+   "tossicita": {
+    "animali": "lieve",
+    "persone": "non_tossica",
+    "note": "Le castagne si mangiano cotte. I ricci spinosi feriscono zampe e bocca degli animali. Non va confuso con l'ippocastano, i cui frutti lucidi (castagne matte) sono velenosi."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Galle rosse su foglie e germogli",
+     "causa": "Cinipide galligeno del castagno",
+     "rimedio": "Nei castagneti si lancia il suo antagonista naturale, Torymus sinensis; sulle piante isolate si tolgono le galle."
+    },
+    {
+     "sintomo": "Rami che seccano con macchie arancio sulla corteccia",
+     "causa": "Cancro della corteccia",
+     "rimedio": "Tagliare e bruciare i rami colpiti e disinfettare gli attrezzi."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "Acta Plantarum, flora delle regioni italiane (actaplantarum.org)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
+  },
+  {
+   "schema_version": 1,
    "id": "crassula",
    "stato": "bozza",
    "nome_scientifico": "Crassula ovata",
@@ -1118,6 +1715,110 @@
     "piantalapp"
    ],
    "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "cryptanthus",
+   "stato": "bozza",
+   "nome_scientifico": "Cryptanthus bivittatus",
+   "famiglia": "Bromeliaceae",
+   "nomi_comuni": {
+    "it": [
+     "Cryptanthus",
+     "Stella della terra"
+    ],
+    "en": [
+     "Earth star"
+    ]
+   },
+   "descrizione": "Piccola bromelia a rosetta piatta, con foglie ondulate a strisce rosa, verdi e crema. Resta bassa ed è perfetta come «stella» al centro di un terrarium.",
+   "categorie": [
+    "appartamento",
+    "terrarium",
+    "pet_friendly"
+   ],
+   "gruppo": "terrari",
+   "ambiente": {
+    "interno": true,
+    "esterno": "no",
+    "terrarium": "entrambi",
+    "note": "Ama caldo e umidità; in vaso fuori dal terrarium va spruzzata spesso."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "media_indiretta"
+    ],
+    "sole_diretto": "no",
+    "esposizione": [
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Quando il terriccio in superficie è asciutto, con acqua non calcarea.",
+    "primavera_estate": {
+     "min": 5,
+     "max": 7
+    },
+    "autunno_inverno": {
+     "min": 10,
+     "max": 14
+    },
+    "segnali_troppa": "Base della rosetta che marcisce.",
+    "segnali_poca": "Foglie che si arrotolano."
+   },
+   "umidita": "alta",
+   "concimazione": {
+    "mesi": [
+     4,
+     6,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 60,
+     "max": 60
+    },
+    "tipo": "Concime per bromelie o orchidee a metà dose."
+   },
+   "temperatura": {
+    "min_c": 15,
+    "ideale_min_c": 20,
+    "ideale_max_c": 28
+   },
+   "terreno": "Terriccio per bromelie o orchidee con torba.",
+   "rinvaso": "Raramente: ha poche radici.",
+   "propagazione": [
+    "polloni"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "polloni",
+     "quando": "In primavera o estate.",
+     "passi": [
+      "Stacca i piccoli getti che nascono tra le foglie quando sono lunghi 3-4 cm.",
+      "Appoggiali su terriccio umido e premili appena.",
+      "Tieni al caldo e umido."
+     ],
+     "tempo": "Radicano in 3-4 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Le bromelie non risultano tossiche per cani e gatti."
+   },
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
   },
   {
    "schema_version": 1,
@@ -1431,6 +2132,118 @@
     "piantalapp"
    ],
    "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "dionea",
+   "stato": "bozza",
+   "nome_scientifico": "Dionaea muscipula",
+   "famiglia": "Droseraceae",
+   "nomi_comuni": {
+    "it": [
+     "Dionea",
+     "Pigliamosche",
+     "Venere acchiappamosche"
+    ],
+    "en": [
+     "Venus flytrap"
+    ]
+   },
+   "descrizione": "Pianta carnivora con foglie a trappola che si chiudono di scatto sugli insetti. Ha bisogno di molta luce e di acqua senza sali: è la regola più importante.",
+   "categorie": [
+    "terrarium",
+    "balcone",
+    "pet_friendly"
+   ],
+   "gruppo": "terrari",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "aperto",
+    "note": "Vive meglio all'aperto, al sole, o in un terrarium aperto vicino a una finestra molto luminosa. In inverno ha bisogno di un riposo al fresco (0-10 °C)."
+   },
+   "difficolta": 4,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Sempre e solo acqua distillata o piovana, lasciando 1-2 cm d'acqua nel sottovaso da primavera ad autunno; d'inverno terriccio solo umido.",
+    "primavera_estate": {
+     "min": 1,
+     "max": 3
+    },
+    "autunno_inverno": {
+     "min": 7,
+     "max": 10
+    },
+    "segnali_troppa": "Raramente: ama i terreni bagnati.",
+    "segnali_poca": "Trappole nere e foglie secche."
+   },
+   "umidita": "alta",
+   "concimazione": {
+    "mesi": [
+     5
+    ],
+    "frequenza_giorni": {
+     "min": 365,
+     "max": 365
+    },
+    "tipo": "Mai concime: si nutre di insetti. Non darle carne."
+   },
+   "temperatura": {
+    "min_c": -2,
+    "ideale_min_c": 15,
+    "ideale_max_c": 32
+   },
+   "terreno": "Solo torba bionda e perlite, senza concime né terriccio normale.",
+   "rinvaso": "Ogni 2 anni a fine inverno, in torba nuova. Non far scattare le trappole per gioco: si esauriscono.",
+   "propagazione": [
+    "divisione"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "A fine inverno, al rinvaso.",
+     "passi": [
+      "Estrai la pianta dal vaso o scalza il cespo con la vanga.",
+      "Dividi la zolla in due o più parti, ognuna con radici e germogli.",
+      "Rinvasa ogni parte in terriccio fresco alla stessa profondità di prima.",
+      "Annaffia e tienila in mezz'ombra per qualche giorno."
+     ],
+     "tempo": "Riprende in 1 mese.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Non è tossica; le trappole non fanno male alle dita."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Trappole che diventano nere",
+     "causa": "Normale ricambio, oppure acqua del rubinetto o poca luce",
+     "rimedio": "Usare solo acqua distillata, darle più sole e togliere le trappole nere."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
   },
   {
    "schema_version": 1,
@@ -1759,6 +2572,119 @@
   },
   {
    "schema_version": 1,
+   "id": "faggio",
+   "stato": "bozza",
+   "nome_scientifico": "Fagus sylvatica",
+   "famiglia": "Fagaceae",
+   "nomi_comuni": {
+    "it": [
+     "Faggio"
+    ],
+    "en": [
+     "European beech",
+     "Common beech"
+    ]
+   },
+   "descrizione": "Albero maestoso delle faggete di montagna, con tronco liscio grigio argento e foglie che in autunno diventano color rame. Nei giardini si usa anche la varietà a foglie rosse.",
+   "categorie": [
+    "esterno",
+    "siepe"
+   ],
+   "gruppo": "alberi",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "In piena terra; ama le zone fresche e piovose. Si pota bene anche come siepe, che tiene le foglie secche in inverno."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "sole_diretto",
+     "media_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "nord",
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Le piante giovani d'estate quando il terreno è asciutto; teme la siccità e il caldo secco.",
+    "primavera_estate": {
+     "min": 5,
+     "max": 10
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 30
+    },
+    "segnali_troppa": "Foglie gialle e marciume alle radici nei terreni pesanti.",
+    "segnali_poca": "Foglie bruciate e accartocciate in estate."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4
+    ],
+    "frequenza_giorni": {
+     "min": 60,
+     "max": 60
+    },
+    "tipo": "Concime organico a fine inverno, solo per le piante giovani."
+   },
+   "temperatura": {
+    "min_c": -25,
+    "ideale_min_c": 8,
+    "ideale_max_c": 26
+   },
+   "terreno": "Terreno fresco, ben drenato, anche calcareo; teme i ristagni.",
+   "rinvaso": "Si pianta da novembre a marzo. Le siepi si potano a fine estate.",
+   "propagazione": [
+    "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "seme",
+     "quando": "In autunno, con le faggiole appena cadute.",
+     "passi": [
+      "Raccogli i frutti maturi appena caduti, scartando quelli bucati o vuoti.",
+      "Seminali subito in vasi profondi con terriccio, a 2-3 cm di profondità, oppure conservali al fresco in sabbia umida fino a fine inverno.",
+      "Lascia i vasi all'aperto in inverno: il freddo serve a farli germogliare.",
+      "Tieni umido e, dopo uno o due anni, trapianta la piantina in piena terra."
+     ],
+     "tempo": "Germina in primavera.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "lieve",
+    "persone": "lieve",
+    "note": "Le faggiole (i semi) mangiate crude in quantità danno nausea e vomito, anche agli animali."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Foglie coperte di lanugine bianca",
+     "causa": "Afide lanigero del faggio",
+     "rimedio": "Lavare con getti d'acqua o sapone molle; di solito non danneggia la pianta adulta."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "Acta Plantarum, flora delle regioni italiane (actaplantarum.org)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
+  },
+  {
+   "schema_version": 1,
    "id": "falangio",
    "stato": "bozza",
    "nome_scientifico": "Chlorophytum comosum",
@@ -2046,6 +2972,123 @@
     "piantalapp"
    ],
    "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "farnia",
+   "stato": "bozza",
+   "nome_scientifico": "Quercus robur",
+   "famiglia": "Fagaceae",
+   "nomi_comuni": {
+    "it": [
+     "Farnia",
+     "Quercia comune"
+    ],
+    "en": [
+     "English oak",
+     "Pedunculate oak"
+    ]
+   },
+   "descrizione": "La grande quercia della Pianura Padana, longeva e imponente, con ghiande su un lungo picciolo. Si riconosce dalle foglie lobate quasi senza gambo.",
+   "categorie": [
+    "esterno"
+   ],
+   "gruppo": "alberi",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Solo in piena terra e in grandi spazi; da adulta supera i 30 m."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Solo le piante giovani nei primi anni, in estate.",
+    "primavera_estate": {
+     "min": 7,
+     "max": 14
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 30
+    },
+    "segnali_troppa": "Foglie gialle nelle piante giovani in vaso.",
+    "segnali_poca": "Foglie che ingialliscono e cadono in anticipo."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4
+    ],
+    "frequenza_giorni": {
+     "min": 60,
+     "max": 60
+    },
+    "tipo": "Di solito non serve."
+   },
+   "temperatura": {
+    "min_c": -25,
+    "ideale_min_c": 8,
+    "ideale_max_c": 32
+   },
+   "terreno": "Terreno profondo e fresco, anche argilloso.",
+   "rinvaso": "Si pianta in autunno. Cresce lentamente i primi anni.",
+   "propagazione": [
+    "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "seme",
+     "quando": "In autunno, con le ghiande appena cadute.",
+     "passi": [
+      "Raccogli i frutti maturi appena caduti, scartando quelli bucati o vuoti.",
+      "Seminali subito in vasi profondi con terriccio, a 2-3 cm di profondità, oppure conservali al fresco in sabbia umida fino a fine inverno.",
+      "Lascia i vasi all'aperto in inverno: il freddo serve a farli germogliare.",
+      "Tieni umido e, dopo uno o due anni, trapianta la piantina in piena terra."
+     ],
+     "tempo": "Germina in primavera.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "lieve",
+    "note": "Ghiande e foglie giovani contengono tannini: mangiate in quantità danno vomito e problemi ai reni a cani, cavalli e bovini. Le ghiande crude sono amare e indigeste anche per le persone."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Patina bianca sulle foglie",
+     "causa": "Oidio della quercia",
+     "rimedio": "Sulle piante adulte non serve intervenire; sulle giovani si può usare zolfo."
+    },
+    {
+     "sintomo": "Nidi di seta e bruchi pelosi sui rami in primavera",
+     "causa": "Processionaria della quercia",
+     "rimedio": "Non toccarli: i peli sono urticanti. Chiamare un tecnico del verde per toglierli."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "Acta Plantarum, flora delle regioni italiane (actaplantarum.org)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
   },
   {
    "schema_version": 1,
@@ -2667,6 +3710,115 @@
   },
   {
    "schema_version": 1,
+   "id": "ficus-pumila",
+   "stato": "bozza",
+   "nome_scientifico": "Ficus pumila",
+   "famiglia": "Moraceae",
+   "nomi_comuni": {
+    "it": [
+     "Ficus pumila",
+     "Ficus rampicante"
+    ],
+    "en": [
+     "Creeping fig"
+    ]
+   },
+   "descrizione": "Ficus dalle foglie minuscole che striscia e si arrampica, formando un tappeto fitto. Nei terrari copre il fondo e le pareti, in giardino i muri.",
+   "categorie": [
+    "appartamento",
+    "terrarium",
+    "ricadente"
+   ],
+   "gruppo": "terrari",
+   "ambiente": {
+    "interno": true,
+    "esterno": "no",
+    "terrarium": "entrambi",
+    "note": "All'aperto si arrampica sui muri nelle zone miti."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "media_indiretta",
+    "tollera": [
+     "intensa_indiretta",
+     "bassa"
+    ],
+    "sole_diretto": "no",
+    "esposizione": [
+     "nord",
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Il terriccio deve restare leggermente umido.",
+    "primavera_estate": {
+     "min": 3,
+     "max": 5
+    },
+    "autunno_inverno": {
+     "min": 7,
+     "max": 10
+    },
+    "segnali_troppa": "Foglie gialle che cadono.",
+    "segnali_poca": "Foglie secche e croccanti."
+   },
+   "umidita": "alta",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 30
+    },
+    "tipo": "Concime liquido per piante verdi a metà dose."
+   },
+   "temperatura": {
+    "min_c": 5,
+    "ideale_min_c": 16,
+    "ideale_max_c": 26
+   },
+   "terreno": "Terriccio universale.",
+   "rinvaso": "Va accorciato spesso perché non soffochi le altre piante del terrarium.",
+   "propagazione": [
+    "talea_fusto"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Tutto l'anno, meglio in primavera.",
+     "passi": [
+      "Taglia una punta di 5-8 cm sotto un nodo.",
+      "Togli le foglie basse.",
+      "Interrala nel terriccio umido del terrarium o in un vasetto coperto.",
+      "Tieni umido e alla luce indiretta."
+     ],
+     "tempo": "Radica in 2-3 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "lieve",
+    "persone": "lieve",
+    "note": "Come gli altri ficus ha un lattice che irrita pelle e bocca; mangiato dà vomito a cani e gatti."
+   },
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
+  },
+  {
+   "schema_version": 1,
    "id": "fittonia",
    "stato": "bozza",
    "nome_scientifico": "Fittonia albivenis",
@@ -2687,7 +3839,7 @@
     "terrarium",
     "pet_friendly"
    ],
-   "gruppo": "appartamento",
+   "gruppo": "terrari",
    "ambiente": {
     "interno": true,
     "esterno": "no",
@@ -2814,7 +3966,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-23"
+   "aggiornato": "2026-10-26"
   },
   {
    "schema_version": 1,
@@ -3367,6 +4519,134 @@
   },
   {
    "schema_version": 1,
+   "id": "ipoestes",
+   "stato": "bozza",
+   "nome_scientifico": "Hypoestes phyllostachya",
+   "famiglia": "Acanthaceae",
+   "nomi_comuni": {
+    "it": [
+     "Ipoestes",
+     "Pianta a pois"
+    ],
+    "en": [
+     "Polka dot plant"
+    ]
+   },
+   "descrizione": "Piccola pianta dalle foglie macchiettate di rosa, rosso o bianco. Porta colore nei terrari aperti e nei vasetti sul davanzale.",
+   "categorie": [
+    "appartamento",
+    "terrarium",
+    "pet_friendly"
+   ],
+   "gruppo": "terrari",
+   "ambiente": {
+    "interno": true,
+    "esterno": "no",
+    "terrarium": "aperto",
+    "note": "Nei terrari chiusi cresce troppo in fretta e marcisce: meglio quelli aperti."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "media_indiretta"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Quando il terriccio in superficie inizia ad asciugarsi.",
+    "primavera_estate": {
+     "min": 3,
+     "max": 5
+    },
+    "autunno_inverno": {
+     "min": 5,
+     "max": 8
+    },
+    "segnali_troppa": "Fusti molli e foglie che cadono.",
+    "segnali_poca": "Foglie afflosciate."
+   },
+   "umidita": "alta",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "frequenza_giorni": {
+     "min": 21,
+     "max": 30
+    },
+    "tipo": "Concime liquido per piante verdi a metà dose."
+   },
+   "temperatura": {
+    "min_c": 13,
+    "ideale_min_c": 18,
+    "ideale_max_c": 27
+   },
+   "terreno": "Terriccio universale leggero.",
+   "rinvaso": "Cima spesso le punte per tenerla compatta e togli i fiori, che la indeboliscono.",
+   "propagazione": [
+    "talea_fusto",
+    "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_fusto",
+     "quando": "Tutto l'anno, meglio in primavera.",
+     "passi": [
+      "Taglia una punta di 5-8 cm sotto un nodo.",
+      "Togli le foglie basse.",
+      "Interrala nel terriccio umido del terrarium o in un vasetto coperto.",
+      "Tieni umido e alla luce indiretta."
+     ],
+     "tempo": "Radica in 2-3 settimane.",
+     "difficolta": "facile"
+    },
+    {
+     "metodo": "seme",
+     "quando": "In primavera, al caldo.",
+     "passi": [
+      "Riempi un vasetto o una cassetta con terriccio da semina.",
+      "Spargi i semi radi e coprili con un velo sottile di terriccio.",
+      "Annaffia con lo spruzzino e tieni il terriccio sempre umido, al caldo e alla luce.",
+      "Quando le piantine hanno 4-6 foglie, diradale o trapiantale in vasi singoli."
+     ],
+     "tempo": "Germina in 1-2 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Non tossica per cani e gatti secondo l'ASPCA."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Foglie che perdono i colori",
+     "causa": "Poca luce",
+     "rimedio": "Spostarla più vicino alla finestra."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
+  },
+  {
+   "schema_version": 1,
    "id": "kalanchoe",
    "stato": "bozza",
    "nome_scientifico": "Kalanchoe blossfeldiana",
@@ -3770,6 +5050,125 @@
   },
   {
    "schema_version": 1,
+   "id": "leccio",
+   "stato": "bozza",
+   "nome_scientifico": "Quercus ilex",
+   "famiglia": "Fagaceae",
+   "nomi_comuni": {
+    "it": [
+     "Leccio",
+     "Elce"
+    ],
+    "en": [
+     "Holm oak",
+     "Evergreen oak"
+    ]
+   },
+   "descrizione": "Quercia sempreverde della macchia mediterranea, con foglie coriacee verde scuro sopra e grigie sotto. Molto usata nei viali, nei parchi e anche come siepe alta.",
+   "categorie": [
+    "esterno",
+    "siepe"
+   ],
+   "gruppo": "alberi",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "In piena terra; perfetto nelle zone di mare e di collina. Resiste al vento e alla salsedine."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta",
+     "media_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Le piante giovani d'estate; da adulto resiste alla siccità.",
+    "primavera_estate": {
+     "min": 7,
+     "max": 14
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 30
+    },
+    "segnali_troppa": "Foglie gialle che cadono.",
+    "segnali_poca": "Foglie opache e cadute in estate."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4
+    ],
+    "frequenza_giorni": {
+     "min": 60,
+     "max": 60
+    },
+    "tipo": "Non serve."
+   },
+   "temperatura": {
+    "min_c": -12,
+    "ideale_min_c": 12,
+    "ideale_max_c": 35
+   },
+   "terreno": "Qualsiasi terreno ben drenato, anche calcareo e povero.",
+   "rinvaso": "Si pianta in autunno o in primavera. Si pota bene, anche a forma geometrica.",
+   "propagazione": [
+    "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "seme",
+     "quando": "In autunno, con le ghiande appena cadute.",
+     "passi": [
+      "Raccogli i frutti maturi appena caduti, scartando quelli bucati o vuoti.",
+      "Seminali subito in vasi profondi con terriccio, a 2-3 cm di profondità, oppure conservali al fresco in sabbia umida fino a fine inverno.",
+      "Lascia i vasi all'aperto in inverno: il freddo serve a farli germogliare.",
+      "Tieni umido e, dopo uno o due anni, trapianta la piantina in piena terra."
+     ],
+     "tempo": "Germina in primavera.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "lieve",
+    "note": "Ghiande e foglie giovani contengono tannini: mangiate in quantità danno vomito e problemi ai reni a cani, cavalli e bovini. Le ghiande crude sono amare e indigeste anche per le persone."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Patina bianca sulle foglie",
+     "causa": "Oidio della quercia",
+     "rimedio": "Sulle piante adulte non serve intervenire; sulle giovani si può usare zolfo."
+    },
+    {
+     "sintomo": "Nidi di seta e bruchi pelosi sui rami in primavera",
+     "causa": "Processionaria della quercia",
+     "rimedio": "Non toccarli: i peli sono urticanti. Chiamare un tecnico del verde per toglierli."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "Acta Plantarum, flora delle regioni italiane (actaplantarum.org)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
+  },
+  {
+   "schema_version": 1,
    "id": "ligustro",
    "stato": "bozza",
    "nome_scientifico": "Ligustrum ovalifolium",
@@ -3910,7 +5309,7 @@
    "categorie": [
     "esterno"
    ],
-   "gruppo": "esterno",
+   "gruppo": "alberi",
    "ambiente": {
     "interno": false,
     "esterno": "tutto_anno",
@@ -4045,7 +5444,7 @@
    "autori": [
     "piantalapp"
    ],
-   "aggiornato": "2026-10-23"
+   "aggiornato": "2026-10-26"
   },
   {
    "schema_version": 1,
@@ -4621,6 +6020,109 @@
     "piantalapp"
    ],
    "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "muschio-cuscino",
+   "stato": "bozza",
+   "nome_scientifico": "Leucobryum glaucum",
+   "famiglia": "Leucobryaceae",
+   "nomi_comuni": {
+    "it": [
+     "Muschio a cuscino",
+     "Muschio"
+    ],
+    "en": [
+     "Pincushion moss",
+     "Cushion moss"
+    ]
+   },
+   "descrizione": "Muschio che forma cuscinetti tondi verde chiaro, usato nei terrari chiusi e nei bonsai per dare l'effetto di un sottobosco.",
+   "categorie": [
+    "terrarium",
+    "pet_friendly"
+   ],
+   "gruppo": "terrari",
+   "ambiente": {
+    "interno": true,
+    "esterno": "no",
+    "terrarium": "chiuso",
+    "note": "Dà il meglio in un terrarium chiuso; non raccoglierlo nei boschi protetti, compralo coltivato."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "media_indiretta",
+    "tollera": [
+     "bassa",
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "no",
+    "esposizione": [
+     "nord",
+     "est"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Nebulizza acqua piovana o distillata quando schiarisce e diventa più grigio.",
+    "primavera_estate": {
+     "min": 3,
+     "max": 5
+    },
+    "autunno_inverno": {
+     "min": 5,
+     "max": 7
+    },
+    "segnali_troppa": "Muffa bianca sopra il cuscino.",
+    "segnali_poca": "Diventa grigio, secco e croccante."
+   },
+   "umidita": "alta",
+   "concimazione": {
+    "mesi": [
+     5
+    ],
+    "frequenza_giorni": {
+     "min": 365,
+     "max": 365
+    },
+    "tipo": "Non serve mai."
+   },
+   "temperatura": {
+    "min_c": 2,
+    "ideale_min_c": 12,
+    "ideale_max_c": 24
+   },
+   "terreno": "Si appoggia su terriccio acido o direttamente su sassi e legno.",
+   "rinvaso": "Non va rinvasato; si stacca e si sposta a pezzi.",
+   "propagazione": [
+    "divisione"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "Tutto l'anno.",
+     "passi": [
+      "Stacca un pezzo di cuscino.",
+      "Appoggialo sul substrato umido e premilo.",
+      "Nebulizza spesso finché non si attacca."
+     ],
+     "tempo": "Attecchisce in 3-6 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Non tossico."
+   },
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
   },
   {
    "schema_version": 1,
@@ -5351,6 +6853,115 @@
     "piantalapp"
    ],
    "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "peperomia-caperata",
+   "stato": "bozza",
+   "nome_scientifico": "Peperomia caperata",
+   "famiglia": "Piperaceae",
+   "nomi_comuni": {
+    "it": [
+     "Peperomia caperata",
+     "Peperomia"
+    ],
+    "en": [
+     "Emerald ripple peperomia"
+    ]
+   },
+   "descrizione": "Piccola pianta compatta dalle foglie a cuore increspate, verdi o rosse, con curiose spighe bianche. Cresce piano e sta bene nei terrari aperti.",
+   "categorie": [
+    "appartamento",
+    "terrarium",
+    "da_ufficio",
+    "pet_friendly"
+   ],
+   "gruppo": "terrari",
+   "ambiente": {
+    "interno": true,
+    "esterno": "no",
+    "terrarium": "aperto",
+    "note": "Sta bene anche in un vasetto sulla scrivania."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "media_indiretta",
+    "tollera": [
+     "intensa_indiretta",
+     "bassa"
+    ],
+    "sole_diretto": "no",
+    "esposizione": [
+     "est",
+     "ovest",
+     "nord"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Quando il terriccio è asciutto a metà vaso: le foglie carnose tengono riserve.",
+    "primavera_estate": {
+     "min": 7,
+     "max": 10
+    },
+    "autunno_inverno": {
+     "min": 14,
+     "max": 21
+    },
+    "segnali_troppa": "Base del fusto molle e foglie che cadono.",
+    "segnali_poca": "Foglie molli e raggrinzite."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 30
+    },
+    "tipo": "Concime liquido a metà dose."
+   },
+   "temperatura": {
+    "min_c": 13,
+    "ideale_min_c": 18,
+    "ideale_max_c": 27
+   },
+   "terreno": "Terriccio leggero con perlite.",
+   "rinvaso": "Ogni 2-3 anni: le radici sono piccole e amano i vasi stretti.",
+   "propagazione": [
+    "talea_foglia"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "talea_foglia",
+     "quando": "In primavera o estate.",
+     "passi": [
+      "Stacca una foglia con 2-3 cm di picciolo.",
+      "Interra il picciolo in terriccio e perlite umidi.",
+      "Copri con un sacchetto e tieni alla luce indiretta."
+     ],
+     "tempo": "Nascono piantine in 4-8 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Non tossica per cani e gatti secondo l'ASPCA."
+   },
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
   },
   {
    "schema_version": 1,
@@ -6812,6 +8423,123 @@
   },
   {
    "schema_version": 1,
+   "id": "roverella",
+   "stato": "bozza",
+   "nome_scientifico": "Quercus pubescens",
+   "famiglia": "Fagaceae",
+   "nomi_comuni": {
+    "it": [
+     "Roverella",
+     "Quercia pubescente"
+    ],
+    "en": [
+     "Downy oak",
+     "Pubescent oak"
+    ]
+   },
+   "descrizione": "La quercia più diffusa sulle colline italiane, adatta ai terreni secchi e calcarei. Le foglie giovani sono coperte di peluria e quelle secche restano sui rami in inverno.",
+   "categorie": [
+    "esterno"
+   ],
+   "gruppo": "alberi",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "In piena terra, anche in posizioni secche e sassose. Ospita il tartufo nero."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "sole_diretto",
+    "tollera": [
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "si",
+    "esposizione": [
+     "sud",
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Solo le piante giovani nel primo anno.",
+    "primavera_estate": {
+     "min": 10,
+     "max": 14
+    },
+    "autunno_inverno": {
+     "min": 30,
+     "max": 30
+    },
+    "segnali_troppa": "Foglie gialle e radici marce nei terreni zuppi.",
+    "segnali_poca": "Foglie che seccano in estate, ma resiste bene."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4
+    ],
+    "frequenza_giorni": {
+     "min": 60,
+     "max": 60
+    },
+    "tipo": "Non serve."
+   },
+   "temperatura": {
+    "min_c": -20,
+    "ideale_min_c": 10,
+    "ideale_max_c": 35
+   },
+   "terreno": "Terreno calcareo, sassoso e ben drenato, anche povero.",
+   "rinvaso": "Si pianta in autunno o a fine inverno, con piantine giovani: da grande non sopporta i trapianti.",
+   "propagazione": [
+    "seme"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "seme",
+     "quando": "In autunno, con le ghiande appena cadute.",
+     "passi": [
+      "Raccogli i frutti maturi appena caduti, scartando quelli bucati o vuoti.",
+      "Seminali subito in vasi profondi con terriccio, a 2-3 cm di profondità, oppure conservali al fresco in sabbia umida fino a fine inverno.",
+      "Lascia i vasi all'aperto in inverno: il freddo serve a farli germogliare.",
+      "Tieni umido e, dopo uno o due anni, trapianta la piantina in piena terra."
+     ],
+     "tempo": "Germina in primavera.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "tossica",
+    "persone": "lieve",
+    "note": "Ghiande e foglie giovani contengono tannini: mangiate in quantità danno vomito e problemi ai reni a cani, cavalli e bovini. Le ghiande crude sono amare e indigeste anche per le persone."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Patina bianca sulle foglie",
+     "causa": "Oidio della quercia",
+     "rimedio": "Sulle piante adulte non serve intervenire; sulle giovani si può usare zolfo."
+    },
+    {
+     "sintomo": "Nidi di seta e bruchi pelosi sui rami in primavera",
+     "causa": "Processionaria della quercia",
+     "rimedio": "Non toccarli: i peli sono urticanti. Chiamare un tecnico del verde per toglierli."
+    }
+   ],
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "Acta Plantarum, flora delle regioni italiane (actaplantarum.org)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
+  },
+  {
+   "schema_version": 1,
    "id": "salvia",
    "stato": "bozza",
    "nome_scientifico": "Salvia officinalis",
@@ -7109,6 +8837,221 @@
     "piantalapp"
    ],
    "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "selaginella",
+   "stato": "bozza",
+   "nome_scientifico": "Selaginella kraussiana",
+   "famiglia": "Selaginellaceae",
+   "nomi_comuni": {
+    "it": [
+     "Selaginella",
+     "Muschio dei club"
+    ],
+    "en": [
+     "Spikemoss",
+     "Krauss's spikemoss"
+    ]
+   },
+   "descrizione": "Pianta antichissima, parente delle felci, che forma tappeti morbidi di minuscole foglie verde smeraldo. Nel terrarium chiuso trova l'umidità che le serve.",
+   "categorie": [
+    "appartamento",
+    "terrarium",
+    "pet_friendly"
+   ],
+   "gruppo": "terrari",
+   "ambiente": {
+    "interno": true,
+    "esterno": "no",
+    "terrarium": "chiuso",
+    "note": "Fuori dal terrarium soffre l'aria secca delle case."
+   },
+   "difficolta": 3,
+   "luce": {
+    "ideale": "media_indiretta",
+    "tollera": [
+     "bassa",
+     "intensa_indiretta"
+    ],
+    "sole_diretto": "no",
+    "esposizione": [
+     "nord",
+     "est"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Il terriccio deve restare sempre umido. Nel terrarium chiuso basta qualche spruzzo quando la condensa sparisce.",
+    "primavera_estate": {
+     "min": 3,
+     "max": 5
+    },
+    "autunno_inverno": {
+     "min": 5,
+     "max": 7
+    },
+    "segnali_troppa": "Muffa grigia e parti che anneriscono.",
+    "segnali_poca": "Punte che diventano marroni e secche."
+   },
+   "umidita": "alta",
+   "concimazione": {
+    "mesi": [
+     4,
+     6,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 60,
+     "max": 60
+    },
+    "tipo": "Quasi niente: concime liquido a un quarto di dose."
+   },
+   "temperatura": {
+    "min_c": 10,
+    "ideale_min_c": 18,
+    "ideale_max_c": 26
+   },
+   "terreno": "Terriccio torboso leggero, sopra uno strato di drenaggio.",
+   "rinvaso": "Si accorcia con le forbici quando invade le altre piante.",
+   "propagazione": [
+    "divisione"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "Tutto l'anno.",
+     "passi": [
+      "Taglia un ciuffo del tappeto con un po' di radici.",
+      "Appoggialo sul terriccio umido e premilo leggermente.",
+      "Spruzza e tieni coperto."
+     ],
+     "tempo": "Attecchisce in 2-3 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Non risulta tossica."
+   },
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
+  },
+  {
+   "schema_version": 1,
+   "id": "soleirolia",
+   "stato": "bozza",
+   "nome_scientifico": "Soleirolia soleirolii",
+   "famiglia": "Urticaceae",
+   "nomi_comuni": {
+    "it": [
+     "Soleirolia",
+     "Lacrime d'angelo",
+     "Elxine"
+    ],
+    "en": [
+     "Baby's tears",
+     "Mind-your-own-business"
+    ]
+   },
+   "descrizione": "Tappezzante con migliaia di foglioline tonde che formano un cuscino verde brillante. Copre il fondo dei terrari e dei vasi come un prato in miniatura.",
+   "categorie": [
+    "appartamento",
+    "terrarium",
+    "pet_friendly"
+   ],
+   "gruppo": "terrari",
+   "ambiente": {
+    "interno": true,
+    "esterno": "no",
+    "terrarium": "entrambi",
+    "note": "Sta bene anche in vaso in un posto fresco e umido, e all'aperto all'ombra nelle zone miti."
+   },
+   "difficolta": 2,
+   "luce": {
+    "ideale": "intensa_indiretta",
+    "tollera": [
+     "media_indiretta"
+    ],
+    "sole_diretto": "no",
+    "esposizione": [
+     "nord",
+     "est",
+     "ovest"
+    ]
+   },
+   "annaffiatura": {
+    "quando": "Sempre umida, mai secca: se si asciuga collassa in poche ore.",
+    "primavera_estate": {
+     "min": 2,
+     "max": 4
+    },
+    "autunno_inverno": {
+     "min": 4,
+     "max": 7
+    },
+    "segnali_troppa": "Parti che marciscono e anneriscono.",
+    "segnali_poca": "Cuscino che si affloscia e secca a chiazze."
+   },
+   "umidita": "alta",
+   "concimazione": {
+    "mesi": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 30
+    },
+    "tipo": "Concime liquido a metà dose."
+   },
+   "temperatura": {
+    "min_c": 2,
+    "ideale_min_c": 12,
+    "ideale_max_c": 24
+   },
+   "terreno": "Terriccio universale umido.",
+   "rinvaso": "Si accorcia con le forbici; in vaso si divide ogni anno.",
+   "propagazione": [
+    "divisione"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "In primavera o estate.",
+     "passi": [
+      "Stacca un ciuffo con le radici.",
+      "Appoggialo su terriccio umido.",
+      "Tieni umido e all'ombra luminosa."
+     ],
+     "tempo": "Attecchisce in 1-2 settimane.",
+     "difficolta": "facile"
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "Non tossica per cani e gatti secondo l'ASPCA."
+   },
+   "immagini": [],
+   "fonti": [
+    "Royal Horticultural Society, schede delle specie (rhs.org.uk)",
+    "ASPCA, elenco piante tossiche e non tossiche (aspca.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
   },
   {
    "schema_version": 1,
@@ -7934,6 +9877,68 @@
     "piantalapp"
    ],
    "aggiornato": "2026-10-23"
+  },
+  {
+   "schema_version": 1,
+   "id": "grifone",
+   "stato": "bozza",
+   "nome_scientifico": "Grifola frondosa",
+   "famiglia": "Meripilaceae",
+   "nomi_comuni": {
+    "it": [
+     "Grifone",
+     "Maitake (舞茸, in giapponese «fungo danzante»)",
+     "Fungo della quercia"
+    ],
+    "ja": [
+     "舞茸",
+     "Maitake"
+    ],
+    "en": [
+     "Hen of the woods",
+     "Maitake"
+    ]
+   },
+   "descrizione": "Grande fungo a cespo, fatto di decine di piccoli cappelli grigio bruni sovrapposti come le piume di una gallina. In Giappone si chiama maitake (舞茸, «fungo danzante») ed è coltivato e usato anche in tempura e zuppe.",
+   "commestibilita": "commestibile",
+   "note_commestibilita": "Ottimo cotto, raccolto giovane quando la carne è tenera; da vecchio diventa fibroso. Come per tutti i funghi raccolti, va fatto controllare dall'Ispettorato micologico della ASL. Quello coltivato si trova anche nei negozi di alimentari asiatici.",
+   "habitat": "Alla base di vecchie querce e castagni, vivi o tagliati, a volte su altre latifoglie. Torna spesso nello stesso punto anno dopo anno. Dalla pianura alla bassa montagna.",
+   "stagione": [
+    9,
+    10,
+    11
+   ],
+   "caratteristiche": {
+    "cappello": "Il cespo arriva a 20-50 cm e a qualche chilo di peso; è formato da tanti cappellini a ventaglio di 2-7 cm, grigio bruni sopra, uniti in basso.",
+    "sotto_il_cappello": "Pori minuscoli, bianchi, che scendono lungo i gambi.",
+    "gambo": "Tanti gambi corti, bianchi e ramificati che partono da una base comune infossata nel terreno.",
+    "carne": "Bianca, tenera e fibrosa, con odore gradevole e un po' di topo da vecchia.",
+    "sporata": "Bianca"
+   },
+   "sosia": [
+    {
+     "nome": "Fungo ventaglio gigante",
+     "nome_scientifico": "Meripilus giganteus",
+     "commestibilita": "non_commestibile",
+     "differenze": "Anche lui a cespo alla base delle latifoglie, soprattutto faggi, ma molto più grande, con cappelli larghi fino a 20 cm, bruni, e carne che annerisce al tocco. Duro e poco digeribile."
+    },
+    {
+     "nome": "Sparassi crespa",
+     "nome_scientifico": "Sparassis crispa",
+     "commestibilita": "commestibile",
+     "differenze": "Cespo color crema simile a una spugna o a un cavolfiore, fatto di lamine ondulate senza pori; cresce alla base delle conifere, soprattutto pini."
+    }
+   ],
+   "curiosita": "Il nome giapponese maitake significa «fungo danzante»: si racconta che chi lo trovava ballasse di gioia, perché valeva il suo peso in argento.",
+   "immagini": [],
+   "fonti": [
+    "Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)",
+    "Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-10-26"
   },
   {
    "schema_version": 1,

@@ -1,0 +1,90 @@
+schema_version: 1
+id: acero-di-monte
+stato: bozza
+nome_scientifico: Acer pseudoplatanus
+famiglia: Sapindaceae
+nomi_comuni:
+  it:
+  - Acero di monte
+  - Acero montano
+  - Acero sicomoro
+  en:
+  - Sycamore maple
+  - Sycamore
+descrizione: Grande acero dei boschi di montagna, dalle foglie larghe a cinque lobi
+  e semi alati che cadono volteggiando. Cresce in fretta.
+categorie:
+- esterno
+gruppo: alberi
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: In piena terra e in spazi ampi; preferisce le zone fresche.
+difficolta: 2
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  - media_indiretta
+  sole_diretto: si
+  esposizione:
+  - est
+  - ovest
+  - nord
+annaffiatura:
+  quando: Le piante giovani nei primi anni, d'estate.
+  primavera_estate:
+    min: 7
+    max: 10
+  autunno_inverno:
+    min: 30
+    max: 30
+  segnali_troppa: Foglie gialle.
+  segnali_poca: Foglie bruciate ai bordi in estate.
+umidita: media
+concimazione:
+  mesi:
+  - 3
+  - 4
+  frequenza_giorni:
+    min: 60
+    max: 60
+  tipo: Non serve di solito.
+temperatura:
+  min_c: -25
+  ideale_min_c: 8
+  ideale_max_c: 28
+terreno: Terreno fresco, profondo e fertile.
+rinvaso: Si pianta in autunno o a fine inverno.
+propagazione:
+- seme
+come_si_propaga:
+- metodo: seme
+  quando: In autunno, con le samare (i semi con l'ala) appena cadute.
+  passi:
+  - Raccogli i frutti maturi appena caduti, scartando quelli bucati o vuoti.
+  - Seminali subito in vasi profondi con terriccio, a 2-3 cm di profondità, oppure
+    conservali al fresco in sabbia umida fino a fine inverno.
+  - 'Lascia i vasi all''aperto in inverno: il freddo serve a farli germogliare.'
+  - Tieni umido e, dopo uno o due anni, trapianta la piantina in piena terra.
+  tempo: Germina in primavera.
+  difficolta: facile
+tossicita:
+  animali: tossica
+  persone: non_tossica
+  note: 'Semi e piantine contengono ipoglicina A, che provoca nei cavalli una grave
+    malattia muscolare (miopatia atipica): non piantarlo vicino ai pascoli.'
+problemi_comuni:
+- sintomo: Grosse macchie nere sulle foglie
+  causa: Maculatura nera dell'acero (Rhytisma)
+  rimedio: Raccogliere e distruggere le foglie cadute in autunno.
+immagini:
+- commons: Acer-pseudoplatanus.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- Acta Plantarum, flora delle regioni italiane (actaplantarum.org)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'
