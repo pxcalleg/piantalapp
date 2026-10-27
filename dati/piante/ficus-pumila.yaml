@@ -1,0 +1,87 @@
+schema_version: 1
+id: ficus-pumila
+stato: bozza
+nome_scientifico: Ficus pumila
+famiglia: Moraceae
+nomi_comuni:
+  it:
+  - Ficus pumila
+  - Ficus rampicante
+  en:
+  - Creeping fig
+descrizione: Ficus dalle foglie minuscole che striscia e si arrampica, formando
+  un tappeto fitto. Nei terrari copre il fondo e le pareti, in giardino i muri.
+categorie:
+- appartamento
+- terrarium
+- ricadente
+gruppo: terrari
+ambiente:
+  interno: true
+  esterno: 'no'
+  terrarium: entrambi
+  note: All'aperto si arrampica sui muri nelle zone miti.
+difficolta: 2
+luce:
+  ideale: media_indiretta
+  tollera:
+  - intensa_indiretta
+  - bassa
+  sole_diretto: 'no'
+  esposizione:
+  - nord
+  - est
+  - ovest
+annaffiatura:
+  quando: Il terriccio deve restare leggermente umido.
+  primavera_estate:
+    min: 3
+    max: 5
+  autunno_inverno:
+    min: 7
+    max: 10
+  segnali_troppa: Foglie gialle che cadono.
+  segnali_poca: Foglie secche e croccanti.
+umidita: alta
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  frequenza_giorni:
+    min: 30
+    max: 30
+  tipo: Concime liquido per piante verdi a metà dose.
+temperatura:
+  min_c: 5
+  ideale_min_c: 16
+  ideale_max_c: 26
+terreno: Terriccio universale.
+rinvaso: Va accorciato spesso perché non soffochi le altre piante del terrarium.
+propagazione:
+- talea_fusto
+come_si_propaga:
+- metodo: talea_fusto
+  quando: Tutto l'anno, meglio in primavera.
+  passi:
+  - Taglia una punta di 5-8 cm sotto un nodo.
+  - Togli le foglie basse.
+  - Interrala nel terriccio umido del terrarium o in un vasetto coperto.
+  - Tieni umido e alla luce indiretta.
+  tempo: Radica in 2-3 settimane.
+  difficolta: facile
+tossicita:
+  animali: lieve
+  persone: lieve
+  note: Come gli altri ficus ha un lattice che irrita pelle e bocca; mangiato dà
+    vomito a cani e gatti.
+immagini:
+- commons: Ficus pumila.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

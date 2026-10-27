@@ -1,0 +1,106 @@
+schema_version: 1
+id: castagno
+stato: bozza
+nome_scientifico: Castanea sativa
+famiglia: Fagaceae
+nomi_comuni:
+  it:
+  - Castagno
+  - Castagno europeo
+  en:
+  - Sweet chestnut
+  - Spanish chestnut
+descrizione: Grande albero dei boschi di collina e mezza montagna, che in autunno
+  dà le castagne. Vive secoli e da adulto supera i 25 m.
+categorie:
+- esterno
+gruppo: alberi
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: Solo in piena terra e in grandi spazi, tra 300 e 1000 m circa; non adatto
+    al vaso.
+difficolta: 3
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - est
+  - ovest
+annaffiatura:
+  quando: Solo le piante giovani nei primi 2-3 anni, nelle estati secche; poi bastano
+    le piogge.
+  primavera_estate:
+    min: 7
+    max: 14
+  autunno_inverno:
+    min: 30
+    max: 30
+  segnali_troppa: Foglie gialle e radici che marciscono nei terreni pesanti.
+  segnali_poca: Foglie che seccano ai bordi e ricci che cadono acerbi.
+umidita: media
+concimazione:
+  mesi:
+  - 3
+  - 4
+  frequenza_giorni:
+    min: 60
+    max: 60
+  tipo: Letame maturo o concime organico a fine inverno, solo nei terreni poveri.
+temperatura:
+  min_c: -20
+  ideale_min_c: 10
+  ideale_max_c: 30
+terreno: Terreno acido o neutro, profondo e sciolto; non sopporta il calcare.
+rinvaso: Si pianta in autunno o a fine inverno. Le potature servono solo a togliere
+  rami secchi o malati.
+propagazione:
+- seme
+- innesto
+come_si_propaga:
+- metodo: seme
+  quando: In autunno, con le castagne appena cadute.
+  passi:
+  - Raccogli i frutti maturi appena caduti, scartando quelli bucati o vuoti.
+  - Seminali subito in vasi profondi con terriccio, a 2-3 cm di profondità, oppure
+    conservali al fresco in sabbia umida fino a fine inverno.
+  - 'Lascia i vasi all''aperto in inverno: il freddo serve a farli germogliare.'
+  - Tieni umido e, dopo uno o due anni, trapianta la piantina in piena terra.
+  tempo: Germina in primavera.
+  difficolta: facile
+- metodo: innesto
+  quando: In primavera.
+  passi:
+  - Si usa per avere le varietà da frutto, come i marroni.
+  - Su una piantina di castagno da seme di 2-3 anni si innesta un rametto della
+    varietà scelta.
+  - Di solito lo fa un vivaista o un castanicoltore esperto.
+  tempo: Attecchisce in poche settimane.
+  difficolta: difficile
+tossicita:
+  animali: lieve
+  persone: non_tossica
+  note: Le castagne si mangiano cotte. I ricci spinosi feriscono zampe e bocca degli
+    animali. Non va confuso con l'ippocastano, i cui frutti lucidi (castagne matte)
+    sono velenosi.
+problemi_comuni:
+- sintomo: Galle rosse su foglie e germogli
+  causa: Cinipide galligeno del castagno
+  rimedio: Nei castagneti si lancia il suo antagonista naturale, Torymus sinensis;
+    sulle piante isolate si tolgono le galle.
+- sintomo: Rami che seccano con macchie arancio sulla corteccia
+  causa: Cancro della corteccia
+  rimedio: Tagliare e bruciare i rami colpiti e disinfettare gli attrezzi.
+immagini:
+- commons: Castanea sativa Zicavu Corsica.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- Acta Plantarum, flora delle regioni italiane (actaplantarum.org)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

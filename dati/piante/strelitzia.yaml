@@ -1,0 +1,105 @@
+schema_version: 1
+id: strelitzia
+stato: bozza
+nome_scientifico: Strelitzia reginae
+famiglia: Strelitziaceae
+nomi_comuni:
+  it:
+  - Strelitzia
+  - Uccello del paradiso
+  en:
+  - Bird of paradise
+  - Crane flower
+descrizione: Grandi foglie a pagaia e fiori arancio e blu a forma di testa d'uccello.
+  Fiorisce solo con molta luce e dopo alcuni anni.
+categorie:
+- appartamento
+- fiorita
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: In casa d'inverno, accanto alla finestra più luminosa; da maggio a settembre
+    sta meglio fuori, a mezz'ombra.
+difficolta: 3
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - ovest
+annaffiatura:
+  quando: Quando i primi 2-3 cm di terriccio sono asciutti.
+  primavera_estate:
+    min: 7
+    max: 10
+  autunno_inverno:
+    min: 12
+    max: 18
+  segnali_troppa: Foglie gialle e molli, terriccio che resta bagnato.
+  segnali_poca: Foglie flosce o che si arricciano, bordi secchi.
+umidita: media
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 15
+    max: 30
+  tipo: Concime liquido per piante verdi a metà dose.
+temperatura:
+  min_c: 5
+  ideale_min_c: 15
+  ideale_max_c: 27
+terreno: Terriccio universale con perlite o corteccia.
+rinvaso: Ogni 2 anni in primavera, in un vaso appena più grande.
+propagazione:
+- divisione
+- seme
+come_si_propaga:
+- metodo: divisione
+  quando: In primavera, durante il rinvaso.
+  passi:
+  - Sfila la pianta dal vaso e scuoti via parte del terriccio.
+  - Separa con le mani o con un coltello pulito i cespi, ognuno con radici e foglie.
+  - Rinvasa ogni parte in terriccio fresco e annaffia.
+  - Tienila in luce indiretta per un paio di settimane, senza concimare.
+  tempo: Riprende in 4-6 settimane; la parte divisa fiorisce dopo 1-2 anni.
+  difficolta: facile
+- metodo: seme
+  quando: In primavera a 25 °C, dopo aver tolto il ciuffo arancione.
+  passi:
+  - Usa semi freschi e mettili a bagno in acqua tiepida per 12-24 ore.
+  - Seminali poco profondi in terriccio da semina umido.
+  - Copri con pellicola o un coperchio trasparente e tieni a 22-27 °C.
+  - Quando le piantine hanno 2-3 foglie vere, trapiantale in vasetti singoli.
+  tempo: Germina in 1-3 mesi; fiorisce dopo 4-5 anni.
+  difficolta: difficile
+tossicita:
+  animali: lieve
+  persone: lieve
+  note: Semi e frutti possono dare disturbi gastrointestinali se ingeriti.
+problemi_comuni:
+- sintomo: Non fiorisce
+  causa: Troppa poca luce o pianta giovane
+  rimedio: Darle sole diretto per qualche ora e tenerla un po' stretta nel vaso.
+- sintomo: Batuffoli bianchi o scudetti sui rami
+  causa: Cocciniglia
+  rimedio: Togliere con un cotton fioc imbevuto di alcol e trattare con olio bianco
+    o sapone molle.
+immagini:
+- commons: Strelitzia reginae 1.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

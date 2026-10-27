@@ -1,0 +1,93 @@
+schema_version: 1
+id: faggio
+stato: bozza
+nome_scientifico: Fagus sylvatica
+famiglia: Fagaceae
+nomi_comuni:
+  it:
+  - Faggio
+  en:
+  - European beech
+  - Common beech
+descrizione: Albero maestoso delle faggete di montagna, con tronco liscio grigio
+  argento e foglie che in autunno diventano color rame. Nei giardini si usa anche
+  la varietà a foglie rosse.
+categorie:
+- esterno
+- siepe
+gruppo: alberi
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: In piena terra; ama le zone fresche e piovose. Si pota bene anche come siepe,
+    che tiene le foglie secche in inverno.
+difficolta: 3
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - sole_diretto
+  - media_indiretta
+  sole_diretto: si
+  esposizione:
+  - nord
+  - est
+  - ovest
+annaffiatura:
+  quando: Le piante giovani d'estate quando il terreno è asciutto; teme la siccità
+    e il caldo secco.
+  primavera_estate:
+    min: 5
+    max: 10
+  autunno_inverno:
+    min: 30
+    max: 30
+  segnali_troppa: Foglie gialle e marciume alle radici nei terreni pesanti.
+  segnali_poca: Foglie bruciate e accartocciate in estate.
+umidita: media
+concimazione:
+  mesi:
+  - 3
+  - 4
+  frequenza_giorni:
+    min: 60
+    max: 60
+  tipo: Concime organico a fine inverno, solo per le piante giovani.
+temperatura:
+  min_c: -25
+  ideale_min_c: 8
+  ideale_max_c: 26
+terreno: Terreno fresco, ben drenato, anche calcareo; teme i ristagni.
+rinvaso: Si pianta da novembre a marzo. Le siepi si potano a fine estate.
+propagazione:
+- seme
+come_si_propaga:
+- metodo: seme
+  quando: In autunno, con le faggiole appena cadute.
+  passi:
+  - Raccogli i frutti maturi appena caduti, scartando quelli bucati o vuoti.
+  - Seminali subito in vasi profondi con terriccio, a 2-3 cm di profondità, oppure
+    conservali al fresco in sabbia umida fino a fine inverno.
+  - 'Lascia i vasi all''aperto in inverno: il freddo serve a farli germogliare.'
+  - Tieni umido e, dopo uno o due anni, trapianta la piantina in piena terra.
+  tempo: Germina in primavera.
+  difficolta: facile
+tossicita:
+  animali: lieve
+  persone: lieve
+  note: Le faggiole (i semi) mangiate crude in quantità danno nausea e vomito, anche
+    agli animali.
+problemi_comuni:
+- sintomo: Foglie coperte di lanugine bianca
+  causa: Afide lanigero del faggio
+  rimedio: Lavare con getti d'acqua o sapone molle; di solito non danneggia la pianta
+    adulta.
+immagini:
+- commons: Fagus sylvatica.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- Acta Plantarum, flora delle regioni italiane (actaplantarum.org)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

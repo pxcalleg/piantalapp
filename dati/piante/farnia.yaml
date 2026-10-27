@@ -1,0 +1,94 @@
+schema_version: 1
+id: farnia
+stato: bozza
+nome_scientifico: Quercus robur
+famiglia: Fagaceae
+nomi_comuni:
+  it:
+  - Farnia
+  - Quercia comune
+  en:
+  - English oak
+  - Pedunculate oak
+descrizione: La grande quercia della Pianura Padana, longeva e imponente, con ghiande
+  su un lungo picciolo. Si riconosce dalle foglie lobate quasi senza gambo.
+categorie:
+- esterno
+gruppo: alberi
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: Solo in piena terra e in grandi spazi; da adulta supera i 30 m.
+difficolta: 2
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - est
+  - ovest
+annaffiatura:
+  quando: Solo le piante giovani nei primi anni, in estate.
+  primavera_estate:
+    min: 7
+    max: 14
+  autunno_inverno:
+    min: 30
+    max: 30
+  segnali_troppa: Foglie gialle nelle piante giovani in vaso.
+  segnali_poca: Foglie che ingialliscono e cadono in anticipo.
+umidita: media
+concimazione:
+  mesi:
+  - 3
+  - 4
+  frequenza_giorni:
+    min: 60
+    max: 60
+  tipo: Di solito non serve.
+temperatura:
+  min_c: -25
+  ideale_min_c: 8
+  ideale_max_c: 32
+terreno: Terreno profondo e fresco, anche argilloso.
+rinvaso: Si pianta in autunno. Cresce lentamente i primi anni.
+propagazione:
+- seme
+come_si_propaga:
+- metodo: seme
+  quando: In autunno, con le ghiande appena cadute.
+  passi:
+  - Raccogli i frutti maturi appena caduti, scartando quelli bucati o vuoti.
+  - Seminali subito in vasi profondi con terriccio, a 2-3 cm di profondità, oppure
+    conservali al fresco in sabbia umida fino a fine inverno.
+  - 'Lascia i vasi all''aperto in inverno: il freddo serve a farli germogliare.'
+  - Tieni umido e, dopo uno o due anni, trapianta la piantina in piena terra.
+  tempo: Germina in primavera.
+  difficolta: facile
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: 'Ghiande e foglie giovani contengono tannini: mangiate in quantità danno
+    vomito e problemi ai reni a cani, cavalli e bovini. Le ghiande crude sono amare
+    e indigeste anche per le persone.'
+problemi_comuni:
+- sintomo: Patina bianca sulle foglie
+  causa: Oidio della quercia
+  rimedio: Sulle piante adulte non serve intervenire; sulle giovani si può usare
+    zolfo.
+- sintomo: Nidi di seta e bruchi pelosi sui rami in primavera
+  causa: Processionaria della quercia
+  rimedio: 'Non toccarli: i peli sono urticanti. Chiamare un tecnico del verde per
+    toglierli.'
+immagini:
+- commons: Quercus robur.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- Acta Plantarum, flora delle regioni italiane (actaplantarum.org)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

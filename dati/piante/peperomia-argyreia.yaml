@@ -1,0 +1,93 @@
+schema_version: 1
+id: peperomia-argyreia
+stato: bozza
+nome_scientifico: Peperomia argyreia
+famiglia: Piperaceae
+nomi_comuni:
+  it:
+  - Peperomia anguria
+  - Peperomia argyreia
+  en:
+  - Watermelon peperomia
+descrizione: Foglie tonde e carnose striate d'argento come la buccia di un'anguria,
+  su piccioli rossi.
+categorie:
+- appartamento
+- da_ufficio
+- pet_friendly
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: In casa tutto l'anno; in estate può stare fuori all'ombra, al riparo dal
+    vento.
+difficolta: 2
+luce:
+  ideale: media_indiretta
+  tollera:
+  - bassa
+  - intensa_indiretta
+  sole_diretto: 'no'
+  esposizione:
+  - nord
+  - est
+  - ovest
+annaffiatura:
+  quando: Quando metà del terriccio è asciutta.
+  primavera_estate:
+    min: 7
+    max: 12
+  autunno_inverno:
+    min: 14
+    max: 21
+  segnali_troppa: Foglie gialle e molli, terriccio che resta bagnato.
+  segnali_poca: Foglie flosce o che si arricciano, bordi secchi.
+umidita: media
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 15
+    max: 30
+  tipo: Concime liquido per piante verdi a metà dose.
+temperatura:
+  min_c: 15
+  ideale_min_c: 18
+  ideale_max_c: 26
+terreno: Terriccio universale con molta perlite, leggero e drenante.
+rinvaso: Ogni 2 anni in primavera, in un vaso appena più grande.
+propagazione:
+- talea_foglia
+come_si_propaga:
+- metodo: talea_foglia
+  quando: In primavera o in estate.
+  passi:
+  - Stacca una foglia sana con 2-3 cm di picciolo.
+  - Interra il picciolo per 1 cm in terriccio leggero misto a perlite.
+  - Copri con un sacchetto trasparente e tieni al caldo e alla luce indiretta.
+  - Tieni il terriccio appena umido; separa le piantine quando hanno 3-4 foglie.
+  tempo: Radici in 3-5 settimane, piantine dopo 2-3 mesi.
+  difficolta: facile
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Non tossica per cani e gatti secondo l'ASPCA.
+problemi_comuni:
+- sintomo: Base del fusto molle e scura, pianta che appassisce
+  causa: Marciume delle radici per troppa acqua
+  rimedio: Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante.
+immagini:
+- commons: Peperomia argyreia 1zz.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

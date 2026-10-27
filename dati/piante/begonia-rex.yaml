@@ -1,0 +1,97 @@
+schema_version: 1
+id: begonia-rex
+stato: bozza
+nome_scientifico: Begonia rex
+famiglia: Begoniaceae
+nomi_comuni:
+  it:
+  - Begonia rex
+  - Begonia da foglia
+  en:
+  - Rex begonia
+  - Painted-leaf begonia
+descrizione: 'Coltivata per le foglie, non per i fiori: grandi, asimmetriche, dipinte
+  d''argento, rosso e viola.'
+categorie:
+- appartamento
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: Solo in casa, lontano da termosifoni e correnti d'aria; ama le stanze umide
+    come il bagno.
+difficolta: 3
+luce:
+  ideale: media_indiretta
+  tollera:
+  - bassa
+  - intensa_indiretta
+  sole_diretto: 'no'
+  esposizione:
+  - nord
+  - est
+  - ovest
+annaffiatura:
+  quando: Quando i primi 2 cm sono asciutti; non bagnare le foglie.
+  primavera_estate:
+    min: 5
+    max: 7
+  autunno_inverno:
+    min: 10
+    max: 14
+  segnali_troppa: Foglie che ingialliscono e marciscono alla base.
+  segnali_poca: Foglie che si arrotolano e bordi bruciati.
+umidita: media
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 15
+    max: 30
+  tipo: Concime liquido per piante verdi a metà dose.
+temperatura:
+  min_c: 16
+  ideale_min_c: 18
+  ideale_max_c: 27
+terreno: Terriccio leggero per piante verdi con torba e perlite.
+rinvaso: Ogni 2 anni in primavera, in un vaso appena più grande.
+propagazione:
+- talea_foglia
+come_si_propaga:
+- metodo: talea_foglia
+  quando: In primavera o in estate.
+  passi:
+  - Taglia una foglia e incidi le nervature principali sul rovescio.
+  - Appoggiala sul terriccio umido con il rovescio in basso e fermala con qualche
+    sassolino.
+  - Copri con un coperchio trasparente e tieni al caldo e alla luce indiretta.
+  - 'Dalle incisioni nascono piantine: separale quando hanno 2-3 foglie.'
+  tempo: Piantine in 6-8 settimane.
+  difficolta: media
+tossicita:
+  animali: tossica
+  persone: lieve
+  note: 'Contiene ossalati solubili, soprattutto nei rizomi: per gli animali causa
+    irritazione e vomito.'
+problemi_comuni:
+- sintomo: Patina bianca polverosa sulle foglie
+  causa: Oidio (mal bianco)
+  rimedio: Togliere le foglie colpite, arieggiare e non bagnare il fogliame.
+- sintomo: Base del fusto molle e scura, pianta che appassisce
+  causa: Marciume delle radici per troppa acqua
+  rimedio: Ridurre le annaffiature, rinvasare in terriccio asciutto e drenante.
+immagini:
+- commons: Begonia rex.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

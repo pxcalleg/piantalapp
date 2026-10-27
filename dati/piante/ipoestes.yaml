@@ -1,0 +1,100 @@
+schema_version: 1
+id: ipoestes
+stato: bozza
+nome_scientifico: Hypoestes phyllostachya
+famiglia: Acanthaceae
+nomi_comuni:
+  it:
+  - Ipoestes
+  - Pianta a pois
+  en:
+  - Polka dot plant
+descrizione: Piccola pianta dalle foglie macchiettate di rosa, rosso o bianco. Porta
+  colore nei terrari aperti e nei vasetti sul davanzale.
+categorie:
+- appartamento
+- terrarium
+- pet_friendly
+gruppo: terrari
+ambiente:
+  interno: true
+  esterno: 'no'
+  terrarium: aperto
+  note: 'Nei terrari chiusi cresce troppo in fretta e marcisce: meglio quelli aperti.'
+difficolta: 2
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - media_indiretta
+  sole_diretto: solo_mattino
+  esposizione:
+  - est
+  - ovest
+annaffiatura:
+  quando: Quando il terriccio in superficie inizia ad asciugarsi.
+  primavera_estate:
+    min: 3
+    max: 5
+  autunno_inverno:
+    min: 5
+    max: 8
+  segnali_troppa: Fusti molli e foglie che cadono.
+  segnali_poca: Foglie afflosciate.
+umidita: alta
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 21
+    max: 30
+  tipo: Concime liquido per piante verdi a metà dose.
+temperatura:
+  min_c: 13
+  ideale_min_c: 18
+  ideale_max_c: 27
+terreno: Terriccio universale leggero.
+rinvaso: Cima spesso le punte per tenerla compatta e togli i fiori, che la indeboliscono.
+propagazione:
+- talea_fusto
+- seme
+come_si_propaga:
+- metodo: talea_fusto
+  quando: Tutto l'anno, meglio in primavera.
+  passi:
+  - Taglia una punta di 5-8 cm sotto un nodo.
+  - Togli le foglie basse.
+  - Interrala nel terriccio umido del terrarium o in un vasetto coperto.
+  - Tieni umido e alla luce indiretta.
+  tempo: Radica in 2-3 settimane.
+  difficolta: facile
+- metodo: seme
+  quando: In primavera, al caldo.
+  passi:
+  - Riempi un vasetto o una cassetta con terriccio da semina.
+  - Spargi i semi radi e coprili con un velo sottile di terriccio.
+  - Annaffia con lo spruzzino e tieni il terriccio sempre umido, al caldo e alla
+    luce.
+  - Quando le piantine hanno 4-6 foglie, diradale o trapiantale in vasi singoli.
+  tempo: Germina in 1-2 settimane.
+  difficolta: facile
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Non tossica per cani e gatti secondo l'ASPCA.
+problemi_comuni:
+- sintomo: Foglie che perdono i colori
+  causa: Poca luce
+  rimedio: Spostarla più vicino alla finestra.
+immagini:
+- commons: Hypoestes phyllostachya - Polka Dot Plant 01.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

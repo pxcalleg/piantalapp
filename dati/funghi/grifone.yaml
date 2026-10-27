@@ -1,0 +1,59 @@
+schema_version: 1
+id: grifone
+stato: bozza
+nome_scientifico: Grifola frondosa
+famiglia: Meripilaceae
+nomi_comuni:
+  it: [Grifone, "Maitake (舞茸, in giapponese «fungo danzante»)", Fungo della quercia]
+  ja: [舞茸, Maitake]
+  en: [Hen of the woods, Maitake]
+descrizione: >-
+  Grande fungo a cespo, fatto di decine di piccoli cappelli grigio bruni
+  sovrapposti come le piume di una gallina. In Giappone si chiama maitake
+  (舞茸, «fungo danzante») ed è coltivato e usato anche in tempura e zuppe.
+commestibilita: commestibile
+note_commestibilita: >-
+  Ottimo cotto, raccolto giovane quando la carne è tenera; da vecchio
+  diventa fibroso. Come per tutti i funghi raccolti, va fatto controllare
+  dall'Ispettorato micologico della ASL. Quello coltivato si trova anche nei
+  negozi di alimentari asiatici.
+habitat: >-
+  Alla base di vecchie querce e castagni, vivi o tagliati, a volte su altre
+  latifoglie. Torna spesso nello stesso punto anno dopo anno. Dalla pianura
+  alla bassa montagna.
+stagione: [9, 10, 11]
+caratteristiche:
+  cappello: >-
+    Il cespo arriva a 20-50 cm e a qualche chilo di peso; è formato da tanti
+    cappellini a ventaglio di 2-7 cm, grigio bruni sopra, uniti in basso.
+  sotto_il_cappello: >-
+    Pori minuscoli, bianchi, che scendono lungo i gambi.
+  gambo: >-
+    Tanti gambi corti, bianchi e ramificati che partono da una base comune
+    infossata nel terreno.
+  carne: Bianca, tenera e fibrosa, con odore gradevole e un po' di topo da vecchia.
+  sporata: Bianca
+sosia:
+  - nome: Fungo ventaglio gigante
+    nome_scientifico: Meripilus giganteus
+    commestibilita: non_commestibile
+    differenze: >-
+      Anche lui a cespo alla base delle latifoglie, soprattutto faggi, ma
+      molto più grande, con cappelli larghi fino a 20 cm, bruni, e carne che
+      annerisce al tocco. Duro e poco digeribile.
+  - nome: Sparassi crespa
+    nome_scientifico: Sparassis crispa
+    commestibilita: commestibile
+    differenze: >-
+      Cespo color crema simile a una spugna o a un cavolfiore, fatto di lamine
+      ondulate senza pori; cresce alla base delle conifere, soprattutto pini.
+curiosita: >-
+  Il nome giapponese maitake significa «fungo danzante»: si racconta che chi
+  lo trovava ballasse di gioia, perché valeva il suo peso in argento.
+immagini:
+  - commons: "Grifola frondosa (23238640546).jpg"
+fonti:
+  - Ministero della Salute, funghi e Ispettorati micologici (salute.gov.it)
+  - Associazione Micologica Bresadola, schede delle specie (ambbresadola.it)
+autori: [piantalapp]
+aggiornato: "2026-10-26"

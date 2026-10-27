@@ -1,0 +1,96 @@
+schema_version: 1
+id: ciclamino
+stato: bozza
+nome_scientifico: Cyclamen persicum
+famiglia: Primulaceae
+nomi_comuni:
+  it:
+  - Ciclamino
+  - Ciclamino persiano
+  en:
+  - Florist's cyclamen
+  - Persian cyclamen
+descrizione: Foglie a cuore marmorizzate e fiori con i petali rivolti all'indietro,
+  dall'autunno alla primavera. Vuole il fresco.
+categorie:
+- appartamento
+- fiorita
+- balcone
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: In casa solo in una stanza fresca (sotto i 16 °C), altrimenti sfiorisce
+    subito. Sta bene sul balcone riparato in autunno e inverno, se non gela.
+difficolta: 3
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - media_indiretta
+  sole_diretto: solo_mattino
+  esposizione:
+  - est
+  - ovest
+annaffiatura:
+  quando: Dal sottovaso, togliendo l'acqua dopo 20 minuti, quando il terriccio è
+    asciutto in superficie. Mai sul tubero.
+  primavera_estate:
+    min: 10
+    max: 14
+  autunno_inverno:
+    min: 5
+    max: 7
+  segnali_troppa: Foglie gialle e molli, terriccio che resta bagnato.
+  segnali_poca: Foglie flosce o che si arricciano, bordi secchi.
+umidita: media
+concimazione:
+  mesi:
+  - 10
+  - 11
+  - 12
+  - 1
+  - 2
+  - 3
+  frequenza_giorni:
+    min: 15
+    max: 15
+  tipo: Concime liquido per piante fiorite ogni 2 settimane durante la fioritura.
+temperatura:
+  min_c: 5
+  ideale_min_c: 10
+  ideale_max_c: 18
+terreno: Terriccio universale con perlite o corteccia.
+rinvaso: In settembre, con il tubero per metà fuori dal terriccio.
+propagazione:
+- seme
+come_si_propaga:
+- metodo: seme
+  quando: In autunno, al buio a 15-18 °C.
+  passi:
+  - Usa semi freschi e mettili a bagno in acqua tiepida per 12-24 ore.
+  - Seminali poco profondi in terriccio da semina umido.
+  - Copri con pellicola o un coperchio trasparente e tieni a 22-27 °C.
+  - Quando le piantine hanno 2-3 foglie vere, trapiantale in vasetti singoli.
+  tempo: Germina in 4-8 settimane; fiorisce dopo 12-15 mesi.
+  difficolta: difficile
+tossicita:
+  animali: tossica
+  persone: tossica
+  note: 'Il tubero contiene saponine: se ingerito causa vomito e diarrea.'
+problemi_comuni:
+- sintomo: Foglie gialle in estate
+  causa: Riposo estivo naturale
+  rimedio: Ridurre l'acqua e tenerlo all'ombra fino a settembre.
+- sintomo: Muffa grigia sul tubero
+  causa: Botrite per acqua sul colletto
+  rimedio: Annaffiare dal sottovaso e togliere le parti colpite.
+immagini:
+- commons: Cyclamen persicum.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

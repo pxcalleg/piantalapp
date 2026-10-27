@@ -1,0 +1,107 @@
+schema_version: 1
+id: caffe
+stato: bozza
+nome_scientifico: Coffea arabica
+famiglia: Rubiaceae
+nomi_comuni:
+  it:
+  - Pianta del caffè
+  - Caffè
+  en:
+  - Arabian coffee
+  - Coffee plant
+descrizione: Arbusto dalle foglie lucide e ondulate. Dopo qualche anno fa fiori
+  bianchi profumati e bacche rosse che contengono i chicchi di caffè.
+categorie:
+- appartamento
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: In casa tutto l'anno; in estate può stare fuori all'ombra, al riparo dal
+    vento.
+difficolta: 3
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - media_indiretta
+  sole_diretto: 'no'
+  esposizione:
+  - est
+  - ovest
+annaffiatura:
+  quando: Quando i primi 2-3 cm di terriccio sono asciutti.
+  primavera_estate:
+    min: 7
+    max: 10
+  autunno_inverno:
+    min: 12
+    max: 18
+  segnali_troppa: Foglie gialle e molli, terriccio che resta bagnato.
+  segnali_poca: Foglie flosce o che si arricciano, bordi secchi.
+umidita: media
+concimazione:
+  mesi:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 15
+    max: 30
+  tipo: Concime liquido per piante verdi a metà dose.
+temperatura:
+  min_c: 13
+  ideale_min_c: 18
+  ideale_max_c: 26
+terreno: Terriccio leggermente acido, ricco e drenante.
+rinvaso: Ogni 2 anni in primavera, in un vaso appena più grande.
+propagazione:
+- seme
+- talea_fusto
+come_si_propaga:
+- metodo: seme
+  quando: Con chicchi freschi non tostati, in primavera.
+  passi:
+  - Usa semi freschi e mettili a bagno in acqua tiepida per 12-24 ore.
+  - Seminali poco profondi in terriccio da semina umido.
+  - Copri con pellicola o un coperchio trasparente e tieni a 22-27 °C.
+  - Quando le piantine hanno 2-3 foglie vere, trapiantale in vasetti singoli.
+  tempo: Germina in 4-8 settimane.
+  difficolta: media
+- metodo: talea_fusto
+  quando: In primavera o all'inizio dell'estate.
+  passi:
+  - Taglia una punta di 10-15 cm con 3-4 foglie, appena sotto un nodo.
+  - Togli le foglie basse e, se vuoi, intingi il taglio in ormone radicante.
+  - Interrala in un mix di torba e perlite e annaffia leggermente.
+  - Copri con un sacchetto trasparente e tieni al caldo (22-25 °C) e alla luce indiretta.
+  - Arieggia ogni pochi giorni; quando spuntano foglie nuove togli il sacchetto.
+  tempo: Radici in 8-10 settimane.
+  difficolta: difficile
+tossicita:
+  animali: lieve
+  persone: lieve
+  note: 'Foglie e bacche contengono caffeina: per cani e gatti possono causare agitazione
+    e vomito.'
+problemi_comuni:
+- sintomo: Punte e bordi delle foglie marroni e secchi
+  causa: Aria troppo secca o acqua calcarea
+  rimedio: Vaporizzare, usare un sottovaso con argilla umida e annaffiare con acqua
+    piovana o demineralizzata.
+- sintomo: Batuffoli bianchi o scudetti sui rami
+  causa: Cocciniglia
+  rimedio: Togliere con un cotton fioc imbevuto di alcol e trattare con olio bianco
+    o sapone molle.
+immagini:
+- commons: Coffea arabica 37zz.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

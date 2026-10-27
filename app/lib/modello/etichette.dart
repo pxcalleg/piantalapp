@@ -32,6 +32,8 @@ const etichetteGruppo = {
   'orchidee': 'Orchidee',
   'esterno': 'Da esterno',
   'aromatiche': 'Aromatiche',
+  'alberi': 'Alberi',
+  'terrari': 'Terrari',
 };
 
 const etichetteCommestibilita = {

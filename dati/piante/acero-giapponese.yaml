@@ -1,0 +1,104 @@
+schema_version: 1
+id: acero-giapponese
+stato: bozza
+nome_scientifico: Acer palmatum
+famiglia: Sapindaceae
+nomi_comuni:
+  it:
+  - Acero giapponese
+  - Acero palmato
+  en:
+  - Japanese maple
+descrizione: Piccolo acero ornamentale dalle foglie finemente lobate, verdi o rosso
+  porpora, che in autunno diventano rosso fuoco. Sta bene anche in un grande vaso
+  sul terrazzo.
+categorie:
+- esterno
+- balcone
+gruppo: alberi
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: In giardino o in un grande vaso, a mezz'ombra e al riparo dal vento e dal
+    sole del pomeriggio.
+difficolta: 3
+luce:
+  ideale: intensa_indiretta
+  tollera:
+  - sole_diretto
+  - media_indiretta
+  sole_diretto: solo_mattino
+  esposizione:
+  - est
+  - nord
+annaffiatura:
+  quando: 'Il terriccio deve restare fresco: in vaso d''estate anche ogni giorno,
+    con acqua non calcarea.'
+  primavera_estate:
+    min: 2
+    max: 4
+  autunno_inverno:
+    min: 10
+    max: 20
+  segnali_troppa: Foglie gialle e rami che seccano dal basso.
+  segnali_poca: Bordi delle foglie secchi e bruciati.
+umidita: media
+concimazione:
+  mesi:
+  - 3
+  - 4
+  - 5
+  - 6
+  frequenza_giorni:
+    min: 30
+    max: 30
+  tipo: Concime per acidofile a lenta cessione in primavera.
+temperatura:
+  min_c: -20
+  ideale_min_c: 10
+  ideale_max_c: 30
+terreno: Terriccio per acidofile, soffice e ben drenato.
+rinvaso: In vaso ogni 2-3 anni a fine inverno. Pota poco, solo per togliere i rami
+  secchi o incrociati.
+propagazione:
+- seme
+- innesto
+come_si_propaga:
+- metodo: seme
+  quando: In autunno, con le samare (i semi con l'ala) appena cadute.
+  passi:
+  - Raccogli i frutti maturi appena caduti, scartando quelli bucati o vuoti.
+  - Seminali subito in vasi profondi con terriccio, a 2-3 cm di profondità, oppure
+    conservali al fresco in sabbia umida fino a fine inverno.
+  - 'Lascia i vasi all''aperto in inverno: il freddo serve a farli germogliare.'
+  - Tieni umido e, dopo uno o due anni, trapianta la piantina in piena terra.
+  tempo: Germina in primavera.
+  difficolta: facile
+- metodo: innesto
+  quando: A fine inverno.
+  passi:
+  - Le varietà colorate si innestano su piantine di acero palmato da seme.
+  - Il lavoro di solito lo fa il vivaista.
+  tempo: Attecchisce in qualche settimana.
+  difficolta: difficile
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Non risulta tossico per cani, gatti e persone.
+problemi_comuni:
+- sintomo: Foglie bruciate in estate
+  causa: Sole forte del pomeriggio, vento o acqua calcarea
+  rimedio: Spostarlo a mezz'ombra, annaffiare con acqua piovana e pacciamare.
+- sintomo: Germogli coperti di piccoli insetti verdi o neri
+  causa: Afidi
+  rimedio: Lavare con un getto d'acqua o con sapone molle diluito.
+immagini:
+- commons: Acer palmatum - Atropurpureum.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- Acta Plantarum, flora delle regioni italiane (actaplantarum.org)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

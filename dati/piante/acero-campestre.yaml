@@ -1,0 +1,91 @@
+schema_version: 1
+id: acero-campestre
+stato: bozza
+nome_scientifico: Acer campestre
+famiglia: Sapindaceae
+nomi_comuni:
+  it:
+  - Acero campestre
+  - Oppio
+  - Loppio
+  en:
+  - Field maple
+descrizione: Acero di taglia media dei boschi e delle campagne italiane, un tempo
+  usato per sostenere le viti. Le foglie a cinque lobi diventano giallo oro in autunno.
+categorie:
+- esterno
+- siepe
+gruppo: alberi
+ambiente:
+  interno: false
+  esterno: tutto_anno
+  terrarium: 'no'
+  note: In piena terra, anche in città; si pota bene come siepe campestre.
+difficolta: 1
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  - media_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - est
+  - ovest
+  - nord
+annaffiatura:
+  quando: Le piante giovani nei primi 2 anni in estate.
+  primavera_estate:
+    min: 7
+    max: 10
+  autunno_inverno:
+    min: 30
+    max: 30
+  segnali_troppa: Foglie gialle.
+  segnali_poca: Foglie bruciate ai bordi.
+umidita: media
+concimazione:
+  mesi:
+  - 3
+  - 4
+  frequenza_giorni:
+    min: 60
+    max: 60
+  tipo: Concime organico a fine inverno per le piante giovani.
+temperatura:
+  min_c: -25
+  ideale_min_c: 8
+  ideale_max_c: 32
+terreno: Qualsiasi terreno, anche calcareo e argilloso.
+rinvaso: Si pianta in autunno. Le siepi si potano a fine inverno e in estate.
+propagazione:
+- seme
+come_si_propaga:
+- metodo: seme
+  quando: In autunno, con le samare (i semi con l'ala) appena cadute.
+  passi:
+  - Raccogli i frutti maturi appena caduti, scartando quelli bucati o vuoti.
+  - Seminali subito in vasi profondi con terriccio, a 2-3 cm di profondità, oppure
+    conservali al fresco in sabbia umida fino a fine inverno.
+  - 'Lascia i vasi all''aperto in inverno: il freddo serve a farli germogliare.'
+  - Tieni umido e, dopo uno o due anni, trapianta la piantina in piena terra.
+  tempo: Germina in primavera.
+  difficolta: facile
+tossicita:
+  animali: lieve
+  persone: non_tossica
+  note: I semi di alcuni aceri sono pericolosi per i cavalli al pascolo; per cani
+    e gatti non risultano problemi seri.
+problemi_comuni:
+- sintomo: Patina bianca sulle foglie
+  causa: Oidio dell'acero
+  rimedio: Di solito non serve intervenire.
+immagini:
+- commons: Acer campestre 1.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- Acta Plantarum, flora delle regioni italiane (actaplantarum.org)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

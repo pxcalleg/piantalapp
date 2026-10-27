@@ -1,0 +1,85 @@
+schema_version: 1
+id: selaginella
+stato: bozza
+nome_scientifico: Selaginella kraussiana
+famiglia: Selaginellaceae
+nomi_comuni:
+  it:
+  - Selaginella
+  - Muschio dei club
+  en:
+  - Spikemoss
+  - Krauss's spikemoss
+descrizione: Pianta antichissima, parente delle felci, che forma tappeti morbidi
+  di minuscole foglie verde smeraldo. Nel terrarium chiuso trova l'umidità che le
+  serve.
+categorie:
+- appartamento
+- terrarium
+- pet_friendly
+gruppo: terrari
+ambiente:
+  interno: true
+  esterno: 'no'
+  terrarium: chiuso
+  note: Fuori dal terrarium soffre l'aria secca delle case.
+difficolta: 3
+luce:
+  ideale: media_indiretta
+  tollera:
+  - bassa
+  - intensa_indiretta
+  sole_diretto: 'no'
+  esposizione:
+  - nord
+  - est
+annaffiatura:
+  quando: Il terriccio deve restare sempre umido. Nel terrarium chiuso basta qualche
+    spruzzo quando la condensa sparisce.
+  primavera_estate:
+    min: 3
+    max: 5
+  autunno_inverno:
+    min: 5
+    max: 7
+  segnali_troppa: Muffa grigia e parti che anneriscono.
+  segnali_poca: Punte che diventano marroni e secche.
+umidita: alta
+concimazione:
+  mesi:
+  - 4
+  - 6
+  - 8
+  frequenza_giorni:
+    min: 60
+    max: 60
+  tipo: 'Quasi niente: concime liquido a un quarto di dose.'
+temperatura:
+  min_c: 10
+  ideale_min_c: 18
+  ideale_max_c: 26
+terreno: Terriccio torboso leggero, sopra uno strato di drenaggio.
+rinvaso: Si accorcia con le forbici quando invade le altre piante.
+propagazione:
+- divisione
+come_si_propaga:
+- metodo: divisione
+  quando: Tutto l'anno.
+  passi:
+  - Taglia un ciuffo del tappeto con un po' di radici.
+  - Appoggialo sul terriccio umido e premilo leggermente.
+  - Spruzza e tieni coperto.
+  tempo: Attecchisce in 2-3 settimane.
+  difficolta: facile
+tossicita:
+  animali: non_tossica
+  persone: non_tossica
+  note: Non risulta tossica.
+immagini:
+- commons: Selaginella kraussiana - Oslo Botanical Garden - IMG 9031.jpg
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'

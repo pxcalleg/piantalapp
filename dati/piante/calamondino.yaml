@@ -1,0 +1,113 @@
+schema_version: 1
+id: calamondino
+stato: bozza
+nome_scientifico: Citrus × microcarpa
+sinonimi:
+- × Citrofortunella microcarpa
+famiglia: Rutaceae
+nomi_comuni:
+  it:
+  - Calamondino
+  - Mandarino cinese
+  en:
+  - Calamondin
+  - Calamansi
+descrizione: Piccolo agrume da vaso con fiori bianchi profumati e mandarini in miniatura,
+  aspri, presenti quasi tutto l'anno.
+categorie:
+- appartamento
+- fiorita
+- balcone
+gruppo: appartamento
+ambiente:
+  interno: true
+  esterno: estate
+  terrarium: 'no'
+  note: Da aprile a ottobre fuori al sole; d'inverno in casa nel posto più luminoso
+    e fresco (10-15 °C).
+difficolta: 3
+luce:
+  ideale: sole_diretto
+  tollera:
+  - intensa_indiretta
+  sole_diretto: si
+  esposizione:
+  - sud
+  - ovest
+annaffiatura:
+  quando: Quando i primi 2-3 cm di terriccio sono asciutti.
+  primavera_estate:
+    min: 7
+    max: 10
+  autunno_inverno:
+    min: 12
+    max: 18
+  segnali_troppa: Foglie gialle e molli, terriccio che resta bagnato.
+  segnali_poca: Foglie flosce o che si arricciano, bordi secchi.
+umidita: media
+concimazione:
+  mesi:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  frequenza_giorni:
+    min: 15
+    max: 30
+  tipo: Concime per agrumi ogni 2 settimane.
+temperatura:
+  min_c: 5
+  ideale_min_c: 12
+  ideale_max_c: 28
+terreno: Terriccio per agrumi, leggermente acido e drenante.
+rinvaso: Ogni 2 anni in primavera, in un vaso appena più grande.
+propagazione:
+- talea_fusto
+- margotta
+come_si_propaga:
+- metodo: talea_fusto
+  quando: In primavera o all'inizio dell'estate.
+  passi:
+  - Taglia una punta di 10-15 cm con 3-4 foglie, appena sotto un nodo.
+  - Togli le foglie basse e, se vuoi, intingi il taglio in ormone radicante.
+  - Interrala in un mix di torba e perlite e annaffia leggermente.
+  - Copri con un sacchetto trasparente e tieni al caldo (22-25 °C) e alla luce indiretta.
+  - Arieggia ogni pochi giorni; quando spuntano foglie nuove togli il sacchetto.
+  tempo: Radici in 6-8 settimane.
+  difficolta: difficile
+- metodo: margotta
+  quando: Da maggio a luglio.
+  passi:
+  - Scegli un ramo o un fusto legnoso e incidi la corteccia per 1-2 cm sotto un
+    nodo.
+  - Avvolgi la ferita con sfagno umido e chiudi con pellicola legata sopra e sotto.
+  - Controlla che lo sfagno resti umido; quando vedi le radici, taglia sotto la
+    margotta.
+  - Interra la nuova pianta in un vaso e tienila riparata per qualche settimana.
+  tempo: Radici in 6-10 settimane.
+  difficolta: media
+tossicita:
+  animali: lieve
+  persone: non_tossica
+  note: 'Foglie e buccia contengono oli essenziali: per cani e gatti possono causare
+    vomito (ASPCA). I frutti sono commestibili.'
+problemi_comuni:
+- sintomo: Batuffoli bianchi o scudetti sui rami
+  causa: Cocciniglia
+  rimedio: Togliere con un cotton fioc imbevuto di alcol e trattare con olio bianco
+    o sapone molle.
+- sintomo: Foglie gialle con nervature verdi
+  causa: Clorosi
+  rimedio: Concimare con ferro chelato e usare acqua non calcarea.
+immagini:
+- commons: Calamondin Orange.JPG
+fonti:
+- Royal Horticultural Society, schede delle specie (rhs.org.uk)
+- ASPCA, elenco piante tossiche e non tossiche (aspca.org)
+- Missouri Botanical Garden, Plant Finder (missouribotanicalgarden.org)
+autori:
+- piantalapp
+aggiornato: '2026-10-26'
