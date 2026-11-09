@@ -62,7 +62,7 @@ tipo **App**, **Gratuita**. Accetta le dichiarazioni.
 | Descrizione completa (max 4000) | `full_description.txt` |
 | Icona 512×512 | `images/icon.png` |
 | Grafica in evidenza 1024×500 | `images/featureGraphic.png` |
-| Screenshot del telefono | `images/phoneScreenshots/1.png` … `6.png` |
+| Screenshot del telefono | `images/phoneScreenshots/1.png` … `5.png` |
 
 Categoria consigliata: **Casa e arredamento**. Tag: giardinaggio, piante.
 Email: piantalapp@lcsoluzioni.it. Sito: https://pxcalleg.github.io/piantalapp/

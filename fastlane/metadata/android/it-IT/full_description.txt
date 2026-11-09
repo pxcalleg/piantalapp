@@ -12,8 +12,8 @@ Per ogni pianta trovi:
 📷 RICONOSCI UNA PIANTA DA UNA FOTO
 Fotografa una foglia o un fiore: l'app ti dice di che specie si tratta e, se è nell'archivio, apre la sua scheda. Il riconoscimento è offerto da Pl@ntNet, il progetto scientifico internazionale per l'identificazione delle piante.
 
-🪴 PIANTA INTERATTIVA
-Ruota la pianta in 3D, cambia la luce e prova le situazioni più comuni (troppa acqua, poca luce, freddo…) per imparare a riconoscere i sintomi e capire cosa fare.
+🐛 MALATTIE E PARASSITI
+Marciume radicale, cocciniglia, afidi, ragnetto rosso: per ogni pianta trovi i sintomi da riconoscere, la causa e come intervenire.
 
 🔎 TROVA SUBITO QUELLO CHE CERCHI
 Cerca per nome comune, nome scientifico o sinonimo e filtra per «in casa», «all'aperto», «terrarium», «poca luce», «facile» o «sicura per animali».
