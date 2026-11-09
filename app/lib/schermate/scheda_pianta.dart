@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../modello/etichette.dart';
 import '../modello/pianta.dart';
+import 'foto.dart';
 import 'sezione.dart';
-import 'vetrina.dart';
 import 'testata.dart';
 
 class SchedaPianta extends StatelessWidget {
@@ -104,13 +104,13 @@ class SchedaPianta extends StatelessWidget {
                 Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    SizedBox(width: 420, child: Vetrina(pianta: p)),
+                    SizedBox(width: 420, child: _FotoTestata(pianta: p)),
                     const SizedBox(width: 32),
                     Expanded(child: intro),
                   ],
                 )
               else ...[
-                Vetrina(pianta: p),
+                _FotoTestata(pianta: p),
                 const SizedBox(height: 20),
                 intro,
               ],
@@ -269,6 +269,46 @@ class SchedaPianta extends StatelessWidget {
           );
         },
       ),
+    );
+  }
+}
+
+/// Foto della pianta in testa alla scheda, con autore e licenza.
+class _FotoTestata extends StatelessWidget {
+  const _FotoTestata({required this.pianta});
+
+  final Pianta pianta;
+
+  @override
+  Widget build(BuildContext context) {
+    final foto = pianta.immagini.firstOrNull;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        // Sui telefoni la foto non deve occupare tutto lo schermo.
+        ConstrainedBox(
+          constraints: const BoxConstraints(maxHeight: 460),
+          child: Center(
+            child: AspectRatio(
+              aspectRatio: 4 / 5,
+              child: DecoratedBox(
+                decoration: BoxDecoration(
+                  color: Theme.of(context).colorScheme.surfaceContainerHighest,
+                  borderRadius: BorderRadius.circular(24),
+                ),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(24),
+                  child: SizedBox.expand(child: FotoPianta(pianta: pianta)),
+                ),
+              ),
+            ),
+          ),
+        ),
+        if (foto != null) ...[
+          const SizedBox(height: 10),
+          CreditoFoto(immagine: foto),
+        ],
+      ],
     );
   }
 }
