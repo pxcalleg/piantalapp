@@ -192,7 +192,7 @@ Testi, icona, grafica e screenshot della scheda sono in
 
 ## iPhone e iPad
 
-- **Subito, senza App Store:** apri https://pxcalleg.github.io/piantalapp/ con
+- **Subito, senza App Store:** apri https://piantalapp.it con
   Safari, tocca *Condividi* e poi *Aggiungi alla schermata Home*. PiantalAPP
   compare tra le app con la sua icona e si apre a schermo intero.
 - **App vera e propria:** il progetto iOS è in `app/ios` e GitHub lo compila a
@@ -216,7 +216,8 @@ consente 500 riconoscimenti al giorno.
 La chiave del servizio non è nel codice: GitHub la inserisce al momento della
 compilazione dal secret `PLANTNET_API_KEY`. Nelle impostazioni della chiave su
 [my.plantnet.org](https://my.plantnet.org) va spuntato *expose my API key*,
-con `https://pxcalleg.github.io` tra i domini autorizzati. Per provarla in
+con `https://pxcalleg.github.io`, `https://piantalapp.it` e
+`https://www.piantalapp.it` tra i domini autorizzati. Per provarla in
 locale: `flutter run --dart-define=PLANTNET_API_KEY=la-tua-chiave`.
 
 ## Contribuire

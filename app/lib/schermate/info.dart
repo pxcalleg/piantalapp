@@ -10,7 +10,7 @@ import 'testata.dart';
 const _repository = 'https://github.com/pxcalleg/piantalapp';
 
 /// Informativa pubblicata insieme alla versione web (app/web/privacy.html).
-const urlPrivacy = 'https://pxcalleg.github.io/piantalapp/privacy.html';
+const urlPrivacy = 'https://piantalapp.it/privacy.html';
 
 class Info extends StatelessWidget {
   const Info({super.key});

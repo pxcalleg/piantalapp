@@ -9,9 +9,9 @@ sono in [`fastlane/metadata/android/it-IT`](../fastlane/metadata/android/it-IT).
 - **Account Play Console di tipo «Organizzazione»**, intestato alla ditta, con
   il numero D-U-N-S. Gli account organizzazione non devono fare il test chiuso
   con 12 tester per 14 giorni richiesto agli account personali.
-- **Sito web dello sviluppatore**: https://pxcalleg.github.io/piantalapp/
+- **Sito web dello sviluppatore**: https://piantalapp.it
 - **Email di contatto**: piantalapp@lcsoluzioni.it
-- **Informativa sulla privacy**: https://pxcalleg.github.io/piantalapp/privacy.html
+- **Informativa sulla privacy**: https://piantalapp.it/privacy.html
   (sorgente in [`app/web/privacy.html`](../app/web/privacy.html), raggiungibile
   anche dall'app in *Informazioni › Informativa sulla privacy*).
 
@@ -65,11 +65,11 @@ tipo **App**, **Gratuita**. Accetta le dichiarazioni.
 | Screenshot del telefono | `images/phoneScreenshots/1.png` … `6.png` |
 
 Categoria consigliata: **Casa e arredamento**. Tag: giardinaggio, piante.
-Email: piantalapp@lcsoluzioni.it. Sito: https://pxcalleg.github.io/piantalapp/
+Email: piantalapp@lcsoluzioni.it. Sito: https://piantalapp.it
 
 ### Contenuti dell'app (moduli)
 
-- **Norme sulla privacy**: https://pxcalleg.github.io/piantalapp/privacy.html
+- **Norme sulla privacy**: https://piantalapp.it/privacy.html
 - **Accesso all'app**: *Tutte le funzionalità sono disponibili senza
   restrizioni* (non ci sono account né login).
 - **Annunci**: *No, l'app non contiene annunci*.
