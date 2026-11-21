@@ -40,6 +40,12 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.text('Crediti delle foto'));
     await tester.pumpAndSettle();
+    // L'elenco è in ordine di nome scientifico: le piante si cercano scorrendo.
+    await tester.scrollUntilVisible(
+      find.text('Aloe vera'),
+      300,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.text('Aloe vera'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.text('Dracaena trifasciata'),
