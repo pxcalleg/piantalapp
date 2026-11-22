@@ -199,7 +199,7 @@ Testi, icona, grafica e screenshot della scheda sono in
   ogni modifica (controllo *App iOS*). Per installarla sugli iPhone serve:
   1. un account [Apple Developer](https://developer.apple.com/programs/)
      (99 € l'anno, a nome di una persona o di un'azienda);
-  2. registrare l'identificativo `it.piantalapp.app` e creare
+  2. registrare l'identificativo `it.piantalapp` e creare
      l'app su [App Store Connect](https://appstoreconnect.apple.com);
   3. firmare e caricare la build: da un Mac con Xcode, oppure aggiungendo a
      GitHub le chiavi di App Store Connect perché la carichi da solo su
