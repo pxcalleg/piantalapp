@@ -4,6 +4,7 @@ import '../modello/etichette.dart';
 import '../modello/filtri.dart';
 import '../modello/fungo.dart';
 import 'foto.dart';
+import 'griglia.dart';
 import 'sezione.dart';
 import 'testata.dart';
 
@@ -196,6 +197,13 @@ class _ElencoFunghiState extends State<ElencoFunghi> {
               ),
             ),
           )
+        else if (MediaQuery.sizeOf(context).width >= larghezzaGriglia)
+          grigliaSchede(
+            context,
+            quante: funghi.length,
+            scheda: (context, i) =>
+                _RigaFungo(fungo: funghi[i], inGriglia: true),
+          )
         else
           SliverList.builder(
             itemCount: funghi.length,
@@ -208,15 +216,20 @@ class _ElencoFunghiState extends State<ElencoFunghi> {
 }
 
 class _RigaFungo extends StatelessWidget {
-  const _RigaFungo({required this.fungo});
+  const _RigaFungo({required this.fungo, this.inGriglia = false});
 
   final Fungo fungo;
+
+  /// Nella griglia la spaziatura tra i riquadri la decide la griglia.
+  final bool inGriglia;
 
   @override
   Widget build(BuildContext context) {
     final tema = Theme.of(context);
     return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 6, 16, 6),
+      padding: inGriglia
+          ? EdgeInsets.zero
+          : const EdgeInsets.fromLTRB(16, 6, 16, 6),
       child: Card(
         margin: EdgeInsets.zero,
         clipBehavior: Clip.antiAlias,

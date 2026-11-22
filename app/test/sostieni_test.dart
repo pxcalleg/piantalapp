@@ -45,6 +45,9 @@ void main() {
 
     expect(find.text('Dona 1,00 €'), findsOneWidget);
     expect(find.text('Dona 3,00 €'), findsOneWidget);
+    // Le donazioni stanno sotto la copertina: su schermi bassi si scorre.
+    await tester.ensureVisible(find.text('Dona 3,00 €'));
+    await tester.pump();
     await tester.tap(find.text('Dona 3,00 €'));
     await tester.pump();
     expect(donazioni.donate, ['donazione_3']);
