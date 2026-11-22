@@ -5,7 +5,7 @@ import 'testata.dart';
 
 /// Indirizzo a cui arrivano i messaggi del modulo. Se resta vuoto i messaggi
 /// vengono inviati come segnalazione su GitHub.
-const indirizzoContatti = 'piantalapp@lcsoluzioni.it';
+const indirizzoContatti = 'info@piantalapp.it';
 
 const _repository = 'https://github.com/pxcalleg/piantalapp';
 
