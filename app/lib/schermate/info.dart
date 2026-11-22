@@ -10,7 +10,7 @@ import 'testata.dart';
 const _repository = 'https://github.com/pxcalleg/piantalapp';
 
 /// Informativa pubblicata insieme alla versione web (app/web/privacy.html).
-const urlPrivacy = 'https://pxcalleg.github.io/piantalapp/privacy.html';
+const urlPrivacy = 'https://piantalapp.it/privacy.html';
 
 class Info extends StatelessWidget {
   const Info({super.key});
@@ -126,18 +126,14 @@ class CreditiFoto extends StatelessWidget {
 
   Future<List<_Credito>> _carica(BuildContext context) async {
     final bundle = DefaultAssetBundle.of(context);
-    final crediti = jsonDecode(
-      await bundle.loadString('assets/immagini/crediti.json'),
+    // load invece di loadString: oltre i 50 KB loadString decodifica in un
+    // isolate, che nei test dei widget non termina mai.
+    Future<Map<String, dynamic>> leggi(String percorso) async => jsonDecode(
+      utf8.decode((await bundle.load(percorso)).buffer.asUint8List()),
     ) as Map<String, dynamic>;
+    final crediti = await leggi('assets/immagini/crediti.json');
     final piante =
-        // load invece di loadString: oltre i 50 KB loadString decodifica in
-        // un isolate, che nei test dei widget non termina mai.
-        (jsonDecode(
-              utf8.decode(
-                (await bundle.load('assets/piante.json')).buffer.asUint8List(),
-              ),
-            ) as Map<String, dynamic>)['piante']
-            as List<dynamic>;
+        (await leggi('assets/piante.json'))['piante'] as List<dynamic>;
     final nomi = {
       for (final p in piante.cast<Map<String, dynamic>>())
         p['id'] as String: p['nome_scientifico'] as String,

@@ -19,7 +19,7 @@ flutter build apk      # APK installabile
 ```
 
 Versione web, aggiornata a ogni modifica di `main`:
-https://pxcalleg.github.io/piantalapp/
+https://piantalapp.it
 
 A ogni pull request che tocca `app/`, GitHub Actions esegue i test e costruisce
 un APK scaricabile dalla pagina dell'esecuzione (sezione "Artifacts").

@@ -1,7 +1,7 @@
 name: App web
 
 # Pubblica la versione web dell'app su GitHub Pages a ogni modifica di main:
-# https://pxcalleg.github.io/piantalapp/
+# https://piantalapp.it (dominio impostato in Settings › Pages, quindi base href /)
 # Le foto nuove le scarica «Valida dati piante» con un commit del bot, che non
 # avvia altri workflow: per questo si ripubblica anche quando quello finisce.
 on:
@@ -37,7 +37,7 @@ jobs:
           channel: stable
           cache: true
       - run: flutter pub get
-      - run: flutter build web --release --base-href /piantalapp/ --no-web-resources-cdn --dart-define=PLANTNET_API_KEY=${{ secrets.PLANTNET_API_KEY }}
+      - run: flutter build web --release --base-href / --no-web-resources-cdn --dart-define=PLANTNET_API_KEY=${{ secrets.PLANTNET_API_KEY }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: app/build/web
