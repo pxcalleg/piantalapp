@@ -1,4 +1,4 @@
-package io.github.pxcalleg.piantalapp
+package it.piantalapp
 
 import io.flutter.embedding.android.FlutterActivity
 
