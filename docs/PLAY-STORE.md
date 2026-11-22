@@ -9,6 +9,7 @@ sono in [`fastlane/metadata/android/it-IT`](../fastlane/metadata/android/it-IT).
 - **Account Play Console di tipo «Organizzazione»**, intestato alla ditta, con
   il numero D-U-N-S. Gli account organizzazione non devono fare il test chiuso
   con 12 tester per 14 giorni richiesto agli account personali.
+- **Nome tecnico dell'app** (application ID): `it.piantalapp.app`. Diventa definitivo con il primo caricamento sul Play Store.
 - **Sito web dello sviluppatore**: https://piantalapp.it
 - **Email di contatto**: piantalapp@lcsoluzioni.it
 - **Informativa sulla privacy**: https://piantalapp.it/privacy.html
