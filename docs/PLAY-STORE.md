@@ -11,7 +11,7 @@ sono in [`fastlane/metadata/android/it-IT`](../fastlane/metadata/android/it-IT).
   con 12 tester per 14 giorni richiesto agli account personali.
 - **Nome tecnico dell'app** (application ID): `it.piantalapp`. Diventa definitivo con il primo caricamento sul Play Store.
 - **Sito web dello sviluppatore**: https://piantalapp.it
-- **Email di contatto**: piantalapp@lcsoluzioni.it
+- **Email di contatto**: info@piantalapp.it
 - **Informativa sulla privacy**: https://piantalapp.it/privacy.html
   (sorgente in [`app/web/privacy.html`](../app/web/privacy.html), raggiungibile
   anche dall'app in *Informazioni › Informativa sulla privacy*).
@@ -66,7 +66,7 @@ tipo **App**, **Gratuita**. Accetta le dichiarazioni.
 | Screenshot del telefono | `images/phoneScreenshots/1.png` … `6.png` |
 
 Categoria consigliata: **Casa e arredamento**. Tag: giardinaggio, piante.
-Email: piantalapp@lcsoluzioni.it. Sito: https://piantalapp.it
+Email: info@piantalapp.it. Sito: https://piantalapp.it
 
 ### Contenuti dell'app (moduli)
 
@@ -75,7 +75,7 @@ Email: piantalapp@lcsoluzioni.it. Sito: https://piantalapp.it
   restrizioni* (non ci sono account né login).
 - **Annunci**: *No, l'app non contiene annunci*.
 - **Classificazione dei contenuti** (questionario IARC):
-  - email: piantalapp@lcsoluzioni.it; categoria: *Tutti gli altri tipi di app*;
+  - email: info@piantalapp.it; categoria: *Tutti gli altri tipi di app*;
   - violenza, paura, sessualità, linguaggio volgare, sostanze, gioco d'azzardo: **No** a tutto;
   - gli utenti possono interagire o scambiarsi contenuti: **No**;
   - condivide la posizione dell'utente: **No**;
@@ -90,7 +90,7 @@ Email: piantalapp@lcsoluzioni.it. Sito: https://piantalapp.it
   - *L'app raccoglie o condivide dati utente?* **Sì** (le foto inviate a Pl@ntNet).
   - *I dati sono criptati in transito?* **Sì** (tutte le connessioni sono HTTPS).
   - *Gli utenti possono chiedere la cancellazione dei dati?* **Sì**, scrivendo a
-    piantalapp@lcsoluzioni.it (in pratica non conserviamo nulla).
+    info@piantalapp.it (in pratica non conserviamo nulla).
   - Tipo di dati **Foto e video › Foto**:
     raccolti **Sì**, condivisi **No** (Pl@ntNet li elabora per conto dell'app,
     come fornitore del servizio), **trattati in modo temporaneo: Sì**,
