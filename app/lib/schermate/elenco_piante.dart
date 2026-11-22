@@ -7,6 +7,7 @@ import '../modello/pianta.dart';
 import 'contattaci.dart';
 import 'foto.dart';
 import 'funghi.dart';
+import 'griglia.dart';
 import 'info.dart';
 import 'riconosci.dart';
 import 'scheda_pianta.dart';
@@ -55,7 +56,7 @@ class _ElencoPianteState extends State<ElencoPiante> {
         actions: [
           IconButton(
             tooltip: titoloSostieni,
-            icon: const Icon(Icons.favorite_border),
+            icon: const Icon(Icons.favorite, color: coloreCuore),
             onPressed: () =>
                 Navigator.of(context)
                     .push(MaterialPageRoute(builder: (_) => Sostieni())),
@@ -147,6 +148,8 @@ class _ElencoPianteState extends State<ElencoPiante> {
                       ),
                     ),
                   )
+                else if (MediaQuery.sizeOf(context).width >= larghezzaGriglia)
+                  ..._griglia(context, voci)
                 else
                   SliverList.builder(
                     itemCount: voci.length,
@@ -164,6 +167,36 @@ class _ElencoPianteState extends State<ElencoPiante> {
         },
       ),
     );
+  }
+
+  /// Su schermi larghi: il titolo di ogni categoria e sotto le sue piante in
+  /// una griglia di riquadri compatti.
+  List<Widget> _griglia(BuildContext context, List<Object> voci) {
+    final slivers = <Widget>[];
+    var gruppo = <Pianta>[];
+    void chiudi() {
+      if (gruppo.isEmpty) return;
+      final piante = gruppo;
+      slivers.add(
+        grigliaSchede(
+          context,
+          quante: piante.length,
+          scheda: (context, i) => _Riga(pianta: piante[i], inGriglia: true),
+        ),
+      );
+      gruppo = [];
+    }
+
+    for (final v in voci) {
+      if (v is Pianta) {
+        gruppo.add(v);
+      } else if (v is String) {
+        chiudi();
+        slivers.add(SliverToBoxAdapter(child: _TitoloCategoria(v)));
+      }
+    }
+    chiudi();
+    return slivers;
   }
 
   Widget _barraRicerca() {
@@ -255,9 +288,12 @@ class _TitoloCategoria extends StatelessWidget {
 }
 
 class _Riga extends StatelessWidget {
-  const _Riga({required this.pianta});
+  const _Riga({required this.pianta, this.inGriglia = false});
 
   final Pianta pianta;
+
+  /// Nella griglia la spaziatura tra i riquadri la decide la griglia.
+  final bool inGriglia;
 
   @override
   Widget build(BuildContext context) {
@@ -266,7 +302,9 @@ class _Riga extends StatelessWidget {
       color: tema.colorScheme.onSurfaceVariant,
     );
     return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 6, 16, 6),
+      padding: inGriglia
+          ? EdgeInsets.zero
+          : const EdgeInsets.fromLTRB(16, 6, 16, 6),
       child: Card(
         margin: EdgeInsets.zero,
         clipBehavior: Clip.antiAlias,
