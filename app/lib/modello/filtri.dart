@@ -22,6 +22,17 @@ enum Filtro {
   };
 }
 
+/// I filtri che compaiono come pulsanti nell'elenco. «Terrarium» resta
+/// disponibile nel modello ma non si mostra: per le piante da terrario c'è la
+/// categoria «Terrari», e averli entrambi confondeva.
+const filtriMostrati = [
+  Filtro.interno,
+  Filtro.esterno,
+  Filtro.pocaLuce,
+  Filtro.facile,
+  Filtro.sicuraAnimali,
+];
+
 /// Piante che contengono [testo] in un nome (comune, scientifico o sinonimo)
 /// e rispettano tutti i [filtri], in ordine alfabetico.
 List<Pianta> cerca(List<Pianta> piante, String testo, Set<Filtro> filtri) {

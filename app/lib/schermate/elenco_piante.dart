@@ -33,6 +33,24 @@ class _ElencoPianteState extends State<ElencoPiante> {
   /// 0 = piante, 1 = funghi.
   int _sezione = 0;
 
+  final _ricerca = SearchController();
+
+  bool get _filtriAttivi =>
+      _gruppo != null || _filtri.isNotEmpty || _testo.isNotEmpty;
+
+  void _azzera() => setState(() {
+    _gruppo = null;
+    _filtri.clear();
+    _testo = '';
+    _ricerca.clear();
+  });
+
+  @override
+  void dispose() {
+    _ricerca.dispose();
+    super.dispose();
+  }
+
   Future<void> _aggiorna() async {
     final cambiate = await widget.archivio.aggiorna();
     if (!mounted) return;
@@ -135,7 +153,7 @@ class _ElencoPianteState extends State<ElencoPiante> {
             onRefresh: _aggiorna,
             child: CustomScrollView(
               slivers: [
-                SliverToBoxAdapter(child: _barraRicerca()),
+                SliverToBoxAdapter(child: _barraRicerca(piante.length)),
                 if (piante.isEmpty)
                   const SliverFillRemaining(
                     hasScrollBody: false,
@@ -199,18 +217,25 @@ class _ElencoPianteState extends State<ElencoPiante> {
     return slivers;
   }
 
-  Widget _barraRicerca() {
+  Widget _barraRicerca(int quante) {
+    final tema = Theme.of(context);
+    final titolo = tema.textTheme.labelMedium?.copyWith(
+      color: tema.colorScheme.onSurfaceVariant,
+    );
     return Padding(
       padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           SearchBar(
+            controller: _ricerca,
             hintText: 'Cerca una pianta',
             leading: const Icon(Icons.search),
             onChanged: (v) => setState(() => _testo = v),
           ),
-          const SizedBox(height: 12),
+          const SizedBox(height: 14),
+          Text('Categoria', style: titolo),
+          const SizedBox(height: 6),
           Wrap(
             spacing: 8,
             runSpacing: 4,
@@ -230,12 +255,14 @@ class _ElencoPianteState extends State<ElencoPiante> {
                 ),
             ],
           ),
-          const Divider(height: 20),
+          const SizedBox(height: 12),
+          Text('Mostra solo le piante', style: titolo),
+          const SizedBox(height: 6),
           Wrap(
             spacing: 8,
             runSpacing: 4,
             children: [
-              for (final f in Filtro.values)
+              for (final f in filtriMostrati)
                 FilterChip(
                   label: Text(f.etichetta),
                   selected: _filtri.contains(f),
@@ -243,6 +270,29 @@ class _ElencoPianteState extends State<ElencoPiante> {
                       setState(() => on ? _filtri.add(f) : _filtri.remove(f)),
                 ),
             ],
+          ),
+          const SizedBox(height: 4),
+          // Quante piante si vedono e, se c'è qualche scelta attiva, il modo
+          // per tornare in un tocco all'elenco completo.
+          SizedBox(
+            height: 40,
+            child: Row(
+              children: [
+                Text(
+                  quante == 1 ? '1 pianta' : '$quante piante',
+                  style: tema.textTheme.bodyMedium?.copyWith(
+                    color: tema.colorScheme.onSurfaceVariant,
+                  ),
+                ),
+                const Spacer(),
+                if (_filtriAttivi)
+                  TextButton.icon(
+                    onPressed: _azzera,
+                    icon: const Icon(Icons.filter_alt_off_outlined, size: 18),
+                    label: const Text('Azzera filtri'),
+                  ),
+              ],
+            ),
           ),
         ],
       ),
