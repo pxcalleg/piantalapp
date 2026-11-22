@@ -272,25 +272,28 @@ class _ElencoPianteState extends State<ElencoPiante> {
             ],
           ),
           const SizedBox(height: 4),
-          // Quante piante si vedono e, se c'è qualche scelta attiva, il modo
-          // per tornare in un tocco all'elenco completo.
+          // Sotto i filtri, a sinistra: il modo per tornare in un tocco
+          // all'elenco completo (solo se c'è qualche scelta attiva) e quante
+          // piante si vedono.
+          const SizedBox(height: 6),
           SizedBox(
             height: 40,
             child: Row(
               children: [
+                if (_filtriAttivi) ...[
+                  OutlinedButton.icon(
+                    onPressed: _azzera,
+                    icon: const Icon(Icons.filter_alt_off_outlined, size: 18),
+                    label: const Text('Azzera filtri'),
+                  ),
+                  const SizedBox(width: 12),
+                ],
                 Text(
                   quante == 1 ? '1 pianta' : '$quante piante',
                   style: tema.textTheme.bodyMedium?.copyWith(
                     color: tema.colorScheme.onSurfaceVariant,
                   ),
                 ),
-                const Spacer(),
-                if (_filtriAttivi)
-                  TextButton.icon(
-                    onPressed: _azzera,
-                    icon: const Icon(Icons.filter_alt_off_outlined, size: 18),
-                    label: const Text('Azzera filtri'),
-                  ),
               ],
             ),
           ),
