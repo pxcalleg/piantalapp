@@ -41,6 +41,8 @@ void main() {
       scrollable: elenco,
     );
 
+    await tester.ensureVisible(find.widgetWithText(FilterChip, 'Terrarium'));
+    await tester.pumpAndSettle();
     await tester.tap(find.widgetWithText(FilterChip, 'Terrarium'));
     await tester.pumpAndSettle();
     expect(find.text('Sansevieria'), findsNothing);
@@ -51,6 +53,9 @@ void main() {
     );
     expect(find.text('Fittonia'), findsOneWidget);
 
+    // Porta la scheda in cima, così non resta sotto la barra in basso.
+    await tester.ensureVisible(find.text('Fittonia'));
+    await tester.pumpAndSettle();
     await tester.tap(find.text('Fittonia'));
     await tester.pumpAndSettle();
     expect(find.text('Fittonia albivenis'), findsOneWidget);
