@@ -4218,6 +4218,156 @@
   },
   {
    "schema_version": 1,
+   "id": "convallaria-nana",
+   "stato": "bozza",
+   "nome_scientifico": "Ophiopogon japonicus 'Nana'",
+   "sinonimi": [
+    "Convallaria japonica",
+    "Ophiopogon japonicus 'Kyoto'"
+   ],
+   "famiglia": "Asparagaceae",
+   "nomi_comuni": {
+    "it": [
+     "Convallaria nana",
+     "Ofiopogon nano",
+     "Erba di mondo nana",
+     "Mughetto del Giappone"
+    ],
+    "en": [
+     "Dwarf mondo grass",
+     "Dwarf lilyturf"
+    ]
+   },
+   "descrizione": "Piccolo tappezzante sempreverde, alto 5-10 cm, con ciuffi fitti di foglie sottili verde scuro. Forma un tappeto ordinato che non si taglia mai, ideale tra le pietre, nelle aiuole all'ombra e nei vasi bassi. D'estate fa piccoli fiori bianco-lilla nascosti tra le foglie, poi bacche blu scuro. Non va confusa con il mughetto (Convallaria majalis), che è molto tossico.",
+   "categorie": [
+    "esterno",
+    "balcone",
+    "pet_friendly"
+   ],
+   "gruppo": "esterno",
+   "ambiente": {
+    "interno": false,
+    "esterno": "tutto_anno",
+    "terrarium": "no",
+    "note": "Sta fuori tutto l'anno, in piena terra o in vaso. A volte è venduta come pianta da acquario, ma sott'acqua marcisce in pochi mesi."
+   },
+   "difficolta": 1,
+   "luce": {
+    "ideale": "media_indiretta",
+    "tollera": [
+     "bassa",
+     "intensa_indiretta",
+     "sole_diretto"
+    ],
+    "sole_diretto": "solo_mattino",
+    "esposizione": [
+     "nord",
+     "est",
+     "ovest"
+    ],
+    "note": "Ama la mezz'ombra. Al sole pieno resiste solo se il terreno resta fresco, altrimenti le punte ingialliscono."
+   },
+   "annaffiatura": {
+    "quando": "Quando i primi 2 cm di terriccio sono asciutti. In piena terra, una volta attecchita, basta la pioggia salvo nelle estati secche.",
+    "primavera_estate": {
+     "min": 3,
+     "max": 7
+    },
+    "autunno_inverno": {
+     "min": 14,
+     "max": 30
+    },
+    "segnali_troppa": "Ciuffi che marciscono alla base e foglie gialle e molli.",
+    "segnali_poca": "Punte delle foglie marroni e secche, ciuffi che si aprono."
+   },
+   "umidita": "media",
+   "concimazione": {
+    "mesi": [
+     3,
+     4,
+     5,
+     6
+    ],
+    "frequenza_giorni": {
+     "min": 30,
+     "max": 60
+    },
+    "tipo": "Concime a lenta cessione in primavera, oppure liquido per piante verdi a metà dose.",
+    "note": "Ne vuole poco. Troppo concime non la fa crescere più in fretta."
+   },
+   "temperatura": {
+    "min_c": -15,
+    "ideale_min_c": 5,
+    "ideale_max_c": 28,
+    "note": "Resiste al gelo; in vaso piccolo proteggi le radici nelle notti sotto i -10 °C."
+   },
+   "terreno": "Terriccio universale ben drenato, con un po' di sabbia o perlite. Sopporta terreni leggermente acidi o neutri.",
+   "rinvaso": "Ogni 2-3 anni in primavera, quando i ciuffi riempiono il vaso.",
+   "propagazione": [
+    "divisione"
+   ],
+   "come_si_propaga": [
+    {
+     "metodo": "divisione",
+     "quando": "In primavera, a marzo-aprile, o all'inizio dell'autunno.",
+     "passi": [
+      "Estrai la zolla dal vaso o dal terreno con una paletta.",
+      "Separa con le mani dei ciuffetti con almeno 3-4 foglie e un po' di radici.",
+      "Accorcia di un terzo le radici troppo lunghe.",
+      "Pianta i ciuffetti a 5-10 cm l'uno dall'altro, alla stessa profondità di prima.",
+      "Annaffia bene e tieni il terriccio umido per un mese."
+     ],
+     "tempo": "Attecchisce in 4-6 settimane; il tappeto si chiude in 1-2 anni.",
+     "difficolta": "facile",
+     "note": "Cresce lentamente, quindi per coprire in fretta un'area metti i ciuffi più vicini."
+    }
+   ],
+   "tossicita": {
+    "animali": "non_tossica",
+    "persone": "non_tossica",
+    "note": "L'ASPCA la indica come non tossica per cani e gatti. Le bacche però non vanno mangiate. Attenzione a non confonderla con il mughetto (Convallaria majalis), che invece è velenoso per persone e animali."
+   },
+   "problemi_comuni": [
+    {
+     "sintomo": "Punte delle foglie bruciate e marroni",
+     "causa": "Sole forte o terriccio troppo secco",
+     "rimedio": "Spostarla in mezz'ombra e annaffiare con più regolarità."
+    },
+    {
+     "sintomo": "Ciuffi molli e scuri alla base",
+     "causa": "Ristagno d'acqua",
+     "rimedio": "Migliorare il drenaggio e lasciar asciugare il terriccio tra un'annaffiatura e l'altra."
+    },
+    {
+     "sintomo": "Foglie rosicchiate",
+     "causa": "Lumache",
+     "rimedio": "Raccoglierle a mano la sera o usare trappole alla birra."
+    }
+   ],
+   "immagini": [
+    {
+     "file": "convallaria-nana-1.jpg",
+     "commons": "Ophiopogon japonicus nana 0zz.jpg",
+     "autore": "Photo by David J. Stang",
+     "licenza": "CC BY-SA 4.0",
+     "url_licenza": "https://creativecommons.org/licenses/by-sa/4.0",
+     "pagina": "https://commons.wikimedia.org/wiki/File:Ophiopogon_japonicus_nana_0zz.jpg",
+     "anteprima": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Ophiopogon_japonicus_nana_0zz.jpg/960px-Ophiopogon_japonicus_nana_0zz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    }
+   ],
+   "fonti": [
+    "Royal Horticultural Society, Ophiopogon japonicus 'Minor' (rhs.org.uk)",
+    "Missouri Botanical Garden, Plant Finder, Ophiopogon japonicus 'Nana' (missouribotanicalgarden.org)",
+    "ASPCA, elenco piante tossiche e non tossiche, Mondo grass (aspca.org)",
+    "Plants of the World Online, Ophiopogon japonicus (powo.science.kew.org)"
+   ],
+   "autori": [
+    "piantalapp"
+   ],
+   "aggiornato": "2026-11-22"
+  },
+  {
+   "schema_version": 1,
    "id": "cordyline",
    "stato": "bozza",
    "nome_scientifico": "Cordyline fruticosa",
