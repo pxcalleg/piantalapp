@@ -22,8 +22,8 @@ const coloreCuore = Color(0xFFE53950);
 /// Cosa "compra" ogni donazione, per renderla più concreta.
 const _simboli = {
   'donazione_1': ('☕', 'Un caffè'),
-  'donazione_3': ('🪴', 'Un vaso nuovo'),
-  'donazione_5': ('🌳', 'Un albero'),
+  'donazione_2': ('🪴', 'Un vaso nuovo'),
+  'donazione_3': ('🌳', 'Un albero'),
 };
 
 class Sostieni extends StatelessWidget {

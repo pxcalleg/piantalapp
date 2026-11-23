@@ -120,9 +120,9 @@ Google li bonifica ogni mese sul conto indicato, trattenendo il 15%.
 
    | ID prodotto | Nome | Prezzo |
    | --- | --- | --- |
-   | `donazione_1` | Donazione piccola | 1 € |
-   | `donazione_3` | Donazione media | 3 € |
-   | `donazione_5` | Donazione grande | 5 € |
+   | `donazione_1` | Un caffè | 1 € |
+   | `donazione_2` | Un vaso nuovo | 3 € |
+   | `donazione_3` | Un albero | 5 € |
 
    Descrizione: «Sostieni lo sviluppo di PiantalAPP». Attiva ogni prodotto.
    Gli ID devono essere esattamente questi (sono in

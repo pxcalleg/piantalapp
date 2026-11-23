@@ -5,7 +5,7 @@ import 'package:in_app_purchase/in_app_purchase.dart';
 
 // Le donazioni sono prodotti in-app «a consumo» creati nella Play Console con
 // questi ID, così la stessa persona può donare più di una volta.
-const idDonazioni = {'donazione_1', 'donazione_3', 'donazione_5'};
+const idDonazioni = {'donazione_1', 'donazione_2', 'donazione_3'};
 
 // Se Google Play non risponde, le donazioni risultano non disponibili.
 const _attesa = Duration(seconds: 10);
