@@ -36,16 +36,20 @@ void main() {
     );
     expect(find.text('Sansevieria'), findsOneWidget);
     await tester.scrollUntilVisible(
-      find.widgetWithText(FilterChip, 'Terrarium'),
+      find.widgetWithText(ChoiceChip, 'Terrari'),
       -300,
       scrollable: elenco,
     );
 
-    await tester.ensureVisible(find.widgetWithText(FilterChip, 'Terrarium'));
+    // Il filtro «Terrarium» non c'è più: per i terrari basta la categoria.
+    expect(find.widgetWithText(FilterChip, 'Terrarium'), findsNothing);
+    await tester.drag(elenco, const Offset(0, 2000));
     await tester.pumpAndSettle();
-    await tester.tap(find.widgetWithText(FilterChip, 'Terrarium'));
+    await tester.tap(find.widgetWithText(ChoiceChip, 'Terrari'));
     await tester.pumpAndSettle();
     expect(find.text('Sansevieria'), findsNothing);
+    expect(find.text('Pothos'), findsNothing);
+    expect(find.text('Azzera filtri'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.text('Fittonia'),
       300,
@@ -82,5 +86,42 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Sostieni lo sviluppo di PiantalAPP'), findsOneWidget);
     expect(find.text('Altri modi per aiutare'), findsOneWidget);
+  });
+
+  testWidgets('«Azzera filtri» toglie categoria, filtri e ricerca', (
+    tester,
+  ) async {
+    tester.view.physicalSize = const Size(1080, 2400);
+    tester.view.devicePixelRatio = 2.5;
+    addTearDown(tester.view.reset);
+    final cartella = Directory.systemTemp.createTempSync('piantalapp');
+    final archivio = ArchivioPiante(
+      client: MockClient((_) async => http.Response('', 404)),
+      cartella: () async => cartella,
+    );
+    await tester.pumpWidget(PiantalApp(archivio: archivio));
+    await tester.runAsync(archivio.carica);
+    await tester.pumpAndSettle();
+
+    final tutte = archivio.piante.length;
+    expect(find.text('$tutte piante'), findsOneWidget);
+    expect(find.text('Azzera filtri'), findsNothing);
+
+    await tester.tap(find.widgetWithText(ChoiceChip, 'Terrari'));
+    await tester.tap(find.widgetWithText(FilterChip, 'Facile'));
+    await tester.enterText(find.byType(SearchBar), 'pep');
+    await tester.pumpAndSettle();
+    expect(find.text('1 pianta'), findsOneWidget);
+
+    await tester.tap(find.text('Azzera filtri'));
+    await tester.pumpAndSettle();
+    expect(find.text('$tutte piante'), findsOneWidget);
+    expect(find.text('Azzera filtri'), findsNothing);
+    expect(
+      tester
+          .widget<ChoiceChip>(find.widgetWithText(ChoiceChip, 'Tutte'))
+          .selected,
+      isTrue,
+    );
   });
 }
