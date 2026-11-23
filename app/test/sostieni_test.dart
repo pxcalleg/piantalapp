@@ -39,7 +39,7 @@ void main() {
   testWidgets('mostra le donazioni di Google Play e ringrazia', (tester) async {
     final donazioni = _DonazioniFinte([
       _offerta('donazione_1', '1,00 €', 1),
-      _offerta('donazione_3', '3,00 €', 3),
+      _offerta('donazione_2', '3,00 €', 3),
     ]);
     await tester.pumpWidget(MaterialApp(home: Sostieni(donazioni: donazioni)));
 
@@ -50,7 +50,7 @@ void main() {
     await tester.pump();
     await tester.tap(find.text('Dona 3,00 €'));
     await tester.pump();
-    expect(donazioni.donate, ['donazione_3']);
+    expect(donazioni.donate, ['donazione_2']);
     expect(find.text('Grazie di cuore per il tuo sostegno!'), findsOneWidget);
   });
 
