@@ -18,10 +18,20 @@ Cerca per nome comune, nome scientifico o sinonimo e filtra per «in casa», «a
 📶 FUNZIONA ANCHE SENZA RETE
 Le schede sono salvate sul telefono e si aggiornano da sole quando sei connesso.
 
-🌹 LE PIANTE
-Pothos, sansevieria, ficus (benjamina, elastica, lyrata e bambino), spatifillo, fittonia, rose (ibridi di tea, floribunde, rampicanti, inglesi e in miniatura), ortensia, stella di Natale, kalanchoe, orchidee (phalaenopsis, dendrobium, cymbidium), piante grasse e cactus (aloe vera, albero di giada, echeveria, haworthia, mammillaria, fico d'India nano) e liquidambar. Le schede crescono con ogni aggiornamento.
+🌹 OLTRE 120 PIANTE, IN SETTE CATEGORIE
+• Da appartamento: pothos, monstera, ficus, spatifillo, sansevieria, zamioculcas, calathea, pilea e tante altre
+• Piante grasse e cactus: aloe vera, albero di giada, echeveria, haworthia, mammillaria
+• Orchidee: phalaenopsis, dendrobium, cymbidium, oncidium
+• Da esterno e da balcone: rose, ortensia, geranio, glicine, bouganvillea, oleandro e le piante da siepe
+• Aromatiche: basilico, rosmarino, salvia, timo, menta, lavanda
+• Alberi: acero giapponese, faggio, querce, castagno
+• Terrari: fittonia, selaginella, capelvenere e altre piccole piante
+Le schede crescono con ogni aggiornamento.
+
+🍄 FUNGHI, SOLO PER CONOSCERLI
+Una sezione divulgativa racconta i funghi più noti, dal porcino al tartufo. Non serve a riconoscerli: prima di mangiare un fungo raccolto fallo sempre controllare dall'Ispettorato micologico della ASL.
 
 🤝 APERTA E GRATUITA
-PiantalAPP è gratuita, senza pubblicità e senza account. Il codice e le schede sono open source: chiunque può proporre una nuova pianta o correggere una scheda, anche senza saper programmare. Le foto provengono da Wikimedia Commons e sono indicati autore e licenza di ciascuna.
+PiantalAPP è gratuita, senza pubblicità e senza account. Chi vuole può sostenerne lo sviluppo con una piccola donazione facoltativa. Il codice e le schede sono open source: chiunque può proporre una nuova pianta o correggere una scheda, anche senza saper programmare. Le foto provengono da Wikimedia Commons e sono indicati autore e licenza di ciascuna.
 
 Hai un suggerimento o vuoi collaborare? Scrivici dal menu «Contattaci».

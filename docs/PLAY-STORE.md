@@ -47,6 +47,7 @@ deve mai finire nel repository.
 Da quel momento ogni modifica su `main` produce, oltre all'APK di anteprima, il
 pacchetto `app-release.aab` firmato: si scarica dalla pagina dell'esecuzione
 del controllo *App Android*, nella sezione *Artifacts* (`piantalapp-play-store`).
+Per ricostruirlo a mano: *Actions › App Android › Run workflow* sul ramo `main`.
 Il numero di versione cresce da solo a ogni build.
 
 ## 3. Creare l'app nella Play Console
@@ -74,6 +75,7 @@ Email: info@piantalapp.it. Sito: https://piantalapp.it
 - **Accesso all'app**: *Tutte le funzionalità sono disponibili senza
   restrizioni* (non ci sono account né login).
 - **Annunci**: *No, l'app non contiene annunci*.
+- **ID pubblicità**: *No*, l'app non usa l'ID pubblicità.
 - **Classificazione dei contenuti** (questionario IARC):
   - email: info@piantalapp.it; categoria: *Tutti gli altri tipi di app*;
   - violenza, paura, sessualità, linguaggio volgare, sostanze, gioco d'azzardo: **No** a tutto;

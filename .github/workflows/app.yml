@@ -6,6 +6,9 @@ on:
   push:
     branches: [main]
     paths: ["app/**", ".github/workflows/app.yml"]
+  # Per ricostruire a mano il pacchetto per il Play Store:
+  # Actions › App Android › Run workflow.
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -61,7 +64,7 @@ jobs:
       # Su main l'ultimo APK viene pubblicato nella release "anteprima",
       # da cui si scarica e installa direttamente dal telefono.
       - name: Pubblica l'APK di anteprima
-        if: github.event_name == 'push'
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         working-directory: .
         env:
           GH_TOKEN: ${{ github.token }}
